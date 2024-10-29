@@ -33,7 +33,7 @@ const { pagination, currentPage } = Astro.props;
 		>
 			{
 				new Array(pagination.pages || 1).fill(null).map((_, page) => (
-					<option value={page + 1} selected={String(page + 1) === currentPage}>
+					<option value={page + 1} selected={String(page + 1) === String(currentPage)}>
 						{page + 1}
 					</option>
 				))
