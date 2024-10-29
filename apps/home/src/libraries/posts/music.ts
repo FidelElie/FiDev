@@ -15,10 +15,14 @@ export const musicPost = definePostEntry({
 		const date = await (async () => {
 			if (!backDatePost) { return new Date(); }
 
-			return datePrompt()
-		})()
+			return datePrompt();
+		})();
 
-		return `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`;
+		return [
+			date.getFullYear(),
+			String(date.getMonth() + 1).padStart(2, "0"),
+			String(date.getDate()).padStart(2, "0")
+		].join("-")
 	},
 	validator: MusicPostSchema.parse,
 	onCreate: onCreateMusicPost
