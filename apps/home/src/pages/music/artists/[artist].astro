@@ -1,0 +1,89 @@
+---
+import { Image } from "astro:assets";
+import { getCollection } from "astro:content";
+
+import { SiSpotify } from 'solid-icons/si';
+
+import { generateSpotifyURI } from "@/libraries/utilities";
+
+import { Container } from "@/components/core";
+import { MusicPostRatingTag } from "@/components/interfaces";
+import { RootLayout } from "@/pages/_root.layout";
+
+export async function getStaticPaths() {
+	const musicPosts = await getCollection("artists");
+
+	return musicPosts.map(entry => ({
+		params: { artist: entry.data.slug }, props: { entry }
+	}))
+}
+
+const { entry } = Astro.props;
+
+const { name, slug, covers, genres, spotifyId, spotifyUrl } = entry.data;
+
+const musicPosts = await getCollection("music", (entry) => {
+	return entry.data.artists.some(artist => artist.spotifyId === spotifyId)
+});
+---
+<RootLayout title={name}>
+	<Container class="flex flex-col py-10 md:flex-row gap-5 min-h-screen">
+		<div class="w-full">
+			<a href="/music/artists" class="text-sm mt-2 block font-heading mb-2">Back to artists</a>
+			<div class="relative border border-slate-200 mb-3 w-64 h-64">
+				{
+					covers.length && (
+						<Image
+							src={covers[0].url}
+							alt={name}
+							class="rounded-lg aspect-square"
+							transition:name={slug}
+							inferSize
+						/>
+					)
+				}
+			</div>
+			<h1 class="text-5xl font-heading">{name}</h1>
+			<div class="flex items-center justify-between mt-1.5">
+				<p class="mt-2 text-gray-500 font-light">
+					{genres.join(", ")}
+				</p>
+				<div>
+					<a href={generateSpotifyURI(spotifyUrl)} aria-label="Open with spotify">
+						<SiSpotify class="text-xl text-green-600"/>
+					</a>
+				</div>
+			</div>
+			<hr class="border-t border-slate-200 my-4"/>
+			<div class="space-y-5">
+				{
+					musicPosts.map(post => (
+						<a
+							href={`/music/${post.slug}`}
+							class="rounded gap-5 flex flex-col items-center max-w-full whitespace-nowrap sm:flex-row"
+						>
+							<div class="w-32 h-32 relative border border-slate-200 rounded-lg flex-shrink-0">
+								{
+									post.data.covers.length && (
+										<Image
+											src={post.data.covers[0].url}
+											alt={post.data.name}
+											class="rounded-lg aspect-square"
+											transition:name={post.slug}
+											inferSize
+										/>
+									)
+								}
+							</div>
+							<div class="font-light">
+								<MusicPostRatingTag class="mb-1" rating={post.data.rating}/>
+								<h2 class="text-3xl mb-2 font-normal whitespace-normal">{post.data.name}</h2>
+								<p>{post.data.type === "TRACK" ? "Single" : "LP"}</p>
+							</div>
+						</a>
+					))
+				}
+			</div>
+		</div>
+	</Container>
+</RootLayout>

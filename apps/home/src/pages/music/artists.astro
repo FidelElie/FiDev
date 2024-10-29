@@ -1,0 +1,85 @@
+---
+import { Image } from "astro:assets";
+import { getCollection } from "astro:content";
+
+import { paginateEntries } from "@/libraries/utilities";
+
+import { Container } from "@/components/core";
+import { Pagination } from "@/components/interfaces";
+import { RootLayout } from "@/pages/_root.layout";
+
+export const prerender = false;
+
+const artistEntries = await getCollection("artists", (entry) => {
+	return !!entry.data.genres.length
+});
+
+const { url } = Astro.request;
+
+const currentUrl = new URL("", url);
+
+const query = currentUrl.searchParams;
+
+const { currentPage, size } = await (async () => {
+	if (Astro.request.method !== "POST") {
+		return {
+			currentPage: query.get("page"),
+			size: query.get("size"),
+		}
+	}
+
+	const data = await Astro.request.formData();
+
+	return {
+		currentPage: data.get("page"),
+		size: undefined
+	}
+})();
+
+const { items: artists, pagination } = paginateEntries(
+	artistEntries,
+	{ page: currentPage, size, url, defaultSize: 20 }
+);
+---
+<RootLayout title="Music artists">
+	<Container class="py-10 min-h-screen">
+		<div class="space-y-1 mb-10">
+			<h1 class="font-heading text-5xl tracking-tighter">artists</h1>
+		</div>
+		<div class="flex flex-wrap gap-5">
+			{
+				artists.map(artist => (
+					<a
+						href={`/music/artists/${artist.data.slug}`}
+						class="group flex flex-row items-center gap-3 rounded-lg"
+					>
+						<div class="w-32 h-32 flex-shrink-0">
+							{
+								!!artist.data.covers.length && (
+									<Image
+										src={artist.data.covers[0].url}
+										alt={`${artist.data.name} cover`}
+										class="rounded-lg aspect-square border border-slate-200"
+										transition:name={artist.data.slug}
+										inferSize
+									/>
+								)
+							}
+						</div>
+						<div class="flex flex-col gap-1 pr-2.5 truncate max-w-64">
+							<h2 class="font-heading text-lg">{artist.data.name}</h2>
+							<p
+								class="text-gray-500 font-light text-sm truncate"
+								title={artist.data.genres?.join(", ") || undefined}
+							>
+								{artist.data.genres.length ? artist.data.genres.join(", ") : "no genres listed"}
+							</p>
+						</div>
+					</a>
+				))
+			}
+		</div>
+		<hr class="border-t border-slate-200 my-5"/>
+		<Pagination pagination={pagination} currentPage={pagination.page}/>
+	</Container>
+</RootLayout>

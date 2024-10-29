@@ -1,0 +1,16 @@
+{
+  "name": "@fi.dev/content",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "@fi.dev/typescript": "workspace:*",
+    "@inquirer/prompts": "^7.0.0",
+    "commander": "^12.1.0",
+    "gray-matter": "^4.0.3",
+    "ora": "^8.1.0",
+    "trash": "^9.0.0"
+  }
+}

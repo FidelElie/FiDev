@@ -1,0 +1,44 @@
+---
+import { ViewTransitions } from "astro:transitions";
+
+import '@fontsource-variable/nunito';
+import '@fontsource-variable/space-grotesk';
+import "./_root.layout.css";
+
+import { AppManifest } from "@/configs";
+
+import { Footer, Navbar } from "@/components/interfaces";
+
+export interface Props {
+	title: string;
+	description?: string;
+	class?: string;
+}
+
+const {
+	title,
+	description,
+	class: _class
+} = Astro.props;
+
+const metaDescription = description || AppManifest.application.description;
+---
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title} | {AppManifest.application.name}</title>
+		{ metaDescription && <meta name="description" content={metaDescription}/> }
+		<ViewTransitions/>
+		<slot name="head"/>
+	</head>
+	<body>
+		<Navbar transition:persist/>
+		<main class={_class}>
+			<slot>
+		</main>
+		<Footer transition:persist/>
+	</body>
+</html>

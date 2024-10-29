@@ -1,0 +1,34 @@
+---
+import { Image } from "astro:assets";
+
+import type { MusicPostSchema } from "@/libraries/schemas";
+
+export interface Props {
+	post: MusicPostSchema;
+	info?: boolean;
+}
+
+const { post, info } = Astro.props;
+---
+<a
+	class="w-full aspect-square justify-self-center flex gap-2 flex-col itemsc-center"
+	href={`/music/${post.slug}`}
+	aria-label={`${post.artists[0].name} - ${post.name}`}
+>
+	<Image
+		src={post.covers[0].url}
+		class="w-full h-full object-cover rounded-lg border border-slate-200"
+		alt={post.name}
+		transition:name={post.slug}
+		loading="lazy"
+		inferSize
+	/>
+	{
+		info !== false && (
+			<div>
+				<p class="text-xs">{post.artists[0].name}</p>
+				<p class="truncate font-heading">{post.name}</p>
+			</div>
+		)
+	}
+</a>

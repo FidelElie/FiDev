@@ -1,0 +1,48 @@
+---
+import { SiSpotify } from "solid-icons/si";
+
+import { AppManifest } from "@/configs";
+
+import { generateSpotifyURI } from "@/libraries/utilities";
+
+import { Container } from "@/components/core";
+
+import { BackToTopButton } from "@/components/interfaces/navigation/_Footer/BackToTopButton";
+---
+
+<footer class="py-3 border-t border-slate-200 flex flex-col">
+	<Container class="flex flex-col items-start justify-between md:flex-row">
+		<BackToTopButton client:visible/>
+		<div class="flex flex-wrap gap-5">
+			<div class="">
+				<p class="font-heading text-lg mb-2">Music</p>
+				<ul class="space-y-1">
+					<li>
+						<a href="/music" class="underline decoration-blue-500 underline-offset-2">
+							projects
+						</a>
+					</li>
+					<li>
+						<a href="/music/artists" class="underline decoration-blue-500 underline-offset-2">
+							artists
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</Container>
+	<hr class="mt-10 mb-3 border-t border-slate-200"/>
+	<Container class="flex py-2 justify-between">
+		<p class="text-sm text-slate-500">
+			Copyright&copy; Fidel Pierre Elie {(new Date()).getFullYear()} - All Rights Reserved
+		</p>
+		<div class="flex gap-2">
+			<a
+				href={generateSpotifyURI(AppManifest.links.socials.SPOTIFY)}
+				aria-label="Check my profile"
+			>
+				<SiSpotify class="text-xl text-green-600"/>
+			</a>
+		</div>
+	</Container>
+</footer>

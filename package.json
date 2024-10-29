@@ -1,0 +1,27 @@
+{
+  "name": "fi.dev",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Fidel Pierre Elie",
+  "description": "Monorepo for the personal website and all the procrastination that comes with it.",
+  "license": "MIT",
+  "packageManager": "pnpm@9.11.0",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "turbo run dev",
+    "check": "turbo run check",
+    "node": "tsx",
+    "@home": "pnpm --filter @fi.dev/home",
+    "@theme": "pnpm --filter @fi.dev/theme",
+    "@content": "pnpm --filter @fi.dev/content"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.9",
+    "tsx": "^4.19.1",
+    "turbo": "^2.2.3",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.3"
+  }
+}

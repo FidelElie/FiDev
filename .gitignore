@@ -1,0 +1,32 @@
+# dependencies
+node_modules
+target
+debug
+
+# caches
+.astro
+.turbo
+
+# outputs
+out
+dist
+build
+coverage
+screenshots
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# environments
+.env*
+!.env.template
+
+# misc
+.DS_Store
+*.pem
+
+# deployments
+.vercel
