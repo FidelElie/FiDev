@@ -31,7 +31,7 @@ As love or hate as his last album could of been for some, I have got to admit th
 make some great tunes. This song is definitely one of them, the hook performed by Miguel:
 
 > All of my bitches got friends
-> - taken from Got Friends featuring Miguel
+-taken from Got Friends featuring Miguel
 
 And Goldlink's forever groovy flow leads to a great song and I'm hoping that it will lead
 to a great project down the road.

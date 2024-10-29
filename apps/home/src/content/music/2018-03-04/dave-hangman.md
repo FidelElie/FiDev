@@ -30,7 +30,7 @@ the centre piece to this song’s beat just fits so well with his bars.
 > When we was young we had dreams of being ballers, doctors and lawyers in the office.
 > So how did that turn to me dropping out of college. Snaps in the prison cell, bodies
 > in the coffin.
-> - taken from Hangman
+-taken from Hangman
 
 The song is a biography of his experiences and the lessons he has learned. These are themes
 that are familiar when I think of Dave but he does it so well that it just makes me want to

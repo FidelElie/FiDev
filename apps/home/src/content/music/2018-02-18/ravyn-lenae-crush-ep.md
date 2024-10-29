@@ -53,7 +53,7 @@ throughout the project. But for me it is the full package of each song that make
 great. For example in the song Sticky the best bit is:
 
 > Wooo ooh ooh ooh
-> - taken from Sticky - Crush EP
+-taken from Sticky - Crush EP
 
 How she delivers this line just send chills down my spine (that was unintentional) and
 this continues throughout. Shoutouts to Manny I definitely urge you to give it a listen,

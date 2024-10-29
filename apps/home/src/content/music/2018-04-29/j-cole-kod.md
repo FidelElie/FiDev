@@ -98,6 +98,6 @@ his project I have one thing for you:
 > [...] How 'bout you listen and never forget?
 > I'm only going to say this once, then I'll dip
 > Ni**as ain't worthy to be on my shit - makes me smile every time I hear it
-> - Taken from KOD - KOD
+-Taken from KOD - KOD
 
 J killed this shit what a great album now I am just waiting for the Fall Off.

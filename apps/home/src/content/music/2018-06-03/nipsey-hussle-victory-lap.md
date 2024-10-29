@@ -103,7 +103,7 @@ I did love easily get me gassed:
 > Any prob I'ma reappear, with a squad you already fear,
 > All this time I've been playin' fair, seven digits every single year,
 > Ni**as died, ni**as disappear, alibis, I was really there
-> - taken from Keyz 2 The City 2 (feat TeeFlii) - Victory Lap
+-taken from Keyz 2 The City 2 (feat TeeFlii) - Victory Lap
 
 Nipsey comes with a flow throughout the project that makes it great. With the amazing
 production an although there is a very high proportion of songs containing features on the

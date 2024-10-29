@@ -123,7 +123,7 @@ playlist as of late:
 
 > Rich white men rule the nation still
 > The difference is we're all slaves now the chain concealed,
-> - Taken from Runaway - born sinner
+-Taken from Runaway - born sinner
 
 Instilled onto me a feeling of awe when I first heard the third verse. The very personal
 let Nas down or the album title song Born Sinner. These take this project from just a solid

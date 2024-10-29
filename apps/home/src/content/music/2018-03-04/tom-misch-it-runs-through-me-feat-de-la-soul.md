@@ -32,7 +32,7 @@ Tom, Tom, Tom... Tom. Can you just release the album already? This song bangs. T
 just too infectious, makes me have to move something. Just a great feel good sound.
 
 > Where I'll go, cant explain I'll never know, but it's beautiful.
-> - from It Runs Through Me
+-from It Runs Through Me
 
 Him talking about the sound he makes just sounds awesome. And with each element popping in
 as he sings about it, is just a great touch. De la Soul’s feature bumps too the flow fits
@@ -40,6 +40,6 @@ the song super well, really smooth and the bars follow the same formula:
 
 > The bounce in my bones, the jazz in my spine,
 > The hop is my home, rap is my grind
-> - from It Runs Through Me
+-from It Runs Through Me
 
 I’m just wondering what Misch is waiting for just release the album already.

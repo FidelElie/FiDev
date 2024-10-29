@@ -38,7 +38,7 @@ I would say is a masterpiece of composition. The lyrics being a chant:
 
 > I won't stay silent,
 > Even without air in my lungs,
-> - Taken from Battlecry - Tales From The Broken
+-Taken from Battlecry - Tales From The Broken
 
 Said  by only him initially but as the crowd starts to form and move to their destination,
 the tempo of the song increases, the volume follows suit and the people join in, to the
@@ -50,4 +50,4 @@ album from him.
 
 > Can you hear the people marching louder than the drums?
 > Can you hear the people coming louder than the drums?
-> - Taken from Battlecry - Tales From The Broken
+-Taken from Battlecry - Tales From The Broken

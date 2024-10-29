@@ -43,7 +43,7 @@ also top notch in this:
 > This was my main concern back when concerns were lesser
 > Nowadays, I often yearn to press the
 > Backspace button or hit return but life is not no word processor
-> - taken from Boblo Boat - said by J. Cole
+-taken from Boblo Boat - said by J. Cole
 
 And Royce talking about his family:
 

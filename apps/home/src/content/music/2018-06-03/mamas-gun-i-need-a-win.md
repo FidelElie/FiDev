@@ -38,4 +38,4 @@ vocals are great and contribute to an overall solid song.
 > Somebody watch over
 > Give me an angel on my shoulder
 > 'Cause I need a win
-> - taken from I Need A Win - Mamas Gun.
+-taken from I Need A Win - Mamas Gun.

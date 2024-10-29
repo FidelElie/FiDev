@@ -31,7 +31,7 @@ Kojey Radical's bars and I've got to say he goes in:
 
 > Can I speak to god, will god ever speak back, she might be busy me too, I'll just have
 > to face the facts.  If the crown fits wear it, when they're ready they'll take it back.
-> - from Mad About Bars
+-from Mad About Bars
 
 This is the first 20 seconds of the song and the flow switch in the middle of the first part
 was just the icing on the cake. I am definitely going to go back and listen to his project
@@ -44,7 +44,7 @@ too, so swipe to listen, I love it and I hope you do too.
 
 > Silly me, thinking I can change the world in a heartbeat, poem after poem hoping they
 > would let my art speak.
-> - Love this thought I would quote some more sauce, it keeps coming with this one.
-> - from Mad About Bars
+-Love this thought I would quote some more sauce, it keeps coming with this one.
+-from Mad About Bars
 
 :youtube[m1Gg-EKa9wU]

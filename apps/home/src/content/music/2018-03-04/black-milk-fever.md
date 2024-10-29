@@ -84,7 +84,7 @@ is mean with his raps:
 
 > 4 in the am, trying to paint a profound picture. Holding a brush, won’t put it down until
 > I put the write colours in your sound system.
-> - taken from But Can It Be - FEVER
+-taken from But Can It Be - FEVER
 
 The flow he brings to these bars alone is mad. The project is a great listen and I am
 solidified as a Black Milk fan, give his newest project a listen.
@@ -93,5 +93,5 @@ solidified as a Black Milk fan, give his newest project a listen.
 > How many apples can stole a bunch you just need one,
 > So if you can’t stand up when fellow officers shoot a kid with they hands up
 > I don’t know who we can trust - and it just goes on...
-> - taken from Drown - FEVER
+-taken from Drown - FEVER
 

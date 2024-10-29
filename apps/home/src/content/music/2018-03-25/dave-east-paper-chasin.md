@@ -36,6 +36,6 @@ think he does best, It leads to a great song, that has had a place on my gassed 
 (check it out here). I really like the bars in the hook:
 
 > Ey I'm like a bad doctor, I ain't got no patience
-> - taken from Paper Chasin
+-taken from Paper Chasin
 
 Love the play on words and love the song, give it a listen if your in the mood to get gassed.

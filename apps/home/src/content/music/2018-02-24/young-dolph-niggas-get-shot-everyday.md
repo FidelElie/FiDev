@@ -60,8 +60,8 @@ more of the same. More Dolph. That is if you turn off your brain off for abit as
 some suspect bars in this, that when I let the infectious beats pass I was like what???
 
 > Drop a pill in her drink like Bill (whoa)
-> - like huh?????
-> - from Slave Owner - N****s Get Shot Everyday
+-like huh?????
+-from Slave Owner - N****s Get Shot Everyday
 
 I do not cosign these bars, how it was allowed to leave the studio is beyond me. So on whole
 I'm like eww but excluding this song, its just the same Dolph, nothing more nothing less.

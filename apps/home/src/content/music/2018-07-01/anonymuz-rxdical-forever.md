@@ -29,7 +29,7 @@ What it seems like grinding constantly when I see him on Instagram stories he re
 this. From the first bar:
 
 > Red X on my skin ni**a, this war paint
-> - taken from Rxdical Forever- Anonymuz
+-taken from Rxdical Forever- Anonymuz
 
 I was gassed and nodding uncontrollably with the crazy production and aggressively delivered
 bars. I love how he has carved himself out a distinct style with his music, the darkness
