@@ -15,7 +15,7 @@ export const GET: APIRoute = async (context) => {
 
 	const result = paginateEntries(
 		musicPosts,
-		{ page, size, url: url.toString(), defaultSize: 15 }
+		{ page, size, defaultSize: 15 }
 	);
 
 	return Response.json(

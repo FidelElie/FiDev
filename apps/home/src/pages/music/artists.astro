@@ -38,7 +38,7 @@ const { currentPage, size } = await (async () => {
 
 const { items: artists, pagination } = paginateEntries(
 	artistEntries,
-	{ page: currentPage, size, url, defaultSize: 20 }
+	{ page: currentPage, size, defaultSize: 20 }
 );
 ---
 <RootLayout title="Music artists">

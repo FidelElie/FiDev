@@ -7,7 +7,7 @@ export interface Props extends PageIndicatorProps {}
 const { pagination } = Astro.props;
 ---
 <div class="flex items-center gap-6" id="pagination">
-	{
+	<!-- {
 		(pagination.first || pagination.previous) && (
 			<div class="flex items-center gap-4">
 				{
@@ -26,9 +26,9 @@ const { pagination } = Astro.props;
 				}
 			</div>
 		)
-	}
+	} -->
 	<PageIndicator {...Astro.props} client:visible/>
-	{
+	<!-- {
 		(pagination.next || pagination.last) && (
 			<div class="flex items-center gap-4">
 				{
@@ -47,5 +47,5 @@ const { pagination } = Astro.props;
 				}
 			</div>
 		)
-	}
+	} -->
 </div>
