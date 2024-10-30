@@ -9,7 +9,7 @@ import {
 	postsTable,
 	type InsertPost,
 	type InsertPostActivity
-} from "../schemas";
+} from "./database.schemas";
 
 const connection = neon(getEnvironmentVariable("NEON_DATABASE_URL"));
 

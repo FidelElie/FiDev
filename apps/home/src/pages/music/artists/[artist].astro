@@ -30,7 +30,7 @@ const musicPosts = await getCollection("music", (entry) => {
 	<Container class="flex flex-col py-10 md:flex-row gap-5 min-h-screen">
 		<div class="w-full">
 			<a href="/music/artists" class="text-sm mt-2 block font-heading mb-2">Back to artists</a>
-			<div class="relative border border-slate-200 mb-3 w-64 h-64">
+			<div class="relative border border-slate-200 mb-3 w-full sm:w-64 sm:h-64">
 				{
 					covers.length && (
 						<Image
@@ -60,7 +60,7 @@ const musicPosts = await getCollection("music", (entry) => {
 					musicPosts.map(post => (
 						<a
 							href={`/music/${post.slug}`}
-							class="rounded gap-5 flex flex-col items-center max-w-full whitespace-nowrap sm:flex-row"
+							class="rounded gap-5 flex flex-col max-w-full whitespace-nowrap sm:flex-row sm:items-center"
 						>
 							<div class="w-32 h-32 relative border border-slate-200 rounded-lg flex-shrink-0">
 								{

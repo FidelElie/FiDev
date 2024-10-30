@@ -80,6 +80,10 @@ const { items: artists, pagination } = paginateEntries(
 			}
 		</div>
 		<hr class="border-t border-slate-200 my-5"/>
-		<Pagination pagination={pagination} currentPage={pagination.page}/>
+		<Pagination
+			pagination={pagination}
+			currentPage={pagination.page}
+			transition:persist
+		/>
 	</Container>
 </RootLayout>

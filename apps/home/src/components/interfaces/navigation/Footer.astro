@@ -6,12 +6,11 @@ import { AppManifest } from "@/configs";
 import { generateSpotifyURI } from "@/libraries/utilities";
 
 import { Container } from "@/components/core";
-
 import { BackToTopButton } from "@/components/interfaces/navigation/_Footer/BackToTopButton";
 ---
 
 <footer class="py-3 border-t border-slate-200 flex flex-col">
-	<Container class="flex flex-col items-start justify-between md:flex-row">
+	<Container class="flex flex-col items-start justify-between gap-4 md:flex-row">
 		<BackToTopButton client:visible/>
 		<div class="flex flex-wrap gap-5">
 			<div class="">
@@ -25,6 +24,11 @@ import { BackToTopButton } from "@/components/interfaces/navigation/_Footer/Back
 					<li>
 						<a href="/music/artists" class="underline decoration-blue-500 underline-offset-2">
 							artists
+						</a>
+					</li>
+					<li>
+						<a href="/music/genres" class="underline decoration-blue-500 underline-offset-2">
+							genres
 						</a>
 					</li>
 				</ul>

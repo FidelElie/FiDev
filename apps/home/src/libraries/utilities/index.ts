@@ -1,3 +1,4 @@
+export * from "./astroNavigate";
 export * from "./generateSpotifyURI";
 export * from "./getSpotifyEnv";
 export * from "./paginateEntries";

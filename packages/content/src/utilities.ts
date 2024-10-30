@@ -1,10 +1,16 @@
 import path from "node:path";
-import { readdirSync, lstatSync } from "node:fs";
+import { mkdir } from "node:fs/promises";
+import { readdirSync, lstatSync, existsSync } from "node:fs";
 
 import matter from "gray-matter";
 
 import type { ContentConfig, ContentPostEntry } from "./types";
 
+/**
+ *
+ * @param dirPath
+ * @returns
+ */
 export const getPostsPathsFromRootDir = (dirPath: string): string[] => {
 	const dirContents = readdirSync(dirPath);
 
@@ -23,6 +29,11 @@ export const getPostsPathsFromRootDir = (dirPath: string): string[] => {
 	return paths.flat();
 }
 
+/**
+ *
+ * @param context
+ * @returns
+ */
 export const getPostPathsFromConfig = (
 	context: { config: ContentConfig; paths?: string[]; ids?: string[] }
 ) => {
@@ -41,6 +52,11 @@ export const getPostPathsFromConfig = (
 	return [];
 }
 
+/**
+ *
+ * @param paths
+ * @returns
+ */
 export const getEntriesFromFilePaths = <T>(paths: string[]) : ContentPostEntry<T>[] => {
 	return paths.map(value => {
 		const matterContents = matter.read(value);
@@ -48,3 +64,14 @@ export const getEntriesFromFilePaths = <T>(paths: string[]) : ContentPostEntry<T
 		return matterContents.data as ContentPostEntry<T>;
 	});
 }
+
+/**
+ *
+ * @param path
+ */
+export const ensureDirExists = async (path: string) => {
+	if (!existsSync(path)) {
+		await mkdir(path, { recursive: true });
+	}
+}
+

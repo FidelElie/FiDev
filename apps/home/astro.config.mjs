@@ -19,9 +19,8 @@ const { PORT, FLAGS } = loadEnv(process.env.NODE_ENV || "", process.cwd(), "");
 export default defineConfig({
   output: "hybrid",
   devToolbar: { enabled: !!FLAGS?.includes("TOOLBAR"), },
-
   server: {
-    port: PORT ? Number(PORT) : 3000
+    port: PORT ? Number(PORT) : 3000,
   },
 
   integrations: [tailwind({ applyBaseStyles: true }), solidJs({})],

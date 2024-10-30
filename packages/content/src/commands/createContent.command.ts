@@ -4,10 +4,9 @@ import fs from "node:fs/promises";
 import matter from "gray-matter";
 import { select } from "@inquirer/prompts";
 
-import { ensureDirExists } from "@fi.dev/typescript";
-
 import { onCreatePrompt } from "../prompts";
 import type { ContentConfig } from "../types";
+import { ensureDirExists } from "../utilities";
 
 export const createContentCommand = async (
 	context: { config: ContentConfig; type?: string; }

@@ -5,7 +5,7 @@ import { distributeInRandomOrder } from "@fi.dev/typescript";
 
 import { RootLayout } from "@/pages/_root.layout";
 import { Container, Grid } from "@/components/core";
-import { MusicPostLink } from "@/components/interfaces";
+import { MusicProjectLink,  MusicFeelingLuckyButton } from "@/components/interfaces";
 
 const musicPosts = await getCollection("music");
 
@@ -15,20 +15,23 @@ const randomMusicPosts = distributeInRandomOrder(musicPosts, 3);
 	<Container class="py-10">
 		<div class="flex flex-col space-y-5">
 			<div class="space-y-1">
-				<h2 class="text-4xl font-heading">music</h2>
+				<h2 class="text-5xl font-heading">music</h2>
 				<h3 class="text-lg font-light tracking-tight text-blue-500">
-					My thoughts on music old and new
+					My thoughts on music projects old and new - {musicPosts.length} and counting
 				</h3>
 			</div>
 			<Grid>
-				{ randomMusicPosts.map(post => (
-					<MusicPostLink
-						post={{ ...post.data, slug: post.slug} }
-						info={false}
-					/>
-				)) }
+				{
+					randomMusicPosts.map(post => (
+						<MusicProjectLink
+							post={{ ...post.data, slug: post.slug} }
+							info={false}
+						/>
+					))
+				}
 			</Grid>
-			<div class="flex justify-end">
+			<div class="flex items-center justify-end gap-3" id="nav-container">
+				<MusicFeelingLuckyButton client:visible/>
 				<a href="/music" class="underline decoration-blue-500">
 					See all posts
 				</a>

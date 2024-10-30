@@ -3,10 +3,8 @@ import path from "node:path";
 import trash from "trash";
 import { confirm, select } from "@inquirer/prompts";
 
-import { ensureDirExists } from "@fi.dev/typescript";
-
 import { ContentConfig } from "../types";
-import { getPostsPathsFromRootDir } from "../utilities";
+import { getPostsPathsFromRootDir, ensureDirExists } from "../utilities";
 
 export const deleteContentCommand = async (
 	context: { config: ContentConfig; type?: string }
@@ -42,7 +40,7 @@ export const deleteContentCommand = async (
 
 	ensureDirExists(postDirPath);
 
-	const posts = await getPostsPathsFromRootDir(postDirPath);
+	const posts = getPostsPathsFromRootDir(postDirPath);
 
 	if (!posts.length) {
 		return console.log("No posts were found to delete");

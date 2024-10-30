@@ -1,6 +1,8 @@
 import { boolean, integer, pgEnum, pgTable, serial, text, timestamp } from "drizzle-orm/pg-core";
-import { MusicPostMetadata } from "./music.schemas";
+
 import { getConstKeys } from "@fi.dev/typescript";
+
+import { MusicPostMetadata } from "../schemas/music.schemas";
 
 export const postsTable = pgTable(
 	"posts_table",

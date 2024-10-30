@@ -1,57 +1,51 @@
 ---
-import type { paginateEntries } from '@/libraries/utilities'
+import type { PageIndicatorProps } from './_Pagination/PageIndicator';
+import { PageIndicator } from './_Pagination/PageIndicator';
 
-export interface Props {
-	pagination: ReturnType<typeof paginateEntries>["pagination"];
-	currentPage: string | number;
-}
+export interface Props extends PageIndicatorProps {}
 
-const { pagination, currentPage } = Astro.props;
+const { pagination } = Astro.props;
 ---
-<div class="flex items-center gap-5">
+<div class="flex items-center gap-6" id="pagination">
 	{
-		pagination.first && (
-			<a href={pagination.first} class="underline decoration-blue-500">
-				first
-			</a>
+		(pagination.first || pagination.previous) && (
+			<div class="flex items-center gap-4">
+				{
+					pagination.first && (
+						<a href={pagination.first} class="underline decoration-blue-500">
+							first
+						</a>
+					)
+				}
+				{
+					pagination.previous && (
+						<a href={pagination.previous} class="underline decoration-blue-500">
+							prev
+						</a>
+					)
+				}
+			</div>
 		)
 	}
+	<PageIndicator {...Astro.props} client:visible/>
 	{
-		pagination.previous && (
-			<a href={pagination.previous} class="underline decoration-blue-500">
-				prev
-			</a>
-		)
-	}
-	<form class="bg-blue-500 w-10 h-10 rounded-full text-white flex items-center justify-center font-heading">
-		<label class="sr-only" for="page-indicator">Page</label>
-		<select
-			id="page-indicator"
-			name="page"
-			class="border-slate-200 text-blue-500 rounded-lg"
-			onchange="this.form.submit()"
-		>
-			{
-				new Array(pagination.pages || 1).fill(null).map((_, page) => (
-					<option value={page + 1} selected={String(page + 1) === String(currentPage)}>
-						{page + 1}
-					</option>
-				))
-			}
-		</select>
-	</form>
-	{
-		pagination.next && (
-			<a href={pagination.next} class="underline decoration-blue-500">
-				next
-			</a>
-		)
-	}
-	{
-		pagination.last && (
-			<a href={pagination.last} class="underline decoration-blue-500">
-				last
-			</a>
+		(pagination.next || pagination.last) && (
+			<div class="flex items-center gap-4">
+				{
+					pagination.next && (
+						<a href={pagination.next} class="underline decoration-blue-500">
+							next
+						</a>
+					)
+				}
+				{
+					pagination.last && (
+						<a href={pagination.last} class="underline decoration-blue-500">
+							last
+						</a>
+					)
+				}
+			</div>
 		)
 	}
 </div>
