@@ -1,6 +1,8 @@
 import type { APIRoute } from "astro";
 import { getCollection } from "astro:content";
 
+import { MusicImFeelingLuckyRoute } from "@/libraries/api";
+
 export const prerender = false;
 
 export const GET: APIRoute = async () => {
@@ -11,7 +13,9 @@ export const GET: APIRoute = async () => {
 	const randomPost = musicPosts[randomPostIndex];
 
 	return Response.json(
-		{	post: randomPost },
+		MusicImFeelingLuckyRoute.responses[200].parse(
+			{	post: { ...randomPost.data, slug: randomPost.slug } }
+		),
 	);
 }
 

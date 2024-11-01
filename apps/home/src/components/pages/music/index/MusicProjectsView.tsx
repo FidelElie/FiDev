@@ -28,24 +28,20 @@ export const MusicProjectsView = (props: MusicProjectsViewProps) => {
 }
 
 export const MusicProjectsContents = (props: MusicProjectsViewProps) => {
-	const [targets, setTargets] = createSignal<Element[]>([]);
+	const { url, dtos, responses } = FetchMusicPostsRoute;
 
-	const [query, _, queryInitialised] = useQueryParams(FetchMusicPostsRoute.dtos.query);
+	const [targets, setTargets] = createSignal<Element[]>([]);
+	const [query, _, queryInitialised] = useQueryParams(dtos.query);
 
 	const postsQuery = createInfiniteQuery(
 		() => ({
-			queryKey: ["/api/music", query()],
+			queryKey: [url, query()],
 			queryFn: async ({ pageParam }) => {
-				const updatedQuery = FetchMusicPostsRoute.dtos.query.parse({
-					...query(),
-					page: pageParam
-				});
+				const updatedQuery = dtos.query.parse({ ...query(), page: pageParam });
 
-				const response = await request({
-					url: `/api/music${queryParams.encodeToUrl(updatedQuery)}`
-				});
+				const response = await request({ url: `${url}${queryParams.encodeToUrl(updatedQuery)}` });
 
-				return FetchMusicPostsRoute.responses[200].parse(response);
+				return responses[200].parse(response);
 			},
 			initialPageParam: query()?.page || 1,
 			getPreviousPageParam: (lastPage) => {

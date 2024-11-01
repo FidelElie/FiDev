@@ -4,6 +4,7 @@ import { AiOutlineLoading } from 'solid-icons/ai';
 
 import { astroNavigate } from "@/libraries/utilities";
 import { request } from "@/libraries/clients";
+import { MusicImFeelingLuckyRoute } from "@/libraries/api";
 
 export const MusicFeelingLuckyButton = () => {
 	let buttonRef: HTMLDivElement | undefined;
@@ -15,18 +16,21 @@ export const MusicFeelingLuckyButton = () => {
 
 		setSubmitting(true);
 		try {
-			const response = await request<any>({ url: "/api/music/lucky" });
+			const { url, method, responses } = MusicImFeelingLuckyRoute;
 
-			const pathname = `/music/${response.post.slug}`;
+			const response = await request({ url, method });
+
+			const validatedResponse = responses[200].parse(response);
+
+			const pathname = `/music/${validatedResponse.post.slug}`;
 
 			setTimeout(() => {
 				setSubmitting(false);
 				astroNavigate({ element: buttonRef, href: pathname });
 			}, 1000);
 		} catch (error) {
+			console.error(error);
 			setSubmitting(false);
-		} finally {
-
 		}
 	}
 
