@@ -21,7 +21,7 @@ export const paginateEntries = <T>(entries: T[], context: PaginationContext) => 
 		items: entries.slice(start, end),
 		pagination: {
 			page: parsedPage,
-			entries: parsedSize,
+			size: parsedSize,
 			total,
 			pages,
 			previous: start !== 0,

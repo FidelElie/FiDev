@@ -1,7 +1,12 @@
 import { createSignal } from "solid-js";
 import { twJoin } from "tailwind-merge";
+import { encode } from "qss";
+
+import { astroNavigate } from "@/libraries/utilities";
 
 export const MusicGenreView = (props: MusicGenreViewProps) => {
+	let genreContainerRef: HTMLDivElement | undefined;
+
 	const [genres, setGenres] = createSignal<string[]>([]);
 	const [submitting, setSubmitting] = createSignal(false);
 
@@ -18,6 +23,16 @@ export const MusicGenreView = (props: MusicGenreViewProps) => {
 	}
 
 	const clearSelectedGenres = () => setGenres([]);
+
+	const handleGenresSearch = () => {
+		setSubmitting(true);
+		if (!genres().length || !genreContainerRef) { return; }
+
+		astroNavigate({
+			element: genreContainerRef,
+			href: `/music?${encode({ genres: genres() })}`
+		});
+	}
 
 	return (
 		<div class="flex flex-col-reverse gap-2 relative md:flex-row">
@@ -40,11 +55,11 @@ export const MusicGenreView = (props: MusicGenreViewProps) => {
 			<div class="sticky top-2 w-full flex-shrink-0  md:w-64 md:relative">
 				<div class="sticky top-4 border border-slate-200 bg-white rounded-lg w-full p-5 space-y-3">
 					<span>Genres: {genres().length}</span>
-					<div class="flex items-center gap-3">
+					<div class="flex items-center gap-3" ref={genreContainerRef}>
 						<button
 							class="bg-blue-500 rounded px-3 py-2 flex font-light gap-1 text-white font-heading disabled:opacity-50"
-							// onClick={getFeelingLuckyPost}
-							disabled={submitting()}
+							onClick={handleGenresSearch}
+							disabled={submitting() || !genres().length}
 						>
 							Search genres
 						</button>

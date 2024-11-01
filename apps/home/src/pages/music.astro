@@ -9,13 +9,15 @@ import { MusicProjectsView } from "@/components/pages/music/index/MusicProjectsV
 
 const musicPosts = await getCollection("music");
 
-const { items: posts, pagination } = paginateEntries(
+const genres = Array.from(new Set(musicPosts.map(post => post.data.genres).flat()));
+
+const initial = paginateEntries(
 	musicPosts,
 	{ page: 1, defaultSize: 15 }
 );
 ---
 <RootLayout title="Music">
-	<Container class="pt-10 pb-32 min-h-screen space-y-5">
+	<Container class="pt-10 pb-32 min-h-screen space-y-5 flex flex-col">
 		<div class="flex flex-col justify-between gap-2">
 			<div class="flex flex-col space-y-1">
 				<h1 class="font-heading text-5xl tracking-tighter">music</h1>
@@ -24,11 +26,24 @@ const { items: posts, pagination } = paginateEntries(
 				</h2>
 			</div>
 		</div>
+		<div class="flex items-center gap-2">
+			<a href="/music/artists" class="bg-blue-500 px-3 py-2 rounded-lg font-heading font-light text-white">
+				Search by artists
+			</a>
+			<a href="/music/genres" class="bg-blue-500 px-3 py-2 rounded-lg font-heading font-light text-white">
+				Search by genres
+			</a>
+		</div>
 		<hr class="border-t border-slate-200 my-10"/>
-		<div>
+		<div class="flex flex-grow astro-island:flex-grow astro-island:block">
 			<MusicProjectsView
-				posts={posts.map(post => ({ ...post.data, slug: post.slug }))}
-				pagination={pagination}
+				initial={[
+					{
+						...initial,
+						items: initial.items.map(post => ({ ...post.data, slug: post.slug }))
+					}
+				]}
+				genres={genres}
 				client:load
 			/>
 		</div>

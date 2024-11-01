@@ -11,5 +11,9 @@ export default {
 	presets: [
 		FiTheme
 	],
-	plugins: [],
+	plugins: [
+		function ({ addVariant }) {
+			addVariant("astro-island", "& > astro-island");
+		}
+	],
 }

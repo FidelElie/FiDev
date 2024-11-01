@@ -1,17 +1,28 @@
-import { paginateEntries } from "@/libraries/utilities";
 import type { APIRoute } from "astro";
 import { getCollection } from "astro:content";
+
+import { paginateEntries, queryParams } from "@/libraries/utilities";
+
+import { FetchMusicPostsRoute } from "@/libraries/api";
 
 export const prerender = false;
 
 export const GET: APIRoute = async (context) => {
-	const { url } = context;
+	const { request } = context;
 
-	const parsedUrl = new URL("", url);
+	const { page, size, genres, levels } = FetchMusicPostsRoute.dtos.query.parse(
+		queryParams.decodeFromUrl(request.url)
+	);
 
-	const { page, size } = Object.fromEntries(parsedUrl.searchParams.entries());
+	const musicPosts = await getCollection("music", (post) => {
+		const includedByGenre = !genres?.length || genres.some(
+			genre => post.data.genres.includes(genre)
+		);
 
-	const musicPosts = await getCollection("music");
+		const includedByRating = !levels?.length || levels.includes(post.data.rating);
+
+		return includedByGenre && includedByRating;
+	});
 
 	const result = paginateEntries(
 		musicPosts,
@@ -19,6 +30,9 @@ export const GET: APIRoute = async (context) => {
 	);
 
 	return Response.json(
-		{ ...result, items: result.items.map(item => ({ ...item.data, slug: item.slug }))},
+		FetchMusicPostsRoute.responses[200].parse({
+			...result,
+			items: result.items.map(item => ({ ...item.data, slug: item.slug }))
+		}),
 	);
 }

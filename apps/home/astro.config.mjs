@@ -23,7 +23,10 @@ export default defineConfig({
     port: PORT ? Number(PORT) : 3000,
   },
 
-  integrations: [tailwind({ applyBaseStyles: true }), solidJs({})],
+  integrations: [
+    tailwind({ applyBaseStyles: true }),
+    solidJs({ devtools: !!FLAGS?.includes("DEVTOOLS")})
+  ],
 
   image: {
     domains: ["https://i.scdn.co/image/"]
