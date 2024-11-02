@@ -1,18 +1,15 @@
-import { z, ZodSchema } from "zod";
-import { MusicPostSchema } from "../schemas";
+import { z } from "zod";
 
-const paginateSchema = <T extends ZodSchema>(schema: T) => {
-	return z.object({
-		items: z.array(schema),
-		pagination: z.object({
-			page: z.number(),
-			size: z.number(),
-			next: z.boolean(),
-			previous: z.boolean(),
-		})
-	})
-}
+import {
+	arrayQueryParam,
+	MusicArtistSchema,
+	MusicPostSchema,
+	paginateSchema
+} from "@/libraries/schemas";
 
+/**
+ *
+ */
 export const MusicImFeelingLuckyRoute = {
 	url: "/api/music/lucky",
 	method: "GET",
@@ -23,6 +20,9 @@ export const MusicImFeelingLuckyRoute = {
 	}
 }
 
+/**
+ *
+ */
 export const FetchMusicPostsRoute = {
 	url: "/api/music",
 	method: "GET",
@@ -30,8 +30,8 @@ export const FetchMusicPostsRoute = {
 		query: z.object({
 			page: z.number().optional(),
 			size: z.number().optional(),
-			genres: z.union([z.array(z.string()), z.string()]).transform(input => Array.isArray(input) ? input : [input]).optional(),
-			levels: z.union([z.array(z.string()), z.string()]).transform(input => Array.isArray(input) ? input : [input]).optional()
+			genres: arrayQueryParam().optional(),
+			levels: arrayQueryParam().optional()
 		}),
 	},
 	responses: {
@@ -39,6 +39,38 @@ export const FetchMusicPostsRoute = {
 	}
 }
 
-export type InferDTOS<T extends { [key: string | number]: ZodSchema }> = {
-	[key in keyof T]: z.infer<T[keyof T]>
+/**
+ *
+ */
+export const FetchMusicArtistsRoute = {
+	url: "/api/music/artists",
+	method: "GET",
+	dtos: {
+		query: z.object({
+			page: z.number().optional(),
+			size: z.number().optional(),
+			genres: arrayQueryParam().optional(),
+		})
+	},
+	responses: {
+		200: paginateSchema(MusicArtistSchema)
+	}
+}
+
+/**
+ *
+ */
+export const FetchMusicGenresRoute = {
+	url: "/api/music/genres",
+	method: "GET",
+	dtos: {
+		query: z.object({
+			search: z.string().optional(),
+			page: z.number().optional(),
+			size: z.number().optional()
+		})
+	},
+	responses: {
+		200: paginateSchema(z.string())
+	}
 }

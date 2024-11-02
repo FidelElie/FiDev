@@ -19,7 +19,7 @@ import type {
 } from "@/libraries/types";
 import { sanitiseToURLSlug } from "@fi.dev/typescript";
 
-export const onCreateMusicPost: PostCreationContext<MusicPostSchema> = async ({ entry }) => {
+export const onCreateMusicPost: PostCreationContext<MusicPostSchema> = async () => {
 	const spotifyClient = createSpotifyClient(getSpotifyEnv());
 
 	await spotifyClient.refreshAccessToken();

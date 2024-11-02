@@ -1,13 +1,13 @@
 import type { APIRoute } from "astro";
 
-import { fetchMusicProjects } from "@/libraries/api";
+import { fetchMusicGenres } from "@/libraries/api";
 
 export const prerender = false;
 
 export const GET: APIRoute = async (context) => {
 	const { request } = context;
 
-	const musicEntries = await fetchMusicProjects(request);
+	const genreEntries = await fetchMusicGenres(request);
 
-	return Response.json(musicEntries);
+	return Response.json(genreEntries);
 }

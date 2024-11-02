@@ -11,7 +11,8 @@ import { twMerge } from "tailwind-merge";
 
 import { useQueryParams } from "@/libraries/hooks";
 import { MusicPostRatingMap } from "@/libraries/schemas";
-import { FetchMusicPostsRoute, type InferDTOS } from "@/libraries/api";
+import { FetchMusicPostsRoute } from "@/libraries/api";
+import type { InferDTOS } from "@/libraries/types";
 
 import { Popover, Tooltip, Select } from "@/components/core";
 

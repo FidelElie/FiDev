@@ -8,7 +8,7 @@ import type { MusicPostSchema } from "@/libraries/schemas";
 
 import { Passthrough } from "@/components/core";
 
-export const MusicProjectLink = (props: MusicProjectLinkProps) => (
+export const MusicProjectEntry = (props: MusicProjectEntryProps) => (
 	<Passthrough
 		layout={children => (
 			<a
@@ -51,7 +51,7 @@ export const MusicProjectLink = (props: MusicProjectLinkProps) => (
 	</Passthrough>
 )
 
-export type MusicProjectLinkProps = {
+export type MusicProjectEntryProps = {
 	post?: MusicPostSchema;
 	defer?: boolean;
 	info?: boolean;

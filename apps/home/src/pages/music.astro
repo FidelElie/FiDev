@@ -1,20 +1,14 @@
 ---
-import { getCollection } from "astro:content";
-
-import { paginateEntries } from "@/libraries/utilities";
+import { fetchMusicGenres, fetchMusicProjects } from "@/libraries/api";
 
 import { Container } from "@/components/core";
 import { RootLayout } from "@/pages/_root.layout";
 import { MusicProjectsView } from "@/components/pages/music/index/MusicProjectsView";
 
-const musicPosts = await getCollection("music");
-
-const genres = Array.from(new Set(musicPosts.map(post => post.data.genres).flat()));
-
-const initial = paginateEntries(
-	musicPosts,
-	{ page: 1, defaultSize: 15 }
-);
+const [initialProjects, genres] = await Promise.all([
+	fetchMusicProjects(Astro.request),
+	fetchMusicGenres(Astro.request)
+]);
 ---
 <RootLayout title="Music">
 	<Container class="pt-10 pb-32 min-h-screen space-y-5 flex flex-col">
@@ -37,13 +31,8 @@ const initial = paginateEntries(
 		<hr class="border-t border-slate-200 my-10"/>
 		<div class="flex flex-grow astro-island:flex-grow astro-island:block">
 			<MusicProjectsView
-				initial={[
-					{
-						...initial,
-						items: initial.items.map(post => ({ ...post.data, slug: post.slug }))
-					}
-				]}
-				genres={genres}
+				initial={[initialProjects]}
+				genres={genres.items}
 				client:load
 			/>
 		</div>

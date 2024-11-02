@@ -7,9 +7,9 @@ import { SiSpotify } from 'solid-icons/si';
 import { MusicPostMetadata } from "@/libraries/schemas";
 import { generateSpotifyURI } from "@/libraries/utilities";
 
-import { RootLayout } from "@/pages/_root.layout";
 import { Container } from "@/components/core";
 import { MusicPostRatingTag } from "@/components/interfaces";
+import { RootLayout } from "@/pages/_root.layout";
 
 export async function getStaticPaths() {
 	const musicPosts = await getCollection("music");
