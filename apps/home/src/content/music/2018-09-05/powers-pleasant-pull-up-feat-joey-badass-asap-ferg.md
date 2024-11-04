@@ -1,16 +1,16 @@
 ---
 name: Pull Up (feat. Joey Bada$$ & A$AP Ferg)
-slug: powers-pleasant-pull-up-feat-joey-bada--aap-ferg
+slug: powers-pleasant-pull-up-feat-joey-badass-asap-ferg
 spotifyId: 7mLEKl1ibbtfQq2P9HdKgI
 spotifyUrl: 'https://open.spotify.com/track/7mLEKl1ibbtfQq2P9HdKgI'
 artists:
   - slug: powers-pleasant
     name: Powers Pleasant
     spotifyId: 0fYw4bch7qTxBZLS3rSVMj
-  - slug: joey-bada
+  - slug: joey-badass
     name: Joey Bada$$
     spotifyId: 2P5sC9cVZDToPxyomzF1UH
-  - slug: aap-ferg
+  - slug: asap-ferg
     name: A$AP Ferg
     spotifyId: 5dHt1vcEm9qb8fCyLcB3HL
 covers:

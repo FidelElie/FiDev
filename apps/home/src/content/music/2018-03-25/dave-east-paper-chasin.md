@@ -7,7 +7,7 @@ artists:
   - slug: dave-east
     name: Dave East
     spotifyId: 7e10JUMF7MJmmwYpnTSMI5
-  - slug: aap-ferg
+  - slug: aasp-ferg
     name: A$AP Ferg
     spotifyId: 5dHt1vcEm9qb8fCyLcB3HL
 covers:

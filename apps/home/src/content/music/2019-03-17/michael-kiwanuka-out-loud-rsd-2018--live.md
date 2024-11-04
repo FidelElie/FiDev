@@ -1,6 +1,6 @@
 ---
 name: Out Loud! (RSD 2018 / Live)
-slug: michael-kiwanuka-out-loud-rsd-2018--live
+slug: michael-kiwanuka-out-loud-rsd-2018-live
 spotifyId: 5FGcx8wMUcJ8BV5P2qVRso
 spotifyUrl: 'https://open.spotify.com/album/5FGcx8wMUcJ8BV5P2qVRso'
 artists:
