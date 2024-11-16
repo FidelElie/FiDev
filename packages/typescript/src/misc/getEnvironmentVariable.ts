@@ -4,5 +4,5 @@
  * @returns the environment variable value or undefined
  */
 export const getEnvironmentVariable = (variable: keyof FiDev.EnvironmentVariables) => {
-	return import.meta.env[variable] || process.env[variable];
+	return import.meta.env?.[variable] || process.env?.[variable];
 }

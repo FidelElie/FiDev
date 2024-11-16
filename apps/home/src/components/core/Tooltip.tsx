@@ -11,7 +11,10 @@ export const Tooltip = (props: TooltipProps) => {
 			<KolbalteTooltip.Portal>
 				<KolbalteTooltip.Content
 					as={props.contentAs}
-					class={twMerge("bg-white border border-slate-200 rounded-lg", props.contentClass)}
+					class={twMerge(
+						"bg-white border border-slate-200 rounded-lg py-2 px-3",
+						props.contentClass
+					)}
 				>
 					{props.children}
 					<KolbalteTooltip.Arrow />

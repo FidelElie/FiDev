@@ -1,11 +1,16 @@
 import { z } from "zod";
 
+import { getConstKeys } from "@fi.dev/typescript";
+
 import {
 	arrayQueryParam,
+	dateTransferSchema,
 	MusicArtistSchema,
+	MusicCoverImageSchema,
 	MusicPostSchema,
-	paginateSchema
+	paginateSchema,
 } from "@/libraries/schemas";
+import { MusicPostRatingMap } from "@/libraries/constants";
 
 /**
  *
@@ -72,5 +77,72 @@ export const FetchMusicGenresRoute = {
 	},
 	responses: {
 		200: paginateSchema(z.string())
+	}
+}
+
+/**
+ *
+ */
+export const FetchMusicProjectStatsRoute = {
+	url: "/api/music/:postSlug/stats",
+	method: "GET",
+	dtos: {
+		params: z.object({ postSlug: z.string() })
+	},
+	responses: {
+		200: z.object({
+			views: z.number(),
+			liked: z.number(),
+			ratings: z.record(z.enum(getConstKeys(MusicPostRatingMap)), z.number()),
+			publishedAt: dateTransferSchema().optional(),
+			updatedAt: dateTransferSchema().optional()
+		}).nullable()
+	}
+}
+
+/**
+ *
+ */
+export const UpdateMusicProjectRoute = {
+	url: "/api/music/:postSlug",
+	method: "PATCH",
+	dtos: {
+		params: z.object({ postSlug: z.string() })
+	},
+	responses: {
+		200: z.object({
+
+		})
+	}
+}
+
+export const GetCurrentlyPlayingTrackRoute = {
+	url: "/api/music/playing",
+	method: "GET",
+	responses: {
+		200: z.union([
+			z.object({
+				name: z.string(),
+				covers: z.array(MusicCoverImageSchema),
+				remaining: z.number(),
+				duration: z.number(),
+				playing: z.boolean(),
+				shuffled: z.boolean(),
+				repeating: z.enum(["track", "off", "context"]),
+				posts: z.array(
+					z.object({
+						name: z.string(),
+						slug: z.string(),
+						type: z.enum(["ALBUM", "TRACK"])
+					})
+				),
+				artist: z.object({
+					name: z.string(),
+					slug: z.string()
+				})
+
+			}),
+			z.null()
+		])
 	}
 }

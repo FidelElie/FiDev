@@ -17,3 +17,7 @@ export const arrayQueryParam = () => {
 		[z.array(z.string()), z.string()]
 	).transform(input => Array.isArray(input) ? input : [input]);
 }
+
+export const dateTransferSchema = () => {
+	return z.coerce.date().transform(date => date.toISOString());
+}

@@ -1,7 +1,9 @@
 import { definePostEntry, datePrompt, confirm } from "@fi.dev/content";
 
+import { client } from "@/libraries/database";
 import { MusicPostSchema } from "@/libraries/schemas";
 import { onCreateMusicPost } from "@/libraries/posts/music.create";
+
 
 export const musicPost = definePostEntry({
 	id: "music",
@@ -25,5 +27,23 @@ export const musicPost = definePostEntry({
 		].join("-")
 	},
 	validator: MusicPostSchema.parse,
-	onCreate: onCreateMusicPost
+	onCreate: onCreateMusicPost,
+	hooks: [
+		{
+			events: ["create"],
+			onEvent: (entries) => {
+				const [createdPost] = entries;
+
+				client.post.createPost({ id: createdPost.post.slug });
+			}
+		},
+		{
+			events: ["delete"],
+			onEvent: (entries) => {
+				const [postToDelete] = entries;
+
+				client.post.deletePostEntryById(postToDelete.post.slug);
+			}
+		}
+	]
 });

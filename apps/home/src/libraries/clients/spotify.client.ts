@@ -1,13 +1,13 @@
-import { generateRandomString } from "@fi.dev/typescript";
+import { distributeToBuckets, generateRandomString } from "@fi.dev/typescript";
 
-import { parseValueToString } from "@/libraries/utilities";
+import { parseValueToString, queryParams } from "../utilities";
 import type {
 	SpotifyConfigs,
 	SpotifyResponses,
 	SpotifyScopes,
 	SpotifyClientConfig
-} from "@/libraries/types";
-import { createRequestClient } from "@/libraries/clients/request.client";
+} from "../types";
+import { createRequestClient } from "./request.client";
 
 const URLS = {
 	accounts: "https://accounts.spotify.com",
@@ -79,7 +79,7 @@ export const createSpotifyClient = (config: SpotifyClientConfig) => {
 		generateAuthorizationCodeFlowURL: (scopes: SpotifyScopes[] | string) => {
 			const queryParams = new URLSearchParams(baseQueryParams);
 
-			queryParams.set("scopes", typeof scopes === "string" ? scopes : scopes.join(","));
+			queryParams.set("scope", typeof scopes === "string" ? scopes : scopes.join(" "));
 			queryParams.set("state", generateRandomString(16));
 			queryParams.set("response_type", "code");
 
@@ -229,17 +229,16 @@ export const createSpotifyClient = (config: SpotifyClientConfig) => {
 		getArtists: async (config: SpotifyConfigs["getArtists"], accessToken?: string) => {
 			const { ids } = config;
 
-			const maxNumberOfIds = 100;
+			const maxNumberOfIds = 50;
 
-			const numberOfBuckets = Math.ceil(ids.length / maxNumberOfIds);
+			const normalisedIds = Array.isArray(ids) ? ids : [ids];
+
+			const idBuckets = distributeToBuckets(normalisedIds, maxNumberOfIds);
 
 			const results = await Promise.all(
-				new Array(numberOfBuckets).fill(null).map(async (_, bucketIndex) => {
-					const start = bucketIndex * ids.length;
-					const bucketIds = ids.slice(start, start + maxNumberOfIds);
-
+				idBuckets.map(async (ids) => {
 					const response = await clients.api<SpotifyResponses["getArtists"]>({
-						url: `/v1/artists?ids=${parseValueToString(bucketIds)}`,
+						url: `/v1/artists?ids=${parseValueToString(ids)}`,
 						headers: generateBearerAuthClaim(accessToken)
 					});
 
@@ -249,10 +248,22 @@ export const createSpotifyClient = (config: SpotifyClientConfig) => {
 
 			return results.flat();
 		},
+		getTrack: async (config: SpotifyConfigs["getTrack"], accessToken?: string) => {
+			const { trackId } = config.params;
+
+			const query = queryParams.encodeToUrl(config.query || {});
+
+			const response = await clients.api<SpotifyResponses["getTrack"]>({
+				url: `/v1/track/${trackId}${query}`,
+				headers: generateBearerAuthClaim(accessToken)
+			});
+
+			return response;
+		},
 		getTracks: async (config: SpotifyConfigs["getTracks"], accessToken?: string) => {
 			const { ids } = config;
 
-			const maxNumberOfIds = 100;
+			const maxNumberOfIds = 50;
 
 			const numberOfBuckets = Math.ceil(ids.length / maxNumberOfIds);
 
@@ -271,6 +282,32 @@ export const createSpotifyClient = (config: SpotifyClientConfig) => {
 			);
 
 			return results.flat();
+		},
+		getCurrentlyPlayingTrack: async (
+			config: SpotifyConfigs["getCurrentlyPlayingTrack"],
+			accessToken?: string
+		) => {
+			const params = queryParams.encodeToUrl(config);
+
+			const response = await clients.api<SpotifyResponses["getCurrentlyPlayingTrack"]>({
+				url: `/v1/me/player/currently-playing${params}`,
+				headers: generateBearerAuthClaim(accessToken)
+			});
+
+			return response;
+		},
+		getPlaybackState: async (
+			config: SpotifyConfigs["getPlaybackState"],
+			accessToken?: string
+		) => {
+			const params = queryParams.encodeToUrl(config);
+
+			const response = await clients.api<SpotifyResponses["getPlaybackState"]>({
+				url: `/v1/me/player${params}`,
+				headers: generateBearerAuthClaim(accessToken)
+			});
+
+			return response;
 		}
 	}
 }

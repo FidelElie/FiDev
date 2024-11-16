@@ -5,7 +5,11 @@ import { distributeInRandomOrder } from "@fi.dev/typescript";
 
 import { RootLayout } from "@/pages/_root.layout";
 import { Container, Grid } from "@/components/core";
-import { MusicProjectEntry, MusicFeelingLuckyButton } from "@/components/interfaces";
+import {
+	MusicProjectEntry,
+	MusicFeelingLuckyButton,
+	MusicCurrentlyPlayingPane
+} from "@/components/interfaces";
 
 const musicPosts = await getCollection("music");
 
@@ -16,8 +20,8 @@ const randomMusicPosts = distributeInRandomOrder(musicPosts, 3);
 		<div class="flex flex-col space-y-5">
 			<div class="space-y-1">
 				<h2 class="text-5xl font-heading">music</h2>
-				<h3 class="text-lg font-light tracking-tight text-blue-500">
-					My thoughts on music projects old and new - {musicPosts.length} and counting
+				<h3 class="text-lg font-light font-heading tracking-tight text-blue-500">
+					My latest thoughts on various music projects
 				</h3>
 			</div>
 			<Grid>
@@ -32,9 +36,12 @@ const randomMusicPosts = distributeInRandomOrder(musicPosts, 3);
 			</Grid>
 			<div class="flex items-center justify-end gap-3" id="nav-container">
 				<MusicFeelingLuckyButton client:visible/>
-				<a href="/music" class="underline decoration-blue-500">
-					See all posts
+				<a href="/music" class="underline underline-offset-2 decoration-blue-500">
+					See all {musicPosts.length} projects
 				</a>
+			</div>
+			<div>
+				<MusicCurrentlyPlayingPane client:load/>
 			</div>
 		</div>
 	</Container>

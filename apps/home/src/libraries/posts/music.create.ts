@@ -8,16 +8,18 @@ import {
 	onCreatePromptWithFallback,
 	type PostCreationContext
 } from "@fi.dev/content";
+import { sanitiseToURLSlug } from "@fi.dev/typescript";
 
 import { getSpotifyEnv } from "@/libraries/utilities";
 import { createSpotifyClient } from "@/libraries/clients";
-import { MusicPostMetadata, MusicPostRatingMap, MusicPostSchema } from "@/libraries/schemas";
+import { MusicPostSchema } from "@/libraries/schemas";
+import { MusicPostMetadata, MusicPostRatingMap } from "@/libraries/constants";
 import type {
 	SpotifyTrackObject,
 	SpotifyArtistObject,
 	SpotifySimplifiedAlbumObject
 } from "@/libraries/types";
-import { sanitiseToURLSlug } from "@fi.dev/typescript";
+
 
 export const onCreateMusicPost: PostCreationContext<MusicPostSchema> = async () => {
 	const spotifyClient = createSpotifyClient(getSpotifyEnv());

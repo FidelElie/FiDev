@@ -1,12 +1,15 @@
 import { getCollection } from "astro:content";
 
-import { queryParams, paginateEntries } from "@/libraries/utilities";
+import { queryParams, paginateEntries, getSpotifyEnv } from "@/libraries/utilities";
+import { createSpotifyClient } from "@/libraries/clients";
 
 import {
 	FetchMusicArtistsRoute,
 	FetchMusicGenresRoute,
-	FetchMusicPostsRoute
+	FetchMusicPostsRoute,
+	GetCurrentlyPlayingTrackRoute
 } from "@/libraries/api/music.api";
+import type { MusicPostSchema } from "../schemas";
 
 /**
  *
@@ -99,4 +102,64 @@ export const fetchMusicGenres = async (request: Request) => {
 	const validatedResult = responses[200].parse(result);
 
 	return validatedResult;
+}
+
+export const getCurrentPlayingTrack = async () => {
+	const { responses } = GetCurrentlyPlayingTrackRoute;
+
+	const spotifyClient = createSpotifyClient(getSpotifyEnv());
+
+	await spotifyClient.refreshAccessToken();
+
+	const currentPlayingResponse = await spotifyClient.getPlaybackState({});
+
+	const [
+		artistEntries,
+		musicPosts
+	] = await Promise.all([
+		getCollection("artists"),
+		getCollection("music")
+	]);
+
+	const currentlyPlaying = currentPlayingResponse?.item;
+
+	if (!currentlyPlaying || currentlyPlaying.type === "episode") { return null; }
+
+	const [firstArtist] = currentlyPlaying.album.artists;
+
+	const getPostInformation = (post?: { slug: string; data: MusicPostSchema }) => {
+		if (!post?.slug) { return null; }
+
+		return { name: post.data.name, slug: post.slug || post.data.slug, type: post.data.type };
+	}
+
+	const artistEntry = artistEntries.find(artist => artist.data.id === firstArtist.id);
+
+	const musicTrackEntry = getPostInformation(
+		musicPosts.find(entry => entry.data.spotifyId === currentlyPlaying.id)
+	);
+
+	const musicAlbumEntry = getPostInformation(
+		musicPosts.find(entry => entry.data.spotifyId === currentlyPlaying.album.id)
+	);
+
+	const response = {
+		name: currentlyPlaying.name,
+		covers: currentlyPlaying.album.images,
+		remaining: currentPlayingResponse.progress_ms,
+		duration: currentlyPlaying.duration_ms,
+		playing: currentPlayingResponse.is_playing,
+		shuffled: currentPlayingResponse.shuffle_state,
+		repeating: currentPlayingResponse.repeat_state,
+		posts: [
+			...(musicTrackEntry ? [musicTrackEntry] : []),
+			...(musicAlbumEntry ? [musicAlbumEntry] : [])
+		],
+		artist: {
+			name: firstArtist.name,
+			slug: artistEntry?.data.slug || ""
+		}
+	}
+
+	return responses[200].parse(response);
 }

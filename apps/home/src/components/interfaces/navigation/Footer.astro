@@ -1,6 +1,4 @@
 ---
-import { SiSpotify } from "solid-icons/si";
-
 import { AppManifest } from "@/configs";
 
 import { generateSpotifyURI } from "@/libraries/utilities";
@@ -40,13 +38,33 @@ import { BackToTopButton } from "@/components/interfaces/navigation/_Footer/Back
 		<p class="text-sm text-slate-500">
 			Copyright&copy; Fidel Pierre Elie {(new Date()).getFullYear()} - All Rights Reserved
 		</p>
-		<div class="flex gap-2">
-			<a
-				href={generateSpotifyURI(AppManifest.links.socials.SPOTIFY)}
-				aria-label="Check my profile"
-			>
-				<SiSpotify class="text-xl text-green-600"/>
-			</a>
-		</div>
+		<ul class="flex gap-2.5">
+			<li>
+				<a
+					href={AppManifest.links.socials.INSTAGRAM}
+					class="underline decoration-2 underline-offset-4 decoration-pink-500 text-sm text-slate-800"
+					target="_blank"
+				>
+					Instagram
+				</a>
+			</li>
+			<li>
+				<a
+					href={AppManifest.links.socials.LINKEDIN}
+					class="underline decoration-2 underline-offset-4 decoration-sky-600 text-sm text-slate-800"
+					target="_blank"
+				>
+					Linkedin
+				</a>
+			</li>
+			<li>
+				<a
+					href={generateSpotifyURI(AppManifest.links.socials.SPOTIFY)}
+					class="underline decoration-2 underline-offset-4 decoration-green-600 text-sm text-slate-800"
+				>
+					Spotify
+				</a>
+			</li>
+		</ul>
 	</Container>
 </footer>

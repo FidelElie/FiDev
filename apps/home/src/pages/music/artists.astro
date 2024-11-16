@@ -1,5 +1,5 @@
 ---
-import { fetchMusicArtists, fetchMusicGenres } from "@/libraries/api";
+import { fetchMusicArtists, fetchMusicGenres } from "@/libraries/server";
 
 import { Container } from "@/components/core";
 import { MusicArtistsView } from "@/components/pages/music/artists/MusicArtistsView";
@@ -15,11 +15,10 @@ const [initialArtists, genres] = await Promise.all([
 		<div class="space-y-1">
 			<h1 class="font-heading text-5xl tracking-tighter">artists</h1>
 			<h2 class="text-lg font-light tracking-tight text-blue-500">
-				The people behind the music
+				The people behind the projects
 			</h2>
 		</div>
-		<hr class="border-t border-slate-200 my-10"/>
-		<div class="flex flex-grow astro-island:flex-grow astro-island:block">
+		<div class="flex flex-grow astro:flex-grow astro:block">
 			<MusicArtistsView
 				initial={[initialArtists]}
 				genres={genres.items}

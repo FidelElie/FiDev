@@ -2,7 +2,7 @@ import { boolean, integer, pgEnum, pgTable, serial, text, timestamp } from "driz
 
 import { getConstKeys } from "@fi.dev/typescript";
 
-import { MusicPostMetadata } from "../schemas/music.schemas";
+import { MusicPostMetadata } from "../constants";
 
 export const postsTable = pgTable(
 	"posts_table",
@@ -11,13 +11,11 @@ export const postsTable = pgTable(
 		views: integer("views").default(0),
 		liked: integer("liked").default(0),
 		ratings: integer("ratings").default(0),
-		publishedAt: timestamp("published_at").notNull().defaultNow(),
-		updatedAt: timestamp("updated_at").notNull().$onUpdate(() => new Date())
+		publishedAt: timestamp("published_at").defaultNow(),
+		updatedAt: timestamp("updated_at").notNull().$onUpdate(() => new Date()),
+		createdAt: timestamp("created_at").notNull().defaultNow(),
 	}
 );
-
-export type InsertPost = typeof postsTable.$inferInsert;
-export type SelectPost = typeof postsTable.$inferSelect;
 
 export const ratingEnum = pgEnum("rating", getConstKeys(MusicPostMetadata.ratings));
 
@@ -32,6 +30,3 @@ export const postActivityTable = pgTable(
 		createdAt: timestamp("created_at").notNull().defaultNow(),
 	}
 );
-
-export type InsertPostActivity = typeof postActivityTable.$inferInsert;
-export type SelectPostActivity = typeof postActivityTable.$inferSelect;

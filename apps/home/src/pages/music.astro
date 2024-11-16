@@ -1,9 +1,10 @@
 ---
-import { fetchMusicGenres, fetchMusicProjects } from "@/libraries/api";
+import { fetchMusicGenres, fetchMusicProjects } from "@/libraries/server";
 
 import { Container } from "@/components/core";
 import { RootLayout } from "@/pages/_root.layout";
 import { MusicProjectsView } from "@/components/pages/music/index/MusicProjectsView";
+import { MusicCurrentlyPlayingPane } from "@/components/interfaces";
 
 const [initialProjects, genres] = await Promise.all([
 	fetchMusicProjects(Astro.request),
@@ -15,21 +16,23 @@ const [initialProjects, genres] = await Promise.all([
 		<div class="flex flex-col justify-between gap-2">
 			<div class="flex flex-col space-y-1">
 				<h1 class="font-heading text-5xl tracking-tighter">music</h1>
-				<h2 class="text-lg font-light tracking-tight text-blue-500">
-					Find something new to listen
+				<h2 class="text-lg font-light font-heading tracking-tight text-blue-500">
+					Find something new to listen to
 				</h2>
 			</div>
 		</div>
 		<div class="flex items-center gap-2">
-			<a href="/music/artists" class="bg-blue-500 px-3 py-2 rounded-lg font-heading font-light text-white">
+			<a href="/music/artists" class="border border-blue-500 px-3 py-2 rounded-lg font-heading">
 				Search by artists
 			</a>
-			<a href="/music/genres" class="bg-blue-500 px-3 py-2 rounded-lg font-heading font-light text-white">
+			<a href="/music/genres" class="border border-blue-500 px-3 py-2 rounded-lg font-heading">
 				Search by genres
 			</a>
 		</div>
-		<hr class="border-t border-slate-200 my-10"/>
-		<div class="flex flex-grow astro-island:flex-grow astro-island:block">
+		<div>
+			<MusicCurrentlyPlayingPane client:load/>
+		</div>
+		<div class="flex flex-grow astro:flex-grow astro:block">
 			<MusicProjectsView
 				initial={[initialProjects]}
 				genres={genres.items}

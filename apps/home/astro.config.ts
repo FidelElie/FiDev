@@ -11,7 +11,7 @@ import vercel from "@astrojs/vercel/serverless";
 import {
   PostDirective,
   remarkRegExpDirective,
-  YoutubeEmbedDirective
+  YoutubeEmbedDirective,
 } from "./src/libraries/plugins";
 
 const { PORT, FLAGS } = loadEnv(process.env.NODE_ENV || "", process.cwd(), "");

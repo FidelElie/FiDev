@@ -1,5 +1,7 @@
 import { default as FiTheme } from "@fi.dev/theme";
 
+import { default as TailwindKolabaltePlugin } from "@kobalte/tailwindcss";
+
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -12,8 +14,9 @@ export default {
 		FiTheme
 	],
 	plugins: [
+		TailwindKolabaltePlugin,
 		function ({ addVariant }) {
-			addVariant("astro-island", "& > astro-island");
+			addVariant("astro", "& > astro-island, & > astro-slot");
 		}
 	],
 }

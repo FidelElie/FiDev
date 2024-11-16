@@ -1,2 +1,2 @@
 export * from "./database.client";
-export * from "./database.schemas";
+export * from "./database.tables";

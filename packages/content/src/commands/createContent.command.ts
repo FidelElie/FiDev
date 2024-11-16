@@ -77,12 +77,21 @@ export const createContentCommand = async (
 		)
 	);
 
-	const creationHooks = (hooks || []).map(
+	const entryCreationHooks = (entry.hooks || []).map(
 		hook => hook.events.includes("create") ? hook.onEvent(entriesWithPaths) : []
 	).flat();
 
-	if (creationHooks.length) {
-		console.log("Running creation hooks");
-		await Promise.all(creationHooks);
+	const globalCreationHooks = (hooks || []).map(
+		hook => hook.events.includes("create") ? hook.onEvent(entriesWithPaths) : []
+	).flat();
+
+	if (entryCreationHooks.length) {
+		console.log("Running entry creation hooks");
+		Promise.allSettled(entryCreationHooks);
+	}
+
+	if (globalCreationHooks.length) {
+		console.log("Running global creation hooks");
+		Promise.allSettled(globalCreationHooks);
 	}
 }

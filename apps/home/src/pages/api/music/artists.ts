@@ -1,6 +1,6 @@
 import type { APIRoute } from "astro";
 
-import { fetchMusicArtists } from "@/libraries/api";
+import { fetchMusicArtists } from "@/libraries/server";
 
 export const prerender = false;
 

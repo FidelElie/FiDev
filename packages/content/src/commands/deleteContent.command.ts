@@ -68,12 +68,21 @@ export const deleteContentCommand = async (
 
 	console.log(`Post ${path.basename(deleteFilePath)} move to recycle bin`);
 
-	const deletionHooks = (hooks || []).map(
+	const entryDeletionHooks = (entry.hooks || []).map(
 		hook => hook.events.includes("delete") ? hook.onEvent : []
 	).flat();
 
-	if (deletionHooks.length) {
-		console.log("Running deletion hooks");
-		await Promise.all(deletionHooks);
+	const globalDeletionHooks = (hooks || []).map(
+		hook => hook.events.includes("delete") ? hook.onEvent : []
+	).flat();
+
+	if (entryDeletionHooks.length) {
+		console.log("Running entry deletion hooks");
+		Promise.allSettled(entryDeletionHooks)
+	}
+
+	if (globalDeletionHooks.length) {
+		console.log("Running global deletion hooks");
+		Promise.allSettled(globalDeletionHooks);
 	}
 }

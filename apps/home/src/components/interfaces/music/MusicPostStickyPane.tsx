@@ -10,7 +10,7 @@ import { AiOutlineClear, AiOutlineLoading, AiOutlineStar } from "solid-icons/ai"
 import { twMerge } from "tailwind-merge";
 
 import { useQueryParams } from "@/libraries/hooks";
-import { MusicPostRatingMap } from "@/libraries/schemas";
+import { MusicPostRatingMap } from "@/libraries/constants";
 import { FetchMusicPostsRoute } from "@/libraries/api";
 import type { InferDTOS } from "@/libraries/types";
 

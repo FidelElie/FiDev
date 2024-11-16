@@ -91,7 +91,7 @@ const MusicArtistsContents = (props: MusicArtistsViewProps) => {
 				<div class="flex flex-col flex-grow">
 					<Switch>
 						<Match when={artistsQuery.isSuccess}>
-							<div class="gap-x-5 gap-y-10 flex flex-wrap">
+							<div class="gap-5 flex flex-wrap">
 								<For
 									each={artistsQuery.data?.pages.map(page => page.items).flat()}
 									fallback={(

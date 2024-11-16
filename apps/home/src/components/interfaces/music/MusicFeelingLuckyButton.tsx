@@ -12,7 +12,7 @@ export const MusicFeelingLuckyButton = () => {
 	const [submitting, setSubmitting] = createSignal(false);
 
 	const getFeelingLuckyPost = async () => {
-		if (!buttonRef) { return; }
+		if (!buttonRef || submitting()) { return; }
 
 		setSubmitting(true);
 		try {
@@ -37,20 +37,20 @@ export const MusicFeelingLuckyButton = () => {
 	return (
 		<div ref={buttonRef!}>
 			<button
-				class="bg-blue-500 rounded px-3 py-2 flex items-center gap-1 disabled:opacity-50"
+				class="border border-blue-500 rounded px-3 py-2 flex items-center gap-1"
 				onClick={getFeelingLuckyPost}
 				disabled={submitting()}
 			>
 				<div class="w-5 flex items-center">
 					{
 						!submitting() ? (
-							<BsMusicNote class="text-white" />
+							<BsMusicNote class="text-blue-500" />
 						) : (
-							<AiOutlineLoading class="text-white animate-spin"/>
+							<AiOutlineLoading class="animate-spin text-blue-500"/>
 						)
 					}
 				</div>
-				<span class="font-heading font-light text-white">I'm feeling lucky</span>
+				<span class="font-heading">I'm feeling lucky</span>
 			</button>
 		</div>
 	)

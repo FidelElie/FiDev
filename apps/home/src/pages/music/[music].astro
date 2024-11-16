@@ -4,7 +4,7 @@ import { getCollection } from "astro:content";
 
 import { SiSpotify } from 'solid-icons/si';
 
-import { MusicPostMetadata } from "@/libraries/schemas";
+import { MusicPostMetadata } from "@/libraries/constants";
 import { generateSpotifyURI } from "@/libraries/utilities";
 
 import { Container } from "@/components/core";
@@ -32,7 +32,9 @@ const populatedArtists = await getCollection("artists", (artist) => {
 const [firstArtist] = populatedArtists;
 const [firstImageCover] = covers;
 
-const favouriteTracks = type === MusicPostMetadata.types.ALBUM ? entry.data.tracks.filter(track => track.favourite) : [];
+const favouriteTracks = type === MusicPostMetadata.types.ALBUM ? entry.data.tracks.filter(
+	track => track.favourite
+) : [];
 ---
 <RootLayout title={`${firstArtist.data.name} - ${name}`}>
 	<Container class="flex flex-col py-10 gap-5 min-h-screen md:gap-10 md:flex-row">
@@ -64,20 +66,23 @@ const favouriteTracks = type === MusicPostMetadata.types.ALBUM ? entry.data.trac
 				<a
 					href={`/music/artists/${firstArtist.data.slug}`}
 					aria-label={`${firstArtist.data.name} Artist Page`}
-					class="text-xl font-extra flex items-center gap-1"
+					class="text-xl font-extra w-min flex items-center gap-1 group"
 				>
-					<div class="h-10 w-10 rounded-full border relative overflow-hidden">
+					<div class="h-12 w-12 rounded-full border border-slate-200 relative">
 						{
 							firstArtist.data.covers.length && (
 								<Image
 									src={firstArtist.data.covers[0].url}
 									alt={`${firstArtist.data.name} avatar`}
+									class="rounded-full w-full h-full object-cover"
 									inferSize
 								/>
 							)
 						}
 					</div>
-					<h2 class="font-light">{firstArtist.data.name}</h2>
+					<h2 class="font-light whitespace-nowrap group-hover:text-blue-500">
+						{firstArtist.data.name}
+					</h2>
 				</a>
 				<h1 class="text-5xl font-heading tracking-tighter">{name}</h1>
 				{
@@ -108,7 +113,6 @@ const favouriteTracks = type === MusicPostMetadata.types.ALBUM ? entry.data.trac
 					</div>
 				</div>
 			</section>
-			<hr class="my-3 border-t border-slate-200"/>
 			<div class="space-y-6 prose prose-blockquote:tracking-tight">
 				<Content/>
 			</div>
