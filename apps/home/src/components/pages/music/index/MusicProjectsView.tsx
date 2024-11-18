@@ -79,11 +79,11 @@ export const MusicProjectsView = withQueryProvider(
 						Get previous posts
 					</button>
 				</Show>
-				<div class="relative flex flex-col-reverse gap-2 flex-grow min-w-full md:flex-row">
-					<div class="flex flex-col flex-grow">
+				<div class="relative flex flex-col-reverse gap-2 min-w-full md:flex-row">
+					<div class="flex flex-col">
 						<Switch fallback={<LoadingSkeleton/>}>
 							<Match when={postsQuery.isSuccess}>
-								<Grid class="gap-x-5 gap-y-10 flex-grow">
+								<Grid class="gap-x-5 gap-y-10">
 									<For
 										each={postsQuery.data?.pages.map(page => page.items).flat()}
 										fallback={(
