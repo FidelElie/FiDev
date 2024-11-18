@@ -1,10 +1,12 @@
 ---
+import { AppManifest } from "@/configs";
+
 import { fetchMusicGenres, fetchMusicProjects } from "@/libraries/server";
 
-import { Container } from "@/components/core";
-import { RootLayout } from "@/pages/_root.layout";
-import { MusicProjectsView } from "@/components/pages/music/index/MusicProjectsView";
+import { Container, Link } from "@/components/core";
 import { MusicCurrentlyPlayingPane } from "@/components/interfaces";
+import { MusicProjectsView } from "@/components/pages/music/index/MusicProjectsView";
+import { RootLayout } from "@/pages/_root.layout";
 
 const [initialProjects, genres] = await Promise.all([
 	fetchMusicProjects(Astro.request),
@@ -22,12 +24,12 @@ const [initialProjects, genres] = await Promise.all([
 			</div>
 		</div>
 		<div class="flex items-center gap-2">
-			<a href="/music/artists" class="border border-blue-500 px-3 py-2 rounded-lg font-heading">
+			<Link.Button href={AppManifest.links.pages["/music/artists"]}>
 				Search by artists
-			</a>
-			<a href="/music/genres" class="border border-blue-500 px-3 py-2 rounded-lg font-heading">
+			</Link.Button>
+			<Link.Button href={AppManifest.links.pages["/music/genres"]}>
 				Search by genres
-			</a>
+			</Link.Button>
 		</div>
 		<div>
 			<MusicCurrentlyPlayingPane client:load/>

@@ -2,16 +2,19 @@
 import { Image } from "astro:assets";
 import { getCollection } from "astro:content";
 
-import { SiSpotify } from 'solid-icons/si';
+import { Show } from "solid-js";
 
 import { MusicPostMetadata } from "@/libraries/constants";
 import { generateSpotifyURI } from "@/libraries/utilities";
 
-import { Container } from "@/components/core";
+import { Container, Link } from "@/components/core";
 import { MusicPostRatingTag } from "@/components/interfaces";
 import { RootLayout } from "@/pages/_root.layout";
+import { AppManifest } from "@/configs";
 
-export async function getStaticPaths() {
+const totalMusicPosts = (await getCollection("music")).length;
+
+export const getStaticPaths = async () => {
 	const musicPosts = await getCollection("music");
 
 	return musicPosts.map(entry => ({
@@ -32,9 +35,9 @@ const populatedArtists = await getCollection("artists", (artist) => {
 const [firstArtist] = populatedArtists;
 const [firstImageCover] = covers;
 
-const favouriteTracks = type === MusicPostMetadata.types.ALBUM ? entry.data.tracks.filter(
-	track => track.favourite
-) : [];
+const tracksList = type === MusicPostMetadata.types.ALBUM ? entry.data.tracks : [];
+
+const favouriteTracks = tracksList.filter(track => !!track.favourite);
 ---
 <RootLayout title={`${firstArtist.data.name} - ${name}`}>
 	<Container class="flex flex-col py-10 gap-5 min-h-screen md:gap-10 md:flex-row">
@@ -52,21 +55,44 @@ const favouriteTracks = type === MusicPostMetadata.types.ALBUM ? entry.data.trac
 			}
 			<div class="flex flex-col items-end w-full">
 				<ul class="text-right space-y-2 font-light w-full">
-					<li><a href="/music" class="text-sm tracking-wide">To music</a></li>
+					<li>
+						<Link href="/music" class="text-sm tracking-wide">
+							More ({totalMusicPosts - 1})
+						</Link>
+					</li>
 					<li><hr class="w-full" /></li>
 					<li>{type === MusicPostMetadata.types.ALBUM ? "LP" : "Single"}</li>
 					<li>{release}</li>
 					<li>{Math.ceil(duration / 1000 / 60)} mins</li>
-					{ !!genres.length && <li>{genres.join(", ")}</li> }
+					<Show when={type === MusicPostMetadata.types.ALBUM}>
+						<details>
+							<summary>Track list</summary>
+							<hr class="border-slate-200 my-1.5"/>
+							<ul class="space-y-0.5">
+								{
+									tracksList.map(
+										(track, trackIndex) => (
+											<li class="text-sm">
+												{track.name} <span class="text-blue-500 font-heading">.{trackIndex + 1}</span>
+											</li>
+										)
+									)
+								}
+							</ul>
+						</details>
+					</Show>
+					<Show when={genres.length}>
+						<li>{genres.join(", ")}</li>
+					</Show>
 				</ul>
 			</div>
 		</aside>
 		<article class="flex-grow">
-			<section class="mb-4">
-				<a
-					href={`/music/artists/${firstArtist.data.slug}`}
+			<section>
+				<Link
+					href={AppManifest.links.pages["/music/artists/:slug"](firstArtist.data.slug)}
 					aria-label={`${firstArtist.data.name} Artist Page`}
-					class="text-xl font-extra w-min flex items-center gap-1 group"
+					class="text-xl w-min flex items-center gap-1 group"
 				>
 					<div class="h-12 w-12 rounded-full border border-slate-200 relative">
 						{
@@ -83,37 +109,39 @@ const favouriteTracks = type === MusicPostMetadata.types.ALBUM ? entry.data.trac
 					<h2 class="font-light whitespace-nowrap group-hover:text-blue-500">
 						{firstArtist.data.name}
 					</h2>
-				</a>
+				</Link>
 				<h1 class="text-5xl font-heading tracking-tighter">{name}</h1>
-				{
-					type === MusicPostMetadata.types.ALBUM && (
-						<p class="mt-2 text-blue-500">
-							Favourite Songs: {
-								favouriteTracks.length ? (
-									favouriteTracks.length === entry.data.tracks.length ? (
-										<>All of them</>
-									) : (
-										entry.data.tracks
-											.filter(track => track.favourite)
-											.map(favourite => favourite.name).join(", ")
-									)
+				<Show when={type === MusicPostMetadata.types.ALBUM}>
+					<p class="mt-2 font-light">
+						<span class="font-heading text-blue-500">Favourite Songs:</span> {
+							favouriteTracks.length ? (
+								favouriteTracks.length === tracksList.length ? (
+									<>All of them</>
 								) : (
-									<>None</>
+									tracksList
+										.filter(track => track.favourite)
+										.map(favourite => favourite.name).join(", ")
 								)
-							}
-						</p>
-					)
-				}
+							) : (
+								<>None</>
+							)
+						}
+					</p>
+				</Show>
 				<div class="flex items-center justify-between mt-1.5">
 					<MusicPostRatingTag rating={entry.data.rating}/>
 					<div>
-						<a href={generateSpotifyURI(spotifyUrl)} aria-label="Open with spotify">
-							<SiSpotify class="text-xl text-green-600"/>
-						</a>
+						<Link
+							href={generateSpotifyURI(spotifyUrl)}
+							class="decoration-green-600 text-sm hover:text-green-600"
+						>
+							Spotify
+						</Link>
 					</div>
 				</div>
 			</section>
-			<div class="space-y-6 prose prose-blockquote:tracking-tight">
+			<hr class="border-slate-200 mt-2.5 mb-5"/>
+			<div class="space-y-6 prose-lg prose-p:font-light prose-blockquote:tracking-tight">
 				<Content/>
 			</div>
 		</article>

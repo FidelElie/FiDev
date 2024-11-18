@@ -8,6 +8,8 @@ import { astroNavigate } from "@/libraries/utilities";
 import { request } from "@/libraries/clients";
 import { MusicImFeelingLuckyRoute } from "@/libraries/api";
 
+import { Button } from "@/components/core";
+
 export const MusicFeelingLuckyButton = () => {
 	let buttonRef: HTMLDivElement | undefined;
 
@@ -38,8 +40,8 @@ export const MusicFeelingLuckyButton = () => {
 
 	return (
 		<div ref={buttonRef!}>
-			<button
-				class="border border-blue-500 rounded px-3 py-2 flex items-center gap-1"
+			<Button
+				class="flex items-center gap-1"
 				onClick={getFeelingLuckyPost}
 				disabled={submitting()}
 			>
@@ -53,7 +55,7 @@ export const MusicFeelingLuckyButton = () => {
 					}
 				</div>
 				<span class="font-heading">I'm feeling lucky</span>
-			</button>
+			</Button>
 		</div>
 	)
 }

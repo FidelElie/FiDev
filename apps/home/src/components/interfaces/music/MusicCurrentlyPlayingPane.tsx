@@ -15,7 +15,7 @@ import { generateSpotifyURI } from "@/libraries/utilities";
 import type { SpotifyTrackObject } from "@/libraries/types";
 import { GetCurrentlyPlayingTrackRoute } from "@/libraries/api/music.api";
 
-import { Passthrough, Tooltip } from "@/components/core";
+import { Link, Passthrough, Tooltip } from "@/components/core";
 import { withQueryProvider } from "@/components/providers/withQueryProvider";
 
 type TrackState = { duration: number | null; remaining: number | null; playing: boolean; }
@@ -97,13 +97,13 @@ export const MusicCurrentlyPlayingPane = withQueryProvider(() => {
 		<div class="border border-slate-200 rounded-lg w-full md:w-4/5 min-h-40">
 			<div class="flex items-center p-2.5 justify-between">
 				<div class="flex items-center gap-1">
-					<a
+					<Link
 						href={generateSpotifyURI(AppManifest.links.socials.SPOTIFY)}
 						aria-label="My Spotify profile"
-						class="underline underline-offset-4 decoration-green-600"
+						class="decoration-green-600"
 					>
 						Spotify
-					</a>
+					</Link>
 					<h2 class="font-heading">what's playing?</h2>
 					<Show
 						when={currentPlayingQuery.data}
@@ -166,9 +166,9 @@ export const MusicCurrentlyPlayingPane = withQueryProvider(() => {
 				</Show>
 			</div>
 			<hr class="border-slate-200 border-t"/>
-			<div class="p-2.5 flex items-center gap-3">
+			<div class="p-2.5 flex flex-col gap-3 sm:flex-row sm:items-center">
 				<div
-					class="h-20 w-20 rounded-xl overflow-hidden border border-slate-200 flex items-center justify-center"
+					class="h-20 w-20 rounded-xl overflow-hidden border border-slate-200 flex flex-col items-center justify-center md:flex-row"
 				>
 					<Switch>
 						<Match when={currentPlayingQuery.isSuccess}>

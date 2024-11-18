@@ -1,8 +1,9 @@
-import { createSignal } from "solid-js";
+import { createSignal, For, Show } from "solid-js";
 import { twJoin } from "tailwind-merge";
 import { encode } from "qss";
 
 import { astroNavigate } from "@/libraries/utilities";
+import { Button } from "@/components/core";
 
 export const MusicGenreView = (props: MusicGenreViewProps) => {
 	let genreContainerRef: HTMLDivElement | undefined;
@@ -37,45 +38,35 @@ export const MusicGenreView = (props: MusicGenreViewProps) => {
 	return (
 		<div class="flex flex-col-reverse gap-2 relative md:flex-row">
 			<div class="flex flex-wrap gap-3 flex-grow">
-				{
-					props.genres.map(genre => (
-							<button
+				<For each={props.genres}>
+					{
+						genre => (
+							<Button
 								class={twJoin(
-									"border  rounded-full px-3 py-2 transition-all transform hover:scale-110 text-slate-600 font-heading duration-1000",
+									"border  rounded-full px-3 py-2 transition-all transform hover:scale-110 text-slate-600 duration-1000",
 									genres().includes(genre) ? "border-blue-500" : "border-slate-200"
 								)}
 								onClick={() => handleGenreToggle(genre)}
 							>
 								{genre}
-							</button>
+							</Button>
 						)
-					)
-				}
+					}
+				</For>
 			</div>
-			<div class="sticky top-2 w-full flex-shrink-0  md:w-64 md:relative">
+			<aside class="sticky top-2 w-full flex-shrink-0  md:w-64 md:relative">
 				<div class="sticky top-4 border border-slate-200 bg-white rounded-lg w-full p-5 space-y-3">
 					<span>Genres: {genres().length}</span>
 					<div class="flex items-center gap-3" ref={genreContainerRef}>
-						<button
-							class="bg-blue-500 rounded px-3 py-2 flex font-light gap-1 text-white font-heading disabled:opacity-50"
-							onClick={handleGenresSearch}
-							disabled={submitting() || !genres().length}
-						>
+						<Button onClick={handleGenresSearch} disabled={submitting() || !genres().length}>
 							Search genres
-						</button>
-						{
-							!!genres().length && (
-								<button
-									class="underline decoration-blue-500 underline-offset-2"
-									onClick={clearSelectedGenres}
-								>
-									Clear
-								</button>
-							)
-						}
+						</Button>
+						<Show when={genres().length}>
+							<Button.Link onClick={clearSelectedGenres}>Clear</Button.Link>
+						</Show>
 					</div>
 				</div>
-			</div>
+			</aside>
 		</div>
 	)
 }

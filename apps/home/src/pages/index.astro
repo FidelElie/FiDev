@@ -3,8 +3,10 @@ import { getCollection } from "astro:content";
 
 import { distributeInRandomOrder } from "@fi.dev/typescript";
 
+import { AppManifest } from "@/configs";
+
 import { RootLayout } from "@/pages/_root.layout";
-import { Container, Grid } from "@/components/core";
+import { Container, Grid, Link } from "@/components/core";
 import {
 	MusicProjectEntry,
 	MusicFeelingLuckyButton,
@@ -36,9 +38,9 @@ const randomMusicPosts = distributeInRandomOrder(musicPosts, 3);
 			</Grid>
 			<div class="flex items-center justify-end gap-3" id="nav-container">
 				<MusicFeelingLuckyButton client:visible/>
-				<a href="/music" class="underline underline-offset-2 decoration-blue-500">
-					See all {musicPosts.length} projects
-				</a>
+				<Link href={AppManifest.links.pages["/music"]}>
+					More ({musicPosts.length - 3})
+				</Link>
 			</div>
 			<div>
 				<MusicCurrentlyPlayingPane client:load/>

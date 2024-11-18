@@ -56,7 +56,7 @@ export const SearchPane = withQueryProvider(
 					<input
 						ref={searchRef!}
 						id="search-bar"
-						class="w-full text-3xl font-heading px-0 py-2 flex-grow border-transparent focus:border-transparent focus:ring-0"
+						class="w-full text-lg font-heading px-0 py-2 flex-grow border-transparent focus:border-transparent focus:ring-0 md:text-3xl"
 						placeholder="What would you like to find?..."
 						value={search()}
 						onInput={event => setSearch(event.currentTarget.value)}

@@ -1,5 +1,7 @@
 import type { JSX } from "solid-js";
 
+import { Link } from "@/components/core";
+
 const BaseFooterLinkGroup = (props: FooterLinkGroupProps) => {
 	return (
 		<div>
@@ -14,9 +16,7 @@ const BaseFooterLinkGroup = (props: FooterLinkGroupProps) => {
 export const FooterLink = (props: FooterLinkProps) => {
 	return (
 		<li>
-			<a href={props.href} class="underline decoration-blue-500 underline-offset-2">
-				{props.children}
-			</a>
+			<Link href={props.href}>{props.children}</Link>
 		</li>
 	)
 }

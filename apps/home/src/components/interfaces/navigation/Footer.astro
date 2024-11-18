@@ -3,7 +3,7 @@ import { AppManifest } from "@/configs";
 
 import { generateSpotifyURI } from "@/libraries/utilities";
 
-import { Container } from "@/components/core";
+import { Container, Link } from "@/components/core";
 import { BackToTopButton } from "@/components/interfaces/navigation/_Footer/BackToTopButton";
 import { FooterLinkGroup } from "@/components/interfaces/navigation/_Footer/FooterLinkGroup";
 
@@ -49,36 +49,45 @@ const FOOTER_LINKS = [
 		</div>
 	</Container>
 	<hr class="mt-10 mb-3 border-t border-slate-200"/>
-	<Container class="flex py-2 justify-between">
-		<p class="text-sm text-slate-500">
+	<Container class="flex flex-col-reverse py-2 justify-between md:flex-row gap-5">
+		<p class="text-sm text-slate-600 font-light">
 			Copyright&copy; Fidel Pierre Elie {(new Date()).getFullYear()} - All Rights Reserved
 		</p>
 		<ul class="flex gap-2.5">
 			<li>
-				<a
+				<Link
+					href={AppManifest.links.socials.GITHUB}
+					class="decoration-slate-800 text-sm hover:text-slate-800"
+					target="_blank"
+				>
+					Github
+				</Link>
+			</li>
+			<li>
+				<Link
 					href={AppManifest.links.socials.INSTAGRAM}
-					class="underline decoration-2 underline-offset-4 decoration-pink-500 text-sm text-slate-800"
+					class="decoration-pink-500 text-sm hover:text-pink-500"
 					target="_blank"
 				>
 					Instagram
-				</a>
+				</Link>
 			</li>
 			<li>
-				<a
+				<Link
 					href={AppManifest.links.socials.LINKEDIN}
-					class="underline decoration-2 underline-offset-4 decoration-sky-600 text-sm text-slate-800"
+					class="decoration-sky-600 text-sm hover:text-sky-600"
 					target="_blank"
 				>
 					Linkedin
-				</a>
+				</Link>
 			</li>
 			<li>
-				<a
+				<Link
 					href={generateSpotifyURI(AppManifest.links.socials.SPOTIFY)}
-					class="underline decoration-2 underline-offset-4 decoration-green-600 text-sm text-slate-800"
+					class="decoration-green-600 text-sm hover:text-green-600"
 				>
 					Spotify
-				</a>
+				</Link>
 			</li>
 		</ul>
 	</Container>
