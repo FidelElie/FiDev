@@ -36,7 +36,7 @@ export const SimplifiedMusicArtistSchema = z.object({
 	spotifyId: z.string()
 });
 
-const BaseMusicPostSchema = z.object({
+export const BaseMusicPostSchema = z.object({
 	name: z.string(),
 	slug: z.string().optional(),
 	spotifyId: z.string(),

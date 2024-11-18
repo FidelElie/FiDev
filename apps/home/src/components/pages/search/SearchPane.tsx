@@ -1,5 +1,7 @@
 import { createSignal, For, Match, onMount, Show, Switch } from "solid-js";
 import { createQuery } from "@tanstack/solid-query";
+import { AiOutlineLoading } from "solid-icons/ai";
+import { twJoin } from "tailwind-merge";
 
 import { request } from "@/libraries/clients";
 import { queryParams } from "@/libraries/utilities";
@@ -7,10 +9,11 @@ import { SearchWebsiteRoute } from "@/libraries/api";
 import { useOnDebounce } from "@/libraries/hooks";
 
 import { withQueryProvider } from "@/components/providers";
-import { MusicProjectEntry } from "@/components/interfaces";
 import { Grid } from "@/components/core";
-import { AiOutlineLoading } from "solid-icons/ai";
-import { twJoin } from "tailwind-merge";
+import { MusicPostSearchEntry } from "@/components/pages/search/_SearchPane/MusicPostSearchEntry";
+import {
+	MusicArtistSearchEntry
+} from "@/components/pages/search/_SearchPane/MusicArtistSearchEntry";
 
 export const SearchPane = withQueryProvider(
 	() => {
@@ -73,10 +76,18 @@ export const SearchPane = withQueryProvider(
 						>
 							<Show when={searchQuery.data?.music.length}>
 								<div class="space-y-5">
-									<h2 class="font-heading text-xl text-blue-500">music projects</h2>
+									<h2 class="font-heading text-xl text-blue-500">music</h2>
+									<For each={searchQuery.data?.music || []}>
+										{ entry => <MusicPostSearchEntry post={entry}/> }
+									</For>
+								</div>
+							</Show>
+							<Show when={searchQuery.data?.artists.length}>
+								<div class="space-y-5">
+									<h2 class="font-heading text-xl text-blue-500">artists</h2>
 									<Grid>
-										<For each={searchQuery.data?.music || []}>
-											{ entry => <MusicProjectEntry post={entry}/> }
+										<For each={searchQuery.data?.artists || []}>
+											{ artist => <MusicArtistSearchEntry artist={artist}/> }
 										</For>
 									</Grid>
 								</div>

@@ -5,32 +5,47 @@ import { generateSpotifyURI } from "@/libraries/utilities";
 
 import { Container } from "@/components/core";
 import { BackToTopButton } from "@/components/interfaces/navigation/_Footer/BackToTopButton";
----
+import { FooterLinkGroup } from "@/components/interfaces/navigation/_Footer/FooterLinkGroup";
 
+const FOOTER_LINKS = [
+	{
+		title: "Website",
+		links: [
+			{ href: AppManifest.links.pages["/home"], text: "home" },
+			{ href: AppManifest.links.pages["/search"], text: "search" }
+		]
+	},
+	{
+		title: "Music",
+		links: [
+			{ href: AppManifest.links.pages["/music"], text: "music" },
+			{ href: AppManifest.links.pages["/music/artists"], text: "artists" },
+			{ href: AppManifest.links.pages["/music/genres"], text: "genres" }
+		]
+	}
+];
+---
 <footer class="py-3 border-t border-slate-200 flex flex-col">
 	<Container class="flex flex-col items-start justify-between gap-4 md:flex-row">
 		<BackToTopButton client:visible/>
-		<div class="flex flex-wrap gap-5">
-			<div class="">
-				<p class="font-heading text-lg mb-2">Music</p>
-				<ul class="space-y-1">
-					<li>
-						<a href="/music" class="underline decoration-blue-500 underline-offset-2">
-							projects
-						</a>
-					</li>
-					<li>
-						<a href="/music/artists" class="underline decoration-blue-500 underline-offset-2">
-							artists
-						</a>
-					</li>
-					<li>
-						<a href="/music/genres" class="underline decoration-blue-500 underline-offset-2">
-							genres
-						</a>
-					</li>
-				</ul>
-			</div>
+		<div class="flex flex-wrap gap-12">
+			{
+				FOOTER_LINKS.map(
+					group => (
+						<FooterLinkGroup heading={group.title}>
+							{
+								group.links.map(
+									link => (
+										<FooterLinkGroup.Link href={link.href}>
+											{link.text}
+										</FooterLinkGroup.Link>
+									)
+								)
+							}
+						</FooterLinkGroup>
+					)
+				)
+			}
 		</div>
 	</Container>
 	<hr class="mt-10 mb-3 border-t border-slate-200"/>

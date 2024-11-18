@@ -2,14 +2,13 @@ import { getCollection } from "astro:content";
 
 import { queryParams, paginateEntries, getSpotifyEnv } from "@/libraries/utilities";
 import { createSpotifyClient } from "@/libraries/clients";
-
+import type { MusicPostSchema } from "@/libraries/schemas";
 import {
 	FetchMusicArtistsRoute,
 	FetchMusicGenresRoute,
 	FetchMusicPostsRoute,
 	GetCurrentlyPlayingTrackRoute
 } from "@/libraries/api/music.api";
-import type { MusicPostSchema } from "../schemas";
 
 /**
  *
