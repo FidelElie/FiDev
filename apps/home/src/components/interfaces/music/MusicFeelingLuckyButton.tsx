@@ -2,6 +2,8 @@ import { createSignal } from "solid-js";
 import { BsMusicNote } from 'solid-icons/bs';
 import { AiOutlineLoading } from 'solid-icons/ai';
 
+import { AppManifest } from "@/configs";
+
 import { astroNavigate } from "@/libraries/utilities";
 import { request } from "@/libraries/clients";
 import { MusicImFeelingLuckyRoute } from "@/libraries/api";
@@ -22,7 +24,7 @@ export const MusicFeelingLuckyButton = () => {
 
 			const validatedResponse = responses[200].parse(response);
 
-			const pathname = `/music/${validatedResponse.post.slug}`;
+			const pathname = AppManifest.links.pages["/music/:slug"](validatedResponse.post.slug || "");
 
 			setTimeout(() => {
 				setSubmitting(false);

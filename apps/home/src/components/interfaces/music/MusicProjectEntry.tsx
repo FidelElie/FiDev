@@ -7,12 +7,13 @@ import { ProjectPlaceholderPNG } from "@/assets";
 import type { MusicPostSchema } from "@/libraries/schemas";
 
 import { Passthrough } from "@/components/core";
+import { AppManifest } from "@/configs";
 
 export const MusicProjectEntry = (props: MusicProjectEntryProps) => (
 	<Passthrough
 		layout={children => (
 			<a
-				href={`/music/${props.post?.slug}`}
+				href={AppManifest.links.pages["/music/:slug"](props.post?.slug || "")}
 				aria-label={`${props.post?.artists[0].name} - ${props.post?.name}`}
 			>
 				{children}

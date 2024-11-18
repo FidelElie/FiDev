@@ -5,13 +5,14 @@ import type { MusicArtistSchema } from "@/libraries/schemas";
 
 import { Passthrough } from "@/components/core";
 import { ProjectPlaceholderPNG } from "@/assets";
+import { AppManifest } from "@/configs";
 
 export const MusicArtistEntry = (props: MusicArtistEntryProps) => {
 	return (
 		<Passthrough
 			layout={children => (
 				<a
-						href={`/music/artists/${props.artist?.slug}`}
+						href={AppManifest.links.pages["/music/artists/:slug"](props.artist?.slug || "")}
 						class="group flex flex-row items-center gap-3 rounded-lg"
 					>
 						{children}

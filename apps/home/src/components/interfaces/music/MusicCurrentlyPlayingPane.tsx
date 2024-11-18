@@ -146,7 +146,7 @@ export const MusicCurrentlyPlayingPane = withQueryProvider(() => {
 									triggerAs="span"
 									trigger={(
 										<a
-											href={`/music/${post.slug}`}
+											href={AppManifest.links.pages["/music/:slug"](post.slug)}
 											class="text-sm flex items-center justify-center bg-blue rounded h-5 w-5 bg-blue-500"
 										>
 											{
@@ -217,7 +217,9 @@ export const MusicCurrentlyPlayingPane = withQueryProvider(() => {
 									<Passthrough
 										layout={children => (
 											<a
-												href={`/music/artists/${currentPlayingQuery.data?.artist.slug}`}
+												href={AppManifest.links.pages["/music/artists/:slug"](
+													currentPlayingQuery.data?.artist.slug || ""
+												)}
 												class="underline underline-offset-4 decoration-blue-500"
 											>
 												{children}
