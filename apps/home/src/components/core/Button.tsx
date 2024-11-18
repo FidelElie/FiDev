@@ -2,7 +2,8 @@ import type { JSX } from "solid-js"
 import { twMerge } from "tailwind-merge";
 import type { VariantProps } from "class-variance-authority";
 
-import { ButtonConfig, LinkConfig } from "../configs";
+import { ButtonConfig } from "@/components/core/Button.config";
+import { LinkConfig } from "@/components/core/Link.config";
 
 const ButtonConfigMap = {
 	button: ButtonConfig,
