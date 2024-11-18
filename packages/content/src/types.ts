@@ -41,6 +41,10 @@ export type ContentPostEntry<T> = {
 	*/
 	path?: string | (() => PromiseOrNot<string>);
 	/**
+ 	*
+ 	*/
+	hooks?: ContentHook[];
+	/**
 	* Optional validator for post information
 	*/
 	validator?: (input: unknown) => PromiseOrNot<T>;
@@ -72,7 +76,7 @@ export type PostEditContext<T> = (
 >;
 
 export type PostPublishContext<T> = (
-	context: { entries: PublishPostEntry<T>[]; action: "publish" | "unpublish" }
+	context: { entries: PublishPostEntry<T>[]; }
 ) => PromiseOrNot<void>;
 
-export type PublishPostEntry<T> = { post: ContentPostEntry<T>; date: Date };
+export type PublishPostEntry<T> = { post: T; date: Date };

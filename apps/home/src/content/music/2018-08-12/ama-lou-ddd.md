@@ -42,8 +42,8 @@ tracks:
 This has been a great year for R'n'B and all its subsidiaries. And after Carlos has been
 pestering me to listen to this project. With it being some of the best things hes listened
 to in a while. And after listening to it he was right, this three song EP is up there with
-some of the other great EP. It gives the likes of some of my favorites so far like Sir-
-November a run for its money, in pure quality terms. Each of the songs on it have a very
+some of the other great EP. It gives the likes of some of my favorites so far like :post[music/2018-02-08/sir-november:Sir - November]
+a run for its money, in pure quality terms. Each of the songs on it have a very
 distinct feel to them. With the influences changing as you go through it. From a more
 focused R'n'B song in Tried Up to a very jazz influenced song in Wire (my favorite song
 by miles, I'm a sucker for horns).

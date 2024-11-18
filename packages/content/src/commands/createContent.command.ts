@@ -4,10 +4,9 @@ import fs from "node:fs/promises";
 import matter from "gray-matter";
 import { select } from "@inquirer/prompts";
 
-import { ensureDirExists } from "@fi.dev/typescript";
-
 import { onCreatePrompt } from "../prompts";
 import type { ContentConfig } from "../types";
+import { ensureDirExists } from "../utilities";
 
 export const createContentCommand = async (
 	context: { config: ContentConfig; type?: string; }
@@ -78,12 +77,21 @@ export const createContentCommand = async (
 		)
 	);
 
-	const creationHooks = (hooks || []).map(
+	const entryCreationHooks = (entry.hooks || []).map(
 		hook => hook.events.includes("create") ? hook.onEvent(entriesWithPaths) : []
 	).flat();
 
-	if (creationHooks.length) {
-		console.log("Running creation hooks");
-		await Promise.all(creationHooks);
+	const globalCreationHooks = (hooks || []).map(
+		hook => hook.events.includes("create") ? hook.onEvent(entriesWithPaths) : []
+	).flat();
+
+	if (entryCreationHooks.length) {
+		console.log("Running entry creation hooks");
+		Promise.allSettled(entryCreationHooks);
+	}
+
+	if (globalCreationHooks.length) {
+		console.log("Running global creation hooks");
+		Promise.allSettled(globalCreationHooks);
 	}
 }

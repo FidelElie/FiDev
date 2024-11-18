@@ -215,6 +215,50 @@ export type SpotifyCopyrightObject = { text: string; type: string; };
 
 export type SpotifyNarratorObject = { name: string; };
 
+export type SpotifyPlaybackObject=  {
+	device: {
+		id: string;
+		is_active: boolean;
+		is_private_session: boolean;
+		is_restricted: boolean;
+		name: string;
+		type: string;
+		volume_percent: number | null;
+		supports_volume: boolean;
+	};
+	repeat_state: "off" | "track" | "context";
+	shuffle_state: boolean;
+	context: {
+		type: "artist" | "playlist" | "album" | "show";
+		href: string;
+		external_urls: {
+			spotify: string;
+		};
+		uri: string;
+	} | null;
+	timestamp: number;
+	progress_ms: number;
+	is_playing: number;
+	item: (
+		SpotifyTrackObject |
+		SpotifySimplifiedEpisodeObject
+	) | null;
+	currently_playing_type: "track" | "episode" | "ad" | "unknown";
+	actions: {
+		interrupting_playback?: boolean;
+		pausing: boolean;
+		resuming: boolean;
+		seeking: boolean;
+		skipping_next: boolean;
+		skipping_prev: boolean;
+		toggling_repeat_context: boolean;
+		toggling_shuffle: boolean;
+		toggling_repeat_track: boolean;
+		transferring_playback: boolean;
+	}
+};
+
+
 // ! Endpoint Types
 type SpotifyResponsePayload<T> = {
 	href: string;
@@ -254,8 +298,16 @@ export type SpotifyConfigs = {
 	};
 	getArtist: { id: string; market?: AvailableMarkets[number]; };
 	getArtists: { ids: string[] | string; };
-	getTrack: { id: string; market?: AvailableMarkets[number]; };
+	getTrack: { params: { trackId: string; }; query?: { market?: AvailableMarkets[number]; } };
 	getTracks: { ids: string[] | string; };
+	getPlaybackState: {
+		market?: AvailableMarkets[number];
+		additional_types?: string;
+	};
+	getCurrentlyPlayingTrack: {
+		market?: AvailableMarkets[number];
+		additional_types?: string;
+	};
 };
 
 export type SpotifyResponses = {
@@ -288,4 +340,6 @@ export type SpotifyResponses = {
 	getArtists: { artists: SpotifyArtistObject[]; };
 	getTrack: SpotifyTrackObject;
 	getTracks: { tracks: SpotifyTrackObject[]; };
+	getPlaybackState: SpotifyPlaybackObject;
+	getCurrentlyPlayingTrack: Omit<SpotifyPlaybackObject, "repeat_state" | "shuffle_state">;
 };

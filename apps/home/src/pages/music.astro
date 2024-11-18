@@ -1,73 +1,45 @@
 ---
-import { getCollection } from "astro:content";
+import { AppManifest } from "@/configs";
 
-import { paginateEntries } from "@/libraries/utilities";
+import { fetchMusicGenres, fetchMusicProjects } from "@/libraries/server";
 
-import { Container } from "@/components/core";
-import { MusicPostLink, Pagination } from "@/components/interfaces";
+import { Container, Link } from "@/components/core";
+import { MusicCurrentlyPlayingPane } from "@/components/interfaces";
+import { MusicProjectsView } from "@/components/pages/music/index/MusicProjectsView";
 import { RootLayout } from "@/pages/_root.layout";
 
-export const prerender = false;
-
-const musicPosts = await getCollection("music");
-
-const { url } = Astro.request;
-
-const currentUrl = new URL("", url);
-
-const query = currentUrl.searchParams;
-
-const { currentPage, size } = await (async () => {
-	if (Astro.request.method !== "POST") {
-		return {
-			currentPage: query.get("page"),
-			size: query.get("size"),
-		}
-	}
-
-	const data = await Astro.request.formData();
-
-	return {
-		currentPage: data.get("page"),
-		size: undefined
-	}
-})();
-
-const { items: posts, pagination } = paginateEntries(
-	musicPosts,
-	{ page: currentPage, size, url, defaultSize: 12 }
-);
+const [initialProjects, genres] = await Promise.all([
+	fetchMusicProjects(Astro.request),
+	fetchMusicGenres(Astro.request)
+]);
 ---
 <RootLayout title="Music">
-	<Container class="pt-10 pb-32 min-h-screen space-y-5">
-		<div class="space-y-1">
-			<h1 class="font-heading text-5xl tracking-tighter">music</h1>
-			<h2 class="text-lg font-light tracking-tight text-blue-500">
-				What I have listened to - one project at a time
-			</h2>
+	<Container class="pt-10 pb-32 min-h-screen space-y-5 flex flex-col">
+		<div class="flex flex-col justify-between gap-2">
+			<div class="flex flex-col space-y-1">
+				<h1 class="font-heading text-5xl tracking-tighter">music</h1>
+				<h2 class="text-lg font-light font-heading tracking-tight text-blue-500">
+					Find something new to listen to
+				</h2>
+			</div>
 		</div>
-		{
-			posts.length ? (
-				<div class="grid grid-flow-row grid-cols-1 item md:grid-cols-2 lg:grid-cols-3 gap-5">
-					{
-						posts.length ? (
-							posts.map(post => (
-								<MusicPostLink post={{...post.data, slug: post.slug }}/>
-							))
-						) : (
-							<div>
-								<h1 class="text-4xl font-heading">No posts found</h1>
-							</div>
-						)
-					}
-				</div>
-				<hr class="border-t border-slate-200 my-10"/>
-				<Pagination pagination={pagination} currentPage={pagination.page}/>
-			) : (
-				<div>
-					<h1 class="text-4xl font-heading">No posts found</h1>
-				</div>
-			)
-		}
+		<div class="flex items-center gap-2">
+			<Link.Button href={AppManifest.links.pages["/music/artists"]}>
+				Search by artists
+			</Link.Button>
+			<Link.Button href={AppManifest.links.pages["/music/genres"]}>
+				Search by genres
+			</Link.Button>
+		</div>
+		<div>
+			<MusicCurrentlyPlayingPane client:load/>
+		</div>
+		<div class="flex flex-grow astro:flex-grow astro:block">
+			<MusicProjectsView
+				initial={[initialProjects]}
+				genres={genres.items}
+				client:load
+			/>
+		</div>
 	</Container>
 </RootLayout>

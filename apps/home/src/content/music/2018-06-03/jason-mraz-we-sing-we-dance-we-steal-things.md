@@ -1,7 +1,7 @@
 ---
 name: We Sing. We Dance. We Steal Things.
 slug: jason-mraz-we-sing-we-dance-we-steal-things
-spotifyId: 04G0YylSjvDQZrjOfE5jA5
+spotifyId: 1UwzOp5hn3lAbOqsAfXBw8
 spotifyUrl: 'https://open.spotify.com/album/04G0YylSjvDQZrjOfE5jA5'
 artists:
   - slug: jason-mraz

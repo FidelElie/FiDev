@@ -30,12 +30,7 @@ genres:
   - underground hip hop
 type: TRACK
 ---
-I didn't even know these two did a collaboration, but I'm feeling it, they fit really well
-together. The piano at the forefront of the beat, the vocals provided by Uncle Sego for the
-hook. The rapping and singing contributed by Boogie leads to a very chill track. This is
-all while telling the story of something that is far from chill. It is a great listen,
-that I have been listening to on repeat for a good few weeks now. I would love to see them
-collab again, I would think that fire would ensue once more.
+I didn't even know these two did a collaboration, but I'm feeling it, they fit really well together. The piano at the forefront of the beat, the vocals provided by Uncle Sego for the hook. The rapping and singing contributed by Boogie leads to a very chill track. This is all while telling the story of something that is far from that mood. It is a great listen, that I have been listening to on repeat for a good few weeks now. I would love to see them collab again, I would think that fire would ensue once more.
 
 > Ain't no full moon You was doing all that "woofing" shit like too soon
 - taken from Violence

@@ -11,10 +11,12 @@ export const request = async <T>(context: RequestContext<T>) => {
 
 	const request = await fetch(url, fetchConfig);
 
-	if (request.status >= 400) {
+	if (!request.ok) {
 		const value = request.body ? await request.json() : null;
 		const message = `Request failed with status ${request.status}`;
-		throw !value ? new Error(message) : { ...value, status: request.status, message };
+		throw !value ? new Error(message) : new Error(
+			JSON.stringify({ ...value, status: request.status, message }, null, 2)
+		);
 	}
 
 	const response = request.status !== 204 ? await request.json() : null;

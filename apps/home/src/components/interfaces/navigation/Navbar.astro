@@ -1,21 +1,26 @@
 ---
-import { Container } from "@/components/core";
+import { AppManifest } from "@/configs";
+
+import { Container, Link } from "@/components/core";
 ---
 <header class="py-3 border-b border-slate-200">
 	<Container as="nav" class="flex items-center justify-between">
-		<a href="/" class="p-0.5 px-2 border rounded-lg font-light font-heading">
+		<Link
+			href={AppManifest.links.pages["/home"]}
+			class="p-0.5 px-2 border rounded-lg font-heading border-slate-200 transition-colors duration-700 hover:border-blue-500"
+		>
 			FiPE
-		</a>
+		</Link>
 		<ul class="flex items-center gap-2.5">
 			<li>
-				<a href="/music" class="underline decoration-blue-500 underline-offset-2">
+				<Link href={AppManifest.links.pages["/music"]}>
 					music
-				</a>
+				</Link>
 			</li>
 			<li>
-				<a href="/music/artists" class="underline decoration-blue-500 underline-offset-2">
-					artists
-				</a>
+				<Link href={AppManifest.links.pages["/search"]}>
+					search
+				</Link>
 			</li>
 		</ul>
 	</Container>

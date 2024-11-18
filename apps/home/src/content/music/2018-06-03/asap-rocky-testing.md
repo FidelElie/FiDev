@@ -1,10 +1,10 @@
 ---
 name: TESTING
-slug: aap-rocky-testing
+slug: aasp-rocky-testing
 spotifyId: 3MATDdrpHmQCmuOcozZjDa
 spotifyUrl: 'https://open.spotify.com/album/3MATDdrpHmQCmuOcozZjDa'
 artists:
-  - slug: aap-rocky
+  - slug: asap-rocky
     name: A$AP Rocky
     spotifyId: 13ubrt8QOOCPljQ2FL1Kca
 covers:

@@ -7,24 +7,13 @@ import { getEntriesFromFilePaths, getPostPathsFromConfig } from "../utilities";
 import { datePrompt } from "../prompts";
 
 export const publishContentCommand = async (
-	context: { config: ContentConfig; filter?: string; unpublish?: boolean }
+	context: { config: ContentConfig; filter?: string }
 ) => {
-	const { config, filter, unpublish } = context;
+	const { config, filter } = context;
 
 	if (!config.onPublish) {
 		return console.error("No publish handler has been registered - add an onPublish to config");
 	}
-
-	const unpublishPosts = await (async () => {
-		if (unpublish !== undefined) { return unpublish; }
-
-		return confirm({
-			message: "Would you like to unpublish posts instead?",
-			default: false
-		});
-	})();
-
-	const action = unpublishPosts ? "unpublish" : "publish";
 
 	const chosenPostFilter = await (async () => {
 		if (filter) { return filter; }
@@ -32,7 +21,7 @@ export const publishContentCommand = async (
 		if (config.entries.length === 1) { return config.entries[0].id; }
 
 		return select({
-			message: `Choose what lists to ${action} from`,
+			message: `Choose what lists to publish from`,
 			choices: [
 				...config.entries.map(entryPath => ({ name: entryPath.name, value: entryPath.id })),
 				new Separator(),
@@ -47,12 +36,11 @@ export const publishContentCommand = async (
 
 	const ids = chosenPostFilter ? [chosenPostFilter] : config.entries.map(entryPath => entryPath.id);
 
-	const entryPaths = getPostPathsFromConfig({ config, ids });
+	const entryPaths = getPostPathsFromConfig({ config, ids }).filter(
+		entryPath => entryPath.includes(`.${config.type || "md"}`)
+	);
 
-	const actionAll = await confirm({
-		message: `${action} all posts?`,
-		default: true
-	});
+	const actionAll = await confirm({ message: `Publish all posts?`, default: true });
 
 	const postsToAction = await (async () => {
 		if (actionAll) {
@@ -60,22 +48,15 @@ export const publishContentCommand = async (
 		}
 
 		const chosenPaths = await checkbox({
-			message: `Choose the posts you would like to ${action}`,
+			message: `Choose the posts you would like to publish`,
 			choices: entryPaths.map(entryPath => ({
 				value: entryPath,
-				name: path.basename(entryPath)
+				name: `${path.basename(entryPath)} [${entryPath}]`
 			}))
 		});
 
 		return getEntriesFromFilePaths(chosenPaths);
 	})();
-
-	if (action == "unpublish") {
-		const currentDate = new Date();
-		const entries = postsToAction.map(post=> ({ post, date: currentDate }));
-
-		return config.onPublish({ entries, action: "unpublish" });
-	}
 
 	const allSamePublishDate = await confirm({
 		message: `Use today as publish date?`,
@@ -89,19 +70,33 @@ export const publishContentCommand = async (
 			return postsToAction.map(post => ({ post, date: currentDate }));
 		}
 
-		let entryPosts: PublishPostEntry<unknown>[] = [];
+		const allPostsHaveSameDate = await confirm({
+			message: "All posts have same custom date?",
+			default: true
+		});
 
-		for (const post of postsToAction) {
-			const date = await datePrompt();
+		const entriesToPublish = await (async () => {
+			if (allPostsHaveSameDate) {
+				const date = await datePrompt();
 
-			entryPosts.push({ post, date });
-		}
+				return postsToAction.map(post => ({ post, date }));
+			}
 
-		return entryPosts;
+			let entryPosts: PublishPostEntry<unknown>[] = [];
+
+			for (const post of postsToAction) {
+				const date = await datePrompt();
+
+				entryPosts.push({ post, date });
+			}
+
+			return entryPosts;
+		})();
+
+		return entriesToPublish;
 	})();
 
 	return config.onPublish({
 		entries: entriesWithDates,
-		action: !unpublish ? "publish" : "unpublish"
 	});
 }

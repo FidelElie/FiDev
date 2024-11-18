@@ -3,10 +3,8 @@ import path from "node:path";
 import trash from "trash";
 import { confirm, select } from "@inquirer/prompts";
 
-import { ensureDirExists } from "@fi.dev/typescript";
-
 import { ContentConfig } from "../types";
-import { getPostsPathsFromRootDir } from "../utilities";
+import { getPostsPathsFromRootDir, ensureDirExists } from "../utilities";
 
 export const deleteContentCommand = async (
 	context: { config: ContentConfig; type?: string }
@@ -42,7 +40,7 @@ export const deleteContentCommand = async (
 
 	ensureDirExists(postDirPath);
 
-	const posts = await getPostsPathsFromRootDir(postDirPath);
+	const posts = getPostsPathsFromRootDir(postDirPath);
 
 	if (!posts.length) {
 		return console.log("No posts were found to delete");
@@ -70,12 +68,21 @@ export const deleteContentCommand = async (
 
 	console.log(`Post ${path.basename(deleteFilePath)} move to recycle bin`);
 
-	const deletionHooks = (hooks || []).map(
+	const entryDeletionHooks = (entry.hooks || []).map(
 		hook => hook.events.includes("delete") ? hook.onEvent : []
 	).flat();
 
-	if (deletionHooks.length) {
-		console.log("Running deletion hooks");
-		await Promise.all(deletionHooks);
+	const globalDeletionHooks = (hooks || []).map(
+		hook => hook.events.includes("delete") ? hook.onEvent : []
+	).flat();
+
+	if (entryDeletionHooks.length) {
+		console.log("Running entry deletion hooks");
+		Promise.allSettled(entryDeletionHooks)
+	}
+
+	if (globalDeletionHooks.length) {
+		console.log("Running global deletion hooks");
+		Promise.allSettled(globalDeletionHooks);
 	}
 }

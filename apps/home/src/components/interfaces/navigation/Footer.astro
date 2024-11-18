@@ -1,48 +1,94 @@
 ---
-import { SiSpotify } from "solid-icons/si";
-
 import { AppManifest } from "@/configs";
 
 import { generateSpotifyURI } from "@/libraries/utilities";
 
-import { Container } from "@/components/core";
-
+import { Container, Link } from "@/components/core";
 import { BackToTopButton } from "@/components/interfaces/navigation/_Footer/BackToTopButton";
----
+import { FooterLinkGroup } from "@/components/interfaces/navigation/_Footer/FooterLinkGroup";
 
+const FOOTER_LINKS = [
+	{
+		title: "Website",
+		links: [
+			{ href: AppManifest.links.pages["/home"], text: "home" },
+			{ href: AppManifest.links.pages["/search"], text: "search" }
+		]
+	},
+	{
+		title: "Music",
+		links: [
+			{ href: AppManifest.links.pages["/music"], text: "music" },
+			{ href: AppManifest.links.pages["/music/artists"], text: "artists" },
+			{ href: AppManifest.links.pages["/music/genres"], text: "genres" }
+		]
+	}
+];
+---
 <footer class="py-3 border-t border-slate-200 flex flex-col">
-	<Container class="flex flex-col items-start justify-between md:flex-row">
+	<Container class="flex flex-col items-start justify-between gap-4 md:flex-row">
 		<BackToTopButton client:visible/>
-		<div class="flex flex-wrap gap-5">
-			<div class="">
-				<p class="font-heading text-lg mb-2">Music</p>
-				<ul class="space-y-1">
-					<li>
-						<a href="/music" class="underline decoration-blue-500 underline-offset-2">
-							projects
-						</a>
-					</li>
-					<li>
-						<a href="/music/artists" class="underline decoration-blue-500 underline-offset-2">
-							artists
-						</a>
-					</li>
-				</ul>
-			</div>
+		<div class="flex flex-wrap gap-12">
+			{
+				FOOTER_LINKS.map(
+					group => (
+						<FooterLinkGroup heading={group.title}>
+							{
+								group.links.map(
+									link => (
+										<FooterLinkGroup.Link href={link.href}>
+											{link.text}
+										</FooterLinkGroup.Link>
+									)
+								)
+							}
+						</FooterLinkGroup>
+					)
+				)
+			}
 		</div>
 	</Container>
 	<hr class="mt-10 mb-3 border-t border-slate-200"/>
-	<Container class="flex py-2 justify-between">
-		<p class="text-sm text-slate-500">
+	<Container class="flex flex-col-reverse py-2 justify-between md:flex-row gap-5">
+		<p class="text-sm text-slate-600 font-light">
 			Copyright&copy; Fidel Pierre Elie {(new Date()).getFullYear()} - All Rights Reserved
 		</p>
-		<div class="flex gap-2">
-			<a
-				href={generateSpotifyURI(AppManifest.links.socials.SPOTIFY)}
-				aria-label="Check my profile"
-			>
-				<SiSpotify class="text-xl text-green-600"/>
-			</a>
-		</div>
+		<ul class="flex gap-2.5">
+			<li>
+				<Link
+					href={AppManifest.links.socials.GITHUB}
+					class="decoration-slate-800 text-sm hover:text-slate-800"
+					target="_blank"
+				>
+					Github
+				</Link>
+			</li>
+			<li>
+				<Link
+					href={AppManifest.links.socials.INSTAGRAM}
+					class="decoration-pink-500 text-sm hover:text-pink-500"
+					target="_blank"
+				>
+					Instagram
+				</Link>
+			</li>
+			<li>
+				<Link
+					href={AppManifest.links.socials.LINKEDIN}
+					class="decoration-sky-600 text-sm hover:text-sky-600"
+					target="_blank"
+				>
+					Linkedin
+				</Link>
+			</li>
+			<li>
+				<Link
+					href={generateSpotifyURI(AppManifest.links.socials.SPOTIFY)}
+					class="decoration-green-600 text-sm hover:text-green-600"
+				>
+					Spotify
+				</Link>
+			</li>
+		</ul>
 	</Container>
 </footer>

@@ -32,7 +32,8 @@ am at a loss but I definitely can remember the hook:
 
 > I ain't been to church in like 53 Sundays Ni**a
 > I'm doing road.
+- Taken from 53 Sundays
 
-Maybe its the delivery of it or that the beat i cool, but I'm really digging the hook so
+Maybe its the delivery of it or that the beat is cool, but I'm really digging the hook so
 this song has remained in my listening rotation for the past few weeks. And it shows no
 signs of being removed, give it a listen maybe you will like it as well.

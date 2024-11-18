@@ -4,8 +4,8 @@ export const BackToTopButton = () => {
 	}
 
 	return (
-		<button id="back-to-top" onClick={goToTop}>
-			Back to top
+		<button id="back-to-top" class="font-heading" onClick={goToTop}>
+			Back to top <span class="text-blue-500">^</span>
 		</button>
 	)
 }

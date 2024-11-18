@@ -11,7 +11,7 @@ import vercel from "@astrojs/vercel/serverless";
 import {
   PostDirective,
   remarkRegExpDirective,
-  YoutubeEmbedDirective
+  YoutubeEmbedDirective,
 } from "./src/libraries/plugins";
 
 const { PORT, FLAGS } = loadEnv(process.env.NODE_ENV || "", process.cwd(), "");
@@ -19,12 +19,14 @@ const { PORT, FLAGS } = loadEnv(process.env.NODE_ENV || "", process.cwd(), "");
 export default defineConfig({
   output: "hybrid",
   devToolbar: { enabled: !!FLAGS?.includes("TOOLBAR"), },
-
   server: {
-    port: PORT ? Number(PORT) : 3000
+    port: PORT ? Number(PORT) : 3000,
   },
 
-  integrations: [tailwind({ applyBaseStyles: true }), solidJs({})],
+  integrations: [
+    tailwind({ applyBaseStyles: true }),
+    solidJs({ devtools: !!FLAGS?.includes("DEVTOOLS")})
+  ],
 
   image: {
     domains: ["https://i.scdn.co/image/"]

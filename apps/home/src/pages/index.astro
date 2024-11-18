@@ -3,9 +3,15 @@ import { getCollection } from "astro:content";
 
 import { distributeInRandomOrder } from "@fi.dev/typescript";
 
+import { AppManifest } from "@/configs";
+
 import { RootLayout } from "@/pages/_root.layout";
-import { Container, Grid } from "@/components/core";
-import { MusicPostLink } from "@/components/interfaces";
+import { Container, Grid, Link } from "@/components/core";
+import {
+	MusicProjectEntry,
+	MusicFeelingLuckyButton,
+	MusicCurrentlyPlayingPane
+} from "@/components/interfaces";
 
 const musicPosts = await getCollection("music");
 
@@ -15,23 +21,29 @@ const randomMusicPosts = distributeInRandomOrder(musicPosts, 3);
 	<Container class="py-10">
 		<div class="flex flex-col space-y-5">
 			<div class="space-y-1">
-				<h2 class="text-4xl font-heading">music</h2>
-				<h3 class="text-lg font-light tracking-tight text-blue-500">
-					My thoughts on music old and new
+				<h2 class="text-5xl font-heading">music</h2>
+				<h3 class="text-lg font-light font-heading tracking-tight text-blue-500">
+					My latest thoughts on various music projects
 				</h3>
 			</div>
 			<Grid>
-				{ randomMusicPosts.map(post => (
-					<MusicPostLink
-						post={{ ...post.data, slug: post.slug} }
-						info={false}
-					/>
-				)) }
+				{
+					randomMusicPosts.map(post => (
+						<MusicProjectEntry
+							post={{ ...post.data, slug: post.slug} }
+							info={false}
+						/>
+					))
+				}
 			</Grid>
-			<div class="flex justify-end">
-				<a href="/music" class="underline decoration-blue-500">
-					See all posts
-				</a>
+			<div class="flex items-center justify-end gap-3" id="nav-container">
+				<MusicFeelingLuckyButton client:visible/>
+				<Link href={AppManifest.links.pages["/music"]}>
+					More ({musicPosts.length - 3})
+				</Link>
+			</div>
+			<div>
+				<MusicCurrentlyPlayingPane client:load/>
 			</div>
 		</div>
 	</Container>

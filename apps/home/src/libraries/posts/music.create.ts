@@ -8,18 +8,20 @@ import {
 	onCreatePromptWithFallback,
 	type PostCreationContext
 } from "@fi.dev/content";
+import { sanitiseToURLSlug } from "@fi.dev/typescript";
 
 import { getSpotifyEnv } from "@/libraries/utilities";
 import { createSpotifyClient } from "@/libraries/clients";
-import { MusicPostMetadata, MusicPostRatingMap, MusicPostSchema } from "@/libraries/schemas";
+import { MusicPostSchema } from "@/libraries/schemas";
+import { MusicPostMetadata, MusicPostRatingMap } from "@/libraries/constants";
 import type {
 	SpotifyTrackObject,
 	SpotifyArtistObject,
 	SpotifySimplifiedAlbumObject
 } from "@/libraries/types";
-import { sanitiseToURLSlug } from "@fi.dev/typescript";
 
-export const onCreateMusicPost: PostCreationContext<MusicPostSchema> = async ({ entry }) => {
+
+export const onCreateMusicPost: PostCreationContext<MusicPostSchema> = async () => {
 	const spotifyClient = createSpotifyClient(getSpotifyEnv());
 
 	await spotifyClient.refreshAccessToken();
@@ -73,11 +75,11 @@ export const onCreateMusicPost: PostCreationContext<MusicPostSchema> = async ({ 
 
 	switch (chosenValue.type) {
 		case "album":
-			return handleAlbumPostCreation(chosenValue, entry.id, spotifyClient);
+			return handleAlbumPostCreation(chosenValue, spotifyClient);
 		case "artist":
-			return handleArtistPostCreation(chosenValue, entry.id, spotifyClient);
+			return handleArtistPostCreation(chosenValue, spotifyClient);
 		case "track":
-			return handleTrackPostCreation(chosenValue, entry.id, spotifyClient);
+			return handleTrackPostCreation(chosenValue, spotifyClient);
 		default:
 			throw new Error(`Cannot handle type from search, got ${chosenValue.type}`);
 	}
@@ -85,7 +87,6 @@ export const onCreateMusicPost: PostCreationContext<MusicPostSchema> = async ({ 
 
 const handleArtistPostCreation = async (
 	entry: SpotifyArtistObject,
-	base: string,
 	client: ReturnType<typeof createSpotifyClient>
 ) => {
 	const artistId = entry.id;
@@ -106,7 +107,7 @@ const handleArtistPostCreation = async (
 		default: true
 	});
 
-	if (pickAlbum) { return handleAlbumPostCreation(artistEntry, base, client); }
+	if (pickAlbum) { return handleAlbumPostCreation(artistEntry, client); }
 
 	const { items: albumTracks } = await client.getAlbumTracks({ id: entry.id });
 
@@ -123,12 +124,11 @@ const handleArtistPostCreation = async (
 
 	if (!track) { throw new Error(`Could not find track with ID ${trackId}`); }
 
-	return handleTrackPostCreation(track, base, client);
+	return handleTrackPostCreation(track, client);
 }
 
 const handleAlbumPostCreation = async (
 	entry: SpotifySimplifiedAlbumObject,
-	base: string,
 	client: ReturnType<typeof createSpotifyClient>
 ) => {
 	const albumId = entry.id;
@@ -184,7 +184,6 @@ const handleAlbumPostCreation = async (
 
 const handleTrackPostCreation = async (
 	entry: SpotifyTrackObject,
-	base: string,
 	client: ReturnType<typeof createSpotifyClient>
 ) => {
 	const trackSlug = await onCreatePromptWithFallback(`${entry.artists[0].name} ${entry.name}`);

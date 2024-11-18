@@ -1,57 +1,49 @@
 ---
-import type { paginateEntries } from '@/libraries/utilities'
+import type { PageIndicatorProps } from './_Pagination/PageIndicator';
+import { PageIndicator } from './_Pagination/PageIndicator';
 
-export interface Props {
-	pagination: ReturnType<typeof paginateEntries>["pagination"];
-	currentPage: string | number;
-}
-
-const { pagination, currentPage } = Astro.props;
+export interface Props extends PageIndicatorProps {}
 ---
-<div class="flex items-center gap-5">
-	{
-		pagination.first && (
-			<a href={pagination.first} class="underline decoration-blue-500">
-				first
-			</a>
+<div class="flex items-center gap-6" id="pagination">
+	<!-- {
+		(pagination.first || pagination.previous) && (
+			<div class="flex items-center gap-4">
+				{
+					pagination.first && (
+						<a href={pagination.first} class="underline decoration-blue-500">
+							first
+						</a>
+					)
+				}
+				{
+					pagination.previous && (
+						<a href={pagination.previous} class="underline decoration-blue-500">
+							prev
+						</a>
+					)
+				}
+			</div>
 		)
-	}
-	{
-		pagination.previous && (
-			<a href={pagination.previous} class="underline decoration-blue-500">
-				prev
-			</a>
+	} -->
+	<PageIndicator {...Astro.props} client:visible/>
+	<!-- {
+		(pagination.next || pagination.last) && (
+			<div class="flex items-center gap-4">
+				{
+					pagination.next && (
+						<a href={pagination.next} class="underline decoration-blue-500">
+							next
+						</a>
+					)
+				}
+				{
+					pagination.last && (
+						<a href={pagination.last} class="underline decoration-blue-500">
+							last
+						</a>
+					)
+				}
+			</div>
 		)
-	}
-	<form class="bg-blue-500 w-10 h-10 rounded-full text-white flex items-center justify-center font-heading">
-		<label class="sr-only" for="page-indicator">Page</label>
-		<select
-			id="page-indicator"
-			name="page"
-			class="border-slate-200 text-blue-500 rounded-lg"
-			onchange="this.form.submit()"
-		>
-			{
-				new Array(pagination.pages || 1).fill(null).map((_, page) => (
-					<option value={page + 1} selected={String(page + 1) === String(currentPage)}>
-						{page + 1}
-					</option>
-				))
-			}
-		</select>
-	</form>
-	{
-		pagination.next && (
-			<a href={pagination.next} class="underline decoration-blue-500">
-				next
-			</a>
-		)
-	}
-	{
-		pagination.last && (
-			<a href={pagination.last} class="underline decoration-blue-500">
-				last
-			</a>
-		)
-	}
+	} -->
 </div>

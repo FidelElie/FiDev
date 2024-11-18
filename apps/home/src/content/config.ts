@@ -1,12 +1,11 @@
 import { defineCollection, getCollection } from "astro:content";
 
-import { distributeToBuckets, sanitiseToURLSlug } from "@fi.dev/typescript";
+import { sanitiseToURLSlug } from "@fi.dev/typescript";
 
 import { MusicArtistSchema, MusicPostSchema } from "@/libraries/schemas";
 
 import { getSpotifyEnv } from "@/libraries/utilities";
 import { createSpotifyClient } from "@/libraries/clients";
-import type { SpotifyArtistObject } from "@/libraries/types";
 
 const music = defineCollection({
 	type: "content",
@@ -29,19 +28,11 @@ const artists = defineCollection({
 			new Map(flattenedMusicArtists.map(entry => [entry.spotifyId, entry])).values()
 		);
 
-		let artists: SpotifyArtistObject[] = [];
+		const artists = await spotifyClient.getArtists({
+			ids: uniqueArtists.map(artist => artist.spotifyId)
+		});
 
-		const spotifyArtistIdBuckets = distributeToBuckets(
-			uniqueArtists.map(artist => artist.spotifyId), 10
-		);
-
-		for (const [bucketIndex, bucketIds] of spotifyArtistIdBuckets.entries()) {
-			console.log(`Fetching artist bucket ${bucketIndex + 1} of ${spotifyArtistIdBuckets.length}`);
-
-			const spotifyArtists = await spotifyClient.getArtists({ ids: bucketIds });
-
-			artists.push(...spotifyArtists);
-		}
+		console.log(`Artists to sync: ${artists.length}`);
 
 		return artists.map(artist => {
 			const artistSlug = sanitiseToURLSlug(artist.name);

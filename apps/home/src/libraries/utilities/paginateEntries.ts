@@ -4,19 +4,7 @@ const DEFAULT_PAGINATION_CONTEXT = {
 }
 
 export const paginateEntries = <T>(entries: T[], context: PaginationContext) => {
-	const { page, size, url, defaultSize } = context;
-
-	const parsedUrl = url ? new URL("", url) : null;
-
-	const generatePaginatedURL = (url: URL, page: number) => {
-		if (page === 1) {
-			url.searchParams.delete("page");
-		} else {
-			url.searchParams.set("page", String(page));
-		}
-
-		return url.toString()
-	}
+	const { page, size, defaultSize } = context;
 
 	const parsedPage = page ? parseInt(String(page), 10) : DEFAULT_PAGINATION_CONTEXT.page;
 	const parsedSize = size ? parseInt(String(size), 10) : defaultSize || DEFAULT_PAGINATION_CONTEXT.size;
@@ -33,19 +21,11 @@ export const paginateEntries = <T>(entries: T[], context: PaginationContext) => 
 		items: entries.slice(start, end),
 		pagination: {
 			page: parsedPage,
-			entries: parsedSize,
+			size: parsedSize,
 			total,
 			pages,
-			...(parsedUrl ? {
-				...(start !== 0 ? {
-					first: generatePaginatedURL(parsedUrl, 1),
-					previous: generatePaginatedURL(parsedUrl, parsedPage - 1)
-				} : {}),
-				...(end < entries.length ? {
-					next: generatePaginatedURL(parsedUrl, parsedPage + 1),
-					last: generatePaginatedURL(parsedUrl, pages)
-				} : {})
-			} : {})
+			previous: start !== 0,
+			next: end < entries.length
 		}
 	}
 }
@@ -54,8 +34,4 @@ type PaginationContext = {
 	page?: unknown;
 	size?: unknown;
 	defaultSize?: number;
-	/**
-	 * This will allow the function to generate next and previous urls
-	 */
-	url?: string;
 }

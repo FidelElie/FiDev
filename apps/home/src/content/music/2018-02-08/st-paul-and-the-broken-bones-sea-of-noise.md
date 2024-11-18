@@ -1,10 +1,10 @@
 ---
 name: Sea of Noise
-slug: st-paul--the-broken-bones-sea-of-noise
+slug: st-paul-and-the-broken-bones-sea-of-noise
 spotifyId: 2fRc3TJSXKXGFdnmcm17p2
 spotifyUrl: 'https://open.spotify.com/album/2fRc3TJSXKXGFdnmcm17p2'
 artists:
-  - slug: st-paul--the-broken-bones
+  - slug: st-paul-and-the-broken-bones
     name: St. Paul & The Broken Bones
     spotifyId: 4fXkvh05wFhuH77MfD4m9o
 covers:

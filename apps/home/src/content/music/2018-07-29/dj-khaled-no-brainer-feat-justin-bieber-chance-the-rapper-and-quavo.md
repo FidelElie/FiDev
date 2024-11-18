@@ -1,6 +1,6 @@
 ---
 name: 'No Brainer (feat. Justin Bieber, Chance the Rapper & Quavo)'
-slug: dj-khaled-no-brainer-feat-justin-bieber-chance-the-rapper--quavo
+slug: dj-khaled-no-brainer-feat-justin-bieber-chance-the-rapper-and-quavo
 spotifyId: 03nPEoQOYMuDe7KmGljpmd
 spotifyUrl: 'https://open.spotify.com/track/03nPEoQOYMuDe7KmGljpmd'
 artists:
