@@ -30,6 +30,7 @@ jobs:
         uses: Firenza/secrets-to-env@v1.3.0
         with:
             secrets: ${{ toJSON(secrets) }}
+            secret_filter_regex: SPOTIFY_*
 
       - name: Install dependencies
         run: pnpm install
