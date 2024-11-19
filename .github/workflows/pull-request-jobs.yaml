@@ -22,13 +22,6 @@ jobs:
       - name: Checkout branch
         uses: actions/checkout@v4
 
-      - name: Set environment variables
-        run: |
-          export SPOTIFY_CLIENT_ID=$SPOTIFY_CLIENT_ID
-          export SPOTIFY_CLIENT_SECRET=$SPOTIFY_CLIENT_SECRET
-          export SPOTIFY_REDIRECT_URI=$SPOTIFY_REDIRECT_URI
-          export SPOTIFY_REFRESH_TOKEN=$SPOTIFY_REFRESH_TOKEN
-
       - name: Install pnpm
         uses: pnpm/action-setup@v3
         with:
@@ -44,4 +37,9 @@ jobs:
         timeout-minutes: 2
 
       - name: Run checks for repo
+        env:  # Explicitly pass the environment variables to this step
+          SPOTIFY_CLIENT_ID: ${{ vars.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ vars.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_REDIRECT_URI: ${{ vars.SPOTIFY_REDIRECT_URI }}
+          SPOTIFY_REFRESH_TOKEN: ${{ vars.SPOTIFY_REFRESH_TOKEN }}
         run: pnpm check
