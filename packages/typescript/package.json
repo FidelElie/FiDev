@@ -6,6 +6,9 @@
 	"type": "module",
 	"description": "Utilities for the monorepo",
 	"private": true,
+	"scripts": {
+		"check": "biome lint --error-on-warnings"
+	},
 	"devDependencies": {
 		"vite": "^5.4.10"
 	}

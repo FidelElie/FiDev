@@ -5,6 +5,9 @@
 	"types": "src/index.ts",
 	"type": "module",
 	"private": true,
+	"scripts": {
+		"check": "biome lint --error-on-warnings"
+	},
 	"dependencies": {
 		"@fi.dev/typescript": "workspace:*",
 		"@inquirer/prompts": "^7.0.0",
