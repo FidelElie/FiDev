@@ -2,7 +2,7 @@
 import { Image } from "astro:assets";
 import { getCollection } from "astro:content";
 
-import { SiSpotify } from 'solid-icons/si';
+import { SiSpotify } from "solid-icons/si";
 
 import { generateSpotifyURI } from "@/libraries/utilities";
 
@@ -13,9 +13,10 @@ import { RootLayout } from "@/pages/_root.layout";
 export async function getStaticPaths() {
 	const musicPosts = await getCollection("artists");
 
-	return musicPosts.map(entry => ({
-		params: { artist: entry.data.slug }, props: { entry }
-	}))
+	return musicPosts.map((entry) => ({
+		params: { artist: entry.data.slug },
+		props: { entry },
+	}));
 }
 
 const { entry } = Astro.props;
@@ -23,7 +24,7 @@ const { entry } = Astro.props;
 const { name, slug, covers, genres, spotifyId, spotifyUrl } = entry.data;
 
 const musicPosts = await getCollection("music", (entry) => {
-	return entry.data.artists.some(artist => artist.spotifyId === spotifyId)
+	return entry.data.artists.some((artist) => artist.spotifyId === spotifyId);
 });
 ---
 <RootLayout title={name}>

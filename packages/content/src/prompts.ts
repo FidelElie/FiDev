@@ -5,7 +5,9 @@ import { sanitiseToURLSlug } from "@fi.dev/typescript";
 export const onCreatePromptWithFallback = async (name: string) => {
 	const sanitizedUrl = sanitiseToURLSlug(name);
 
-	if (!!sanitizedUrl) { return sanitizedUrl; }
+	if (!!sanitizedUrl) {
+		return sanitizedUrl;
+	}
 
 	console.log(`Couldn't create a valid slug from ${name}`);
 
@@ -22,9 +24,9 @@ export const onCreatePrompt = async () => {
 	return {
 		slug: cleanedSlug,
 		metadata: {},
-		content: []
-	}
-}
+		content: [],
+	};
+};
 
 export const datePrompt = async () => {
 	const date = await (async () => {
@@ -54,4 +56,4 @@ export const datePrompt = async () => {
 	})();
 
 	return date;
-}
+};

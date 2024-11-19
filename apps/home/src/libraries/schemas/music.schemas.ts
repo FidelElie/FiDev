@@ -10,12 +10,12 @@ const MusicAlbumTrackSchema = z.object({
 	spotifyUrl: z.string().url(),
 	name: z.string(),
 	favourite: z.boolean(),
-})
+});
 
 export const MusicCoverImageSchema = z.object({
 	url: z.string().url(),
 	width: z.number(),
-	height: z.number()
+	height: z.number(),
 });
 
 export const MusicArtistSchema = z.object({
@@ -25,7 +25,7 @@ export const MusicArtistSchema = z.object({
 	spotifyUrl: z.string().url(),
 	name: z.string(),
 	covers: z.array(MusicCoverImageSchema),
-	genres: z.array(z.string())
+	genres: z.array(z.string()),
 });
 
 export type MusicArtistSchema = z.infer<typeof MusicArtistSchema>;
@@ -33,7 +33,7 @@ export type MusicArtistSchema = z.infer<typeof MusicArtistSchema>;
 export const SimplifiedMusicArtistSchema = z.object({
 	slug: z.string(),
 	name: z.string(),
-	spotifyId: z.string()
+	spotifyId: z.string(),
 });
 
 export const BaseMusicPostSchema = z.object({
@@ -54,17 +54,19 @@ const BaseDatabaseMusicPostSchema = InsertPostSchema.pick({
 	updatedAt: true,
 	liked: true,
 	ratings: true,
-	views: true
+	views: true,
 });
 
 export const MusicPostSchema = z.union([
 	BaseMusicPostSchema.merge(
 		z.object({
 			type: z.literal(MusicPostMetadata.types.ALBUM),
-			tracks: z.array(MusicAlbumTrackSchema)
-		})
+			tracks: z.array(MusicAlbumTrackSchema),
+		}),
 	),
-	BaseMusicPostSchema.merge(z.object({ type: z.literal(MusicPostMetadata.types.TRACK) }))
+	BaseMusicPostSchema.merge(
+		z.object({ type: z.literal(MusicPostMetadata.types.TRACK) }),
+	),
 ]);
 
 export type MusicPostSchema = z.infer<typeof MusicPostSchema>;
@@ -73,15 +75,12 @@ export const DatabaseMusicPostSchema = z.union([
 	BaseMusicPostSchema.merge(
 		z.object({
 			type: z.literal(MusicPostMetadata.types.ALBUM),
-			tracks: z.array(MusicAlbumTrackSchema)
-		})
-	).merge(
-		BaseDatabaseMusicPostSchema
-	),
-	BaseMusicPostSchema.merge(z.object({ type: z.literal(MusicPostMetadata.types.TRACK) })).merge(
-		BaseDatabaseMusicPostSchema
-	)
+			tracks: z.array(MusicAlbumTrackSchema),
+		}),
+	).merge(BaseDatabaseMusicPostSchema),
+	BaseMusicPostSchema.merge(
+		z.object({ type: z.literal(MusicPostMetadata.types.TRACK) }),
+	).merge(BaseDatabaseMusicPostSchema),
 ]);
 
 export type DatabaseMusicPostSchema = z.infer<typeof DatabaseMusicPostSchema>;
-

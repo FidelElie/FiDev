@@ -20,10 +20,10 @@ export const MusicImFeelingLuckyRoute = {
 	method: "GET",
 	responses: {
 		200: z.object({
-			post: MusicPostSchema
-		})
-	}
-}
+			post: MusicPostSchema,
+		}),
+	},
+};
 
 /**
  *
@@ -36,13 +36,13 @@ export const FetchMusicPostsRoute = {
 			page: z.number().optional(),
 			size: z.number().optional(),
 			genres: arrayQueryParam().optional(),
-			levels: arrayQueryParam().optional()
+			levels: arrayQueryParam().optional(),
 		}),
 	},
 	responses: {
 		200: paginateSchema(MusicPostSchema),
-	}
-}
+	},
+};
 
 /**
  *
@@ -55,12 +55,12 @@ export const FetchMusicArtistsRoute = {
 			page: z.number().optional(),
 			size: z.number().optional(),
 			genres: arrayQueryParam().optional(),
-		})
+		}),
 	},
 	responses: {
-		200: paginateSchema(MusicArtistSchema)
-	}
-}
+		200: paginateSchema(MusicArtistSchema),
+	},
+};
 
 /**
  *
@@ -72,13 +72,13 @@ export const FetchMusicGenresRoute = {
 		query: z.object({
 			search: z.string().optional(),
 			page: z.number().optional(),
-			size: z.number().optional()
-		})
+			size: z.number().optional(),
+		}),
 	},
 	responses: {
-		200: paginateSchema(z.string())
-	}
-}
+		200: paginateSchema(z.string()),
+	},
+};
 
 /**
  *
@@ -87,18 +87,20 @@ export const FetchMusicProjectStatsRoute = {
 	url: "/api/music/:postSlug/stats",
 	method: "GET",
 	dtos: {
-		params: z.object({ postSlug: z.string() })
+		params: z.object({ postSlug: z.string() }),
 	},
 	responses: {
-		200: z.object({
-			views: z.number(),
-			liked: z.number(),
-			ratings: z.record(z.enum(getConstKeys(MusicPostRatingMap)), z.number()),
-			publishedAt: dateTransferSchema().optional(),
-			updatedAt: dateTransferSchema().optional()
-		}).nullable()
-	}
-}
+		200: z
+			.object({
+				views: z.number(),
+				liked: z.number(),
+				ratings: z.record(z.enum(getConstKeys(MusicPostRatingMap)), z.number()),
+				publishedAt: dateTransferSchema().optional(),
+				updatedAt: dateTransferSchema().optional(),
+			})
+			.nullable(),
+	},
+};
 
 /**
  *
@@ -107,14 +109,12 @@ export const UpdateMusicProjectRoute = {
 	url: "/api/music/:postSlug",
 	method: "PATCH",
 	dtos: {
-		params: z.object({ postSlug: z.string() })
+		params: z.object({ postSlug: z.string() }),
 	},
 	responses: {
-		200: z.object({
-
-		})
-	}
-}
+		200: z.object({}),
+	},
+};
 
 export const GetCurrentlyPlayingTrackRoute = {
 	url: "/api/music/playing",
@@ -133,16 +133,15 @@ export const GetCurrentlyPlayingTrackRoute = {
 					z.object({
 						name: z.string(),
 						slug: z.string(),
-						type: z.enum(["ALBUM", "TRACK"])
-					})
+						type: z.enum(["ALBUM", "TRACK"]),
+					}),
 				),
 				artist: z.object({
 					name: z.string(),
-					slug: z.string()
-				})
-
+					slug: z.string(),
+				}),
 			}),
-			z.null()
-		])
-	}
-}
+			z.null(),
+		]),
+	},
+};

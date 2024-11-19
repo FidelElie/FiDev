@@ -5,18 +5,17 @@ import { request } from "../../clients/request.client";
 export const YoutubeEmbedDirective = createRegExpDirective({
 	identifier: /:youtube\[(.*?)\]/g,
 	onMatch: (match) => {
-		return { id: match[1] }
+		return { id: match[1] };
 	},
 	getHTML: async (result) => {
 		try {
 			const url = `https://youtube.com/watch?v=${result.id}`;
 
 			const response = await request<YoutubeOEmbedResult>({
-				url: `https://www.youtube.com/oembed?format=json&url=${url}`
+				url: `https://www.youtube.com/oembed?format=json&url=${url}`,
 			});
 
-			return (
-				`
+			return `
 					<iframe
 						title="${response.title}"
 						src="https://www.youtube.com/embed/${result.id}"
@@ -25,13 +24,14 @@ export const YoutubeEmbedDirective = createRegExpDirective({
 						referrerpolicy="strict-origin-when-cross-origin"
 						allowfullscreen
 					/>
-				`
-			);
+				`;
 		} catch (error) {
 			console.error(error);
-			return process.env.NODE === "development" ? "[Error Loading Youtube Embed]" : "";
+			return process.env.NODE === "development"
+				? "[Error Loading Youtube Embed]"
+				: "";
 		}
-	}
+	},
 });
 
 type YoutubeOEmbedResult = {
@@ -48,4 +48,4 @@ type YoutubeOEmbedResult = {
 	thumbnail_width: number;
 	thumbnail_url: string;
 	html: string;
-}
+};

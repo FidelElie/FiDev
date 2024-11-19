@@ -13,7 +13,9 @@ import { publishContentCommand } from "./commands/publishContent.command";
 export const defineContentConfig = async (config: ContentConfig) => {
 	const { entries } = config;
 
-	if (!config.entries.length) { throw new Error("No post entries were registered in config"); }
+	if (!config.entries.length) {
+		throw new Error("No post entries were registered in config");
+	}
 
 	const program = new Command();
 
@@ -24,9 +26,9 @@ export const defineContentConfig = async (config: ContentConfig) => {
 		.description("Create a new post")
 		.option("--type <value>", "Type of post to create")
 		.action(async (options) => {
-			if (options.type && !entries.some(entry => entry.id === options.type)) {
+			if (options.type && !entries.some((entry) => entry.id === options.type)) {
 				throw new Error(
-					`Invalid --type expected id to be one of: ${entries.map(entry => entry.id).join(",")}`
+					`Invalid --type expected id to be one of: ${entries.map((entry) => entry.id).join(",")}`,
 				);
 			}
 
@@ -38,23 +40,23 @@ export const defineContentConfig = async (config: ContentConfig) => {
 		.description("Publish existing posts")
 		.option("--type <value>, Type of post to publish")
 		.action(async (options) => {
-			if (options.type && !entries.some(entry => entry.id === options.type)) {
+			if (options.type && !entries.some((entry) => entry.id === options.type)) {
 				throw new Error(
-					`Invalid --type expected id to be one of: ${entries.map(entry => entry.id).join(",")}`
+					`Invalid --type expected id to be one of: ${entries.map((entry) => entry.id).join(",")}`,
 				);
 			}
 
 			await publishContentCommand({ entries, config, ...options });
-		})
+		});
 
 	postsCommand
 		.command("remove")
 		.description("Remove an existing post")
 		.option("--type <value>, Type of post to delete")
 		.action(async (options) => {
-			if (options.type && !entries.some(entry => entry.id === options.type)) {
+			if (options.type && !entries.some((entry) => entry.id === options.type)) {
 				throw new Error(
-					`Invalid --type expected id to be one of: ${entries.map(entry => entry.id).join(",")}`
+					`Invalid --type expected id to be one of: ${entries.map((entry) => entry.id).join(",")}`,
 				);
 			}
 
@@ -66,7 +68,7 @@ export const defineContentConfig = async (config: ContentConfig) => {
 	await program.parseAsync(process.argv);
 
 	return config;
-}
+};
 
 /**
  * Helper to create type safe post entries with inference

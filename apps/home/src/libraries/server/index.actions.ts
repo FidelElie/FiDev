@@ -10,36 +10,35 @@ export const searchWebsiteAction = async (request: Request) => {
 
 	const { term } = dtos.query.parse(params);
 
-	const [
-		musicResult,
-		artistsResult
-	] = await Promise.all([
+	const [musicResult, artistsResult] = await Promise.all([
 		getCollection("music", (entry) => {
 			return (
 				entry.slug.toLowerCase().includes(term) ||
 				entry.data.name.toLowerCase().includes(term) ||
 				entry.data.slug?.toLowerCase().includes(term) ||
-				entry.data.artists.some(artist => artist.name.toLowerCase().includes(term)) ||
-				entry.data.genres.some(genre => genre.toLowerCase().includes(term))
+				entry.data.artists.some((artist) =>
+					artist.name.toLowerCase().includes(term),
+				) ||
+				entry.data.genres.some((genre) => genre.toLowerCase().includes(term))
 			);
 		}),
 		getCollection("artists", (entry) => {
 			return (
 				entry.data.slug.toLowerCase().includes(term) ||
 				entry.data.name.toLowerCase().includes(term) ||
-				entry.data.genres.some(genre => genre.toLowerCase().includes(term))
-			)
+				entry.data.genres.some((genre) => genre.toLowerCase().includes(term))
+			);
 		}),
 	]);
 
 	const searchResults = {
-		music: 	musicResult.slice(0, 5).map(entry => ({
+		music: musicResult.slice(0, 5).map((entry) => ({
 			...entry.data,
 			slug: entry.slug,
-			preview: entry.body.slice(0, 150)
+			preview: entry.body.slice(0, 150),
 		})),
-		artists: artistsResult.slice(0, 6).map(entry => entry.data)
-	}
+		artists: artistsResult.slice(0, 6).map((entry) => entry.data),
+	};
 
 	return responses[200].parse(searchResults);
-}
+};

@@ -10,8 +10,8 @@ export const queryParams = {
 		return decode(value.search.substring(1));
 	},
 	encodeToUrl: <T extends object>(input: T) => {
-		const encodedQuery =  encode(input as any);
+		const encodedQuery = encode(input as any);
 
 		return encodedQuery.length ? `?${encodedQuery}` : "";
-	}
-}
+	},
+};

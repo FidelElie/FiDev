@@ -1,28 +1,31 @@
 import type { JSX } from "solid-js";
-import { Popover as KobaltePopover, type PopoverRootProps } from "@kobalte/core/popover";
+import {
+	Popover as KobaltePopover,
+	type PopoverRootProps,
+} from "@kobalte/core/popover";
 import { twMerge } from "tailwind-merge";
 
 export const Popover = (props: PopoverProps) => {
 	return (
 		<KobaltePopover placement={props.placement}>
-			<KobaltePopover.Trigger
-				class={props.triggerClass}
-				as={props.triggerAs}
-			>
+			<KobaltePopover.Trigger class={props.triggerClass} as={props.triggerAs}>
 				{props.trigger}
 			</KobaltePopover.Trigger>
 			<KobaltePopover.Portal>
 				<KobaltePopover.Content
 					as={props.contentAs}
-					class={twMerge("bg-white border border-slate-200 rounded-lg", props.contentClass)}
+					class={twMerge(
+						"bg-white border border-slate-200 rounded-lg",
+						props.contentClass,
+					)}
 				>
 					{props.children}
-					<KobaltePopover.Arrow/>
+					<KobaltePopover.Arrow />
 				</KobaltePopover.Content>
 			</KobaltePopover.Portal>
 		</KobaltePopover>
-	)
-}
+	);
+};
 
 type PopoverProps = {
 	placement?: PopoverRootProps["placement"];
@@ -33,4 +36,4 @@ type PopoverProps = {
 	contentAs?: keyof JSX.HTMLElementTags;
 	contentClass?: string;
 	children: JSX.Element;
-}
+};

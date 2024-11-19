@@ -1,1 +1,4 @@
-export { default as RootLayout, type Props as RootLayoutProps } from "./_root.layout.astro";
+export {
+	default as RootLayout,
+	type Props as RootLayoutProps,
+} from "./_root.layout.astro";

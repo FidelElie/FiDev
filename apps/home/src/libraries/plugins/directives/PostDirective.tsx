@@ -12,10 +12,14 @@ export const PostDirective = createRegExpDirective({
 	onMatch: (match) => {
 		const [path, fallback] = match[1].split(":");
 
-		return { path, fallback }
+		return { path, fallback };
 	},
 	getHTML: async (result) => {
-		const filePath = path.join(process.cwd(), "src/content", `${result.path}.md`);
+		const filePath = path.join(
+			process.cwd(),
+			"src/content",
+			`${result.path}.md`,
+		);
 
 		if (!fs.existsSync(filePath)) {
 			return result.fallback || "Post not found";
@@ -29,8 +33,7 @@ export const PostDirective = createRegExpDirective({
 			const [firstArtist] = postData.artists;
 			const [firstImage] = postData.covers;
 
-			return (
-				`
+			return `
 					<a
 						href="/music/${postData.slug}"
 						class="inline-flex items-end not-prose px-0.5 h-1 group"
@@ -43,8 +46,7 @@ export const PostDirective = createRegExpDirective({
 							${firstArtist.name} - ${postData.name}
 						</span>
 					</a>
-				`
-			);
+				`;
 		}
-	}
+	},
 });

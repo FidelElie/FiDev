@@ -10,4 +10,4 @@ export const GET: APIRoute = async (context) => {
 	const searchResults = await searchWebsiteAction(request);
 
 	return Response.json(searchResults);
-}
+};

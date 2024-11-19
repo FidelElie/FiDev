@@ -7,16 +7,17 @@ export const MusicPostRatingTag = (props: MusicPostRatingTagProps) => {
 		<div
 			class={twJoin(
 				"py-1 px-2 border border-slate-200 rounded-lg w-min whitespace-nowrap",
-				props.class
+				props.class,
 			)}
 		>
-			<p class="text-sm mt-1 tracking-tight font-heading">{MusicPostRatingMap[props.rating]}</p>
+			<p class="text-sm mt-1 tracking-tight font-heading">
+				{MusicPostRatingMap[props.rating]}
+			</p>
 		</div>
-	)
-}
+	);
+};
 
 export type MusicPostRatingTagProps = {
 	class?: string;
-	rating: keyof typeof MusicPostRatingMap
-}
-
+	rating: keyof typeof MusicPostRatingMap;
+};

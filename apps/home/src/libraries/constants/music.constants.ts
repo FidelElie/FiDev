@@ -6,12 +6,12 @@ export const MusicPostMetadata = {
 		LEVEL_3: "LEVEL_3",
 		LEVEL_4: "LEVEL_4",
 		LEVEL_5: "LEVEL_5",
-		LEVEL_6: "LEVEL_6"
+		LEVEL_6: "LEVEL_6",
 	},
 	types: {
 		ALBUM: "ALBUM",
-		TRACK: "TRACK"
-	}
+		TRACK: "TRACK",
+	},
 } as const;
 
 export const MusicPostRatingMap = {
@@ -21,5 +21,5 @@ export const MusicPostRatingMap = {
 	[MusicPostMetadata.ratings.LEVEL_3]: "Solid",
 	[MusicPostMetadata.ratings.LEVEL_4]: "Aight",
 	[MusicPostMetadata.ratings.LEVEL_5]: "Meh",
-	[MusicPostMetadata.ratings.LEVEL_6]: "Hot Garbage"
+	[MusicPostMetadata.ratings.LEVEL_6]: "Hot Garbage",
 } as const;

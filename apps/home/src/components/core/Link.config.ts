@@ -6,8 +6,8 @@ export const LinkConfig = cva(
 		variants: {
 			intent: {
 				primary: "decoration-blue-500 hover:text-blue-500",
-				secondary: "decoration-slate-200 hover:text-slate-200"
-			}
-		}
-	}
+				secondary: "decoration-slate-200 hover:text-slate-200",
+			},
+		},
+	},
 );

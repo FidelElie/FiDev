@@ -8,7 +8,7 @@ import type { InferDTOS } from "@/libraries/types";
 import { MusicPostRatingTag } from "@/components/interfaces";
 
 export const MusicPostSearchEntry = (props: MusicPostSearchEntryProps) => {
-	const [firstArtist] = props.post.artists
+	const [firstArtist] = props.post.artists;
 
 	return (
 		<a
@@ -29,15 +29,15 @@ export const MusicPostSearchEntry = (props: MusicPostSearchEntryProps) => {
 				<h2 class="font-heading text-xl transition-all group-hover:text-blue-500">
 					{firstArtist.name} - {props.post.name}
 				</h2>
-				<MusicPostRatingTag rating={props.post.rating}/>
-				<p class="line-clamp-1">
-					{props.post.preview}...
-				</p>
+				<MusicPostRatingTag rating={props.post.rating} />
+				<p class="line-clamp-1">{props.post.preview}...</p>
 			</div>
 		</a>
-	)
-}
+	);
+};
 
 export type MusicPostSearchEntryProps = {
-	post: InferDTOS<typeof SearchWebsiteRoute["responses"]>[200]["music"][number];
-}
+	post: InferDTOS<
+		(typeof SearchWebsiteRoute)["responses"]
+	>[200]["music"][number];
+};

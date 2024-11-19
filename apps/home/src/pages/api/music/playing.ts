@@ -8,4 +8,4 @@ export const GET: APIRoute = async () => {
 	const currentPlayingResponse = await getCurrentPlayingTrack();
 
 	return Response.json(currentPlayingResponse);
-}
+};

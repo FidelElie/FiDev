@@ -1,4 +1,7 @@
-export const astroNavigate = (context: { element: HTMLElement; href: string }) => {
+export const astroNavigate = (context: {
+	element: HTMLElement;
+	href: string;
+}) => {
 	const { element, href } = context;
 
 	const anchor = document.createElement("a");
@@ -9,4 +12,4 @@ export const astroNavigate = (context: { element: HTMLElement; href: string }) =
 	element.append(anchor);
 
 	anchor.click();
-}
+};

@@ -6,7 +6,8 @@ export const distributeInRandomOrder = <T>(array: T[], number?: number) => {
 	const distributedArray = new Array(distributionLength)
 		.fill(null)
 		.map(() => {
-			const normalisedSeed = Math.ceil(Math.random() * copiedSnapshot.length) - 1;
+			const normalisedSeed =
+				Math.ceil(Math.random() * copiedSnapshot.length) - 1;
 
 			const chosenEntry = copiedSnapshot.at(normalisedSeed);
 

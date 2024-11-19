@@ -23,14 +23,14 @@ export const MusicArtistSearchEntry = (props: MusicArtistSearchEntryProps) => {
 				<h2 class="font-heading text-lg transition-all group-hover:text-blue-500">
 					{props.artist.name}
 				</h2>
-				<p>
-					{props.artist.genres.join(", ")}
-				</p>
+				<p>{props.artist.genres.join(", ")}</p>
 			</div>
 		</a>
-	)
-}
+	);
+};
 
 export type MusicArtistSearchEntryProps = {
-	artist: InferDTOS<typeof SearchWebsiteRoute["responses"]>[200]["artists"][number];
-}
+	artist: InferDTOS<
+		(typeof SearchWebsiteRoute)["responses"]
+	>[200]["artists"][number];
+};

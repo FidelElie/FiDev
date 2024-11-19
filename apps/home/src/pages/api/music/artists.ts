@@ -10,4 +10,4 @@ export const GET: APIRoute = async (context) => {
 	const artistEntries = await fetchMusicArtists(request);
 
 	return Response.json(artistEntries);
-}
+};

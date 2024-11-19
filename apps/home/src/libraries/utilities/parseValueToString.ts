@@ -5,12 +5,13 @@
  */
 export const parseValueToString = (value: unknown) => {
 	if (Array.isArray(value)) {
-		return value.map(entry => entry.toString()).join(",");
+		return value.map((entry) => entry.toString()).join(",");
 	} else if (value instanceof Date) {
 		return value.toISOString();
 	} else if (
 		value &&
-		typeof value === "object" && "toString" in value &&
+		typeof value === "object" &&
+		"toString" in value &&
 		typeof value.toString === "function"
 	) {
 		return value.toString();
@@ -21,4 +22,4 @@ export const parseValueToString = (value: unknown) => {
 	} else {
 		return String(value);
 	}
-}
+};
