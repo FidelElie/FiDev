@@ -1,0 +1,6 @@
+{
+	"include": {
+		"caches": [".turbo", ".astro"],
+		"build": [".vercel"]
+	}
+}

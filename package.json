@@ -13,10 +13,12 @@
 		"dev": "turbo run dev",
 		"check": "turbo run check",
 		"format": "biome format --write ./",
+		"clean": "pnpm @scripts clean",
 		"node": "tsx",
 		"@home": "pnpm --filter @fi.dev/home",
 		"@theme": "pnpm --filter @fi.dev/theme",
-		"@content": "pnpm --filter @fi.dev/content"
+		"@content": "pnpm --filter @fi.dev/content",
+		"@scripts": "pnpm --filter @fi.dev/scripts"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
