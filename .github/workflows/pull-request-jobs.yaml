@@ -3,6 +3,7 @@ name: Handle on pull request jobs
 on:
   pull_request:
 
+
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
@@ -11,10 +12,19 @@ jobs:
   check:
     name: Run check jobs
     runs-on: ubuntu-latest
+    environment: development
 
     steps:
       - name: Checkout branch
         uses: actions/checkout@v4
+
+      - name: Set environment variables
+        env:
+          SPOTIFY_CLIENT_ID: ${{ vars.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ vars.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_REDIRECT_URI: ${{ vars.SPOTIFY_REDIRECT_URI }}
+          SPOTIFY_REFRESH_TOKEN: ${{ vars.SPOTIFY_REFRESH_TOKEN }}
+        run: echo "Environment variables have been set"
 
       - name: Install pnpm
         uses: pnpm/action-setup@v3
