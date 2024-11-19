@@ -1,6 +1,9 @@
 import { SpotifyEnvSchema } from "@/libraries/schemas";
 
 export const getSpotifyEnv = () => {
+	console.log(import.meta.env);
+	console.log(process.env);
+
 	const validatedEnvironment = SpotifyEnvSchema.parse(
 		import.meta.env || process.env,
 	);

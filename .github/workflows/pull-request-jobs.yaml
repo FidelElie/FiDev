@@ -3,27 +3,26 @@ name: Handle on pull request jobs
 on:
   pull_request:
 
-
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
+
+env:
+    SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+    SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+    SPOTIFY_REDIRECT_URI: ${{ secrets.SPOTIFY_REDIRECT_URI }}
+    SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
 
 jobs:
   check:
     name: Run check jobs
     runs-on: ubuntu-latest
-    environment: Development
 
     steps:
       - name: Checkout branch
         uses: actions/checkout@v4
 
       - name: Set environment variables
-        env:
-          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
-          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
-          SPOTIFY_REDIRECT_URI: ${{ secrets.SPOTIFY_REDIRECT_URI }}
-          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
         run: |
           echo "SPOTIFY_CLIENT_ID=$SPOTIFY_CLIENT_ID" >> $GITHUB_ENV
           echo "SPOTIFY_CLIENT_SECRET=$SPOTIFY_CLIENT_SECRET" >> $GITHUB_ENV

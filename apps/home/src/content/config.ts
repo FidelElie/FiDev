@@ -18,6 +18,7 @@ const artists = defineCollection({
 		console.log("Fetching spotify artist metadata");
 		const musicPosts = await getCollection("music");
 
+		console.log("Creating Spotify Client");
 		const spotifyClient = createSpotifyClient(getSpotifyEnv());
 
 		await spotifyClient.refreshAccessToken();
