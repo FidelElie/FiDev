@@ -1,18 +1,18 @@
 {
 	"$schema": "https://turbo.build/schema.json",
+	"globalEnv": [
+		"SPOTIFY_CLIENT_ID",
+		"SPOTIFY_CLIENT_SECRET",
+		"SPOTIFY_REDIRECT_URI",
+		"SPOTIFY_REFRESH_TOKEN"
+	],
 	"tasks": {
 		"build": {
 			"dependsOn": ["^build"],
 			"outputs": ["dist"]
 		},
 		"check": {
-			"dependsOn": ["^check"],
-			"env": [
-				"SPOTIFY_CLIENT_ID",
-				"SPOTIFY_CLIENT_SECRET",
-				"SPOTIFY_REDIRECT_URI",
-				"SPOTIFY_REFRESH_TOKEN"
-			]
+			"dependsOn": ["^check"]
 		},
 		"dev": {
 			"persistent": true,
