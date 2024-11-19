@@ -7,12 +7,6 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
-env:
-    SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
-    SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
-    SPOTIFY_REDIRECT_URI: ${{ secrets.SPOTIFY_REDIRECT_URI }}
-    SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
-
 jobs:
   check:
     name: Run check jobs
@@ -32,14 +26,14 @@ jobs:
         with:
           node-version: 20
 
+      - name: Setup environment variables
+        uses: Firenza/secrets-to-env@v1.3.0
+        with:
+            secrets: ${{ toJSON(secrets) }}
+
       - name: Install dependencies
         run: pnpm install
         timeout-minutes: 2
 
       - name: Run checks for repo
-        env:  # Explicitly pass the environment variables to this step
-          SPOTIFY_CLIENT_ID: ${{ vars.SPOTIFY_CLIENT_ID }}
-          SPOTIFY_CLIENT_SECRET: ${{ vars.SPOTIFY_CLIENT_SECRET }}
-          SPOTIFY_REDIRECT_URI: ${{ vars.SPOTIFY_REDIRECT_URI }}
-          SPOTIFY_REFRESH_TOKEN: ${{ vars.SPOTIFY_REFRESH_TOKEN }}
         run: pnpm check
