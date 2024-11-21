@@ -14,17 +14,13 @@ import { twJoin } from "tailwind-merge";
 
 import { AppManifest } from "@/configs";
 
-import { BiSolidAlbum } from "solid-icons/bi";
-import { AiOutlineLoading } from "solid-icons/ai";
-import { FiMusic } from "solid-icons/fi";
-
 import { request } from "@/libraries/clients";
 import { MusicPostMetadata } from "@/libraries/constants";
 import { generateSpotifyURI } from "@/libraries/utilities";
 import type { SpotifyTrackObject } from "@/libraries/types";
 import { GetCurrentlyPlayingTrackRoute } from "@/libraries/api/music.api";
 
-import { Link, Passthrough, Tooltip } from "@/components/core";
+import { Link, Passthrough } from "@/components/core";
 import { withQueryProvider } from "@/components/providers/withQueryProvider";
 
 type TrackState = {
@@ -148,24 +144,9 @@ export const MusicCurrentlyPlayingPane = withQueryProvider(() => {
 					<div class="flex gap-4">
 						<For each={currentPlayingQuery.data?.posts || []}>
 							{(post) => (
-								<Tooltip
-									triggerAs="span"
-									trigger={
-										<a
-											href={AppManifest.links.pages["/music/:slug"](post.slug)}
-											class="text-sm flex items-center justify-center bg-blue rounded h-5 w-5 bg-blue-500"
-										>
-											{post.type === MusicPostMetadata.types.ALBUM ? (
-												<BiSolidAlbum class="text-white text-xs" />
-											) : (
-												<FiMusic class="text-white text-xs" />
-											)}
-										</a>
-									}
-									contentClass="p-1.5"
-								>
-									Go to post
-								</Tooltip>
+								<Link href={AppManifest.links.pages["/music/:slug"](post.slug)} class="text-sm">
+									Go to {post.type === MusicPostMetadata.types.ALBUM ? "album" : "track"} post
+								</Link>
 							)}
 						</For>
 					</div>
@@ -178,7 +159,7 @@ export const MusicCurrentlyPlayingPane = withQueryProvider(() => {
 						<Match when={currentPlayingQuery.isSuccess}>
 							<Show
 								when={currentPlayingQuery.data?.covers[0].url}
-								fallback={<BiSolidAlbum class="text-slate-300 text-3xl" />}
+								fallback={<p class="text-sm font-heading text-center">no<br/>cover</p>}
 							>
 								{(url) => (
 									<Image
@@ -196,7 +177,7 @@ export const MusicCurrentlyPlayingPane = withQueryProvider(() => {
 							</Show>
 						</Match>
 						<Match when={currentPlayingQuery.isLoading}>
-							<AiOutlineLoading class="animate-spin text-2xl text-blue-500" />
+							<p class="animate-pulse">Loading</p>
 						</Match>
 					</Switch>
 				</div>
@@ -243,18 +224,9 @@ export const MusicCurrentlyPlayingPane = withQueryProvider(() => {
 								</h2>
 							</div>
 							<Show when={currentPlayingQuery.data}>
-								<Tooltip
-									triggerAs="div"
-									triggerClass="h-min text-sm"
-									contentClass="px-2 py-1.5"
-									trigger={
-										<Show when={trackState().playing} fallback="Paused">
-											Playing
-										</Show>
-									}
-								>
+								<p class="h-min text-sm">
 									{trackState().playing ? "Playing" : "Paused"}
-								</Tooltip>
+								</p>
 							</Show>
 						</div>
 						<div

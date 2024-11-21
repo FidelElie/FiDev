@@ -3,16 +3,13 @@ import { createInfiniteQuery } from "@tanstack/solid-query";
 import { createIntersectionObserver } from "@solid-primitives/intersection-observer";
 import { twJoin } from "tailwind-merge";
 
-import { AiOutlineLoading } from "solid-icons/ai";
-import { BsMusicNote } from "solid-icons/bs";
-
 import { request } from "@/libraries/clients";
 import { useQueryParams } from "@/libraries/hooks";
 import { queryParams } from "@/libraries/utilities";
 import { FetchMusicPostsRoute } from "@/libraries/api";
 import type { InferDTOS } from "@/libraries/types";
 
-import { Grid } from "@/components/core";
+import { Button, Grid } from "@/components/core";
 import {
 	MusicPostStickyPane,
 	MusicProjectEntry,
@@ -74,23 +71,33 @@ export const MusicProjectsView = withQueryProvider(
 
 		return (
 			<div class="flex flex-col gap-2 flex-grow min-h-full">
-				<Show when={!!postsQuery.hasPreviousPage}>
-					<button
-						class="bg-white px-3 py-2 rounded-lg text-blue-500 border border-blue-500 font-heading font-light flex items-center gap-2 disabled:opacity-50 w-min whitespace-nowrap"
-						onClick={() => postsQuery.fetchPreviousPage()}
-						disabled={postsQuery.isFetchingPreviousPage}
-					>
-						<div class="w-5 flex items-center">
-							{!postsQuery.isFetchingPreviousPage ? (
-								<BsMusicNote class="text-blue-500" />
-							) : (
-								<AiOutlineLoading class="text-blue-500 animate-spin" />
-							)}
-						</div>
-						Get previous posts
-					</button>
+				<Show
+					when={queryInitialised()}
+					fallback={
+						<div class="flex-shrink-0 w-40 h-11 bg-slate-200 rounded-lg animate-pulse" />
+					}
+				>
+					<MusicPostStickyPane
+						genres={props.genres}
+						initial={query()}
+						isFetching={postsQuery.isFetching}
+					/>
 				</Show>
-				<div class="relative flex flex-col-reverse gap-2 min-w-full md:flex-row">
+				<Show when={!!postsQuery.hasPreviousPage}>
+					<div class="flex items-center space-x-4">
+						<Button
+							intent="secondary"
+							onClick={() => postsQuery.fetchPreviousPage()}
+							disabled={postsQuery.isFetchingPreviousPage}
+						>
+							Get previous posts
+						</Button>
+						<Show when={postsQuery.isFetchingPreviousPage}>
+							<p class="font-heading text-sm animate-pulse">Loading...</p>
+						</Show>
+					</div>
+				</Show>
+				<div class="relative flex flex-col gap-2">
 					<div class="flex flex-col">
 						<Switch fallback={<LoadingSkeleton />}>
 							<Match when={postsQuery.isSuccess}>
@@ -125,7 +132,7 @@ export const MusicProjectsView = withQueryProvider(
 									}
 								/>
 								<Show when={postsQuery.isFetchingNextPage}>
-									<AiOutlineLoading class="text-blue-500 animate-spin text-2xl" />
+									<p class="font-heading text-sm animate-pulse">Loading...</p>
 								</Show>
 								<Show when={!postsQuery.hasNextPage}>
 									<p class="font-heading">No more posts</p>
@@ -133,18 +140,6 @@ export const MusicProjectsView = withQueryProvider(
 							</Match>
 						</Switch>
 					</div>
-					<Show
-						when={queryInitialised()}
-						fallback={
-							<div class="flex-shrink-0 w-40 h-14 md:w-14 md:h-40 bg-slate-200 rounded-lg animate-pulse" />
-						}
-					>
-						<MusicPostStickyPane
-							genres={props.genres}
-							initial={query()}
-							isFetching={postsQuery.isFetching}
-						/>
-					</Show>
 				</div>
 			</div>
 		);

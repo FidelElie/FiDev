@@ -1,5 +1,4 @@
 import { createSignal } from "solid-js";
-import { AiOutlineLoading } from "solid-icons/ai";
 
 import { useEventListener } from "@/libraries/hooks";
 import { astroNavigate, type paginateEntries } from "@/libraries/utilities";
@@ -57,7 +56,7 @@ export const PageIndicator = (props: PageIndicatorProps) => {
 			</select>
 			{loading() && (
 				<div class="bg-white transition-all w-full h-full rounded-lg absolute top-0 flex items-center justify-center">
-					<AiOutlineLoading class="text-blue-500 animate-spin text-lg" />
+					<p class="font-heading text-sm animate-pulse">Loading...</p>
 				</div>
 			)}
 		</div>

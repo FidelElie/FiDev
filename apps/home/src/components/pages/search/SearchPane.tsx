@@ -1,6 +1,5 @@
 import { createSignal, For, Match, onMount, Show, Switch } from "solid-js";
 import { createQuery } from "@tanstack/solid-query";
-import { AiOutlineLoading } from "solid-icons/ai";
 import { twJoin } from "tailwind-merge";
 
 import { request } from "@/libraries/clients";
@@ -48,7 +47,7 @@ export const SearchPane = withQueryProvider(
 
 		return (
 			<div class="space-y-8">
-				<div class="flex items-center border-b border-x-0 border-t-0 border-slate-200 gap-2">
+				<div class="flex items-center border-b border-x-0 border-t-0 border-slate-200 gap-2 relative">
 					<label for="search-bar" class="sr-only">
 						Search bar
 					</label>
@@ -60,14 +59,14 @@ export const SearchPane = withQueryProvider(
 						value={search()}
 						onInput={(event) => setSearch(event.currentTarget.value)}
 					/>
-					<AiOutlineLoading
-						class={twJoin(
-							"text-blue-500 text-2xl transition-all duration-700",
-							debouncing() || searchQuery.isFetching
-								? "animate-spin opacity-100"
-								: "opacity-0",
-						)}
-					/>
+					<p class={twJoin(
+						"font-heading text-sm absolute right-0 -bottom-6 transition-all",
+						debouncing() || searchQuery.isFetching
+							? "opacity-100 animate-pulse"
+							: "opacity-0",
+					)}>
+						Loading...
+					</p>
 				</div>
 				<Switch>
 					<Match when={searchQuery.isSuccess && !!debouncedSearch()}>
@@ -97,18 +96,6 @@ export const SearchPane = withQueryProvider(
 								</div>
 							</Show>
 						</Show>
-					</Match>
-					<Match
-						when={
-							(searchQuery.isLoading ||
-								searchQuery.fetchStatus === "fetching") &&
-							!!debouncedSearch()
-						}
-					>
-						<div class="flex items-center">
-							<AiOutlineLoading class="animate-spin text-blue-500 text-3xl" />
-							<span class="font-light text-2xl">Searching...</span>
-						</div>
 					</Match>
 				</Switch>
 			</div>

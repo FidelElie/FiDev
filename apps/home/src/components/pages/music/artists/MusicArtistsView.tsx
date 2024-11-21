@@ -3,9 +3,6 @@ import { createInfiniteQuery } from "@tanstack/solid-query";
 import { createIntersectionObserver } from "@solid-primitives/intersection-observer";
 import { twJoin } from "tailwind-merge";
 
-import { AiOutlineLoading } from "solid-icons/ai";
-import { BsMusicNote } from "solid-icons/bs";
-
 import { request } from "@/libraries/clients";
 import { useQueryParams } from "@/libraries/hooks";
 import { queryParams } from "@/libraries/utilities";
@@ -14,6 +11,7 @@ import type { InferDTOS } from "@/libraries/types";
 
 import { MusicArtistEntry } from "@/components/interfaces";
 import { withQueryProvider } from "@/components/providers";
+import { Button } from "@/components/core";
 
 type MusicArtistsResponse = InferDTOS<
 	typeof FetchMusicArtistsRoute.responses
@@ -72,20 +70,18 @@ export const MusicArtistsView = withQueryProvider(
 		return (
 			<div class="flex flex-col gap-2 flex-grow min-h-full">
 				<Show when={!!artistsQuery.hasPreviousPage}>
-					<button
-						class="bg-white px-3 py-2 rounded-lg text-blue-500 border border-blue-500 font-heading font-light flex items-center gap-2 disabled:opacity-50 w-min whitespace-nowrap"
-						onClick={() => artistsQuery.fetchPreviousPage()}
-						disabled={artistsQuery.isFetchingPreviousPage}
-					>
-						<div class="w-5 flex items-center">
-							{!artistsQuery.isFetchingPreviousPage ? (
-								<BsMusicNote class="text-blue-500" />
-							) : (
-								<AiOutlineLoading class="text-blue-500 animate-spin" />
-							)}
-						</div>
-						Get previous artists
-					</button>
+					<div class="flex items-center space-x-4">
+						<Button
+							intent="secondary"
+							onClick={() => artistsQuery.fetchPreviousPage()}
+							disabled={artistsQuery.isFetchingPreviousPage}
+						>
+							Get previous posts
+						</Button>
+						<Show when={artistsQuery.isFetchingPreviousPage}>
+							<p class="font-heading text-sm animate-pulse">Loading...</p>
+						</Show>
+					</div>
 				</Show>
 				<div class="relative flex flex-col-reverse gap-2 flex-grow min-w-full md:flex-row">
 					<div class="flex flex-col flex-grow">
@@ -122,7 +118,7 @@ export const MusicArtistsView = withQueryProvider(
 									}
 								/>
 								<Show when={artistsQuery.isFetchingNextPage}>
-									<AiOutlineLoading class="text-blue-500 animate-spin text-2xl" />
+									<p class="font-heading text-sm animate-pulse">Loading...</p>
 								</Show>
 								<Show when={!artistsQuery.hasNextPage}>
 									<p class="font-heading">No more artists</p>

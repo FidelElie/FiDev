@@ -40,7 +40,6 @@
 		"hast-util-from-parse5": "^8.0.1",
 		"qss": "^3.0.0",
 		"solid": "^0.2.1",
-		"solid-icons": "^1.1.0",
 		"solid-js": "^1.9.3",
 		"tailwind-merge": "^2.5.4",
 		"unist-util-visit": "^5.0.0",

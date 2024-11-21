@@ -101,9 +101,6 @@ importers:
       solid:
         specifier: ^0.2.1
         version: 0.2.1
-      solid-icons:
-        specifier: ^1.1.0
-        version: 1.1.0(solid-js@1.9.3)
       solid-js:
         specifier: ^1.9.3
         version: 1.9.3
@@ -3416,11 +3413,6 @@ packages:
         optional: true
       vite:
         optional: true
-
-  solid-icons@1.1.0:
-    resolution: {integrity: sha512-IesTfr/F1ElVwH2E1110s2RPXH4pujKfSs+koT8rwuTAdleO5s26lNSpqJV7D1+QHooJj18mcOiz2PIKs0ic+A==}
-    peerDependencies:
-      solid-js: '*'
 
   solid-js@1.9.3:
     resolution: {integrity: sha512-5ba3taPoZGt9GY3YlsCB24kCg0Lv/rie/HTD4kG6h4daZZz7+yK02xn8Vx8dLYBc9i6Ps5JwAbEiqjmKaLB3Ag==}
@@ -7452,10 +7444,6 @@ snapshots:
       vite: 5.4.10(@types/node@22.7.9)
     transitivePeerDependencies:
       - supports-color
-
-  solid-icons@1.1.0(solid-js@1.9.3):
-    dependencies:
-      solid-js: 1.9.3
 
   solid-js@1.9.3:
     dependencies:
