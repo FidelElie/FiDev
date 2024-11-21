@@ -9,13 +9,13 @@ export const QueryProvider = (props: QueryProviderProps) => {
 		<QueryClientProvider client={queryClient}>
 			{props.children}
 			<Show when={props.devtools}>
-				<SolidQueryDevtools/>
+				<SolidQueryDevtools />
 			</Show>
 		</QueryClientProvider>
-	)
-}
+	);
+};
 
 export type QueryProviderProps = {
 	children: JSX.Element;
 	devtools?: boolean;
-}
+};

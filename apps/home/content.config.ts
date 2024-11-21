@@ -9,9 +9,7 @@ import { onPublishPosts } from "@/libraries/posts/onPublish";
 
 export default defineContentConfig({
 	dir: "./src/content",
-	entries: [
-		musicPost
-	],
+	entries: [musicPost],
 	onPublish: onPublishPosts,
 	hooks: [
 		{
@@ -24,9 +22,9 @@ export default defineContentConfig({
 						return console.log(`Couldn't open post in VSCode ${error}`);
 					}
 
-					console.log(`Opened post in VSCode`)
+					console.log(`Opened post in VSCode`);
 				});
-			}
-		}
-	]
+			},
+		},
+	],
 });

@@ -12,21 +12,19 @@ const startSpotifyAuthFlow = async () => {
 
 	await spotifyClient.refreshAccessToken();
 
-	const url = spotifyClient.generateAuthorizationCodeFlowURL(
-		[
-			"user-library-read",
-			"user-follow-modify",
-			"user-follow-read",
-			"user-read-currently-playing",
-			"user-read-playback-position",
-			"user-read-playback-state",
-			"user-read-recently-played"
-		]
-	);
+	const url = spotifyClient.generateAuthorizationCodeFlowURL([
+		"user-library-read",
+		"user-follow-modify",
+		"user-follow-read",
+		"user-read-currently-playing",
+		"user-read-playback-position",
+		"user-read-playback-state",
+		"user-read-recently-played",
+	]);
 
 	console.log(`Opening browser to ${url}`);
 
 	open(url);
-}
+};
 
 startSpotifyAuthFlow();

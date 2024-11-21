@@ -7,7 +7,7 @@ import { RootLayout } from "@/pages/_root.layout";
 
 const [initialArtists, genres] = await Promise.all([
 	fetchMusicArtists(Astro.request),
-	fetchMusicGenres(Astro.request)
+	fetchMusicGenres(Astro.request),
 ]);
 ---
 <RootLayout title="Music artists">

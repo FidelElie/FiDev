@@ -10,7 +10,7 @@ export const BaseSelect = <T,>(props: SelectProps<T>) => {
 			onChange={props.onChange}
 			options={props.options}
 			placeholder={props.placeholder}
-			itemComponent={entry => (
+			itemComponent={(entry) => (
 				<KolbalteSelect.Item item={entry.item} class={props.itemClass}>
 					{props.itemComponent(entry.item.rawValue)}
 				</KolbalteSelect.Item>
@@ -18,28 +18,28 @@ export const BaseSelect = <T,>(props: SelectProps<T>) => {
 			multiple
 			sameWidth
 		>
-			<KolbalteSelect.Label class={props.labelClass}>{props.label}</KolbalteSelect.Label>
+			<KolbalteSelect.Label class={props.labelClass}>
+				{props.label}
+			</KolbalteSelect.Label>
 			<KolbalteSelect.Trigger class={props.class}>
 				<KolbalteSelect.Value>
-					{
-						state => props.valueComponent(state.selectedOptions() as T[])
-					}
+					{(state) => props.valueComponent(state.selectedOptions() as T[])}
 				</KolbalteSelect.Value>
 			</KolbalteSelect.Trigger>
 			<KolbalteSelect.Portal>
-				<KolbalteSelect.Content class={twMerge("w-[--kb-popper-anchor-width]", props.listClass)}>
-					<KolbalteSelect.Listbox/>
+				<KolbalteSelect.Content
+					class={twMerge("w-[--kb-popper-anchor-width]", props.listClass)}
+				>
+					<KolbalteSelect.Listbox />
 				</KolbalteSelect.Content>
 			</KolbalteSelect.Portal>
 		</KolbalteSelect>
-	)
-}
+	);
+};
 
-export const Select = Object.assign(
-	BaseSelect, {
-		SelectedIndicator: KolbalteSelect.ItemIndicator
-	}
-);
+export const Select = Object.assign(BaseSelect, {
+	SelectedIndicator: KolbalteSelect.ItemIndicator,
+});
 
 export type SelectProps<T> = {
 	options: T[];
@@ -53,4 +53,4 @@ export type SelectProps<T> = {
 	itemClass?: string;
 	labelClass?: string;
 	listClass?: string;
-}
+};

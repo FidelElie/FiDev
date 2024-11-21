@@ -1,0 +1,12 @@
+{
+	"name": "@fi.dev/scripts",
+	"version": "1.0.0",
+	"scripts": {
+		"clean": "pnpm node ./library/clean.ts",
+		"node": "tsx"
+	},
+	"devDependencies": {
+		"commander": "^12.1.0",
+		"rimraf": "^6.0.1"
+	}
+}

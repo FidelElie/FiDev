@@ -12,17 +12,17 @@ const FOOTER_LINKS = [
 		title: "Website",
 		links: [
 			{ href: AppManifest.links.pages["/home"], text: "home" },
-			{ href: AppManifest.links.pages["/search"], text: "search" }
-		]
+			{ href: AppManifest.links.pages["/search"], text: "search" },
+		],
 	},
 	{
 		title: "Music",
 		links: [
 			{ href: AppManifest.links.pages["/music"], text: "music" },
 			{ href: AppManifest.links.pages["/music/artists"], text: "artists" },
-			{ href: AppManifest.links.pages["/music/genres"], text: "genres" }
-		]
-	}
+			{ href: AppManifest.links.pages["/music/genres"], text: "genres" },
+		],
+	},
 ];
 ---
 <footer class="py-3 border-t border-slate-200 flex flex-col">
@@ -53,7 +53,7 @@ const FOOTER_LINKS = [
 		<p class="text-sm text-slate-600 font-light">
 			Copyright&copy; Fidel Pierre Elie {(new Date()).getFullYear()} - All Rights Reserved
 		</p>
-		<ul class="flex gap-2.5">
+		<ul class="flex flex-wrap gap-2.5">
 			<li>
 				<Link
 					href={AppManifest.links.socials.GITHUB}

@@ -7,7 +7,9 @@ import { MusicGenreView } from "@/components/pages/music/genres/MusicGenreView";
 
 const artists = await getCollection("artists");
 
-const genres = Array.from(new Set(artists.map(artist => artist.data.genres).flat()));
+const genres = Array.from(
+	new Set(artists.map((artist) => artist.data.genres).flat()),
+);
 ---
 <RootLayout title="Music genres" class="flex flex-col min-h-screen">
 	<Container class="flex-grow py-10 space-y-5">

@@ -8,7 +8,7 @@ type RegExpDirective<T> = {
 	identifier: RegExp | string;
 	onMatch: (match: RegExpMatchArray) => PromiseOrNot<T>;
 	getHTML: (matchResult: NoInfer<T>) => PromiseOrNot<string | undefined | null>;
-}
+};
 
 /**
  *
@@ -16,8 +16,8 @@ type RegExpDirective<T> = {
  * @returns
  */
 const HTMLToHast = async (htmlString: string) => {
-	return fromHtml(htmlString, { fragment: true }).children[0] as Element
-}
+	return fromHtml(htmlString, { fragment: true }).children[0] as Element;
+};
 
 /**
  * Helper to create regexp directive transformer to register with plugin
@@ -32,25 +32,28 @@ export const createRegExpDirective = <T,>(directive: RegExpDirective<T>) => {
 	}
 
 	return directive;
-}
+};
 
 /**
  *
  * @param directives
  * @returns
  */
-export const remarkRegExpDirective = (directives: RegExpDirective<unknown>[]) => {
-	const standardisedDirectives = directives.map(directive => {
+export const remarkRegExpDirective = (
+	directives: RegExpDirective<unknown>[],
+) => {
+	const standardisedDirectives = directives.map((directive) => {
 		const { identifier } = directive;
 
 		return {
 			...directive,
-			identifier: typeof identifier === "string" ? new RegExp(identifier) : identifier
-		}
+			identifier:
+				typeof identifier === "string" ? new RegExp(identifier) : identifier,
+		};
 	});
 
 	return async function transformer(tree: Root) {
-		tree.children
+		tree.children;
 
 		const textNodes: Element[] = [];
 
@@ -61,89 +64,97 @@ export const remarkRegExpDirective = (directives: RegExpDirective<unknown>[]) =>
 		});
 
 		const promises = await Promise.all(
-			textNodes.map(
-				async (node) => {
-					const { children } = node;
+			textNodes.map(async (node) => {
+				const { children } = node;
 
-					const mappedChildren = await Promise.all(
-						children.map(async child => {
-							if (child.type !== "text") { return [child]; }
+				const mappedChildren = await Promise.all(
+					children.map(async (child) => {
+						if (child.type !== "text") {
+							return [child];
+						}
 
-							const directiveMatches = await Promise.all(
-								standardisedDirectives.map(
-									async directive => {
-										const textNodes = Array.from(
-											child.value.matchAll(directive.identifier)
+						const directiveMatches = await Promise.all(
+							standardisedDirectives.map(async (directive) => {
+								const textNodes = Array.from(
+									child.value.matchAll(directive.identifier),
+								);
+
+								return Promise.all(
+									textNodes.map(async (match) => {
+										const html = await directive.getHTML(
+											await directive.onMatch(match),
 										);
 
-										return Promise.all(
-											textNodes.map(
-												async match => {
-													const html = await directive.getHTML(await directive.onMatch(match));
+										if (!html) {
+											return [];
+										}
 
-													if (!html) { return []; }
+										const ast = await HTMLToHast(html.trim());
 
-													const ast = await HTMLToHast(html.trim());
+										return {
+											directive: match[0],
+											index: match.index,
+											ast: {
+												...ast,
+												position: undefined,
+											},
+										};
+									}),
+								);
+							}),
+						);
 
-													return {
-														directive: match[0],
-														index: match.index,
-														ast: {
-															...ast,
-															position: undefined
-														}
-													}
-												}
-											)
-										);
-									}
-								)
-							);
+						const flattened = directiveMatches.flat().flat();
 
-							const flattened = directiveMatches.flat().flat();
+						if (!flattened.length) {
+							return [child];
+						}
 
-							if (!flattened.length) { return [child]; }
+						const flattenedMatches = flattened.toSorted(
+							(matchA, matchB) => matchB.index - matchA.index,
+						);
 
-							const flattenedMatches = flattened.toSorted(
-								(matchA, matchB) => matchB.index - matchA.index
-							);
+						const uniqueIdentifiers = Array.from(
+							new Set(
+								flattenedMatches.map((match) =>
+									toRegexCompliantString(match.directive),
+								),
+							),
+						);
 
-							const uniqueIdentifiers = Array.from(
-								new Set(flattenedMatches.map(match => toRegexCompliantString(match.directive)))
-							);
+						const splitRegexp = new RegExp(`${uniqueIdentifiers.join("|")}`);
 
-							const splitRegexp = new RegExp(`${uniqueIdentifiers.join("|")}`);
+						const split = child.value.split(splitRegexp);
 
-							const split = child.value.split(splitRegexp);
+						const reformedAST = split.reduce(
+							(tree, string, treeIndex) => {
+								if (string) {
+									tree.push({ type: "text", value: string });
+								}
 
-							const reformedAST = split.reduce(
-								(tree, string, treeIndex) => {
-									if (string) {
-										tree.push({ type: "text", value: string });
-									}
+								const directive = flattenedMatches[treeIndex];
 
-									const directive = flattenedMatches[treeIndex];
-
-									if (!directive) { return tree; }
-
-									tree.push(directive.ast);
-
+								if (!directive) {
 									return tree;
-								},
-								[] as typeof children
-							);
+								}
 
-							return reformedAST;
-						})
-					);
+								tree.push(directive.ast);
 
-					node.children = mappedChildren.flat();
-				}
-			)
+								return tree;
+							},
+							[] as typeof children,
+						);
+
+						return reformedAST;
+					}),
+				);
+
+				node.children = mappedChildren.flat();
+			}),
 		);
 
 		await Promise.all(promises);
 
 		return tree;
-	}
-}
+	};
+};

@@ -13,9 +13,8 @@ export const GET: APIRoute = async () => {
 	const randomPost = musicPosts[randomPostIndex];
 
 	return Response.json(
-		MusicImFeelingLuckyRoute.responses[200].parse(
-			{	post: { ...randomPost.data, slug: randomPost.slug } }
-		),
+		MusicImFeelingLuckyRoute.responses[200].parse({
+			post: { ...randomPost.data, slug: randomPost.slug },
+		}),
 	);
-}
-
+};

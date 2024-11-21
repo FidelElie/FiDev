@@ -17,27 +17,32 @@ const totalMusicPosts = (await getCollection("music")).length;
 export const getStaticPaths = async () => {
 	const musicPosts = await getCollection("music");
 
-	return musicPosts.map(entry => ({
-		params: { music: entry.slug }, props: { entry }
-	}))
-}
+	return musicPosts.map((entry) => ({
+		params: { music: entry.slug },
+		props: { entry },
+	}));
+};
 
 const { entry } = Astro.props;
 
-const { name, artists, covers, type, release, genres, duration, spotifyUrl } = entry.data;
+const { name, artists, covers, type, release, genres, duration, spotifyUrl } =
+	entry.data;
 
 const { Content } = await entry.render();
 
 const populatedArtists = await getCollection("artists", (artist) => {
-	return artists.some(artistEntry => artistEntry.spotifyId === artist.data.spotifyId);
+	return artists.some(
+		(artistEntry) => artistEntry.spotifyId === artist.data.spotifyId,
+	);
 });
 
 const [firstArtist] = populatedArtists;
 const [firstImageCover] = covers;
 
-const tracksList = type === MusicPostMetadata.types.ALBUM ? entry.data.tracks : [];
+const tracksList =
+	type === MusicPostMetadata.types.ALBUM ? entry.data.tracks : [];
 
-const favouriteTracks = tracksList.filter(track => !!track.favourite);
+const favouriteTracks = tracksList.filter((track) => !!track.favourite);
 ---
 <RootLayout title={`${firstArtist.data.name} - ${name}`}>
 	<Container class="flex flex-col py-10 gap-5 min-h-screen md:gap-10 md:flex-row">
@@ -73,12 +78,13 @@ const favouriteTracks = tracksList.filter(track => !!track.favourite);
 									tracksList.map(
 										(track, trackIndex) => (
 											<li class="text-sm">
-												{track.name} <span class="text-blue-500 font-heading">.{trackIndex + 1}</span>
+												{track.name} {track.favourite && <span>[F]</span>} <span class="text-blue-500 font-heading">.{trackIndex + 1}</span>
 											</li>
 										)
 									)
 								}
 							</ul>
+							<hr class="border-slate-200 my-1.5"/>
 						</details>
 					</Show>
 					<Show when={genres.length}>

@@ -4,7 +4,7 @@ export const useEventListener = <EventType extends keyof DocumentEventMap>(
 	target: "window" | "document" | HTMLElement,
 	event: EventType,
 	onEvent: (event: Event) => void,
-	options?: boolean | AddEventListenerOptions
+	options?: boolean | AddEventListenerOptions,
 ) => {
 	onMount(() => {
 		const resolvedTarget = (() => {
@@ -20,8 +20,8 @@ export const useEventListener = <EventType extends keyof DocumentEventMap>(
 
 		resolvedTarget.addEventListener(event, onEvent, options);
 
-		onCleanup(() => { resolvedTarget.removeEventListener(event, onEvent); });
+		onCleanup(() => {
+			resolvedTarget.removeEventListener(event, onEvent);
+		});
 	});
-}
-
-
+};

@@ -6,7 +6,7 @@ import {
 	checkbox,
 	confirm,
 	onCreatePromptWithFallback,
-	type PostCreationContext
+	type PostCreationContext,
 } from "@fi.dev/content";
 import { sanitiseToURLSlug } from "@fi.dev/typescript";
 
@@ -17,18 +17,19 @@ import { MusicPostMetadata, MusicPostRatingMap } from "@/libraries/constants";
 import type {
 	SpotifyTrackObject,
 	SpotifyArtistObject,
-	SpotifySimplifiedAlbumObject
+	SpotifySimplifiedAlbumObject,
 } from "@/libraries/types";
 
-
-export const onCreateMusicPost: PostCreationContext<MusicPostSchema> = async () => {
+export const onCreateMusicPost: PostCreationContext<
+	MusicPostSchema
+> = async () => {
 	const spotifyClient = createSpotifyClient(getSpotifyEnv());
 
 	await spotifyClient.refreshAccessToken();
 
 	const searchPhrase = await input({
 		message: "Search Spotify...",
-		validate: (input) => !!input
+		validate: (input) => !!input,
 	});
 
 	const loading = ora(`Searching Spotify for ${searchPhrase}`).start();
@@ -36,7 +37,7 @@ export const onCreateMusicPost: PostCreationContext<MusicPostSchema> = async () 
 	const response = await spotifyClient.searchForItem({
 		q: searchPhrase,
 		type: ["album", "artist", "track"],
-		limit: 5
+		limit: 5,
 	});
 
 	const options = [
@@ -45,14 +46,14 @@ export const onCreateMusicPost: PostCreationContext<MusicPostSchema> = async () 
 		new Separator("Tracks"),
 		...response.tracks.items,
 		new Separator("Artists"),
-		...response.artists.items
+		...response.artists.items,
 	];
 
 	loading.succeed(`Found ${options.length - 3} results`);
 
 	const chosenOptionId = await select({
 		message: `Results for ${searchPhrase}`,
-		choices: options.map(option => {
+		choices: options.map((option) => {
 			switch (option.type) {
 				case "separator":
 					return option;
@@ -61,17 +62,22 @@ export const onCreateMusicPost: PostCreationContext<MusicPostSchema> = async () 
 				default:
 					const firstArtist = option.artists[0];
 
-					return { value: option.id, name: `${firstArtist.name} - ${option.name}` }
+					return {
+						value: option.id,
+						name: `${firstArtist.name} - ${option.name}`,
+					};
 			}
 		}),
-		loop: false
+		loop: false,
 	});
 
 	const chosenValue = options.find(
-		entry => entry.type !== "separator" && entry.id === chosenOptionId
+		(entry) => entry.type !== "separator" && entry.id === chosenOptionId,
 	);
 
-	if (!chosenValue) { throw new Error(`Couldn't find entry with id ${chosenOptionId}`); }
+	if (!chosenValue) {
+		throw new Error(`Couldn't find entry with id ${chosenOptionId}`);
+	}
 
 	switch (chosenValue.type) {
 		case "album":
@@ -81,13 +87,15 @@ export const onCreateMusicPost: PostCreationContext<MusicPostSchema> = async () 
 		case "track":
 			return handleTrackPostCreation(chosenValue, spotifyClient);
 		default:
-			throw new Error(`Cannot handle type from search, got ${chosenValue.type}`);
+			throw new Error(
+				`Cannot handle type from search, got ${chosenValue.type}`,
+			);
 	}
-}
+};
 
 const handleArtistPostCreation = async (
 	entry: SpotifyArtistObject,
-	client: ReturnType<typeof createSpotifyClient>
+	client: ReturnType<typeof createSpotifyClient>,
 ) => {
 	const artistId = entry.id;
 
@@ -95,19 +103,26 @@ const handleArtistPostCreation = async (
 
 	const artistEntryId = await select({
 		message: `Pick music entry for ${entry.name}`,
-		choices: artistMusic.map(entry => ({ value: entry.id, name: entry.name }))
+		choices: artistMusic.map((entry) => ({
+			value: entry.id,
+			name: entry.name,
+		})),
 	});
 
-	const artistEntry = artistMusic.find(entry => entry.id === artistEntryId);
+	const artistEntry = artistMusic.find((entry) => entry.id === artistEntryId);
 
-	if (!artistEntry) { throw new Error("Couldn't find chosen artist entry"); }
+	if (!artistEntry) {
+		throw new Error("Couldn't find chosen artist entry");
+	}
 
 	const pickAlbum = await confirm({
 		message: "Create album post?",
-		default: true
+		default: true,
 	});
 
-	if (pickAlbum) { return handleAlbumPostCreation(artistEntry, client); }
+	if (pickAlbum) {
+		return handleAlbumPostCreation(artistEntry, client);
+	}
 
 	const { items: albumTracks } = await client.getAlbumTracks({ id: entry.id });
 
@@ -115,42 +130,44 @@ const handleArtistPostCreation = async (
 		message: `Pick favourite songs from ${entry.name}`,
 		choices: albumTracks.map((track, trackIndex) => ({
 			value: track.id,
-			name: `${trackIndex + 1}. ${track.name}`
+			name: `${trackIndex + 1}. ${track.name}`,
 		})),
-		loop: false
+		loop: false,
 	});
 
-	const track = albumTracks.find(track => track.id === trackId);
+	const track = albumTracks.find((track) => track.id === trackId);
 
-	if (!track) { throw new Error(`Could not find track with ID ${trackId}`); }
+	if (!track) {
+		throw new Error(`Could not find track with ID ${trackId}`);
+	}
 
 	return handleTrackPostCreation(track, client);
-}
+};
 
 const handleAlbumPostCreation = async (
 	entry: SpotifySimplifiedAlbumObject,
-	client: ReturnType<typeof createSpotifyClient>
+	client: ReturnType<typeof createSpotifyClient>,
 ) => {
 	const albumId = entry.id;
 
-	const { items: albumTracks } = await client.getAlbumTracks({ id: albumId })
+	const { items: albumTracks } = await client.getAlbumTracks({ id: albumId });
 
 	const favouriteSongIds = await checkbox({
 		message: `Pick favourite songs from ${entry.name}`,
 		choices: albumTracks.map((track, trackIndex) => ({
 			value: track.id,
-			name: `${trackIndex + 1}. ${track.name}`
+			name: `${trackIndex + 1}. ${track.name}`,
 		})),
-		loop: false
+		loop: false,
 	});
 
 	const rating = await chooseRecordRating("album");
 
-	const trackList = albumTracks.map(track => ({
+	const trackList = albumTracks.map((track) => ({
 		name: track.name,
 		spotifyId: track.id,
 		spotifyUrl: track.external_urls.spotify,
-		favourite: favouriteSongIds.includes(track.id)
+		favourite: favouriteSongIds.includes(track.id),
 	}));
 
 	const [firstArtist] = entry.artists;
@@ -176,17 +193,22 @@ const handleAlbumPostCreation = async (
 			rating,
 			spotifyId: entry.id,
 			spotifyUrl: entry.external_urls.spotify,
-			duration: albumTracks.reduce((total, track) => total + track.duration_ms, 0),
-			genres
-		} satisfies MusicPostSchema
-	}
-}
+			duration: albumTracks.reduce(
+				(total, track) => total + track.duration_ms,
+				0,
+			),
+			genres,
+		} satisfies MusicPostSchema,
+	};
+};
 
 const handleTrackPostCreation = async (
 	entry: SpotifyTrackObject,
-	client: ReturnType<typeof createSpotifyClient>
+	client: ReturnType<typeof createSpotifyClient>,
 ) => {
-	const trackSlug = await onCreatePromptWithFallback(`${entry.artists[0].name} ${entry.name}`);
+	const trackSlug = await onCreatePromptWithFallback(
+		`${entry.artists[0].name} ${entry.name}`,
+	);
 
 	const rating = await chooseRecordRating("track");
 
@@ -211,36 +233,36 @@ const handleTrackPostCreation = async (
 			spotifyId: entry.id,
 			spotifyUrl: entry.external_urls.spotify,
 			duration: entry.duration_ms,
-			genres
-		} satisfies MusicPostSchema
-	}
-}
+			genres,
+		} satisfies MusicPostSchema,
+	};
+};
 
 const chooseRecordRating = async (type: "album" | "track") => {
 	const chosenRating = await select({
 		message: `What rating would you give this ${type}`,
 		choices: Object.entries(MusicPostRatingMap).map(([level, value]) => ({
 			value: level as keyof typeof MusicPostRatingMap,
-			name: value
-		}))
+			name: value,
+		})),
 	});
 
 	return chosenRating;
-}
+};
 
 const mapArtists = (artists: SpotifySimplifiedAlbumObject["artists"]) => {
-	return artists.map(artist => ({
+	return artists.map((artist) => ({
 		slug: sanitiseToURLSlug(artist.name),
 		name: artist.name,
-		spotifyId: artist.id
-	}))
-}
+		spotifyId: artist.id,
+	}));
+};
 
 const getGenresFromArtistId = async (
 	artistId: string,
-	client: ReturnType<typeof createSpotifyClient>
+	client: ReturnType<typeof createSpotifyClient>,
 ) => {
 	const artistInformation = await client.getArtist({ id: artistId });
 
 	return artistInformation?.genres;
-}
+};

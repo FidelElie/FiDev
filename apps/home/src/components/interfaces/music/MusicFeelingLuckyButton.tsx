@@ -1,6 +1,4 @@
-import { createSignal } from "solid-js";
-import { BsMusicNote } from 'solid-icons/bs';
-import { AiOutlineLoading } from 'solid-icons/ai';
+import { createSignal, Show } from "solid-js";
 
 import { AppManifest } from "@/configs";
 
@@ -16,7 +14,9 @@ export const MusicFeelingLuckyButton = () => {
 	const [submitting, setSubmitting] = createSignal(false);
 
 	const getFeelingLuckyPost = async () => {
-		if (!buttonRef || submitting()) { return; }
+		if (!buttonRef || submitting()) {
+			return;
+		}
 
 		setSubmitting(true);
 		try {
@@ -26,36 +26,33 @@ export const MusicFeelingLuckyButton = () => {
 
 			const validatedResponse = responses[200].parse(response);
 
-			const pathname = AppManifest.links.pages["/music/:slug"](validatedResponse.post.slug || "");
+			const pathname = AppManifest.links.pages["/music/:slug"](
+				validatedResponse.post.slug || "",
+			);
 
 			setTimeout(() => {
-				setSubmitting(false);
 				astroNavigate({ element: buttonRef, href: pathname });
 			}, 1000);
 		} catch (error) {
 			console.error(error);
 			setSubmitting(false);
 		}
-	}
+	};
 
 	return (
 		<div ref={buttonRef!}>
 			<Button
-				class="flex items-center gap-1"
+				class="flex items-center gap-1 relative"
 				onClick={getFeelingLuckyPost}
 				disabled={submitting()}
 			>
-				<div class="w-5 flex items-center">
-					{
-						!submitting() ? (
-							<BsMusicNote class="text-blue-500" />
-						) : (
-							<AiOutlineLoading class="animate-spin text-blue-500"/>
-						)
-					}
-				</div>
 				<span class="font-heading">I'm feeling lucky</span>
+				<Show when={submitting()}>
+					<p class="animate-in fade-in text-xs absolute bottom-0 left-1.5 font-heading">
+						Loading...
+					</p>
+				</Show>
 			</Button>
 		</div>
-	)
-}
+	);
+};

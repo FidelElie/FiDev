@@ -2,8 +2,8 @@
 const DEFAULT_CONFIG: NonNullable<Config> = {
 	numerals: true,
 	symbols: false,
-	lowercase: false
-}
+	lowercase: false,
+};
 
 /**
  * Generate random string of characters
@@ -23,16 +23,16 @@ export const generateRandomString = (number = 6, config?: Config) => {
 		...chars.split(""),
 		...(options.numerals ? [numerals] : []),
 		...(options.symbols ? [symbols] : []),
-		...(options.lowercase ? [lowercase] : [])
+		...(options.lowercase ? [lowercase] : []),
 	]
 		.join("")
 		.split("");
 
 	const generatedString = new Array(number).fill(null).map(() => {
-		return inclusions[Math.ceil(Math.random() * (inclusions.length - 1))]
+		return inclusions[Math.ceil(Math.random() * (inclusions.length - 1))];
 	});
 
 	return generatedString.join("");
-}
+};
 
-type Config = { numerals?: boolean; symbols?: boolean; lowercase?: boolean; };
+type Config = { numerals?: boolean; symbols?: boolean; lowercase?: boolean };

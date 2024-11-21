@@ -10,11 +10,11 @@ import { RootLayout } from "@/pages/_root.layout";
 
 const [initialProjects, genres] = await Promise.all([
 	fetchMusicProjects(Astro.request),
-	fetchMusicGenres(Astro.request)
+	fetchMusicGenres(Astro.request),
 ]);
 ---
 <RootLayout title="Music">
-	<Container class="pt-10 pb-32 min-h-screen space-y-5 flex flex-col">
+	<Container class="pt-10 pb-32 min-h-screen space-y-2 flex flex-col">
 		<div class="flex flex-col justify-between gap-2">
 			<div class="flex flex-col space-y-1">
 				<h1 class="font-heading text-5xl tracking-tighter">music</h1>
@@ -23,7 +23,7 @@ const [initialProjects, genres] = await Promise.all([
 				</h2>
 			</div>
 		</div>
-		<div class="flex items-center gap-2">
+		<div class="flex flex-col gap-2 md:flex-row md:items-center">
 			<Link.Button href={AppManifest.links.pages["/music/artists"]}>
 				Search by artists
 			</Link.Button>

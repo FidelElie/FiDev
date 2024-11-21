@@ -3,46 +3,45 @@ export type SpotifyClientConfig = {
 	clientSecret: string;
 	redirectURI: string;
 	refreshToken?: string;
-}
+};
 
-export type SpotifyScopes = (
+export type SpotifyScopes =
 	// Images
-	"ugc-image-upload" |
+	| "ugc-image-upload"
 	// Spotify Connect
-	"user-read-playback-state" |
-	"user-modify-playback-state" |
-	"user-read-currently-playing" |
+	| "user-read-playback-state"
+	| "user-modify-playback-state"
+	| "user-read-currently-playing"
 	// Playback
-	"app-remote-control" |
-	"streaming" |
+	| "app-remote-control"
+	| "streaming"
 	// Playlists
-	"playlist-read-private" |
-	"playlist-read-collaborative" |
-	"playlist-modify-private" |
-	"playlist-modify-public" |
+	| "playlist-read-private"
+	| "playlist-read-collaborative"
+	| "playlist-modify-private"
+	| "playlist-modify-public"
 	// Follow
-	"user-follow-modify" |
-	"user-follow-read" |
+	| "user-follow-modify"
+	| "user-follow-read"
 	// Listening History
-	"user-read-playback-position" |
-	"user-top-read" |
-	"user-read-recently-played" |
+	| "user-read-playback-position"
+	| "user-top-read"
+	| "user-read-recently-played"
 	// Library
-	"user-library-modify" |
-	"user-library-read" |
+	| "user-library-modify"
+	| "user-library-read"
 	// Users
-	"user-read-email" |
-	"user-read-private" |
+	| "user-read-email"
+	| "user-read-private"
 	// Open Access
-	"user-soa-link" |
-	"user-soa-unlink" |
-	"soa-manage-entitlements" |
-	"soa-manage-partner" |
-	"soa-create-partner"
-);
+	| "user-soa-link"
+	| "user-soa-unlink"
+	| "soa-manage-entitlements"
+	| "soa-manage-partner"
+	| "soa-create-partner";
 
 type AlbumType = "album" | "single" | "compilation";
-type Followers = { href: string | null; total: number; };
+type Followers = { href: string | null; total: number };
 type RestrictionReasons = "market" | "product" | "explicit";
 type ExternalUrls = { spotify: string };
 type ReleaseDatePrecision = "year" | "month" | "day";
@@ -50,7 +49,7 @@ type AvailableMarkets = string[]; // TODO add all country codes
 type Languages = string[]; // TODO Add language codes
 
 // ! General Types
-export type SpotifyImageObject = { url: string; height: number; width: number; };
+export type SpotifyImageObject = { url: string; height: number; width: number };
 
 export type SpotifyArtistObject = {
 	external_urls: ExternalUrls;
@@ -86,7 +85,7 @@ export type SpotifyTrackObject = {
 	id: string;
 	is_playable: boolean;
 	linked_from: {};
-	restrictions: { reason: RestrictionReasons; };
+	restrictions: { reason: RestrictionReasons };
 	name: string;
 	popularity: number;
 	preview_url: string | null;
@@ -107,7 +106,7 @@ export type SpotifyAlbumObject<T> = {
 	name: string;
 	release_date: string;
 	release_date_precision: ReleaseDatePrecision;
-	restrictions: { reason: RestrictionReasons; };
+	restrictions: { reason: RestrictionReasons };
 	type: "album";
 	uri: string;
 	album_group: "album" | "single" | "compilation" | "appears_on";
@@ -115,7 +114,7 @@ export type SpotifyAlbumObject<T> = {
 } & T;
 
 export type SpotifySimplifiedAlbumObject = SpotifyAlbumObject<{
-	artists: SpotifySimplifiedArtistObject[]
+	artists: SpotifySimplifiedArtistObject[];
 }>;
 
 export type SpotifyPlaylistObject = {
@@ -181,7 +180,7 @@ export type SpotifySimplifiedEpisodeObject = {
 	name: string;
 	release_date: string;
 	release_date_precision: ReleaseDatePrecision;
-	resume_point: { fully_played: boolean; resume_position_ms: number; };
+	resume_point: { fully_played: boolean; resume_position_ms: number };
 	type: "episode";
 	uri: string;
 	restrictions: RestrictionReasons;
@@ -209,13 +208,13 @@ export type SpotifySimplifiedAudiobookObject = {
 	total_chapters: number;
 };
 
-export type SpotifyAuthorObject = { name: string; };
+export type SpotifyAuthorObject = { name: string };
 
-export type SpotifyCopyrightObject = { text: string; type: string; };
+export type SpotifyCopyrightObject = { text: string; type: string };
 
-export type SpotifyNarratorObject = { name: string; };
+export type SpotifyNarratorObject = { name: string };
 
-export type SpotifyPlaybackObject=  {
+export type SpotifyPlaybackObject = {
 	device: {
 		id: string;
 		is_active: boolean;
@@ -239,10 +238,7 @@ export type SpotifyPlaybackObject=  {
 	timestamp: number;
 	progress_ms: number;
 	is_playing: number;
-	item: (
-		SpotifyTrackObject |
-		SpotifySimplifiedEpisodeObject
-	) | null;
+	item: (SpotifyTrackObject | SpotifySimplifiedEpisodeObject) | null;
 	currently_playing_type: "track" | "episode" | "ad" | "unknown";
 	actions: {
 		interrupting_playback?: boolean;
@@ -255,9 +251,8 @@ export type SpotifyPlaybackObject=  {
 		toggling_shuffle: boolean;
 		toggling_repeat_track: boolean;
 		transferring_playback: boolean;
-	}
+	};
 };
-
 
 // ! Endpoint Types
 type SpotifyResponsePayload<T> = {
@@ -276,7 +271,7 @@ export type SpotifyConfigs = {
 		market?: AvailableMarkets[number];
 		limit?: number;
 		offset?: number;
-		include_external?: "audio"
+		include_external?: "audio";
 	};
 	getArtistMusic: {
 		id: string;
@@ -289,17 +284,20 @@ export type SpotifyConfigs = {
 		id: string;
 		market?: AvailableMarkets[number];
 	};
-	getAlbums: { ids: string[] | string; };
+	getAlbums: { ids: string[] | string };
 	getAlbumTracks: {
 		id: string;
 		market?: AvailableMarkets[number];
 		limit?: number;
 		offset?: number;
 	};
-	getArtist: { id: string; market?: AvailableMarkets[number]; };
-	getArtists: { ids: string[] | string; };
-	getTrack: { params: { trackId: string; }; query?: { market?: AvailableMarkets[number]; } };
-	getTracks: { ids: string[] | string; };
+	getArtist: { id: string; market?: AvailableMarkets[number] };
+	getArtists: { ids: string[] | string };
+	getTrack: {
+		params: { trackId: string };
+		query?: { market?: AvailableMarkets[number] };
+	};
+	getTracks: { ids: string[] | string };
 	getPlaybackState: {
 		market?: AvailableMarkets[number];
 		additional_types?: string;
@@ -324,22 +322,33 @@ export type SpotifyResponses = {
 		refresh_token: string;
 	};
 	searchForItem: {
-		tracks: SpotifyResponsePayload<{ items: SpotifyTrackObject[]; }>;
-		artists: SpotifyResponsePayload<{ items: SpotifyArtistObject[]; }>;
-		albums: SpotifyResponsePayload<{ items: SpotifySimplifiedAlbumObject[]; }>;
-		playlists: SpotifyResponsePayload<{ items: SpotifyPlaylistObject[]; }>;
-		shows: SpotifyResponsePayload<{ items: SpotifySimplifiedShowObject[]; }>;
-		episodes: SpotifyResponsePayload<{ items: SpotifySimplifiedEpisodeObject[]; }>;
-		audiobooks: SpotifyResponsePayload<{ items: SpotifySimplifiedAudiobookObject[]; }>;
+		tracks: SpotifyResponsePayload<{ items: SpotifyTrackObject[] }>;
+		artists: SpotifyResponsePayload<{ items: SpotifyArtistObject[] }>;
+		albums: SpotifyResponsePayload<{ items: SpotifySimplifiedAlbumObject[] }>;
+		playlists: SpotifyResponsePayload<{ items: SpotifyPlaylistObject[] }>;
+		shows: SpotifyResponsePayload<{ items: SpotifySimplifiedShowObject[] }>;
+		episodes: SpotifyResponsePayload<{
+			items: SpotifySimplifiedEpisodeObject[];
+		}>;
+		audiobooks: SpotifyResponsePayload<{
+			items: SpotifySimplifiedAudiobookObject[];
+		}>;
 	};
-	getArtistMusic: SpotifyResponsePayload<{ items: SpotifySimplifiedAlbumObject[]; }>;
+	getArtistMusic: SpotifyResponsePayload<{
+		items: SpotifySimplifiedAlbumObject[];
+	}>;
 	getAlbum: SpotifyAlbumObject<{ artists: SpotifySimplifiedArtistObject[] }>;
-	getAlbums: { albums: SpotifyAlbumObject<{ artists: SpotifySimplifiedArtistObject[] }>[]; };
-	getAlbumTracks: SpotifyResponsePayload<{ items: SpotifyTrackObject[]; }>;
+	getAlbums: {
+		albums: SpotifyAlbumObject<{ artists: SpotifySimplifiedArtistObject[] }>[];
+	};
+	getAlbumTracks: SpotifyResponsePayload<{ items: SpotifyTrackObject[] }>;
 	getArtist: SpotifyArtistObject;
-	getArtists: { artists: SpotifyArtistObject[]; };
+	getArtists: { artists: SpotifyArtistObject[] };
 	getTrack: SpotifyTrackObject;
-	getTracks: { tracks: SpotifyTrackObject[]; };
+	getTracks: { tracks: SpotifyTrackObject[] };
 	getPlaybackState: SpotifyPlaybackObject;
-	getCurrentlyPlayingTrack: Omit<SpotifyPlaybackObject, "repeat_state" | "shuffle_state">;
+	getCurrentlyPlayingTrack: Omit<
+		SpotifyPlaybackObject,
+		"repeat_state" | "shuffle_state"
+	>;
 };

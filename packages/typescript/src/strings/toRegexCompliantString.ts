@@ -5,5 +5,5 @@
  * @returns regex complaint string
  */
 export const toRegexCompliantString = (text: string) => {
-  return text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&');
-}
+	return text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&");
+};

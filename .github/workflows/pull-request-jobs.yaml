@@ -1,0 +1,40 @@
+name: Handle on pull request jobs
+
+on:
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    name: Run check jobs
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 9
+
+      - name: Install Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      - name: Setup environment variables
+        uses: Firenza/secrets-to-env@v1.3.0
+        with:
+            secrets: ${{ toJSON(secrets) }}
+            secret_filter_regex: SPOTIFY_*
+
+      - name: Install dependencies
+        run: pnpm install
+        timeout-minutes: 2
+
+      - name: Run checks for repo
+        run: pnpm check

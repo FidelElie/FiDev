@@ -11,31 +11,34 @@ export const SearchWebsiteRoute = {
 	dtos: { query: z.object({ term: z.string() }) },
 	responses: {
 		200: z.object({
-			music: z.array(
-				BaseMusicPostSchema.pick({
-					name: true,
-					artists: true,
-					covers: true,
-					slug: true,
-					spotifyId: true,
-					rating: true
-				})
-				.merge(
-					z.object({
-						preview: z.string(),
-						type: z.enum(getConstKeys(MusicPostMetadata.types))
-					})
+			music: z
+				.array(
+					BaseMusicPostSchema.pick({
+						name: true,
+						artists: true,
+						covers: true,
+						slug: true,
+						spotifyId: true,
+						rating: true,
+					}).merge(
+						z.object({
+							preview: z.string(),
+							type: z.enum(getConstKeys(MusicPostMetadata.types)),
+						}),
+					),
 				)
-			).default([]),
-			artists: z.array(
-				MusicArtistSchema.pick({
-					name: true,
-					slug: true,
-					spotifyId: true,
-					covers: true,
-					genres: true,
-				})
-			).default([]),
-		})
-	}
+				.default([]),
+			artists: z
+				.array(
+					MusicArtistSchema.pick({
+						name: true,
+						slug: true,
+						spotifyId: true,
+						covers: true,
+						genres: true,
+					}),
+				)
+				.default([]),
+		}),
+	},
 };

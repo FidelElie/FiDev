@@ -1,6 +1,9 @@
 import type { JSX } from "solid-js";
 import { twMerge } from "tailwind-merge";
-import { Tooltip as KolbalteTooltip, type TooltipRootProps } from "@kobalte/core/tooltip";
+import {
+	Tooltip as KolbalteTooltip,
+	type TooltipRootProps,
+} from "@kobalte/core/tooltip";
 
 export const Tooltip = (props: TooltipProps) => {
 	return (
@@ -13,7 +16,7 @@ export const Tooltip = (props: TooltipProps) => {
 					as={props.contentAs}
 					class={twMerge(
 						"bg-white border border-slate-200 rounded-lg py-2 px-3",
-						props.contentClass
+						props.contentClass,
 					)}
 				>
 					{props.children}
@@ -21,8 +24,8 @@ export const Tooltip = (props: TooltipProps) => {
 				</KolbalteTooltip.Content>
 			</KolbalteTooltip.Portal>
 		</KolbalteTooltip>
-	)
-}
+	);
+};
 
 export type TooltipProps = {
 	placement?: TooltipRootProps["placement"];
@@ -33,4 +36,4 @@ export type TooltipProps = {
 	children: JSX.Element;
 	triggerAs?: keyof JSX.HTMLElementTags;
 	contentAs?: keyof JSX.HTMLElementTags;
-}
+};

@@ -2,20 +2,19 @@
 import { Image } from "astro:assets";
 import { getCollection } from "astro:content";
 
-import { SiSpotify } from 'solid-icons/si';
-
 import { generateSpotifyURI } from "@/libraries/utilities";
 
-import { Container } from "@/components/core";
+import { Container, Link } from "@/components/core";
 import { MusicPostRatingTag } from "@/components/interfaces";
 import { RootLayout } from "@/pages/_root.layout";
 
 export async function getStaticPaths() {
 	const musicPosts = await getCollection("artists");
 
-	return musicPosts.map(entry => ({
-		params: { artist: entry.data.slug }, props: { entry }
-	}))
+	return musicPosts.map((entry) => ({
+		params: { artist: entry.data.slug },
+		props: { entry },
+	}));
 }
 
 const { entry } = Astro.props;
@@ -23,7 +22,7 @@ const { entry } = Astro.props;
 const { name, slug, covers, genres, spotifyId, spotifyUrl } = entry.data;
 
 const musicPosts = await getCollection("music", (entry) => {
-	return entry.data.artists.some(artist => artist.spotifyId === spotifyId)
+	return entry.data.artists.some((artist) => artist.spotifyId === spotifyId);
 });
 ---
 <RootLayout title={name}>
@@ -49,9 +48,12 @@ const musicPosts = await getCollection("music", (entry) => {
 					{genres.join(", ")}
 				</p>
 				<div>
-					<a href={generateSpotifyURI(spotifyUrl)} aria-label="Open with spotify">
-						<SiSpotify class="text-xl text-green-600"/>
-					</a>
+					<Link
+						href={generateSpotifyURI(spotifyUrl)}
+						class="decoration-green-600 text-sm hover:text-green-600"
+					>
+						Spotify
+					</Link>
 				</div>
 			</div>
 			<hr class="border-t border-slate-200 my-4"/>
