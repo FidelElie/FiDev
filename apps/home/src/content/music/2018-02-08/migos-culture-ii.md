@@ -118,6 +118,7 @@ What can I say about this album. Well it is long and in this case that is not a 
 Compared to some of the bars from this one being memorable for all the wrong reasons.
 
 > Diamonds (diamonds) on my wrist look like a mcflurry??????
-> -  I added the question marks but maybe they should have actually been in the lyrics because what the fuck???? <br-From Emoji a Chain - Culture II
+> -  I added the question marks but maybe they should have actually been in the lyrics because what the fuck????
+- From Emoji a Chain - Culture II
 
 To me the project just feels like a lot of swag rapping that doesn't make much sense. It is travesty when I hear new Migos and none of it finds its way onto my Gassed playlist. I''ll give it a few more listens because it is for the culture after all but its not looking great at the moment.
