@@ -10,23 +10,25 @@ export const searchWebsiteAction = async (request: Request) => {
 
 	const { term } = dtos.query.parse(params);
 
+	const loweredTerm = term.toLowerCase();
+
 	const [musicResult, artistsResult] = await Promise.all([
 		getCollection("music", (entry) => {
 			return (
-				entry.slug.toLowerCase().includes(term) ||
-				entry.data.name.toLowerCase().includes(term) ||
-				entry.data.slug?.toLowerCase().includes(term) ||
+				entry.slug.toLowerCase().includes(loweredTerm) ||
+				entry.data.name.toLowerCase().includes(loweredTerm) ||
+				entry.data.slug?.toLowerCase().includes(loweredTerm) ||
 				entry.data.artists.some((artist) =>
-					artist.name.toLowerCase().includes(term),
+					artist.name.toLowerCase().includes(loweredTerm),
 				) ||
-				entry.data.genres.some((genre) => genre.toLowerCase().includes(term))
+				entry.data.genres.some((genre) => genre.toLowerCase().includes(loweredTerm))
 			);
 		}),
 		getCollection("artists", (entry) => {
 			return (
-				entry.data.slug.toLowerCase().includes(term) ||
-				entry.data.name.toLowerCase().includes(term) ||
-				entry.data.genres.some((genre) => genre.toLowerCase().includes(term))
+				entry.data.slug.toLowerCase().includes(loweredTerm) ||
+				entry.data.name.toLowerCase().includes(loweredTerm) ||
+				entry.data.genres.some((genre) => genre.toLowerCase().includes(loweredTerm))
 			);
 		}),
 	]);
