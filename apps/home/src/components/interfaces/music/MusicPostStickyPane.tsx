@@ -61,6 +61,7 @@ export const MusicPostStickyPane = (props: MusicPostStickyPaneProps) => {
 		>
 			<Popover
 				placement="bottom-start"
+				flip="top start"
 				trigger="Filter posts"
 				triggerClass="px-3 py-2 whitespace-nowrap"
 				contentClass="p-2 min-w-64 max-w-96 flex flex-col bg-white space-y-2"

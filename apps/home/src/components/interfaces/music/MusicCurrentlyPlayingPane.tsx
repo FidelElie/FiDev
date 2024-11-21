@@ -218,7 +218,7 @@ export const MusicCurrentlyPlayingPane = withQueryProvider(() => {
 										</span>
 									</Passthrough>
 								</Show>
-								<h2 class="font-heading text-lg">
+								<h2 class="font-heading md:text-lg">
 									{currentPlayingQuery.data?.name ||
 										"Nothing is playing at the moment"}
 								</h2>
