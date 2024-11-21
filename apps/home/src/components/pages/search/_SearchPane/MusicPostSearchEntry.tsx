@@ -13,7 +13,7 @@ export const MusicPostSearchEntry = (props: MusicPostSearchEntryProps) => {
 	return (
 		<a
 			href={AppManifest.links.pages["/music/:slug"](props.post.slug!)}
-			class="flex items-center gap-5 w-full max-w-full group"
+			class="flex flex-col gap-5 w-full max-w-full group md:flex-row md:items-center"
 		>
 			<div class="w-36 h-36 flex-shrink-0">
 				<Image
