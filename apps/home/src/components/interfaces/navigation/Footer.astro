@@ -3,7 +3,7 @@ import { AppManifest } from "@/configs";
 
 import { generateSpotifyURI } from "@/libraries/utilities";
 
-import { Container, Link } from "@/components/core";
+import { Container, Icon, Link } from "@/components/core";
 import { BackToTopButton } from "@/components/interfaces/navigation/_Footer/BackToTopButton";
 import { FooterLinkGroup } from "@/components/interfaces/navigation/_Footer/FooterLinkGroup";
 
@@ -13,6 +13,7 @@ const FOOTER_LINKS = [
 		links: [
 			{ href: AppManifest.links.pages["/home"], text: "home" },
 			{ href: AppManifest.links.pages["/search"], text: "search" },
+			{ href: AppManifest.links.pages["/about"], text: "about" }
 		],
 	},
 	{
@@ -57,36 +58,36 @@ const FOOTER_LINKS = [
 			<li>
 				<Link
 					href={AppManifest.links.socials.GITHUB}
-					class="decoration-slate-800 text-sm hover:text-slate-800"
+					aria-label="My Github"
 					target="_blank"
 				>
-					Github
+					<Icon name="github" class="text-2xl text-slate-600"/>
 				</Link>
 			</li>
 			<li>
 				<Link
 					href={AppManifest.links.socials.INSTAGRAM}
-					class="decoration-pink-500 text-sm hover:text-pink-500"
+					aria-label="My Instagram"
 					target="_blank"
 				>
-					Instagram
+					<Icon name="instagram" class="text-2xl text-slate-600"/>
 				</Link>
 			</li>
 			<li>
 				<Link
 					href={AppManifest.links.socials.LINKEDIN}
-					class="decoration-sky-600 text-sm hover:text-sky-600"
+					aria-label="My Linkedin"
 					target="_blank"
 				>
-					Linkedin
+					<Icon name="linkedin" class="text-2xl text-slate-600"/>
 				</Link>
 			</li>
 			<li>
 				<Link
 					href={generateSpotifyURI(AppManifest.links.socials.SPOTIFY)}
-					class="decoration-green-600 text-sm hover:text-green-600"
+					aria-label="My Spotify"
 				>
-					Spotify
+					<Icon name="spotify" class="text-2xl text-slate-600"/>
 				</Link>
 			</li>
 		</ul>

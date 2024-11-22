@@ -167,6 +167,7 @@ export const getCurrentPlayingTrack = async () => {
 
 	const response = {
 		name: currentlyPlaying.name,
+		uri: currentlyPlaying.uri,
 		covers: currentlyPlaying.album.images,
 		remaining: currentPlayingResponse.progress_ms,
 		duration: currentlyPlaying.duration_ms,
@@ -180,6 +181,7 @@ export const getCurrentPlayingTrack = async () => {
 		artist: {
 			name: firstArtist.name,
 			slug: artistEntry?.data.slug || "",
+			uri: firstArtist.uri
 		},
 	};
 

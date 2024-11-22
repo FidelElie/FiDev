@@ -1,12 +1,13 @@
 export const AppManifest = {
 	application: {
-		name: "FiPE",
+		name: "Fidel Elie",
 		description: "The ramblings of a man when he finally finishes something",
 	},
 	links: {
 		pages: {
 			"/home": "/",
 			"/search": "/search",
+			"/about": "/about",
 			"/music": "/music",
 			"/music/:slug": (slug: string) => `/music/${slug}`,
 			"/music/artists": "/music/artists",

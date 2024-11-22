@@ -22,7 +22,8 @@ const metaDescription = description || AppManifest.application.description;
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+		<!-- <link rel="preload" href="/sprites.svg" as="image" type="image/svg+xml"> -->
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title} | {AppManifest.application.name}</title>

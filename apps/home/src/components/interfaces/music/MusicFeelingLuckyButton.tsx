@@ -1,12 +1,15 @@
 import { createSignal, Show } from "solid-js";
 
+import { default as TestSVG } from "@/assets/test.svg";
+
 import { AppManifest } from "@/configs";
 
-import { astroNavigate } from "@/libraries/utilities";
 import { request } from "@/libraries/clients";
+import { astroNavigate } from "@/libraries/utilities";
 import { MusicImFeelingLuckyRoute } from "@/libraries/api";
 
-import { Button } from "@/components/core";
+import { Button, Icon } from "@/components/core";
+import { Image } from "@unpic/solid";
 
 export const MusicFeelingLuckyButton = () => {
 	let buttonRef: HTMLDivElement | undefined;
@@ -42,16 +45,22 @@ export const MusicFeelingLuckyButton = () => {
 	return (
 		<div ref={buttonRef!}>
 			<Button
-				class="flex items-center gap-1 relative"
+				class="flex items-center gap-2 relative"
 				onClick={getFeelingLuckyPost}
 				disabled={submitting()}
 			>
+				<div class="w-5">
+					<Show
+						when={submitting()}
+						fallback={<Icon name="dice-three" class="text-xl text-blue-500"/>}
+						// fallback={(
+						// 	<Image src={TestSVG.src} alt="Hello" width={64} height={64}/>
+						// )}
+					>
+						<Icon name="circle-notch" class="text-blue-500 animate-spin fade-in text-xl"/>
+					</Show>
+				</div>
 				<span class="font-heading">I'm feeling lucky</span>
-				<Show when={submitting()}>
-					<p class="animate-in fade-in text-xs absolute bottom-0 left-1.5 font-heading">
-						Loading...
-					</p>
-				</Show>
 			</Button>
 		</div>
 	);

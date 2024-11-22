@@ -1,6 +1,7 @@
 export * from "./Button";
 export * from "./Container";
 export * from "./Grid";
+export * from "./Icon";
 export * from "./Link";
 export * from "./Passthrough";
 export * from "./Popover";

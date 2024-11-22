@@ -12,7 +12,7 @@
 		"drizzle": "drizzle-kit",
 		"node": "tsx",
 		"content": "pnpm node ./content.config.ts",
-		"sync:music": "pnpm node ./src/scripts/sync-music-post-entries.ts",
+		"sync:icons": "pnpm node ./scripts/sync-svg-sprites.ts",
 		"music:auth": "pnpm node ./scripts/spotify-auth-code-flow.ts"
 	},
 	"dependencies": {
