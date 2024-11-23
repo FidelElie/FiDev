@@ -1,4 +1,4 @@
-import type { JSX } from "solid-js";
+import { Show, type JSX } from "solid-js";
 import {
 	Popover as KobaltePopover,
 	type PopoverRootProps,
@@ -20,7 +20,9 @@ export const Popover = (props: PopoverProps) => {
 					)}
 				>
 					{props.children}
-					<KobaltePopover.Arrow />
+					<Show when={props.arrow !== false}>
+						<KobaltePopover.Arrow />
+					</Show>
 				</KobaltePopover.Content>
 			</KobaltePopover.Portal>
 		</KobaltePopover>
@@ -35,5 +37,6 @@ type PopoverProps = {
 	triggerAs?: keyof JSX.HTMLElementTags;
 	contentAs?: keyof JSX.HTMLElementTags;
 	contentClass?: string;
+	arrow?: boolean;
 	children: JSX.Element;
 };

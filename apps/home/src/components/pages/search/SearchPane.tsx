@@ -8,7 +8,7 @@ import { SearchWebsiteRoute } from "@/libraries/api";
 import { useOnDebounce } from "@/libraries/hooks";
 
 import { withQueryProvider } from "@/components/providers";
-import { Grid } from "@/components/core";
+import { Grid, Icon } from "@/components/core";
 import { MusicPostSearchEntry } from "@/components/pages/search/_SearchPane/MusicPostSearchEntry";
 import { MusicArtistSearchEntry } from "@/components/pages/search/_SearchPane/MusicArtistSearchEntry";
 
@@ -47,7 +47,7 @@ export const SearchPane = withQueryProvider(
 
 		return (
 			<div class="space-y-8">
-				<div class="flex items-center border-b border-x-0 border-t-0 border-slate-200 gap-2 relative">
+				<div class="flex items-center border-b border-x-0 border-t-0 border-slate-200 gap-2">
 					<label for="search-bar" class="sr-only">
 						Search bar
 					</label>
@@ -59,14 +59,17 @@ export const SearchPane = withQueryProvider(
 						value={search()}
 						onInput={(event) => setSearch(event.currentTarget.value)}
 					/>
-					<p class={twJoin(
-						"font-heading text-sm absolute right-0 -bottom-6 transition-all",
-						debouncing() || searchQuery.isFetching
-							? "opacity-100 animate-pulse"
-							: "opacity-0",
-					)}>
-						Loading...
-					</p>
+					<Icon
+						name="circle-notch"
+						class={
+							twJoin(
+								"text-4xl transition text-blue-500",
+								debouncing() || searchQuery.isFetching
+								? "opacity-100 animate-spin"
+								: "opacity-0",
+							)
+						}
+					/>
 				</div>
 				<Switch>
 					<Match when={searchQuery.isSuccess && !!debouncedSearch()}>

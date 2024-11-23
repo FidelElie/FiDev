@@ -37,6 +37,7 @@ export const FetchMusicPostsRoute = {
 			size: z.number().optional(),
 			genres: arrayQueryParam().optional(),
 			levels: arrayQueryParam().optional(),
+			search: z.string().optional()
 		}),
 	},
 	responses: {

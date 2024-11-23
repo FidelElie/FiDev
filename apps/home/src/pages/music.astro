@@ -3,38 +3,57 @@ import { AppManifest } from "@/configs";
 
 import { fetchMusicGenres, fetchMusicProjects } from "@/libraries/server";
 
-import { Container, Link } from "@/components/core";
+import { Container, Icon, Link } from "@/components/core";
 import { MusicCurrentlyPlayingPane } from "@/components/interfaces";
 import { MusicProjectsView } from "@/components/pages/music/index/MusicProjectsView";
 import { RootLayout } from "@/pages/_root.layout";
+
+const meta = {
+	title: "Music",
+	description: "Find something to listen to from a catalogue of music posts, filter and search your way to a new sound",
+}
 
 const [initialProjects, genres] = await Promise.all([
 	fetchMusicProjects(Astro.request),
 	fetchMusicGenres(Astro.request),
 ]);
 ---
-<RootLayout title="Music">
-	<Container class="pt-10 pb-32 min-h-screen space-y-2 flex flex-col">
+<RootLayout {...meta}>
+	<Container class="pt-8 pb-32 min-h-screen space-y-2 flex flex-col">
 		<div class="flex flex-col justify-between gap-2">
 			<div class="flex flex-col space-y-1">
-				<h1 class="font-heading text-5xl tracking-tighter">music</h1>
+				<h1 class="font-heading text-5xl tracking-tighter">{meta.title.toLowerCase()}</h1>
 				<h2 class="text-lg font-light font-heading tracking-tight text-blue-500">
 					Find something new to listen to
 				</h2>
 			</div>
 		</div>
-		<div class="flex flex-col gap-2 md:flex-row md:items-center">
-			<Link.Button href={AppManifest.links.pages["/music/artists"]}>
-				Search by artists
+		<div class="flex items-center border border-slate-200 rounded-lg px-2 w-min">
+			<p class="font-heading whitespace-nowrap">
+				Search by:
+			</p>
+			<Link.Button
+				href={AppManifest.links.pages["/music/artists"]}
+				intent="secondary"
+				class="flex items-center gap-2 border-none"
+			>
+				<Icon name="user" class="text-xl text-blue-500"/>
+				artist
 			</Link.Button>
-			<Link.Button href={AppManifest.links.pages["/music/genres"]}>
-				Search by genres
+			<div class="w-px h-5 bg-slate-200"/>
+			<Link.Button
+				href={AppManifest.links.pages["/music/genres"]}
+				intent="secondary"
+				class="flex items-center gap-2 border-none"
+			>
+				<Icon name="playlist" class="text-xl text-blue-500"/>
+				genre
 			</Link.Button>
 		</div>
-		<div>
-			<MusicCurrentlyPlayingPane client:load/>
+		<div class="w-full">
+			<MusicCurrentlyPlayingPane transition:persist client:load/>
 		</div>
-		<div class="flex flex-grow astro:flex-grow astro:block">
+		<div class="flex flex-grow astro:flex-grow astro:block astro:w-full">
 			<MusicProjectsView
 				initial={[initialProjects]}
 				genres={genres.items}

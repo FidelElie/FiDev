@@ -22,7 +22,7 @@ import {
 export const fetchMusicProjects = async (request: Request) => {
 	const { dtos, responses } = FetchMusicPostsRoute;
 
-	const { page, size, genres, levels } = dtos.query.parse(
+	const { page, size, genres, levels, search } = dtos.query.parse(
 		queryParams.decodeFromUrl(request.url),
 	);
 
@@ -34,7 +34,21 @@ export const fetchMusicProjects = async (request: Request) => {
 		const includedByRating =
 			!levels?.length || levels.includes(post.data.rating);
 
-		return includedByGenre && includedByRating;
+		const includedBySearch = (() => {
+			if (!search) { return true; }
+
+			const lowerSearch = search.toLowerCase();
+
+			return (
+				post.data.name.toLowerCase().includes(lowerSearch) ||
+				post.data.artists.some((artist) =>
+					artist.name.toLowerCase().includes(lowerSearch),
+				) ||
+				post.data.genres.some((genre) => genre.toLowerCase().includes(lowerSearch))
+			)
+		})();
+
+		return includedByGenre && includedByRating && includedBySearch;
 	});
 
 	const result = paginateEntries(musicPosts, { page, size, defaultSize: 15 });
@@ -156,12 +170,12 @@ export const getCurrentPlayingTrack = async () => {
 	);
 
 	const musicTrackEntry = getPostInformation(
-		musicPosts.find((entry) => entry.data.spotifyId === currentlyPlaying.id),
+		musicPosts.find((post) => post.data.spotifyId === currentlyPlaying.id),
 	);
 
 	const musicAlbumEntry = getPostInformation(
 		musicPosts.find(
-			(entry) => entry.data.spotifyId === currentlyPlaying.album.id,
+			(post) => post.data.spotifyId === currentlyPlaying.album.id,
 		),
 	);
 

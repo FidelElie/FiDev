@@ -21,7 +21,6 @@ import { GetCurrentlyPlayingTrackRoute } from "@/libraries/api/music.api";
 
 import { Link, Passthrough, Icon, Tooltip, Popover } from "@/components/core";
 import { withQueryProvider } from "@/components/providers/withQueryProvider";
-import { generateSpotifyURI } from "@/libraries/utilities";
 
 type TrackState = {
 	duration: number | null;
@@ -122,7 +121,7 @@ export const MusicCurrentlyPlayingPane = withQueryProvider(() => {
 										<Icon
 											name="shuffle"
 											class={twJoin(
-												"text-2xl transition",
+												"text-xl transition",
 												context().shuffled && "text-blue-500"
 											)}
 										/>
@@ -135,7 +134,7 @@ export const MusicCurrentlyPlayingPane = withQueryProvider(() => {
 										<Icon
 											name={context().repeating === "track" ? "repeat-once" : "repeat"}
 											class={twJoin(
-												"text-2xl transition",
+												"text-xl transition",
 												context().repeating !== "off" && "text-blue-500"
 											)}
 										/>
@@ -160,7 +159,13 @@ export const MusicCurrentlyPlayingPane = withQueryProvider(() => {
 								</For>
 								<Popover
 									placement="bottom-end"
-									trigger={<Icon name="spotify" class="text-xl text-slate-600"/>}
+									trigger={
+										<Icon
+											name="spotify"
+											class="text-xl text-slate-600"
+											aria-label="Spotify-links"
+										/>
+									}
 									contentClass="flex flex-col"
 									triggerClass="border border-slate-200 rounded p-0.5"
 								>
@@ -185,13 +190,13 @@ export const MusicCurrentlyPlayingPane = withQueryProvider(() => {
 				</Show>
 			</div>
 			<hr class="border-slate-200 border-t" />
-			<div class="p-2.5 flex flex-col gap-3 sm:flex-row sm:items-center">
+			<div class="p-2.5 flex gap-3 sm:items-center">
 				<div class="h-20 w-20 rounded-xl overflow-hidden border border-slate-200 flex flex-col items-center justify-center md:flex-row">
 					<Switch>
 						<Match when={currentPlayingQuery.isSuccess}>
 							<Show
 								when={currentPlayingQuery.data?.covers[0].url}
-								fallback={<Icon name="cassette-tape" class="text-3xl text-slate-500"/>}
+								fallback={<Icon name="cassette-tape" class="text-3xl text-blue-500"/>}
 							>
 								{(url) => (
 									<Image

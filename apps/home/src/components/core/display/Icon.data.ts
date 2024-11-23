@@ -13,7 +13,6 @@ export const ICONS_SPRITES = [
 	"repeat",
 	"repeat-once",
 	"shuffle",
-	"vinyl-record",
 	"music-quaver",
 	"caret-up",
 	"caret-down",
@@ -24,4 +23,10 @@ export const ICONS_SPRITES = [
 	"disc",
 	"dice-three",
 	"user",
+	"floppy-disk",
+	"broom",
+	"playlist",
+	"check",
+	"star",
+	"note",
 ] as const;

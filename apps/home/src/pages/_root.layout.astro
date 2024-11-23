@@ -8,6 +8,7 @@ import "./_root.layout.css";
 import { AppManifest } from "@/configs";
 
 import { Footer, Navbar } from "@/components/interfaces";
+import { InlineSprites } from "@/components/astro";
 
 export interface Props {
 	title: string;
@@ -23,7 +24,6 @@ const metaDescription = description || AppManifest.application.description;
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-		<!-- <link rel="preload" href="/sprites.svg" as="image" type="image/svg+xml"> -->
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title} | {AppManifest.application.name}</title>
@@ -32,6 +32,7 @@ const metaDescription = description || AppManifest.application.description;
 		<slot name="head"/>
 	</head>
 	<body>
+		<InlineSprites transition:persist/>
 		<Navbar transition:persist/>
 		<main class={_class}>
 			<slot>

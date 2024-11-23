@@ -1,7 +1,5 @@
 import { createSignal, Show } from "solid-js";
 
-import { default as TestSVG } from "@/assets/test.svg";
-
 import { AppManifest } from "@/configs";
 
 import { request } from "@/libraries/clients";
@@ -9,7 +7,6 @@ import { astroNavigate } from "@/libraries/utilities";
 import { MusicImFeelingLuckyRoute } from "@/libraries/api";
 
 import { Button, Icon } from "@/components/core";
-import { Image } from "@unpic/solid";
 
 export const MusicFeelingLuckyButton = () => {
 	let buttonRef: HTMLDivElement | undefined;
@@ -53,9 +50,6 @@ export const MusicFeelingLuckyButton = () => {
 					<Show
 						when={submitting()}
 						fallback={<Icon name="dice-three" class="text-xl text-blue-500"/>}
-						// fallback={(
-						// 	<Image src={TestSVG.src} alt="Hello" width={64} height={64}/>
-						// )}
 					>
 						<Icon name="circle-notch" class="text-blue-500 animate-spin fade-in text-xl"/>
 					</Show>
