@@ -1,7 +1,6 @@
-import { createEffect, createSignal, For, Match, Show, Switch } from "solid-js";
+import { createSignal, For, Match, Show, Switch } from "solid-js";
 import { createInfiniteQuery } from "@tanstack/solid-query";
 import { createIntersectionObserver } from "@solid-primitives/intersection-observer";
-import { twJoin } from "tailwind-merge";
 
 import { request } from "@/libraries/clients";
 import { useQueryParams } from "@/libraries/hooks";
