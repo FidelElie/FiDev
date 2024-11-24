@@ -1,5 +1,6 @@
 ---
 import { ViewTransitions } from "astro:transitions";
+import { twMerge } from "tailwind-merge";
 
 import "@fontsource-variable/nunito";
 import "@fontsource-variable/space-grotesk";
@@ -7,16 +8,20 @@ import "./_root.layout.css";
 
 import { AppManifest } from "@/configs";
 
-import { Footer, Navbar } from "@/components/interfaces";
 import { InlineSprites } from "@/components/astro";
+import { Footer, Navbar } from "@/components/interfaces";
 
 export interface Props {
 	title: string;
 	description?: string;
+	bodyClass?: string;
 	class?: string;
+	navbarClass?: string;
+	padded?: boolean;
+	fixed?: boolean;
 }
 
-const { title, description, class: _class } = Astro.props;
+const { title, description, bodyClass, navbarClass, class: _class, padded, fixed } = Astro.props;
 
 const metaDescription = description || AppManifest.application.description;
 ---
@@ -31,10 +36,10 @@ const metaDescription = description || AppManifest.application.description;
 		<ViewTransitions/>
 		<slot name="head"/>
 	</head>
-	<body>
+	<body class={bodyClass}>
 		<InlineSprites transition:persist/>
-		<Navbar transition:persist/>
-		<main class={_class}>
+		<Navbar class={navbarClass} fixed={fixed} transition:persist/>
+		<main class={twMerge(padded !== false && "pt-12 pb-32", _class)}>
 			<slot>
 		</main>
 		<Footer transition:persist/>

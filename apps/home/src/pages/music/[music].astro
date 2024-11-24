@@ -9,7 +9,7 @@ import { AppManifest } from "@/configs";
 import { MusicPostMetadata } from "@/libraries/constants";
 
 import { Container, Link } from "@/components/core";
-import { MusicPostRatingTag } from "@/components/interfaces";
+import { MusicPostRatingTag, SubscriberForm } from "@/components/interfaces";
 import { RootLayout } from "@/pages/_root.layout";
 import { SpotifyLinkDropdown } from "@/components/pages/music/[music]/SpotifyLinkDropdown";
 
@@ -50,7 +50,7 @@ const truncatedContent = entry.body.slice(0, 100);
 	title={`${firstArtist.data.name} - ${name}`}
 	description={truncatedContent}
 >
-	<Container class="flex flex-col py-10 gap-5 min-h-screen md:gap-10 md:flex-row">
+	<Container class="flex flex-col gap-5 min-h-screen md:gap-10 md:flex-row">
 		<aside class="flex-shrink-0 w-full h-min top-5 md:w-72 md:sticky">
 			{
 				firstImageCover && (
@@ -151,5 +151,9 @@ const truncatedContent = entry.body.slice(0, 100);
 				<Content/>
 			</div>
 		</article>
+	</Container>
+	<hr class="border-t border-slate-200 mt-20 mb-24"/>
+	<Container class="flex flex-col gap-5 md:gap-10 md:flex-row">
+		<SubscriberForm client:visible/>
 	</Container>
 </RootLayout>

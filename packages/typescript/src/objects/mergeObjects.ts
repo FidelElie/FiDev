@@ -9,26 +9,29 @@ export const mergeObjects = <ObjectA extends object, ObjectB extends object>(
 	objectB: ObjectB,
 ): ObjectA & ObjectB => {
 	return Object.fromEntries(
-		Object.keys(objectA).map((key) => {
-			const valueA = objectA[key as keyof ObjectA];
-			const valueB = objectB[key as keyof ObjectB];
+		Array.from(
+			new Set([...Object.keys(objectA), ...Object.keys(objectB)]),
+			(key) => {
+				const valueA = objectA[key as keyof ObjectA];
+				const valueB = objectB[key as keyof ObjectB];
 
-			if (
-				valueA &&
-				typeof valueA === "object" &&
-				!Array.isArray(valueA) &&
-				valueB &&
-				typeof valueB === "object" &&
-				!Array.isArray(valueB)
-			) {
-				return [key, mergeObjects(valueA, valueB)];
+				if (
+					valueA &&
+					typeof valueA === "object" &&
+					!Array.isArray(valueA) &&
+					valueB &&
+					typeof valueB === "object" &&
+					!Array.isArray(valueB)
+				) {
+					return [key, mergeObjects(valueA, valueB)];
+				}
+
+				if (valueA && !valueB) {
+					return [key, valueA];
+				}
+
+				return [key, valueB];
 			}
-
-			if (valueA && !valueB) {
-				return [key, valueA];
-			}
-
-			return [key, valueB];
-		}),
+		)
 	) as ObjectA & ObjectB;
 };

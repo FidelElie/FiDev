@@ -191,7 +191,7 @@ export const MusicCurrentlyPlayingPane = withQueryProvider(() => {
 			</div>
 			<hr class="border-slate-200 border-t" />
 			<div class="p-2.5 flex gap-3 sm:items-center">
-				<div class="h-20 w-20 rounded-xl overflow-hidden border border-slate-200 flex flex-col items-center justify-center md:flex-row">
+				<div class="h-20 w-20 flex-shrink-0 rounded-xl overflow-hidden border border-slate-200 flex flex-col items-center justify-center md:flex-row">
 					<Switch>
 						<Match when={currentPlayingQuery.isSuccess}>
 							<Show
@@ -231,7 +231,7 @@ export const MusicCurrentlyPlayingPane = withQueryProvider(() => {
 						}
 					>
 						<div class="flex justify-between animate-in fade-in">
-							<div class="mb-1.5 truncate">
+							<div class="mb-1.5">
 								<Show
 									when={!!currentPlayingQuery.data}
 									fallback={
@@ -256,9 +256,8 @@ export const MusicCurrentlyPlayingPane = withQueryProvider(() => {
 										</span>
 									</Passthrough>
 								</Show>
-								<h2 class="font-heading md:text-lg">
-									{currentPlayingQuery.data?.name ||
-										"Nothing is playing at the moment"}
+								<h2 class="text-sm font-heading md:text-lg">
+									{currentPlayingQuery.data?.name || "Nothing at the moment"}
 								</h2>
 							</div>
 							<Show when={currentPlayingQuery.data}>

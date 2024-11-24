@@ -1,12 +1,10 @@
 ---
 import { getCollection } from "astro:content";
 
-import { AppManifest } from "@/configs";
-
-import { Container, Icon, Link } from "@/components/core";
-import { MusicCurrentlyPlayingPane } from "@/components/interfaces";
-import { RootLayout } from "@/pages/_root.layout";
+import { Container } from "@/components/core";
+import { MusicSearchOptions } from "@/components/interfaces";
 import { MusicGenreView } from "@/components/pages/music/genres/MusicGenreView";
+import { RootLayout } from "@/pages/_root.layout";
 
 const artists = await getCollection("artists");
 
@@ -14,41 +12,17 @@ const genres = Array.from(
 	new Set(artists.map((artist) => artist.data.genres).flat()),
 );
 ---
-<RootLayout title="Music genres" class="flex flex-col min-h-screen">
-	<Container class="flex-grow pt-8 pb-10 space-y-2">
+<RootLayout title="Music genres" class="flex flex-col min-h-screen space-y-2  pt-8 pb-20">
+	<Container class="flex-grow space-y-2">
 		<div class="flex flex-col space-y-1">
 			<h1 class="font-heading text-5xl tracking-tighter">genres</h1>
 			<h2 class="text-lg font-light tracking-tight text-blue-500">
 				Find posts based on the sound you like.
 			</h2>
 		</div>
-		<div class="flex items-center border border-slate-200 rounded-lg px-2 w-min">
-			<p class="font-heading whitespace-nowrap">
-				Search by:
-			</p>
-			<Link.Button
-				href={AppManifest.links.pages["/music"]}
-				intent="secondary"
-				class="flex items-center gap-2 border-none"
-			>
-				<Icon name="note" class="text-xl text-blue-500"/>
-				post
-			</Link.Button>
-			<div class="w-px h-5 bg-slate-200"/>
-			<Link.Button
-				href={AppManifest.links.pages["/music/artists"]}
-				intent="secondary"
-				class="flex items-center gap-2 border-none"
-			>
-				<Icon name="user" class="text-xl text-blue-500"/>
-				artist
-			</Link.Button>
-		</div>
-		<div class="w-full">
-			<MusicCurrentlyPlayingPane transition:persist client:load/>
-		</div>
-		<div class="astro:flex-grow astro:block astro:w-full">
-			<MusicGenreView genres={genres} client:load/>
-		</div>
+		<MusicSearchOptions options={["posts", "artists"]}/>
 	</Container>
+	<div class="astro:flex-grow astro:block astro:w-full">
+		<MusicGenreView genres={genres} client:load/>
+	</div>
 </RootLayout>

@@ -6,9 +6,10 @@ import { request } from "@/libraries/clients";
 import { astroNavigate } from "@/libraries/utilities";
 import { MusicImFeelingLuckyRoute } from "@/libraries/api";
 
-import { Button, Icon } from "@/components/core";
+import { Button, Icon, type ButtonProps } from "@/components/core";
+import { twMerge } from "tailwind-merge";
 
-export const MusicFeelingLuckyButton = () => {
+export const MusicFeelingLuckyButton = (props: MusicFeelingLuckyButtonProps) => {
 	let buttonRef: HTMLDivElement | undefined;
 
 	const [submitting, setSubmitting] = createSignal(false);
@@ -42,9 +43,10 @@ export const MusicFeelingLuckyButton = () => {
 	return (
 		<div ref={buttonRef!}>
 			<Button
-				class="flex items-center gap-2 relative"
+				class={twMerge("flex items-center gap-2 relative", props.class)}
 				onClick={getFeelingLuckyPost}
 				disabled={submitting()}
+				intent={props.intent}
 			>
 				<div class="w-5">
 					<Show
@@ -59,3 +61,8 @@ export const MusicFeelingLuckyButton = () => {
 		</div>
 	);
 };
+
+type MusicFeelingLuckyButtonProps = {
+	class?: string;
+	intent?: ButtonProps["intent"];
+}

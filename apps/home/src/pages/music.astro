@@ -1,17 +1,16 @@
 ---
-import { AppManifest } from "@/configs";
-
+import { astroMeta } from "@/libraries/utilities";
 import { fetchMusicGenres, fetchMusicProjects } from "@/libraries/server";
 
-import { Container, Icon, Link } from "@/components/core";
-import { MusicCurrentlyPlayingPane } from "@/components/interfaces";
+import { Container } from "@/components/core";
+import { MusicSearchOptions } from "@/components/interfaces";
 import { MusicProjectsView } from "@/components/pages/music/index/MusicProjectsView";
 import { RootLayout } from "@/pages/_root.layout";
 
-const meta = {
+const meta = astroMeta({
 	title: "Music",
 	description: "Find something to listen to from a catalogue of music posts, filter and search your way to a new sound",
-}
+});
 
 const [initialProjects, genres] = await Promise.all([
 	fetchMusicProjects(Astro.request),
@@ -19,7 +18,7 @@ const [initialProjects, genres] = await Promise.all([
 ]);
 ---
 <RootLayout {...meta}>
-	<Container class="pt-8 pb-32 min-h-screen space-y-2 flex flex-col">
+	<Container class="min-h-screen space-y-2 flex flex-col">
 		<div class="flex flex-col justify-between gap-2">
 			<div class="flex flex-col space-y-1">
 				<h1 class="font-heading text-5xl tracking-tighter">{meta.title.toLowerCase()}</h1>
@@ -28,31 +27,7 @@ const [initialProjects, genres] = await Promise.all([
 				</h2>
 			</div>
 		</div>
-		<div class="flex items-center border border-slate-200 rounded-lg px-2 w-min">
-			<p class="font-heading whitespace-nowrap">
-				Search by:
-			</p>
-			<Link.Button
-				href={AppManifest.links.pages["/music/artists"]}
-				intent="secondary"
-				class="flex items-center gap-2 border-none"
-			>
-				<Icon name="user" class="text-xl text-blue-500"/>
-				artist
-			</Link.Button>
-			<div class="w-px h-5 bg-slate-200"/>
-			<Link.Button
-				href={AppManifest.links.pages["/music/genres"]}
-				intent="secondary"
-				class="flex items-center gap-2 border-none"
-			>
-				<Icon name="playlist" class="text-xl text-blue-500"/>
-				genre
-			</Link.Button>
-		</div>
-		<div class="w-full">
-			<MusicCurrentlyPlayingPane transition:persist client:load/>
-		</div>
+		<MusicSearchOptions options={["artists", "genres"]}/>
 		<div class="flex flex-grow astro:flex-grow astro:block astro:w-full">
 			<MusicProjectsView
 				initial={[initialProjects]}

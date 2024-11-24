@@ -1,9 +1,22 @@
 ---
+import { twJoin } from "tailwind-merge";
+
 import { AppManifest } from "@/configs";
 
 import { Container, Link } from "@/components/core";
+
+export interface Props {
+	class?: string;
+	fixed?: boolean;
+}
+
+const { fixed, class: _class } = Astro.props;
 ---
-<header class="py-3 border-b border-slate-200">
+<header class={twJoin(
+	"top-0 left-0 w-full z-30 py-3 border-b border-slate-200 bg-white",
+	fixed && "fixed",
+	_class
+)}>
 	<Container as="nav" class="flex items-center justify-between">
 		<Link
 			href={AppManifest.links.pages["/home"]}
