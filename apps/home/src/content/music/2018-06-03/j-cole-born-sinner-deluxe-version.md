@@ -107,6 +107,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/2AhpxzHOwjZwvQkLeXNgHg'
     name: Niggaz Know
     favourite: false
+date: '2018-06-03T00:00:00.000Z'
 ---
 After listening to KOD several times I did one of my listening to an older j.cole project
 because that was due. And this time I went back and listened to born sinner which is criminally

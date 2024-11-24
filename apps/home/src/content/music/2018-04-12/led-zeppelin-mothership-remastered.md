@@ -107,6 +107,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/5v2vkoTamoisazJFanHJjk'
     name: Kashmir - Remaster
     favourite: false
+date: '2018-04-12T00:00:00.000Z'
 ---
 I am a big fan of older rock bands like Queen, Rainbow and as you can see from this project
 Led Zeppelin. This is the album I always use to listen to when I was younger and admittedly

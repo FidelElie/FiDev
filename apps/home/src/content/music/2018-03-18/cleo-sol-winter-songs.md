@@ -42,6 +42,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/7eJuAwgcLzhGy1aXwrS5ID'
     name: Miles Song
     favourite: false
+date: '2018-03-18T00:00:00.000Z'
 ---
 My latest Colour's show discovery made me instantly save her project to listen to later.
 And I loved it, her sound is very chilled and more airy but mostly I love the instrumentation.

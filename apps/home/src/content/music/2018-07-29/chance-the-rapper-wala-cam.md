@@ -34,6 +34,7 @@ genres:
   - rap
   - trap
 type: TRACK
+date: '2018-07-29T00:00:00.000Z'
 ---
 I liked everything about this song: the beat bangs, there is a violin sample that comes in
 at the end of the chorus that give me chills it sounds so good. Chance's rap is great,

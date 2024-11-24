@@ -23,6 +23,7 @@ rating: LEVEL_2
 genres:
   - retro soul
 type: TRACK
+date: '2018-06-03T00:00:00.000Z'
 ---
 Since I've been visiting home I have found myself getting reacquainted with the wonderful
 platform of the radio. And yes I do hate the radio, it is usually full of blown out pop

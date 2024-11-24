@@ -69,6 +69,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/2mNL4SOWsFugpQN5tkK6Zq'
     name: As I Am
     favourite: false
+date: '2018-02-11T00:00:00.000Z'
 ---
 It may be pretty much the dead of winter in Edinburgh, but this song puts a bit of summer
 in the cold. I haven't got round to listening to the Justin's newest album but this song

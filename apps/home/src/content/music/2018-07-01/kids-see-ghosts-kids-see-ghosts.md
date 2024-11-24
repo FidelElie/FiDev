@@ -58,6 +58,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/4kUZvXB3LC3an3HX6h0s17'
     name: Cudi Montage
     favourite: false
+date: '2018-07-01T00:00:00.000Z'
 ---
 Kanye and his attention seeking makes a lot more sense to me now with all the work he has been
 putting in. Production on Pusha T's album, Teyana Taylor's and working on his own he has been

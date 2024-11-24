@@ -52,6 +52,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/6lkTPyQO9aGQANAknI36h3'
     name: Slide
     favourite: false
+date: '2018-02-11T00:00:00.000Z'
 ---
 Tom Misch's sister brings the heat with this EP, where She brings her very unique vocal
 style to jazz and that was appreciated. This is definitely the project to listen to if

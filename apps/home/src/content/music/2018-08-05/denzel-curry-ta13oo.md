@@ -86,6 +86,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/5vm7y9SmcH0S1NOQanb8rQ'
     name: BLACK METAL TERRORIST | 13 M T
     favourite: false
+date: '2018-08-05T00:00:00.000Z'
 ---
 On and off I have been playing the game DOOM. Not usually a game I would play because of the
 setting, but I saw that people have loved and I got for six quid and I can't complain. The game

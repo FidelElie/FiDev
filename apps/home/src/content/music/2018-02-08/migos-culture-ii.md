@@ -109,6 +109,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/3OnOomd79OjqSYHchCQ6ht'
     name: Notice Me
     favourite: false
+date: '2018-02-08T00:00:00.000Z'
 ---
 What can I say about this album. Well it is long and in this case that is not a good thing. I have a policy of doing a blind listen of an album the first time around, meaning no looking at the song changes, just listening through without interruption. If there is a song of note then I will have a look at what it is called. That never happened with Culture II, partly due to me not even knowing when a new song was on. I am pretty disappointed with the newest project from them since Culture 1 was so good. The songs hit harder they actually had bars that were at least memorable:
 

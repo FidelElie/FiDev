@@ -80,6 +80,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/3q0UN40vV6mI7TT560Ry5l'
     name: Arizona (feat. AUGUST 08)
     favourite: false
+date: '2018-02-11T00:00:00.000Z'
 ---
 I completely missed this album when it released because I forgot that Rich Chigga changed
 his name. It wasn't until my flatmate put me onto Rich Brian's new project that I a gave

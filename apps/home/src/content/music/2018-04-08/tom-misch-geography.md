@@ -77,6 +77,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/6mmxgvESWmcFQ5ie4NOT7L'
     name: We've Come So Far
     favourite: false
+date: '2018-04-08T00:00:00.000Z'
 ---
 I was about to flame Tom after my friend Manny told me he released another standalone single
 this week. But another friend - shoutouts to Syed - who lives almost a day ahead told me the

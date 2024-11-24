@@ -78,6 +78,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/0EA2RhRHL4KWeNa7JfD1Yw'
     name: So It Goes
     favourite: true
+date: '2018-08-12T00:00:00.000Z'
 ---
 First off what does this album fall under. Hip Hop, funk, a bit of soul? I don't really know.
 But that is probably why I love it so much. I think this album is the love child of his

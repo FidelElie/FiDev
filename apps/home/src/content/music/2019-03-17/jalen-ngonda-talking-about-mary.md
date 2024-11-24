@@ -40,6 +40,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/4a2stzv5DLLaUdjMwUEIBB'
     name: Holler (When You Call My Name) - Acoustic Version
     favourite: false
+date: '2019-03-17T00:00:00.000Z'
 ---
 
 This EP may have been released in this year, but i sounds like something straight from 60

@@ -24,6 +24,7 @@ genres:
   - south african hip hop
   - south african trap
 type: TRACK
+date: '2018-02-08T00:00:00.000Z'
 ---
 Was making cheesecake (so a normal Monday night) at a friend's house and he put this on.
 I was like "What is this fire?", he told me and then I asked him to message me with the name

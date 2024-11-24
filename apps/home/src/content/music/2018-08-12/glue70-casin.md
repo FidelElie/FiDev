@@ -23,6 +23,7 @@ rating: LEVEL_3
 genres:
   - future funk
 type: TRACK
+date: '2018-08-12T00:00:00.000Z'
 ---
 Story time incoming, so I was watching a YouTube video on the game Rainbow Six Siege.
 I say watching it, I had it in the background while I was doing other things. And for those

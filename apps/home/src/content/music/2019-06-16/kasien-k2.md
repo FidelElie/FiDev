@@ -51,6 +51,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/45U7SLDX8ca2obiwhzjeOI'
     name: COLD
     favourite: false
+date: '2019-06-16T00:00:00.000Z'
 ---
 British Trap... Admittedly, I haven't listened to that much of it. But after listening to k2
 I think that will have to change. From hearing the producers tag line Killer Krash with the

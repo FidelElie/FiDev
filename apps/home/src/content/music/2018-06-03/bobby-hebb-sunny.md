@@ -23,6 +23,7 @@ rating: LEVEL_1
 genres:
   - northern soul
 type: TRACK
+date: '2018-06-03T00:00:00.000Z'
 ---
 Playing Mafia 3 and listening to its amazing soundtrack had me hankering for some oldies.
 And for some reason I had to search for this song, and when I stumbled across a disco version

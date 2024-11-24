@@ -66,6 +66,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/4snebtF0xCyNuf3eQ1SBp8'
     name: ...
     favourite: false
+date: '2019-02-27T00:00:00.000Z'
 ---
 I first heard Kadhja's colours performance and was intrigued, so I thought I would give her
 album a listen and to say the least I wasn't ready for the experience. The song that was

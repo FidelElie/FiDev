@@ -85,6 +85,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/6xWI9x7ojVUmvTxo1PzdgX'
     name: Dear Ben
     favourite: false
+date: '2019-06-08T00:00:00.000Z'
 ---
 I wanted to like this album, funnily enough initially I didn't even like the previous album
 Yesterday's Gone but I grew to absolutely love it. With me approaching multiple listens of

@@ -73,6 +73,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/202lm9YX5WmAac83tOGlVn'
     name: Don't Watch Me Cry
     favourite: false
+date: '2018-07-01T00:00:00.000Z'
 ---
 
 Jorja's long awaited album finally hit airs all over the world a couple weeks ago and I gave

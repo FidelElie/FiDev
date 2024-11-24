@@ -79,6 +79,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/27H75QUZMb6C0vNfN3T370'
     name: Pure Water
     favourite: true
+date: '2019-06-16T00:00:00.000Z'
 ---
 I really enjoyed listening to Skepta's newest album. Carlos mentioned it was solid and when
 I watched Skepta's performance of No Sleep on Colors Show. I was definitely interested in

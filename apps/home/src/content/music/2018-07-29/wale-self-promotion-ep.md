@@ -44,6 +44,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/2jdWwK988PmmkBDA76PhmO'
     name: Cassius (Excellency) (feat. DJ Money)
     favourite: true
+date: '2018-07-29T00:00:00.000Z'
 ---
 With a departure which was the more R'n'B centric project that is It's Complicated,
 Wale come on his rappity rap shit with Self Promotion and it is another W for him. I think

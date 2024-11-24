@@ -35,6 +35,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/35Llu47DTp5G445yok6aCq'
     name: The Waves
     favourite: true
+date: '2018-09-05T00:00:00.000Z'
 ---
 Jordan Rakei and a classical composer Richard Melkonian forming the collaboration Kwalia.
 Provided me with a sound in Pursuit that I never thought I wanted or needed. The

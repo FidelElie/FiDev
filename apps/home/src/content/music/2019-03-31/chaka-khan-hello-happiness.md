@@ -56,6 +56,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/1vndohJZ9BKPx7onIR5s8Y'
     name: Ladylike
     favourite: false
+date: '2019-03-31T00:00:00.000Z'
 ---
 Who would have known that the legendary Chaka Khan was going to release something new in 2019
 and it be so fire. It had just the right amount of the disco to make you want to dance. Chaka

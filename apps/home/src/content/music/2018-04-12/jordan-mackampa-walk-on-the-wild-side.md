@@ -27,6 +27,7 @@ genres:
   - indie anthem-folk
   - pop soul
 type: TRACK
+date: '2018-04-12T00:00:00.000Z'
 ---
 I really like the folk that Jordan brings to the table. He has a very good discography so
 far with his Physics EP and Tales From The Broken. So usually when I see he has released a

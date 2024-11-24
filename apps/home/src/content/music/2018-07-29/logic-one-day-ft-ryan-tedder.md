@@ -29,6 +29,7 @@ genres:
   - pop rap
   - rap
 type: TRACK
+date: '2018-07-29T00:00:00.000Z'
 ---
 This song is a good positive song which reminds me of the older song As I Am which I do like.
 But this song ultimately falls a from grace because nowadays I get triggered every time this

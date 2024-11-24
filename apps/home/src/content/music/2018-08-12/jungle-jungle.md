@@ -73,6 +73,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/06fcOVvKx9y2mY9PiGeKVQ'
     name: Lemonade Lake
     favourite: false
+date: '2018-08-12T00:00:00.000Z'
 ---
 I've heard of jungle in passing and I decided in a late night bout of curiosity to go and
 listen to their album. From what I'd heard of them thus far, they were very upbeat so

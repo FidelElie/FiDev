@@ -41,6 +41,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/3HM8FkEO4m2eumlg00fBje'
     name: Piano Song
     favourite: true
+date: '2018-07-22T00:00:00.000Z'
 ---
 This is the first artist that I discovered from Instagram, I have been following this account
 called @4thshorehiphop and they do different features of artists, which a large amount to be

@@ -25,6 +25,7 @@ genres:
   - australian indigenous music
   - australian r&b
 type: TRACK
+date: '2018-02-08T00:00:00.000Z'
 ---
 Not much to say about this one, a friend recommended it, I gave it a listen and she is just
 awesome. The great voice leads to amazingly put together song, I just wish there was more of

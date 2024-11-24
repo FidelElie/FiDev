@@ -25,6 +25,7 @@ genres:
   - quiet storm
   - soul
 type: TRACK
+date: '2018-08-12T00:00:00.000Z'
 ---
 It is about time that I get one of my favorite artists of all time on here. I love me some
 Barry White, and in my travels lately I have found myself on the London underground trying

@@ -6,7 +6,7 @@ import { getPostsPathsFromRootDir } from "@fi.dev/content";
 
 import { client } from "../src/libraries/database";
 
-const syncMusicPostEntries = async () => {
+const syncMusicPostEntriesDatabase = async () => {
 	const paths = getPostsPathsFromRootDir("./src/content/music").filter((path) =>
 		path.includes(".md"),
 	);
@@ -24,4 +24,4 @@ const syncMusicPostEntries = async () => {
 	console.log(`Handled publishing of ${postsToPublish.length} posts`);
 };
 
-syncMusicPostEntries();
+syncMusicPostEntriesDatabase();

@@ -45,6 +45,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/54oHpAG3BWHAiy3etxVCPL'
     name: Dead or Alive
     favourite: true
+date: '2018-07-29T00:00:00.000Z'
 ---
 This is a very different sound from the previous act but this is definitely not an issue.
 She went with one of the greatest influences ever created, the Mowtown sound. Like a new age

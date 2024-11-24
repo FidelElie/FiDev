@@ -84,6 +84,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/2P6NDvU0job3Y4GK8E7oMB'
     name: All I Ever Wonder (Mahogany Session)
     favourite: false
+date: '2018-02-08T00:00:00.000Z'
 ---
 
 I first heard these guys on Mahogany Sessions on Youtube performing their song All I Ever Wonder  and instantly fell in love with them. Then proceeded to not listen to their album. Well I got round to it now, and It is really fucking good.  The live instruments and Saint Paul's noteworthy vocals mesh together into amazing recordings that you hear throughout the album. It was a nice change from alot of the music I have been listening to this week.

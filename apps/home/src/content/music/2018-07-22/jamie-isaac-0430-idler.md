@@ -68,6 +68,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/500lQU2t2XQrgAMSltapf9'
     name: Delight
     favourite: true
+date: '2018-07-22T00:00:00.000Z'
 ---
 I'm stuck right here again (Find Your Words) listening to a Jamie Isaac album and thinking,
 this guy has some talent. I loved how he uses the piano throughout his music. In the last

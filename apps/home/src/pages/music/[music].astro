@@ -8,7 +8,7 @@ import { AppManifest } from "@/configs";
 
 import { MusicPostMetadata } from "@/libraries/constants";
 
-import { Container, Link } from "@/components/core";
+import { Container, Icon, Link } from "@/components/core";
 import { MusicPostRatingTag, SubscriberForm } from "@/components/interfaces";
 import { RootLayout } from "@/pages/_root.layout";
 import { SpotifyLinkDropdown } from "@/components/pages/music/[music]/SpotifyLinkDropdown";
@@ -140,7 +140,17 @@ const truncatedContent = entry.body.slice(0, 100);
 					</p>
 				</Show>
 				<div class="flex items-center justify-between mt-1.5">
-					<MusicPostRatingTag rating={entry.data.rating}/>
+					<div class="flex items-center gap-2">
+						<MusicPostRatingTag rating={entry.data.rating}/>
+						{
+							entry.data.date && (
+								<div class="flex items-center">
+									<Icon name="calendar" class="text-blue-500 mr-1.5"/>
+									<p class="text-sm">{new Date(entry.data.date).toDateString()}</p>
+								</div>
+							)
+						}
+					</div>
 					<div class="flex items-center">
 						<SpotifyLinkDropdown post={entry.data} client:load/>
 					</div>

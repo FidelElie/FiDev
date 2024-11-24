@@ -59,6 +59,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/3RykIiejIO6BEhxSSrXRhH'
     name: WTP
     favourite: false
+date: '2018-07-22T00:00:00.000Z'
 ---
 The first thing that came to mind when I started writing this entry was unfinished. And
 according to the news that is absolutely warranted. Kanye being Kanye decided to release

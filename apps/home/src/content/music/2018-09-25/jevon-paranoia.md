@@ -25,6 +25,7 @@ genres:
   - uk alternative hip hop
   - uk contemporary r&b
 type: TRACK
+date: '2018-09-25T00:00:00.000Z'
 ---
 Jevon has been in my rotation heavily for the past couple weeks since Carlos showed me him.
 And it is for good reason. The London native, who is from down the road from where I am from

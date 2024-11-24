@@ -32,6 +32,7 @@ genres:
   - r&b
   - urban contemporary
 type: TRACK
+date: '2019-06-08T00:00:00.000Z'
 ---
 I have a little bit of a stigma when it comes to remixes. Some are just rip offs of the the
 original song. Removing the original essence of the song, so what is the point of listening

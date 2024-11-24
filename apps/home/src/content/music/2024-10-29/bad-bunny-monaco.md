@@ -25,6 +25,7 @@ genres:
   - trap latino
   - urbano latino
 type: TRACK
+date: '2024-10-29T00:00:00.000Z'
 ---
 To start this is a special project as it is marks my return to actually writing my thoughts
 about anything on the world wide web for the last half decade - it's good to be back and to

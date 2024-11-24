@@ -51,6 +51,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/78sFnaOpObmD3Zbw5CZ4AQ'
     name: Love And Hate - Live
     favourite: true
+date: '2019-03-17T00:00:00.000Z'
 ---
 When I first heard Michael Kiwanuka's Love and Hate on the radio and subsequently gave his
 album a listen. It was almost a life changing experience to here this man's style in his songs.

@@ -24,6 +24,7 @@ genres:
   - cali rap
   - canadian hip hop
 type: TRACK
+date: '2019-03-17T00:00:00.000Z'
 ---
 I recently had a massive Colors Show binge in one of my procrastination sessions recently.
 I find myself really giving a lot more people a chance. Whether they were people I dismissed

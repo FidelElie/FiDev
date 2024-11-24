@@ -26,6 +26,7 @@ rating: LEVEL_3
 genres:
   - dmv rap
 type: TRACK
+date: '2018-02-24T00:00:00.000Z'
 ---
 Mentioned in an earlier week, I've been listening to more of Matt thought I would give this
 song a mention. It is party-esque with its up beat tempo and just funky feel has some serious

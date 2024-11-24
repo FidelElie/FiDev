@@ -13,6 +13,7 @@
 		"node": "tsx",
 		"content": "pnpm node ./content.config.ts",
 		"sync:icons": "pnpm node ./scripts/sync-svg-sprites.ts",
+		"sync:posts": "pnpm node ./scripts/sync-music-post-entries-local.ts",
 		"music:auth": "pnpm node ./scripts/spotify-auth-code-flow.ts"
 	},
 	"dependencies": {

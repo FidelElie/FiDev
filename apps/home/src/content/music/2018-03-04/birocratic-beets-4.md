@@ -84,6 +84,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/2A8BXIBX7sySm3ImS5fKYR'
     name: Bleary Eyes
     favourite: false
+date: '2018-03-04T00:00:00.000Z'
 ---
 I bought his entire discography to use on the YouTube channel ( if you haven’t checked it
 out I’ve got a few videos on it here) and decided to start from the top when listening to

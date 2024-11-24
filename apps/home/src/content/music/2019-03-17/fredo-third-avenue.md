@@ -76,6 +76,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/2hij6lekO6SLK1vYvfYBBq'
     name: Third Avenue
     favourite: true
+date: '2019-03-17T00:00:00.000Z'
 ---
 The man is from down the road from me in London, so I guess I had to like this album through
 fear of getting shanked. All jokes aside this album left me with mixed feelings. On the one

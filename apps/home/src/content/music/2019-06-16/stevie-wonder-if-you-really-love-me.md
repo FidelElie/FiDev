@@ -24,6 +24,7 @@ genres:
   - motown
   - soul
 type: TRACK
+date: '2019-06-16T00:00:00.000Z'
 ---
 An oldie but a goodie I thought I would talk about one of my favorite Stevie Wonder songs.
 I found myself going through my old playlist. This was the old starred playlist that Spotify

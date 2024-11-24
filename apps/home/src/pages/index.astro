@@ -1,8 +1,4 @@
 ---
-import { getCollection } from "astro:content";
-
-import { distributeInRandomOrder } from "@fi.dev/typescript";
-
 import { AppManifest } from "@/configs";
 
 import { RootLayout } from "@/pages/_root.layout";
@@ -13,10 +9,16 @@ import {
 	MusicSearchOptions,
 	SubscriberForm,
 } from "@/components/interfaces";
+import { fetchMusicProjects, fetchMusicPostsTotal } from "@/libraries/server";
 
-const musicPosts = await getCollection("music");
-
-const randomMusicPosts = distributeInRandomOrder(musicPosts, 3);
+const request = new Request(`${Astro.request.url}?page=1&size=3`);
+const [
+	displayPosts,
+	totalPosts
+] = await Promise.all([
+	fetchMusicProjects(request),
+	fetchMusicPostsTotal()
+]);
 ---
 <RootLayout title="Home" class="min-h-screen">
 	<Container class="flex flex-col gap-5">
@@ -29,17 +31,14 @@ const randomMusicPosts = distributeInRandomOrder(musicPosts, 3);
 		<MusicSearchOptions options={["posts", "artists", "genres"]}/>
 		<Grid>
 			{
-				randomMusicPosts.map(post => (
-					<MusicProjectEntry
-						post={{ ...post.data, slug: post.slug} }
-						info={false}
-					/>
+				displayPosts.items.map(post => (
+					<MusicProjectEntry post={post} info={false} />
 				))
 			}
 		</Grid>
 		<div class="flex items-center justify-end gap-3" id="nav-container">
 			<Link href={AppManifest.links.pages["/music"]}>
-				More ({musicPosts.length - 3})
+				More ({totalPosts - 3})
 			</Link>
 		</div>
 		<div class="astro:block astro:min-h-36">

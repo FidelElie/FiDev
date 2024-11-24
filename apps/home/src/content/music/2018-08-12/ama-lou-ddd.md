@@ -38,6 +38,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/0jJOVtwAT6gpldYt3p6KhE'
     name: Wire
     favourite: true
+date: '2018-08-12T00:00:00.000Z'
 ---
 This has been a great year for R'n'B and all its subsidiaries. And after Carlos has been
 pestering me to listen to this project. With it being some of the best things hes listened

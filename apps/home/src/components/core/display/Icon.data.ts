@@ -32,4 +32,5 @@ export const ICONS_SPRITES = [
 	"email",
 	"paper-plane",
 	"planet",
+	"calendar",
 ] as const;

@@ -23,6 +23,7 @@ rating: LEVEL_2
 genres:
   - uk contemporary r&b
 type: TRACK
+date: '2018-08-12T00:00:00.000Z'
 ---
 It's like me and Mr Ritchie are on the same wavelength, as I was getting a hankering for some
 new stuff. So much so that I had some content planned for him on the site. He decides to

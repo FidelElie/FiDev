@@ -58,6 +58,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/6cpsixIHI63L0hwh3CwZg3'
     name: Infrared
     favourite: false
+date: '2018-06-03T00:00:00.000Z'
 ---
 
 With all that is going on with Kanye in his personal life, he still knows how to give some

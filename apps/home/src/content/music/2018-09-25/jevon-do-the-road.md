@@ -25,6 +25,7 @@ genres:
   - uk alternative hip hop
   - uk contemporary r&b
 type: TRACK
+date: '2018-09-25T00:00:00.000Z'
 ---
 This song has stolen the show for me for what seems like an age now. To summarize it I will
 have to say: the beat, the bars, the visuals and the road. Now for the longer answer, the

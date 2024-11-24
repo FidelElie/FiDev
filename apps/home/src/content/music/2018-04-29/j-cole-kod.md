@@ -75,6 +75,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/7EulRO07ZgchxqKUHb8Pvc'
     name: 1985 - Intro to “The Fall Off”
     favourite: false
+date: '2018-04-29T00:00:00.000Z'
 ---
 This album was hype to the point where I kept looking at what day it was counting down until
 last Friday. What can I say I love me some J.Cole. But then I listened and initially I wasn't

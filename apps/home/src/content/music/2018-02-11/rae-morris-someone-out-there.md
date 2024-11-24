@@ -70,6 +70,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/1q99a5HCAP41vVYdub7OiN'
     name: Dancing with Character
     favourite: false
+date: '2018-02-11T00:00:00.000Z'
 ---
 Firstly, I really like Rae Morris' voice ever since I heard her feature on Rejjie Snow's
 Blackst Skn - which I absolutely love by the way. So I decided to give her album a listen

@@ -24,6 +24,7 @@ genres:
   - psychedelic hip hop
   - underground hip hop
 type: TRACK
+date: '2018-03-31T00:00:00.000Z'
 ---
 I've got one name to say and that is Meechy Darko, I loved his vocals since I head Flatbush
 years ago and this hasn't changed. What he bought to RING THE ALARM on joey's album was

@@ -38,6 +38,7 @@ export const SimplifiedMusicArtistSchema = z.object({
 
 export const BaseMusicPostSchema = z.object({
 	name: z.string(),
+	date: z.coerce.date().transform(date => date.toISOString()).optional(),
 	slug: z.string().optional(),
 	spotifyId: z.string(),
 	spotifyUrl: z.string().url(),

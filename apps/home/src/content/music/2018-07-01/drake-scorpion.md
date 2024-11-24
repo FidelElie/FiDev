@@ -108,6 +108,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/4n1bdaKwynQndm47x5HqWX'
     name: Blue Tint
     favourite: true
+date: '2018-07-01T00:00:00.000Z'
 ---
 Finally, finally I can say that a Drizzy album since take care has been mostly worth the
 hype it has garnered.... And I stress mostly. The first side of the album is brilliant like

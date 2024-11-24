@@ -23,6 +23,7 @@ rating: LEVEL_3
 genres:
   - deep underground hip hop
 type: TRACK
+date: '2018-07-01T00:00:00.000Z'
 ---
 I have been a fan of Anon's music ever since Vice City and he has been killing it since then.
 What it seems like grinding constantly when I see him on Instagram stories he recently released

@@ -83,6 +83,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/2Zyk0on2N9vZyHueREwoJC'
     name: Hasta Luego - Bonus
     favourite: false
+date: '2019-02-27T00:00:00.000Z'
 ---
 I feel like it has been a very good year for Dreamville, with Bas and Cole releasing some
 solid albums respectively. But they weren't the stand outs from the collective, no that

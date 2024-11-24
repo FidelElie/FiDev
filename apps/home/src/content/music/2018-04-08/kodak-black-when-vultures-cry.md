@@ -29,6 +29,7 @@ genres:
   - trap
   - trap latino
 type: TRACK
+date: '2018-04-08T00:00:00.000Z'
 ---
 Earlier this week when I was at uni I had the chance to talk about music with a cool guy.
 He recommended I listen to this song from Kodak and it turns out I agree with everything he

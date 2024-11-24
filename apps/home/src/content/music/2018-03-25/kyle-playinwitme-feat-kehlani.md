@@ -30,6 +30,7 @@ genres:
   - pop rap
   - viral trap
 type: TRACK
+date: '2018-03-25T00:00:00.000Z'
 ---
 The Feel Good King enlisted Miss Kehlani to bring a nice song all in all. The best was not
 very noteworthy to me but I do like the chemistry that the two artists show in the vocals.

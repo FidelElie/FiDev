@@ -26,6 +26,7 @@ genres:
   - pop soul
   - urban contemporary
 type: TRACK
+date: '2018-03-31T00:00:00.000Z'
 ---
 I was thinking to myself this week that I haven't listened to myself in a longtime, so I
 decided to go back to my older playlist and give one of my favorite songs a listen. Taking

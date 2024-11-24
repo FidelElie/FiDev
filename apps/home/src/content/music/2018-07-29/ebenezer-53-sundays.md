@@ -23,6 +23,7 @@ rating: LEVEL_2
 genres:
   - uk hip hop
 type: TRACK
+date: '2018-07-29T00:00:00.000Z'
 ---
 I first heard Ebenezer back on Rejjie Snow's last album and I liked the vocals he brought
 to the song. The odd song later and his newest release though not amazing, is still a very

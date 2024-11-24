@@ -26,6 +26,7 @@ rating: LEVEL_3
 genres:
   - alternative r&b
 type: TRACK
+date: '2018-07-01T00:00:00.000Z'
 ---
 As love or hate as his last album could of been for some, I have got to admit that he can
 make some great tunes. This song is definitely one of them, the hook performed by Miguel:

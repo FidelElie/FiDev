@@ -27,6 +27,7 @@ genres:
   - pop
   - uk pop
 type: TRACK
+date: '2018-03-31T00:00:00.000Z'
 ---
 This is song that definitely gets better with time. And I don't mean over listen but as the
 song progresses it turns into a song that is pretty mediocre to one that I really liked.

@@ -105,6 +105,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/5AUv3F1DqA4yFdBYGTtTHl'
     name: Greatness
     favourite: false
+date: '2018-02-18T00:00:00.000Z'
 ---
 This is the first part in Rejjie Snow's redemption for me. If you haven't checked out the
 last podcast episode entitled "The Grammy's Featuring Raw Sauce" check it out her, me and

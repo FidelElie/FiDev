@@ -22,6 +22,7 @@ release: '2018-02-23'
 rating: LEVEL_2
 genres: []
 type: TRACK
+date: '2018-06-03T00:00:00.000Z'
 ---
 Hooks that are simple and to the point can make or break how good a song can be. And I think
 that this song is the perfect example of this, the smooth delivery from the group in an

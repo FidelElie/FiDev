@@ -51,7 +51,14 @@ export const fetchMusicProjects = async (request: Request) => {
 		return includedByGenre && includedByRating && includedBySearch;
 	});
 
-	const result = paginateEntries(musicPosts, { page, size, defaultSize: 15 });
+	const sortedPosts = musicPosts.toSorted((postA, postB) => {
+		return (
+			new Date(postB.data.date || Date.now()).valueOf() -
+			new Date(postA.data.date || Date.now()).valueOf()
+		)
+	});
+
+	const result = paginateEntries(sortedPosts, { page, size, defaultSize: 15 });
 
 	const validatedResult = responses[200].parse({
 		...result,
@@ -60,6 +67,16 @@ export const fetchMusicProjects = async (request: Request) => {
 
 	return validatedResult;
 };
+
+/**
+ *
+ * @returns
+ */
+export const fetchMusicPostsTotal = async () => {
+	const musicPosts = await getCollection("music");
+
+	return musicPosts.length;
+}
 
 /**
  *

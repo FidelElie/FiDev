@@ -28,6 +28,7 @@ genres:
   - indie r&b
   - new jersey rap
 type: TRACK
+date: '2018-07-22T00:00:00.000Z'
 ---
 Since Yung Cangz (shoutouts to her) showed me this song earlier this week I have had it on repeat.
 I have never been a big fan of Topaz Jones, his songs Tropicana was OK and his last project

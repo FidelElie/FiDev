@@ -35,6 +35,7 @@ genres:
   - pop rap
   - rap
 type: TRACK
+date: '2018-07-29T00:00:00.000Z'
 ---
 I didn't even know this was going to be released and honestly I did not care. The last song
 that this group put out was seen as generic summer trash, with a box standard beat , hook

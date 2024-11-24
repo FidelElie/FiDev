@@ -96,6 +96,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/6uIlxfJeGXLPoBF6JGZONO'
     name: Full Fat
     favourite: false
+date: '2018-06-03T00:00:00.000Z'
 ---
 In the exam period I found myself not really listening to newer stuff as much when it came
 out week by week. But instead venturing back to what I know and old playlists alike. And

@@ -60,6 +60,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/1GKrArph1YXfxMH49flYND'
     name: Electric (feat. Khalid)
     favourite: false
+date: '2018-04-12T00:00:00.000Z'
 ---
 
 I really liked Alina Baraz's collaboration with Galamatias on Fantasy, the vocals she puts

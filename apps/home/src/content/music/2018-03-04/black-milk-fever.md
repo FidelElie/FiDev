@@ -74,6 +74,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/6MHLpeI7BETuvC9umQqMYt'
     name: You Like to Risk It All/Things Will Never Be
     favourite: false
+date: '2018-03-04T00:00:00.000Z'
 ---
 Black Milk’s Sunday’s Best and Monday Worst are two amazing tracks that continue from each
 other (shoutouts to Cheese for putting me onto it) and that is what led my discovery of

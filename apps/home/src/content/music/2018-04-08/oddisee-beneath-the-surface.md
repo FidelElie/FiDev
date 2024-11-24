@@ -77,6 +77,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/3AVJ1ipyyEsa12UDcNKNTo'
     name: Strength & Weakness - Live
     favourite: false
+date: '2018-04-08T00:00:00.000Z'
 ---
 I'm going to start this off by saying that Oddisee has been one my favorite rappers for years
 now. His lyrics are amazing and I like how his beats are simple but still do so much for the

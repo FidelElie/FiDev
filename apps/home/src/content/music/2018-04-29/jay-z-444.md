@@ -68,6 +68,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/3p2O5DDqlWdaR1l4wsHn9R'
     name: Legacy
     favourite: true
+date: '2018-04-29T00:00:00.000Z'
 ---
 I finally managed to listen to Hov's newest release after a while of nagging. A friend
 (shoutouts to Cheese) sent me a link to the dramatized versions of the songs on Youtube.

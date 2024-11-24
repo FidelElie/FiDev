@@ -88,6 +88,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/7tdDyXcoExsUMD84gJunEg'
     name: Outro
     favourite: true
+date: '2018-07-29T00:00:00.000Z'
 ---
 I finally managed to listen to Nines' newest project and from first impressions  I've got
 to say overall I like a lot of his bars but I think that it is not my cup of tea. I think

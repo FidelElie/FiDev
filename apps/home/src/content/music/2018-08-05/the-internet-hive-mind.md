@@ -77,6 +77,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/5tqZJUHEuqdN12RZVq2l9p'
     name: Hold On
     favourite: false
+date: '2018-08-05T00:00:00.000Z'
 ---
 After being nagged and hearing from a lot of people to listen to this project, I have finally
 found the opportunity to sit down and give it a good listen. And I've got to say it is some
