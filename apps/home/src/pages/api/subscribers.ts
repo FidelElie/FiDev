@@ -10,4 +10,4 @@ export const POST: APIRoute = async (context) => {
 	const result = await subscribeToWebsite(request);
 
 	return Response.json(result, { status: 202 });
-}
+};

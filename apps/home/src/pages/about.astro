@@ -3,19 +3,22 @@ import { Image } from "@unpic/astro";
 
 import { AppManifest } from "@/configs";
 import { MyselfPhotoshoppedPNG, SignaturePNG, TakingPhotoJPG } from "@/assets";
-import {
-	Content as WhatThisWebsiteMeansToMe
-} from "@/content/misc/what-this-website-means-to-me.md";
+import { Content as WhatThisWebsiteMeansToMe } from "@/content/misc/what-this-website-means-to-me.md";
 
 import { astroMeta } from "@/libraries/utilities";
 
 import { Button, Container, Icon, Link, Prose } from "@/components/core";
-import { MusicCurrentlyPlayingPane, SocialLinksLayout, SubscriberForm } from "@/components/interfaces";
+import {
+	MusicCurrentlyPlayingPane,
+	SocialLinksLayout,
+	SubscriberForm,
+} from "@/components/interfaces";
 import { RootLayout } from "./_root.layout";
 
 const meta = astroMeta({
 	title: "About",
-	description: "A bit about the procrastinating script kiddy and the website that your reading"
+	description:
+		"A bit about the procrastinating script kiddy and the website that your reading",
 });
 ---
 <RootLayout

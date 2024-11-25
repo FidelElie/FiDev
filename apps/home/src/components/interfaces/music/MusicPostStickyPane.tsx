@@ -15,11 +15,13 @@ export const MusicPostStickyPane = (props: MusicPostStickyPaneProps) => {
 	const [store, setStore] = createStore({
 		genres: props.initial?.genres || [],
 		levels: props.initial?.levels || [],
-		search: props.initial?.search || ""
+		search: props.initial?.search || "",
 	});
 
 	const configIsClearable = () => {
-		return !!query().genres?.length || !!query().levels?.length || !!query().search;
+		return (
+			!!query().genres?.length || !!query().levels?.length || !!query().search
+		);
 	};
 
 	const configIsDirty = () => {
@@ -50,7 +52,7 @@ export const MusicPostStickyPane = (props: MusicPostStickyPaneProps) => {
 			setStore({
 				genres: props.initial?.genres || [],
 				levels: props.initial?.levels || [],
-				search: props.initial?.search || ""
+				search: props.initial?.search || "",
 			});
 		});
 	};
@@ -67,30 +69,28 @@ export const MusicPostStickyPane = (props: MusicPostStickyPaneProps) => {
 			<Popover
 				placement="bottom-start"
 				flip="top start"
-				trigger={(
+				trigger={
 					<div class="flex items-center gap-1 relative pl-3 pr-5 py-2">
-						<Icon name="sliders-horizontal" class="text-2xl text-blue-500"/>
+						<Icon name="sliders-horizontal" class="text-2xl text-blue-500" />
 						<span>Filter</span>
 						<Show when={store.genres?.length + store.levels?.length}>
 							{(amount) => (
-								<div
-									class="w-4 h-4 rounded-full border border-blue-500 flex items-center justify-center absolute top-0.5 right-0.5"
-								>
-									<span class="text-xs font-heading">{amount() < 10 ? amount() : ":)"}</span>
+								<div class="w-4 h-4 rounded-full border border-blue-500 flex items-center justify-center absolute top-0.5 right-0.5">
+									<span class="text-xs font-heading">
+										{amount() < 10 ? amount() : ":)"}
+									</span>
 								</div>
 							)}
 						</Show>
 					</div>
-				)}
+				}
 				triggerClass="whitespace-nowrap border-b md:border-r md:border-b-0 border-slate-200"
 				contentClass="p-3 z-20 min-w-64 max-w-96 flex flex-col bg-white space-y-2"
 			>
 				<div>
 					<div class="flex items-center">
-						<Icon name="playlist" class="mr-1.5 text-xl text-blue-500"/>
-						<p class="font-heading text-lg font-light">
-							Filter by genres
-						</p>
+						<Icon name="playlist" class="mr-1.5 text-xl text-blue-500" />
+						<p class="font-heading text-lg font-light">Filter by genres</p>
 					</div>
 					<Select
 						label="Select genres"
@@ -109,14 +109,14 @@ export const MusicPostStickyPane = (props: MusicPostStickyPaneProps) => {
 										)}
 									</For>
 								</div>
-								<Icon name="caret-down" class="text-blue-500 text-2xl"/>
+								<Icon name="caret-down" class="text-blue-500 text-2xl" />
 							</div>
 						)}
 						itemComponent={(genre) => (
 							<div class="py-1 px-3 flex items-center justify-between cursor-pointer">
 								<span class="font-heading font-light">{genre}</span>
 								<Select.SelectedIndicator>
-									<Icon name="check" class="text-blue-500 text-xl"/>
+									<Icon name="check" class="text-blue-500 text-xl" />
 								</Select.SelectedIndicator>
 							</div>
 						)}
@@ -127,10 +127,8 @@ export const MusicPostStickyPane = (props: MusicPostStickyPaneProps) => {
 				</div>
 				<div>
 					<div class="flex items-center">
-						<Icon name="star" class="mr-1.5 text-xl text-blue-500"/>
-						<p class="font-heading text-lg font-light">
-							Filter by rating
-						</p>
+						<Icon name="star" class="mr-1.5 text-xl text-blue-500" />
+						<p class="font-heading text-lg font-light">Filter by rating</p>
 					</div>
 					<Select
 						label="Select ratings"
@@ -153,7 +151,7 @@ export const MusicPostStickyPane = (props: MusicPostStickyPaneProps) => {
 										)}
 									</For>
 								</div>
-								<Icon name="caret-down" class="text-blue-500 text-2xl"/>
+								<Icon name="caret-down" class="text-blue-500 text-2xl" />
 							</div>
 						)}
 						itemComponent={(level) => (
@@ -162,7 +160,7 @@ export const MusicPostStickyPane = (props: MusicPostStickyPaneProps) => {
 									{MusicPostRatingMap[level as keyof typeof MusicPostRatingMap]}
 								</span>
 								<Select.SelectedIndicator>
-									<Icon name="check" class="text-blue-500 text-xl"/>
+									<Icon name="check" class="text-blue-500 text-xl" />
 								</Select.SelectedIndicator>
 							</div>
 						)}
@@ -173,25 +171,30 @@ export const MusicPostStickyPane = (props: MusicPostStickyPaneProps) => {
 				</div>
 			</Popover>
 			<div
-				class={
-					twJoin(
-						"flex items-center gap-1 pl-2 flex-grow",
-						(!configIsDirty() && !configIsClearable()) ? "rounded-r-lg border-r-0" : "border-b md:border-r md:border-b-0 border-slate-200"
-					)
-				}
+				class={twJoin(
+					"flex items-center gap-1 pl-2 flex-grow",
+					!configIsDirty() && !configIsClearable()
+						? "rounded-r-lg border-r-0"
+						: "border-b md:border-r md:border-b-0 border-slate-200",
+				)}
 			>
-				<label for="search" class="sr-only">Search posts</label>
-				<Icon name="magnifying-glass" class="text-blue-500 text-xl flex-shrink-0"/>
+				<label for="search" class="sr-only">
+					Search posts
+				</label>
+				<Icon
+					name="magnifying-glass"
+					class="text-blue-500 text-xl flex-shrink-0"
+				/>
 				<input
 					id="search"
 					type="text"
 					placeholder="Search"
 					value={store.search}
 					size={1}
-					onInput={event => setStore("search", event.currentTarget.value)}
+					onInput={(event) => setStore("search", event.currentTarget.value)}
 					class={twJoin(
 						"border-none flex-grow",
-						(!configIsDirty() && !configIsClearable()) && "rounded-r-lg"
+						!configIsDirty() && !configIsClearable() && "rounded-r-lg",
 					)}
 				/>
 			</div>
@@ -201,10 +204,12 @@ export const MusicPostStickyPane = (props: MusicPostStickyPaneProps) => {
 						onClick={updateConfig}
 						class={twJoin(
 							"flex items-center flex-grow justify-center border-slate-200",
-							configIsClearable() ? "border-y-0 border-l-0 border-r" : "border-none"
+							configIsClearable()
+								? "border-y-0 border-l-0 border-r"
+								: "border-none",
 						)}
 					>
-						<Icon name="floppy-disk" class="text-blue-500 text-xl mr-1"/>
+						<Icon name="floppy-disk" class="text-blue-500 text-xl mr-1" />
 						Save
 					</Button>
 				</Show>
@@ -213,7 +218,7 @@ export const MusicPostStickyPane = (props: MusicPostStickyPaneProps) => {
 						onClick={clearConfig}
 						class="flex items-center border-none flex-grow justify-center"
 					>
-						<Icon name="broom" class="text-blue-500 text-xl mr-1"/>
+						<Icon name="broom" class="text-blue-500 text-xl mr-1" />
 						Clear
 					</Button>
 				</Show>

@@ -4,7 +4,7 @@ import { AppManifest } from "@/configs";
 
 import { generateSpotifyURI } from "@/libraries/utilities";
 
-import { Link, Icon } from "@/components/core"
+import { Link, Icon } from "@/components/core";
 
 export const SocialLinksLayout = (props: SocialLinksLayoutProps) => {
 	return (
@@ -15,7 +15,10 @@ export const SocialLinksLayout = (props: SocialLinksLayoutProps) => {
 					aria-label="My Github"
 					target="_blank"
 				>
-					<Icon name="github" class={twMerge("text-2xl text-slate-600", props.iconClass)}/>
+					<Icon
+						name="github"
+						class={twMerge("text-2xl text-slate-600", props.iconClass)}
+					/>
 				</Link>
 			</li>
 			<li>
@@ -24,7 +27,10 @@ export const SocialLinksLayout = (props: SocialLinksLayoutProps) => {
 					aria-label="My Instagram"
 					target="_blank"
 				>
-					<Icon name="instagram" class={twMerge("text-2xl text-slate-600", props.iconClass)}/>
+					<Icon
+						name="instagram"
+						class={twMerge("text-2xl text-slate-600", props.iconClass)}
+					/>
 				</Link>
 			</li>
 			<li>
@@ -33,7 +39,10 @@ export const SocialLinksLayout = (props: SocialLinksLayoutProps) => {
 					aria-label="My Linkedin"
 					target="_blank"
 				>
-					<Icon name="linkedin" class={twMerge("text-2xl text-slate-600", props.iconClass)}/>
+					<Icon
+						name="linkedin"
+						class={twMerge("text-2xl text-slate-600", props.iconClass)}
+					/>
 				</Link>
 			</li>
 			<li>
@@ -41,7 +50,10 @@ export const SocialLinksLayout = (props: SocialLinksLayoutProps) => {
 					href={generateSpotifyURI(AppManifest.links.socials.SPOTIFY)}
 					aria-label="My Spotify"
 				>
-					<Icon name="spotify" class={twMerge("text-2xl text-slate-600", props.iconClass)}/>
+					<Icon
+						name="spotify"
+						class={twMerge("text-2xl text-slate-600", props.iconClass)}
+					/>
 				</Link>
 			</li>
 			<li>
@@ -49,14 +61,17 @@ export const SocialLinksLayout = (props: SocialLinksLayoutProps) => {
 					href={`mailto:${AppManifest.links.socials.EMAIL}`}
 					aria-label="Email me"
 				>
-					<Icon name="email" class={twMerge("text-2xl text-slate-600", props.iconClass)}/>
+					<Icon
+						name="email"
+						class={twMerge("text-2xl text-slate-600", props.iconClass)}
+					/>
 				</Link>
 			</li>
 		</ul>
-	)
-}
+	);
+};
 
 export type SocialLinksLayoutProps = {
 	class?: string;
 	iconClass?: string;
-}
+};

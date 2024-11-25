@@ -59,8 +59,11 @@ export const MusicCurrentlyPlayingPane = withQueryProvider(() => {
 	}));
 
 	const isLoading = () => {
-		return currentPlayingQuery.isLoading || currentPlayingQuery.fetchStatus === "idle";
-	}
+		return (
+			currentPlayingQuery.isLoading ||
+			currentPlayingQuery.fetchStatus === "idle"
+		);
+	};
 
 	const trackPercentage = () => {
 		const { remaining, duration } = trackState();
@@ -117,28 +120,32 @@ export const MusicCurrentlyPlayingPane = withQueryProvider(() => {
 							<div class="flex items-center gap-2 ml-2 animate-in fade-in">
 								<div class="h-5 border-r border-slate-200" />
 								<Tooltip
-									trigger={(
+									trigger={
 										<Icon
 											name="shuffle"
 											class={twJoin(
 												"text-xl transition",
-												context().shuffled && "text-blue-500"
+												context().shuffled && "text-blue-500",
 											)}
 										/>
-									)}
+									}
 								>
 									Shuffle
 								</Tooltip>
 								<Tooltip
-									trigger={(
+									trigger={
 										<Icon
-											name={context().repeating === "track" ? "repeat-once" : "repeat"}
+											name={
+												context().repeating === "track"
+													? "repeat-once"
+													: "repeat"
+											}
 											class={twJoin(
 												"text-xl transition",
-												context().repeating !== "off" && "text-blue-500"
+												context().repeating !== "off" && "text-blue-500",
 											)}
 										/>
-									)}
+									}
 								>
 									Repeating {context().repeating === "track" && "Track"}
 								</Tooltip>
@@ -147,46 +154,51 @@ export const MusicCurrentlyPlayingPane = withQueryProvider(() => {
 					</Show>
 				</div>
 				<Show when={currentPlayingQuery.data}>
-					{
-						currentlyPlaying => (
-							<div class="flex items-center gap-3">
-								<For each={currentlyPlaying().posts || []}>
-									{(post) => (
-										<Link href={AppManifest.links.pages["/music/:slug"](post.slug)} class="text-sm">
-											Go to {post.type === MusicPostMetadata.types.ALBUM ? "album" : "track"} post
-										</Link>
-									)}
-								</For>
-								<Popover
-									placement="bottom-end"
-									trigger={
-										<Icon
-											name="spotify"
-											class="text-xl text-slate-600"
-											aria-label="Spotify-links"
-										/>
-									}
-									contentClass="flex flex-col"
-									triggerClass="border border-slate-200 rounded p-0.5"
+					{(currentlyPlaying) => (
+						<div class="flex items-center gap-3">
+							<For each={currentlyPlaying().posts || []}>
+								{(post) => (
+									<Link
+										href={AppManifest.links.pages["/music/:slug"](post.slug)}
+										class="text-sm"
+									>
+										Go to{" "}
+										{post.type === MusicPostMetadata.types.ALBUM
+											? "album"
+											: "track"}{" "}
+										post
+									</Link>
+								)}
+							</For>
+							<Popover
+								placement="bottom-end"
+								trigger={
+									<Icon
+										name="spotify"
+										class="text-xl text-slate-600"
+										aria-label="Spotify-links"
+									/>
+								}
+								contentClass="flex flex-col"
+								triggerClass="border border-slate-200 rounded p-0.5"
+							>
+								<Link
+									href={currentlyPlaying().artist.uri}
+									class="no-underline py-2 px-3 flex items-center gap-1"
 								>
-									<Link
-										href={currentlyPlaying().artist.uri}
-										class="no-underline py-2 px-3 flex items-center gap-1"
-									>
-										<Icon name="user" class="text-blue-500"/>
-										Go to artist
-									</Link>
-									<Link
-										href={currentlyPlaying().uri}
-										class="no-underline py-2 px-3 flex items-center gap-1"
-									>
-										<Icon name="music-quaver" class="text-blue-500"/>
-										Go to track
-									</Link>
-								</Popover>
-							</div>
-						)
-					}
+									<Icon name="user" class="text-blue-500" />
+									Go to artist
+								</Link>
+								<Link
+									href={currentlyPlaying().uri}
+									class="no-underline py-2 px-3 flex items-center gap-1"
+								>
+									<Icon name="music-quaver" class="text-blue-500" />
+									Go to track
+								</Link>
+							</Popover>
+						</div>
+					)}
 				</Show>
 			</div>
 			<hr class="border-slate-200 border-t" />
@@ -196,7 +208,9 @@ export const MusicCurrentlyPlayingPane = withQueryProvider(() => {
 						<Match when={currentPlayingQuery.isSuccess}>
 							<Show
 								when={currentPlayingQuery.data?.covers[0].url}
-								fallback={<Icon name="cassette-tape" class="text-3xl text-blue-500"/>}
+								fallback={
+									<Icon name="cassette-tape" class="text-3xl text-blue-500" />
+								}
 							>
 								{(url) => (
 									<Image
@@ -209,7 +223,10 @@ export const MusicCurrentlyPlayingPane = withQueryProvider(() => {
 							</Show>
 						</Match>
 						<Match when={isLoading()}>
-							<Icon name='circle-notch' class="animate-spin text-blue-500 text-4xl"/>
+							<Icon
+								name="circle-notch"
+								class="animate-spin text-blue-500 text-4xl"
+							/>
 						</Match>
 					</Switch>
 				</div>
@@ -255,7 +272,10 @@ export const MusicCurrentlyPlayingPane = withQueryProvider(() => {
 								</h2>
 							</div>
 							<Show when={currentPlayingQuery.data}>
-								<Icon name={trackState().playing ? "play" : "pause"} class="text-xl"/>
+								<Icon
+									name={trackState().playing ? "play" : "pause"}
+									class="text-xl"
+								/>
 							</Show>
 						</div>
 						<div

@@ -12,7 +12,7 @@ import { withQueryProvider } from "@/components/providers";
 import { twMerge } from "tailwind-merge";
 import { Button, Icon } from "@/components/core";
 
-const INITIAL_FIELDS = { forename: "", email: "" }
+const INITIAL_FIELDS = { forename: "", email: "" };
 
 export const SubscriberForm = withQueryProvider(
 	(props: SubscriberFormProps) => {
@@ -23,36 +23,42 @@ export const SubscriberForm = withQueryProvider(
 		const [successfulSubmission, setSuccessfulSubmission] = createSignal(false);
 
 		const editFields = (data: Partial<typeof INITIAL_FIELDS>) => {
-			setFields(currentFields => ({ ...currentFields, ...data }));
-		}
+			setFields((currentFields) => ({ ...currentFields, ...data }));
+		};
 
-		const createSubscriberMutation = createMutation(
-			() => ({
-				mutationFn: async (context: InferDTOS<typeof SubscribeToWebsiteRoute.dtos>) => {
-					await request({
-						url: SubscribeToWebsiteRoute.url,
-						method: SubscribeToWebsiteRoute.method,
-						body: JSON.stringify(context.body)
-					});
-				},
-				onSuccess: () => {
-					setSuccessfulSubmission(true);
-					successTimer = setTimeout(() => setSuccessfulSubmission(false), 1500);
-				}
-			})
-		);
+		const createSubscriberMutation = createMutation(() => ({
+			mutationFn: async (
+				context: InferDTOS<typeof SubscribeToWebsiteRoute.dtos>,
+			) => {
+				await request({
+					url: SubscribeToWebsiteRoute.url,
+					method: SubscribeToWebsiteRoute.method,
+					body: JSON.stringify(context.body),
+				});
+			},
+			onSuccess: () => {
+				setSuccessfulSubmission(true);
+				successTimer = setTimeout(() => setSuccessfulSubmission(false), 1500);
+			},
+		}));
 
-		const handleSubmission: JSX.EventHandler<HTMLFormElement, SubmitEvent> = (event) => {
+		const handleSubmission: JSX.EventHandler<HTMLFormElement, SubmitEvent> = (
+			event,
+		) => {
 			event.preventDefault();
 
 			const currentFields = fields();
 
-			if (!!honeypotField?.value) { return; }
+			if (!!honeypotField?.value) {
+				return;
+			}
 
-			if (!currentFields.email || !currentFields.forename) { return; }
+			if (!currentFields.email || !currentFields.forename) {
+				return;
+			}
 
 			createSubscriberMutation.mutate({ body: currentFields });
-		}
+		};
 
 		onCleanup(() => {
 			if (successTimer) {
@@ -64,7 +70,7 @@ export const SubscriberForm = withQueryProvider(
 			<form
 				class={twMerge(
 					"border border-slate-200 rounded-lg flex flex-col gap-2 overflow-hidden sm:flex-row",
-					props.class
+					props.class,
 				)}
 				onSubmit={handleSubmission}
 			>
@@ -80,11 +86,15 @@ export const SubscriberForm = withQueryProvider(
 						<h2 class="font-heading text-xl sm:text-3xl">
 							Keep up to date with goings on
 						</h2>
-						<h3 class="text-blue-500 sm:text-lg">Subscribe to the mailing list</h3>
+						<h3 class="text-blue-500 sm:text-lg">
+							Subscribe to the mailing list
+						</h3>
 					</div>
 					<div class="space-y-2 my-3">
 						<div class="border border-slate-200 rounded-lg flex items-center">
-							<label for="forename" class="sr-only">First name</label>
+							<label for="forename" class="sr-only">
+								First name
+							</label>
 							<input
 								id="forename"
 								name="forename"
@@ -92,12 +102,16 @@ export const SubscriberForm = withQueryProvider(
 								class="border-none flex-grow rounded-lg"
 								placeholder="Your first name"
 								value={fields().forename}
-								onInput={event => editFields({ forename: event.currentTarget.value })}
+								onInput={(event) =>
+									editFields({ forename: event.currentTarget.value })
+								}
 								required
 							/>
 						</div>
 						<div class="border border-slate-200 rounded-lg flex items-center">
-							<label for="email-address" class="sr-only">Email address</label>
+							<label for="email-address" class="sr-only">
+								Email address
+							</label>
 							<input
 								id="email-address"
 								name="email-address"
@@ -105,7 +119,9 @@ export const SubscriberForm = withQueryProvider(
 								class="border-none flex-grow rounded-lg"
 								placeholder="Your email address"
 								value={fields().email}
-								onInput={event => editFields({ email: event.currentTarget.value })}
+								onInput={(event) =>
+									editFields({ email: event.currentTarget.value })
+								}
 								required
 							/>
 						</div>
@@ -128,9 +144,14 @@ export const SubscriberForm = withQueryProvider(
 							{/* Subscribe */}
 							<Show
 								when={!createSubscriberMutation.isPending}
-								fallback={<Icon name="circle-notch" class="text-blue-500 text-xl animate-spin"/>}
+								fallback={
+									<Icon
+										name="circle-notch"
+										class="text-blue-500 text-xl animate-spin"
+									/>
+								}
 							>
-								<Icon name="paper-plane" class="text-blue-500 text-xl"/>
+								<Icon name="paper-plane" class="text-blue-500 text-xl" />
 							</Show>
 						</Button>
 						<Show when={successfulSubmission()}>
@@ -141,10 +162,10 @@ export const SubscriberForm = withQueryProvider(
 					</div>
 				</div>
 			</form>
-		)
-	}
+		);
+	},
 );
 
 export type SubscriberFormProps = {
 	class?: string;
-}
+};

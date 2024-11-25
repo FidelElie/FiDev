@@ -21,7 +21,15 @@ export interface Props {
 	fixed?: boolean;
 }
 
-const { title, description, bodyClass, navbarClass, class: _class, padded, fixed } = Astro.props;
+const {
+	title,
+	description,
+	bodyClass,
+	navbarClass,
+	class: _class,
+	padded,
+	fixed,
+} = Astro.props;
 
 const metaDescription = description || AppManifest.application.description;
 ---

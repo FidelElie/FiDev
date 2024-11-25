@@ -11,7 +11,7 @@ const optionsMap = [
 		key: "posts",
 		text: "post",
 		icon: "note",
-		href: AppManifest.links.pages["/music"]
+		href: AppManifest.links.pages["/music"],
 	},
 	{
 		key: "artists",
@@ -23,8 +23,8 @@ const optionsMap = [
 		key: "genres",
 		text: "genres",
 		icon: "playlist",
-		href: AppManifest.links.pages["/music/genres"]
-	}
+		href: AppManifest.links.pages["/music/genres"],
+	},
 ] as const;
 
 export interface Props {
@@ -35,7 +35,9 @@ export interface Props {
 
 const { class: _class, luckyIntent = "secondary", options } = Astro.props;
 
-const mappedOptions = optionsMap.filter(option => options.includes(option.key));
+const mappedOptions = optionsMap.filter((option) =>
+	options.includes(option.key),
+);
 ---
 
 <div class={twMerge("flex flex-col w-full gap-2 sm:flex-row sm:w-auto", _class)}>

@@ -35,7 +35,9 @@ export const fetchMusicProjects = async (request: Request) => {
 			!levels?.length || levels.includes(post.data.rating);
 
 		const includedBySearch = (() => {
-			if (!search) { return true; }
+			if (!search) {
+				return true;
+			}
 
 			const lowerSearch = search.toLowerCase();
 
@@ -44,8 +46,10 @@ export const fetchMusicProjects = async (request: Request) => {
 				post.data.artists.some((artist) =>
 					artist.name.toLowerCase().includes(lowerSearch),
 				) ||
-				post.data.genres.some((genre) => genre.toLowerCase().includes(lowerSearch))
-			)
+				post.data.genres.some((genre) =>
+					genre.toLowerCase().includes(lowerSearch),
+				)
+			);
 		})();
 
 		return includedByGenre && includedByRating && includedBySearch;
@@ -55,7 +59,7 @@ export const fetchMusicProjects = async (request: Request) => {
 		return (
 			new Date(postB.data.date || Date.now()).valueOf() -
 			new Date(postA.data.date || Date.now()).valueOf()
-		)
+		);
 	});
 
 	const result = paginateEntries(sortedPosts, { page, size, defaultSize: 15 });
@@ -76,7 +80,7 @@ export const fetchMusicPostsTotal = async () => {
 	const musicPosts = await getCollection("music");
 
 	return musicPosts.length;
-}
+};
 
 /**
  *
@@ -212,7 +216,7 @@ export const getCurrentPlayingTrack = async () => {
 		artist: {
 			name: firstArtist.name,
 			slug: artistEntry?.data.slug || "",
-			uri: firstArtist.uri
+			uri: firstArtist.uri,
 		},
 	};
 

@@ -47,9 +47,9 @@ export const SubscribeToWebsiteRoute = {
 	url: "/api/subscribers",
 	method: "POST",
 	dtos: {
-		body: z.object({ forename: z.string(), email: z.string().email() })
+		body: z.object({ forename: z.string(), email: z.string().email() }),
 	},
 	responses: {
-		202: z.null()
-	}
-}
+		202: z.null(),
+	},
+};

@@ -19,7 +19,10 @@ const syncMusicPostEntriesLocal = () => {
 
 		const parsedDate = new Date(extractedDate);
 
-		const updatedFrontmatter = { ...output.data, date: parsedDate.toISOString() };
+		const updatedFrontmatter = {
+			...output.data,
+			date: parsedDate.toISOString(),
+		};
 
 		const fileOutput = matter.stringify(output.content, updatedFrontmatter);
 
@@ -27,6 +30,6 @@ const syncMusicPostEntriesLocal = () => {
 
 		fs.writeFileSync(path, fileOutput);
 	}
-}
+};
 
 syncMusicPostEntriesLocal();

@@ -7,7 +7,7 @@ export const Icon = (props: IconProps) => {
 
 	if (!ICONS_SPRITES.includes(capturedProps.name)) {
 		throw new Error(
-			`Unsupported sprite - got ${capturedProps.name}\n Supported sprites: ${ICONS_SPRITES.join("\n")}`
+			`Unsupported sprite - got ${capturedProps.name}\n Supported sprites: ${ICONS_SPRITES.join("\n")}`,
 		);
 	}
 
@@ -15,10 +15,9 @@ export const Icon = (props: IconProps) => {
 		<svg width="1em" height="1em" fill="currentColor" {...svgProps}>
 			<use href={`#icon-sprite-${capturedProps.name}`} />
 		</svg>
-	)
-}
+	);
+};
 
 export type IconProps = Omit<JSX.SvgSVGAttributes<SVGSVGElement>, "name"> & {
-	name: typeof ICONS_SPRITES[number];
-}
-
+	name: (typeof ICONS_SPRITES)[number];
+};

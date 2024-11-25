@@ -61,14 +61,12 @@ export const SearchPane = withQueryProvider(
 					/>
 					<Icon
 						name="circle-notch"
-						class={
-							twJoin(
-								"text-4xl transition text-blue-500",
-								debouncing() || searchQuery.isFetching
+						class={twJoin(
+							"text-4xl transition text-blue-500",
+							debouncing() || searchQuery.isFetching
 								? "opacity-100 animate-spin"
 								: "opacity-0",
-							)
-						}
+						)}
 					/>
 				</div>
 				<Switch>

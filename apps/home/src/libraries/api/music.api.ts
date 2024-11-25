@@ -37,7 +37,7 @@ export const FetchMusicPostsRoute = {
 			size: z.number().optional(),
 			genres: arrayQueryParam().optional(),
 			levels: arrayQueryParam().optional(),
-			search: z.string().optional()
+			search: z.string().optional(),
 		}),
 	},
 	responses: {
@@ -141,7 +141,7 @@ export const GetCurrentlyPlayingTrackRoute = {
 				artist: z.object({
 					name: z.string(),
 					slug: z.string(),
-					uri: z.string()
+					uri: z.string(),
 				}),
 			}),
 			z.null(),

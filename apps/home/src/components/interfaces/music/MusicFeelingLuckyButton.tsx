@@ -9,7 +9,9 @@ import { MusicImFeelingLuckyRoute } from "@/libraries/api";
 import { Button, Icon, type ButtonProps } from "@/components/core";
 import { twMerge } from "tailwind-merge";
 
-export const MusicFeelingLuckyButton = (props: MusicFeelingLuckyButtonProps) => {
+export const MusicFeelingLuckyButton = (
+	props: MusicFeelingLuckyButtonProps,
+) => {
 	let buttonRef: HTMLDivElement | undefined;
 
 	const [submitting, setSubmitting] = createSignal(false);
@@ -51,9 +53,12 @@ export const MusicFeelingLuckyButton = (props: MusicFeelingLuckyButtonProps) => 
 				<div class="w-5">
 					<Show
 						when={submitting()}
-						fallback={<Icon name="dice-three" class="text-xl text-blue-500"/>}
+						fallback={<Icon name="dice-three" class="text-xl text-blue-500" />}
 					>
-						<Icon name="circle-notch" class="text-blue-500 animate-spin fade-in text-xl"/>
+						<Icon
+							name="circle-notch"
+							class="text-blue-500 animate-spin fade-in text-xl"
+						/>
 					</Show>
 				</div>
 				<span class="font-heading">I'm feeling lucky</span>
@@ -65,4 +70,4 @@ export const MusicFeelingLuckyButton = (props: MusicFeelingLuckyButtonProps) => 
 type MusicFeelingLuckyButtonProps = {
 	class?: string;
 	intent?: ButtonProps["intent"];
-}
+};

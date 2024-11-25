@@ -11,11 +11,14 @@ export const createKitClient = (config: KitClientConfig) => {
 
 	const defaultHeaders: HeadersInit = {
 		"Content-Type": "application/json",
-		"Accept": "application/json",
-		"X-Kit-Api-Key": apiKey
-	}
+		Accept: "application/json",
+		"X-Kit-Api-Key": apiKey,
+	};
 
-	const client = createRequestClient({ baseUrl: KIT_BASE_URL, headers: defaultHeaders });
+	const client = createRequestClient({
+		baseUrl: KIT_BASE_URL,
+		headers: defaultHeaders,
+	});
 
 	return {
 		createSubscriber: async (config: { forename: string; email: string }) => {
@@ -26,14 +29,14 @@ export const createKitClient = (config: KitClientConfig) => {
 					first_name: config.forename,
 					email_address: config.email,
 					state: "active",
-				})
+				}),
 			});
 
 			return response;
-		}
-	}
-}
+		},
+	};
+};
 
 export type KitClientConfig = {
 	apiKey: string;
-}
+};

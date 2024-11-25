@@ -57,12 +57,16 @@ export const MusicProjectsView = withQueryProvider(
 		}));
 
 		const isLoading = () => {
-			return postsQuery.isLoading || postsQuery.fetchStatus !== "idle" || !queryInitialised();
+			return (
+				postsQuery.isLoading ||
+				postsQuery.fetchStatus !== "idle" ||
+				!queryInitialised()
+			);
 		};
 
 		const noPosts = () => {
 			return !postsQuery.data?.pages.map((page) => page.items).flat().length;
-		}
+		};
 
 		createIntersectionObserver(targets, (entries) => {
 			entries.forEach((element) => {
@@ -99,9 +103,14 @@ export const MusicProjectsView = withQueryProvider(
 					>
 						<Show
 							when={!postsQuery.isFetchingPreviousPage}
-							fallback={<Icon name="circle-notch" class="text-xl text-blue-500 animate-spin"/>}
+							fallback={
+								<Icon
+									name="circle-notch"
+									class="text-xl text-blue-500 animate-spin"
+								/>
+							}
 						>
-							<Icon name="caret-up" class="text-xl text-blue-500"/>
+							<Icon name="caret-up" class="text-xl text-blue-500" />
 						</Show>
 						Get previous posts
 					</Button>
@@ -111,12 +120,13 @@ export const MusicProjectsView = withQueryProvider(
 						<Switch fallback={<LoadingSkeleton />}>
 							<Match when={postsQuery.isSuccess}>
 								<Grid class="gap-x-5 gap-y-10">
-									<For each={postsQuery.data?.pages.map((page) => page.items).flat()}>
+									<For
+										each={postsQuery.data?.pages
+											.map((page) => page.items)
+											.flat()}
+									>
 										{(post) => (
-											<MusicProjectEntry
-												post={post}
-												defer={isLoading()}
-											/>
+											<MusicProjectEntry post={post} defer={isLoading()} />
 										)}
 									</For>
 								</Grid>
@@ -124,21 +134,27 @@ export const MusicProjectsView = withQueryProvider(
 									<hr
 										class="border-tw-full mt-10 mb-5 transition-all border-slate-200"
 										ref={(element) =>
-											setTargets((currentTargets) => [...currentTargets, element])
+											setTargets((currentTargets) => [
+												...currentTargets,
+												element,
+											])
 										}
 									/>
 								</Show>
 								<Show when={postsQuery.isFetchingNextPage}>
 									<div class="flex items-center gap-1.5">
-										<Icon name="circle-notch" class="text-blue-500 animate-spin text-xl"/>
+										<Icon
+											name="circle-notch"
+											class="text-blue-500 animate-spin text-xl"
+										/>
 										<p class="font-heading text-sm animate-pulse">Loading...</p>
 									</div>
 								</Show>
 								<Show when={!postsQuery.hasNextPage}>
 									<p class="font-heading text-2xl font-light mt-3">
-										{
-											noPosts() ? "No posts found with your criteria" : "You've reached the end - more to come soon"
-										}
+										{noPosts()
+											? "No posts found with your criteria"
+											: "You've reached the end - more to come soon"}
 									</p>
 								</Show>
 							</Match>

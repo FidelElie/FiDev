@@ -31,7 +31,7 @@ export const mergeObjects = <ObjectA extends object, ObjectB extends object>(
 				}
 
 				return [key, valueB];
-			}
-		)
+			},
+		),
 	) as ObjectA & ObjectB;
 };

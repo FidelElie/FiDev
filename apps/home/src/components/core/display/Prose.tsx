@@ -12,17 +12,17 @@ export const Prose = (props: ProseProps) => {
 				"prose-h2:text-2xl md:prose-h2:text-3xl prose-h2:font-normal",
 				"prose-h3:font-light prose-h3:text-blue-500",
 				"prose-a:decoration-blue-500 prose-a:underline-offset-2",
-				props.class
+				props.class,
 			)}
 			component={props.as || "article"}
 		>
 			{props.children}
 		</Dynamic>
-	)
-}
+	);
+};
 
 export type ProseProps = {
 	as?: ValidComponent;
 	class?: string;
 	children: JSX.Element;
-}
+};
