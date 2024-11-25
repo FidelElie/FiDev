@@ -34,6 +34,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/7p4vHnYXkxlzvfePJVpcTr'
     name: Feels Like Summer
     favourite: true
+date: '2018-07-22T00:00:00.000Z'
 ---
 I didn't even know Gambino was releasing anything, so thank you to Olivia for putting me on
 to it. This two song project summed up is a miss then a hit for me. I am surprised he didn't

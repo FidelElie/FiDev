@@ -65,6 +65,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/456Icnp064xMCQhm9Ax2us'
     name: When Your Light Goes Out
     favourite: true
+date: '2018-03-25T00:00:00.000Z'
 ---
 A late discovery that was released last year, Mr Jukes brings that good jazz influence to
 his songs. There is a good few songs that Iv'e had in rotation this week  (I will speak of

@@ -45,6 +45,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/1To829onYmL63wLNtU7Zm8'
     name: 4 Leaf Clover (feat. Steve Lacy)
     favourite: true
+date: '2018-02-18T00:00:00.000Z'
 ---
 I was dancing all the way through this one, it was recommended by a friend and it definitely
 went under the radar for me before this. I'm glad though, what she brings to the new R&B

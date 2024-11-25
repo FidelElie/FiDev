@@ -16,11 +16,10 @@ import { AppManifest } from "@/configs";
 
 import { request } from "@/libraries/clients";
 import { MusicPostMetadata } from "@/libraries/constants";
-import { generateSpotifyURI } from "@/libraries/utilities";
 import type { SpotifyTrackObject } from "@/libraries/types";
 import { GetCurrentlyPlayingTrackRoute } from "@/libraries/api/music.api";
 
-import { Link, Passthrough } from "@/components/core";
+import { Link, Passthrough, Icon, Tooltip, Popover } from "@/components/core";
 import { withQueryProvider } from "@/components/providers/withQueryProvider";
 
 type TrackState = {
@@ -58,6 +57,13 @@ export const MusicCurrentlyPlayingPane = withQueryProvider(() => {
 		refetchInterval: 1000 * 60, // 1 minute
 		enabled: enabled(),
 	}));
+
+	const isLoading = () => {
+		return (
+			currentPlayingQuery.isLoading ||
+			currentPlayingQuery.fetchStatus === "idle"
+		);
+	};
 
 	const trackPercentage = () => {
 		const { remaining, duration } = trackState();
@@ -98,17 +104,10 @@ export const MusicCurrentlyPlayingPane = withQueryProvider(() => {
 	});
 
 	return (
-		<div class="border border-slate-200 rounded-lg w-full md:w-4/5 min-h-40">
+		<div class="border border-slate-200 rounded-lg w-full md:w-4/5">
 			<div class="flex items-center p-2.5 justify-between">
 				<div class="flex items-center gap-1">
-					<Link
-						href={generateSpotifyURI(AppManifest.links.socials.SPOTIFY)}
-						aria-label="My Spotify profile"
-						class="decoration-green-600"
-					>
-						Spotify
-					</Link>
-					<h2 class="font-heading">what's playing?</h2>
+					<h2 class="font-heading text-sm">what's playing?</h2>
 					<Show
 						when={currentPlayingQuery.data}
 						fallback={
@@ -118,66 +117,116 @@ export const MusicCurrentlyPlayingPane = withQueryProvider(() => {
 						}
 					>
 						{(context) => (
-							<div class="flex items-center gap-2 ml-2">
+							<div class="flex items-center gap-2 ml-2 animate-in fade-in">
 								<div class="h-5 border-r border-slate-200" />
-								<span
-									class={twJoin(
-										"transition-all font-heading text-sm",
-										context().shuffled && "text-blue-500",
-									)}
+								<Tooltip
+									trigger={
+										<Icon
+											name="shuffle"
+											class={twJoin(
+												"text-xl transition",
+												context().shuffled && "text-blue-500",
+											)}
+										/>
+									}
 								>
-									Shuffling
-								</span>
-								<span
-									class={twJoin(
-										"transition-all font-heading text-sm",
-										context().repeating && "text-blue-500",
-									)}
+									Shuffle
+								</Tooltip>
+								<Tooltip
+									trigger={
+										<Icon
+											name={
+												context().repeating === "track"
+													? "repeat-once"
+													: "repeat"
+											}
+											class={twJoin(
+												"text-xl transition",
+												context().repeating !== "off" && "text-blue-500",
+											)}
+										/>
+									}
 								>
-									Repeating
-								</span>
+									Repeating {context().repeating === "track" && "Track"}
+								</Tooltip>
 							</div>
 						)}
 					</Show>
 				</div>
-				<Show when={!!currentPlayingQuery.data?.posts.length}>
-					<div class="flex gap-4">
-						<For each={currentPlayingQuery.data?.posts || []}>
-							{(post) => (
-								<Link href={AppManifest.links.pages["/music/:slug"](post.slug)} class="text-sm">
-									Go to {post.type === MusicPostMetadata.types.ALBUM ? "album" : "track"} post
+				<Show when={currentPlayingQuery.data}>
+					{(currentlyPlaying) => (
+						<div class="flex items-center gap-3">
+							<For each={currentlyPlaying().posts || []}>
+								{(post) => (
+									<Link
+										href={AppManifest.links.pages["/music/:slug"](post.slug)}
+										class="text-sm"
+									>
+										Go to{" "}
+										{post.type === MusicPostMetadata.types.ALBUM
+											? "album"
+											: "track"}{" "}
+										post
+									</Link>
+								)}
+							</For>
+							<Popover
+								placement="bottom-end"
+								trigger={
+									<Icon
+										name="spotify"
+										class="text-xl text-slate-600"
+										aria-label="Spotify-links"
+									/>
+								}
+								contentClass="flex flex-col"
+								triggerClass="border border-slate-200 rounded p-0.5"
+							>
+								<Link
+									href={currentlyPlaying().artist.uri}
+									class="no-underline py-2 px-3 flex items-center gap-1"
+								>
+									<Icon name="user" class="text-blue-500" />
+									Go to artist
 								</Link>
-							)}
-						</For>
-					</div>
+								<Link
+									href={currentlyPlaying().uri}
+									class="no-underline py-2 px-3 flex items-center gap-1"
+								>
+									<Icon name="music-quaver" class="text-blue-500" />
+									Go to track
+								</Link>
+							</Popover>
+						</div>
+					)}
 				</Show>
 			</div>
 			<hr class="border-slate-200 border-t" />
-			<div class="p-2.5 flex flex-col gap-3 sm:flex-row sm:items-center">
-				<div class="h-20 w-20 rounded-xl overflow-hidden border border-slate-200 flex flex-col items-center justify-center md:flex-row">
+			<div class="p-2.5 flex gap-3 sm:items-center">
+				<div class="h-20 w-20 flex-shrink-0 rounded-xl overflow-hidden border border-slate-200 flex flex-col items-center justify-center md:flex-row">
 					<Switch>
 						<Match when={currentPlayingQuery.isSuccess}>
 							<Show
 								when={currentPlayingQuery.data?.covers[0].url}
-								fallback={<p class="text-sm font-heading text-center">no<br/>cover</p>}
+								fallback={
+									<Icon name="cassette-tape" class="text-3xl text-blue-500" />
+								}
 							>
 								{(url) => (
 									<Image
 										src={url()}
 										alt={currentPlayingQuery.data?.name}
 										layout="fullWidth"
-										{...{
-											style: {
-												"view-transition-name":
-													currentPlayingQuery.data?.posts[0]?.slug,
-											},
-										}}
+										class="animate-in fade-in"
 									/>
 								)}
 							</Show>
 						</Match>
-						<Match when={currentPlayingQuery.isLoading}>
-							<p class="animate-pulse">Loading</p>
+						<Match when={isLoading()}>
+							<Icon
+								name="circle-notch"
+								class="animate-spin text-blue-500 text-4xl"
+							/>
 						</Match>
 					</Switch>
 				</div>
@@ -192,8 +241,8 @@ export const MusicCurrentlyPlayingPane = withQueryProvider(() => {
 							</div>
 						}
 					>
-						<div class="flex justify-between">
-							<div class="mb-1.5 truncate">
+						<div class="flex justify-between animate-in fade-in">
+							<div class="mb-1.5">
 								<Show
 									when={!!currentPlayingQuery.data}
 									fallback={
@@ -218,15 +267,15 @@ export const MusicCurrentlyPlayingPane = withQueryProvider(() => {
 										</span>
 									</Passthrough>
 								</Show>
-								<h2 class="font-heading md:text-lg">
-									{currentPlayingQuery.data?.name ||
-										"Nothing is playing at the moment"}
+								<h2 class="text-sm font-heading md:text-lg">
+									{currentPlayingQuery.data?.name || "Nothing at the moment"}
 								</h2>
 							</div>
 							<Show when={currentPlayingQuery.data}>
-								<p class="h-min text-sm">
-									{trackState().playing ? "Playing" : "Paused"}
-								</p>
+								<Icon
+									name={trackState().playing ? "play" : "pause"}
+									class="text-xl"
+								/>
 							</Show>
 						</div>
 						<div

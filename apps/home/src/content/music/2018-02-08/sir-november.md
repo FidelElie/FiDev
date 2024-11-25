@@ -69,6 +69,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/1USFYZrDt86UdqZxuXYHUG'
     name: Summer in November
     favourite: true
+date: '2018-02-08T00:00:00.000Z'
 ---
 I didn't even know SiR was the newest member of TDE (Top Dawg Entertainment) and his debut
 project with the label didn't disappoint. I really love space so the concept of the album

@@ -24,6 +24,7 @@ genres:
   - art pop
   - pop
 type: TRACK
+date: '2018-04-08T00:00:00.000Z'
 ---
 Another Colors show discovery, I was hesitant to click the link when I saw the thumbnail
 but I'm glad I did. This is some pop that I can get into, her voice is really good and the

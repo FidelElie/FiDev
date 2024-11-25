@@ -26,6 +26,7 @@ genres:
   - neo soul
   - r&b
 type: TRACK
+date: '2018-08-26T00:00:00.000Z'
 ---
 Admittedly I have never got into Erykah Badu. I have blind listened to Baduizm and wasn't
 completely drawn to it upon first listen. But after *Olivia* showed me here tiny desk

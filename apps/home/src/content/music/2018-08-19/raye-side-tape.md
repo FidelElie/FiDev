@@ -49,6 +49,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/0pqlci982oEcavayQKZDQW'
     name: Wife Me
     favourite: true
+date: '2018-08-19T00:00:00.000Z'
 ---
 I didn't think I was going to like this tape. From what I've heard of RAYE before I was really
 a fan of her music, but I've got to say.. I am generally surprised how much I like some of

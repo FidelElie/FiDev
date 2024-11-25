@@ -93,6 +93,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/5ZbkkdxjGtrXMOmGD0Ml7K'
     name: Black Rose
     favourite: true
+date: '2018-09-25T00:00:00.000Z'
 ---
 What can I say about this? It fucking bumps. Ghetts bars are top notch throughout this
 holy album, he mentions his mum, he talks about his long hiatus and it all flames. I've

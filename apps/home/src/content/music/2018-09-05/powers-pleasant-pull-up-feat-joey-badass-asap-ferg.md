@@ -29,6 +29,7 @@ rating: LEVEL_4
 genres:
   - underground hip hop
 type: TRACK
+date: '2018-09-05T00:00:00.000Z'
 ---
 This song holds a special place in my heart. I didn’t even know this was released onto I
 happened to stumble onto Joey’s Spotify page and I was waiting for it to drop in for ages.

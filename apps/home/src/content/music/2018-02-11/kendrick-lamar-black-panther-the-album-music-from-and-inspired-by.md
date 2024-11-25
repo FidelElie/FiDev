@@ -86,6 +86,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/77UjLW8j5UAGAGVGhR5oUK'
     name: Pray For Me (with Kendrick Lamar)
     favourite: false
+date: '2018-02-11T00:00:00.000Z'
 ---
 Kendrick comes with the heat, with the soundtrack to highly anticipated Blank Panther
 movie set to release this Tuesday. There is a lot of hype track on this album that had me

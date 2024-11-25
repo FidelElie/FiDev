@@ -85,6 +85,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/1yYnT37zbmhaH6q3dVud0w'
     name: Attention
     favourite: false
+date: '2019-06-08T00:00:00.000Z'
 ---
 I just realised how consistent how Q has been. All the albums up to this one have been great,
 with personally the peak being his previous Blank Face LP. Has this consistency continued

@@ -72,6 +72,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/5bi6WIAbhOCPcpxhHVM7UL'
     name: Forget Me Not ◐
     favourite: false
+date: '2018-09-05T00:00:00.000Z'
 ---
 I’ve had my ears on Tonne’s music ever since Yung Cangz put me onto him with the song he
 did with Tom Misch. I love that songggg. And it is on this album but what I like does not

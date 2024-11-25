@@ -2,13 +2,16 @@ import { createSignal, Show } from "solid-js";
 
 import { AppManifest } from "@/configs";
 
-import { astroNavigate } from "@/libraries/utilities";
 import { request } from "@/libraries/clients";
+import { astroNavigate } from "@/libraries/utilities";
 import { MusicImFeelingLuckyRoute } from "@/libraries/api";
 
-import { Button } from "@/components/core";
+import { Button, Icon, type ButtonProps } from "@/components/core";
+import { twMerge } from "tailwind-merge";
 
-export const MusicFeelingLuckyButton = () => {
+export const MusicFeelingLuckyButton = (
+	props: MusicFeelingLuckyButtonProps,
+) => {
 	let buttonRef: HTMLDivElement | undefined;
 
 	const [submitting, setSubmitting] = createSignal(false);
@@ -42,17 +45,29 @@ export const MusicFeelingLuckyButton = () => {
 	return (
 		<div ref={buttonRef!}>
 			<Button
-				class="flex items-center gap-1 relative"
+				class={twMerge("flex items-center gap-2 relative", props.class)}
 				onClick={getFeelingLuckyPost}
 				disabled={submitting()}
+				intent={props.intent}
 			>
+				<div class="w-5">
+					<Show
+						when={submitting()}
+						fallback={<Icon name="dice-three" class="text-xl text-blue-500" />}
+					>
+						<Icon
+							name="circle-notch"
+							class="text-blue-500 animate-spin fade-in text-xl"
+						/>
+					</Show>
+				</div>
 				<span class="font-heading">I'm feeling lucky</span>
-				<Show when={submitting()}>
-					<p class="animate-in fade-in text-xs absolute bottom-0 left-1.5 font-heading">
-						Loading...
-					</p>
-				</Show>
 			</Button>
 		</div>
 	);
+};
+
+type MusicFeelingLuckyButtonProps = {
+	class?: string;
+	intent?: ButtonProps["intent"];
 };

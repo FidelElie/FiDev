@@ -1,7 +1,6 @@
 import { createSignal, For, Match, Show, Switch } from "solid-js";
 import { createInfiniteQuery } from "@tanstack/solid-query";
 import { createIntersectionObserver } from "@solid-primitives/intersection-observer";
-import { twJoin } from "tailwind-merge";
 
 import { request } from "@/libraries/clients";
 import { useQueryParams } from "@/libraries/hooks";
@@ -9,7 +8,7 @@ import { queryParams } from "@/libraries/utilities";
 import { FetchMusicPostsRoute } from "@/libraries/api";
 import type { InferDTOS } from "@/libraries/types";
 
-import { Button, Grid } from "@/components/core";
+import { Button, Grid, Icon } from "@/components/core";
 import {
 	MusicPostStickyPane,
 	MusicProjectEntry,
@@ -57,6 +56,18 @@ export const MusicProjectsView = withQueryProvider(
 			enabled: queryInitialised(),
 		}));
 
+		const isLoading = () => {
+			return (
+				postsQuery.isLoading ||
+				postsQuery.fetchStatus !== "idle" ||
+				!queryInitialised()
+			);
+		};
+
+		const noPosts = () => {
+			return !postsQuery.data?.pages.map((page) => page.items).flat().length;
+		};
+
 		createIntersectionObserver(targets, (entries) => {
 			entries.forEach((element) => {
 				if (
@@ -70,11 +81,11 @@ export const MusicProjectsView = withQueryProvider(
 		});
 
 		return (
-			<div class="flex flex-col gap-2 flex-grow min-h-full">
+			<div class="flex flex-col gap-2.5 flex-grow min-h-full">
 				<Show
-					when={queryInitialised()}
+					when={!isLoading()}
 					fallback={
-						<div class="flex-shrink-0 w-40 h-11 bg-slate-200 rounded-lg animate-pulse" />
+						<div class="flex-shrink-0 h-11 bg-slate-200 rounded-lg animate-pulse" />
 					}
 				>
 					<MusicPostStickyPane
@@ -84,18 +95,25 @@ export const MusicProjectsView = withQueryProvider(
 					/>
 				</Show>
 				<Show when={!!postsQuery.hasPreviousPage}>
-					<div class="flex items-center space-x-4">
-						<Button
-							intent="secondary"
-							onClick={() => postsQuery.fetchPreviousPage()}
-							disabled={postsQuery.isFetchingPreviousPage}
+					<Button
+						intent="secondary"
+						class="flex items-center gap-1.5 w-min whitespace-nowrap"
+						onClick={() => postsQuery.fetchPreviousPage()}
+						disabled={postsQuery.isFetchingPreviousPage}
+					>
+						<Show
+							when={!postsQuery.isFetchingPreviousPage}
+							fallback={
+								<Icon
+									name="circle-notch"
+									class="text-xl text-blue-500 animate-spin"
+								/>
+							}
 						>
-							Get previous posts
-						</Button>
-						<Show when={postsQuery.isFetchingPreviousPage}>
-							<p class="font-heading text-sm animate-pulse">Loading...</p>
+							<Icon name="caret-up" class="text-xl text-blue-500" />
 						</Show>
-					</div>
+						Get previous posts
+					</Button>
 				</Show>
 				<div class="relative flex flex-col gap-2">
 					<div class="flex flex-col">
@@ -106,36 +124,38 @@ export const MusicProjectsView = withQueryProvider(
 										each={postsQuery.data?.pages
 											.map((page) => page.items)
 											.flat()}
-										fallback={
-											<div class="col-span-3">
-												<h1 class="text-4xl font-heading">No projects found</h1>
-											</div>
-										}
 									>
 										{(post) => (
-											<MusicProjectEntry
-												post={post}
-												defer={!queryInitialised()}
-											/>
+											<MusicProjectEntry post={post} defer={isLoading()} />
 										)}
 									</For>
 								</Grid>
-								<hr
-									class={twJoin(
-										"border-tw-full mt-10 mb-5 transition-all",
-										!postsQuery.hasNextPage
-											? "border-slate-200"
-											: "border-transparent",
-									)}
-									ref={(element) =>
-										setTargets((currentTargets) => [...currentTargets, element])
-									}
-								/>
+								<Show when={postsQuery.hasNextPage || !noPosts()}>
+									<hr
+										class="border-tw-full mt-10 mb-5 transition-all border-slate-200"
+										ref={(element) =>
+											setTargets((currentTargets) => [
+												...currentTargets,
+												element,
+											])
+										}
+									/>
+								</Show>
 								<Show when={postsQuery.isFetchingNextPage}>
-									<p class="font-heading text-sm animate-pulse">Loading...</p>
+									<div class="flex items-center gap-1.5">
+										<Icon
+											name="circle-notch"
+											class="text-blue-500 animate-spin text-xl"
+										/>
+										<p class="font-heading text-sm animate-pulse">Loading...</p>
+									</div>
 								</Show>
 								<Show when={!postsQuery.hasNextPage}>
-									<p class="font-heading">No more posts</p>
+									<p class="font-heading text-2xl font-light mt-3">
+										{noPosts()
+											? "No posts found with your criteria"
+											: "You've reached the end - more to come soon"}
+									</p>
 								</Show>
 							</Match>
 						</Switch>

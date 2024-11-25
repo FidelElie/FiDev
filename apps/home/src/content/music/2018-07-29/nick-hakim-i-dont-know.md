@@ -25,6 +25,7 @@ genres:
   - hypnagogic pop
   - indie soul
 type: TRACK
+date: '2018-07-29T00:00:00.000Z'
 ---
 Nick has been one of my favorite artists for the past couple years. His music is airy and
 his voice is amazing and brings together all the songs he does. I love his last album Green

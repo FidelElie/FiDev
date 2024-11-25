@@ -27,6 +27,7 @@ genres:
   - neo soul
   - soul
 type: TRACK
+date: '2018-03-25T00:00:00.000Z'
 ---
 Bad Bad News is the song that I've been bumping the most, out of the two and it is for the
 good reason. The vocals do take up the centerpiece in this track but what the horns bring

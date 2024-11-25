@@ -1,0 +1,131 @@
+---
+import { Image } from "@unpic/astro";
+
+import { AppManifest } from "@/configs";
+import { MyselfPhotoshoppedPNG, SignaturePNG, TakingPhotoJPG } from "@/assets";
+import { Content as WhatThisWebsiteMeansToMe } from "@/content/misc/what-this-website-means-to-me.md";
+
+import { astroMeta } from "@/libraries/utilities";
+
+import { Button, Container, Icon, Link, Prose } from "@/components/core";
+import {
+	MusicCurrentlyPlayingPane,
+	SocialLinksLayout,
+	SubscriberForm,
+} from "@/components/interfaces";
+import { RootLayout } from "./_root.layout";
+
+const meta = astroMeta({
+	title: "About",
+	description:
+		"A bit about the procrastinating script kiddy and the website that your reading",
+});
+---
+<RootLayout
+	class="min-h-screen py-20 md:py-0"
+	bodyClass="relative"
+	navbarClass="absolute top-0"
+	padded={false}
+	{...meta}
+>
+	<Container
+		as="section"
+		class="space-y-6 flex-grow min-h-screen pb-20 md:py-20 flex items-center justify-center relative"
+	>
+		<div class="flex flex-col gap-10 sm:flex-row sm:justify-center sm:items-center relative">
+			<div class="flex flex-col w-full sm:w-5/12 animate-in fade-in flex-shrink-0">
+				<Image
+					src={MyselfPhotoshoppedPNG.src}
+					alt="Myself - but younger"
+					placeholder="dominantColor"
+					layout="fullWidth"
+				/>
+				<hr class="sy-2 border-t mt-5 mb-2.5 border-slate-200"/>
+				<SocialLinksLayout iconClass="text-2xl"/>
+			</div>
+			<div class="animate-in fade-in">
+				<h1 class="font-heading text-2xl md:text-3xl">
+					Hi my name is Fidel <span class="text-base font-light font-copy text-blue-500 md:text-lg">
+						(fee-del)
+					</span>
+				</h1>
+				<hr class="my-3 border-t border-slate-200"/>
+				<div class="prose prose-img:mb-5">
+					<p>
+						I am a <Link href={AppManifest.links.socials.GITHUB} target="_blank">software developer</Link> born and based in London, with music and technology being major influences in my life, I created this website to entertain the masses, build your interest in the topics that I hold dear as well as improve my skills and share my expertise and opinions on various topics.
+					</p>
+					<p>
+						I want this to be a learning experience for everyone. This website is the successor to a relic of the internet where I started not really knowing anything about web development. Graduating from Wordpress site builders to writing html pages by the end of its lifetime.
+					</p>
+					<p>
+						That was {new Date().getFullYear() - 2019} years ago, and now I am good bit older, hopefully a lot more wiser, but most importantly I have journey to share. I want this website - that was built from scratch and in my control - to give me platform to write once more and share what I've learn't and I thank you for stumbling across it. I hope you enjoy your stay.
+					</p>
+					<div class="w-36 opacity-80 not-prose -mt-2 mb-5">
+						<Image
+							src={SignaturePNG}
+							alt="Fidel signature"
+							placeholder="blurhash"
+						/>
+					</div>
+					<Button id="website-scroll-button" class="flex items-center gap-2">
+						More about the website
+						<Icon name="planet" class="text-2xl"/>
+					</Button>
+				</div>
+			</div>
+		</div>
+		<div class="flex justify-center align-center absolute bottom-2 left-0 w-full">
+			<button id="below-fold-indicator">
+				<Icon name="caret-down" class="text-blue-500 text-2xl animate-bounce"/>
+			</button>
+		</div>
+	</Container>
+	<hr class="border-t border-slate-200"/>
+	<Container
+		id="currently-playing-section"
+		class="space-y-6 flex-grow py-10 flex flex-col items-center justify-center"
+	>
+		<div
+			class="w-full flex justify-center astro:flex astro:w-full astro:justify-center astro:min-h-40"
+		>
+			<MusicCurrentlyPlayingPane client:visible/>
+		</div>
+	</Container>
+	<hr class="border-t border-slate-200"/>
+	<Container as="section" class="pt-16 pb-6 flex max-w-3xl flex-col" id="website-section">
+		<div class="flex items-center gap-3">
+			<div class="w-16 h-16 rounded-full overflow-hidden">
+				<Image src={TakingPhotoJPG} alt="Me taking photo" placeholder="blurhash" loading="lazy"/>
+			</div>
+			<div class="">
+				<p class="font-heading text-xl tracking-tight">Storytime with Fidel</p>
+				<span class="text-sm text-blue-500 -mt-1">Warning: there may be tangents</span>
+			</div>
+		</div>
+		<hr class="border-t border-slate-200 mt-3 mb-6"/>
+		<Prose>
+			<WhatThisWebsiteMeansToMe/>
+		</Prose>
+	</Container>
+	<hr class="mt-10 mb-20 border-t border-slate-200"/>
+	<Container class="mb-20">
+		<SubscriberForm client:visible/>
+	</Container>
+</RootLayout>
+
+<script>
+	document.addEventListener("astro:page-load", () => {
+		const websiteScrollButton = document.getElementById("website-scroll-button");
+		const belowFoldButton = document.getElementById("below-fold-indicator");
+		const currentlyPlayingSection = document.getElementById("currently-playing-section");
+		const websiteSection = document.getElementById("website-section");
+
+		websiteScrollButton?.addEventListener("click", () => {
+			websiteSection?.scrollIntoView({ behavior: "smooth" });
+		});
+
+		belowFoldButton?.addEventListener("click", () => {
+			currentlyPlayingSection?.scrollIntoView({ behavior: "smooth" });
+		});
+	});
+</script>

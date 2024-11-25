@@ -45,6 +45,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/4JSlPG9DkRuhyXNdLxhI5a'
     name: For a Minute (feat. KarimThaPeasant)
     favourite: false
+date: '2019-03-17T00:00:00.000Z'
 ---
 
 This is not Joy's first outing on Music Weekly, and to start off it is not her best either.

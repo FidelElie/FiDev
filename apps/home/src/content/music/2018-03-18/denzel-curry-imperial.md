@@ -70,6 +70,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/3oy9CClx1zCGnhzse9AvDu'
     name: If Tomorrow's Not Here
     favourite: true
+date: '2018-03-18T00:00:00.000Z'
 ---
 I started going back to the gym at the start of the week. And this project was the star
 of the show, powering my boxing sessions. It is Denzel Curry being what he usually is,

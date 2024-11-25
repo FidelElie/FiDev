@@ -94,6 +94,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/5RHl48vC9W0bnabDTt2jJ7'
     name: Right Hand 2 God
     favourite: false
+date: '2018-06-03T00:00:00.000Z'
 ---
 It took me a while to get round to Hussle's newest project but finally it turns out that
 everyone who lost their mind over it was at least somewhat warranted. I like a good few of

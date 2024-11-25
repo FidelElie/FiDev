@@ -29,6 +29,7 @@ rating: LEVEL_1
 genres:
   - colombian pop
 type: TRACK
+date: '2018-02-11T00:00:00.000Z'
 ---
 Don't have much to say about this song, really like Kali Uchis' vocals, Tyler raps as per
 usual and Bootsy Collins is himself, no complaints here. And don't let the haphazard

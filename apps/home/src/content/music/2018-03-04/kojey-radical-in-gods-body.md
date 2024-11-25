@@ -76,6 +76,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/6Z789p1UNljO3LibZUgNAU'
     name: 'Dystopia: In Gods Body'
     favourite: false
+date: '2018-03-04T00:00:00.000Z'
 ---
 Featured on last week’s songs of note (check it out here), I decided to listen to Kojey’s
 most recent project and wasn’t particularly blown away by it. It take a departure from the

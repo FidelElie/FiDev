@@ -71,6 +71,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/2PVjeDKsDJBSqU0d7HUWkW'
     name: So Fly
     favourite: true
+date: '2019-06-08T00:00:00.000Z'
 ---
 I do hate it when it seems an artist you was rooting for just disappears of the face of the
 planet for a while. No word of even an EP or accidentally stumbling across one of their projects

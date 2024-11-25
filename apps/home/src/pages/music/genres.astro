@@ -2,8 +2,9 @@
 import { getCollection } from "astro:content";
 
 import { Container } from "@/components/core";
-import { RootLayout } from "@/pages/_root.layout";
+import { MusicSearchOptions } from "@/components/interfaces";
 import { MusicGenreView } from "@/components/pages/music/genres/MusicGenreView";
+import { RootLayout } from "@/pages/_root.layout";
 
 const artists = await getCollection("artists");
 
@@ -11,16 +12,17 @@ const genres = Array.from(
 	new Set(artists.map((artist) => artist.data.genres).flat()),
 );
 ---
-<RootLayout title="Music genres" class="flex flex-col min-h-screen">
-	<Container class="flex-grow py-10 space-y-5">
+<RootLayout title="Music genres" class="flex flex-col min-h-screen space-y-2  pt-8 pb-20">
+	<Container class="flex-grow space-y-2">
 		<div class="flex flex-col space-y-1">
 			<h1 class="font-heading text-5xl tracking-tighter">genres</h1>
 			<h2 class="text-lg font-light tracking-tight text-blue-500">
 				Find posts based on the sound you like.
 			</h2>
 		</div>
-		<div>
-			<MusicGenreView genres={genres} client:load/>
-		</div>
+		<MusicSearchOptions options={["posts", "artists"]}/>
 	</Container>
+	<div class="astro:flex-grow astro:block astro:w-full">
+		<MusicGenreView genres={genres} client:load/>
+	</div>
 </RootLayout>

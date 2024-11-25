@@ -83,6 +83,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/5sEKWiSjsWKsmV9IOvYKhD'
     name: Left To Right
     favourite: false
+date: '2019-02-27T00:00:00.000Z'
 ---
 This seems like a very polarising pick to put on this music weekly. Some people weren't
 really feeling it, even long running fans of Paak. But for me this is the first instance

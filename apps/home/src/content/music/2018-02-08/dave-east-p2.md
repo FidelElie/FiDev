@@ -88,6 +88,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/7i0Pn0PIBpS667s0gbFAMZ'
     name: Grateful
     favourite: false
+date: '2018-02-08T00:00:00.000Z'
 ---
 One of my favorite rappers in the game right now decided to drop some fire a week or two ago and I have been listening to it ever since. Paranoia 2 (P2) is the follow up to his project of the same name last year and it follows from the same strengths of the last one. Hard Beats? Check. Bars on Bars? Check. The Gritty Themes throughout the music? Check And check. Its more of the same with the storytelling turned up to a thousand with the songs Corey and I found Keisha; the follow up to the song from his album Kiari Chanel - my favourite of his - have been on repeat for me. This is definitely a project I would wholeheartedly recommend listening, especially if you like his older ones and if not give him a shot I did not regret it.
 

@@ -68,6 +68,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/1XHiM7JyuBn5I6o17LnmF8'
     name: No Threat
     favourite: true
+date: '2019-03-31T00:00:00.000Z'
 ---
 I've been a solid fan of Anonymuz since returning to his last project Vice City years ago
 now. His dark style of rap is very different from what I usually listen to and a welcome

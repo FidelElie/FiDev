@@ -72,6 +72,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/7xVHOOpLmLzdzdx2Od2KMR'
     name: Everything Is Recorded
     favourite: true
+date: '2018-02-24T00:00:00.000Z'
 ---
 Sampha, Sampha and Sampha. I was put on to this project by my girlfriend and after listening
 to it, we both shared the same opinion. Sampha is great as usual and the best song on the

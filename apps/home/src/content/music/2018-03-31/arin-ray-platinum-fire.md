@@ -80,6 +80,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/4A8FVqPfMSlfLtbZu96iuH'
     name: Platinum Fire (feat. Terrace Martin)
     favourite: true
+date: '2018-03-31T00:00:00.000Z'
 ---
 It's great to hear some new R&B, especially when it is this good. He follows a sound that I
 think the new age R&B artists do so well. It makes a lot of sense to me that SiR and Ty feature

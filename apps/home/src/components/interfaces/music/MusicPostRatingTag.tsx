@@ -10,7 +10,7 @@ export const MusicPostRatingTag = (props: MusicPostRatingTagProps) => {
 				props.class,
 			)}
 		>
-			<p class="text-sm mt-1 tracking-tight font-heading">
+			<p class="text-sm tracking-tight font-heading">
 				{MusicPostRatingMap[props.rating]}
 			</p>
 		</div>

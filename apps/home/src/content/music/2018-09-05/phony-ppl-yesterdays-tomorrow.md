@@ -85,6 +85,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/2zk7TQx9Xa4yxYmsjgDCPp'
     name: Somehow.
     favourite: true
+date: '2018-09-05T00:00:00.000Z'
 ---
 After talking about the group’s latest release last music weekly. And bigging up there
 previous album in the process. I thought I would go back and listen to this banger of an

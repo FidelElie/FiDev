@@ -46,6 +46,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/5mFL7ZIue9q3A0RSO0pxA5'
     name: She Is the Sum
     favourite: true
+date: '2018-02-24T00:00:00.000Z'
 ---
 Favourite Songs: Tepid Soul, Where Did I Go?, She is the Sum
 A very unique voice and a very unique sound is what Poppy brings to the table. I have been

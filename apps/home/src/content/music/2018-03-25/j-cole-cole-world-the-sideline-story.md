@@ -91,6 +91,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/2wAJTrFhCnQyNSD3oUgTZO'
     name: Work Out
     favourite: false
+date: '2018-03-25T00:00:00.000Z'
 ---
 I decided on one of my most stressful days this week to make this the soundtrack to my run.
 And I forgot how much I loved this album and I think it doesn't get the shine it deserves.

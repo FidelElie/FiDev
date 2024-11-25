@@ -53,6 +53,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/08ghP1DR1JLLvKVbhsuwCy'
     name: We Good
     favourite: false
+date: '2019-06-16T00:00:00.000Z'
 ---
 I was hopeful when Carlos said to me the Col3trane's newest EP was fire. My liking his music
 had stopped since hearing the song Penelope on colours. Unfortunately, this hasn't really

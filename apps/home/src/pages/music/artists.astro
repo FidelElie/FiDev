@@ -2,6 +2,7 @@
 import { fetchMusicArtists, fetchMusicGenres } from "@/libraries/server";
 
 import { Container } from "@/components/core";
+import { MusicSearchOptions } from "@/components/interfaces";
 import { MusicArtistsView } from "@/components/pages/music/artists/MusicArtistsView";
 import { RootLayout } from "@/pages/_root.layout";
 
@@ -11,14 +12,15 @@ const [initialArtists, genres] = await Promise.all([
 ]);
 ---
 <RootLayout title="Music artists">
-	<Container class="py-10 pb-32 space-y-5 min-h-screen flex flex-col">
+	<Container class="min-h-screen flex flex-col">
 		<div class="space-y-1">
 			<h1 class="font-heading text-5xl tracking-tighter">artists</h1>
 			<h2 class="text-lg font-light tracking-tight text-blue-500">
-				The people behind the projects
+				Search for music through the people behind the projects.
 			</h2>
 		</div>
-		<div class="flex flex-grow astro:flex-grow astro:block">
+		<MusicSearchOptions options={["posts", "genres"]}/>
+		<div class="flex flex-grow astro:flex-grow astro:block mt-5">
 			<MusicArtistsView
 				initial={[initialArtists]}
 				genres={genres.items}

@@ -34,6 +34,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/1naTEPAAZ8tAY1wULKVtyB'
     name: Motion
     favourite: true
+date: '2018-03-25T00:00:00.000Z'
 ---
 I've liked a few Jay Prince songs in the past (Where You Belong is great) and but after listening
 to his most recent album Late Summers, I was really sold on him. His two follow a single

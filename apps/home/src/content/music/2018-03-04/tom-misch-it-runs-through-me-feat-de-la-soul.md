@@ -27,6 +27,7 @@ genres:
   - indie soul
   - jazz pop
 type: TRACK
+date: '2018-03-04T00:00:00.000Z'
 ---
 Tom, Tom, Tom... Tom. Can you just release the album already? This song bangs. The riff is
 just too infectious, makes me have to move something. Just a great feel good sound.

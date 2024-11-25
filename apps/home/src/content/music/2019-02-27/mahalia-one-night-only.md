@@ -28,6 +28,7 @@ genres:
   - indie anthem-folk
   - uk contemporary r&b
 type: TRACK
+date: '2019-02-27T00:00:00.000Z'
 ---
 I like what I have heard of Mahalia with songs like Sober but this song definitely increased
 this feeling significantly, the strings, her smooth vocals, Kojey's smooth vocals, a lot of

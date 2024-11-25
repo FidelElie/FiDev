@@ -24,6 +24,7 @@ genres:
   - alternative r&b
   - indie soul
 type: TRACK
+date: '2018-08-26T00:00:00.000Z'
 ---
 It has been a very long time since I have listened to anything from Phony Ppl. Their last album
 *Yesterday's Gone* is an exceptional mix of r'n'b, rap and great production. And what seems

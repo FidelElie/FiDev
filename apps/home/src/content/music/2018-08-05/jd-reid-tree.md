@@ -84,6 +84,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/46wJtRXmyMrqaIImbkdKIg'
     name: On My Own
     favourite: false
+date: '2018-08-05T00:00:00.000Z'
 ---
 In the upcoming podcast episode, Carlos told me about this project and it piqued my interest,
 so I thought I would give it a listen. J.D is a producer and he is cooking on these beats.

@@ -22,7 +22,7 @@ import {
 export const fetchMusicProjects = async (request: Request) => {
 	const { dtos, responses } = FetchMusicPostsRoute;
 
-	const { page, size, genres, levels } = dtos.query.parse(
+	const { page, size, genres, levels, search } = dtos.query.parse(
 		queryParams.decodeFromUrl(request.url),
 	);
 
@@ -34,10 +34,35 @@ export const fetchMusicProjects = async (request: Request) => {
 		const includedByRating =
 			!levels?.length || levels.includes(post.data.rating);
 
-		return includedByGenre && includedByRating;
+		const includedBySearch = (() => {
+			if (!search) {
+				return true;
+			}
+
+			const lowerSearch = search.toLowerCase();
+
+			return (
+				post.data.name.toLowerCase().includes(lowerSearch) ||
+				post.data.artists.some((artist) =>
+					artist.name.toLowerCase().includes(lowerSearch),
+				) ||
+				post.data.genres.some((genre) =>
+					genre.toLowerCase().includes(lowerSearch),
+				)
+			);
+		})();
+
+		return includedByGenre && includedByRating && includedBySearch;
 	});
 
-	const result = paginateEntries(musicPosts, { page, size, defaultSize: 15 });
+	const sortedPosts = musicPosts.toSorted((postA, postB) => {
+		return (
+			new Date(postB.data.date || Date.now()).valueOf() -
+			new Date(postA.data.date || Date.now()).valueOf()
+		);
+	});
+
+	const result = paginateEntries(sortedPosts, { page, size, defaultSize: 15 });
 
 	const validatedResult = responses[200].parse({
 		...result,
@@ -45,6 +70,16 @@ export const fetchMusicProjects = async (request: Request) => {
 	});
 
 	return validatedResult;
+};
+
+/**
+ *
+ * @returns
+ */
+export const fetchMusicPostsTotal = async () => {
+	const musicPosts = await getCollection("music");
+
+	return musicPosts.length;
 };
 
 /**
@@ -156,17 +191,18 @@ export const getCurrentPlayingTrack = async () => {
 	);
 
 	const musicTrackEntry = getPostInformation(
-		musicPosts.find((entry) => entry.data.spotifyId === currentlyPlaying.id),
+		musicPosts.find((post) => post.data.spotifyId === currentlyPlaying.id),
 	);
 
 	const musicAlbumEntry = getPostInformation(
 		musicPosts.find(
-			(entry) => entry.data.spotifyId === currentlyPlaying.album.id,
+			(post) => post.data.spotifyId === currentlyPlaying.album.id,
 		),
 	);
 
 	const response = {
 		name: currentlyPlaying.name,
+		uri: currentlyPlaying.uri,
 		covers: currentlyPlaying.album.images,
 		remaining: currentPlayingResponse.progress_ms,
 		duration: currentlyPlaying.duration_ms,
@@ -180,6 +216,7 @@ export const getCurrentPlayingTrack = async () => {
 		artist: {
 			name: firstArtist.name,
 			slug: artistEntry?.data.slug || "",
+			uri: firstArtist.uri,
 		},
 	};
 

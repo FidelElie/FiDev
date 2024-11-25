@@ -29,6 +29,7 @@ rating: LEVEL_3
 genres:
   - slam poetry
 type: TRACK
+date: '2018-03-04T00:00:00.000Z'
 ---
 Okay let me start this off by saying that I generally dislike spoken word to music. So when
 I a hear a guy called George the poet on Spotify, I am reluctant but I gave this song a listen

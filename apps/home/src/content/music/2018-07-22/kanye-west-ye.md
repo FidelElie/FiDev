@@ -54,6 +54,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/3s7MCdXyWmwjdcWh7GWXas'
     name: Violent Crimes
     favourite: true
+date: '2018-07-22T00:00:00.000Z'
 ---
 With all that's is going on with Kanye at this time. All the attention seeking as promo for
 his weekly album release we got ye, his lone 7 song project that is mean't to be a masterpiece.

@@ -42,6 +42,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/1Zm0eMqgjZqW5DZ2a3KGwp'
     name: Shangri La
     favourite: true
+date: '2018-07-29T00:00:00.000Z'
 ---
 I listened to this EP years ago, much closer to its release in 2014 and admittedly I have
 been sleeping on it ever since. Firstly I love Tillman's voice, he is able to hold some

@@ -29,6 +29,7 @@ genres:
   - hardcore hip hop
   - hip hop
 type: TRACK
+date: '2018-04-15T00:00:00.000Z'
 ---
 When I saw that the Black Hokage was listening to this song (Check out his channel here,
 love his stuff) with Royce and J, I had to listen to it. I love these smooth beats with

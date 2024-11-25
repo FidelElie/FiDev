@@ -86,6 +86,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/2MF4HtZHBoUliOi9nOAbS0'
     name: Purity (feat. Frank Ocean)
     favourite: false
+date: '2018-06-03T00:00:00.000Z'
 ---
 Out of the most of the A$AP Mob, Rocky is the one that I expect to come with the heat when
 he brings out project. LONG LIVE and AT LONG LAST A$AP were great albums and had some great

@@ -45,6 +45,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/1kdNup8bvPBaioUYS3aZU0'
     name: Something
     favourite: false
+date: '2019-06-03T00:00:00.000Z'
 ---
 Sometimes Spotify likes to throw some more obscure artists on their new releases roundup.
 And although I had heard of JGrrey before, I had no idea she had released something. After

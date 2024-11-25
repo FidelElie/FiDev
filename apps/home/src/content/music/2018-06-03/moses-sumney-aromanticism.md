@@ -71,6 +71,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/2pVFtLr9Zp9SgC3pq11r4L'
     name: Self-Help Tape
     favourite: false
+date: '2018-06-03T00:00:00.000Z'
 ---
 Have you ever heard a track that sent chills your spine. That's what happened when my
 girlfriend Olivia (shout outs to Young Spinach) showed me the song Plastic off his album

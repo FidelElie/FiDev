@@ -24,6 +24,7 @@ genres:
   - alternative r&b
   - trap queen
 type: TRACK
+date: '2019-03-17T00:00:00.000Z'
 ---
 This was another artist that I found myself listening to from the
 (Color's Show YouTube Channel)[https://www.youtube.com/@COLORSxSTUDIOS] and after getting

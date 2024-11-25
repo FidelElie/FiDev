@@ -79,6 +79,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/0zrK5pcePHSPGvKr34DbxV'
     name: Time (feat. Snoh Aalegra)
     favourite: true
+date: '2019-03-17T00:00:00.000Z'
 ---
 I guess I could say the writing was on the wall with this album. I had heard from a few people -
 including Carlos who had told me multiple times - that Boogie was fire. And after listening to

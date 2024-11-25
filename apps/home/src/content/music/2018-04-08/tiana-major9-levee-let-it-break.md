@@ -24,6 +24,7 @@ genres:
   - alternative r&b
   - uk contemporary r&b
 type: TRACK
+date: '2018-04-08T00:00:00.000Z'
 ---
 
 The latest discovery from Colours Show I love the old school vibes to this song, the instrumental

@@ -66,6 +66,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/5PrVJBp2pyJxKDKXVKDiGq'
     name: Flowers
     favourite: true
+date: '2019-03-17T00:00:00.000Z'
 ---
 It is a contender, Simz brings the fire as always that hasn't changed but the the album is
 fire and I cannot get enough of the tunes. Simz has bars for days, there are so many

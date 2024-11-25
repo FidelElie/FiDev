@@ -52,6 +52,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/7r6N2QyHXZ7ztWgf3jStiV'
     name: Ride You Like A Wave
     favourite: false
+date: '2018-03-31T00:00:00.000Z'
 ---
 I don't really like comparing artist to each other but to me Tiara.... Sounds a bit like a
 bootleg H.E.R. The biggest problem with this is not that the vocals sound like her but her

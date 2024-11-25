@@ -29,6 +29,7 @@ rating: LEVEL_3
 genres:
   - dmv rap
 type: TRACK
+date: '2018-02-08T00:00:00.000Z'
 ---
 The album Under New Management did not stand out to me that much, but this song did. I
 love the feel good nature of it and the positivity that comes with his lyrics. I always

@@ -75,6 +75,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/4HMVeqf1r9cH240Ann9sJ3'
     name: A Beautiful Mess
     favourite: false
+date: '2018-06-03T00:00:00.000Z'
 ---
 
 I think pretty much everyone of a certain age knows the song I'm yours by Mr Mraz. And deep

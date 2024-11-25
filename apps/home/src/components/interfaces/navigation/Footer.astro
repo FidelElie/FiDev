@@ -1,9 +1,8 @@
 ---
 import { AppManifest } from "@/configs";
 
-import { generateSpotifyURI } from "@/libraries/utilities";
-
-import { Container, Link } from "@/components/core";
+import { Container } from "@/components/core";
+import { SocialLinksLayout } from "@/components/interfaces/layouts/SocialLinksLayout";
 import { BackToTopButton } from "@/components/interfaces/navigation/_Footer/BackToTopButton";
 import { FooterLinkGroup } from "@/components/interfaces/navigation/_Footer/FooterLinkGroup";
 
@@ -13,6 +12,7 @@ const FOOTER_LINKS = [
 		links: [
 			{ href: AppManifest.links.pages["/home"], text: "home" },
 			{ href: AppManifest.links.pages["/search"], text: "search" },
+			{ href: AppManifest.links.pages["/about"], text: "about" },
 		],
 	},
 	{
@@ -53,42 +53,6 @@ const FOOTER_LINKS = [
 		<p class="text-sm text-slate-600 font-light">
 			Copyright&copy; Fidel Pierre Elie {(new Date()).getFullYear()} - All Rights Reserved
 		</p>
-		<ul class="flex flex-wrap gap-2.5">
-			<li>
-				<Link
-					href={AppManifest.links.socials.GITHUB}
-					class="decoration-slate-800 text-sm hover:text-slate-800"
-					target="_blank"
-				>
-					Github
-				</Link>
-			</li>
-			<li>
-				<Link
-					href={AppManifest.links.socials.INSTAGRAM}
-					class="decoration-pink-500 text-sm hover:text-pink-500"
-					target="_blank"
-				>
-					Instagram
-				</Link>
-			</li>
-			<li>
-				<Link
-					href={AppManifest.links.socials.LINKEDIN}
-					class="decoration-sky-600 text-sm hover:text-sky-600"
-					target="_blank"
-				>
-					Linkedin
-				</Link>
-			</li>
-			<li>
-				<Link
-					href={generateSpotifyURI(AppManifest.links.socials.SPOTIFY)}
-					class="decoration-green-600 text-sm hover:text-green-600"
-				>
-					Spotify
-				</Link>
-			</li>
-		</ul>
+		<SocialLinksLayout/>
 	</Container>
 </footer>
