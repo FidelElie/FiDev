@@ -204,12 +204,6 @@ export const MusicCurrentlyPlayingPane = withQueryProvider(() => {
 										alt={currentPlayingQuery.data?.name}
 										layout="fullWidth"
 										class="animate-in fade-in"
-										{...{
-											style: {
-												"view-transition-name":
-													currentPlayingQuery.data?.posts[0]?.slug,
-											},
-										}}
 									/>
 								)}
 							</Show>
