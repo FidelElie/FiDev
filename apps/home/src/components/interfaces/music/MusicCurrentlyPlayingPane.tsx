@@ -155,18 +155,15 @@ export const MusicCurrentlyPlayingPane = withQueryProvider(() => {
 				</div>
 				<Show when={currentPlayingQuery.data}>
 					{(currentlyPlaying) => (
-						<div class="flex items-center gap-3">
+						<div class="flex items-center gap-1">
 							<For each={currentlyPlaying().posts || []}>
 								{(post) => (
 									<Link
 										href={AppManifest.links.pages["/music/:slug"](post.slug)}
-										class="text-sm"
+										class="text-sm border border-slate-200 rounded-lg p-0.5"
+										aria-label={`Go to ${post.type === MusicPostMetadata.types.ALBUM ? "album" : "track"}`}
 									>
-										Go to{" "}
-										{post.type === MusicPostMetadata.types.ALBUM
-											? "album"
-											: "track"}{" "}
-										post
+										<Icon name="note" class="text-xl text-slate-600"/>
 									</Link>
 								)}
 							</For>
