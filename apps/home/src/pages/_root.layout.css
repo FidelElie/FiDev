@@ -19,14 +19,6 @@
 	@apply ml-5 relative font-light font-heading tracking-tight leading-8;
 }
 
-.lyrics > blockquote::before {
-	content: open-quote;
-}
-
-.lyrics > blockquote::after {
-	content: close-quote;
-}
-
 .lyrics > div {
 	@apply ml-5
 }

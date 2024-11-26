@@ -163,7 +163,7 @@ const LyricQuote = (props: {
 				<div class="lyrics">
 					<blockquote>
 						${quote.map((line, lineIndex, lines) => (
-							`${line}${lineIndex !== lines.length - 1 ? "<br/>" : ""}`
+							`${line[0].toUpperCase() + line.slice(1)}${lineIndex !== lines.length - 1 ? "<br/>" : ""}`
 						)).join("")}
 					</blockquote>
 					<div class="flex flex-col">
