@@ -13,6 +13,7 @@ import {
 	FetchMusicPostsRoute,
 	GetCurrentlyPlayingTrackRoute,
 } from "@/libraries/api/music.api";
+import { MusicPostMetadata } from "@/libraries/constants";
 
 /**
  *
@@ -48,7 +49,8 @@ export const fetchMusicProjects = async (request: Request) => {
 				) ||
 				post.data.genres.some((genre) =>
 					genre.toLowerCase().includes(lowerSearch),
-				)
+				) ||
+				(post.data.type === MusicPostMetadata.types.ALBUM && post.data.tracks.some(track => track.name.toLowerCase().includes(lowerSearch)))
 			);
 		})();
 
