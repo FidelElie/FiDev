@@ -167,7 +167,7 @@ const LyricQuote = (props: {
 						)).join("")}
 					</blockquote>
 					<div class="flex flex-col">
-						<hr class="border-t border-slate-200 mt-4 mb-1.5"/>
+						<hr class="border-t border-slate-200 mt-2 mb-1.5"/>
 						<span>
 							Taken from ${id && type ? MusicDirective.getHTML({ id, type, text }) : text}
 						</span>
