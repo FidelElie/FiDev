@@ -6,6 +6,8 @@ import matter from "gray-matter";
 
 import type { ContentConfig, ContentPostEntry } from "./types";
 
+const CONTENT_FILE_EXTENSIONS = ["md", "mdx", "markdoc", "txt"];
+
 /**
  *
  * @param dirPath
@@ -21,6 +23,10 @@ export const getPostsPathsFromRootDir = (dirPath: string): string[] => {
 
 		if (stat.isDirectory()) {
 			return getPostsPathsFromRootDir(referencePath);
+		}
+
+		if (!CONTENT_FILE_EXTENSIONS.some(extension => referencePath.includes(`.${extension}`))) {
+			return [];
 		}
 
 		return [referencePath];

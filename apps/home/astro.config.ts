@@ -1,4 +1,3 @@
-// @ts-check
 import { loadEnv } from "vite";
 import { defineConfig } from "astro/config";
 
@@ -9,8 +8,11 @@ import solidJs from "@astrojs/solid-js";
 import vercel from "@astrojs/vercel/serverless";
 
 import {
-	PostDirective,
+	AlbumDirective,
+	LyricsDirective,
+	MusicDirective,
 	remarkRegExpDirective,
+	TrackDirective,
 	YoutubeEmbedDirective,
 } from "./src/libraries/plugins";
 
@@ -38,7 +40,10 @@ export default defineConfig({
 
 	markdown: {
 		rehypePlugins: [
-			[remarkRegExpDirective, [YoutubeEmbedDirective, PostDirective]],
+			[
+				remarkRegExpDirective,
+				[YoutubeEmbedDirective, MusicDirective, AlbumDirective, TrackDirective, LyricsDirective]
+			],
 		],
 	},
 

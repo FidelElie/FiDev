@@ -1,2 +1,2 @@
+export * from "./MusicDirective";
 export * from "./YoutubeEmbedDirective";
-export * from "./PostDirective";

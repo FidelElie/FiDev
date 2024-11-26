@@ -55,7 +55,7 @@ all the content for the website in EverNote and OneNote using html tags. This wa
 but was certainly better than actually using the site builder for any extended period of time.
 * Creating music posts took ages: I had to get all the assets and embeds for the different streaming
 services by google searching them - I attempted to write a desktop application that used python and
-webscraping to automate this but it never got to primetime in my workflow.
+web-scraping to automate this but it never got to primetime in my workflow.
 * The old site was simple in layout and elements - simple is good... We like simple and I should try and
 keep the new site as simple as possible so I can actually get it to the point of releasing it.
 
@@ -77,7 +77,7 @@ release.
 
 The flow above is a game changer, I keep the content close to the code and it gives me the power
 to create posts very quickly for any music I want to talk about. It made migrating all the older
-posts I found on the note taking apps a breeze and creating the post :post[music/2024-10-29/bad-bunny-monaco:post]
+posts I found on the note taking apps a breeze and creating the post :track[4MjDJD8cW7iVeWInc2Bdyj:Bad Bunny - Monaco]
 that marked my return to music writing couldn't have been easier.
 
 ### Conclusion
