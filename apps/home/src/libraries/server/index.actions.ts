@@ -5,6 +5,7 @@ import { getEnvironmentVariable } from "@fi.dev/typescript";
 import { queryParams } from "@/libraries/utilities";
 import { createKitClient } from "@/libraries/clients";
 import { SearchWebsiteRoute, SubscribeToWebsiteRoute } from "@/libraries/api";
+import { MusicPostMetadata } from "../constants";
 
 export const searchWebsiteAction = async (request: Request) => {
 	const { dtos, responses } = SearchWebsiteRoute;
@@ -26,7 +27,8 @@ export const searchWebsiteAction = async (request: Request) => {
 				) ||
 				entry.data.genres.some((genre) =>
 					genre.toLowerCase().includes(loweredTerm),
-				)
+				) ||
+				(entry.data.type === MusicPostMetadata.types.ALBUM && entry.data.tracks.some(track => track.name.toLowerCase().includes(loweredTerm)))
 			);
 		}),
 		getCollection("artists", (entry) => {
