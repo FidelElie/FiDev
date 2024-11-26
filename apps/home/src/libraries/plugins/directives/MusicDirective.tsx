@@ -171,7 +171,7 @@ const LyricQuote = (props: {
 						<span>
 							Taken from ${id && type ? MusicDirective.getHTML({ id, type, text }) : text}
 						</span>
-						${remark ? `<span class="text-sm font-light">${remark}</span>` : ""}
+						${remark ? `<span class="text-sm font-light ml-2">${remark}</span>` : ""}
 					</div>
 				</div>
 			</div>
