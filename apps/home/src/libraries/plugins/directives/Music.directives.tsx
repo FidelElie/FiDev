@@ -47,6 +47,26 @@ const fetchCorrespondingAlbumPost = (spotifyId: string) => {
 	return post || null;
 }
 
+const constructPopulatedLinkText = (
+	config: {
+		text: string;
+		post: MusicPostSchema;
+		showArtist: boolean;
+		showAlbum: boolean;
+	}
+) => {
+	const { text, post, showArtist, showAlbum } = config;
+	const [firstArtist] = post.artists;
+
+	const showAlbumInfo = showAlbum || showArtist;
+
+	return [
+		text,
+		showAlbumInfo ? `on the album ${post.name}` : [],
+		showArtist ? `(${firstArtist.name})` : []
+	].flat().join(" ");
+}
+
 const FallbackLink = (props: { href: string; text: string; }) => {
 	return (
 		`
@@ -123,14 +143,14 @@ export const AlbumDirective = createRegExpDirective({
  * Directive for creating a music track post link
  */
 export const TrackDirective = createRegExpDirective({
-	identifier: /:track\[(.*?)\]\[(.*?)\]/g,
+	identifier: /:track\[(.*?)\]\[(.*?)\](?:\[(.*?)\])?/gs,
 	onMatch: (match) => {
-		const [id, text] = match.slice(1);
+		const [id, text, modifiers] = match.slice(1);
 
-		return { id, text }
+		return { id, text, modifiers }
 	},
 	getHTML: (result) => {
-		const { id,  text } = result;
+		const { id, text, modifiers = "" } = result;
 
 		const post = fetchCorrespondingPostBySpotifyId(id);
 
@@ -140,9 +160,12 @@ export const TrackDirective = createRegExpDirective({
 
 			if (!correspondingAlbumPost) { return FallbackLink({ href: constructedLink, text }); }
 
-			const [firstArtist] = correspondingAlbumPost.artists;
-
-			const linkText = `${text} on the album ${correspondingAlbumPost.name} (${firstArtist.name})`
+			const linkText = constructPopulatedLinkText({
+				text,
+				post: correspondingAlbumPost,
+				showAlbum: !!modifiers?.includes("album"),
+				showArtist: !!modifiers?.includes("artist")
+			})
 
 			return FallbackLink({ href: constructedLink, text: linkText });
 		}
@@ -153,14 +176,14 @@ export const TrackDirective = createRegExpDirective({
 
 /** Generic Directive for creating music post links - must specify post type */
 export const MusicDirective = createRegExpDirective({
-	identifier: /:music\[(.*?)\]\[(.*?)\]\[(.*?)\]/g,
+	identifier: /:music\[(.*?)\]\[(.*?)\]\[(.*?)\](?:\[(.*?)\])?/gs,
 	onMatch: (match) => {
-		const [id, type, text] = match.slice(1);
+		const [id, type, text, modifiers] = match.slice(1);
 
-		return { id, type: type?.toLowerCase(), text }
+		return { id, type: type?.toLowerCase(), text, modifiers }
 	},
 	getHTML: (result) => {
-		const { id, type, text } = result;
+		const { id, type, text, modifiers } = result;
 
 		const post = fetchCorrespondingPostBySpotifyId(id);
 
@@ -172,9 +195,12 @@ export const MusicDirective = createRegExpDirective({
 
 				if (!correspondingAlbumPost) { return FallbackLink({ href: constructedLink, text }); }
 
-				const [firstArtist] = correspondingAlbumPost.artists;
-
-				const linkText = `${text} on the album ${correspondingAlbumPost.name} (${firstArtist.name})`
+				const linkText = constructPopulatedLinkText({
+					text,
+					post: correspondingAlbumPost,
+					showAlbum: !!modifiers?.includes("album"),
+					showArtist: !!modifiers?.includes("artist")
+				});
 
 				return FallbackLink({ href: constructedLink, text: linkText });
 			}
@@ -203,7 +229,7 @@ const LyricQuote = (props: {
 					<div class="flex flex-col">
 						<hr class="border-t border-slate-200 mt-2 mb-1.5"/>
 						<span>
-							Taken from ${id ? TrackDirective.getHTML({ id, text }) : text}
+							From ${id ? TrackDirective.getHTML({ id, text, modifiers: "album" }) : text}
 						</span>
 						${remark ? `<span class="text-sm font-light mt-2 ml-2">${remark}</span>` : ""}
 					</div>
