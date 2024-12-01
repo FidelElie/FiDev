@@ -32,8 +32,12 @@ export const VideoDirective = createRegExpDirective({
 						${loop ? "loop" : ""}
 					>
 					</video>
-					<hr class="border-slate-200 w-full border-t mt-5 mb-2"/>
-					${caption && `<figcaption class="font-heading">- ${caption}</figcaption>`}
+					${
+						!!caption ? `
+							<hr class="border-slate-200 w-full border-t mt-5 mb-2"/>
+							<figcaption class="font-heading">- ${caption}</figcaption>
+						` : ""
+					}
 				</figure>
 			`
 		)
@@ -65,8 +69,14 @@ export const ImageDirective = createRegExpDirective({
 						${lazy ? "loading=\"lazy\"" : ""}
 					>
 					</img>
-					<hr class="border-slate-200 w-full border-t mt-5 mb-2"/>
-					${caption && `<figcaption class="font-heading">${caption}</figcaption>`}
+					${
+						!!caption ? (
+							`
+								<hr class="border-slate-200 w-full border-t mt-5 mb-2"/>
+								<figcaption class="font-heading">- ${caption}</figcaption>
+							`
+						) : ""
+					}
 				</figure>
 			`
 		)
