@@ -20,14 +20,7 @@ to the left resulting in a banger - but I digress. This all culminated in what y
 below a website that I put together using Wordpress.org to talk about music, computers and the
 games that I managed to play.
 
-<figure>
-	<video src="/videos/timemachine-home.mp4" class="w-full md:w-3/4" controls loading="lazy">
-	</video>
-	<hr class="border-slate-200 w-full border-t mt-5 mb-2"/>
-	<figcaption class="font-heading">
-		- A trip down memory lane - Wordpress in all of its glory.
-  	</figcaption>
-</figure>
+:video[/videos/timemachine-home.mp4][autoplay,lazy,loop,controls][A trip down memory lane - Wordpress in all of its glory.]
 
 Almost a whole year of what I liked to call Music Weekly followed - a series of posts where
 I would talk about the music I had listened to in the period between the writing. This was definitely
@@ -43,8 +36,8 @@ In all the iterations that I have up until this point: two different types of dy
 how I wanted to write any kind of content going forward was a struggle. It was remembering how much I loved writing about
 music that spurred the current version of the website. I found myself trying to unearth the old website
 and all the old posts that it had on it to see what I did. This brought me to the [Wayback machine](https://web.archive.org/),
-an amazing website that allows you to peer into the past of the internet where snapshots of site have hopefully been taken and stored.
-Luckily it captured some of the old relic that was https://fiddytt.com.
+an amazing website that allows you to peer into the past of the internet where snapshots of site
+have hopefully been taken and stored. Luckily it captured some of the old relic that was https://fiddytt.com.
 
 Peering back into what was a skeleton of the old site - images are missing in places but the general
 functionality that you saw in the video above was still there - allowed me to focus the scope of
@@ -66,18 +59,15 @@ what I put into making this project a reality but I think the video below can at
 I solved the second point - something that spurred much of the development of this project up to its
 release.
 
-<figure>
-	<video src="/videos/post-flow.mp4" class="w-full md:w-3/4" controls loading="lazy">
-	</video>
-	<hr class="border-slate-200 w-full border-t mt-5 mb-2"/>
-	<figcaption class="font-heading">
-		- The new flow allows me to communicate directly with spotify to get all the information for a post name, name of artist, cover art you name it - all from a script kiddy terminal.
-  	</figcaption>
-</figure>
+:video[/videos/post-flow.mp4][autoplay,lazy,loop,controls][
+	The new flow allows me to communicate directly with spotify to get all the information
+	for a post name, name of artist, cover art you name it - all from a script kiddy
+	terminal.
+]
 
 The flow above is a game changer, I keep the content close to the code and it gives me the power
 to create posts very quickly for any music I want to talk about. It made migrating all the older
-posts I found on the note taking apps a breeze and creating the post :track[4MjDJD8cW7iVeWInc2Bdyj:Bad Bunny - Monaco]
+posts I found on the note taking apps a breeze and creating the post :track[4MjDJD8cW7iVeWInc2Bdyj][Bad Bunny - Monaco]
 that marked my return to music writing couldn't have been easier.
 
 ### Conclusion
