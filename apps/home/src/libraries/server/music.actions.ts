@@ -138,7 +138,9 @@ export const fetchMusicGenres = async (request: Request) => {
 		}
 
 		return genre.includes(search) ? genre : [];
-	}).flat();
+	}).flat().toSorted(
+		(genreA, genreB) => genreA.localeCompare(genreB)
+	);
 
 	const result = paginateEntries(genres, {
 		page,
