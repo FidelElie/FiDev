@@ -1,10 +1,11 @@
 ---
 import { fetchMusicGenres } from "@/libraries/server";
 
-import { Container } from "@/components/core";
-import { MusicSearchOptions } from "@/components/interfaces";
-import { MusicGenreView } from "@/components/pages/music/genres/MusicGenreView";
 import { RootLayout } from "@/pages/_root.layout";
+
+import { Container } from "@/components/core";
+import { HeadingSection, MusicSearchOptions } from "@/components/interfaces";
+import { MusicGenreView } from "@/components/pages/music/genres/MusicGenreView";
 
 const request = new Request(
 	`${Astro.request.url}?page=1&size=${Number.MAX_SAFE_INTEGER}`,
@@ -13,12 +14,7 @@ const genres = await fetchMusicGenres(request);
 ---
 <RootLayout title="Music genres" class="flex flex-col min-h-screen space-y-2  pt-8 pb-20">
 	<Container class="space-y-2">
-		<div class="flex flex-col space-y-1">
-			<h1 class="font-heading text-5xl tracking-tighter">genres</h1>
-			<h2 class="text-lg font-light tracking-tight text-blue-500">
-				Find posts based on the sound you like.
-			</h2>
-		</div>
+		<HeadingSection title="Genres" subtitle="Find posts based on the sound you like."/>
 		<MusicSearchOptions options={["posts", "artists"]}/>
 	</Container>
 	<div class="astro:flex-grow astro:block astro:w-full">

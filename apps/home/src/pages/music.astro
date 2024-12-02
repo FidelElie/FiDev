@@ -2,10 +2,11 @@
 import { astroMeta } from "@/libraries/utilities";
 import { fetchMusicGenres, fetchMusicProjects } from "@/libraries/server";
 
-import { Container } from "@/components/core";
-import { MusicSearchOptions } from "@/components/interfaces";
-import { MusicProjectsView } from "@/components/pages/music/index/MusicProjectsView";
 import { RootLayout } from "@/pages/_root.layout";
+
+import { Container } from "@/components/core";
+import { HeadingSection, MusicSearchOptions } from "@/components/interfaces";
+import { MusicProjectsView } from "@/components/pages/music/index/MusicProjectsView";
 
 const meta = astroMeta({
 	title: "Music",
@@ -20,14 +21,7 @@ const [initialProjects, genres] = await Promise.all([
 ---
 <RootLayout {...meta}>
 	<Container class="min-h-screen space-y-2 flex flex-col">
-		<div class="flex flex-col justify-between gap-2">
-			<div class="flex flex-col space-y-1">
-				<h1 class="font-heading text-5xl tracking-tighter">{meta.title.toLowerCase()}</h1>
-				<h2 class="text-lg font-light font-heading tracking-tight text-blue-500">
-					Find something new to listen to
-				</h2>
-			</div>
-		</div>
+		<HeadingSection title={meta.title} subtitle="Find something new to listen to"/>
 		<MusicSearchOptions options={["artists", "genres"]}/>
 		<div class="flex flex-grow astro:flex-grow astro:block astro:w-full">
 			<MusicProjectsView

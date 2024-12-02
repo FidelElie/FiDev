@@ -1,17 +1,13 @@
 ---
 import { Container } from "@/components/core";
+import { HeadingSection } from "@/components/interfaces";
 import { SearchPane } from "@/components/pages/search/SearchPane";
 import { RootLayout } from "@/pages/_root.layout";
 ---
 <RootLayout title="Search">
 	<Container class="pt-8 pb-32 min-h-screen space-y-5 flex flex-col">
 		<div class="flex flex-col justify-between gap-5">
-			<div class="flex flex-col space-y-1">
-				<h1 class="font-heading text-5xl tracking-tighter">search</h1>
-				<h2 class="text-lg font-light font-heading tracking-tight text-blue-500">
-					Find something that interests you
-				</h2>
-			</div>
+			<HeadingSection title="Search" subtitle="Find something that interests you"/>
 			<div>
 				<SearchPane client:only="solid">
 					<div slot="fallback" class="bg-slate-200 rounded-lg h-16 w-full animate-pulse"/>
