@@ -111,7 +111,7 @@ const PostEntry = (props: { post: MusicPostSchema }) => {
 					style="view-transition-name:${slug};"
 				/>
 				<span
-					class="relative top-2 text-sm underline decoration-blue-500 font-heading"
+					class="relative top-2 underline decoration-blue-500 underline-offset-2 font-heading"
 				>
 					${artist.name} - ${name}
 				</span>

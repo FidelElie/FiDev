@@ -12,8 +12,8 @@ const request = new Request(
 );
 const genres = await fetchMusicGenres(request);
 ---
-<RootLayout title="Music genres" class="flex flex-col min-h-screen space-y-2  pt-8 pb-20">
-	<Container class="space-y-2">
+<RootLayout title="Music genres" class="flex flex-col min-h-screen gap-3">
+	<Container class="space-y-3">
 		<HeadingSection title="Genres" subtitle="Find posts based on the sound you like."/>
 		<MusicSearchOptions options={["posts", "artists"]}/>
 	</Container>

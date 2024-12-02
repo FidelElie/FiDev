@@ -6,6 +6,8 @@ import { queryParams } from "@/libraries/utilities";
 import { createKitClient } from "@/libraries/clients";
 import { SearchWebsiteRoute, SubscribeToWebsiteRoute } from "@/libraries/api";
 import { MusicPostMetadata } from "../constants";
+import { compileOutputWithPlugins } from "../plugins";
+import { convert } from "html-to-text";
 
 export const searchWebsiteAction = async (request: Request) => {
 	const { dtos, responses } = SearchWebsiteRoute;
@@ -45,12 +47,20 @@ export const searchWebsiteAction = async (request: Request) => {
 		}),
 	]);
 
+	const musicPosts = await Promise.all(
+		musicResult.slice(0, 5).map(async (entry) => {
+			const preview = await compileOutputWithPlugins(entry.body);
+
+			return {
+				...entry.data,
+				slug: entry.slug,
+			preview: convert(String(preview))
+			}
+		})
+	);
+
 	const searchResults = {
-		music: musicResult.slice(0, 5).map((entry) => ({
-			...entry.data,
-			slug: entry.slug,
-			preview: entry.body.slice(0, 150),
-		})),
+		music: musicPosts,
 		artists: artistsResult.slice(0, 6).map((entry) => entry.data),
 	};
 

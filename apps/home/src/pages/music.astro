@@ -20,7 +20,7 @@ const [initialProjects, genres] = await Promise.all([
 ]);
 ---
 <RootLayout {...meta}>
-	<Container class="min-h-screen space-y-2 flex flex-col">
+	<Container class="min-h-screen flex flex-col gap-3">
 		<HeadingSection title={meta.title} subtitle="Find something new to listen to"/>
 		<MusicSearchOptions options={["artists", "genres"]}/>
 		<div class="flex flex-grow astro:flex-grow astro:block astro:w-full">

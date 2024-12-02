@@ -2,12 +2,18 @@
 import { Container } from "@/components/core";
 import { HeadingSection } from "@/components/interfaces";
 import { SearchPane } from "@/components/pages/search/SearchPane";
+import { astroMeta } from "@/libraries/utilities";
 import { RootLayout } from "@/pages/_root.layout";
+
+const meta = astroMeta({
+	title: "Search",
+	description: "Find something that interests you with the site-wide search",
+});
 ---
-<RootLayout title="Search">
-	<Container class="pt-8 pb-32 min-h-screen space-y-5 flex flex-col">
+<RootLayout {...meta}>
+	<Container class="min-h-screen flex flex-col">
 		<div class="flex flex-col justify-between gap-5">
-			<HeadingSection title="Search" subtitle="Find something that interests you"/>
+			<HeadingSection title={meta.title} subtitle="Find something that interests you"/>
 			<div>
 				<SearchPane client:only="solid">
 					<div slot="fallback" class="bg-slate-200 rounded-lg h-16 w-full animate-pulse"/>

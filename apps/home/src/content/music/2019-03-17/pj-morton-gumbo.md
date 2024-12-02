@@ -86,7 +86,7 @@ back then. This album is awesome. It has the right amount of features on it, it 
 long, the songs flow perfectly and they sound great too.
 
 Admittedly, my change of heart can also be credited to listening to the live rendition of
-the album (check it out below). But, the studio version definitely holds its own and I am
-happy that I gave it a chance again.
+the album: :album[6au0qzMOjqEgc79ntU2bf6][Gumbo Unplugged] (video is linked below). But, the
+studio version definitely holds its own and I am happy that I gave it a chance again.
 
 :youtube[RGfHMcWdK7Y]

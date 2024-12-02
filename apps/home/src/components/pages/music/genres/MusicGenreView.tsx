@@ -140,7 +140,7 @@ export const MusicGenreView = (props: MusicGenreViewProps) => {
 					</div>
 				</div>
 			</Container>
-			<div class="flex flex-wrap gap-x-3 gap-y-5 px-5 justify-center md:px-16 flex-grow">
+			<div class="gap-2 flex flex-wrap  px-5 justify-center flex-grow md:gap-x-3 md:gap-y-5 md:px-16 ">
 				<For
 					each={filteredGenres()}
 					fallback={

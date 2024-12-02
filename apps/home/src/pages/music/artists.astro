@@ -13,13 +13,13 @@ const [initialArtists, genres] = await Promise.all([
 ]);
 ---
 <RootLayout title="Music artists">
-	<Container class="min-h-screen flex flex-col">
+	<Container class="min-h-screen flex flex-col gap-3">
 		<HeadingSection
 			title="Artists"
 			subtitle="Search for music through the people behind the projects"
 		/>
 		<MusicSearchOptions options={["posts", "genres"]}/>
-		<div class="flex flex-grow astro:flex-grow astro:block mt-5">
+		<div class="flex flex-grow astro:flex-grow astro:block">
 			<MusicArtistsView
 				initial={[initialArtists]}
 				genres={genres.items}

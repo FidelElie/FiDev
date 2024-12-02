@@ -10,17 +10,10 @@ import sitemap from "@astrojs/sitemap";
 import vercel from "@astrojs/vercel/serverless";
 
 import {
-    AlbumDirective,
-    FutureCommentDirective,
-    ImageDirective,
-    LinkDirective,
-    LyricsDirective,
-    MusicDirective,
-    remarkRegExpDirective,
-    TrackDirective,
-    VideoDirective,
-    YoutubeEmbedDirective,
+    rehypePlugins
 } from "./src/libraries/plugins";
+
+import compressor from "astro-compressor";
 
 const { PORT, FLAGS, SITE } = loadEnv(process.env.NODE_ENV || "", process.cwd(), "");
 
@@ -36,6 +29,7 @@ export default defineConfig({
       tailwind({ applyBaseStyles: true }),
       solidJs({ devtools: !!FLAGS?.includes("DEVTOOLS") }),
       sitemap(),
+      compressor()
     ],
 
     image: {
@@ -47,22 +41,7 @@ export default defineConfig({
     },
 
     markdown: {
-        rehypePlugins: [
-            [
-                remarkRegExpDirective,
-                [
-                    YoutubeEmbedDirective,
-                    MusicDirective,
-                    AlbumDirective,
-                    TrackDirective,
-                    LyricsDirective,
-                    VideoDirective,
-                    ImageDirective,
-                    LinkDirective,
-                    FutureCommentDirective,
-                ],
-            ],
-        ],
+        rehypePlugins
     },
 
     adapter: vercel(),
