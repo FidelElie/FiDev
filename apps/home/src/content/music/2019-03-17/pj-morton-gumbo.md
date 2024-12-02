@@ -89,4 +89,4 @@ Admittedly, my change of heart can also be credited to listening to the live ren
 the album (check it out below). But, the studio version definitely holds its own and I am
 happy that I gave it a chance again.
 
-:youtube[RGfHMcWdK7Y&pp]
+:youtube[RGfHMcWdK7Y]
