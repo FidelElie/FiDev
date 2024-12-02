@@ -85,10 +85,10 @@ date: '2018-03-31T00:00:00.000Z'
 It's great to hear some new R&B, especially when it is this good. He follows a sound that I
 think the new age R&B artists do so well. It makes a lot of sense to me that SiR and Ty feature
 on this album because their styles mesh so well with the project's great production and vocals.
-It is also like he paying homage to the artist who feature on the album as each of the songs
-have elements that fit with each artist. The jumpy nature of Fuck Y'all, that has SiR
-written all over it. Or the song Take fitting Ty's vocals perfectly.  And YG's raps in the
-heavier We Ain't Homies,  there is so much to love about this album. It also doesn't need
+It is also like he is paying homage to the artists who feature on the album as each of the songs
+have elements that fit with each of them. The jumpy nature of :track[7jTm4BcO2OSHwU6nP4yrzr][Fuck Y'all], that has SiR
+written all over it. Or the song :track[5OGs816LFBGj0qS0jY68hL][Take] fitting Ty's vocals perfectly. And YG's raps in the
+heavier :track[6uD44CEBKXCQfh953npNkx][We Ain't Homies], there is so much to love about this album. It also doesn't need
 these features to shine either, his voice will carry you through . Shout outs to Dre for
 putting me on to this, couldn't recommend this enough. Give it a listen when you have the
 chance.

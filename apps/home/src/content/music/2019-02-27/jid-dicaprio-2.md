@@ -85,12 +85,12 @@ tracks:
     favourite: false
 date: '2019-02-27T00:00:00.000Z'
 ---
-I feel like it has been a very good year for Dreamville, with Bas and Cole releasing some
-solid albums respectively. But they weren't the stand outs from the collective, no that
-accolade definitely must go to JID with one of the best rap albums of the year. It was
-pretty much fire throughout the project, great production,fire bars, a tasteful amount of
-features with great contributions from the likes of 6-lack, Joey and Cole. And let us not
-forget some masterful performances from JID that put him easily in the top 10 of MCs. The
-album is a joy to listen to. Hopefully this will start a friendly rivalry with TDE, I just
-want the fire and collaborations to keep coming.
+I feel like it has been a very good year for Dreamville, with Bas' :album[6sDQacCej53Q43vZF9PJ8i][Milky Way] and Cole's :album[4Wv5UAieM1LDEYVq5WmqDd][KOD]
+releasing some solid albums respectively. But they weren't the stand outs from the
+collective. No that accolade must go to JID with one of the best rap albums of the year.
+
+It was pretty much fire throughout the project, great production, fire bars, a tasteful amount of features with great contributions from the likes of 6-lack (6lack), Joey and Cole. And let
+us not forget some masterful performances from JID that put him easily in the top 10 of MCs.
+The album is a joy to listen to. Hopefully this will start a friendly rivalry with TDE, I just
+want the music and collaborations to keep coming.
 

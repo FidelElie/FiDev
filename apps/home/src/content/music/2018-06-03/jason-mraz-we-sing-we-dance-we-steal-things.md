@@ -80,12 +80,22 @@ date: '2018-06-03T00:00:00.000Z'
 
 I think pretty much everyone of a certain age knows the song I'm yours by Mr Mraz. And deep
 into a hole of revision I decided to go and listen to the album that contained it. I was
-pleasantly surprised. What I expected to be a plethora of generic pop songs but instead it
+pleasantly surprised. What I expected to be a plethora of generic pop songs, instead
 contained many horns and instruments more in tune with the wonderful world of jazz. However,
-small this influence may be I have to hand in to Jason, he can put together some good songs
+small this influence may be I have to hand it to Jason, he can put together some good songs
 and this is this album in a nut shell. The album is long and this is not necessarily a good
-thing as I don't think that all the songs in its entirety have the same strength as this on
-born sinner do. But if your looking for something feel good, from the guy who made some
+thing as I don't think that all the songs in its entirety have the same strength as some albums
+achieve. But if you're looking for something feel good, from the guy who made some
 serious childhood anthems, then I don't see why you wouldn't give this a listen, there is
 something to like on it.
 
+:lyrics[
+  Well I don't wanna wait no more
+  Oh I wanna celebrate the whole world
+  I'm gonna make it mine
+  Oh yes I'm following your joy
+][
+  Make it Mine:6UdhIn5jito25nOYZ5jWlA
+][
+  It is an amazing start to the album
+]

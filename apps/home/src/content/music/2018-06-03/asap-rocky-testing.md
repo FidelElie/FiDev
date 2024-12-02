@@ -100,19 +100,25 @@ in my skull.
 Also the biggest problem with the project is that it lacks the quotables that makes Rocky
 a serious rapper. When you have bars like:
 
-> This year, I turned into a racist,
-> All i want to see is green faces,
-> All I want to count is green numbers,
-> That shit is weird looking like the matrix,
--Taken from Electric Body (feat. Schoolboy Q)
+:lyrics[
+  This year, I turned into a racist,
+  All i want to see is green faces,
+  All I want to count is green numbers,
+  That shit is weird looking like the matrix,
+][
+  Electric Body (feat. Schoolboy Q):6br4Pc0BzU6dTD5fEmks2i
+]
 
 When compared to some of what I heard on this album some of it wasn't even comprehensible
 or don't even make sense:
 
-> Homeboy you ain't know (ends where they buck shot)
-> Had a bitch suckin' on a lollipop at the bus stop
-> Green Glock, Red Glock (buck shot) ??????????
--Taken from Buck Shot - TESTING
+:lyrics[
+  Homeboy you ain't know (ends where they buck shot)
+  Had a bitch suckin' on a lollipop at the bus stop
+  Green Glock, Red Glock (buck shot) ??????????
+][
+  Buck Shots:6ImrWnhjEOw5re3cGLMIHJ
+]
 
 Glocks do not shoot buck shots!!!! Like what is this bar talking about? This is part of the
 problem with this album. I have no problem with swag rapping, which I usually hold the A$AP

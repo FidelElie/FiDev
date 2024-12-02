@@ -32,8 +32,8 @@ genres:
 type: TRACK
 date: '2018-03-25T00:00:00.000Z'
 ---
-The Feel Good King enlisted Miss Kehlani to bring a nice song all in all. The best was not
+The Feel Good King enlisted Miss Kehlani to bring a nice song all in all. The beat was not
 very noteworthy to me but I do like the chemistry that the two artists show in the vocals.
-I've always liked Kehlani's voice and some of her music (Cloud 19 is great) and KYLE's Smyle
-is one of the most positive albums probably ever created. They go well together and this
-song shows that. Solid song, bring on more tunes.
+I've always liked Kehlani's voice and some of her music (:album[0Z4zmV6ITJ6PUjCmAsHxdE][Cloud 19]
+is great) and KYLE's :album[7ramtTKrOVLzbPjzGbSJgr][Smyle] is one of the most positive albums probably ever created. They
+go well together and this song shows that. Solid song, bring on more tunes.

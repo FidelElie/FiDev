@@ -51,7 +51,7 @@ lyricism is as poetic as before and the production of the project are a great ma
 theme of the songs are also very refreshing as it strays from the usual rap stuff with bitches
 and money and even falling in love to more of the struggles of it all. It has been done before
 but I don't hear it all that often in rap so that is a plus. And I know some of you might
-be saying "Fiddy this isn't R&B  this is rap", well yes he is rapping by their is so many
+be saying "Fiddy this isn't R&B, this is rap", well yes he is rapping by their is so many
 undertones that scream R&B to me. The super smooth beats, the vocals that Jaquees provides,
 Wale's flow and the lyrics just scream someone tearing their vest in the rain. I'm going to
 be bumping these songs for a while to come and hopefully Wale brings this degree of heat in

@@ -77,7 +77,8 @@ other elements that add to the unique experience. These themes do continue with 
 outing, There Is No Threat and I may not like it as much as the last but that doesn't mean
 it is not solid. I think I liked how conceptual Vice City was and this led to songs that
 told more of a story then what is on this one. From this point I would compare this project
-more to his EP Urameshi than Vice as this album is a lot more hype.
+more to his EP :album[73Emr5g9BS6V3vscTiSZd4][Urameshi] than
+:album[7N2iWgJi8f2lFPgmGWxmkN][Vice City] as this album is a lot more hype.
 
 The aggression in the production and the delivery is insane. Many of the songs is a one way
 trip to getting gassed. And don't get me wrong there are songs that mix it up to. I would

@@ -87,6 +87,10 @@ his name. It wasn't until my flatmate put me onto Rich Brian's new project that 
 it a listen. And it isn't bad just nothing to write home about. I do like some of his bars
 though like:
 
-> On your pill, everyday I just be sippn' Chamomile - because who doesn't love sipping on
-> some tea?
-- From Attention featuring Offset - Amen
+:lyrics[
+  On your pill, every day I just be sippin' Chamomile
+][
+  Attention (feat. Offset):4gAakyurZ4cbgnPyTuswp7
+][
+  Because who doesn't love sipping on some tea?
+]

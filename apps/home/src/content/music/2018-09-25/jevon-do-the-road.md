@@ -36,11 +36,24 @@ that his life entailed.
 
 The visuals for this song, I think have set a standard for what hood videos should be like
 these days. More about the artistry then someone just rapping with all the gang standing
-behind them throwing up gang signs. I find myself going out of my way to go to YouTube at
+behind them throwing up hands. I find myself going out of my way to go to YouTube at
 times to listen to the song there. And finally the it all culminates in making me feel like
 I want to do the road.
 
-So listen to this tune, on your favourite streaming service or YouTube - the YouTube version
+:lyrics[
+  They don't wanna aim for my head
+  Don't let me take your respect
+  I'll take your crown with your head still attached
+  Then wear it as a chain on my neck
+][
+  Do The Road
+][
+  How do you not get gassed to something like this?
+]
+
+So listen to this tune, on your favourite streaming service or YouTube. The YouTube version
 is extended - and worth a separate listen entirely. Jevon is doing it for Londoners everywhere.
 
 :youtube[fGuihyA8X34]
+
+:future-comment[Rest in peace, you will are greatly missed.][2024-12-01]

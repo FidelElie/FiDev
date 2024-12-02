@@ -72,10 +72,10 @@ tracks:
     favourite: false
 date: '2018-02-11T00:00:00.000Z'
 ---
-Firstly, I really like Rae Morris' voice ever since I heard her feature on Rejjie Snow's
-Blackst Skn - which I absolutely love by the way. So I decided to give her album a listen
-and although my love for her vocals still remains, I wasn't the biggest fan of the music.
-The album overall had me wondering where the structure was as I couldn't really tell. And
-with only one stand out song to me after a few blind listens, this project is just not for
-me. I might go back and see what her earlier sound is like but this album is taking a
-backseat for now.
+Firstly, I really like Rae Morris' voice ever since I heard her feature on
+:track[2Po4jzwwT1Kaz0xp7Ejojf][Rejjie Snow's Blackst Skn] - which I absolutely love by the
+way. So I decided to give her album a listen and although my love for her vocals still remains,
+I wasn't the biggest fan of the music. The album overall had me wondering where the structure
+was as I couldn't really tell. And with only one stand out song to me after a few blind listens,
+this project is just not for me. I might go back and see what her earlier sound is like but
+this album is taking a backseat for now.

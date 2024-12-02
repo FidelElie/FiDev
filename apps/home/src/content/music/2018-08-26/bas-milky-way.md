@@ -88,25 +88,29 @@ date: '2018-08-26T00:00:00.000Z'
 
 To a surprise to me and what seems like a lot of people on the internet. The Dreamville member
 Bas, dropped an album this week and after hearing the song he released earlier on in the week.
-*Tribe* with Cole I was very excited to see what Bas's third studio album of would bring,
-as the last two were fire. And after the many listens I have given it over the past two days,
-I like it. It grows on me with every subsequent listen. When I spoke to Carlos before the
-album he did point out that the *Tribe* by nature does sound like a J.Cole song. With both
-artists adopting the same *KOD* flow throughout the song. But this does not show though the
-rest of the album.
+:track[0YAQnYt2oB8OdoaeqnHyTI][Tribe] with Cole I was very excited to see what Bas's third studio
+album would bring, as the last two were fire. And after the many listens I have given it over
+the past two days, I like it. It grows on me with every subsequent listen. When I spoke
+to Carlos before the album he did point out that the Tribe by nature does sound like a
+J.Cole song. With both artists adopting the same :album[4Wv5UAieM1LDEYVq5WmqDd][KOD] flow
+throughout the song. But this does not show through the rest of the album.
 
 Bas' signature style shines through again in this project with some great production,
-vocals and raps. And although this is not as good as *Last Winter* or *Too High To Riot*
-it still pretty good in it's own right. I find it that Bas is very unappreciated by him
-being the shadow of juggernaut like Cole. With disrespectful shit being said on their
-YouTube videos about how Cole is the only reasons to listen to the songs they are both on.
-But he is a standout artist in his own right, I love the style he brings to his raps,
-the flow is smooth and always easy to follow. He has great bars. And is fucking consistent
-and this album proves this even further. Blast off and enjoy Milky Way I sure as hell did.
+vocals and raps. And although this is not as good as :album[3bxF0xpQlgbJZDMP4XRRuF][Last Winter]
+or :album[3bxF0xpQlgbJZDMP4XRRuF][Too High To Riot] it still pretty good in it's own right.
+I find it that Bas is very unappreciated by him being the shadow of juggernaut like Cole.
+With disrespectful shit being said on their YouTube videos about how Cole is the only reasons
+to listen to the songs they are both on. But he is a standout artist in his own right,
+I love the style he brings to his raps, the flow is smooth and always easy to follow.
+He has great bars. And is fucking consistent and this album proves this even further.
+Blast off and enjoy Milky Way, I sure as hell did.
 
-> Whatever last, smoke buddah, make more Gouda cheese
-> My whip European but the kid Sudanese
-> Got a Laundry list of niggas with the list of they needs.
-- Taken from Barack Obama Special
+:lyrics[
+  Whatever last, smoke buddah, make more Gouda cheese
+  My whip European but the kid Sudanese
+  Got a Laundry list of niggas with the list of they needs.
+][
+  Barack Obama Special:6ypfqRdhGKVM2rloD5oXmU
+]
 
 :youtube[OA8aw07dpg0]

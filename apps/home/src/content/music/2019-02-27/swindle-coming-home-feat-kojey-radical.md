@@ -28,11 +28,12 @@ genres:
 type: TRACK
 date: '2019-02-27T00:00:00.000Z'
 ---
-This song makes me want to go home, just so I can listen to it in its context. I got to hear
+Following on from the Kojey feature with :track[37ZLnF6SYHTrWJbzvUlQJv][One Night Only], this
+song makes me want to go home, just so I can listen to it in its context. I got to hear
 this live at Kojey's concert and I did not know what this song was then. But it was amazing
-then and it is definitely now. This is the first song I know of that I have experienced Swindle's
-production and in this song it is stellar. The horns (God I love horns) and the really distinct
-percussion are ridiculously good. Kojey, kills the song too with his raps as well as the vocals
+then and nothing changed with the studio version. This is the first song I know of that I have
+experienced Swindle's production and it is stellar. The horns (God I love horns) and the really distinct
+percussion are amazing. Kojey, kills the song too with his raps as well as the vocals
 for the hook. The song almost forces me to sing along, even in situation where this is not
 permitted (Do you guys think people would mind, if I burst into song in the library? Probably).
 This song has been on repeat ever since I managed to find it on Spotify, give it a listen whether

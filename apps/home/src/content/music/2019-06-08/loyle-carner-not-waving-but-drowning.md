@@ -88,13 +88,14 @@ tracks:
 date: '2019-06-08T00:00:00.000Z'
 ---
 I wanted to like this album, funnily enough initially I didn't even like the previous album
-Yesterday's Gone but I grew to absolutely love it. With me approaching multiple listens of
-this album however I have got say, I am disappointed. Not that the songs are bad, I feel
-that some are boring and the others are okay at best. The only song I can say that I have
-had on repeat is Ice Water and this is the only song that I liked on the album that was
-not previously released as a single.
+:album[6wjryxtrKxzTZID9kyZUV5][Yesterday's Gone] but I grew to absolutely love it. With me
+approaching multiple listens of this album however I have got say, I am disappointed. Not
+that the songs are bad, I feel that some are boring and the others are okay at best. The
+only song I can say that I have had on repeat is Ice Water and this is the only song that
+I liked on the album that was not previously released as a single.
 
 I'm honestly a bit bent out of shape about this project, it is so meh to me that it is almost
 offensive. It is not trash, I just expect so much from Loyle that maybe my expectation were
 too high. I am employ you to listen for yourself and tell me if I am talking shit, maybe
-then I'll give it to a listen again. Until then you can find me on the Isle Of Arran.
+then I'll give it to a listen again. Until then you can find me on
+:track[2YQ1cc9xWnp5qI08rKt6wv][Isle Of Arran].

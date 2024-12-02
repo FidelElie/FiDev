@@ -36,11 +36,11 @@ happened to stumble onto Joey’s Spotify page and I was waiting for it to drop 
 Almost a a whole 10 months since I got to hear it for the first time at his gig last October
 
 The song still has the great “Pull Up” feel to it. It gets me gassed hearing the hook and
-Joey’s bits but I think overall it heard the magic that I heard that night. It was an amazing
+Joey’s bits but I think overall it lost the magic that I heard that night. It was an amazing
 night all things considered. But Ferg’s contribution to the song, although not terrible,
 does hurt the song overall as it is just alright.
 
 This results in a song that could be better and maybe it was the power of the live performance
-or the power of the night but I was feeling this song a lot more 10 months ago. It is still
-cool though, my gassed playlist has got a new member, but I’m kinda wish I got to recording
-at this point back in October.
+or the power of the night but I was feeling it a lot more 10 months ago. It is still
+cool though, my gassed playlist has got a new member, but I’m kinda wish I got a recording
+last October.

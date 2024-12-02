@@ -101,3 +101,22 @@ the beats hit hard and I to me they still had that flavor that you could be like
 has J. Cole written all over it". He hadn't carved out his niche fully yet, but I don't think
 Born sinner was the beginning either, this was. This is definitely one of the greats but I
 will have a lot more to say about this later.
+
+:lyrics[
+  Up in first class, laugh even though it's not funny
+  See a white man wonder how the fuck I got money
+  While he sit at coach, hate to see me walk past
+  Young black pants sag, headphones blastin'
+  Know what he askin', "How did he manage?"
+  "With all the cards against him, he used them to his advantage!"
+][
+  Sideline Story:5pIn0ZiclQOMzoFUlgDY0f
+]
+
+:future-comment[
+  Turns out I don't have much more to say about this, I love this album it's not his best
+  but one of my favourites - leave it alone Dre. I still go back and watch the extended
+  video of sideline story on Youtube (put it below for your enjoyment)
+][2024-11-26]
+
+:youtube[_h82Y-9GMJ8]

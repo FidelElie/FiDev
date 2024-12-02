@@ -33,10 +33,8 @@ himself. I'm just a massive fan of his work.
 
 Him (Greyworm in Game of Thrones) and Childish Gambino. (Troy in Community, because yeah
 I've been listening to him for ages, way before Because the Internet came out. Sorry had
-to be one of those fans for a moment). To me they are the perfect examples that good can
+to be one of those fans for a moment). To me, they are the perfect examples that good can
 come out of watching a TV show other than laughs, drama or suspense. I found an artist
 who hasn't done any wrong in my eyes when it comes Raleigh, he makes the music he feels
-like making and it bangs. How can I be against that? Now I'm just waiting for the next
+like making and it shows. How can I be against that? Now I'm just waiting for the next
 album to drop....
-
-

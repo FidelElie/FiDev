@@ -28,20 +28,25 @@ genres:
 type: TRACK
 date: '2018-08-26T00:00:00.000Z'
 ---
-Admittedly I have never got into Erykah Badu. I have blind listened to Baduizm and wasn't
-completely drawn to it upon first listen. But after *Olivia* showed me here tiny desk
-performance I was immediately drawn to the last song. What a great song. It has some
-great vocals from Erykah and the instrumentation throughout the song being standout. The
-brass section on it is both subtle but a powerful edition to the song. It another long song,
-like last week's songs of note (check it out *here*). The piano, the horns, the subject
-matter... The song is about jealousy which I think is very smart by how it is portrayed
-through the song.
+Admittedly I have never got into Erykah Badu. I have blind listened to
+:album[3qr4pTBWEU1SVf01j6RAx3][Baduizm] and wasn't completely drawn to it upon first listen.
+But after *Olivia* showed me here tiny desk
+performance I was immediately drawn to the last song. Like wooow. It has some
+great vocals from Erykah and the instrumentation throughout the song is standout. The
+brass section on it is both subtle but a powerful edition to the song. The piano, the horns,
+the subject matter... The song is about jealousy which I think is very  smart by how it is
+portrayed through the song.
 
-The switch ups throughout the song are amazing and the performed remarkably in the Tiny
-desk performance. Me and Olivia thought the later parts of the song were a jam session
-exclusive to the T desk performance, and we were happily mistaken. I am definitely going
-to listen to Mama's Gun it has been well overdue, and if it is anything like this song.
-It will be a winner, what a great song.
+The switch ups throughout the song are amazing and are performed remarkably in the Tiny
+desk performance (linked below). Me and Olivia thought the later parts of the song were a
+jam session exclusive to the T desk performance, and we were happily mistaken. I am definitely
+going to listen to :album[4z7ma1ujO4FDL1l2YBGw7b][Mama's Gun] as it is long overdue, and if
+it is anything like this song, it will be a winner.
+
+:lyrics[
+  My eyes are green
+  'Cause I eat a lot of vegetables
+  It don't have nothing to do with your new friend
+][Green Eyes]
 
 :youtube[4cfmEgpOOZk]
-

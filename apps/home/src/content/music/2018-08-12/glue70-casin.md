@@ -28,8 +28,8 @@ date: '2018-08-12T00:00:00.000Z'
 Story time incoming, so I was watching a YouTube video on the game Rainbow Six Siege.
 I say watching it, I had it in the background while I was doing other things. And for those
 who have never watched a video related to this game. If you are not watching the professionals
-compete on the official [YouTube channel](https://www.youtube.com/channel/UCWKHac5bjhsUtSnMDFCT-7A)
-channel. The other content creators are consumed by memes. Which I do find quite entertaining at times,
+compete on the official [YouTube channel](https://www.youtube.com/channel/UCWKHac5bjhsUtSnMDFCT-7A).
+The other content creators are consumed by memes. Which I do find quite entertaining at times,
 but I've got to say the music they use in a lot of their videos. And this is not centered around
 one specific creator a lot of them do this. Sucks as they use super loud dub step tracks,
 so as a result I usually can't get into that aspect of the video.

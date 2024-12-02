@@ -25,15 +25,18 @@ genres:
 type: TRACK
 date: '2018-03-04T00:00:00.000Z'
 ---
-"It’s Santan". It definitely is. I really like Dave’s vibes in his raps, the piano that is
+<q>It’s Santan<q>. It definitely is. I really like Dave’s vibes in his raps, the piano that is
 the centre piece to this song’s beat just fits so well with his bars.
 
-> When we was young we had dreams of being ballers, doctors and lawyers in the office.
-> So how did that turn to me dropping out of college. Snaps in the prison cell, bodies
-> in the coffin.
--taken from Hangman
+:lyrics[
+  When we were young, we had dreams of being bosses
+  Ballers, doctors, lawyers in an office
+  So how did that turn into dropping out of college
+  Snaps in a prison cell, bodies in a coffin
+][Hangman]
 
 The song is a biography of his experiences and the lessons he has learned. These are themes
 that are familiar when I think of Dave but he does it so well that it just makes me want to
-hear more. I need to go and listen to his project Game Over of which I didn’t get the chance
-to and hopefully Dave is cooking on some more, I’m eagerly waiting.
+hear more. I need to go and listen to his project :album[5QsGJ1tErNh5aWxowJojom][Game Over]
+of which I didn’t get the chance to and hopefully Dave is cooking on some more, I’m eagerly
+waiting.

@@ -57,7 +57,7 @@ date: '2018-02-18T00:00:00.000Z'
 ---
 This is just a great project, the instrumentation is so clean and I love Emily King's voice.
 It's pretty simple with this one to be honest, if your going to listen to any song on the
-project I would say listen to Radio. The drop in this song alone could propel the project
-alone and these themes go throughout all the songs with the production really carrying you
-through. Listen to this, listen to her album the switch, I am a big fan of her soul
-influence, so see what you think.
+project I would say listen to :track[6fiGR50g0i0WbnjoGVbeMN][Radio]. The drop in this song
+alone could propel the project alone and these themes go throughout all the songs with the
+production really carrying you through. Listen to this, listen to her album the switch, I
+am a big fan of her jazzy soul influence, so see what you think.

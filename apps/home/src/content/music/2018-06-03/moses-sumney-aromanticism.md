@@ -74,15 +74,15 @@ tracks:
 date: '2018-06-03T00:00:00.000Z'
 ---
 Have you ever heard a track that sent chills your spine. That's what happened when my
-girlfriend Olivia (shout outs to Young Spinach) showed me the song Plastic off his album
-and I had to check it out. When I first listened to it I found many parallels and made many
-comparisons. These thoughts also come up alot when I was recommending him to Dre and he
+girlfriend Olivia (shout outs to Young Spinach) showed me the song :track[6ilPGjQvpV8PdA2lCeCfn1][Plastic]
+off of Moses' album and I had to check it out. When I first listened to it I found many parallels and made
+many comparisons. These thoughts also come up a lot when I was recommending him to Dre and he
 asked me what genre he falls under. After more thought as I didn't find it easy at all to
 explain it then. The instrumentation he uses through his songs really reminds me of Laura
-Mvula's latest work the dreaming room but with the added benefit of this Moses's voice
-being unique beyond belief. These both work so well together that every song is an
-experience in its own right. For example the drum section on Quarrel is an amazing drop.
-Some music can definitely transport you somewhere else and it with this it feel like I
-definitely went into the wardrobe. Some of the best stuff i've heard all year, props to
-Sumney.
+Mvula's latest work :album[6CUIs9W7jJk0gtb5VzHlJ6][The Dreaming Room] but with the added
+benefit of this Moses's voice being unique beyond belief. These both work so well together
+that every song is an experience in its own right. For example, the drum section on
+:track[3RamvFV2OtTv3kozKLZnvP][Quarrel] is an amazing drop. Some music can definitely transport you
+somewhere else and it with this it feel like I found myself inside a wardrobe with this one. Some of the
+best stuff I've heard all year, props to Sumney for this unique experience that leaves you wanting more.
 

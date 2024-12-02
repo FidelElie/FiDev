@@ -87,7 +87,11 @@ tracks:
 date: '2018-02-08T00:00:00.000Z'
 ---
 
-I first heard these guys on Mahogany Sessions on Youtube performing their song All I Ever Wonder  and instantly fell in love with them. Then proceeded to not listen to their album. Well I got round to it now, and It is really fucking good.  The live instruments and Saint Paul's noteworthy vocals mesh together into amazing recordings that you hear throughout the album. It was a nice change from alot of the music I have been listening to this week.
+I first heard these guys on Mahogany Sessions on Youtube performing their song All I Ever Wonder
+and instantly fell in love with them. Then proceeded to not listen to their album. Well I
+got round to it now, and It is really fucking good.  The live instruments and Saint Paul's
+noteworthy vocals mesh together into amazing recordings that you hear throughout the album.
+It was a nice change from a lot of the music I have been listening to this week.
 
 :youtube[4ZFhnzTriqU]
 

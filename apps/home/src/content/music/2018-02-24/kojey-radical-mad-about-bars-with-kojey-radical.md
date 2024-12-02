@@ -30,9 +30,13 @@ well the first part has an amazing beat, sampled from a song that is familiar bu
 put my finger on, so if you recognize it let me know. This is the first song I've heard
 Kojey Radical's bars and I've got to say he goes in:
 
-> Can I speak to god, will god ever speak back, she might be busy me too, I'll just have
-> to face the facts.  If the crown fits wear it, when they're ready they'll take it back.
--from Mad About Bars
+:lyrics[
+  Can I speak to god, will god ever speak back?
+  She might be busy, me too
+  I'll just have to face the facts
+  If the crown fits wear it
+  When they're ready they'll take it back
+][Mad About Bars with Kojey Radical]
 
 This is the first 20 seconds of the song and the flow switch in the middle of the first part
 was just the icing on the cake. I am definitely going to go back and listen to his project
@@ -43,9 +47,9 @@ special which is not a problem for me, but I do believe exclusive music sucks so
 would mention that as well. As a result I dropped the YouTube video for this one in the article
 too, so swipe to listen, I love it and I hope you do too.
 
-> Silly me, thinking I can change the world in a heartbeat, poem after poem hoping they
-> would let my art speak.
--Love this thought I would quote some more sauce, it keeps coming with this one.
--from Mad About Bars
+:lyrics[
+  Silly me, thinking I can change the world in a heartbeat
+  poem after poem, hoping they would let my art speak
+][Mad About Bars With Kojey Radical]
 
 :youtube[m1Gg-EKa9wU]

@@ -56,11 +56,11 @@ tracks:
 date: '2019-06-16T00:00:00.000Z'
 ---
 I was hopeful when Carlos said to me the Col3trane's newest EP was fire. My liking his music
-had stopped since hearing the song Penelope on colours. Unfortunately, this hasn't really
-changed for me after listening to this. I honestly find it jarring to listen to, the entire
-project reminds me of the switch up towards the end of Penelope that I personally think took
-away from the song. I don't like him, singing over this type of beat and from what I've
-heard the newest one follows this as well, with more occurrences.
+had stopped since hearing the song :track[75w3hkYlT7dH1IWXMqBdq9][Penelope] on colours.
+Unfortunately, this hasn't really changed for me after listening to this. I honestly find it
+jarring to listen to, the entire project reminds me of the switch up towards the end of Penelope
+that I personally think took away from the song. I don't like him, singing over this type of
+beat and from what I've heard the newest one follows this as well, with more occurrences.
 
 Credit where credit is due the EP overall does sound a lot more varied than his last album.
 The features are pretty strong on this project too. But this doesn't take away from the

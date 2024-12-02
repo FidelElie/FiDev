@@ -85,4 +85,9 @@ tracks:
     favourite: false
 date: '2018-02-08T00:00:00.000Z'
 ---
-A friend told me give this guy a listen and I'm not going to lie I  was skeptical at first but he was pretty cool. His trapp style is complimented by the fact that he is not a mumble rapper. It definitely not lyrical. Alot of the album follows his change to the trap artist he is now which is a nice change i guess. I didn't like all the songs on it but the ones where the production turns up to 2000 percent I was rocking with. So I would at least say give it a listen see what you think.
+A friend told me to give this guy a listen and I'm not going to lie, I was skeptical at first
+but he was pretty cool. His trap style is complimented by the fact that he is not a mumble
+rapper. It's definitely not lyrical, but a lot of the album follows the journey from gangster
+to the trap artist he is now, which is somewhat refreshing. I didn't like all the songs on
+it but the ones where the production turns up to 2000 percent I was rocking with. So I would
+at least say give it a listen to see what you think.

@@ -79,11 +79,11 @@ tracks:
 date: '2018-03-18T00:00:00.000Z'
 ---
 For the feel good of the week, Towkio brought the heat. I discovered him through my man
-Chance as they both are part of the same collective and they have always made hits for me.
-So when I saw Towkio chilling in his space suit on the album cover, me being excited was
-definitely an understatement. What I like about him is that I think his use of auto tune
-or voice modulation (in most instances) doesn't actually do anything to hamper the overall
-song rather than bolstering it. Whereas in some instances unless your T-pain I find there
-is a very high chance that i will end up cringing over it. Its different party music if I
-was to describe it in a couple of words and I like it. Not much more to say about it, give
-it a listen, especially if you feel like dancing.
+Chance the rapper as they both are part of the same collective and they have always made
+hits for me. So when I saw Towkio chilling in his space suit on the album cover, me being
+excited was definitely an understatement. What I like about him is that I think his use of
+auto tune or voice modulation (in most instances) doesn't actually do anything to hamper
+the overall song and instead bolsters it. Whereas in some instances unless your T-pain
+I find there is a very high chance that i will end up cringing over it. Its different party
+music if I was to describe it in a couple of words and I like it. Not much more to say about
+it, give it a listen, especially if you feel like dancing.

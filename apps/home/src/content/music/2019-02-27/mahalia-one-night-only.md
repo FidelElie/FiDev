@@ -30,8 +30,22 @@ genres:
 type: TRACK
 date: '2019-02-27T00:00:00.000Z'
 ---
-I like what I have heard of Mahalia with songs like Sober but this song definitely increased
-this feeling significantly, the strings, her smooth vocals, Kojey's smooth vocals, a lot of
-smooth vocals make this song for me. The raps are great too, it is just a solid song not sure
-what else to say other than I'm probably going to go and listen to her most recent EP.
-After listening this song you probably should too, what a vibe.
+I like what I have heard of Mahalia with songs like :track[3C57ewlHARCVqeH3KiYkma][Sober] but
+this song increased this feeling significantly, the strings, her smooth vocals,
+Kojey's vocals, all the smooth vocals makes the song for me. The raps are great too,
+it is just a solid song not sure what else to say other than I'm probably going to go and
+listen to her most recent EP :album[23K0dGES2wx588MYRSGnPu][Seasons]. And after listening this
+song you will probably follow suit, what a vibe.
+
+:lyrics[
+  It was so scary
+  One more fuck, we might just get married
+  Well, I'll be back, no, please don't worry
+  Didn’t mean you no harm
+  Left before the alarm
+  But I'm never too far
+][
+  One Night Only
+][
+  Said by Kojey - a smooth way to paint yourself as a fuck boy...
+]

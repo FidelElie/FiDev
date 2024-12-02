@@ -87,10 +87,10 @@ tracks:
     favourite: false
 date: '2018-02-08T00:00:00.000Z'
 ---
-I've seem the buzz about mabel rise over 2017 but never got recommenced her from anyone
-until recently. Out of my own choice though I decided to give this mixtape a listen to see
-whether I would like her. And Iv'e got to say I do but not to a lose my mind kind of level.
-Her sounds is definitely influenced by older R&B which I can definitely appreciate but I
-found that some songs on this project I just really wasn't feeling. I am going to go back
-and listen to her earlier projects though, to get a better idea of all she has to offer,
+I've seen the buzz about Mabe'sl rise over 2017 but never got recommenced her from anyone
+until recently. Out of choice though I decided to give this mixtape a listen to see
+whether I would like her. I've got to say after listening I do, but not to a lose my mind
+kind of level. Her sound is influenced by older R&B which I can appreciate
+but I found that some songs on this project I just really wasn't feeling. I am going to go
+back and listen to her earlier projects though, to get a better idea of all she has to offer,
 but this was a good starting point overall for her music.

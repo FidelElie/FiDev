@@ -78,11 +78,11 @@ tracks:
     favourite: false
 date: '2018-03-04T00:00:00.000Z'
 ---
-Featured on last week’s songs of note (check it out here), I decided to listen to Kojey’s
-most recent project and wasn’t particularly blown away by it. It take a departure from the
-style that he showed in his mad about bars Spotify special. A style which fits his bars and
-flow (which I have heard frequently being compared to Kendrick’s) very well might I add.
-Didn’t always sit well with me in this project. There are some exceptions though where
-production comes into play and Kojey stretches his legs (or chords). I want to give it
-some more listens just to solidify my opinion but give it a listen anyway it in’t bad by
+My obsession with :track[6TeU8lVGqHTdbdjsNGYb4x][Mad about bars with Kojey Radical], let me to
+decide to listen to Kojey’s most recent project and wasn’t particularly blown away by it.
+It take a departure from the style that he showed in his mad about bars Spotify special.
+A style which fits his bars and flow (which I have heard frequently being compared to Kendrick’s)
+very well might I add. Didn’t always sit well with me in this project. There are some exceptions
+though where production comes into play and Kojey stretches his legs (or chords). I want to
+give it some more listens just to solidify my opinion but give it a listen anyway it in’t bad by
 any means, it’s just not amazing to me at the moment.

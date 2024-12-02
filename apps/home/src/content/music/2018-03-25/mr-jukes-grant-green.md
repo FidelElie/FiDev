@@ -29,9 +29,9 @@ genres:
 type: TRACK
 date: '2018-03-25T00:00:00.000Z'
 ---
-I heard this songs on the Google Pixel 2 advert and immediately hooped on the internet to
-find its name. And I have been listening to it ever since. the brass in this song, with Charles'
-vocals lead to a masterpiece. The song made me listen to Mr Jukes' Album without hesitation
-so if you don't get round to listening to it. At least listen to this amazing song 10 out 10
-too much heat.
+I heard this songs on the Google Pixel 2 advert and immediately hopped on the internet to
+find its name. And I have been listening to it ever since. The brass in this song, with Charles'
+vocals lead to a masterpiece. The song made me listen to Mr Jukes' Album :album[0eCjIr8lbky7Q2u1Mmd5GT][God First]
+without hesitation so if you don't get round to listening to it. At least listen to this
+amazing song 10 out 10 too much heat.
 

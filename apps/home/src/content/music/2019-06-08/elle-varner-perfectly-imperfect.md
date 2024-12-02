@@ -80,7 +80,7 @@ Well I wasn't having it, I would not let the drought win and so for Elle I went 
 to her last album. Perfectly Imperfect is an awesome album and makes me quite annoyed that I
 have been waiting 7 years for something to attempt to top it.
 
-Firstly, Varner has a stellar voice, like really good. You could almost say that her music
+Firstly, Elle has a stellar voice, like really good. You could almost say that her music
 is almost carried by it. This is not to say that the instrumentation is lacking, but that
 it becomes that much more memorable with her singing over it. The typical R&B themes are
 here but here voice brings it home, from front to back. Now i just hope that greatness

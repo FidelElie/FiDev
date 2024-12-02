@@ -112,22 +112,25 @@ date: '2018-06-03T00:00:00.000Z'
 After listening to KOD several times I did one of my listening to an older j.cole project
 because that was due. And this time I went back and listened to born sinner which is criminally
 underrated in my humble opinion. Firstly, the production is amazing from the start to finish
-as soon as Villuminati drops you know what your in for. And what is more is that this is
-sustained throughout a sizeable amount of songs, 18 in total. I can listen to this front to
-back and not skip a song. There may be some that are better than others but I can say with
-confidence that all are solid.
-
+as soon as :track[5o9GCBBMWxSu7y4naOdFPy][Villuminati] drops you know what your in for.
+And what is more is that this is sustained throughout a sizeable amount of songs, 18 in total.
+I can listen to this front to back and not skip a song. There may be some that are better than
+others but I can say with confidence that all are solid.
 
 And finally the showstoppers, the songs where you ask yourself how did he put this together.
 The message he gives in the songs like for example Runaway which has been a mainstay in my
 playlist as of late:
 
-> Rich white men rule the nation still
-> The difference is we're all slaves now the chain concealed,
--Taken from Runaway - born sinner
+:lyrics[
+  Rich white men rule the nation still
+  The difference is we're all slaves now the chain concealed,
+][
+  Runaway:3eZjDYBS6oVs1z5POqjX9f
+]
 
-Instilled onto me a feeling of awe when I first heard the third verse. The very personal
-let Nas down or the album title song Born Sinner. These take this project from just a solid
-album to one of the great and I will urge you a million times to give it a listen. Often
-overlooked for his later work born sinner deserves to be recognised as one of the greats,
-so give it a listen.
+Instilled onto me a feeling of awe when I first heard the third verse. The very vulnerable
+:track[6WouUO5WEg0ncfGn6dkB4I][Let Nas down] or the album title song
+:track[47A2jHhdcuOozYPYhttXPs][Born Sinner]. These take this project from just a solid album
+to one of the great and I will urge you a million times to give it a listen. Often overlooked
+for his later work Born Sinner deserves to be recognised as one of the greats, so give it a
+listen.

@@ -71,8 +71,10 @@ tracks:
     favourite: false
 date: '2018-02-11T00:00:00.000Z'
 ---
-It may be pretty much the dead of winter in Edinburgh, but this song puts a bit of summer
-in the cold. I haven't got round to listening to the Justin's newest album but this song
-has his newer sound to it which I really like. I'm definitely going to give the album a
-listen to see if the rest of it follows this the lead of this great song.
-
+I learnt of Curtis from his Colors Show performance and loved him. I went and listened to
+his earliest album :album[7BlqkOOBcVqUwLEhC0Rxq6][Soul Power] and I was like yeaaaah.
+Great sound but then my girlfriend (shoutouts to Young Spinach) said he released an album
+last year. So I went back and gave it a listen. Although I prefer the previous, this did
+not disappoint.. The Soul vibes are just too strong throughout the album leading to just a
+great listen front to back. After listening I am solidified as Curtis Harding fan. If you
+want you soul tickled just a little bit, give it a listen.

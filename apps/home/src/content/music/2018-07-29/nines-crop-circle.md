@@ -90,16 +90,15 @@ tracks:
     favourite: true
 date: '2018-07-29T00:00:00.000Z'
 ---
-I finally managed to listen to Nines' newest project and from first impressions  I've got
-to say overall I like a lot of his bars but I think that it is not my cup of tea. I think
+I finally managed to listen to Nines' newest project and from first impressions: overall,
+I like a lot of his bars but I think that it is not my cup of tea. I think
 it was because overall what hes saying is a lot of the same, but the best thing about the
 album is how he says it. With bars like:
 
-> Revolver in your face, call it views from the 6
-- taken from Trapstar - Crop Circle
+:lyrics[Revolver in your face, call it views from the 6][Trapstar:2hhRjGunbvS00NfZd7eofa]
 
 Nines definitely has some heat to spit, but I think with the combination of the lackluster
 hooks and the production on some of the song not really getting me jumping. I expected a
-bit more from it. This being said there are some songs on this album that I are definitely
-straight flames all the way through. So as result I am definitely going to listen to a bit
+bit more from it. This being said there are some songs on this album that are
+straight flames all the way through. So as a result, I am definitely going to listen to a bit
 more and see if my mind changes.

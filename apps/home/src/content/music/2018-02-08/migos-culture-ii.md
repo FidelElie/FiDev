@@ -111,15 +111,35 @@ tracks:
     favourite: false
 date: '2018-02-08T00:00:00.000Z'
 ---
-What can I say about this album. Well it is long and in this case that is not a good thing. I have a policy of doing a blind listen of an album the first time around, meaning no looking at the song changes, just listening through without interruption. If there is a song of note then I will have a look at what it is called. That never happened with Culture II, partly due to me not even knowing when a new song was on. I am pretty disappointed with the newest project from them since Culture 1 was so good. The songs hit harder they actually had bars that were at least memorable:
+What can I say about this album. Well it is long and in this case that is not a good thing.
+I have a policy of doing a blind listen of an album the first time around, meaning no looking
+at the song changes, just listening through without interruption. If there is a song of note
+then I will have a look at what it is called. That never happened with Culture II, partly
+due to me not even knowing when a new song was on. I am pretty disappointed with the newest
+project from them, considering :album[4JTOxuvM2jcSqAvEZtZsOO][Culture 1] was so good. The
+songs hit harder they actually had bars that were at least memorable:
 
-> Put a model bitch on coka, told her read between the lines.
--From Call Casting - Culture
+:lyrics[
+  Put a model bitch on coco
+  Told her read between the lines
+][
+  Call Casting:4BqE5Rg3r4Rtizvm3IicrN
+]
 
 Compared to some of the bars from this one being memorable for all the wrong reasons.
 
-> Diamonds (diamonds) on my wrist look like a mcflurry??????
-> -  I added the question marks but maybe they should have actually been in the lyrics because what the fuck????
-- From Emoji a Chain - Culture II
+:lyrics[
+  Diamonds (diamonds) on my wrist look like a McFlurry??????
+][
+  Emoji A Chain:0G9rmRmQDFk9O2tzZLyRkc
+][
+  I added the question marks but maybe they should have actually been in the lyrics because
+  what the fuck???? I guess because a McFlurry is cold - anyway it sucks
+]
 
-To me the project just feels like a lot of swag rapping that doesn't make much sense. It is travesty when I hear new Migos and none of it finds its way onto my Gassed playlist. I''ll give it a few more listens because it is for the culture after all but its not looking great at the moment.
+To me the project just feels like a lot of swag rapping that doesn't make much sense. It is
+travesty when I hear new Migos and none of it finds its way onto my Gassed playlist. I''ll
+give it a few more listens because it is for the culture after all but its not looking great
+at the moment.
+
+:future-comment[At least the album cover is nice...][2024-11-26]

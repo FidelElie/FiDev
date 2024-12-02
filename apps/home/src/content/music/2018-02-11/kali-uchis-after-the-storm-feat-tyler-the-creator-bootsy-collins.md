@@ -31,7 +31,7 @@ genres:
 type: TRACK
 date: '2018-02-11T00:00:00.000Z'
 ---
-Don't have much to say about this song, really like Kali Uchis' vocals, Tyler raps as per
+Don't have much to say about this song, really like Kali's vocals, Tyler's raps as per
 usual and Bootsy Collins is himself, no complaints here. And don't let the haphazard
 description deter you from listening, I really do like the song it is just put together
 really well, give it a listen and see what you think.

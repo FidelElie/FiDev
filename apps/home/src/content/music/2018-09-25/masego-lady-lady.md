@@ -84,9 +84,10 @@ tracks:
 date: '2018-09-25T00:00:00.000Z'
 ---
 When this came out I was really looking forward to it and although it has lost some steam
-since I still believe it was a solid project. No Lost thoughts or pink polo EP but still very
-solids. There are some highlight song on this where Uncle Sego really comes through what he
-does best, everything. A lot of different instruments are heard throughout the project and
-with his singing and the guest features it is something nice to listen to. But that's just
-it, it isn't amazing or ground-breaking, its just nice. Well that is better than it being trash,
-so good shit Sego.
+since I still believe it was a solid project. This is no :album[5U2hIEObpi8FOApxIeaJdD][Lost thoughts]
+or :album[3efpx8tZjv4jOqmQPH6Myn][Pink Polo EP] but still very solids. There are some highlight
+songs on this where Uncle Sego really comes through what he does best - everything. A lot of
+different instruments are heard throughout the project and with his singing and the guest
+features it is something nice to listen to. But that's just it, it isn't amazing or ground-breaking,
+it's just nice. Well that is better than it being trash, so good shit Sego, looking forward
+to what comes next.

@@ -92,9 +92,10 @@ Kendrick comes with the heat, with the soundtrack to highly anticipated Blank Pa
 movie set to release this Tuesday. There is a lot of hype track on this album that had me
 turning up doing very mundane tasks.
 
-From the SZA's amazing vocals on All The Stars to the great turn up of Paramedics! by SOB
-x RBE. This is an soundtrack to bring on the pride that T'challa gives us all of color.
-However, fundamentally this sounds like more a soundtrack to me, many of the song transitions
-are very abrupt and don't mesh well together (find it), illustrating that the sons are in
-chronological order based on the movie. This being said it did it's job I cant wait for
-Tuesday where I get to where my best black attire, the soundtrack bangs give it a listen.
+From the SZA's amazing vocals on :track[3GCdLUSnKSMJhs4Tj6CV3s][All The Stars] to the great
+turn up of :track[2tPcTFiQF9MbVUyjZ3zDhA][Paramedic!] by SOB x RBE. This is an soundtrack
+to bring on the pride that T'Challa gives us all of colour. However, fundamentally this sounds
+like more a soundtrack to me, many of the song transitions are very abrupt and don't mesh
+well together, illustrating that the songs are in chronological order based on the movie.
+This being said it did it's job I cant wait for Tuesday where I get to where my best black attire,
+the soundtrack is a solid listen.

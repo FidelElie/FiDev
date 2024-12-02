@@ -38,11 +38,21 @@ type: TRACK
 date: '2018-07-29T00:00:00.000Z'
 ---
 I didn't even know this was going to be released and honestly I did not care. The last song
-that this group put out was seen as generic summer trash, with a box standard beat , hook
-and raps. Which is definitely hurts me to say it because I love Chance and Quavo. And this
-song is no different, maybe I should blame Khaled for this one. So let me now define the
-Major Key (We da best music) checklist for a track. Boring beat, check, boring hook, check,
-rappers who do it for the culture, check. It is the major key to a fat cheque for them, but
-doesn't result in a good song. If I was to try and find something positive to say about the
-song. I did find Chance's verse okay though but light years from his best. Its being removed
-from my playlist, what a bummer, one of the most disappointing songs of the year.
+that this group put out was some generic summer trash, with a box standard beat, hook
+and raps. Which definitely hurts me to say it because I love Chance and Quavo. Unfortunately,
+this song is no different, maybe I should blame Khaled for this one.
+
+Let me now define the Major Key (We da best music) checklist for a track. Boring beat? Check.
+Boring hook? Check. Rappers who do it for the culture? Check. It is the major key to a fat
+cheque for them, but doesn't result in a good song. If I was to try and find something
+positive to say about the song. I did find Chance's verse okay though but light years from
+his best. Its being removed from my playlist, what a bummer, one of the most disappointing
+songs of the year.
+
+:video[
+  /videos/song-spotify-deletion.mp4
+][
+  loop,autoplay,lazy,full
+][
+  No way this was staying on my playlist
+]

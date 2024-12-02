@@ -9,10 +9,14 @@ import vercel from "@astrojs/vercel/serverless";
 
 import {
 	AlbumDirective,
+	FutureCommentDirective,
+	ImageDirective,
+	LinkDirective,
 	LyricsDirective,
 	MusicDirective,
 	remarkRegExpDirective,
 	TrackDirective,
+	VideoDirective,
 	YoutubeEmbedDirective,
 } from "./src/libraries/plugins";
 
@@ -42,7 +46,17 @@ export default defineConfig({
 		rehypePlugins: [
 			[
 				remarkRegExpDirective,
-				[YoutubeEmbedDirective, MusicDirective, AlbumDirective, TrackDirective, LyricsDirective]
+				[
+					YoutubeEmbedDirective,
+					MusicDirective,
+					AlbumDirective,
+					TrackDirective,
+					LyricsDirective,
+					VideoDirective,
+					ImageDirective,
+					LinkDirective,
+					FutureCommentDirective
+				]
 			],
 		],
 	},

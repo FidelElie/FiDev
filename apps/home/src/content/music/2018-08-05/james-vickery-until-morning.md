@@ -25,7 +25,7 @@ genres:
 type: TRACK
 date: '2018-08-05T00:00:00.000Z'
 ---
-There is a lot to love about this song, I wouldn't agree with what my friend Jesse says,
+There is a lot to love about this song, I wouldn't agree with what my brother Jesse says,
 that the first bit sounds like something from Boyz II Men. There isn't really any of the
 harmonies that make a Boyz II Men song just that, theirs. But I can see how he could of
 thought that, the note held at the start is very impressive. And is an amazing way to
@@ -33,4 +33,3 @@ start off the song. Which leads into some really slow and sensual R'n'B music. T
 can sing, and this is what brings the song home, with it being a very solid modern R'n'b
 song, which pays homage to those that came before it. Give it a listen and see what you
 think.
-
