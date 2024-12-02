@@ -72,6 +72,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/3OngkUaB9I2J4rGnwrSb6o'
     name: Bésame
     favourite: true
+date: '2024-12-02T00:00:00.000Z'
 ---
 Let me set the scene for you, I was kicking it with my friend Dre and as I usually do when
 I haven't seen him in a while I ask: "Dawg you been listening to anything cool?". At this
