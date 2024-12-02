@@ -42,10 +42,13 @@ export const MusicPostStickyPane = (props: MusicPostStickyPaneProps) => {
 		);
 	};
 
-	const handleSearchSubmission: JSX.EventHandler<HTMLFormElement, SubmitEvent> = (event) => {
+	const handleSearchSubmission: JSX.EventHandler<
+		HTMLFormElement,
+		SubmitEvent
+	> = (event) => {
 		event.preventDefault();
 		updateConfig();
-	}
+	};
 
 	const updateConfig = () => {
 		setQuery({ ...query(), ...store });

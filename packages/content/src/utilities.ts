@@ -25,7 +25,11 @@ export const getPostsPathsFromRootDir = (dirPath: string): string[] => {
 			return getPostsPathsFromRootDir(referencePath);
 		}
 
-		if (!CONTENT_FILE_EXTENSIONS.some(extension => referencePath.includes(`.${extension}`))) {
+		if (
+			!CONTENT_FILE_EXTENSIONS.some((extension) =>
+				referencePath.includes(`.${extension}`),
+			)
+		) {
 			return [];
 		}
 

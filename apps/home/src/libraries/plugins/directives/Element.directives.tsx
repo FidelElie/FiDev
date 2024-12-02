@@ -7,7 +7,7 @@ export const VideoDirective = createRegExpDirective({
 	onMatch: (match) => {
 		const [href, modifiers, caption] = match.slice(1);
 
-		return { href, modifiers, caption }
+		return { href, modifiers, caption };
 	},
 	getHTML: (result) => {
 		const { href, modifiers, caption } = result;
@@ -18,30 +18,30 @@ export const VideoDirective = createRegExpDirective({
 		const lazy = modifiers.includes("lazy");
 		const loop = modifiers.includes("loop");
 
-		const videoClasses = twJoin("w-full", !fullWith && "md:w-3/4")
+		const videoClasses = twJoin("w-full", !fullWith && "md:w-3/4");
 
-		return (
-			`
+		return `
 				<figure>
 					<video
 						src="${href}"
 						class="${videoClasses}"
 						${controls ? "controls" : ""}
-						${lazy ? "loading=\"lazy\"" : ""}
+						${lazy ? 'loading="lazy"' : ""}
 						${autoplay ? "autoplay muted" : ""}
 						${loop ? "loop" : ""}
 					>
 					</video>
 					${
-						!!caption ? `
+						!!caption
+							? `
 							<hr class="border-slate-200 w-full border-t mt-5 mb-2"/>
 							<figcaption class="font-heading">- ${caption}</figcaption>
-						` : ""
+						`
+							: ""
 					}
 				</figure>
-			`
-		)
-	}
+			`;
+	},
 });
 
 export const ImageDirective = createRegExpDirective({
@@ -49,7 +49,7 @@ export const ImageDirective = createRegExpDirective({
 	onMatch: (match) => {
 		const [alt, href, modifiers, caption] = match.slice(1);
 
-		return { alt, href, modifiers, caption }
+		return { alt, href, modifiers, caption };
 	},
 	getHTML: (result) => {
 		const { alt, href, modifiers, caption } = result;
@@ -59,28 +59,26 @@ export const ImageDirective = createRegExpDirective({
 
 		const imageClasses = twJoin("w-full", !fullWith && "md:w-3/4");
 
-		return (
-			`
+		return `
 				<figure>
 					<img
 						src="${href}"
 						alt="${alt}"
 						class="${imageClasses}"
-						${lazy ? "loading=\"lazy\"" : ""}
+						${lazy ? 'loading="lazy"' : ""}
 					>
 					</img>
 					${
-						!!caption ? (
-							`
+						!!caption
+							? `
 								<hr class="border-slate-200 w-full border-t mt-5 mb-2"/>
 								<figcaption class="font-heading">- ${caption}</figcaption>
 							`
-						) : ""
+							: ""
 					}
 				</figure>
-			`
-		)
-	}
+			`;
+	},
 });
 
 export const LinkDirective = createRegExpDirective({
@@ -88,21 +86,19 @@ export const LinkDirective = createRegExpDirective({
 	onMatch: (match) => {
 		const [text, href, modifiers] = match.slice(1);
 
-		return { text, href, modifiers }
+		return { text, href, modifiers };
 	},
 	getHTML: (result) => {
 		const { text, href, modifiers } = result;
 
 		const _blank = modifiers.includes("_blank");
 
-		return (
-			`
-				<a href="${href} ${_blank ? "target=\"_blank\"" : ""}>
+		return `
+				<a href="${href} ${_blank ? 'target="_blank"' : ""}>
 					${text}
 				</a>
-			`
-		)
-	}
+			`;
+	},
 });
 
 export const FutureCommentDirective = createRegExpDirective({
@@ -110,15 +106,14 @@ export const FutureCommentDirective = createRegExpDirective({
 	onMatch: (match) => {
 		const [text, date] = match.slice(1);
 
-		return { text, date }
+		return { text, date };
 	},
 	getHTML: (result) => {
 		const { text, date } = result;
 
 		const parsedDate = new Date(date);
 
-		return (
-			`
+		return `
 				<div class="rounded-lg border border-slate-200  not-prose flex flex-col">
 					<div class="flex items-center gap-3 p-2">
 						<div class="w-16 h-16 rounded-full overflow-hidden">
@@ -138,8 +133,6 @@ export const FutureCommentDirective = createRegExpDirective({
 						</q>
 					</div>
 				</div>
-			`
-		)
-	}
+			`;
+	},
 });
-

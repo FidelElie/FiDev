@@ -55,8 +55,8 @@ export default defineConfig({
 					VideoDirective,
 					ImageDirective,
 					LinkDirective,
-					FutureCommentDirective
-				]
+					FutureCommentDirective,
+				],
 			],
 		],
 	},

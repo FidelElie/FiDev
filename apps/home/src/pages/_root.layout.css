@@ -12,7 +12,7 @@
 
 .lyrics::before {
 	content: "";
-	@apply w-0.5 h-full rounded-lg bg-blue-500 absolute top-0
+	@apply w-0.5 h-full rounded-lg bg-blue-500 absolute top-0;
 }
 
 .lyrics > blockquote {
@@ -20,5 +20,5 @@
 }
 
 .lyrics > div {
-	@apply ml-5
+	@apply ml-5;
 }

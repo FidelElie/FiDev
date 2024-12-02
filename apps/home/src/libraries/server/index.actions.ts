@@ -28,7 +28,10 @@ export const searchWebsiteAction = async (request: Request) => {
 				entry.data.genres.some((genre) =>
 					genre.toLowerCase().includes(loweredTerm),
 				) ||
-				(entry.data.type === MusicPostMetadata.types.ALBUM && entry.data.tracks.some(track => track.name.toLowerCase().includes(loweredTerm)))
+				(entry.data.type === MusicPostMetadata.types.ALBUM &&
+					entry.data.tracks.some((track) =>
+						track.name.toLowerCase().includes(loweredTerm),
+					))
 			);
 		}),
 		getCollection("artists", (entry) => {

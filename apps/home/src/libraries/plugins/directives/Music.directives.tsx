@@ -1,14 +1,17 @@
-import path from "path"
+import path from "path";
 
 import { z } from "zod";
 
-import { getEntriesFromFilePaths, getPostsPathsFromRootDir } from "@fi.dev/content";
+import {
+	getEntriesFromFilePaths,
+	getPostsPathsFromRootDir,
+} from "@fi.dev/content";
 
 import { createRegExpDirective } from "../remarkRegExpDirective";
 import { MusicPostSchema } from "../../schemas";
 import { MusicPostMetadata } from "../../constants";
 
-const metadata: { entries: MusicPostSchema[] | null} = { entries: null }
+const metadata: { entries: MusicPostSchema[] | null } = { entries: null };
 
 const getPostsEntries = () => {
 	const filePath = path.join(process.cwd(), "src/content/music");
@@ -20,41 +23,43 @@ const getPostsEntries = () => {
 		return metadata.entries;
 	}
 
-	const postMetaData = getEntriesFromFilePaths(getPostsPathsFromRootDir(filePath));
+	const postMetaData = getEntriesFromFilePaths(
+		getPostsPathsFromRootDir(filePath),
+	);
 
 	const validatedMetadata = z.array(MusicPostSchema).parse(postMetaData);
 
 	metadata.entries = validatedMetadata;
 
 	return validatedMetadata;
-}
+};
 
 const fetchCorrespondingPostBySpotifyId = (spotifyId: string) => {
 	const entries = getPostsEntries();
 
-	const post = entries.find(entry => entry.spotifyId === spotifyId);
+	const post = entries.find((entry) => entry.spotifyId === spotifyId);
 
 	return post || null;
-}
+};
 
 const fetchCorrespondingAlbumPost = (spotifyId: string) => {
 	const entries = getPostsEntries();
 
 	const post = entries.find(
-		entry => entry.type === MusicPostMetadata.types.ALBUM && entry.tracks.some(track => track.spotifyId === spotifyId)
+		(entry) =>
+			entry.type === MusicPostMetadata.types.ALBUM &&
+			entry.tracks.some((track) => track.spotifyId === spotifyId),
 	);
 
 	return post || null;
-}
+};
 
-const constructPopulatedLinkText = (
-	config: {
-		text: string;
-		post: MusicPostSchema;
-		showArtist: boolean;
-		showAlbum: boolean;
-	}
-) => {
+const constructPopulatedLinkText = (config: {
+	text: string;
+	post: MusicPostSchema;
+	showArtist: boolean;
+	showAlbum: boolean;
+}) => {
 	const { text, post, showArtist, showAlbum } = config;
 	const [firstArtist] = post.artists;
 
@@ -63,13 +68,14 @@ const constructPopulatedLinkText = (
 	return [
 		text,
 		showAlbumInfo ? `on the album ${post.name}` : [],
-		showArtist ? `(${firstArtist.name})` : []
-	].flat().join(" ");
-}
+		showArtist ? `(${firstArtist.name})` : [],
+	]
+		.flat()
+		.join(" ");
+};
 
-const FallbackLink = (props: { href: string; text: string; }) => {
-	return (
-		`
+const FallbackLink = (props: { href: string; text: string }) => {
+	return `
 			<a
 				href="${props.href}"
 				class="inline-flex items-center flex-wrap px-0.5 h-1 not-prose underline-offset-2"
@@ -83,20 +89,18 @@ const FallbackLink = (props: { href: string; text: string; }) => {
 					${props.text}
 				</span>
 			</a>
-		`
-	)
-}
+		`;
+};
 
 const PostEntry = (props: { post: MusicPostSchema }) => {
 	const { slug, name, artists, covers } = props.post;
 
 	const [artist] = artists;
 	const [cover] = covers.toSorted(
-		(coverA, coverB) => coverA.width - coverB.width
+		(coverA, coverB) => coverA.width - coverB.width,
 	);
 
-	return (
-		`
+	return `
 			<a
 				href="/music/${slug}"
 				class="inline-flex items-center not-prose px-0.5 h-1"
@@ -112,9 +116,8 @@ const PostEntry = (props: { post: MusicPostSchema }) => {
 					${artist.name} - ${name}
 				</span>
 			</a>
-		`
-	)
-}
+		`;
+};
 
 /**
  * Directive for creating a music alum post link
@@ -124,10 +127,10 @@ export const AlbumDirective = createRegExpDirective({
 	onMatch: (match) => {
 		const [id, text] = match.slice(1);
 
-		return { id, text }
+		return { id, text };
 	},
 	getHTML: (result) => {
-		const { id,  text } = result;
+		const { id, text } = result;
 
 		const post = fetchCorrespondingPostBySpotifyId(id);
 
@@ -136,7 +139,7 @@ export const AlbumDirective = createRegExpDirective({
 		}
 
 		return PostEntry({ post });
-	}
+	},
 });
 
 /**
@@ -147,7 +150,7 @@ export const TrackDirective = createRegExpDirective({
 	onMatch: (match) => {
 		const [id, text, modifiers] = match.slice(1);
 
-		return { id, text, modifiers }
+		return { id, text, modifiers };
 	},
 	getHTML: (result) => {
 		const { id, text, modifiers = "" } = result;
@@ -158,20 +161,22 @@ export const TrackDirective = createRegExpDirective({
 			const constructedLink = `spotify:track:${id}`;
 			const correspondingAlbumPost = fetchCorrespondingAlbumPost(id);
 
-			if (!correspondingAlbumPost) { return FallbackLink({ href: constructedLink, text }); }
+			if (!correspondingAlbumPost) {
+				return FallbackLink({ href: constructedLink, text });
+			}
 
 			const linkText = constructPopulatedLinkText({
 				text,
 				post: correspondingAlbumPost,
 				showAlbum: !!modifiers?.includes("album"),
-				showArtist: !!modifiers?.includes("artist")
-			})
+				showArtist: !!modifiers?.includes("artist"),
+			});
 
 			return FallbackLink({ href: constructedLink, text: linkText });
 		}
 
 		return PostEntry({ post });
-	}
+	},
 });
 
 /** Generic Directive for creating music post links - must specify post type */
@@ -180,7 +185,7 @@ export const MusicDirective = createRegExpDirective({
 	onMatch: (match) => {
 		const [id, type, text, modifiers] = match.slice(1);
 
-		return { id, type: type?.toLowerCase(), text, modifiers }
+		return { id, type: type?.toLowerCase(), text, modifiers };
 	},
 	getHTML: (result) => {
 		const { id, type, text, modifiers } = result;
@@ -193,38 +198,41 @@ export const MusicDirective = createRegExpDirective({
 			if (type === "track") {
 				const correspondingAlbumPost = fetchCorrespondingAlbumPost(id);
 
-				if (!correspondingAlbumPost) { return FallbackLink({ href: constructedLink, text }); }
+				if (!correspondingAlbumPost) {
+					return FallbackLink({ href: constructedLink, text });
+				}
 
 				const linkText = constructPopulatedLinkText({
 					text,
 					post: correspondingAlbumPost,
 					showAlbum: !!modifiers?.includes("album"),
-					showArtist: !!modifiers?.includes("artist")
+					showArtist: !!modifiers?.includes("artist"),
 				});
 
 				return FallbackLink({ href: constructedLink, text: linkText });
 			}
 
-			return FallbackLink({ href: constructedLink, text })
+			return FallbackLink({ href: constructedLink, text });
 		}
 
 		return PostEntry({ post });
-	}
+	},
 });
 
 const LyricQuote = (props: {
-	quote: string[]; text: string; id?: string; type?: string; remark?: string
+	quote: string[];
+	text: string;
+	id?: string;
+	type?: string;
+	remark?: string;
 }) => {
 	const { quote, text, id, remark } = props;
 
-	return (
-		`
+	return `
 			<div class="not-prose">
 				<div class="lyrics">
 					<blockquote>
-						${quote.map((line, lineIndex, lines) => (
-							`${line[0].toUpperCase() + line.slice(1)}${lineIndex !== lines.length - 1 ? "<br/>" : ""}`
-						)).join("")}
+						${quote.map((line, lineIndex, lines) => `${line[0].toUpperCase() + line.slice(1)}${lineIndex !== lines.length - 1 ? "<br/>" : ""}`).join("")}
 					</blockquote>
 					<div class="flex flex-col">
 						<hr class="border-t border-slate-200 mt-2 mb-1.5"/>
@@ -235,31 +243,36 @@ const LyricQuote = (props: {
 					</div>
 				</div>
 			</div>
-		`
-	)
-}
+		`;
+};
 
 export const LyricsDirective = createRegExpDirective({
 	identifier: /:lyrics\[(.*?)\]\[(.*?)\](?:\[(.*?)\])?/gs,
 	onMatch: (match) => {
 		const [quote, link, subtitle] = match.slice(1);
 
-		return { quote, link, subtitle }
+		return { quote, link, subtitle };
 	},
 	getHTML: (result) => {
 		const { quote, link, subtitle } = result;
 
-		const splitQuote = quote.replace("\\n", "\n").trim().split("\n").filter(Boolean);
+		const splitQuote = quote
+			.replace("\\n", "\n")
+			.trim()
+			.split("\n")
+			.filter(Boolean);
 
-		const [text, id] = link.replace("\\n", "").replace("\n", "").trim().split(":");
+		const [text, id] = link
+			.replace("\\n", "")
+			.replace("\n", "")
+			.trim()
+			.split(":");
 
 		return LyricQuote({
 			quote: splitQuote,
 			text,
 			id,
-			...(subtitle ? { remark: subtitle } : {})
+			...(subtitle ? { remark: subtitle } : {}),
 		});
-	}
-})
-
-
+	},
+});

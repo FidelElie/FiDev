@@ -6,7 +6,9 @@ import { MusicSearchOptions } from "@/components/interfaces";
 import { MusicGenreView } from "@/components/pages/music/genres/MusicGenreView";
 import { RootLayout } from "@/pages/_root.layout";
 
-const request = new Request(`${Astro.request.url}?page=1&size=${Number.MAX_SAFE_INTEGER}`);
+const request = new Request(
+	`${Astro.request.url}?page=1&size=${Number.MAX_SAFE_INTEGER}`,
+);
 const genres = await fetchMusicGenres(request);
 ---
 <RootLayout title="Music genres" class="flex flex-col min-h-screen space-y-2  pt-8 pb-20">
