@@ -39,7 +39,8 @@ original song. Removing the original essence of the song, so what is the point o
 to it. Some are take most of what the song does great and puts it to a random beat. Some have
 artist who have no business being on the original song hopping on and giving it a shot. And
 some are actually pretty good. Unfortunately for the remix of Refill(Which is one of my
-favourites off of Perfectly Imperfect) this falls into the third category.
+favourites off of :album[68LPoE2EfeEnWZGMAOB3Cu][Perfectly Imperfect]) this falls into the
+third category.
 
 Firstly, I love T Pain, and he is not the offending artist in this case as his contribution
 I think doesn't take away from the song at all or as much as Kirko Bangz. He just doesn't

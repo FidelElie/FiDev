@@ -87,11 +87,9 @@ tracks:
     favourite: true
 date: '2018-09-05T00:00:00.000Z'
 ---
-After talking about the group’s latest release last music weekly. And bigging up there
-previous album in the process. I thought I would go back and listen to this banger of an
-album once again. And my opinion hasn’t changed years later.
+After talking about the group’s latest release previously with :track[4J3eFXXi2nQqF6MWLprnbR][Before You Get A Girlfriend]. And bigging up there previous album in the process. I thought I would go back and listen to this banger of an album once again. And my opinion hasn’t changed years later.
 
 The instrumentation incorporates aspects from many genres, leading to the groups funky style.
 I love the vocals provided on each song. It makes it all sound almost like your listening to a
-funky ass fairytale. They killed the album from front to back with these themes and it really
-deserves its place on the roundups. What a great project.
+funky ass fairytale. They killed the album, from front to back with these themes and it really
+deserves its place on the website. What a great project.

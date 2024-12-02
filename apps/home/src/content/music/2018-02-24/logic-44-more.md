@@ -32,5 +32,5 @@ I am all for giving artists a second chance when they fuck up, and especially fo
 artist I hold dear I might be even more lenient. So when I saw the biracial boy (sorry
 can't help it sometimes) released a new song. I was urged myself to give it a listen. It
 is.... Ok I guess, It is more a pop-off hype tune, more down the lines of what was heard
-on his project Bobby Tarantino. I like it, I just don't think it is something to write home
-about.
+on his project :album[0WMr3ulx5Mzi1B3C8LsHVA][Bobby Tarantino]. I like it, I just don't
+think it is anything to write home about.

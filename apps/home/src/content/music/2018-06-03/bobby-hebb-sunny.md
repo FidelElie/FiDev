@@ -28,12 +28,12 @@ date: '2018-06-03T00:00:00.000Z'
 Playing Mafia 3 and listening to its amazing soundtrack had me hankering for some oldies.
 And for some reason I had to search for this song, and when I stumbled across a disco version
 I was thought something was wrong. But then I settled on Bobby's version, I'm not sure if
-it the original of this famous song but it is an amazingly smooth version of it. The vocals
+its the original of this famous song but it is an amazingly smooth version of it. The vocals
 are given with a very airy feel to it reinforcing the happiness of the song. I also love
 old songs like this where the recording almost sounds vintage. It is really hard for me to
 explain but I find I experience this feeling when listening to Motown. The recordings just
 have that extra flair to them. But back to this song specifically, the song and its lyrics
-are also very simple making it easy to follow, the subtle changes in tempo the lead to the
+are also very simple making it easy to follow, the subtle changes in tempo that lead to the
 finale. Which is very easy to follow by listening to the snare in the background. Need I go
 on? It is a classic track.
 

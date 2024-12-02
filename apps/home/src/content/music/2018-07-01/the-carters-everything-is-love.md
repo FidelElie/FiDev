@@ -69,15 +69,14 @@ hype shit with some seriously great trap beats; both in production and how they 
 The last quarter of the album is more towards just the hip-hop side of things, which I did
 enjoy as I think the last two songs on the album were some of my favorites. All this being
 said this album however surprising it was, did have some misses. For example, the delivery
-of the hook in HEARD ABOUT US:
+of the hook in :track[3a5xe1vquNB7CaxSyTTRpL][HEARD ABOUT US]:
 
-> If you don't know, now you know ni**aaaaaaaaa,
-- taken from HEARD ABOUT US - EVERYTHING IS LOVE
+:lyrics[If you don't know, now you know ni**aaaaaaaaa][HEARD ABOUT US:3a5xe1vquNB7CaxSyTTRpL]
 
-Resulted in more a laughing fit then then some serious acknowledgement. This is offset by
-some great lines thought so it is more of a slight misstep than falling of a cliff. Overall
+Resulted in more a laughing fit rather than serious acknowledgement. This is offset by
+some great lines though so it is more of a slight misstep rather than falling of a cliff. Overall
 I did like the album it was a change for both of them and they proved that they work so well
-together that it doesn't really matter what kind of music they do. They can do it. Everything
-is love with this one, well at least mostly.
+together that it doesn't really matter what kind of music they do. They can do it. EVERYTHING
+IS LOVE with this one... Well, at least the majority.
 
 :youtube[kbMqWXnpXcA]

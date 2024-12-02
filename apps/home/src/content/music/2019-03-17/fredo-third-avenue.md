@@ -83,9 +83,13 @@ fear of getting shanked. All jokes aside this album left me with mixed feelings.
 hand, I like Fredo rapping, a good amount of the bars are not about killing people either.
 But some of the others left me feeling kind of dirty. For example:
 
-> The first time I poked someone up, I can't lie he was a neeky yute But he was
->  So I felt like I just needed to
-- Taken from Third Avenue
+:lyrics[
+  The first time I poked someone up,
+  I can't lie he was a neeky yute
+  But he was so I felt like I just needed to
+][
+  Third Avenue:2hij6lekO6SLK1vYvfYBBq
+]
 
 It's lyrics like this just have me thinking "Damn this guy sounds a bit like a Chicago drill
 rapper, all death and little no substance" (Except like Herbo or Bibby). But he does show some

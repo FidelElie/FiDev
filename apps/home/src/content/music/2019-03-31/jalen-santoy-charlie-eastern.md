@@ -54,12 +54,12 @@ tracks:
     favourite: true
 date: '2019-03-31T00:00:00.000Z'
 ---
-I his song Foreplay a while back and I really liked to be honest, the beat bangs and he rides
-it really well (Pause?). So I finally got round to giving his last project Charlie Eastern a
-listen. And to be honest it is a bit underwhelming. He mentions that he is compared to J.Cole
-a lot in the first song, which I can see. But the project itself was a bit boring to me,
-there was only one other song on it that stood out to me. And subsequently found its way
-onto my playlist.
+I heard his song :track[3mogmakkKiKWOB0tVj1X9i][Foreplay] a while back and I really liked
+to be honest, the beat bangs and he rides it really well (Pause?). So I finally got round to
+giving his last project Charlie Eastern a listen. And to be honest it is a bit underwhelming.
+He mentions that he is compared to J.Cole a lot in the first song, which I can see. But the
+project itself was a bit boring to me, there was only one other song on it that stood out to
+me. And subsequently found its way onto my playlist.
 
 I guess he was just playing it safe with this project. He needs to some stuff differently
 and release something truly unique, maybe then the comparisons will stop.

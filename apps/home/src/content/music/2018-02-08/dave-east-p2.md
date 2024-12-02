@@ -90,5 +90,23 @@ tracks:
     favourite: false
 date: '2018-02-08T00:00:00.000Z'
 ---
-One of my favorite rappers in the game right now decided to drop some fire a week or two ago and I have been listening to it ever since. Paranoia 2 (P2) is the follow up to his project of the same name last year and it follows from the same strengths of the last one. Hard Beats? Check. Bars on Bars? Check. The Gritty Themes throughout the music? Check And check. Its more of the same with the storytelling turned up to a thousand with the songs Corey and I found Keisha; the follow up to the song from his album Kiari Chanel - my favourite of his - have been on repeat for me. This is definitely a project I would wholeheartedly recommend listening, especially if you like his older ones and if not give him a shot I did not regret it.
+One of my favorite rappers in the game right now, decided to drop some fire a week or two ago
+and I have been listening to it ever since. Paranoia 2 (P2) is the follow up to his project
+of the same name last year and it inherits the same strengths as the previous one. Hard Beats?
+Check. Bars on Bars? Check. The gritty themes throughout the music? Check And check.
 
+Its more of the same with the storytelling turned up to a thousand with the songs Corey and
+I found Keisha; the follow up to the song from his album :album[4WrMuwFy8uQwUBiVCnfrAf][Kairi Chanel]
+my favourite of his - has been on repeat for me. This is definitely a project I would
+wholeheartedly recommend listening to, especially if you like his older work and if not give
+him a shot I did not regret it myself.
+
+:lyrics[
+  Hoodies only do dark colours, it help us move better
+  I told James, "Cuz you know what to do if you catch her"
+  Might've took a loss, will I lose? Never, that's fool's treasure
+][
+  I Found Keisha:7zHW3Z0e7kF7Jqv5KVvlv1
+][
+  This is some grimey shit and it continues for the entire song.
+]

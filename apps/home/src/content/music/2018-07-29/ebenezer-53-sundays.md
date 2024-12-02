@@ -31,9 +31,12 @@ catchy tune. The hook is the most memorable part of the song, like while writing
 trying to recall what he does in the verses. Does he sing, does he rap? And to be honest I
 am at a loss but I definitely can remember the hook:
 
-> I ain't been to church in like 53 Sundays Ni**a
-> I'm doing road.
-- Taken from 53 Sundays
+:lyrics[
+  I ain't been to church in like 53 Sundays Ni**a
+  I'm doing road.
+][
+  53 Sundays
+]
 
 Maybe its the delivery of it or that the beat is cool, but I'm really digging the hook so
 this song has remained in my listening rotation for the past few weeks. And it shows no

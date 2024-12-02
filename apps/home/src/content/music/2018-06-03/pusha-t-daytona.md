@@ -75,5 +75,5 @@ the time to listen to some of his older stuff.
 
 On a side note is this an EP or an album? I keep hearing this is an album tried to scroll to
 see the other songs on it and there was 7 of them. So what is it. Is it a playlist like
-Pusha's now arch enemy drake would say? I have no idea but back to the music overall, I g
+Pusha's now arch enemy drake would say? I have no idea but back to the music overall, g
 ive it a listen there is something to like from his latest outing.

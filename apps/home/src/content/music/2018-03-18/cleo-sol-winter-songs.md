@@ -47,9 +47,9 @@ date: '2018-03-18T00:00:00.000Z'
 My latest Colour's show discovery made me instantly save her project to listen to later.
 And I loved it, her sound is very chilled and more airy but mostly I love the instrumentation.
 Where do I start? The horns, the strings, the airy vocals, the backing it all sounds amazing
-and just all comes together to make some great songs. The song Still Cold alone, makes the
-project for me. Let me keep going the use of flutes, the vibe, the smooth and thoughtful lyrics.
-Miss Soul made a great project and I'm going to happily keep this in rotation for weeks to
-come. Bring on some more I'm looking forward to it.
+and just all comes together to make some great songs. The song :track[0UgrFnBm4ZcWjCQj5g3Qal][Still Cold]
+alone, makes the project for me. But, let me keep going: the use of flutes, the vibe, the smooth
+and thoughtful lyrics. Miss Soul made a great EP and I'm going to happily keep this in
+rotation for weeks to come. Bring on some more I'm looking forward to it.
 
 :youtube[kXUtOoNUOzE]

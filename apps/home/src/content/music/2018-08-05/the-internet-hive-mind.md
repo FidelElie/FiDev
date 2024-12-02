@@ -81,11 +81,13 @@ date: '2018-08-05T00:00:00.000Z'
 ---
 After being nagged and hearing from a lot of people to listen to this project, I have finally
 found the opportunity to sit down and give it a good listen. And I've got to say it is some
-of the best stuff of the year s0 far. All of the group pull their weight in this album, to
-make it what it is, amazing. Syd providing some amazing vocals as well Matt Martians and Steve
+of the best stuff of the year so far. All of the group pull their weight in this album, to
+make it what it is, amazing.
+
+Syd providing some amazing vocals as well Matt Martians and Steve
 Lacy giving their backing as well as playing the keys and guitar. Patrick Paige II and
 Christopher Smith on the bass and the drums. Allowing yourself to hone in on each aspects
 that makes up the song, and realising what each does for the it..... Long story short it
 makes every song a winner, I can't think of any song on the album that I disliked, they
-are all stand out and thus make this album standout. Don't do a Fiddy and take ages to
+are all stand out and thus make this album standout. Don't do a Fidel and take ages to
 listen to this one, it is worth listening to a thousand times and more. Highly recommended.

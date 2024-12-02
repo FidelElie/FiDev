@@ -83,16 +83,22 @@ listen and after a few listen I really like it. The production on the project se
 a lot of influences from funk, with punchy baselines and riffs and Milk shows why I think he
 is mean with his raps:
 
-> 4 in the am, trying to paint a profound picture. Holding a brush, won’t put it down until
-> I put the write colours in your sound system.
--taken from But Can It Be - FEVER
+:lyrics[
+  4 in the AM
+  Trying to paint a profound picture
+  Holding the brush, won’t put it down
+  Till I put the right colors inside your sound system
+][But Can It Be#4KdT67SkWs1sWUHDyAUsra]
 
 The flow he brings to these bars alone is mad. The project is a great listen and I am
 solidified as a Black Milk fan, give his newest project a listen.
 
-> It’s like Officer, officer what had you done?
-> How many apples can stole a bunch you just need one,
-> So if you can’t stand up when fellow officers shoot a kid with they hands up
-> I don’t know who we can trust - and it just goes on...
--taken from Drown - FEVER
-
+:lyrics[
+  Its like officer, officer
+  What have you done
+  How many apples can spoil a bunch
+  You just need one
+  So if you can't stand up
+  When fellow officers shoot a kid with they hands up
+  I don't know who we can trust
+][Drown#6H7wzIGOjI8pAkUMVCEEKf]

@@ -79,26 +79,50 @@ date: '2018-04-29T00:00:00.000Z'
 ---
 This album was hype to the point where I kept looking at what day it was counting down until
 last Friday. What can I say I love me some J.Cole. But then I listened and initially I wasn't
-sold on this one.  But with time, I've grown to love J's newest. It is very different from
+sold on this one. But with time, I've grown to love J's newest. It is very different from
 what he has released previously but important aspects still remain. Great bars - I think
 he took his spitting up to 11 in this one - and some great production is still at the
-forefront. I also like the a lot more of the hooks from the album then initially thought,
-it is a solid album. And always when it comes to J's albums the question is always asked
-which one is better so I thought I would put a poll in this post that is before the album
-links (swipe on the album cover to reveal it). Personally I am done, with the comparisons.
+forefront. I also like a lot more of the hooks from the album then initially thought,
+it is a solid. When it comes to J's albums the question is always asked
+which one is better - personally I am done, with the comparisons.
+
 I have my favorites but what I took from this album is that these bodies of work are so
 different from year to year. What he managed to do was keep the consistency that I have
-seen since I started listening to him all those years ago. And yes things have got better
-over time with J being able to make the music that he wants brought home by what he said
-on Born Sinner. He has managed to put across some serious shit with intellect and staying
-power that I commend him for. That I can bump his music down the road and be conscious of
-the world around me, while not being able to hear the world with music being pumped into
-the my ears. And to all those people complaining about his continuation of no features of
-his project I have one thing for you:
+seen since I started listening to him all those years ago. And yes, things have got better
+over time with Cole being able to make the music that he wants brought home by what he said
+on :album[5FP9keIJnlSCKnkdVOf623][Born sinner]:
 
-> [...] How 'bout you listen and never forget?
-> I'm only going to say this once, then I'll dip
-> Ni**as ain't worthy to be on my shit - makes me smile every time I hear it
--Taken from KOD - KOD
+:lyrics[
+  Granted, my heart was tainted by my mind that kept on sayin',
+  "Where's the hits? You ain't got none
+  You know Jay'll never put your album out without none,"
+  And, dog, you know how come
+  Labels are archaic, formulaic with they outcomes, huh
+][
+  Let Nas Down:26RcjBcThMrZ8KvsqApOvN
+]
+
+He has managed to put across some serious shit with intellect and staying power that I
+commend him for. That I can bump his music down the road and be conscious of the world around me,
+while not being able to hear the world with music being pumped into the my ears. And to all
+those people complaining about his continuation of no features of his project I have one
+thing for you:
+
+:lyrics[
+  How 'bout you just get the fuck off my dick?
+  How 'bout you listen and never forget?
+  Only gon' say this one time, then I'll dip
+  Niggas ain't worthy to be on my shit
+][
+  KOD:7yotKA30dwTKNEGomV9ZsI
+][
+  Makes me smile every time I hear it
+]
 
 J killed this shit what a great album now I am just waiting for the Fall Off.
+
+:future-comment[
+  And apparently we are still waiting for the Fall Off to drop...
+][
+  2024-11-26
+]

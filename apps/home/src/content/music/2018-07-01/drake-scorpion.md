@@ -110,12 +110,15 @@ tracks:
     favourite: true
 date: '2018-07-01T00:00:00.000Z'
 ---
-Finally, finally I can say that a Drizzy album since take care has been mostly worth the
-hype it has garnered.... And I stress mostly. The first side of the album is brilliant like
-there is so many good songs on it and a lot of good bars from Drake.
+Finally, finally I can say that a Drizzy album since :album[0ptlfJfwGTy0Yvrk14JK1I][If You're Reading This It's To Late]
+has been mostly worth the hype it has garnered.... And I stress mostly. The first side of the
+album is brilliant like there is so many good songs on it and a lot of good bars from Drake.
 
-> House on both coasts, but I live on the charts
-- taken from Survival - Scorpion
+:lyrics[
+  House on both coasts, but I live on the charts
+][
+  Survival:2yg9UN4eo5eMVJ7OB4RWj3
+]
 
 He goes in and it has been a long time since I have said that when it comes to drake's discography.
 But too bad I cannot say the same for side B. I found it very disappointing overall with
@@ -131,7 +134,20 @@ about this one. Congrats Drizzy I don't have to be as harsh in my opinions becau
 he has achieved something that is well worth the credit. So now all I have to say is go
 take care of your son.
 
-> I wasn't hidin' the kid from the world,
-> I was hidin' the world from my kid,
-- taken from Emotionless - Scorpion
+:lyrics[
+  I wasn't hidin' the kid from the world,
+  I was hidin' the world from my kid,
+][
+  Emotionless:5Psnhdkyanjpgc2P8A5TSM
+][
+  Okay drizzy...
+]
 
+:future-comment[
+  Okay tbh there is some more good on this album then I gave it credit for up to now - I
+  probably listen to the song Blue Tint more than any other.
+  Wouldn't say that this song ends an album though - maybe this was the start of the playlist
+  era for Drake?
+][
+  2024-11-27
+]

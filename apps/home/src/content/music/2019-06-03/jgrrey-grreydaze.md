@@ -48,8 +48,8 @@ tracks:
 date: '2019-06-03T00:00:00.000Z'
 ---
 Sometimes Spotify likes to throw some more obscure artists on their new releases roundup.
-And although I had heard of JGrrey before, I had no idea she had released something. After
+Although, I had heard of JGrrey before, I had no idea she had released something. After
 giving it a listen I would rate the entire project as mediocre. Most of the songs are pretty
-forgettable, they weren't bad by any means. There just nothing to right home about. The
+forgettable, they weren't bad by any means, there just nothing to right home about. The
 thorough among you might have noticed however, that there is a favourite song listed.
-God's House is definitely a standout song on the project, it is not even a close competition.
+God's House is definitely a standout song on the project, it is not even a close.

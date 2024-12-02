@@ -102,11 +102,11 @@ In the exam period I found myself not really listening to newer stuff as much wh
 out week by week. But instead venturing back to what I know and old playlists alike. And
 this led me back to Newton faulkner, some of the first songs added on my Spotify all those
 years ago. I have a place in my heart for some good folk music and I believe he delivers
-on this. In many instances less is more and I think many of his songs - at least the ones
-that I love - follow this paradigm. Simple hooks like gone in the morning that as writing
-this I couldn't stop singing along. I was first introduced to the world when my dad was
-listening to Bob Dylan and I think Newton solidified my fascination with the genre. And
-going back to this album always reminds me of this. It is a solid album and whether you
+on this tenfold. In many instances less is more and I think many of his songs - at least the ones
+that I love - follow this paradigm. Simple hooks like :track[4xRgm2Gh4hJvYMUrBZZ1DU][Gone in the Morning]
+that as writing this I couldn't stop singing along. I was first introduced to the world when
+my dad was listening to Bob Dylan and I think Newton solidified my fascination with the genre.
+And going back to this album always reminds me of this. It is a solid album and whether you
 love folk or are looking for something new to listen to, this might be a good place to
 start.
 

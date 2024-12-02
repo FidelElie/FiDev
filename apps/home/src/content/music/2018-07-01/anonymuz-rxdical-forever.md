@@ -25,12 +25,11 @@ genres:
 type: TRACK
 date: '2018-07-01T00:00:00.000Z'
 ---
-I have been a fan of Anon's music ever since Vice City and he has been killing it since then.
-What it seems like grinding constantly when I see him on Instagram stories he recently released
-this. From the first bar:
+I have been a fan of Anon's music ever since :album[7N2iWgJi8f2lFPgmGWxmkN][Vice City] and
+he has been killing it since then. What it seems like grinding constantly when I see him on
+Instagram stories he recently released this. From the first bar:
 
-> Red X on my skin ni**a, this war paint
--taken from Rxdical Forever- Anonymuz
+:lyrics[Red X on my skin ni**a, this war paint][Rxdical Forever]
 
 I was gassed and nodding uncontrollably with the crazy production and aggressively delivered
 bars. I love how he has carved himself out a distinct style with his music, the darkness

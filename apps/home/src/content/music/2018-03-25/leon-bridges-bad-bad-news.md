@@ -35,6 +35,7 @@ to the overall instrumentation is something special. The solo that leads to the 
 the chorus just lead to a more up tempo song that I really like to listen to. I also
 really like the feel good subject matter:
 
-> I don't worry, don't worry, don't worry about people in my face, I hit them with the style
-> and grace.
--Taken From Bad Bad News
+:lyrics[
+  I don’t worry, don’t worry, don’t worry about people in my face
+  I hit ‘em with the style and grace, and watch their ankles break
+][Bad Bad News]

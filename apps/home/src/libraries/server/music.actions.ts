@@ -13,6 +13,7 @@ import {
 	FetchMusicPostsRoute,
 	GetCurrentlyPlayingTrackRoute,
 } from "@/libraries/api/music.api";
+import { MusicPostMetadata } from "@/libraries/constants";
 
 /**
  *
@@ -48,7 +49,11 @@ export const fetchMusicProjects = async (request: Request) => {
 				) ||
 				post.data.genres.some((genre) =>
 					genre.toLowerCase().includes(lowerSearch),
-				)
+				) ||
+				(post.data.type === MusicPostMetadata.types.ALBUM &&
+					post.data.tracks.some((track) =>
+						track.name.toLowerCase().includes(lowerSearch),
+					))
 			);
 		})();
 
@@ -136,7 +141,9 @@ export const fetchMusicGenres = async (request: Request) => {
 		}
 
 		return genre.includes(search) ? genre : [];
-	}).flat();
+	})
+		.flat()
+		.toSorted((genreA, genreB) => genreA.localeCompare(genreB));
 
 	const result = paginateEntries(genres, {
 		page,

@@ -72,22 +72,33 @@ date: '2018-04-29T00:00:00.000Z'
 ---
 I finally managed to listen to Hov's newest release after a while of nagging. A friend
 (shoutouts to Cheese) sent me a link to the dramatized versions of the songs on Youtube.
-I was trying not to (allegedly) bootleg the project but this was the next thing. Well
+I was trying not to (allegedly) bootleg the project but this was the next best thing. Well
 after listening to it, I took out a free trial on TIDAL and will be buying the album to
 put on Spotify when the time comes. His talk of topics like his cheating, money and the
 black community are harrowing and so poetic. I always knew the JAY was serious with the
-rhymes but I never really got into him like that. But it is great to see an album that
-actually makes you think about issues, it can sometimes seem like that is a scarcity
-these days. Some people tip toe around subjects and some handle them head on. There are
-great rappers who do this: Cole who I talked about above, Kendrick and now I remember
-that Mr JAY-Z fits this bill. This album is also amazing because the production that NO
-I.D brings is ridiculous! The samples he used, how they were sliced are masterful and
-keeps me coming back for more. Will this album have me keeping tidal for the next release?
-No probably not but I will probably be buying the album outright. This one will need some
-company. There may not be as many places to listen to it as the other music but listen to
-it on YouTube if all else fails, the videos are great. Give Hov the listen that this album
-deserves.
+rhymes but I never really got into him like that.
 
-> Ain't no such thing as an ugly billionaire, I'm cute - with the delivery and the accuracy
-> I actually laughed out loud.
--taken from Family Feud (feat. Beyonce) - 4:44
+However, it is great to see an album that actually makes you think about issues, it can
+sometimes seem like that is a scarcity these days. Some people tip toe around subjects and
+some handle them head on. There are great rappers who do this: Cole who I talked about above,
+Kendrick and now I remember that Mr JAY-Z fits this bill. This album is also amazing because
+the production that NO I.D brings is ridiculous! The samples he used, how they were sliced
+are masterful and keeps me coming back for more. Will this album have me keeping tidal for
+the next release? No probably not but I will probably be buying the album outright. This one
+will need some company. There may not be as many places to listen to it as the other music
+but listen to it on YouTube if all else fails, the videos are great. Give Hov the listen
+that this album deserves.
+
+:lyrics[
+  Ain't no such thing as an ugly billionaire, I'm cute
+][
+  Family Feud:6ku4gCfjdxmYpajNONAciN
+][
+  With the delivery and the accuracy I actually laughed out loud at this one
+]
+
+:future-comment[
+  At the time I listened to this its wasn't actually on Spotify, what a world.
+][
+  2024-11-26
+]

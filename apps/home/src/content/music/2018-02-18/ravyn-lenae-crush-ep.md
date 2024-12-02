@@ -53,8 +53,7 @@ era is welcome and unique. I don't think she shows anything ground breaking in h
 throughout the project. But for me it is the full package of each song that makes it so
 great. For example in the song Sticky the best bit is:
 
-> Wooo ooh ooh ooh
--taken from Sticky - Crush EP
+:lyrics[Wooo ooh ooh ooh][Sticky:1Jyp5ZUSZzVllelHa8HREd]
 
 How she delivers this line just send chills down my spine (that was unintentional) and
 this continues throughout. Shoutouts to Manny I definitely urge you to give it a listen,

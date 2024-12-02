@@ -78,9 +78,9 @@ Sampha, Sampha and Sampha. I was put on to this project by my girlfriend and aft
 to it, we both shared the same opinion. Sampha is great as usual and the best song on the
 album is the last one and boy is it a good one. The song that shared the same name of the
 album has it all, I am a sucker for violins and Sampha vocals just mesh so well, this song
-makes the whole project so much better. However don't think the rest of the album is
-forgettable, I just think that some of the features didn't really mesh as well with overall
+makes the whole project much better. However, don't think the rest of the album is
+forgettable, I just think that some of the features didn't really mesh as well with the overall
 sound of the songs. For example, I like Giggs but the song he was on was a C at best,
-just felt abit forced with Giggs' signature tone in my humble opinion. But, overall it is
+just felt a bit forced with Giggs' signature tone in my humble opinion. But, overall it is
 a recommendation from me, there's a lot to like about this one and the moral of this is to
 surround yourself with people with good music taste, it does pay off.

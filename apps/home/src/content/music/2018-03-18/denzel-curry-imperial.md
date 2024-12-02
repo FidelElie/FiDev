@@ -73,11 +73,12 @@ tracks:
 date: '2018-03-18T00:00:00.000Z'
 ---
 I started going back to the gym at the start of the week. And this project was the star
-of the show, powering my boxing sessions. It is Denzel Curry being what he usually is,
+of the show - powering my boxing sessions. It is Denzel Curry being what he usually is,
 ridiculously hype. Definitely a gym anthem for this week but I do want to listen to it more
 outside that setting so I can focus more on what he was talking about. From what I can hear
-though he says some good shit. And also a sidenote for a gym session that might be on the
-towards the hour mark, the project can actually follow the ebb and flow of your workout with
-it being more chill towards the end so it's nice for the workout end. So this if you want
-some more tunes in your journey for gains, or something to keep you nodding this is a great
-choice.
+though he says some good shit.
+
+Also a side note for a gym session that might be on the towards the hour mark, the project can
+actually follow the ebb and flow of your workout with it being more chill towards the end so
+it's nice for the workout end. So this if you want some more tunes in your journey for gains,
+or something to keep you nodding this is a great choice.

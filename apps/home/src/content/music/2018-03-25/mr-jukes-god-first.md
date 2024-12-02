@@ -68,8 +68,8 @@ tracks:
 date: '2018-03-25T00:00:00.000Z'
 ---
 A late discovery that was released last year, Mr Jukes brings that good jazz influence to
-his songs. There is a good few songs that Iv'e had in rotation this week  (I will speak of
-one of them a lot more in songs of note for this week). But some of them I did think was a
-miss. The album did not hit the bulls-eye but was still somewhere on the target. There is
-still a lot to like about this album and the songs that hit for me, really hit and I have
-had them on repeat for a while now. So give it a listen I am sure you will find something.
+his songs. There is a good few songs that Iv'e had in rotation this week with
+:track[0uLijBRekQsSPwHs1LIEXz][Grant Green] being the standout. But some of them  I did
+think was a miss. The album did not hit the bulls-eye but was still somewhere on the target.
+There is still a lot to like about this album and the songs that hit for me, really hit and
+I have had them on repeat for a while now. So give it a listen I am sure you will find something.

@@ -28,8 +28,18 @@ date: '2019-06-16T00:00:00.000Z'
 ---
 An oldie but a goodie I thought I would talk about one of my favorite Stevie Wonder songs.
 I found myself going through my old playlist. This was the old starred playlist that Spotify
-changed ages ago and it definitely has some old gems on it (Check it out here if you are
-interested). I stumbled across this song again and I was instantly reminded why I love it
-again. The instrumentation, the chorus, the versus, the backing, should I go on? It an
+changed ages ago and it definitely has some old gems on it (Check it out
+[here](https://open.spotify.com/playlist/7qTOLfwfeCdaPgqJewtvaD?si=a6e5bbe7a1944ec1), if you
+are interested). I stumbled across this song again and I was instantly reminded why I love it
+again. The instrumentation, the chorus, the verses, the backing, should I go on? It an
 amazingly well put together songs. But when does Stevie do anything different? One of my
 absolute favorites and it might be yours too, give this song a listen.
+
+:lyrics[
+  And if you really need me
+  Won't you tell me, yeah?
+  Then I won't have to be
+  Playing around
+][
+  If You Really Love Me
+]

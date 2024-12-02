@@ -1,4 +1,4 @@
-import { Show, For, batch } from "solid-js";
+import { Show, For, batch, type JSX } from "solid-js";
 import { createStore } from "solid-js/store";
 import { twJoin, twMerge } from "tailwind-merge";
 
@@ -40,6 +40,14 @@ export const MusicPostStickyPane = (props: MusicPostStickyPaneProps) => {
 			store.levels.some((level) => !levels?.includes(level)) ||
 			store.search !== search
 		);
+	};
+
+	const handleSearchSubmission: JSX.EventHandler<
+		HTMLFormElement,
+		SubmitEvent
+	> = (event) => {
+		event.preventDefault();
+		updateConfig();
 	};
 
 	const updateConfig = () => {
@@ -170,7 +178,8 @@ export const MusicPostStickyPane = (props: MusicPostStickyPaneProps) => {
 					/>
 				</div>
 			</Popover>
-			<div
+			<form
+				onSubmit={handleSearchSubmission}
 				class={twJoin(
 					"flex items-center gap-1 pl-2 flex-grow",
 					!configIsDirty() && !configIsClearable()
@@ -197,7 +206,7 @@ export const MusicPostStickyPane = (props: MusicPostStickyPaneProps) => {
 						!configIsDirty() && !configIsClearable() && "rounded-r-lg",
 					)}
 				/>
-			</div>
+			</form>
 			<div class="flex items-center">
 				<Show when={configIsDirty()}>
 					<Button

@@ -52,13 +52,16 @@ that the reason why like his bars in the project - other than the afro-centric l
 Is that he rides the beat in these songs so well, Wale's flow is too clean on these tracks.
 And it also helps that he has some serious bars to get off his chest (or pad):
 
-> I feel like Ali, but feel like I be with all the cash is
-- taken from Cassius (Excellency) - Self Promotion EP
+:lyrics[
+  I feel like Ali, but feel like I be with all the cash is
+][Cassius (Excellency) (feat. DJ Money):2jdWwK988PmmkBDA76PhmO]
 
-And they keep coming in this EP, the only thing I can say I didn't like was the third song.
-I found the hook very laughable but this doesn't take from how the great the others are and
+And they keep coming in this EP, the only blemish is that I didn't like the third song very much.
+I found the hook very laughable but this doesn't take away from how the great the others are and
 how good the project is on the whole. Keep them coming Wale.
 
-> Oh yeah, my opposition ain't no competition
-- What you call a booth I call a kitchen, I'm fryin' different
+:lyrics[
+  Uh, yo, my opposition ain't no competition
+What you call a booth I call a kitchen, I'm fryin' different
+][Negotiations:3imCCj4sEaPOlg6OGoQwnh]
 

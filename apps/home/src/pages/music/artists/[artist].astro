@@ -26,36 +26,38 @@ const musicPosts = await getCollection("music", (entry) => {
 });
 ---
 <RootLayout title={name}>
-	<Container class="flex flex-col py-10 md:flex-row gap-5 min-h-screen">
+	<Container class="flex flex-col md:flex-row gap-5 min-h-screen">
 		<div class="w-full">
-			<a href="/music/artists" class="text-sm mt-2 block font-heading mb-2">To artists</a>
-			<div class="relative border rounded-lg border-slate-200 mb-3 w-full sm:w-64 sm:h-64">
-				{
-					covers.length && (
-						<Image
-							src={covers[0].url}
-							alt={name}
-							class="rounded-lg object-cover h-full w-full"
-							transition:name={slug}
-							inferSize
-						/>
-					)
-				}
-			</div>
-			<h1 class="text-5xl font-heading">{name}</h1>
-			<div class="flex items-center justify-between mt-1.5">
-				<p class="mt-2 text-gray-500 font-light">
-					{genres.join(", ")}
-				</p>
-				<div>
-					<Link
-						href={generateSpotifyURI(spotifyUrl)}
-						class="decoration-green-600 text-sm hover:text-green-600"
-					>
-						Spotify
-					</Link>
+			<div class="flex flex-col gap-10 items-center md:flex-row">
+				<div class="relative border rounded-full overflow-hidden border-slate-200 mb-3 w-full sm:w-64 sm:h-64">
+					{
+						covers.length && (
+							<Image
+								src={covers[0].url}
+								alt={name}
+								class="object-cover rounded-full h-full w-full"
+								transition:name={slug}
+								inferSize
+							/>
+						)
+					}
+				</div>
+				<div class="flex flex-col">
+					<h1 class="text-5xl font-heading">{name}</h1>
+					<p class="mt-2 text-gray-500 font-light">
+						{genres.join(", ")}
+					</p>
+					<div>
+						<Link
+							href={generateSpotifyURI(spotifyUrl)}
+							class="decoration-green-600 text-sm hover:text-green-600"
+						>
+							Spotify
+						</Link>
+					</div>
 				</div>
 			</div>
+			<a href="/music/artists" class="text-sm mt-2 block font-heading mb-2">To artists</a>
 			<hr class="border-t border-slate-200 my-4"/>
 			<div class="space-y-5">
 				{

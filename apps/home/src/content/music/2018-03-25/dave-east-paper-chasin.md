@@ -34,9 +34,9 @@ date: '2018-03-25T00:00:00.000Z'
 ---
 First off dave east is always nice with the raps and when paired with Ferg doing what I
 think he does best, It leads to a great song, that has had a place on my gassed playlist
-(check it out here). I really like the bars in the hook:
+[check it out here](spotify:playlist:3fPTjfAUL9wzewY3PcY2ds).
+I really like the bars in the hook:
 
-> Ey I'm like a bad doctor, I ain't got no patience
--taken from Paper Chasin
+:lyrics[Eyy I'm like a bad doctor, I ain't got no patience][Paper Chasin]
 
 Love the play on words and love the song, give it a listen if your in the mood to get gassed.

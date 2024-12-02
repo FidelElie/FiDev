@@ -86,11 +86,10 @@ tracks:
     favourite: false
 date: '2018-03-04T00:00:00.000Z'
 ---
-I bought his entire discography to use on the YouTube channel ( if you haven’t checked it
-out I’ve got a few videos on it here) and decided to start from the top when listening to
-his stuff. Beets 4 is great, I really like Birocratics sound, where it just transports me
-back to San Fran or if I was just riding in an open-top car in Cali the vibes are there
-and I suggest you join me on the ride. I wasn’t feeling everyone of his creations as much
-as some others but god do some of them hit. He’s a sick beat maker and I’m looking forward
-to hearing what else he has on offer.
+I bought his entire discography to use on the YouTube channel and decided to start from the
+top when listening to his stuff. Beets 4 is great, I really like Birocratic's sound, where
+it just transports me back to San Fran or if I was just riding in an open-top car in Cali
+the vibes are there and I suggest you join me on the ride. I wasn’t feeling everyone of his
+creations as much as some others but god do some of them hit. He’s a sick beat maker and
+I’m looking forward to hearing what else he has on offer.
 

@@ -26,13 +26,14 @@ genres:
   - rap
   - west coast rap
 type: TRACK
+date: '2024-11-24T00:00:00.000Z'
 ---
 With the surprise release of Kendrick's newest album and the inclusion of the Heart Part 6, I
 found myself drawn back to part 5 as it is easily one of favourite songs from the genius
 himself.
 
 The producer (Beach Noise) did me a solid by sampling my all time favourite Marvin
-Gaye song in [I Want You](spotify:track:2gmWJA9oF4GD2Vw5QoRqu1) and they cooked - I don't know how you can imbue the
+Gaye song in :track[2gmWJA9oF4GD2Vw5QoRqu1][I Want You] and they cooked - I don't know how you can imbue the
 flavour of a song so well and still make it sound so unique. From what I can hear it is used
 throughout the entire track - the intro, the chorus, when Kendrick kindly asks to remove the drums
 for the third verse. It never leaves, it makes everything so funky and the song is so much better for it.
@@ -41,23 +42,26 @@ Kendrick is amazing as always on this, I just think the concept is what gives th
 for me. The references to many different celebrities in the black community from OJay Simpson, to Kanye and Will (Smith).
 For Will it was around the time of the infamous Oscar's slap which made the bars:
 
-> In the land where hurt people hurt more people<br/>
-> Fuck callin' it culture
-<hr class="border-t border-slate-200 mb-1 -mt-5"/>
-Taken from the Heart Part 5
+:lyrics[
+  In the land where hurt people hurt more people
+  Fuck callin' it culture
+][The Heart Part 5]
 
-Hit that much harder when I heard it for the first time. The last verse being from [Nipsey's (Hussle)](https://en.wikipedia.org/wiki/Nipsey_Hussle)
-perspective is also an amazing homage to rapper that was taken far too soon. Listen to the song,
-watch the music video to get the full experience (those deep fakes) and hopefully you'll have it
+Hit that much harder when I heard it for the first time. The last verse being from
+[Nipsey's (Hussle)](https://en.wikipedia.org/wiki/Nipsey_Hussle) perspective is also an
+amazing homage to rapper that was taken far too soon. Listen to the song, watch the music
+video to get the full experience (those deep fakes) and hopefully you'll have it
 on repeat like I have the past two years. Not to miss, truly one for the ages.
 
-> I seen the pain in your pupil when that trigger had squeezed<br/>
-> And though you did me gruesome, I was surely relieved<br/>
-> I completed my mission, wasn't ready to leave<br/>
-> But fulfilled my days, my Creator was pleased
-<hr class="border-t border-slate-200 mb-1 -mt-5"/>
-Taken from the Heart Part 5 - part of the masterful Nipsey verse
-
-
+:lyrics[
+  I seen the pain in your pupil when that trigger had squeezed
+  And though you did me gruesome, I was surely relieved
+  I completed my mission, wasn't ready to leave
+  But fulfilled my days, my Creator was pleased
+][
+  The Heart Part 5
+][
+  Part of the masterful Nipsey verse
+]
 
 :youtube[uAPUkgeiFVY]

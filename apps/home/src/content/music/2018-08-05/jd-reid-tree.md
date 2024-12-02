@@ -86,12 +86,12 @@ tracks:
     favourite: false
 date: '2018-08-05T00:00:00.000Z'
 ---
-In the upcoming podcast episode, Carlos told me about this project and it piqued my interest,
+Carlos told me about this project this week and it piqued my interest,
 so I thought I would give it a listen. J.D is a producer and he is cooking on these beats.
 Like a flaming pot with every beat having a distinct vibe to it. Some jazz, some grime and
 some hip hop all with him adding his own flavor to them.
 
 The only thing I thought missed the mark sometimes on the album was some of the features.
-For me there are some familiar faces on it, as well as some new people who fit the bill.
+For me, there are some familiar faces on it, as well as some new people who fit the bill.
 But I think that some of them don't do the beats justice. But then I can still listen to
 the amazing instrumentals. Solid project and it has resulted in a new artist on my radar.

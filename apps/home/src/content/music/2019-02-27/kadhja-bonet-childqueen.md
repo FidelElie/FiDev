@@ -68,16 +68,27 @@ tracks:
     favourite: false
 date: '2019-02-27T00:00:00.000Z'
 ---
-I first heard Kadhja's colours performance and was intrigued, so I thought I would give her
-album a listen and to say the least I wasn't ready for the experience. The song that was
-performed on Colours Show - Delphine was only the tip of the iceberg. Her music is quite
-genre bending to me, taking aspects from many to make a sound that is both unique and welcome.
-Her singing style also contributes to this fact, it is very smooth and fits the style of her
-music perfectly.
+I first heard Kadhja's colours performance (linked below) and was intrigued, so I thought
+I would give her album a listen and to say the least I wasn't ready for the experience.
+The song that was performed on Colours Show :track[2ZCKfrVy8qg6Y48KyKkN94][Delphine] was
+only the tip of the iceberg. Her music is quite genre bending to me, taking aspects from
+many to make a sound that is both unique and welcome. Her singing style also contributes
+to this fact, it is very smooth and fits the style of her music perfectly.
 
-This album brings these points across quite well (Her previous project does so too), with a
-good array of songs ranging from slower more thoughtful songs like the previously mentioned
-Delphine to the more upbeat Mother Maybe it is a varied and great listen. It did take some
-time to grow on me, and for me to realise the draw. I still don't know what I think about
-some of the instrumentation choices towards the end of Another Time Lover but overall I
-really like what she is doing. I looking forward to what she does next.
+This album brings these points across quite well (Her previous project
+:album[4V9BgSnwEMP5yRnZE5flSP][The Visitor] does so too), with a good array of songs ranging
+from slower more thoughtful songs like the previously mentioned Delphine to the more upbeat
+:track[02JjaSuokjv0LRHjSvsdls][Mother Maybe] it is a varied and great listen. It did take
+some time to grow on me, and for me to realise the draw. I still don't know what I
+think about some of the instrumentation choices towards the end of
+:track[4nKdilQJL8BcWZXGJZzm7G][Another Time Lover] but overall I really like what she is
+doing. I looking forward to what she does next.
+
+:youtube[uM5zJ9cyrL8]
+
+:future-comment[
+  I was very reserved about this album the first time around, but now I absolutely love it
+  and I am a big fan of her work. It is a slow burn and took time to grow but boy did it.
+  I would now say it is a must listen if you are looking for something unique to fill
+  your ears and playlist with.
+][2024-12-01]

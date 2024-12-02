@@ -95,9 +95,9 @@ tracks:
 date: '2018-03-18T00:00:00.000Z'
 ---
 Firstly, all I have to say is the piano!!!! It is amazing throughout this album and Jamie's
-vocals makes my revisit to these tunes a great one. This is the first time I haven't been
+vocals makes my revisits to these tunes a great one. This is the first time I haven't been
 listening to a lot of these songs truly blind and they all follow this strength that Isaac
 seems to thrive upon. And just to add to the greatness of the normal project, you have the
-remixes at the end. With Denzel Curry spitting some poetry on the remix to CNT SEE U, this
-just rounds out a great project. I'm looking forward to seeing what Jamie will be putting
+remixes at the end. With Denzel Curry spitting some poetry on the remix to :track[1b3LrC960bM6V42KXPX46a][CNT SEE U],
+this just rounds out a great project. I'm looking forward to seeing what Jamie will be putting
 out this year as he seems to be cooking on a few things.

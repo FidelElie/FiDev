@@ -98,3 +98,11 @@ the heaviest weight I can. The good think for the album is that a lot of the son
 this. And for some of my favourites, I think it some of the best of this year for this type
 of music. I may have not liked the album initially, but it has grown on me and for you might
 just skip that step, because there is a lot to like. Just know what you are in for.
+
+:lyrics[
+  I been counting dead men, puttin' bodies in the safe (Safe)
+  52 hundred, one swipe, throw it away ('Way)
+  Ayy, whip, whip, whip, 'til it stain on ya (Stain on ya)
+][
+  5200:1e3GEwsaXtBNtPfooQimDn
+]

@@ -84,24 +84,40 @@ date: '2019-06-16T00:00:00.000Z'
 I really enjoyed listening to Skepta's newest album. Carlos mentioned it was solid and when
 I watched Skepta's performance of No Sleep on Colors Show. I was definitely interested in
 listening to this and my interest wasn't miss placed. It has all the flexing that I expect
-from a Skepta song:
+from a Skepta album:
 
-> The way I stepped in there with the SK Air, fam' serious tekkers Brand new vest, same
-> old leathers She knows we are the real Goodfellas
-- taken from Pure Water
+:lyrics[
+  The way I stepped in there with the SK Air, fam' serious tekkers
+  Brand new vest, same old leathers
+  She know we are the real Goodfellas
+][
+  Pure Water:27H75QUZMb6C0vNfN3T370
+]
 
 But what is really welcome for me with this outing is the songs that have a lot more than
 flexing to say.
 
-> You'll see, a wise man once told me You gotta live within your means You got a pocket
-> full of cash But you gotta have a lot more than what's in your jeans
-- taken from No Sleep
+:lyrics[
+  You'll see, a wise man once told me
+  You gotta live within your means
+  You got a pocket full of cash
+  But yo ugotta have a lot more than what's in your jeans
+][
+  No Sleep:0Vq2Hxsd5awYmQVpbwRZ1b
+]
 
 There's a lot of bars to quote from this album. The production is also good too, I didn't
-listen to his last albums but this does make me interested in going back.
-Definitely one of the most solid albums of the year.
+listen to his last album :album[6s4vWWWxNrGcKhrOFYRZzk][Konnichiwa] but this does make me
+interested in going back. Definitely one of the most solid albums of the year.
 
-> Row row row your boat gently down the stream, Ni**as sleeping on me must be Sippin' on the
-> lean
-- taken from Pure Water (My personal favorite line)
+:lyrics[
+  Row Row row you boat gently down the stream
+  Niggas sleeping on me must be Sippin' on the lean
+][
+  Pure Water:27H75QUZMb6C0vNfN3T370
+][
+  My personal favourite line
+]
+
+:youtube[87yKlmg3sN4]
 

@@ -163,7 +163,7 @@ export const MusicCurrentlyPlayingPane = withQueryProvider(() => {
 										class="text-sm border border-slate-200 rounded-lg p-0.5"
 										aria-label={`Go to ${post.type === MusicPostMetadata.types.ALBUM ? "album" : "track"}`}
 									>
-										<Icon name="note" class="text-xl text-slate-600"/>
+										<Icon name="note" class="text-xl text-slate-600" />
 									</Link>
 								)}
 							</For>

@@ -31,8 +31,9 @@ genres:
 type: TRACK
 date: '2018-03-04T00:00:00.000Z'
 ---
-Okay let me start this off by saying that I generally dislike spoken word to music. So when
-I a hear a guy called George the poet on Spotify, I am reluctant but I gave this song a listen
-because of my man Maverick and Jorja and I was happy with it. It doesn’t do anything ground
-breaking but I do like the chorus as the Jorja and Maverick’s voice mesh really well. And
-George didn’t commit any spoken word sins in my mind so overall it was a good listen.
+Okay let me start this off by saying that I generally dislike spoken word to music. So, when
+I hear a guy called George the poet on Spotify - I am reluctant to say the least - but I gave
+this song a listen because of my man Maverick and Jorja and I was happy with it. It doesn’t
+do anything ground breaking, but I do like the chorus as the Jorja and Maverick’s voice mesh
+really well. And George didn’t commit any spoken word sins in my mind so overall it was a
+good listen.

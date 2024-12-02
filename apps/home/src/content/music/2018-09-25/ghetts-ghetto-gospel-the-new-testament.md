@@ -95,24 +95,26 @@ tracks:
     favourite: true
 date: '2018-09-25T00:00:00.000Z'
 ---
-What can I say about this? It fucking bumps. Ghetts bars are top notch throughout this
-holy album, he mentions his mum, he talks about his long hiatus and it all flames. I've
+What can I say about this? It fucking bumps. Ghett's bars are top notch throughout this
+holy album, he mentions his mum, he talks about his long hiatus and it is all great. I've
 always loved the aggressiveness he brings to spitting. And something that I really appreciate
-in all this s he manages to uphold this aggression and still have some humour within his songs:
+in all this is he manages to uphold this aggression and still have some humour within his songs:
 
-> I was gonna ring this girl but something in my brain said don't dial
-> Instead I rung Spyro
-> Yo family what you doin' I'm on the high road, I beg a man send
-> Somethin' new
-> I a'int made a tune in a minute y'know g
-> That's cool, send somethin' from the old file
-> When it comes to flows, I know styles
-> When it comes to dough, I know piles
-> When it comes to road, I know miles
-- taken from Pick up the phone
-
+:lyrics[
+  Different day, same mobile, I was gonna ring this girl
+  But something in my brain said "don't dial"
+  Instead, I rung Spyro
+  "Yo family where you deh? I'm on the high road, I beg a man send somethin' new"
+  "I ain't made in a tune in a minute, y'know g"
+  "That's cool, send somethin' from the old file"
+  When it comes to flows, I know styles
+  When it comes to dough, I know piles
+  When it comes to road, I know miles
+][
+  Pick Up The Phone:5zoPOvPDXyzrEH1opocYOd
+]
 
 This is one of many examples that I just enjoy throughout the album.
-And the features he used were all pretty solid although I think the Simz feature could be
-better. Overall this is one of my favourite songs of the year. Shoutouts Carlos for putting
-me onto it.
+And the features he used were all pretty solid although I think the Simz feature on
+:track[3umdrZoO11Va4uuNIOkO7t][King] could be better. Overall this is one of my favourite
+songs of the year. Shout outs Carlos for putting me onto it.

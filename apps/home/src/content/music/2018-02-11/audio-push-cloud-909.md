@@ -100,10 +100,11 @@ tracks:
 date: '2018-02-11T00:00:00.000Z'
 ---
 I learn't about Audio Push last year and and have heard a good few songs that I have liked
-of there's like Ghetto Fabulous Filtered Water on their album 90951 and their renditions
-of Fade and Caroline on My Turn 3. I gave their newest project a listen and I've got to
-admit I am not the biggest fan, it doesn't have much of the structure and I didn't really
-like the production on it. The song Status was one of the only songs that stood out to me
-on the first listen as I really liked the beat and the vocals I thought meshed well with
-the chill vibes. The project wasn't bad just after the first couple listens i'm not sold
-we will see if that changes after the next few.
+of there's like :track[2QUOP3HV6OeoI4C5yqBoTp][Ghetto Fabulous Filtered Water] on their album
+:album[71K6wreFTVyoElXTlr1vOH][90951] and their renditions of Fade and Caroline on
+[My Turn 3](https://on.soundcloud.com/GdbUGrjqdyHbHefq6). I gave their newest project a
+listen and I've got to admit I am not the biggest fan, it doesn't have much of a structure
+and I didn't really like the production on it. The song :track[6Ck8PJII6KcVMVxytmmxX][Status]
+was one of the only songs that stood out to me on the first listen as I really liked the beat
+and the vocals I thought meshed well with the chill vibes. The project wasn't bad just after
+the first couple listens I'm not sold we will see if that changes after the next few.

@@ -97,9 +97,10 @@ date: '2018-09-05T00:00:00.000Z'
 ---
 This is my first time listening to Blood Orange and the pop sound that this guy employs
 is a winner. He takes influences from all over the place. And although some of the songs
-go straight over my head, as I can't find their draw. But the ones that do are a mixture
+go straight over my head, as I can't find their draw. The ones that do are a mixture
 of poppy funk with a little bit of R'n'B sprinkled in. The features are also good on all
 the songs, they appear. They are used well and I believe that each artist did some work.
 
 Overall I am happy that I decided to give this a listen. And I hope if you guys take the
-plunge you will feel the same. If anything listen to *Runnin'*, its like a drug its so good.
+plunge you will feel the same. If anything listen to :track[7eCJ3bONwNeNDViF383s1E][Runnin'],
+its like a drug its so good.

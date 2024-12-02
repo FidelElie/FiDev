@@ -65,6 +65,11 @@ standouts. The beat-switch in Hello Happiness is an earlier contender for the be
 sequence of the year. I'm looking forward to seeing what else she has to put out, I'm ready
 to dance:
 
-> Take me back to the dance floor, So I can dance away my blues, Love is what I'm here for,
-> So don't give me no bad news,
-- taken from Hello Happiness
+:lyrics[
+  Take me back to the dance floor
+  So I can dance away my blues
+  Love is what I'm here for
+  So don't give me no bad news
+][
+  Hello Happiness:4lycyDAaLfWw4dXj6UIZ39
+]

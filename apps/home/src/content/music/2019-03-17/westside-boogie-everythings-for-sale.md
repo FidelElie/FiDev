@@ -82,7 +82,7 @@ tracks:
 date: '2019-03-17T00:00:00.000Z'
 ---
 I guess I could say the writing was on the wall with this album. I had heard from a few people -
-including Carlos who had told me multiple times - that Boogie was fire. And after listening to
+including Carlos who had told me multiple times - that Boogie was sick. And after listening to
 his debut album I have to agree, to at least an extent. I really enjoyed most of what I heard
 from it. His style marries the two camps of music together, with his more R'n'B focussed tracks
 and more Hip Hop oriented. And yes this has been done countless times before him, but there

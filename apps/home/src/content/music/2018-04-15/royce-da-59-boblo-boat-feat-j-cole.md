@@ -31,26 +31,30 @@ genres:
 type: TRACK
 date: '2018-04-15T00:00:00.000Z'
 ---
-When I saw that the Black Hokage was listening to this song (Check out his channel here,
-love his stuff) with Royce and J, I had to listen to it. I love these smooth beats with
-vocals that are not at the forefront of the song but add a lot to the overall experience.
-I also really like when J sings, I'm not sure if this is the unpopular opinion but he can
-hold a note - he may say different on the song Beautiful Bliss - but he knows how to make
+When I saw that the Black Hokage was listening to this song (Check out his channel
+[here](https://www.youtube.com/@theblackhokage), love his stuff) with Royce and J, I had
+to listen to it. I love these smooth beats with vocals that are not at the forefront of the
+song but add a lot to the overall experience. I also really like when J sings, I'm not sure
+if this is the unpopular opinion but he can hold a note - he may say different on the song
+:track[5Ys7Mcr0n8NBTFiwqbTR8m][Beautiful Bliss] - but he knows how to make
 it work. Keeping to what your capable of can still result in something great, rather than
 trying to fit notes that you know won't happen and it results in a crackly mess. Cole has
 does this for ages now and I want to give him the credit he deserves for it The bars are
 also top notch in this:
 
-> This was my main concern back when concerns were lesser
-> Nowadays, I often yearn to press the
-> Backspace button or hit return but life is not no word processor
--taken from Boblo Boat - said by J. Cole
+:lyrics[
+  This was my main concern back when concerns were lesser
+  Nowadays, I often yearn to press the
+  Backspace button or hit return but life is not no word processor
+][Boblo Boat][said by J. Cole]
 
 And Royce talking about his family:
 
-> Nothing compared to our family trips
-> My uncle shook hands with a manly grip
-> All this hand-me-down-shit, I had had an uncanny fit
+:lyrics[
+  Nothing compared to our family trips
+  My uncle shook hands with a manly grip
+  All this hand-me-down-shit, I had had an uncanny fit
+][Boblo Boat]
 
 The bars about a boat ride are great in this song and with Royce's album coming soon, this
 song has got me really excited, give this hip hop a listen it is some great stuff.
