@@ -22,7 +22,6 @@ export const SearchWebsiteRoute = {
 						rating: true,
 					}).merge(
 						z.object({
-							preview: z.string(),
 							type: z.enum(getConstKeys(MusicPostMetadata.types)),
 						}),
 					),
