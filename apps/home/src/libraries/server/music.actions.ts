@@ -99,9 +99,9 @@ export const fetchMusicArtists = async (request: Request) => {
 		queryParams.decodeFromUrl(request.url),
 	);
 
-	const artistEntries = await getCollection("artists", (artist) => {
+	const artistEntries = (await getCollection("artists", (artist) => {
 		return !!artist.data.genres.length;
-	});
+	})).toSorted((artistA, artistB) => artistA.data.name.localeCompare(artistB.data.name));
 
 	const result = paginateEntries(artistEntries, {
 		page,
