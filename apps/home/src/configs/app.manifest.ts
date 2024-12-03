@@ -14,6 +14,9 @@ export const AppManifest = {
 			"/music/artists/:slug": (slug: string) => `/music/artists/${slug}`,
 			"/music/genres": "/music/genres",
 		},
+		internal: {
+			SITEMAP: "/sitemap-index.xml"
+		},
 		socials: {
 			GITHUB: "https://github.com/FidelElie",
 			SPOTIFY: "spotify:user:1147375969",
