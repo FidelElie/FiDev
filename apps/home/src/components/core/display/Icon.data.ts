@@ -3,6 +3,8 @@
 /** Supported icon sprites for component */
 export const ICONS_SPRITES = [
 	"spotify",
+	"apple-logo",
+	"soundcloud",
 	"linkedin",
 	"instagram",
 	"github",

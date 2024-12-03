@@ -4,8 +4,8 @@ import { getEnvironmentVariable } from "@fi.dev/typescript";
 
 import { queryParams } from "@/libraries/utilities";
 import { createKitClient } from "@/libraries/clients";
+import { MusicPostMetadata } from "@/libraries/constants";
 import { SearchWebsiteRoute, SubscribeToWebsiteRoute } from "@/libraries/api";
-import { MusicPostMetadata } from "../constants";
 
 export const searchWebsiteAction = async (request: Request) => {
 	const { dtos, responses } = SearchWebsiteRoute;
@@ -45,12 +45,17 @@ export const searchWebsiteAction = async (request: Request) => {
 		}),
 	]);
 
+	const musicPosts = await Promise.all(
+		musicResult.slice(0, 5).map(async (entry) => {
+			return {
+				...entry.data,
+				slug: entry.slug,
+			};
+		}),
+	);
+
 	const searchResults = {
-		music: musicResult.slice(0, 5).map((entry) => ({
-			...entry.data,
-			slug: entry.slug,
-			preview: entry.body.slice(0, 150),
-		})),
+		music: musicPosts,
 		artists: artistsResult.slice(0, 6).map((entry) => entry.data),
 	};
 

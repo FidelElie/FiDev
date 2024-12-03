@@ -136,3 +136,17 @@ export const FutureCommentDirective = createRegExpDirective({
 			`;
 	},
 });
+
+export const QuoteDirective = createRegExpDirective({
+	identifier: /:quote\[(.*?)\]/g,
+	onMatch: (match) => {
+		const [content] = match.slice(1);
+
+		return { content };
+	},
+	getHTML: (result) => {
+		const { content } = result;
+
+		return `<q>${content}</q>`;
+	},
+});

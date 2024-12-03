@@ -1,15 +1,18 @@
 ---
 import { AppManifest } from "@/configs";
 
+import { fetchMusicProjects, fetchMusicPostsTotal } from "@/libraries/server";
+
 import { RootLayout } from "@/pages/_root.layout";
+
 import { Container, Grid, Link } from "@/components/core";
 import {
 	MusicProjectEntry,
 	MusicCurrentlyPlayingPane,
 	MusicSearchOptions,
 	SubscriberForm,
+	HeadingSection,
 } from "@/components/interfaces";
-import { fetchMusicProjects, fetchMusicPostsTotal } from "@/libraries/server";
 
 const request = new Request(`${Astro.request.url}?page=1&size=3`);
 const [displayPosts, totalPosts] = await Promise.all([
@@ -19,12 +22,7 @@ const [displayPosts, totalPosts] = await Promise.all([
 ---
 <RootLayout title="Home" class="min-h-screen">
 	<Container class="flex flex-col gap-5">
-		<div class="space-y-1">
-			<h2 class="text-5xl font-heading">music</h2>
-			<h3 class="text-lg font-light font-heading tracking-tight text-blue-500">
-				My latest thoughts on various music projects
-			</h3>
-		</div>
+		<HeadingSection title="Music" subtitle="My latest thoughts on various music projects"/>
 		<MusicSearchOptions options={["posts", "artists", "genres"]}/>
 		<Grid>
 			{
@@ -41,9 +39,9 @@ const [displayPosts, totalPosts] = await Promise.all([
 		<div class="astro:block astro:min-h-36">
 			<MusicCurrentlyPlayingPane client:load/>
 		</div>
-		<hr class="border-t border-slate-200 mt-2.5 mb-10"/>
+		<!-- <hr class="border-t border-slate-200 mt-2.5 mb-10"/>
 		<div>
 			<SubscriberForm client:visible/>
-		</div>
+		</div> -->
 	</Container>
 </RootLayout>

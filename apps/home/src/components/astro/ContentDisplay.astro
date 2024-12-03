@@ -1,0 +1,68 @@
+---
+import { twMerge } from "tailwind-merge";
+
+import { getEnvironmentVariable } from "@fi.dev/typescript";
+
+import { compileOutputWithPlugins } from "@/libraries/plugins";
+
+export interface Props {
+	class?: string;
+	content: string;
+}
+
+const { class: _class, content } = Astro.props;
+
+const isDevelopment = getEnvironmentVariable("NODE_ENV") === "development";
+
+const output = await (async () => {
+	if (isDevelopment) {
+		const compiledContent = await compileOutputWithPlugins(content);
+
+		const { reporter } = await import("vfile-reporter");
+
+		console.error(reporter(compiledContent));
+
+		return String(compiledContent);
+	}
+
+	return null;
+})();
+---
+<article
+	class={
+		twMerge(
+			"prose max-w-full",
+			"prose-headings:font-heading",
+			"prose-h2:text-2xl md:prose-h2:text-3xl prose-h2:font-normal",
+			"prose-h3:font-light prose-h3:text-blue-500",
+			"prose-a:decoration-blue-500 prose-a:underline-offset-2",
+			_class
+		)
+	}
+>
+	{
+		isDevelopment && output ? (
+			<Fragment set:html={output}/>
+		) : (
+			<slot/>
+		)
+	}
+</article>
+
+<script>
+	document.addEventListener("astro:page-load", () => {
+		const articleLinks = document.querySelectorAll("article a");
+
+		for (const link of articleLinks) {
+			const linkHref = link.getAttribute("href") || "";
+			// Skip any directive based links
+			if (!linkHref.includes("https://") && !linkHref.includes("http://")) {
+				continue;
+			}
+
+			link.setAttribute("target", "_blank");
+		}
+	});
+</script>
+
+

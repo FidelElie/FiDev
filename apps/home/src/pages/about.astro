@@ -4,23 +4,27 @@ import { Image } from "astro:assets";
 
 import { AppManifest } from "@/configs";
 import { MyselfPhotoshoppedPNG, SignaturePNG, TakingPhotoJPG } from "@/assets";
-import { Content as WhatThisWebsiteMeansToMe } from "@/content/misc/what-this-website-means-to-me.md";
+import * as WhatThisWebsiteMeansToMe from "@/content/misc/what-this-website-means-to-me.md";
 
 import { astroMeta } from "@/libraries/utilities";
 
-import { Button, Container, Icon, Link, Prose } from "@/components/core";
+import { RootLayout } from "@/pages/_root.layout";
+
+import { ContentDisplay } from "@/components/astro";
+import { Button, Container, Icon, Link } from "@/components/core";
 import {
 	MusicCurrentlyPlayingPane,
 	SocialLinksLayout,
 	SubscriberForm,
 } from "@/components/interfaces";
-import { RootLayout } from "./_root.layout";
 
 const meta = astroMeta({
 	title: "About",
 	description:
 		"A bit about the procrastinating script kiddy and the website that your reading",
 });
+
+const { Content, rawContent } = WhatThisWebsiteMeansToMe;
 ---
 <RootLayout
 	class="min-h-screen py-20 md:py-0"
@@ -103,14 +107,14 @@ const meta = astroMeta({
 			</div>
 		</div>
 		<hr class="border-t border-slate-200 mt-3 mb-6"/>
-		<Prose>
-			<WhatThisWebsiteMeansToMe/>
-		</Prose>
+		<ContentDisplay content={rawContent()}>
+			<Content/>
+		</ContentDisplay>
 	</Container>
-	<hr class="mt-10 mb-20 border-t border-slate-200"/>
+	<!-- <hr class="mt-10 mb-20 border-t border-slate-200"/>
 	<Container class="mb-20">
 		<SubscriberForm client:visible/>
-	</Container>
+	</Container> -->
 </RootLayout>
 
 <script>

@@ -14,6 +14,7 @@
 		"check": {
 			"dependsOn": ["^check"]
 		},
+		"test": {},
 		"dev": {
 			"persistent": true,
 			"cache": false

@@ -1,10 +1,11 @@
 ---
 import { fetchMusicArtists, fetchMusicGenres } from "@/libraries/server";
 
-import { Container } from "@/components/core";
-import { MusicSearchOptions } from "@/components/interfaces";
-import { MusicArtistsView } from "@/components/pages/music/artists/MusicArtistsView";
 import { RootLayout } from "@/pages/_root.layout";
+
+import { Container } from "@/components/core";
+import { HeadingSection, MusicSearchOptions } from "@/components/interfaces";
+import { MusicArtistsView } from "@/components/pages/music/artists/MusicArtistsView";
 
 const [initialArtists, genres] = await Promise.all([
 	fetchMusicArtists(Astro.request),
@@ -12,15 +13,13 @@ const [initialArtists, genres] = await Promise.all([
 ]);
 ---
 <RootLayout title="Music artists">
-	<Container class="min-h-screen flex flex-col">
-		<div class="space-y-1">
-			<h1 class="font-heading text-5xl tracking-tighter">artists</h1>
-			<h2 class="text-lg font-light tracking-tight text-blue-500">
-				Search for music through the people behind the projects.
-			</h2>
-		</div>
+	<Container class="min-h-screen flex flex-col gap-3">
+		<HeadingSection
+			title="Artists"
+			subtitle="Search for music through the people behind the projects"
+		/>
 		<MusicSearchOptions options={["posts", "genres"]}/>
-		<div class="flex flex-grow astro:flex-grow astro:block mt-5">
+		<div class="flex flex-grow astro:flex-grow astro:block">
 			<MusicArtistsView
 				initial={[initialArtists]}
 				genres={genres.items}

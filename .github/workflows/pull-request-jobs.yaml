@@ -38,3 +38,27 @@ jobs:
 
       - name: Run checks for repo
         run: pnpm check
+  test:
+    name: Run test jobs
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 9
+
+      - name: Install Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: pnpm install
+        timeout-minutes: 2
+
+      - name: Run tests for repo
+        run: pnpm test

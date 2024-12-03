@@ -14,12 +14,25 @@ export const AppManifest = {
 			"/music/artists/:slug": (slug: string) => `/music/artists/${slug}`,
 			"/music/genres": "/music/genres",
 		},
+		internal: {
+			SITEMAP: "/sitemap-index.xml",
+		},
 		socials: {
 			GITHUB: "https://github.com/FidelElie",
-			SPOTIFY: "https://open.spotify.com/user/1147375969?si=423990a3292040b3",
+			SPOTIFY: "spotify:user:1147375969",
 			LINKEDIN: "https://www.linkedin.com/in/fidel-elie/",
 			INSTAGRAM: "https://www.instagram.com/fidelpe",
 			EMAIL: "fidel.elie@gmail.com",
+		},
+		external: {
+			"apple-music:search": (term: string) =>
+				`https://music.apple.com/us/search?term=${encodeURIComponent(term)}`,
+			"soundcloud:search": (q: string) =>
+				`https://soundcloud.com/search?q=${encodeURIComponent(q)}`,
+			"spotify:directive": (
+				type: "artist" | "playlist" | "track" | "album" | "user",
+				id: string,
+			) => `spotify:${type}:${id}`,
 		},
 	},
 } as const;
