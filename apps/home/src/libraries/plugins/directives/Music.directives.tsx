@@ -84,7 +84,7 @@ const FallbackLink = (props: { href: string; text: string }) => {
 					<use href="#icon-sprite-spotify">
 				</svg>
 				<span
-					class="text-sm relative top-1 underline decoration-blue-500 underline-offset-2 font-heading font-normal"
+					class="relative top-1 underline decoration-blue-500 underline-offset-2 font-heading font-normal"
 				>
 					${props.text}
 				</span>
@@ -223,10 +223,10 @@ const LyricQuote = (props: {
 	quote: string[];
 	text: string;
 	id?: string;
-	type?: string;
+	artist?: string;
 	remark?: string;
 }) => {
-	const { quote, text, id, remark } = props;
+	const { quote, text, id, remark, artist } = props;
 
 	return `
 			<div class="not-prose">
@@ -237,7 +237,7 @@ const LyricQuote = (props: {
 					<div class="flex flex-col">
 						<hr class="border-t border-slate-200 mt-2 mb-1.5"/>
 						<span>
-							From ${id ? TrackDirective.getHTML({ id, text, modifiers: "album" }) : text}
+							From ${id ? TrackDirective.getHTML({ id, text, modifiers: "album" }) : text}${artist ? ` by ${artist}` : ""}
 						</span>
 						${remark ? `<span class="text-sm font-light mt-2 ml-2">${remark}</span>` : ""}
 					</div>
@@ -262,7 +262,7 @@ export const LyricsDirective = createRegExpDirective({
 			.split("\n")
 			.filter(Boolean);
 
-		const [text, id] = link
+		const [text, id, artist] = link
 			.replace("\\n", "")
 			.replace("\n", "")
 			.trim()
@@ -272,6 +272,7 @@ export const LyricsDirective = createRegExpDirective({
 			quote: splitQuote,
 			text,
 			id,
+			artist,
 			...(subtitle ? { remark: subtitle } : {}),
 		});
 	},

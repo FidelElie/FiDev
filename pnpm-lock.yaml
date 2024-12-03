@@ -68,9 +68,6 @@ importers:
       '@solid-primitives/intersection-observer':
         specifier: ^2.1.6
         version: 2.1.6(solid-js@1.9.3)
-      '@solid-primitives/scroll':
-        specifier: ^2.0.23
-        version: 2.0.23(solid-js@1.9.3)
       '@tanstack/solid-query':
         specifier: ^5.56.2
         version: 5.56.2(solid-js@1.9.3)
@@ -101,9 +98,6 @@ importers:
       hast-util-from-html:
         specifier: ^2.0.3
         version: 2.0.3
-      hast-util-from-parse5:
-        specifier: ^8.0.1
-        version: 8.0.1
       html-to-text:
         specifier: ^9.0.5
         version: 9.0.5
@@ -119,9 +113,6 @@ importers:
       remark-rehype:
         specifier: ^11.1.1
         version: 11.1.1
-      solid:
-        specifier: ^0.2.1
-        version: 0.2.1
       solid-js:
         specifier: ^1.9.3
         version: 1.9.3
@@ -1542,11 +1533,6 @@ packages:
     peerDependencies:
       solid-js: ^1.6.12
 
-  '@solid-primitives/scroll@2.0.23':
-    resolution: {integrity: sha512-kO0YpXKEUHaAnHp3zIsHYmxxuKXO3/LxVhZQHHmhqsmUY6A5IBObkSkoQ/ChIPl/WMKE7ynxEq40OgRmhvyUSw==}
-    peerDependencies:
-      solid-js: ^1.6.12
-
   '@solid-primitives/static-store@0.0.5':
     resolution: {integrity: sha512-ssQ+s/wrlFAEE4Zw8GV499yBfvWx7SMm+ZVc11wvao4T5xg9VfXCL9Oa+x4h+vPMvSV/Knv5LrsLiUa+wlJUXQ==}
     peerDependencies:
@@ -2068,10 +2054,6 @@ packages:
   concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
 
-  connect@1.9.2:
-    resolution: {integrity: sha512-6Z9RPjQOHjaI47gK385djHVv7SEkRm1Y9AAvBhiI7gSXpO5sFktTkAD+dkbcaiEo2xaNlS1KIJU3XRxqbPLx6w==}
-    deprecated: connect 1.x series is deprecated
-
   console-control-strings@1.1.0:
     resolution: {integrity: sha512-ty/fTekppD2fIwRvnZAVdeOiGd1c7YXEixbgJTNzqcxJWKQnjJ/V1bNEEE6hygpM3WjwHFUVK6HTjWSzV4a8sQ==}
 
@@ -2375,11 +2357,6 @@ packages:
     resolution: {integrity: sha512-Y/URAVapfbYy2Xp/gb6A0E7iR8xeqOCXsuuaoMn7A5PzrXUK84E1gyiEfq0wQd/GHA6GsoHWwhNq8anb0mleIw==}
     engines: {node: ^8.12.0 || >=9.7.0}
 
-  express@2.5.11:
-    resolution: {integrity: sha512-gc3jJ0P3Bh1Zjkxe0ICSNmjhDvYWKiXfQIdDWuRPr8S4IZAZexzJHjrzNz56LsRKHTL0OiXQq602GfwZjZ8xPQ==}
-    deprecated: express 2.x series is deprecated
-    hasBin: true
-
   extend-shallow@2.0.1:
     resolution: {integrity: sha512-zCnTtlxNoAiDc3gqY2aYAWFx7XWWiasuF2K8Me5WbN8otHKTUKBwjPtNpRs/rbUZm7KxWAaNj7P1a/p52GbVug==}
     engines: {node: '>=0.10.0'}
@@ -2429,11 +2406,6 @@ packages:
   foreground-child@3.3.0:
     resolution: {integrity: sha512-Ld2g8rrAyMYFXBhEqMz8ZAHBi4J4uS1i/CxGMDnjyFWddMXLVcDp051DZfu+t7+ab7Wv6SMqpWmyFIj5UbfFvg==}
     engines: {node: '>=14'}
-
-  formidable@1.0.17:
-    resolution: {integrity: sha512-95MFT5qipMvUiesmuvGP1BI4hh5XWCzyTapiNJ/k8JBQda7rPy7UCWYItz2uZEdTgGNy1eInjzlL9Wx1O9fedg==}
-    engines: {node: '>=0.8.0'}
-    deprecated: 'Please upgrade to latest, formidable@v2 or formidable@v3! Check these notes: https://bit.ly/2ZEqIau'
 
   fraction.js@4.3.7:
     resolution: {integrity: sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==}
@@ -2937,9 +2909,6 @@ packages:
     resolution: {integrity: sha512-PXwfBhYu0hBCPw8Dn0E+WDYb7af3dSLVWKi3HGv84IdF4TyFoC0ysxFd0Goxw7nSv4T/PzEJQxsYsEiFCKo2BA==}
     engines: {node: '>=8.6'}
 
-  mime@1.2.4:
-    resolution: {integrity: sha512-u4y8WFj7SnfbHxyzCMSV2nL/GKbfZ+lidPf1V4/XUKCJ49N6ttQWp/xnqpbMQEx3naBSt93i2qtPLFj/mjPDaA==}
-
   mimic-fn@2.1.0:
     resolution: {integrity: sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==}
     engines: {node: '>=6'}
@@ -2978,10 +2947,6 @@ packages:
   minizlib@2.1.2:
     resolution: {integrity: sha512-bAxsR8BVfj60DWXHE3u30oHzfl4G7khkSuPW+qvpd7jFRHm7dLxOjUk1EHACJ/hxLY8phGJ0YhYHZo7jil7Qdg==}
     engines: {node: '>= 8'}
-
-  mkdirp@0.3.0:
-    resolution: {integrity: sha512-OHsdUcVAQ6pOtg5JYWpCBo9W/GySVuwvP9hueRMW7UqshC0tbfzLv8wjySTPm3tfUZ/21CE9E1pJagOA91Pxew==}
-    deprecated: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
 
   mkdirp@1.0.4:
     resolution: {integrity: sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==}
@@ -3336,9 +3301,6 @@ packages:
   pump@3.0.2:
     resolution: {integrity: sha512-tUPXtzlGM8FE3P0ZL6DVs/3P58k9nk8/jZeQCurTJylQA8qFYzHFfhBJkuqyE0FifOsQ0uKWekiZ5g8wtr28cw==}
 
-  qs@0.4.2:
-    resolution: {integrity: sha512-VAtfWeUtlBOnGiWFok2vOIMmwumiLmpqXDcXQcAEIQmLYgDbjrkHrcFBfth+YVDeRsz7jX44dhJr7IBJR0t/FQ==}
-
   qss@3.0.0:
     resolution: {integrity: sha512-ZHoCB3M/3Voev64zhLLUOKDtaEdJ/lymsJJ7R3KBusVZ2ovNiIB7XOq3Xh6V1a8O+Vho+g2B5YElq9zW7D8aQw==}
     engines: {node: '>=4'}
@@ -3576,9 +3538,6 @@ packages:
     peerDependencies:
       solid-js: ^1.3
 
-  solid@0.2.1:
-    resolution: {integrity: sha512-kVdiCZd2dMH7ESvmHrEZuOUgjADW2nWjiDzyhgPfC79i6UnZyzyspaMbpjxPh1JTul6Zh3bLocY9FaFY/ikyKA==}
-
   source-map-js@1.2.1:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
     engines: {node: '>=0.10.0'}
@@ -3691,9 +3650,6 @@ packages:
 
   thenify@3.3.1:
     resolution: {integrity: sha512-RVZSIV5IG10Hk3enotrhvz0T9em6cyHBLkH/YAZuKqd8hRkKhSfCGIcP2KUY0EPxndzANBmNllzWPwak+bheSw==}
-
-  thermos@0.1.0:
-    resolution: {integrity: sha512-1sYrbXxpUJyoBpPlDzXpiB4uS8OzwPL+C/chT58X8gD+EpQpIeLOAYEBx/JnCDIKa53ur9WYMvYEuAjbXwr8UQ==}
 
   tinybench@2.9.0:
     resolution: {integrity: sha512-0+DUvqWMValLmha6lr4kD8iAMK1HzV0/aKnCtWb9v9641TnP/MFb7Pc2bxoxQjTXAErryXVgUOfv2YqNllqGeg==}
@@ -5458,13 +5414,6 @@ snapshots:
     dependencies:
       solid-js: 1.9.3
 
-  '@solid-primitives/scroll@2.0.23(solid-js@1.9.3)':
-    dependencies:
-      '@solid-primitives/event-listener': 2.3.3(solid-js@1.9.3)
-      '@solid-primitives/rootless': 1.4.5(solid-js@1.9.3)
-      '@solid-primitives/static-store': 0.0.8(solid-js@1.9.3)
-      solid-js: 1.9.3
-
   '@solid-primitives/static-store@0.0.5(solid-js@1.9.3)':
     dependencies:
       '@solid-primitives/utils': 6.2.3(solid-js@1.9.3)
@@ -6086,12 +6035,6 @@ snapshots:
 
   concat-map@0.0.1: {}
 
-  connect@1.9.2:
-    dependencies:
-      formidable: 1.0.17
-      mime: 1.2.4
-      qs: 0.4.2
-
   console-control-strings@1.1.0: {}
 
   convert-source-map@2.0.0: {}
@@ -6368,13 +6311,6 @@ snapshots:
       signal-exit: 3.0.7
       strip-final-newline: 2.0.0
 
-  express@2.5.11:
-    dependencies:
-      connect: 1.9.2
-      mime: 1.2.4
-      mkdirp: 0.3.0
-      qs: 0.4.2
-
   extend-shallow@2.0.1:
     dependencies:
       is-extendable: 0.1.1
@@ -6427,8 +6363,6 @@ snapshots:
     dependencies:
       cross-spawn: 7.0.3
       signal-exit: 4.1.0
-
-  formidable@1.0.17: {}
 
   fraction.js@4.3.7: {}
 
@@ -7141,8 +7075,6 @@ snapshots:
       braces: 3.0.3
       picomatch: 2.3.1
 
-  mime@1.2.4: {}
-
   mimic-fn@2.1.0: {}
 
   mimic-function@5.0.1: {}
@@ -7173,8 +7105,6 @@ snapshots:
     dependencies:
       minipass: 3.3.6
       yallist: 4.0.0
-
-  mkdirp@0.3.0: {}
 
   mkdirp@1.0.4: {}
 
@@ -7491,8 +7421,6 @@ snapshots:
       end-of-stream: 1.4.4
       once: 1.4.0
 
-  qs@0.4.2: {}
-
   qss@3.0.0: {}
 
   queue-microtask@1.2.3: {}
@@ -7805,11 +7733,6 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  solid@0.2.1:
-    dependencies:
-      express: 2.5.11
-      thermos: 0.1.0
-
   source-map-js@1.2.1: {}
 
   source-map-support@0.5.21:
@@ -7945,8 +7868,6 @@ snapshots:
   thenify@3.3.1:
     dependencies:
       any-promise: 1.3.0
-
-  thermos@0.1.0: {}
 
   tinybench@2.9.0: {}
 

@@ -3,6 +3,7 @@ import { fromHtml } from "hast-util-from-html";
 import type { Root, Element } from "hast";
 
 import { toRegexCompliantString, type PromiseOrNot } from "@fi.dev/typescript";
+import { writeFileSync } from "fs";
 
 type RegExpDirective<T> = {
 	identifier: RegExp | string;
@@ -63,7 +64,7 @@ export const remarkRegExpDirective = (
 			}
 		});
 
-		const promises = await Promise.all(
+		await Promise.all(
 			textNodes.map(async (node) => {
 				const { children } = node;
 
@@ -75,12 +76,12 @@ export const remarkRegExpDirective = (
 
 						const directiveMatches = await Promise.all(
 							standardisedDirectives.map(async (directive) => {
-								const textNodes = Array.from(
+								const matches = Array.from(
 									child.value.matchAll(directive.identifier),
 								);
 
 								return Promise.all(
-									textNodes.map(async (match) => {
+									matches.map(async (match) => {
 										const html = await directive.getHTML(
 											await directive.onMatch(match),
 										);
@@ -111,7 +112,7 @@ export const remarkRegExpDirective = (
 						}
 
 						const flattenedMatches = flattened.toSorted(
-							(matchA, matchB) => matchB.index - matchA.index,
+							(matchA, matchB) => matchA.index - matchB.index,
 						);
 
 						const uniqueIdentifiers = Array.from(
@@ -152,8 +153,6 @@ export const remarkRegExpDirective = (
 				node.children = mappedChildren.flat();
 			}),
 		);
-
-		await Promise.all(promises);
 
 		return tree;
 	};

@@ -15,7 +15,8 @@ import {
 	VideoDirective,
 	ImageDirective,
 	LinkDirective,
-	FutureCommentDirective
+	FutureCommentDirective,
+	QuoteDirective
 } from "./directives";
 import { remarkRegExpDirective } from "./remarkRegExpDirective";
 
@@ -32,6 +33,7 @@ export const rehypePlugins = [
 					ImageDirective,
 					LinkDirective,
 					FutureCommentDirective,
+					QuoteDirective
 			],
 	],
 ] satisfies RehypePlugins;
