@@ -44,10 +44,7 @@ export const SocialLinksLayout = (props: SocialLinksLayoutProps) => {
 				</Link>
 			</li>
 			<li>
-				<Link
-					href={AppManifest.links.socials.SPOTIFY}
-					aria-label="My Spotify"
-				>
+				<Link href={AppManifest.links.socials.SPOTIFY} aria-label="My Spotify">
 					<Icon
 						name="spotify"
 						class={twMerge("text-2xl text-slate-600", props.iconClass)}

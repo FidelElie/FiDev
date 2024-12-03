@@ -12,7 +12,7 @@ export interface Props {
 
 const { class: _class, content } = Astro.props;
 
-const isDevelopment = getEnvironmentVariable("NODE_ENV") === "development"
+const isDevelopment = getEnvironmentVariable("NODE_ENV") === "development";
 
 const output = await (async () => {
 	if (isDevelopment) {
@@ -25,7 +25,7 @@ const output = await (async () => {
 		return String(compiledContent);
 	}
 
-	return null
+	return null;
 })();
 ---
 <article

@@ -54,9 +54,9 @@ export const searchWebsiteAction = async (request: Request) => {
 			return {
 				...entry.data,
 				slug: entry.slug,
-			preview: convert(String(preview))
-			}
-		})
+				preview: convert(String(preview)),
+			};
+		}),
 	);
 
 	const searchResults = {

@@ -49,17 +49,20 @@ const [firstImageCover] = covers;
 const tracksList =
 	type === MusicPostMetadata.types.ALBUM ? entry.data.tracks : [];
 
-const favouriteTracks = tracksList.map(
-	(track, trackIndex) => track.favourite ? {
-		number: trackIndex + 1,
-		track,
-	} : []
-).flat();
+const favouriteTracks = tracksList
+	.map((track, trackIndex) =>
+		track.favourite
+			? {
+					number: trackIndex + 1,
+					track,
+				}
+			: [],
+	)
+	.flat();
 
 const truncatedContent = convert(
-	(await compileOutputWithPlugins(entry.body)).toString()
+	(await compileOutputWithPlugins(entry.body)).toString(),
 ).slice(0, 100);
-
 ---
 <RootLayout
 	title={`Music: ${firstArtist?.data.name} - ${name}`}

@@ -1,8 +1,8 @@
 import { Show } from "solid-js";
 
-import type { MusicPostSchema } from "@/libraries/schemas"
+import type { MusicPostSchema } from "@/libraries/schemas";
 
-import { Icon, Link, Popover, type IconProps } from "@/components/core"
+import { Icon, Link, Popover, type IconProps } from "@/components/core";
 import { AppManifest } from "@/configs";
 
 export const MusicLinksPane = (props: MusicLinksPaneProps) => {
@@ -10,37 +10,50 @@ export const MusicLinksPane = (props: MusicLinksPaneProps) => {
 
 	const generateSpotifyLinks = () => {
 		return {
-			...(firstArtist ? {
-				artistLink: AppManifest.links.external["spotify:directive"]("artist", firstArtist.spotifyId)
-			} : {}),
+			...(firstArtist
+				? {
+						artistLink: AppManifest.links.external["spotify:directive"](
+							"artist",
+							firstArtist.spotifyId,
+						),
+					}
+				: {}),
 			musicLink: AppManifest.links.external["spotify:directive"](
 				props.post.type === "ALBUM" ? "album" : "track",
-				props.post.spotifyId
-			)
-		}
-	}
+				props.post.spotifyId,
+			),
+		};
+	};
 
 	const generateAppleLinks = () => {
 		return {
-			...(firstArtist ? {
-				artistLink: AppManifest.links.external["apple-music:search"](firstArtist.name)
-			} : {}),
+			...(firstArtist
+				? {
+						artistLink: AppManifest.links.external["apple-music:search"](
+							firstArtist.name,
+						),
+					}
+				: {}),
 			musicLink: AppManifest.links.external["apple-music:search"](
-				`${firstArtist.name || ""} - ${props.post.name}`.trim()
-			)
-		}
-	}
+				`${firstArtist.name || ""} - ${props.post.name}`.trim(),
+			),
+		};
+	};
 
 	const generateSoundCloudLinks = () => {
 		return {
-			...(firstArtist ? {
-				artistLink: AppManifest.links.external["soundcloud:search"](firstArtist.name)
-			} : {}),
+			...(firstArtist
+				? {
+						artistLink: AppManifest.links.external["soundcloud:search"](
+							firstArtist.name,
+						),
+					}
+				: {}),
 			musicLink: AppManifest.links.external["soundcloud:search"](
-				`${firstArtist.name || ""} - ${props.post.name}`.trim()
-			)
-		}
-	}
+				`${firstArtist.name || ""} - ${props.post.name}`.trim(),
+			),
+		};
+	};
 
 	return (
 		<div class="flex justify-end gap-1 md:flex-col-reverse">
@@ -62,8 +75,8 @@ export const MusicLinksPane = (props: MusicLinksPaneProps) => {
 				{...generateSpotifyLinks()}
 			/>
 		</div>
-	)
-}
+	);
+};
 
 const MusicLinkDropdown = (props: MusicLinkDropdownProps) => {
 	return (
@@ -103,8 +116,8 @@ const MusicLinkDropdown = (props: MusicLinkDropdownProps) => {
 				Go to music
 			</Link>
 		</Popover>
-	)
-}
+	);
+};
 
 type MusicLinkDropdownProps = {
 	icon: IconProps["name"];
@@ -112,8 +125,8 @@ type MusicLinkDropdownProps = {
 	artistLink?: string;
 	musicLink?: string;
 	blank?: boolean;
-}
+};
 
 export type MusicLinksPaneProps = {
 	post: MusicPostSchema;
-}
+};

@@ -142,12 +142,11 @@ export const QuoteDirective = createRegExpDirective({
 	onMatch: (match) => {
 		const [content] = match.slice(1);
 
-		return { content }
+		return { content };
 	},
 	getHTML: (result) => {
 		const { content } = result;
 
-		return `<q>${content}</q>`
-	}
+		return `<q>${content}</q>`;
+	},
 });
-

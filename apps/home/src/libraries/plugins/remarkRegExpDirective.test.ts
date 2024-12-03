@@ -28,22 +28,14 @@ of place even with the transition being so good between it and the Saba track
 :track[2VFgYkEP5RbTxRzVM7i6Cz][2VFgYkEP5RbTxRzVM7i6Cz]. I also think the bonus track
 :track[2Li5EVxVHq3yAXBIixJpvK][LONG LIVE DOC] could have just been left off the project, as
 I don't think it adds anything and the album should just end with the great outro.
-`
+`;
 
-describe(
-	"remarkRegExpDirective",
-	() => {
-		it(
-			"Will properly update inputs with correct directives",
-			async () => {
-				const output = (await compileOutputWithPlugins(testInput)).toString();
+describe("remarkRegExpDirective", () => {
+	it("Will properly update inputs with correct directives", async () => {
+		const output = (await compileOutputWithPlugins(testInput)).toString();
 
-				console.log(output);
+		console.log(output);
 
-				expect(output.includes("<q>Young Mexico - Young Flexico</q>")).toBeTruthy();
-			}
-		);
-
-
-	}
-);
+		expect(output.includes("<q>Young Mexico - Young Flexico</q>")).toBeTruthy();
+	});
+});

@@ -15,7 +15,7 @@ export const AppManifest = {
 			"/music/genres": "/music/genres",
 		},
 		internal: {
-			SITEMAP: "/sitemap-index.xml"
+			SITEMAP: "/sitemap-index.xml",
 		},
 		socials: {
 			GITHUB: "https://github.com/FidelElie",
@@ -25,16 +25,14 @@ export const AppManifest = {
 			EMAIL: "fidel.elie@gmail.com",
 		},
 		external: {
-			"apple-music:search": (
-				term: string
-			) => `https://music.apple.com/us/search?term=${encodeURIComponent(term)}`,
-			"soundcloud:search": (
-				q: string
-			) => `https://soundcloud.com/search?q=${encodeURIComponent(q)}`,
+			"apple-music:search": (term: string) =>
+				`https://music.apple.com/us/search?term=${encodeURIComponent(term)}`,
+			"soundcloud:search": (q: string) =>
+				`https://soundcloud.com/search?q=${encodeURIComponent(q)}`,
 			"spotify:directive": (
 				type: "artist" | "playlist" | "track" | "album" | "user",
-				id: string
-			) => `spotify:${type}:${id}`
-		}
+				id: string,
+			) => `spotify:${type}:${id}`,
+		},
 	},
 } as const;
