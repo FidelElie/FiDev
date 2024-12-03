@@ -44,7 +44,7 @@ tracks:
   - spotifyId: 5G8y6DhzM6YMorFC0rh8RK
     spotifyUrl: 'https://open.spotify.com/track/5G8y6DhzM6YMorFC0rh8RK'
     name: 'Spinnin These Blocks (feat. BJ The Chicago Kid, Maxo Kream & Paul Wall)'
-    favourite: false
+    favourite: true
   - spotifyId: 2hXo9A8f3hWhclFCAkJGix
     spotifyUrl: 'https://open.spotify.com/track/2hXo9A8f3hWhclFCAkJGix'
     name: Autopay (Skit)
@@ -97,6 +97,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/2Li5EVxVHq3yAXBIixJpvK'
     name: LONG LIVE DOC (BONUS)
     favourite: false
+date: '2024-12-02T00:00:00.000Z'
 ---
 What seems like an age ago in 2021, fresh out of COVID - finally lost the weight from all
 the pizza making I did and I found myself at a party with university people i hadn't seen
@@ -104,9 +105,9 @@ in about two years. It may have been an :track[1EoHEkVcysf4WVDx6r9WzQ][Over] mom
 
 :lyrics[
   I know way to many people here right now
-  That I didn't know last year who the fuck are yall
+  That I didn't know last year who the fuck are yall?
 ][
-  Over:1EoHEkVcysf4WVDx6r9WzQ
+  Over:1EoHEkVcysf4WVDx6r9WzQ:Drake
 ][
   Sorry came to mind - had to do it
 ]
@@ -118,7 +119,7 @@ and I got listening to it. Even up to recently when
 I have picked it back up I really liked it so not sure why it never made it into my main
 playlist. Luckily for me though I think this new offering is even better.
 
-'Young Mexico - Young Flexico' (that's what he calls himself - don't come for me) is a
+:quote[Young Mexico - Young Flexico] (that's what he calls himself - don't come for me) is a
 producer through and through. All the beats on this are clean and punchy, non of the
 transitions are jarring even if he can switch genres with what seems to be every other song.
 It stays rooted with rnb or hip hop for the most part with elements of others. Surprisingly,
@@ -133,10 +134,24 @@ also starts with jesus' very different sermon (it is very entertaining) or the r
 are tracks like :track[3As19hYDpTwkp9Ia2yEqVF][Plata O Plomo (Remix)] that deviate drastically from this.
 I do like that song a lot, a great  ignorant hype track to me - it can feel a little out
 of place even with the transition being so good between it and the Saba track
-:track[2VFgYkEP5RbTxRzVM7i6Cz][2VFgYkEP5RbTxRzVM7i6Cz]. I also think the bonus track
+:track[2VFgYkEP5RbTxRzVM7i6Cz][U Shoulda Been There (feat. Saba)]. I also think the bonus track
 :track[2Li5EVxVHq3yAXBIixJpvK][LONG LIVE DOC] could have just been left off the project, as
 I don't think it adds anything and the album should just end with the great outro.
 
 These points do hurt the offering slightly, but not enough to ruin
 a great experience that I can recommend with my whole chest. Now excuse me while I go back
 and listen to his previous one for at least the tenth time...
+
+:lyrics[
+  They say trust the process, don't rush the process
+  Take your time
+  DON'T GROW UP TOO SOON man
+  Keep that imagination, keep that wonder, keep that drive man
+  Keep striving to push the envelope and make something new
+  Reinvent, keep on creating baby
+  You'll never get stale that way
+][
+  Found You (Outro):2fBx9NDWSdxk7NZIzJWwqQ
+][
+  Wise words from the man himself
+]

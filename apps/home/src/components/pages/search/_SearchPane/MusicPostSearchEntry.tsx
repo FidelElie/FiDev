@@ -30,7 +30,7 @@ export const MusicPostSearchEntry = (props: MusicPostSearchEntryProps) => {
 					{firstArtist.name} - {props.post.name}
 				</h2>
 				<MusicPostRatingTag rating={props.post.rating} />
-				<p class="line-clamp-1">{props.post.preview}...</p>
+				<p class="text-sm text-blue-500">{props.post.type === "ALBUM" ? "LP" : "Track"}</p>
 			</div>
 		</a>
 	);

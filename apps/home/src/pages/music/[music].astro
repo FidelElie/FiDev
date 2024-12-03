@@ -3,17 +3,22 @@ import { Image } from "astro:assets";
 import { getCollection } from "astro:content";
 
 import { Show } from "solid-js";
+import { convert } from "html-to-text";
+
+import { getDateTimeString } from "@fi.dev/typescript";
 
 import { AppManifest } from "@/configs";
 
 import { MusicPostMetadata } from "@/libraries/constants";
 import { fetchMusicPostsTotal } from "@/libraries/server";
+import { compileOutputWithPlugins } from "@/libraries/plugins";
+
+import { RootLayout } from "@/pages/_root.layout";
 
 import { ContentDisplay } from "@/components/astro";
 import { Container, Icon, Link } from "@/components/core";
 import { MusicPostRatingTag, SubscriberForm } from "@/components/interfaces";
-import { RootLayout } from "@/pages/_root.layout";
-import { SpotifyLinkDropdown } from "@/components/pages/music/[music]/SpotifyLinkDropdown";
+import { MusicLinksPane } from "@/components/pages/music/[music]/MusicLinksPane";
 
 const totalMusicPosts = await fetchMusicPostsTotal();
 
@@ -44,12 +49,20 @@ const [firstImageCover] = covers;
 const tracksList =
 	type === MusicPostMetadata.types.ALBUM ? entry.data.tracks : [];
 
-const favouriteTracks = tracksList.filter((track) => !!track.favourite);
+const favouriteTracks = tracksList.map(
+	(track, trackIndex) => track.favourite ? {
+		number: trackIndex + 1,
+		track,
+	} : []
+).flat();
 
-const truncatedContent = entry.body.slice(0, 100);
+const truncatedContent = convert(
+	(await compileOutputWithPlugins(entry.body)).toString()
+).slice(0, 100);
+
 ---
 <RootLayout
-	title={`Music: ${firstArtist.data.name} - ${name}`}
+	title={`Music: ${firstArtist?.data.name} - ${name}`}
 	description={truncatedContent}
 >
 	<Container class="flex flex-col gap-5 min-h-screen md:gap-10 md:flex-row">
@@ -66,7 +79,7 @@ const truncatedContent = entry.body.slice(0, 100);
 				)
 			}
 			<div class="flex flex-col items-end w-full">
-				<ul class="text-right space-y-2 font-light w-full">
+				<ul class="text-right space-y-2 text-sm font-light w-full">
 					<li>
 						<Link href="/music" class="text-sm tracking-wide">
 							More ({totalMusicPosts - 1})
@@ -74,18 +87,20 @@ const truncatedContent = entry.body.slice(0, 100);
 					</li>
 					<li><hr class="w-full" /></li>
 					<li>{type === MusicPostMetadata.types.ALBUM ? "LP" : "Single"}</li>
-					<li>{release}</li>
+					<li><time datetime={release}>{release}</time></li>
 					<li>{Math.ceil(duration / 1000 / 60)} mins</li>
 					<Show when={type === MusicPostMetadata.types.ALBUM}>
 						<details>
-							<summary>Track list</summary>
+							<summary class="cursor-pointer">
+								<span class="font-light text-blue-500">Track list</span>
+							</summary>
 							<hr class="border-slate-200 my-1.5"/>
 							<ul class="space-y-0.5">
 								{
 									tracksList.map(
 										(track, trackIndex) => (
 											<li class="text-sm">
-												{track.name} {track.favourite && <span>[F]</span>} <span class="text-blue-500 font-heading">.{trackIndex + 1}</span>
+												{track.name} <span class="text-blue-500 font-heading">.{trackIndex + 1}</span>
 											</li>
 										)
 									)
@@ -97,19 +112,22 @@ const truncatedContent = entry.body.slice(0, 100);
 					<Show when={genres.length}>
 						<li>{genres.join(", ")}</li>
 					</Show>
+					<li>
+						<MusicLinksPane post={entry.data} client:load/>
+					</li>
 				</ul>
 			</div>
 		</aside>
 		<article class="flex-grow">
 			<section>
 				<Link
-					href={AppManifest.links.pages["/music/artists/:slug"](firstArtist.data.slug)}
-					aria-label={`${firstArtist.data.name} Artist Page`}
+					href={AppManifest.links.pages["/music/artists/:slug"](firstArtist?.data.slug)}
+					aria-label={`${firstArtist?.data.name} Artist Page`}
 					class="text-xl w-min flex items-center gap-1 group"
 				>
 					<div class="h-12 w-12 rounded-full border border-slate-200 relative">
 						{
-							firstArtist.data.covers.length && (
+							firstArtist?.data.covers.length && (
 								<Image
 									src={firstArtist.data.covers[0].url}
 									alt={`${firstArtist.data.name} avatar`}
@@ -120,42 +138,45 @@ const truncatedContent = entry.body.slice(0, 100);
 						}
 					</div>
 					<h2 class="font-light whitespace-nowrap group-hover:text-blue-500">
-						{firstArtist.data.name}
+						{firstArtist?.data.name}
 					</h2>
 				</Link>
 				<h1 class="text-5xl font-heading tracking-tighter">{name}</h1>
 				<Show when={type === MusicPostMetadata.types.ALBUM}>
-					<p class="mt-2 font-light">
-						<span class="font-heading text-blue-500">Favourite Songs:</span> {
-							favouriteTracks.length ? (
-								favouriteTracks.length === tracksList.length ? (
-									<>All of them</>
-								) : (
-									tracksList
-										.filter(track => track.favourite)
-										.map(favourite => favourite.name).join(", ")
+					<details>
+						<summary class="cursor-pointer">
+							<span class="text-blue-500 font-light text-sm">Favourite Tracks</span>
+						</summary>
+						<ul class="space-y-2 my-2">
+							{
+								favouriteTracks.map(
+									(track) => (
+										<li class="text-sm font-light">
+											<span class="text-blue-500 font-heading">{track.number}.</span> {track.track.name}
+										</li>
+									)
 								)
-							) : (
-								<>None</>
-							)
-						}
-					</p>
+							}
+						</ul>
+					</details>
 				</Show>
 				<div class="flex items-center justify-between mt-1.5">
 					<div class="flex items-center gap-2">
 						<MusicPostRatingTag rating={entry.data.rating}/>
-						{
-							entry.data.date && (
-								<div class="flex items-center">
-									<Icon name="calendar" class="text-blue-500 mr-1.5"/>
-									<p class="text-sm">{new Date(entry.data.date).toDateString()}</p>
-								</div>
-							)
-						}
 					</div>
-					<div class="flex items-center">
-						<SpotifyLinkDropdown post={entry.data} client:load/>
-					</div>
+					{
+						entry.data.date && (
+							<div class="flex items-center">
+								<Icon name="calendar" class="text-blue-500 mr-1.5"/>
+								<time
+									class="text-sm"
+									datetime={getDateTimeString(entry.data.date)}
+								>
+									{new Date(entry.data.date).toDateString()}
+								</time>
+							</div>
+						)
+					}
 				</div>
 			</section>
 			<hr class="border-slate-200 mt-2.5 mb-5"/>

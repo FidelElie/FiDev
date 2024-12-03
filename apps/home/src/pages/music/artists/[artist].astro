@@ -2,11 +2,11 @@
 import { Image } from "astro:assets";
 import { getCollection } from "astro:content";
 
-import { generateSpotifyURI } from "@/libraries/utilities";
-
-import { Container, Link } from "@/components/core";
-import { MusicPostRatingTag } from "@/components/interfaces";
 import { RootLayout } from "@/pages/_root.layout";
+
+import { Container, Icon, Link } from "@/components/core";
+import { MusicPostRatingTag } from "@/components/interfaces";
+import { AppManifest } from "@/configs";
 
 export async function getStaticPaths() {
 	const musicPosts = await getCollection("artists");
@@ -19,7 +19,7 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 
-const { name, slug, covers, genres, spotifyId, spotifyUrl } = entry.data;
+const { name, slug, covers, genres, spotifyId } = entry.data;
 
 const musicPosts = await getCollection("music", (entry) => {
 	return entry.data.artists.some((artist) => artist.spotifyId === spotifyId);
@@ -44,20 +44,46 @@ const musicPosts = await getCollection("music", (entry) => {
 				</div>
 				<div class="flex flex-col">
 					<h1 class="text-5xl font-heading">{name}</h1>
-					<p class="mt-2 text-gray-500 font-light">
+					<p class="mt-1 mb-2.5 text-gray-500 font-light">
 						{genres.join(", ")}
 					</p>
-					<div>
-						<Link
-							href={generateSpotifyURI(spotifyUrl)}
-							class="decoration-green-600 text-sm hover:text-green-600"
+					<div class="flex gap-1">
+						<a
+							href={AppManifest.links.external["spotify:directive"]("artist", spotifyId)}
+							class="border border-slate-200 rounded-lg py-1 px-2"
+							target="_blank"
 						>
-							Spotify
-						</Link>
+							<div class="flex items-center gap-1 text-sm">
+								<Icon name="spotify" class="text-xl text-blue-500"/>
+								Spotify
+							</div>
+						</a>
+						<a
+							href={AppManifest.links.external["soundcloud:search"](name)}
+							class="border border-slate-200 rounded-lg py-1 px-2"
+							target="_blank"
+						>
+							<div class="flex items-center gap-1 text-sm">
+								<Icon name="soundcloud" class="text-xl text-blue-500"/>
+								SoundCloud
+							</div>
+						</a>
+						<a
+							href={AppManifest.links.external["apple-music:search"](name)}
+							class="border border-slate-200 rounded-lg py-1 px-2"
+							target="_blank"
+						>
+							<div class="flex items-center gap-1 text-sm">
+								<Icon name="apple-logo" class="text-xl text-blue-500"/>
+								Apple Music
+							</div>
+						</a>
 					</div>
 				</div>
 			</div>
-			<a href="/music/artists" class="text-sm mt-2 block font-heading mb-2">To artists</a>
+			<Link href="/music/artists">
+				To artists
+			</Link>
 			<hr class="border-t border-slate-200 my-4"/>
 			<div class="space-y-5">
 				{

@@ -2,8 +2,6 @@ import { twMerge } from "tailwind-merge";
 
 import { AppManifest } from "@/configs";
 
-import { generateSpotifyURI } from "@/libraries/utilities";
-
 import { Link, Icon } from "@/components/core";
 
 export const SocialLinksLayout = (props: SocialLinksLayoutProps) => {
@@ -47,7 +45,7 @@ export const SocialLinksLayout = (props: SocialLinksLayoutProps) => {
 			</li>
 			<li>
 				<Link
-					href={generateSpotifyURI(AppManifest.links.socials.SPOTIFY)}
+					href={AppManifest.links.socials.SPOTIFY}
 					aria-label="My Spotify"
 				>
 					<Icon
