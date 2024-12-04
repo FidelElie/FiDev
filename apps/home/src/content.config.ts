@@ -1,3 +1,4 @@
+import { glob } from "astro/loaders";
 import { defineCollection, getCollection } from "astro:content";
 
 import { sanitiseToURLSlug } from "@fi.dev/typescript";
@@ -8,12 +9,11 @@ import { getSpotifyEnv } from "@/libraries/utilities";
 import { createSpotifyClient } from "@/libraries/clients";
 
 const music = defineCollection({
-	type: "content",
+	loader: glob({ pattern: '**\/[^_]*.md', base: "./src/content/music" }),
 	schema: MusicPostSchema,
 });
 
 const artists = defineCollection({
-	type: "content_layer",
 	loader: async () => {
 		console.log("Fetching spotify artist metadata");
 		const musicPosts = await getCollection("music");

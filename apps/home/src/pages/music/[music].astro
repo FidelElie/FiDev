@@ -1,6 +1,6 @@
 ---
 import { Image } from "astro:assets";
-import { getCollection } from "astro:content";
+import { getCollection, render } from "astro:content";
 
 import { Show } from "solid-js";
 import { convert } from "html-to-text";
@@ -26,14 +26,14 @@ export const getStaticPaths = async () => {
 	const musicPosts = await getCollection("music");
 
 	return musicPosts.map((entry) => ({
-		params: { music: entry.slug },
+		params: { music: entry.data.slug },
 		props: { entry },
 	}));
 };
 
 const { entry } = Astro.props;
 
-const { Content } = await entry.render();
+const { Content } = await render(entry);
 
 const { name, artists, covers, type, release, genres, duration } = entry.data;
 
