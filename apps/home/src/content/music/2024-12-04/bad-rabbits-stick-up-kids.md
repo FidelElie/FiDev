@@ -60,7 +60,7 @@ Spotify bio:
 
 :lyrics[
   "The hardest R&B act on the planet" Salim. Dua. Sheel. Est 2007 in Boston MA
-][Bad Rabbits Spotify Bio]
+][Bad Rabbits Spotify Biography]
 
 Maybe this R&B is what their new music is firmly grounded in but this wasn't the case for
 their older stuff. They were a truly genre bending band and that is probably why I love them
