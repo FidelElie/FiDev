@@ -1,22 +1,24 @@
 ---
+import { render, type CollectionEntry } from "astro:content";
 import { twMerge } from "tailwind-merge";
 
 import { getEnvironmentVariable } from "@fi.dev/typescript";
 
 import { compileOutputWithPlugins } from "@/libraries/plugins";
+import type { CollectionKey } from "astro:content";
 
 export interface Props {
+	entry: CollectionEntry<CollectionKey>;
 	class?: string;
-	content: string;
 }
 
-const { class: _class, content } = Astro.props;
+const { class: _class, entry } = Astro.props;
 
 const isDevelopment = getEnvironmentVariable("NODE_ENV") === "development";
 
 const output = await (async () => {
 	if (isDevelopment) {
-		const compiledContent = await compileOutputWithPlugins(content);
+		const compiledContent = await compileOutputWithPlugins(entry.body || "");
 
 		const { reporter } = await import("vfile-reporter");
 
@@ -25,7 +27,7 @@ const output = await (async () => {
 		return String(compiledContent);
 	}
 
-	return null;
+	return render(entry);
 })();
 ---
 <article
@@ -41,10 +43,10 @@ const output = await (async () => {
 	}
 >
 	{
-		isDevelopment && output ? (
+		typeof output === "string" ? (
 			<Fragment set:html={output}/>
 		) : (
-			<slot/>
+			<output.Content/>
 		)
 	}
 </article>

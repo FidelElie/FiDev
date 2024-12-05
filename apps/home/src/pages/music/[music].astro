@@ -1,6 +1,6 @@
 ---
 import { Image } from "astro:assets";
-import { getCollection, render } from "astro:content";
+import { getCollection } from "astro:content";
 
 import { Show } from "solid-js";
 import { convert } from "html-to-text";
@@ -17,7 +17,7 @@ import { RootLayout } from "@/pages/_root.layout";
 
 import { ContentDisplay } from "@/components/astro";
 import { Container, Icon, Link } from "@/components/core";
-import { MusicPostRatingTag, SubscriberForm } from "@/components/interfaces";
+import { MusicPostRatingTag } from "@/components/interfaces";
 import { MusicLinksPane } from "@/components/pages/music/[music]/MusicLinksPane";
 
 const totalMusicPosts = await fetchMusicPostsTotal();
@@ -32,8 +32,6 @@ export const getStaticPaths = async () => {
 };
 
 const { entry } = Astro.props;
-
-const { Content } = await render(entry);
 
 const { name, artists, covers, type, release, genres, duration } = entry.data;
 
@@ -61,7 +59,7 @@ const favouriteTracks = tracksList
 	.flat();
 
 const truncatedContent = convert(
-	(await compileOutputWithPlugins(entry.body)).toString(),
+	(await compileOutputWithPlugins(entry.body || "")).toString(),
 ).slice(0, 100);
 ---
 <RootLayout
@@ -76,7 +74,7 @@ const truncatedContent = convert(
 						src={firstImageCover.url}
 						alt={`${name} cover`}
 						class="rounded-lg border border-slate-200 aspect-square mb-3"
-						transition:name={entry.slug}
+						transition:name={entry.id}
 						inferSize
 					/>
 				)
@@ -183,13 +181,7 @@ const truncatedContent = convert(
 				</div>
 			</section>
 			<hr class="border-slate-200 mt-2.5 mb-5"/>
-			<ContentDisplay content={entry.body}>
-				<Content/>
-			</ContentDisplay>
+			<ContentDisplay entry={entry}/>
 		</article>
 	</Container>
-	<!-- <hr class="border-t border-slate-200 mt-20 mb-24"/>
-	<Container class="flex flex-col gap-5 md:gap-10 md:flex-row">
-		<SubscriberForm client:visible/>
-	</Container> -->
 </RootLayout>
