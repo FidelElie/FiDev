@@ -1,4 +1,7 @@
-import { defineCollection, getCollection } from "astro:content";
+import { z } from "zod";
+import path from "path";
+import { glob } from "astro/loaders";
+import { defineCollection } from "astro:content";
 
 import { sanitiseToURLSlug } from "@fi.dev/typescript";
 
@@ -6,25 +9,36 @@ import { MusicArtistSchema, MusicPostSchema } from "@/libraries/schemas";
 
 import { getSpotifyEnv } from "@/libraries/utilities";
 import { createSpotifyClient } from "@/libraries/clients";
+import {
+	getEntriesFromFilePaths,
+	getPostsPathsFromRootDir,
+} from "@fi.dev/content";
 
 const music = defineCollection({
-	type: "content",
+	loader: glob({
+		pattern: "**/*.md",
+		base: "src/content/music",
+	}),
 	schema: MusicPostSchema,
 });
 
 const artists = defineCollection({
-	type: "content_layer",
 	loader: async () => {
 		console.log("Fetching spotify artist metadata");
-		const musicPosts = await getCollection("music");
+
+		const musicPosts = getEntriesFromFilePaths(
+			getPostsPathsFromRootDir(path.join(process.cwd(), "src/content/music")),
+		);
+
+		const validatedPosts = z.array(MusicPostSchema).parse(musicPosts);
 
 		console.log("Creating Spotify Client");
 		const spotifyClient = createSpotifyClient(getSpotifyEnv());
 
 		await spotifyClient.refreshAccessToken();
 
-		const flattenedMusicArtists = musicPosts
-			.map((post) => post.data.artists)
+		const flattenedMusicArtists = validatedPosts
+			.map((post) => post.artists)
 			.flat();
 
 		const uniqueArtists = Array.from(
@@ -56,7 +70,15 @@ const artists = defineCollection({
 	schema: MusicArtistSchema,
 });
 
+export const misc = defineCollection({
+	loader: glob({
+		pattern: "**/*.md",
+		base: "src/content/misc",
+	}),
+});
+
 export const collections = {
 	music,
 	artists,
+	misc,
 };

@@ -19,7 +19,7 @@ export const searchWebsiteAction = async (request: Request) => {
 	const [musicResult, artistsResult] = await Promise.all([
 		getCollection("music", (entry) => {
 			return (
-				entry.slug.toLowerCase().includes(loweredTerm) ||
+				entry.id.toLowerCase().includes(loweredTerm) ||
 				entry.data.name.toLowerCase().includes(loweredTerm) ||
 				entry.data.slug?.toLowerCase().includes(loweredTerm) ||
 				entry.data.artists.some((artist) =>
@@ -49,7 +49,7 @@ export const searchWebsiteAction = async (request: Request) => {
 		musicResult.slice(0, 5).map(async (entry) => {
 			return {
 				...entry.data,
-				slug: entry.slug,
+				slug: entry.id,
 			};
 		}),
 	);

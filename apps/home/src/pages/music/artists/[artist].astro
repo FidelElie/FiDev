@@ -89,7 +89,7 @@ const musicPosts = await getCollection("music", (entry) => {
 				{
 					musicPosts.map(post => (
 						<a
-							href={`/music/${post.slug}`}
+							href={`/music/${post.id}`}
 							class="rounded gap-5 flex flex-col max-w-full whitespace-nowrap sm:flex-row sm:items-center"
 						>
 							<div class="w-32 h-32 relative border border-slate-200 rounded-lg flex-shrink-0">
@@ -99,7 +99,7 @@ const musicPosts = await getCollection("music", (entry) => {
 											src={post.data.covers[0].url}
 											alt={post.data.name}
 											class="rounded-lg aspect-square"
-											transition:name={post.slug}
+											transition:name={post.id}
 											inferSize
 										/>
 									)
