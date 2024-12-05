@@ -11,7 +11,8 @@
 	},
 	"formatter": {
 		"enabled": true,
-		"indentStyle": "tab"
+		"indentStyle": "tab",
+		"ignore": ["dist/", ".vercel/", ".astro/", ".vscode/"]
 	},
 	"organizeImports": {
 		"enabled": true
