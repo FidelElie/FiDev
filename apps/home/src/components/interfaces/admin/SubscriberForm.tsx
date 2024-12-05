@@ -16,8 +16,8 @@ const INITIAL_FIELDS = { forename: "", email: "" };
 
 export const SubscriberForm = withQueryProvider(
 	(props: SubscriberFormProps) => {
-		let honeypotField: HTMLInputElement | null;
-		let successTimer: NodeJS.Timeout | null;
+		let honeypotField: HTMLInputElement | undefined;
+		let successTimer: NodeJS.Timeout | undefined;
 
 		const [fields, setFields] = createSignal(INITIAL_FIELDS);
 		const [successfulSubmission, setSuccessfulSubmission] = createSignal(false);
@@ -63,6 +63,7 @@ export const SubscriberForm = withQueryProvider(
 		onCleanup(() => {
 			if (successTimer) {
 				clearTimeout(successTimer);
+				successTimer = undefined;
 			}
 		});
 
