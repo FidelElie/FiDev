@@ -3,7 +3,6 @@ import { fromHtml } from "hast-util-from-html";
 import type { Root, Element } from "hast";
 
 import { toRegexCompliantString, type PromiseOrNot } from "@fi.dev/typescript";
-import { writeFileSync } from "fs";
 
 type RegExpDirective<T> = {
 	identifier: RegExp | string;

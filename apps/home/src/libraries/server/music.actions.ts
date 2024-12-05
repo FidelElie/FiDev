@@ -71,7 +71,7 @@ export const fetchMusicProjects = async (request: Request) => {
 
 	const validatedResult = responses[200].parse({
 		...result,
-		items: result.items.map((item) => ({ ...item.data, slug: item.slug })),
+		items: result.items.map((item) => ({ ...item.data, slug: item.id })),
 	});
 
 	return validatedResult;
@@ -183,16 +183,16 @@ export const getCurrentPlayingTrack = async () => {
 	const [firstArtist] = currentlyPlaying.album.artists;
 
 	const getPostInformation = (post?: {
-		slug: string;
+		id: string;
 		data: MusicPostSchema;
 	}) => {
-		if (!post?.slug) {
+		if (!post?.id) {
 			return null;
 		}
 
 		return {
 			name: post.data.name,
-			slug: post.slug || post.data.slug,
+			slug: post.id || post.data.slug,
 			type: post.data.type,
 		};
 	};

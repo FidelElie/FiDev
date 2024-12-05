@@ -4,7 +4,6 @@ import { Image } from "astro:assets";
 
 import { AppManifest } from "@/configs";
 import { MyselfPhotoshoppedPNG, SignaturePNG, TakingPhotoJPG } from "@/assets";
-import * as WhatThisWebsiteMeansToMe from "@/content/misc/what-this-website-means-to-me.md";
 
 import { astroMeta } from "@/libraries/utilities";
 
@@ -17,6 +16,7 @@ import {
 	SocialLinksLayout,
 	SubscriberForm,
 } from "@/components/interfaces";
+import { getEntry } from "astro:content";
 
 const meta = astroMeta({
 	title: "About",
@@ -24,7 +24,7 @@ const meta = astroMeta({
 		"A bit about the procrastinating script kiddy and the website that your reading",
 });
 
-const { Content, rawContent } = WhatThisWebsiteMeansToMe;
+const entry = await getEntry("misc", "what-this-website-means-to-me");
 ---
 <RootLayout
 	class="min-h-screen py-20 md:py-0"
@@ -107,9 +107,7 @@ const { Content, rawContent } = WhatThisWebsiteMeansToMe;
 			</div>
 		</div>
 		<hr class="border-t border-slate-200 mt-3 mb-6"/>
-		<ContentDisplay content={rawContent()}>
-			<Content/>
-		</ContentDisplay>
+		<ContentDisplay entry={entry}/>
 	</Container>
 	<!-- <hr class="mt-10 mb-20 border-t border-slate-200"/>
 	<Container class="mb-20">

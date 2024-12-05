@@ -14,7 +14,7 @@ import { MusicArtistSearchEntry } from "@/components/pages/search/_SearchPane/Mu
 
 export const SearchPane = withQueryProvider(
 	() => {
-		let searchRef: HTMLInputElement | null;
+		let searchRef: HTMLInputElement | undefined;
 
 		const { url, dtos, responses } = SearchWebsiteRoute;
 

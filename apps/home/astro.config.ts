@@ -7,7 +7,7 @@ import solidJs from "@astrojs/solid-js";
 
 import sitemap from "@astrojs/sitemap";
 
-import vercel from "@astrojs/vercel/serverless";
+import vercel from "@astrojs/vercel";
 
 import { rehypePlugins } from "./src/libraries/plugins";
 
@@ -21,7 +21,7 @@ const { PORT, FLAGS, SITE } = loadEnv(
 
 export default defineConfig({
 	site: SITE || "https://fidelelie.com",
-	output: "hybrid",
+	output: "static",
 	devToolbar: { enabled: !!FLAGS?.includes("TOOLBAR") },
 	server: {
 		port: PORT ? Number(PORT) : 3000,
@@ -36,10 +36,6 @@ export default defineConfig({
 
 	image: {
 		domains: ["https://i.scdn.co/image/"],
-	},
-
-	experimental: {
-		contentLayer: true,
 	},
 
 	markdown: {

@@ -10,7 +10,6 @@ import {
 	MusicProjectEntry,
 	MusicCurrentlyPlayingPane,
 	MusicSearchOptions,
-	SubscriberForm,
 	HeadingSection,
 } from "@/components/interfaces";
 
@@ -39,9 +38,5 @@ const [displayPosts, totalPosts] = await Promise.all([
 		<div class="astro:block astro:min-h-36">
 			<MusicCurrentlyPlayingPane client:load/>
 		</div>
-		<!-- <hr class="border-t border-slate-200 mt-2.5 mb-10"/>
-		<div>
-			<SubscriberForm client:visible/>
-		</div> -->
 	</Container>
 </RootLayout>
