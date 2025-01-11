@@ -100,3 +100,9 @@ a solid listen. This shouldn't take away from how much I think you should pick t
 I thought it was so good that I had to go and listen to his previous album
 :album[2cizw1XcPbsvih0hfJ8ydi][Sol] and hopefully you will want to as well once this has
 graced your ears.
+
+:future-comment[
+  As a surprise to not me, ¿Téo? was my most listened artist and Don't stare too long was
+  my most listened song in this years Spotify wrapped. Just couldn't stop listening to it
+  since the first time around.
+][2024-12-05]
