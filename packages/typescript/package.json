@@ -7,7 +7,7 @@
 	"description": "Utilities for the monorepo",
 	"private": true,
 	"scripts": {
-		"check": "biome lint --error-on-warnings"
+		"check": "oxlint"
 	},
 	"devDependencies": {
 		"vite": "^5.4.10"

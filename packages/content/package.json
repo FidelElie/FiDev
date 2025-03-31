@@ -6,7 +6,7 @@
 	"type": "module",
 	"private": true,
 	"scripts": {
-		"check": "biome lint --error-on-warnings"
+		"check": "oxlint"
 	},
 	"dependencies": {
 		"@fi.dev/typescript": "workspace:*",

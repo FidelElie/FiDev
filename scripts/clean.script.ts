@@ -100,7 +100,7 @@ program
 program.parse();
 
 const options = program.opts() satisfies ProgramConfig;
-const rootDir = path.resolve(path.resolve(__dirname, "../.."));
+const rootDir = path.resolve(__dirname, "../");
 
 parseProgram(options, rootDir);
 
