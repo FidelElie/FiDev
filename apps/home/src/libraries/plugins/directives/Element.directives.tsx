@@ -26,19 +26,19 @@ export const VideoDirective = createRegExpDirective({
 						src="${href}"
 						class="${videoClasses}"
 						${controls ? "controls" : ""}
-						${lazy ? 'loading="lazy"' : ""}
+						${lazy ? "loading=\"lazy\"" : ""}
 						${autoplay ? "autoplay muted" : ""}
 						${loop ? "loop" : ""}
 					>
 					</video>
 					${
-						!!caption
-							? `
+			!!caption ?
+				`
 							<hr class="border-slate-200 w-full border-t mt-5 mb-2"/>
 							<figcaption class="font-heading">- ${caption}</figcaption>
-						`
-							: ""
-					}
+						` :
+				""
+		}
 				</figure>
 			`;
 	},
@@ -65,17 +65,17 @@ export const ImageDirective = createRegExpDirective({
 						src="${href}"
 						alt="${alt}"
 						class="${imageClasses}"
-						${lazy ? 'loading="lazy"' : ""}
+						${lazy ? "loading=\"lazy\"" : ""}
 					>
 					</img>
 					${
-						!!caption
-							? `
+			!!caption ?
+				`
 								<hr class="border-slate-200 w-full border-t mt-5 mb-2"/>
 								<figcaption class="font-heading">- ${caption}</figcaption>
-							`
-							: ""
-					}
+							` :
+				""
+		}
 				</figure>
 			`;
 	},
@@ -94,7 +94,7 @@ export const LinkDirective = createRegExpDirective({
 		const _blank = modifiers.includes("_blank");
 
 		return `
-				<a href="${href} ${_blank ? 'target="_blank"' : ""}>
+				<a href="${href} ${_blank ? "target=\"_blank\"" : ""}>
 					${text}
 				</a>
 			`;

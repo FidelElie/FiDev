@@ -27,6 +27,7 @@ genres:
 type: TRACK
 date: '2018-07-29T00:00:00.000Z'
 ---
+
 Nick has been one of my favorite artists for the past couple years. His music is airy and
 his voice is amazing and brings together all the songs he does. I love his last album
 :album[3QqPgCaqDKmskJqijCG7sV][Green Twins] very much, it was one of my favorite albums
@@ -40,4 +41,3 @@ pen and closing my eyes and being transported somewhere else. The silky smooth v
 verses and the chorus is what do it for me. As mixed with instrumentation of the song it results
 in the the whole experience being a journey to me. I can't tell you how much I love it, still
 my favorite song of his to this day. Amazing artist, amazing song go and give Mr Hakim a listen.
-

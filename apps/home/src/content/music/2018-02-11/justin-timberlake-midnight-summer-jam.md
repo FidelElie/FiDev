@@ -26,6 +26,7 @@ genres:
 type: TRACK
 date: '2018-02-11T00:00:00.000Z'
 ---
+
 It may be pretty much the dead of winter in Edinburgh, but this song puts a bit of summer
 in the cold. I haven't got round to listening to the Justin's newest album
 :album[01l3jTY261V3CESZR4dABz][Man of the woods] but this song has his newer sound to it

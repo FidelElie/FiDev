@@ -27,6 +27,7 @@ genres:
 type: TRACK
 date: '2018-09-25T00:00:00.000Z'
 ---
+
 Jevon has been in my rotation heavily for the past couple weeks since Carlos showed me him.
 And it is for good reason. The London native - who is from down the road from where I am from
 might I add. Can do it all, it seems from rapping and making some amazing hip hop songs
@@ -38,8 +39,8 @@ But back to this song in particular, Paranoia is one of my favourite R'n'b songs
 From the hook:
 
 :lyrics[
-  All this sin girl, got a hole me
-  Paranoia take control of me
+All this sin girl, got a hole me
+Paranoia take control of me
 ][Paranoia]
 
 To his singing throughout the tracks, he does an amazing job of keeping with what

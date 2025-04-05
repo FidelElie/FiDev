@@ -1,14 +1,6 @@
-import {
-	boolean,
-	integer,
-	pgEnum,
-	pgTable,
-	serial,
-	text,
-	timestamp,
-} from "drizzle-orm/pg-core";
+import { boolean, integer, pgEnum, pgTable, serial, text, timestamp } from "drizzle-orm/pg-core";
 
-import { getConstKeys } from "@fi.dev/typescript";
+import { getConstKeys } from "@fi/typescript";
 
 import { MusicPostMetadata } from "../constants";
 

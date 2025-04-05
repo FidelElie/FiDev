@@ -68,6 +68,7 @@ tracks:
     favourite: false
 date: '2019-02-27T00:00:00.000Z'
 ---
+
 I first heard Kadhja's colours performance (linked below) and was intrigued, so I thought
 I would give her album a listen and to say the least I wasn't ready for the experience.
 The song that was performed on Colours Show :track[2ZCKfrVy8qg6Y48KyKkN94][Delphine] was
@@ -87,8 +88,8 @@ doing. I looking forward to what she does next.
 :youtube[uM5zJ9cyrL8]
 
 :future-comment[
-  I was very reserved about this album the first time around, but now I absolutely love it
-  and I am a big fan of her work. It is a slow burn and took time to grow but boy did it.
-  I would now say it is a must listen if you are looking for something unique to fill
-  your ears and playlist with.
+I was very reserved about this album the first time around, but now I absolutely love it
+and I am a big fan of her work. It is a slow burn and took time to grow but boy did it.
+I would now say it is a must listen if you are looking for something unique to fill
+your ears and playlist with.
 ][2024-12-01]

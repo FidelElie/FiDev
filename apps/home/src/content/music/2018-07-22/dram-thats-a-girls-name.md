@@ -41,6 +41,7 @@ tracks:
     favourite: true
 date: '2018-07-22T00:00:00.000Z'
 ---
+
 It seems like summertime just brings out the funk in everyone. Well at least it has in DRAM
 and I am liking what I hear. I think his style is great for music like this, from the flow
 to the voice when singing and rapping. It was a perfect fit on Calvin Harris'

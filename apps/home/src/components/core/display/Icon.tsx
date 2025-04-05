@@ -1,4 +1,4 @@
-import { splitProps, type JSX } from "solid-js";
+import { type JSX, splitProps } from "solid-js";
 
 import { ICONS_SPRITES } from "@/components/core/display/Icon.data";
 
@@ -7,7 +7,9 @@ export const Icon = (props: IconProps) => {
 
 	if (!ICONS_SPRITES.includes(capturedProps.name)) {
 		throw new Error(
-			`Unsupported sprite - got ${capturedProps.name}\n Supported sprites: ${ICONS_SPRITES.join("\n")}`,
+			`Unsupported sprite - got ${capturedProps.name}\n Supported sprites: ${
+				ICONS_SPRITES.join("\n")
+			}`,
 		);
 	}
 

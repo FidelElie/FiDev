@@ -70,6 +70,7 @@ tracks:
     favourite: true
 date: '2018-04-29T00:00:00.000Z'
 ---
+
 I finally managed to listen to Hov's newest release after a while of nagging. A friend
 (shoutouts to Cheese) sent me a link to the dramatized versions of the songs on Youtube.
 I was trying not to (allegedly) bootleg the project but this was the next best thing. Well
@@ -90,15 +91,15 @@ but listen to it on YouTube if all else fails, the videos are great. Give Hov th
 that this album deserves.
 
 :lyrics[
-  Ain't no such thing as an ugly billionaire, I'm cute
+Ain't no such thing as an ugly billionaire, I'm cute
 ][
-  Family Feud:6ku4gCfjdxmYpajNONAciN
+Family Feud:6ku4gCfjdxmYpajNONAciN
 ][
-  With the delivery and the accuracy I actually laughed out loud at this one
+With the delivery and the accuracy I actually laughed out loud at this one
 ]
 
 :future-comment[
-  At the time I listened to this its wasn't actually on Spotify, what a world.
+At the time I listened to this its wasn't actually on Spotify, what a world.
 ][
-  2024-11-26
+2024-11-26
 ]

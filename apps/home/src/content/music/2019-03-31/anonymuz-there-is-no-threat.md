@@ -70,6 +70,7 @@ tracks:
     favourite: true
 date: '2019-03-31T00:00:00.000Z'
 ---
+
 I've been a solid fan of Anonymuz since returning to his last project Vice City years ago
 now. His dark style of rap is very different from what I usually listen to and a welcome
 appearance. His production also always slaps in his songs, with strong base signatures and
@@ -84,4 +85,3 @@ The aggression in the production and the delivery is insane. Many of the songs i
 trip to getting gassed. And don't get me wrong there are songs that mix it up to. I would
 suggest to listen to all his work to be honest, he's making moves and this is just another
 ign of the consistency I am seeing. Good shit Anon.
-

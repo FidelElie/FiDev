@@ -1,6 +1,6 @@
 ---
-import { astroMeta } from "@/libraries/utilities";
 import { fetchMusicGenres, fetchMusicProjects } from "@/libraries/server";
+import { astroMeta } from "@/libraries/utilities";
 
 import { RootLayout } from "@/pages/_root.layout";
 
@@ -21,8 +21,8 @@ const [initialProjects, genres] = await Promise.all([
 ---
 <RootLayout {...meta}>
 	<Container class="min-h-screen flex flex-col gap-3">
-		<HeadingSection title={meta.title} subtitle="Find something new to listen to"/>
-		<MusicSearchOptions options={["artists", "genres"]}/>
+		<HeadingSection title={meta.title} subtitle="Find something new to listen to" />
+		<MusicSearchOptions options={["artists", "genres"]} />
 		<div class="flex flex-grow astro:flex-grow astro:block astro:w-full">
 			<MusicProjectsView
 				initial={[initialProjects]}

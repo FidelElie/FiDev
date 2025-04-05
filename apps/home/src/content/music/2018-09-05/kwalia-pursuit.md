@@ -37,6 +37,7 @@ tracks:
     favourite: true
 date: '2018-09-05T00:00:00.000Z'
 ---
+
 Jordan Rakei and a classical composer Richard Melkonian forming the collaboration Kwalia.
 Providing me with a sound in Pursuit that I never thought I wanted or needed. The
 instrumentation on the three song project is an amazing experience. Overall the best that

@@ -28,6 +28,7 @@ genres:
 type: TRACK
 date: '2018-03-31T00:00:00.000Z'
 ---
+
 I was thinking to myself this week that I haven't listened to myself in a longtime, so I
 decided to go back to my older playlist and give one of my favorite songs a listen. Taking
 me back to a time where I wasn't actually born this song has a great old school vibe to the

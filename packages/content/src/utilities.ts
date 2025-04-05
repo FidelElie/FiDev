@@ -1,6 +1,6 @@
-import path from "node:path";
+import { existsSync, lstatSync, readdirSync } from "node:fs";
 import { mkdir } from "node:fs/promises";
-import { readdirSync, lstatSync, existsSync } from "node:fs";
+import path from "node:path";
 
 import matter from "gray-matter";
 
@@ -9,7 +9,6 @@ import type { ContentConfig, ContentPostEntry } from "./types";
 const CONTENT_FILE_EXTENSIONS = ["md", "mdx", "markdoc", "txt"];
 
 /**
- *
  * @param dirPath
  * @returns
  */
@@ -26,9 +25,7 @@ export const getPostsPathsFromRootDir = (dirPath: string): string[] => {
 		}
 
 		if (
-			!CONTENT_FILE_EXTENSIONS.some((extension) =>
-				referencePath.includes(`.${extension}`),
-			)
+			!CONTENT_FILE_EXTENSIONS.some((extension) => referencePath.includes(`.${extension}`))
 		) {
 			return [];
 		}
@@ -40,7 +37,6 @@ export const getPostsPathsFromRootDir = (dirPath: string): string[] => {
 };
 
 /**
- *
  * @param context
  * @returns
  */
@@ -67,7 +63,6 @@ export const getPostPathsFromConfig = (context: {
 };
 
 /**
- *
  * @param paths
  * @returns
  */
@@ -82,7 +77,6 @@ export const getEntriesFromFilePaths = <T>(
 };
 
 /**
- *
  * @param path
  */
 export const ensureDirExists = async (path: string) => {

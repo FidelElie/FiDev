@@ -3,7 +3,7 @@ import { twMerge } from "tailwind-merge";
 
 import { AppManifest } from "@/configs";
 
-import { Icon, Link, type ButtonProps } from "@/components/core";
+import { type ButtonProps, Icon, Link } from "@/components/core";
 import { MusicFeelingLuckyButton } from "@/components/interfaces/music/MusicFeelingLuckyButton";
 
 const optionsMap = [
@@ -35,9 +35,7 @@ export interface Props {
 
 const { class: _class, luckyIntent = "secondary", options } = Astro.props;
 
-const mappedOptions = optionsMap.filter((option) =>
-	options.includes(option.key),
-);
+const mappedOptions = optionsMap.filter((option) => options.includes(option.key));
 ---
 
 <div class={twMerge("flex flex-col w-full gap-2 sm:flex-row sm:w-auto", _class)}>
@@ -49,18 +47,17 @@ const mappedOptions = optionsMap.filter((option) =>
 			{
 				mappedOptions.map(
 					(option, optionIndex, mappingOptions) => (
-						<>
-							<Link.Button
-								href={option.href}
-								intent="secondary"
-								class="flex items-center gap-2 border-none"
-							>
-								<Icon name={option.icon} class="text-xl text-blue-500"/>
-								{option.text}
-							</Link.Button>
-							{ mappingOptions.length - 1 !== optionIndex && <div class="w-px h-5 bg-slate-200"/> }
-						</>
-					)
+					<>
+						<Link.Button
+							href={option.href}
+							intent="secondary"
+							class="flex items-center gap-2 border-none"
+						>
+							<Icon name={option.icon} class="text-xl text-blue-500" /> {option.text}
+						</Link.Button>
+						{mappingOptions.length - 1 !== optionIndex && <div class="w-px h-5 bg-slate-200" />}
+					</>
+				),
 				)
 			}
 		</div>

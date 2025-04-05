@@ -109,6 +109,7 @@ tracks:
     favourite: false
 date: '2018-06-03T00:00:00.000Z'
 ---
+
 After listening to KOD several times I did one of my listening to an older j.cole project
 because that was due. And this time I went back and listened to born sinner which is criminally
 underrated in my humble opinion. Firstly, the production is amazing from the start to finish
@@ -122,10 +123,10 @@ The message he gives in the songs like for example Runaway which has been a main
 playlist as of late:
 
 :lyrics[
-  Rich white men rule the nation still
-  The difference is we're all slaves now the chain concealed,
+Rich white men rule the nation still
+The difference is we're all slaves now the chain concealed,
 ][
-  Runaway:3eZjDYBS6oVs1z5POqjX9f
+Runaway:3eZjDYBS6oVs1z5POqjX9f
 ]
 
 Instilled onto me a feeling of awe when I first heard the third verse. The very vulnerable

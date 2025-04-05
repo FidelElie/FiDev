@@ -90,12 +90,12 @@ serious childhood anthems, then I don't see why you wouldn't give this a listen,
 something to like on it.
 
 :lyrics[
-  Well I don't wanna wait no more
-  Oh I wanna celebrate the whole world
-  I'm gonna make it mine
-  Oh yes I'm following your joy
+Well I don't wanna wait no more
+Oh I wanna celebrate the whole world
+I'm gonna make it mine
+Oh yes I'm following your joy
 ][
-  Make it Mine:6UdhIn5jito25nOYZ5jWlA
+Make it Mine:6UdhIn5jito25nOYZ5jWlA
 ][
-  It is an amazing start to the album
+It is an amazing start to the album
 ]

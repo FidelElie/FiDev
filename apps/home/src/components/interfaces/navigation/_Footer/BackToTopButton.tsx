@@ -11,8 +11,7 @@ export const BackToTopButton = () => {
 			class="font-heading flex items-center gap-1 hover:text-blue-500 transition duration-500"
 			onClick={goToTop}
 		>
-			Back to top{" "}
-			<Icon name="caret-up" class="text-blue-500 text-lg" aria-label="Up" />
+			Back to top <Icon name="caret-up" class="text-blue-500 text-lg" aria-label="Up" />
 		</button>
 	);
 };

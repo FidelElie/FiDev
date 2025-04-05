@@ -36,11 +36,12 @@ tracks:
     favourite: true
 date: '2018-03-25T00:00:00.000Z'
 ---
+
 I've liked a few Jay Prince songs in the past (:track[1ohXrU5DLEfUlfo4tIYbqJ][Where You Belong]
 is great) and but after listening to his most recent album :album[5ggRrxWIGZ5FaW03hj6H3Z][Late Summers],
-I was really sold on him.  His two follow a single distinct sound. They both possess the really
+I was really sold on him. His two follow a single distinct sound. They both possess the really
 hard kicks that are found throughout the lovely world of trap music. And both songs follow
-this blueprint, in the morning  to less of an extent, with this possessing more a dance
+this blueprint, in the morning to less of an extent, with this possessing more a dance
 vibe to it.
 
 Personally, I do like the former more than the latter. When it comes to the trap that I listen

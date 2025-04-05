@@ -98,6 +98,7 @@ tracks:
     favourite: false
 date: '2018-06-03T00:00:00.000Z'
 ---
+
 In the exam period I found myself not really listening to newer stuff as much when it came
 out week by week. But instead venturing back to what I know and old playlists alike. And
 this led me back to Newton faulkner, some of the first songs added on my Spotify all those
@@ -109,4 +110,3 @@ my dad was listening to Bob Dylan and I think Newton solidified my fascination w
 And going back to this album always reminds me of this. It is a solid album and whether you
 love folk or are looking for something new to listen to, this might be a good place to
 start.
-

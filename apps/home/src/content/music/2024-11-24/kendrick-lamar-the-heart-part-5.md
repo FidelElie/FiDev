@@ -28,6 +28,7 @@ genres:
 type: TRACK
 date: '2024-11-24T00:00:00.000Z'
 ---
+
 With the surprise release of Kendrick's newest album and the inclusion of the Heart Part 6, I
 found myself drawn back to part 5 as it is easily one of favourite songs from the genius
 himself.
@@ -43,8 +44,8 @@ for me. The references to many different celebrities in the black community from
 For Will it was around the time of the infamous Oscar's slap which made the bars:
 
 :lyrics[
-  In the land where hurt people hurt more people
-  Fuck callin' it culture
+In the land where hurt people hurt more people
+Fuck callin' it culture
 ][The Heart Part 5]
 
 Hit that much harder when I heard it for the first time. The last verse being from
@@ -54,14 +55,14 @@ video to get the full experience (those deep fakes) and hopefully you'll have it
 on repeat like I have the past two years. Not to miss, truly one for the ages.
 
 :lyrics[
-  I seen the pain in your pupil when that trigger had squeezed
-  And though you did me gruesome, I was surely relieved
-  I completed my mission, wasn't ready to leave
-  But fulfilled my days, my Creator was pleased
+I seen the pain in your pupil when that trigger had squeezed
+And though you did me gruesome, I was surely relieved
+I completed my mission, wasn't ready to leave
+But fulfilled my days, my Creator was pleased
 ][
-  The Heart Part 5
+The Heart Part 5
 ][
-  Part of the masterful Nipsey verse
+Part of the masterful Nipsey verse
 ]
 
 :youtube[uAPUkgeiFVY]

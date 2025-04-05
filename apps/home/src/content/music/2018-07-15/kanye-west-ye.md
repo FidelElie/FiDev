@@ -56,6 +56,7 @@ tracks:
     favourite: true
 date: '2018-07-15T00:00:00.000Z'
 ---
+
 With all that's is going on with Kanye at this time. All the attention seeking as promo for
 his weekly album release we got ye, his lone 7 song project that is mean't to be a masterpiece.
 And it is... Okay, nothing to really write home about as a whole body of work. The first
@@ -67,4 +68,3 @@ in my eyes. If you listen to any of this project listen to that song. It almost 
 back to a time of my favorite Kanye song (:track[2PFNTHR4sA8m9rPPtYXhl7][Heard Em Say] for
 anyone asking) and that is a feat in itself. So to summarize this song is the best I have heard
 from Kanye in a while, I wish his publicity stunts were for a better album though.
-

@@ -1,9 +1,9 @@
 import { z } from "zod";
 
-import { getConstKeys } from "@fi.dev/typescript";
+import { getConstKeys } from "@fi/typescript";
 
-import { InsertPostSchema } from "./database.schemas";
 import { MusicPostMetadata } from "../constants";
+import { InsertPostSchema } from "./database.schemas";
 
 const MusicAlbumTrackSchema = z.object({
 	spotifyId: z.string(),

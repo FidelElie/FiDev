@@ -2,11 +2,11 @@ import { createSignal, Show } from "solid-js";
 
 import { AppManifest } from "@/configs";
 
+import { MusicImFeelingLuckyRoute } from "@/libraries/api";
 import { request } from "@/libraries/clients";
 import { astroNavigate } from "@/libraries/utilities";
-import { MusicImFeelingLuckyRoute } from "@/libraries/api";
 
-import { Button, Icon, type ButtonProps } from "@/components/core";
+import { Button, type ButtonProps, Icon } from "@/components/core";
 import { twMerge } from "tailwind-merge";
 
 export const MusicFeelingLuckyButton = (

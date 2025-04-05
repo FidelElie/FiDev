@@ -31,15 +31,16 @@ genres:
 type: TRACK
 date: '2018-02-08T00:00:00.000Z'
 ---
+
 The album :album[3Gw9KBhSDOgCOh2yIaCkD5][Under New Management] did not stand out to me that
 much, but this song did. I love the feel good nature of it and the positivity that comes
 with his lyrics. I always end up singing the hook and this song alone makes me want to give
 the album another shot. But for the time being I'm happy repeatedly listening to this one.
 
 :lyrics[
-  They've committing genocide since the fucking genesis
+They've committing genocide since the fucking genesis
 ][
-  Shining
+Shining
 ][
-  Unsurprisingly he is talking about the police here
+Unsurprisingly he is talking about the police here
 ]

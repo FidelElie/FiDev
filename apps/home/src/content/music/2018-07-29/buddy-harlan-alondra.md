@@ -75,6 +75,7 @@ tracks:
     favourite: true
 date: '2018-07-29T00:00:00.000Z'
 ---
+
 Last Friday came along and I was doing my ritual of looking at the new releases and I
 stumbled across this album. I didn't know who Buddy was until then but I decided to give the
 project a listen and it bangs. Catchy hooks, seriously smooth flows and vocals and some great

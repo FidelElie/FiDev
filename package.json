@@ -1,5 +1,5 @@
 {
-	"name": "fi.dev",
+	"name": "fi",
 	"version": "1.0.0",
 	"private": true,
 	"author": "Fidel Pierre Elie",
@@ -11,14 +11,14 @@
 	},
 	"scripts": {
 		"dev": "turbo run dev",
-		"test": "turbo run test",
 		"check": "turbo run check",
 		"format": "dprint fmt",
 		"format:check": "dprint check",
-		"@home": "pnpm --filter @fi.dev/home",
-		"@theme": "pnpm --filter @fi.dev/theme",
-		"@content": "pnpm --filter @fi.dev/content",
-		"@scripts": "pnpm --filter @fi.dev/scripts",
+		"@home": "pnpm --filter @fi/home",
+		"@database": "pnpm --filter @fi/database",
+		"@theme": "pnpm --filter @fi/theme",
+		"@content": "pnpm --filter @fi/content",
+		"@scripts": "pnpm --filter @fi/scripts",
 		"node": "tsx",
 		"prepare": "husky",
 		"lint-staged": "lint-staged"
@@ -33,10 +33,9 @@
 		"typescript": "^5.7.2",
 		"vitest": "3.0.8"
 	},
-	"pnpm": {
-		"overrides": {
-			"vitest>vite": "6.0.0-beta.6",
-			"vite-node>vite": "6.0.0-beta.6"
-		}
+	"lint-staged": {
+		"**/*": [
+			"pnpm format --staged"
+		]
 	}
 }

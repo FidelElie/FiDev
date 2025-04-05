@@ -25,6 +25,7 @@ genres:
 type: TRACK
 date: '2018-06-03T00:00:00.000Z'
 ---
+
 Playing Mafia 3 and listening to its amazing soundtrack had me hankering for some oldies.
 And for some reason I had to search for this song, and when I stumbled across a disco version
 I was thought something was wrong. But then I settled on Bobby's version, I'm not sure if

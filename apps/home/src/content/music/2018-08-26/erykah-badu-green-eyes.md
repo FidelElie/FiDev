@@ -28,13 +28,14 @@ genres:
 type: TRACK
 date: '2018-08-26T00:00:00.000Z'
 ---
+
 Admittedly I have never got into Erykah Badu. I have blind listened to
 :album[3qr4pTBWEU1SVf01j6RAx3][Baduizm] and wasn't completely drawn to it upon first listen.
-But after *Olivia* showed me here tiny desk
+But after _Olivia_ showed me here tiny desk
 performance I was immediately drawn to the last song. Like wooow. It has some
 great vocals from Erykah and the instrumentation throughout the song is standout. The
 brass section on it is both subtle but a powerful edition to the song. The piano, the horns,
-the subject matter... The song is about jealousy which I think is very  smart by how it is
+the subject matter... The song is about jealousy which I think is very smart by how it is
 portrayed through the song.
 
 The switch ups throughout the song are amazing and are performed remarkably in the Tiny
@@ -44,9 +45,9 @@ going to listen to :album[4z7ma1ujO4FDL1l2YBGw7b][Mama's Gun] as it is long over
 it is anything like this song, it will be a winner.
 
 :lyrics[
-  My eyes are green
-  'Cause I eat a lot of vegetables
-  It don't have nothing to do with your new friend
+My eyes are green
+'Cause I eat a lot of vegetables
+It don't have nothing to do with your new friend
 ][Green Eyes]
 
 :youtube[4cfmEgpOOZk]

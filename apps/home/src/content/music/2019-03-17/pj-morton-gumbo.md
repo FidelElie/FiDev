@@ -63,6 +63,7 @@ tracks:
     favourite: true
 date: '2019-03-17T00:00:00.000Z'
 ---
+
 Admittedly, I slept on this album quite a bit when it initially when it came out. I was very
 hype for it, PJ Morton's last album :album[1CkM9RhnkW6Ds3wDTheOdo][New Orleans] was amazing
 to me, like ridiculously good, the subject matter, the lot of it. However, when I listened
@@ -75,10 +76,10 @@ across the song :track[1nR45hPphraeLSO5utjH7T][Claustrophobic] again. The horns,
 about labels trying to fit you into a box, made for a great song:
 
 :lyrics[
-  But I must admit, I'm claustrophobic
-  I have a hard time trying to fit into your small mind
-  And I have a habit of dreaming bigger than anything
-  I can see right in front of me
+But I must admit, I'm claustrophobic
+I have a hard time trying to fit into your small mind
+And I have a habit of dreaming bigger than anything
+I can see right in front of me
 ][Claustrophobic:1nR45hPphraeLSO5utjH7T]
 
 So I went back to listen to the album. Story time aside, I do not know what I was thinking

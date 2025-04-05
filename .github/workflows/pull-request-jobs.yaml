@@ -29,8 +29,8 @@ jobs:
       - name: Setup environment variables
         uses: Firenza/secrets-to-env@v1.3.0
         with:
-            secrets: ${{ toJSON(secrets) }}
-            secret_filter_regex: SPOTIFY_*
+          secrets: ${{ toJSON(secrets) }}
+          secret_filter_regex: SPOTIFY_*
 
       - name: Install dependencies
         run: pnpm install
@@ -38,8 +38,8 @@ jobs:
 
       - name: Run checks for repo
         run: pnpm check
-  test:
-    name: Run test jobs
+  lint:
+    name: Lint
     runs-on: ubuntu-latest
 
     steps:
@@ -52,13 +52,33 @@ jobs:
           version: 9
 
       - name: Install Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 20
+        uses: actions/setup-node@v4
 
       - name: Install dependencies
         run: pnpm install
         timeout-minutes: 2
 
-      - name: Run tests for repo
-        run: pnpm test
+      - name: Run linting for repo
+        run: pnpm lint
+  format:
+    name: Formatting Integrity
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 9
+
+      - name: Install Node
+        uses: actions/setup-node@v4
+
+      - name: Install dependencies
+        run: pnpm install
+        timeout-minutes: 2
+
+      - name: Run format checks for repo
+        run: pnpm format:check

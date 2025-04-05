@@ -73,6 +73,7 @@ tracks:
     favourite: false
 date: '2018-06-03T00:00:00.000Z'
 ---
+
 Have you ever heard a track that sent chills your spine. That's what happened when my
 girlfriend Olivia (shout outs to Young Spinach) showed me the song :track[6ilPGjQvpV8PdA2lCeCfn1][Plastic]
 off of Moses' album and I had to check it out. When I first listened to it I found many parallels and made
@@ -85,4 +86,3 @@ that every song is an experience in its own right. For example, the drum section
 :track[3RamvFV2OtTv3kozKLZnvP][Quarrel] is an amazing drop. Some music can definitely transport you
 somewhere else and it with this it feel like I found myself inside a wardrobe with this one. Some of the
 best stuff I've heard all year, props to Sumney for this unique experience that leaves you wanting more.
-

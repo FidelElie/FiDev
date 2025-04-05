@@ -26,6 +26,7 @@ genres:
 type: TRACK
 date: '2018-03-11T00:00:00.000Z'
 ---
+
 The chorus is my favourite part of this song because when the question 'What makes a good man?'
 is asked, It is the the choir like sound that makes the song for me. This isn't its only
 the quality though, the band still shows off their prowess with rock vibes with neo soul

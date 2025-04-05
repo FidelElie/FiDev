@@ -43,6 +43,7 @@ tracks:
     favourite: true
 date: '2018-07-15T00:00:00.000Z'
 ---
+
 This is the first artist that I discovered from Instagram, I have been following this account
 called @4thshorehiphop and they do different features of artists, with a large amount being from
 Chicago. I decided to take a look at her stuff and when they described

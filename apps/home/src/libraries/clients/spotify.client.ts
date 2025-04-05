@@ -1,12 +1,12 @@
-import { distributeToBuckets, generateRandomString } from "@fi.dev/typescript";
+import { distributeToBuckets, generateRandomString } from "@fi/typescript";
 
-import { parseValueToString, queryParams } from "../utilities";
 import type {
+	SpotifyClientConfig,
 	SpotifyConfigs,
 	SpotifyResponses,
 	SpotifyScopes,
-	SpotifyClientConfig,
 } from "../types";
+import { parseValueToString, queryParams } from "../utilities";
 import { createRequestClient } from "./request.client";
 
 const URLS = {
@@ -78,7 +78,6 @@ export const createSpotifyClient = (config: SpotifyClientConfig) => {
 
 	return {
 		/**
-		 *
 		 * @param scopes
 		 * @returns
 		 */
@@ -95,7 +94,6 @@ export const createSpotifyClient = (config: SpotifyClientConfig) => {
 			return `${clients.accounts.baseUrl}/authorize?${queryParams.toString()}`;
 		},
 		/**
-		 *
 		 * @returns
 		 */
 		getCodeFromClientCredentials: () => {
@@ -114,7 +112,6 @@ export const createSpotifyClient = (config: SpotifyClientConfig) => {
 			);
 		},
 		/**
-		 *
 		 * @param code
 		 * @param setToken for duration of client life
 		 * @returns
@@ -137,13 +134,11 @@ export const createSpotifyClient = (config: SpotifyClientConfig) => {
 			});
 		},
 		/**
-		 *
 		 * @param refreshToken
 		 * @returns
 		 */
 		refreshAccessToken,
 		/**
-		 *
 		 * @param config
 		 * @param accessToken
 		 * @returns

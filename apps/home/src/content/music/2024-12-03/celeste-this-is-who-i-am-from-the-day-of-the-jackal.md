@@ -25,6 +25,7 @@ genres:
 type: TRACK
 date: '2024-12-03T00:00:00.000Z'
 ---
+
 It seems like Its inevitable that I am reminded how much I love espionage on TV and in cinema.
 James Bond, Jason Bourne, Jack Ryan (didn't realise how much of them started with J). Ethan Hunt
 from Mission Impossible for some variation in first letter names. However, all of them have to make way
@@ -41,4 +42,3 @@ TV show - a great one at that. I'm not on the payroll but binge watch the show a
 not interested in spies and assassins, still listen to this you'll probably like it anyway.
 
 :youtube[tcozoppO074]
-

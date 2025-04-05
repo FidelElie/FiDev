@@ -14,10 +14,10 @@ const genres = await fetchMusicGenres(request);
 ---
 <RootLayout title="Music genres" class="flex flex-col min-h-screen gap-3">
 	<Container class="space-y-3">
-		<HeadingSection title="Genres" subtitle="Find posts based on the sound you like."/>
-		<MusicSearchOptions options={["posts", "artists"]}/>
+		<HeadingSection title="Genres" subtitle="Find posts based on the sound you like." />
+		<MusicSearchOptions options={["posts", "artists"]} />
 	</Container>
 	<div class="astro:flex-grow astro:block astro:w-full">
-		<MusicGenreView genres={genres.items} client:load/>
+		<MusicGenreView genres={genres.items} client:load />
 	</div>
 </RootLayout>

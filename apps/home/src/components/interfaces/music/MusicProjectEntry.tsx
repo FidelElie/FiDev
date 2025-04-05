@@ -1,5 +1,5 @@
-import { Show } from "solid-js";
 import { Image } from "@unpic/solid";
+import { Show } from "solid-js";
 import { twJoin } from "tailwind-merge";
 
 import { ProjectPlaceholderPNG } from "@/assets";
@@ -23,11 +23,9 @@ export const MusicProjectEntry = (props: MusicProjectEntryProps) => (
 	>
 		<span class="w-full aspect-square justify-self-center flex gap-2 flex-col">
 			<Image
-				src={
-					props.defer
-						? ProjectPlaceholderPNG.src
-						: props.post?.covers[0].url || ProjectPlaceholderPNG.src
-				}
+				src={props.defer ?
+					ProjectPlaceholderPNG.src :
+					props.post?.covers[0].url || ProjectPlaceholderPNG.src}
 				class={twJoin(
 					"w-full h-full object-cover rounded-lg border border-slate-200 transition-all",
 					props.defer && "animate-pulse",

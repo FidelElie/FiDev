@@ -1,17 +1,17 @@
-import { createSignal, For, Match, Show, Switch } from "solid-js";
-import { createInfiniteQuery } from "@tanstack/solid-query";
 import { createIntersectionObserver } from "@solid-primitives/intersection-observer";
+import { createInfiniteQuery } from "@tanstack/solid-query";
+import { createSignal, For, Match, Show, Switch } from "solid-js";
 import { twJoin } from "tailwind-merge";
 
+import { FetchMusicArtistsRoute } from "@/libraries/api";
 import { request } from "@/libraries/clients";
 import { useQueryParams } from "@/libraries/hooks";
-import { queryParams } from "@/libraries/utilities";
-import { FetchMusicArtistsRoute } from "@/libraries/api";
 import type { InferDTOS } from "@/libraries/types";
+import { queryParams } from "@/libraries/utilities";
 
+import { Button } from "@/components/core";
 import { MusicArtistEntry } from "@/components/interfaces";
 import { withQueryProvider } from "@/components/providers";
-import { Button } from "@/components/core";
 
 type MusicArtistsResponse = InferDTOS<
 	typeof FetchMusicArtistsRoute.responses
@@ -36,20 +36,20 @@ export const MusicArtistsView = withQueryProvider(
 			},
 			initialPageParam: query()?.page || 1,
 			getPreviousPageParam: (firstPage) => {
-				return firstPage.pagination.previous
-					? firstPage.pagination.page - 1
-					: undefined;
+				return firstPage.pagination.previous ?
+					firstPage.pagination.page - 1 :
+					undefined;
 			},
 			getNextPageParam: (lastPage) => {
-				return lastPage.pagination.next
-					? lastPage.pagination.page + 1
-					: undefined;
+				return lastPage.pagination.next ?
+					lastPage.pagination.page + 1 :
+					undefined;
 			},
 			initialData: {
 				pages: props.initial || [],
-				pageParams: query().page
-					? [query().page]
-					: props.initial?.map((page) => page.pagination.page) || [],
+				pageParams: query().page ?
+					[query().page] :
+					props.initial?.map((page) => page.pagination.page) || [],
 			},
 			stateTime: 1000,
 			enabled: queryInitialised(),
@@ -109,13 +109,11 @@ export const MusicArtistsView = withQueryProvider(
 								<hr
 									class={twJoin(
 										"border-tw-full mt-10 mb-5 transition-all",
-										!artistsQuery.hasNextPage
-											? "border-slate-200"
-											: "border-transparent",
+										!artistsQuery.hasNextPage ?
+											"border-slate-200" :
+											"border-transparent",
 									)}
-									ref={(element) =>
-										setTargets((currentTargets) => [...currentTargets, element])
-									}
+									ref={(element) => setTargets((currentTargets) => [...currentTargets, element])}
 								/>
 								<Show when={artistsQuery.isFetchingNextPage}>
 									<p class="font-heading text-sm animate-pulse">Loading...</p>

@@ -1,6 +1,6 @@
 import { input } from "@inquirer/prompts";
 
-import { sanitiseToURLSlug } from "@fi.dev/typescript";
+import { sanitiseToURLSlug } from "@fi/typescript";
 
 export const onCreatePromptWithFallback = async (name: string) => {
 	const sanitizedUrl = sanitiseToURLSlug(name);

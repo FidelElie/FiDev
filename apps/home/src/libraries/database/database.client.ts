@@ -1,12 +1,12 @@
-import { drizzle } from "drizzle-orm/neon-http";
 import { neon } from "@neondatabase/serverless";
 import { eq, sql } from "drizzle-orm";
+import { drizzle } from "drizzle-orm/neon-http";
 
-import { getEnvironmentVariable } from "@fi.dev/typescript";
+import { getEnvironmentVariable } from "@fi/typescript";
 
-import { postActivityTable, postsTable } from "./database.tables";
-import type { InsertPostSchema, InsertPostActivitySchema } from "../schemas";
 import type { MusicPostRatingMap } from "../constants";
+import type { InsertPostActivitySchema, InsertPostSchema } from "../schemas";
+import { postActivityTable, postsTable } from "./database.tables";
 
 const connection = neon(getEnvironmentVariable("NEON_DATABASE_URL"));
 

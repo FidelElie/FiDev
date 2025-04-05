@@ -3,8 +3,8 @@ import { twJoin } from "tailwind-merge";
 
 import type { MusicArtistSchema } from "@/libraries/schemas";
 
-import { Passthrough } from "@/components/core";
 import { ProjectPlaceholderPNG } from "@/assets";
+import { Passthrough } from "@/components/core";
 import { AppManifest } from "@/configs";
 
 export const MusicArtistEntry = (props: MusicArtistEntryProps) => {
@@ -25,11 +25,9 @@ export const MusicArtistEntry = (props: MusicArtistEntryProps) => {
 			<div class="w-24 h-24 flex-shrink-0">
 				{!!props.artist?.covers.length && (
 					<Image
-						src={
-							props.defer
-								? ProjectPlaceholderPNG.src
-								: props.artist?.covers[0].url
-						}
+						src={props.defer ?
+							ProjectPlaceholderPNG.src :
+							props.artist?.covers[0].url}
 						alt={`${props.artist?.name} cover`}
 						class="rounded-full aspect-square border border-slate-200"
 						layout="fullWidth"
@@ -50,9 +48,9 @@ export const MusicArtistEntry = (props: MusicArtistEntryProps) => {
 						class="text-gray-500 font-light text-sm truncate"
 						title={props.artist?.genres?.join(", ") || undefined}
 					>
-						{props.artist?.genres.length
-							? props.artist?.genres.join(", ")
-							: "no genres listed"}
+						{props.artist?.genres.length ?
+							props.artist?.genres.join(", ") :
+							"no genres listed"}
 					</p>
 				</div>
 				<div

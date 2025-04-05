@@ -95,6 +95,7 @@ tracks:
     favourite: false
 date: '2018-09-05T00:00:00.000Z'
 ---
+
 This is my first time listening to Blood Orange and the pop sound that this guy employs
 is a winner. He takes influences from all over the place. And although some of the songs
 go straight over my head, as I can't find their draw. The ones that do are a mixture

@@ -1,6 +1,6 @@
+import { encode } from "qss";
 import { createSignal, For, Show } from "solid-js";
 import { twJoin } from "tailwind-merge";
-import { encode } from "qss";
 
 import { useOnDebounce } from "@/libraries/hooks";
 import { astroNavigate } from "@/libraries/utilities";
@@ -29,9 +29,7 @@ export const MusicGenreView = (props: MusicGenreViewProps) => {
 
 		const loweredSearch = debouncedSearch().toLowerCase();
 
-		return props.genres.filter((genre) =>
-			genre.toLowerCase().includes(loweredSearch),
-		);
+		return props.genres.filter((genre) => genre.toLowerCase().includes(loweredSearch));
 	};
 
 	const handleGenreToggle = (genre: string) => {
@@ -111,7 +109,7 @@ export const MusicGenreView = (props: MusicGenreViewProps) => {
 								>
 									Search
 									<Show when={chosenGenres().length}>
-										{(amount) => <span> ({amount()})</span>}
+										{(amount) => <span>({amount()})</span>}
 									</Show>
 									<Icon
 										name="caret-right"
@@ -153,9 +151,9 @@ export const MusicGenreView = (props: MusicGenreViewProps) => {
 						<Button
 							class={twJoin(
 								"border animate-in fade-in duration-500 rounded-full px-3 py-2 transition-all transform hover:scale-110 text-slate-600 font-light",
-								chosenGenres().includes(genre)
-									? "border-blue-500"
-									: "border-slate-200",
+								chosenGenres().includes(genre) ?
+									"border-blue-500" :
+									"border-slate-200",
 							)}
 							onClick={() => handleGenreToggle(genre)}
 						>

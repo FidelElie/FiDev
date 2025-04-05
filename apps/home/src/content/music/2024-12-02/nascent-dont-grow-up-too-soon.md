@@ -99,17 +99,18 @@ tracks:
     favourite: false
 date: '2024-12-02T00:00:00.000Z'
 ---
+
 What seems like an age ago in 2021, fresh out of COVID - finally lost the weight from all
 the pizza making I did and I found myself at a party with university people i hadn't seen
 in about two years. It may have been an :track[1EoHEkVcysf4WVDx6r9WzQ][Over] moment:
 
 :lyrics[
-  I know way to many people here right now
-  That I didn't know last year who the fuck are yall?
+I know way to many people here right now
+That I didn't know last year who the fuck are yall?
 ][
-  Over:1EoHEkVcysf4WVDx6r9WzQ:Drake
+Over:1EoHEkVcysf4WVDx6r9WzQ:Drake
 ][
-  Sorry came to mind - had to do it
+Sorry came to mind - had to do it
 ]
 
 Jokes aside it was great to see all the familiar faces and catch up - at the time I saw a
@@ -132,7 +133,7 @@ The concept doesn't fully extend to the entire album, :track[2s3jEDDokwMlhrhoc5a
 also starts with jesus' very different sermon (it is very entertaining) or the retrospective
 :track[12N9VEUrRcRvEOPHAYYYBk][Take Your Time] where Ab Soul reflects on his experiences, but then there
 are tracks like :track[3As19hYDpTwkp9Ia2yEqVF][Plata O Plomo (Remix)] that deviate drastically from this.
-I do like that song a lot, a great  ignorant hype track to me - it can feel a little out
+I do like that song a lot, a great ignorant hype track to me - it can feel a little out
 of place even with the transition being so good between it and the Saba track
 :track[2VFgYkEP5RbTxRzVM7i6Cz][U Shoulda Been There (feat. Saba)]. I also think the bonus track
 :track[2Li5EVxVHq3yAXBIixJpvK][LONG LIVE DOC] could have just been left off the project, as
@@ -143,15 +144,15 @@ a great experience that I can recommend with my whole chest. Now excuse me while
 and listen to his previous one for at least the tenth time...
 
 :lyrics[
-  They say trust the process, don't rush the process
-  Take your time
-  DON'T GROW UP TOO SOON man
-  Keep that imagination, keep that wonder, keep that drive man
-  Keep striving to push the envelope and make something new
-  Reinvent, keep on creating baby
-  You'll never get stale that way
+They say trust the process, don't rush the process
+Take your time
+DON'T GROW UP TOO SOON man
+Keep that imagination, keep that wonder, keep that drive man
+Keep striving to push the envelope and make something new
+Reinvent, keep on creating baby
+You'll never get stale that way
 ][
-  Found You (Outro):2fBx9NDWSdxk7NZIzJWwqQ
+Found You (Outro):2fBx9NDWSdxk7NZIzJWwqQ
 ][
-  Wise words from the man himself
+Wise words from the man himself
 ]

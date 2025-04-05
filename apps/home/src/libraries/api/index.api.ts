@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-import { getConstKeys } from "@fi.dev/typescript";
+import { getConstKeys } from "@fi/typescript";
 
 import { MusicPostMetadata } from "@/libraries/constants";
 import { BaseMusicPostSchema, MusicArtistSchema } from "@/libraries/schemas";

@@ -106,11 +106,11 @@ He has great bars. And is fucking consistent and this album proves this even fur
 Blast off and enjoy Milky Way, I sure as hell did.
 
 :lyrics[
-  Whatever last, smoke buddah, make more Gouda cheese
-  My whip European but the kid Sudanese
-  Got a Laundry list of niggas with the list of they needs.
+Whatever last, smoke buddah, make more Gouda cheese
+My whip European but the kid Sudanese
+Got a Laundry list of niggas with the list of they needs.
 ][
-  Barack Obama Special:6ypfqRdhGKVM2rloD5oXmU
+Barack Obama Special:6ypfqRdhGKVM2rloD5oXmU
 ]
 
 :youtube[OA8aw07dpg0]

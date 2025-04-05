@@ -2,13 +2,13 @@ import path from "node:path";
 
 import "dotenv/config";
 
-import { getPostsPathsFromRootDir } from "@fi.dev/content";
+import { getPostsPathsFromRootDir } from "@fi/content";
 
 import { client } from "../src/libraries/database";
 
 const syncMusicPostEntriesDatabase = async () => {
 	const paths = getPostsPathsFromRootDir("./src/content/music").filter((path) =>
-		path.includes(".md"),
+		path.includes(".md")
 	);
 
 	const postsToPublish = paths.map((entryPath) => {

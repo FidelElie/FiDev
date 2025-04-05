@@ -1,5 +1,5 @@
 {
-	"name": "@fi.dev/theme",
+	"name": "@fi/theme",
 	"version": "1.0.0",
 	"private": true,
 	"main": "./tailwindcss.config.js",

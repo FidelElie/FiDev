@@ -2,16 +2,16 @@
 import { Image } from "astro:assets";
 import { getCollection } from "astro:content";
 
-import { Show } from "solid-js";
 import { convert } from "html-to-text";
+import { Show } from "solid-js";
 
-import { getDateTimeString } from "@fi.dev/typescript";
+import { getDateTimeString } from "@fi/typescript";
 
 import { AppManifest } from "@/configs";
 
 import { MusicPostMetadata } from "@/libraries/constants";
-import { fetchMusicPostsTotal } from "@/libraries/server";
 import { compileOutputWithPlugins } from "@/libraries/plugins";
+import { fetchMusicPostsTotal } from "@/libraries/server";
 
 import { RootLayout } from "@/pages/_root.layout";
 
@@ -44,17 +44,16 @@ const populatedArtists = await getCollection("artists", (artist) => {
 const [firstArtist] = populatedArtists;
 const [firstImageCover] = covers;
 
-const tracksList =
-	type === MusicPostMetadata.types.ALBUM ? entry.data.tracks : [];
+const tracksList = type === MusicPostMetadata.types.ALBUM ? entry.data.tracks : [];
 
 const favouriteTracks = tracksList
 	.map((track, trackIndex) =>
-		track.favourite
-			? {
-					number: trackIndex + 1,
-					track,
-				}
-			: [],
+		track.favourite ?
+			{
+				number: trackIndex + 1,
+				track,
+			} :
+			[]
 	)
 	.flat();
 
@@ -95,26 +94,26 @@ const truncatedContent = convert(
 							<summary class="cursor-pointer">
 								<span class="font-light text-blue-500">Track list</span>
 							</summary>
-							<hr class="border-slate-200 my-1.5"/>
+							<hr class="border-slate-200 my-1.5" />
 							<ul class="space-y-0.5">
 								{
 									tracksList.map(
 										(track, trackIndex) => (
-											<li class="text-sm">
-												{track.name} <span class="text-blue-500 font-heading">.{trackIndex + 1}</span>
-											</li>
-										)
+										<li class="text-sm">
+											{track.name} <span class="text-blue-500 font-heading">.{trackIndex + 1}</span>
+										</li>
+									),
 									)
 								}
 							</ul>
-							<hr class="border-slate-200 my-1.5"/>
+							<hr class="border-slate-200 my-1.5" />
 						</details>
 					</Show>
 					<Show when={genres.length}>
 						<li>{genres.join(", ")}</li>
 					</Show>
 					<li>
-						<MusicLinksPane post={entry.data} client:load/>
+						<MusicLinksPane post={entry.data} client:load />
 					</li>
 				</ul>
 			</div>
@@ -152,10 +151,11 @@ const truncatedContent = convert(
 							{
 								favouriteTracks.map(
 									(track) => (
-										<li class="text-sm font-light">
-											<span class="text-blue-500 font-heading">{track.number}.</span> {track.track.name}
-										</li>
-									)
+									<li class="text-sm font-light">
+										<span class="text-blue-500 font-heading">{track.number}.</span>
+										{track.track.name}
+									</li>
+								),
 								)
 							}
 						</ul>
@@ -163,12 +163,12 @@ const truncatedContent = convert(
 				</Show>
 				<div class="flex items-center justify-between mt-1.5">
 					<div class="flex items-center gap-2">
-						<MusicPostRatingTag rating={entry.data.rating}/>
+						<MusicPostRatingTag rating={entry.data.rating} />
 					</div>
 					{
 						entry.data.date && (
 							<div class="flex items-center">
-								<Icon name="calendar" class="text-blue-500 mr-1.5"/>
+								<Icon name="calendar" class="text-blue-500 mr-1.5" />
 								<time
 									class="text-sm"
 									datetime={getDateTimeString(entry.data.date)}
@@ -180,8 +180,8 @@ const truncatedContent = convert(
 					}
 				</div>
 			</section>
-			<hr class="border-slate-200 mt-2.5 mb-5"/>
-			<ContentDisplay entry={entry}/>
+			<hr class="border-slate-200 mt-2.5 mb-5" />
+			<ContentDisplay entry={entry} />
 		</article>
 	</Container>
 </RootLayout>

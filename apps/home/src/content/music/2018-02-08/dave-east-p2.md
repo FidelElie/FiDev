@@ -90,6 +90,7 @@ tracks:
     favourite: false
 date: '2018-02-08T00:00:00.000Z'
 ---
+
 One of my favorite rappers in the game right now, decided to drop some fire a week or two ago
 and I have been listening to it ever since. Paranoia 2 (P2) is the follow up to his project
 of the same name last year and it inherits the same strengths as the previous one. Hard Beats?
@@ -102,11 +103,11 @@ wholeheartedly recommend listening to, especially if you like his older work and
 him a shot I did not regret it myself.
 
 :lyrics[
-  Hoodies only do dark colours, it help us move better
-  I told James, "Cuz you know what to do if you catch her"
-  Might've took a loss, will I lose? Never, that's fool's treasure
+Hoodies only do dark colours, it help us move better
+I told James, "Cuz you know what to do if you catch her"
+Might've took a loss, will I lose? Never, that's fool's treasure
 ][
-  I Found Keisha:7zHW3Z0e7kF7Jqv5KVvlv1
+I Found Keisha:7zHW3Z0e7kF7Jqv5KVvlv1
 ][
-  This is some grimey shit and it continues for the entire song.
+This is some grimey shit and it continues for the entire song.
 ]

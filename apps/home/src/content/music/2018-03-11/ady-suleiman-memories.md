@@ -78,6 +78,7 @@ tracks:
     favourite: false
 date: '2018-03-11T00:00:00.000Z'
 ---
+
 This was a big surprise as I didn't think Mr Suleiman was releasing anything anytime soon.
 I was just very contempt with all the singles he has released before this, but I have got
 to say I am very happy that he did. It is an amazing project that inherits much of the style

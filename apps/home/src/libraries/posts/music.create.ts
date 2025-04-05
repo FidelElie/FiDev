@@ -1,24 +1,24 @@
 import {
-	ora,
-	input,
-	Separator,
-	select,
 	checkbox,
 	confirm,
+	input,
 	onCreatePromptWithFallback,
+	ora,
 	type PostCreationContext,
-} from "@fi.dev/content";
-import { sanitiseToURLSlug } from "@fi.dev/typescript";
+	select,
+	Separator,
+} from "@fi/content";
+import { sanitiseToURLSlug } from "@fi/typescript";
 
-import { getSpotifyEnv } from "@/libraries/utilities";
 import { createSpotifyClient } from "@/libraries/clients";
-import { MusicPostSchema } from "@/libraries/schemas";
 import { MusicPostMetadata, MusicPostRatingMap } from "@/libraries/constants";
+import { MusicPostSchema } from "@/libraries/schemas";
 import type {
-	SpotifyTrackObject,
 	SpotifyArtistObject,
 	SpotifySimplifiedAlbumObject,
+	SpotifyTrackObject,
 } from "@/libraries/types";
+import { getSpotifyEnv } from "@/libraries/utilities";
 
 export const onCreateMusicPost: PostCreationContext<
 	MusicPostSchema

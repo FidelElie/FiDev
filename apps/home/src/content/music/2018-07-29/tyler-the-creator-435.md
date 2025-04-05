@@ -26,6 +26,7 @@ genres:
 type: TRACK
 date: '2018-07-29T00:00:00.000Z'
 ---
+
 In looking for Tyler's newest release I stumbled across this song, it is some really smooth
 Hip Hop. Very short and sweet, one take excellence as he talks about in the song itself.
 There is not much to say about it other then instrumentation is typical Tyler, which is a

@@ -1,16 +1,16 @@
-import { createSignal, For, Match, onMount, Show, Switch } from "solid-js";
 import { createQuery } from "@tanstack/solid-query";
+import { createSignal, For, Match, onMount, Show, Switch } from "solid-js";
 import { twJoin } from "tailwind-merge";
 
-import { request } from "@/libraries/clients";
-import { queryParams } from "@/libraries/utilities";
 import { SearchWebsiteRoute } from "@/libraries/api";
+import { request } from "@/libraries/clients";
 import { useOnDebounce } from "@/libraries/hooks";
+import { queryParams } from "@/libraries/utilities";
 
-import { withQueryProvider } from "@/components/providers";
 import { Grid, Icon } from "@/components/core";
-import { MusicPostSearchEntry } from "@/components/pages/search/_SearchPane/MusicPostSearchEntry";
 import { MusicArtistSearchEntry } from "@/components/pages/search/_SearchPane/MusicArtistSearchEntry";
+import { MusicPostSearchEntry } from "@/components/pages/search/_SearchPane/MusicPostSearchEntry";
+import { withQueryProvider } from "@/components/providers";
 
 export const SearchPane = withQueryProvider(
 	() => {
@@ -63,19 +63,17 @@ export const SearchPane = withQueryProvider(
 						name="circle-notch"
 						class={twJoin(
 							"text-4xl transition text-blue-500",
-							debouncing() || searchQuery.isFetching
-								? "opacity-100 animate-spin"
-								: "opacity-0",
+							debouncing() || searchQuery.isFetching ?
+								"opacity-100 animate-spin" :
+								"opacity-0",
 						)}
 					/>
 				</div>
 				<Switch>
 					<Match when={searchQuery.isSuccess && !!debouncedSearch()}>
 						<Show
-							when={
-								searchQuery.data?.music.length ||
-								searchQuery.data?.artists.length
-							}
+							when={searchQuery.data?.music.length ||
+								searchQuery.data?.artists.length}
 							fallback={<p class="text-2xl">No results found</p>}
 						>
 							<Show when={searchQuery.data?.music.length}>

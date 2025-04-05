@@ -111,6 +111,7 @@ tracks:
     favourite: false
 date: '2018-02-08T00:00:00.000Z'
 ---
+
 What can I say about this album. Well it is long and in this case that is not a good thing.
 I have a policy of doing a blind listen of an album the first time around, meaning no looking
 at the song changes, just listening through without interruption. If there is a song of note
@@ -120,21 +121,21 @@ project from them, considering :album[4JTOxuvM2jcSqAvEZtZsOO][Culture 1] was so 
 songs hit harder they actually had bars that were at least memorable:
 
 :lyrics[
-  Put a model bitch on coco
-  Told her read between the lines
+Put a model bitch on coco
+Told her read between the lines
 ][
-  Call Casting:4BqE5Rg3r4Rtizvm3IicrN
+Call Casting:4BqE5Rg3r4Rtizvm3IicrN
 ]
 
 Compared to some of the bars from this one being memorable for all the wrong reasons.
 
 :lyrics[
-  Diamonds (diamonds) on my wrist look like a McFlurry??????
+Diamonds (diamonds) on my wrist look like a McFlurry??????
 ][
-  Emoji A Chain:0G9rmRmQDFk9O2tzZLyRkc
+Emoji A Chain:0G9rmRmQDFk9O2tzZLyRkc
 ][
-  I added the question marks but maybe they should have actually been in the lyrics because
-  what the fuck???? I guess because a McFlurry is cold - anyway it sucks
+I added the question marks but maybe they should have actually been in the lyrics because
+what the fuck???? I guess because a McFlurry is cold - anyway it sucks
 ]
 
 To me the project just feels like a lot of swag rapping that doesn't make much sense. It is

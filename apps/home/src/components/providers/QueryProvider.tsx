@@ -1,6 +1,6 @@
-import { Show, type JSX } from "solid-js";
-import { SolidQueryDevtools } from "@tanstack/solid-query-devtools";
 import { QueryClient, QueryClientProvider } from "@tanstack/solid-query";
+import { SolidQueryDevtools } from "@tanstack/solid-query-devtools";
+import { type JSX, Show } from "solid-js";
 
 const queryClient = new QueryClient();
 

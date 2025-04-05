@@ -1,5 +1,5 @@
 {
-	"name": "@fi.dev/scripts",
+	"name": "@fi/scripts",
 	"version": "1.0.0",
 	"scripts": {
 		"clean": "tsx ./clean.script.ts",

@@ -79,6 +79,7 @@ tracks:
     favourite: false
 date: '2018-04-07T00:00:00.000Z'
 ---
+
 I'm going to start this off by saying that Oddisee has been one my favorite rappers for years
 now. His lyrics are amazing and I like how his beats are simple but still do so much for the
 song. Which is a far cry from all the super layered stuff that you hear today, that sometimes

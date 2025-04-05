@@ -77,6 +77,7 @@ tracks:
     favourite: false
 date: '2018-04-29T00:00:00.000Z'
 ---
+
 This album was hype to the point where I kept looking at what day it was counting down until
 last Friday. What can I say I love me some J.Cole. But then I listened and initially I wasn't
 sold on this one. But with time, I've grown to love J's newest. It is very different from
@@ -93,13 +94,13 @@ over time with Cole being able to make the music that he wants brought home by w
 on :album[5FP9keIJnlSCKnkdVOf623][Born sinner]:
 
 :lyrics[
-  Granted, my heart was tainted by my mind that kept on sayin',
-  "Where's the hits? You ain't got none
-  You know Jay'll never put your album out without none,"
-  And, dog, you know how come
-  Labels are archaic, formulaic with they outcomes, huh
+Granted, my heart was tainted by my mind that kept on sayin',
+"Where's the hits? You ain't got none
+You know Jay'll never put your album out without none,"
+And, dog, you know how come
+Labels are archaic, formulaic with they outcomes, huh
 ][
-  Let Nas Down:26RcjBcThMrZ8KvsqApOvN
+Let Nas Down:26RcjBcThMrZ8KvsqApOvN
 ]
 
 He has managed to put across some serious shit with intellect and staying power that I
@@ -109,20 +110,20 @@ those people complaining about his continuation of no features of his project I 
 thing for you:
 
 :lyrics[
-  How 'bout you just get the fuck off my dick?
-  How 'bout you listen and never forget?
-  Only gon' say this one time, then I'll dip
-  Niggas ain't worthy to be on my shit
+How 'bout you just get the fuck off my dick?
+How 'bout you listen and never forget?
+Only gon' say this one time, then I'll dip
+Niggas ain't worthy to be on my shit
 ][
-  KOD:7yotKA30dwTKNEGomV9ZsI
+KOD:7yotKA30dwTKNEGomV9ZsI
 ][
-  Makes me smile every time I hear it
+Makes me smile every time I hear it
 ]
 
 J killed this shit what a great album now I am just waiting for the Fall Off.
 
 :future-comment[
-  And apparently we are still waiting for the Fall Off to drop...
+And apparently we are still waiting for the Fall Off to drop...
 ][
-  2024-11-26
+2024-11-26
 ]

@@ -83,6 +83,7 @@ tracks:
     favourite: true
 date: '2018-09-25T00:00:00.000Z'
 ---
+
 When this came out I was really looking forward to it and although it has lost some steam
 since I still believe it was a solid project. This is no :album[5U2hIEObpi8FOApxIeaJdD][Lost thoughts]
 or :album[3efpx8tZjv4jOqmQPH6Myn][Pink Polo EP] but still very solids. There are some highlight

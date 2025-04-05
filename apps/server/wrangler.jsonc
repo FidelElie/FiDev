@@ -1,0 +1,9 @@
+{
+	"$schema": "../../node_modules/wrangler/config-schema.json",
+	"name": "fi-workers",
+	"main": "index.ts",
+	"compatibility_date": "2025-03-28",
+	"compatibility_flags": [
+		"nodejs_compat"
+	]
+}

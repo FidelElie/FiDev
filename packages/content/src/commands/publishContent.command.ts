@@ -1,10 +1,10 @@
 import path from "node:path";
 
-import { select, confirm, checkbox, Separator } from "@inquirer/prompts";
+import { checkbox, confirm, select, Separator } from "@inquirer/prompts";
 
+import { datePrompt } from "../prompts";
 import type { ContentConfig, PublishPostEntry } from "../types";
 import { getEntriesFromFilePaths, getPostPathsFromConfig } from "../utilities";
-import { datePrompt } from "../prompts";
 
 export const publishContentCommand = async (context: {
 	config: ContentConfig;
@@ -44,9 +44,9 @@ export const publishContentCommand = async (context: {
 		});
 	})();
 
-	const ids = chosenPostFilter
-		? [chosenPostFilter]
-		: config.entries.map((entryPath) => entryPath.id);
+	const ids = chosenPostFilter ?
+		[chosenPostFilter] :
+		config.entries.map((entryPath) => entryPath.id);
 
 	const entryPaths = getPostPathsFromConfig({ config, ids }).filter(
 		(entryPath) => entryPath.includes(`.${config.type || "md"}`),
