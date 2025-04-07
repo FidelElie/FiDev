@@ -88,7 +88,7 @@ is mean with his raps:
   Trying to paint a profound picture
   Holding the brush, won’t put it down
   Till I put the right colors inside your sound system
-][But Can It Be#4KdT67SkWs1sWUHDyAUsra]
+][But Can It Be:4KdT67SkWs1sWUHDyAUsra]
 
 The flow he brings to these bars alone is mad. The project is a great listen and I am
 solidified as a Black Milk fan, give his newest project a listen.
@@ -101,4 +101,4 @@ solidified as a Black Milk fan, give his newest project a listen.
   So if you can't stand up
   When fellow officers shoot a kid with they hands up
   I don't know who we can trust
-][Drown#6H7wzIGOjI8pAkUMVCEEKf]
+][Drown:6H7wzIGOjI8pAkUMVCEEKf]
