@@ -143,7 +143,7 @@ const truncatedContent = convert(
 					</h2>
 				</Link>
 				<h1 class="text-5xl font-heading tracking-tighter">{name}</h1>
-				<Show when={type === MusicPostMetadata.types.ALBUM}>
+				<Show when={type === MusicPostMetadata.types.ALBUM && !!favouriteTracks.length}>
 					<details>
 						<summary class="cursor-pointer">
 							<span class="text-blue-500 font-light text-sm">Favourite Tracks</span>
