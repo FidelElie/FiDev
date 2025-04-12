@@ -53,6 +53,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/6cPVUUpe5GoBapjNuuBcr8'
     name: Can't Back Down
     favourite: true
+date: '2024-12-04T00:00:00.000Z'
 ---
 This is definitely a throwback to my sixth form days (16 to 18) years old - about a decade ago
 (God I'm old). I never knew what genres to categorise Bad Rabbits as, according to their
