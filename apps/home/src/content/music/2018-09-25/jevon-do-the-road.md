@@ -27,6 +27,7 @@ genres:
 type: TRACK
 date: '2018-09-25T00:00:00.000Z'
 ---
+
 This song has stolen the show for me for what seems like an age now. To summarize it I will
 have to say: the beat, the bars, the visuals and the road. Now for the longer answer, the
 beat is so good that me trying to explain it wouldn't do it justice. There is something about
@@ -41,14 +42,14 @@ times to listen to the song there. And finally the it all culminates in making m
 I want to do the road.
 
 :lyrics[
-  They don't wanna aim for my head
-  Don't let me take your respect
-  I'll take your crown with your head still attached
-  Then wear it as a chain on my neck
+They don't wanna aim for my head
+Don't let me take your respect
+I'll take your crown with your head still attached
+Then wear it as a chain on my neck
 ][
-  Do The Road
+Do The Road
 ][
-  How do you not get gassed to something like this?
+How do you not get gassed to something like this?
 ]
 
 So listen to this tune, on your favourite streaming service or YouTube. The YouTube version

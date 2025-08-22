@@ -109,6 +109,7 @@ tracks:
     favourite: false
 date: '2018-04-21T00:00:00.000Z'
 ---
+
 I am a big fan of older rock bands like Queen, Rainbow and as you can see from this project
 Led Zeppelin. This is the album I always use to listen to when I was younger and admittedly
 never use to get to the second part. I don't blame my younger self though this side of the
@@ -126,13 +127,13 @@ is a great start. So I have to say thank you to my Dad for giving me the opportu
 experience it.
 
 :future-comment[
-  This album still holds up as one of my favourite rock albums ever and it will always
-  have a special place in my heart. Additionally, what also makes this so good is that I
-  know there is a better version of at least one songs on here that they did live. Since
-  I've been loving you at Glastonbury 95 (I wasn't there - was on the way) takes the
-  song to a whole new level. I love this version so much that I have tried (allegedly) to
-  download it from Youtube so I always have it. They wouldn't let me though so hopefully,
-  thus version will stay up forever, it hasn't failed me so far.
+This album still holds up as one of my favourite rock albums ever and it will always
+have a special place in my heart. Additionally, what also makes this so good is that I
+know there is a better version of at least one songs on here that they did live. Since
+I've been loving you at Glastonbury 95 (I wasn't there - was on the way) takes the
+song to a whole new level. I love this version so much that I have tried (allegedly) to
+download it from Youtube so I always have it. They wouldn't let me though so hopefully,
+thus version will stay up forever, it hasn't failed me so far.
 ][2024-28-21]
 
 :youtube[PGnZm8Qvndg]

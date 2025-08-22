@@ -1,10 +1,10 @@
 import fs from "node:fs";
 
-import { getPostsPathsFromRootDir, matter } from "@fi.dev/content";
+import { getPostsPathsFromRootDir, matter } from "@fi/content";
 
 const syncMusicPostEntriesLocal = () => {
 	const paths = getPostsPathsFromRootDir("./src/content/music").filter((path) =>
-		path.includes(".md"),
+		path.includes(".md")
 	);
 
 	for (const path of paths) {

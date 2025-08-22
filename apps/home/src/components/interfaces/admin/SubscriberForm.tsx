@@ -1,16 +1,16 @@
-import { createSignal, onCleanup, Show, type JSX } from "solid-js";
 import { createMutation } from "@tanstack/solid-query";
 import { Image } from "@unpic/solid";
+import { createSignal, type JSX, onCleanup, Show } from "solid-js";
 
 import { TheHavanaStreetsJPG } from "@/assets";
 
+import { SubscribeToWebsiteRoute } from "@/libraries/api";
 import { request } from "@/libraries/clients";
 import type { InferDTOS } from "@/libraries/types";
-import { SubscribeToWebsiteRoute } from "@/libraries/api";
 
+import { Button, Icon } from "@/components/core";
 import { withQueryProvider } from "@/components/providers";
 import { twMerge } from "tailwind-merge";
-import { Button, Icon } from "@/components/core";
 
 const INITIAL_FIELDS = { forename: "", email: "" };
 
@@ -103,9 +103,7 @@ export const SubscriberForm = withQueryProvider(
 								class="border-none flex-grow rounded-lg"
 								placeholder="Your first name"
 								value={fields().forename}
-								onInput={(event) =>
-									editFields({ forename: event.currentTarget.value })
-								}
+								onInput={(event) => editFields({ forename: event.currentTarget.value })}
 								required
 							/>
 						</div>
@@ -120,9 +118,7 @@ export const SubscriberForm = withQueryProvider(
 								class="border-none flex-grow rounded-lg"
 								placeholder="Your email address"
 								value={fields().email}
-								onInput={(event) =>
-									editFields({ email: event.currentTarget.value })
-								}
+								onInput={(event) => editFields({ email: event.currentTarget.value })}
 								required
 							/>
 						</div>

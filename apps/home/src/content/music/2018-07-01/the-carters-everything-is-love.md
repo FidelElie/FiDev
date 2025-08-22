@@ -61,6 +61,7 @@ tracks:
     favourite: true
 date: '2018-07-01T00:00:00.000Z'
 ---
+
 In a surprise to many, Yonce and her so called camel pet decided to release a joint album to
 follow their On The Run 2 Tour. And it is not what I expected, If you haven't heard the album
 in its entirety, you might have at least seen the Apeshit video. And I think that the flexing

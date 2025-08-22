@@ -1,9 +1,6 @@
+import { Tooltip as KolbalteTooltip, type TooltipRootProps } from "@kobalte/core/tooltip";
 import type { JSX } from "solid-js";
 import { twMerge } from "tailwind-merge";
-import {
-	Tooltip as KolbalteTooltip,
-	type TooltipRootProps,
-} from "@kobalte/core/tooltip";
 
 export const Tooltip = (props: TooltipProps) => {
 	return (

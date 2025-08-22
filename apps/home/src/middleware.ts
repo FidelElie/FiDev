@@ -2,9 +2,9 @@ import { defineMiddleware } from "astro:middleware";
 
 import { z } from "zod";
 
-import { queryParams } from "@/libraries/utilities";
-import { getSpotifyEnv } from "@/libraries/schemas";
 import { createSpotifyClient } from "@/libraries/clients";
+import { getSpotifyEnv } from "@/libraries/schemas";
+import { queryParams } from "@/libraries/utilities";
 
 export const onRequest = defineMiddleware(async (context, next) => {
 	if (context.url.pathname.includes("/callback")) {

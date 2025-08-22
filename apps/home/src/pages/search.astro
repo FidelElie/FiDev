@@ -13,10 +13,10 @@ const meta = astroMeta({
 <RootLayout {...meta}>
 	<Container class="min-h-screen flex flex-col">
 		<div class="flex flex-col justify-between gap-5">
-			<HeadingSection title={meta.title} subtitle="Find something that interests you"/>
+			<HeadingSection title={meta.title} subtitle="Find something that interests you" />
 			<div>
 				<SearchPane client:only="solid">
-					<div slot="fallback" class="bg-slate-200 rounded-lg h-16 w-full animate-pulse"/>
+					<div slot="fallback" class="bg-slate-200 rounded-lg h-16 w-full animate-pulse" />
 				</SearchPane>
 			</div>
 		</div>

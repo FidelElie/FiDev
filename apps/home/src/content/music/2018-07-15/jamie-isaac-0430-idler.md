@@ -70,6 +70,7 @@ tracks:
     favourite: true
 date: '2018-07-15T00:00:00.000Z'
 ---
+
 I'm stuck right here again (Find Your Words) listening to Jamie Isaac's album and thinking,
 this guy has some talent. I loved how he uses the piano throughout his music. In the last
 project he used it to convey a much more somber tone and in this one it is still somber,

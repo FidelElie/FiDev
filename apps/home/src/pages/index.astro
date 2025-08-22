@@ -1,16 +1,16 @@
 ---
 import { AppManifest } from "@/configs";
 
-import { fetchMusicProjects, fetchMusicPostsTotal } from "@/libraries/server";
+import { fetchMusicPostsTotal, fetchMusicProjects } from "@/libraries/server";
 
 import { RootLayout } from "@/pages/_root.layout";
 
 import { Container, Grid, Link } from "@/components/core";
 import {
-	MusicProjectEntry,
-	MusicCurrentlyPlayingPane,
-	MusicSearchOptions,
 	HeadingSection,
+	MusicCurrentlyPlayingPane,
+	MusicProjectEntry,
+	MusicSearchOptions,
 } from "@/components/interfaces";
 
 const request = new Request(`${Astro.request.url}?page=1&size=3`);
@@ -21,14 +21,10 @@ const [displayPosts, totalPosts] = await Promise.all([
 ---
 <RootLayout title="Home" class="min-h-screen">
 	<Container class="flex flex-col gap-5">
-		<HeadingSection title="Music" subtitle="My latest thoughts on various music projects"/>
-		<MusicSearchOptions options={["posts", "artists", "genres"]}/>
+		<HeadingSection title="Music" subtitle="My latest thoughts on various music projects" />
+		<MusicSearchOptions options={["posts", "artists", "genres"]} />
 		<Grid>
-			{
-				displayPosts.items.map(post => (
-					<MusicProjectEntry post={post} info={false} />
-				))
-			}
+			{displayPosts.items.map(post => <MusicProjectEntry post={post} info={false} />)}
 		</Grid>
 		<div class="flex items-center justify-end gap-3" id="nav-container">
 			<Link href={AppManifest.links.pages["/music"]}>
@@ -36,7 +32,7 @@ const [displayPosts, totalPosts] = await Promise.all([
 			</Link>
 		</div>
 		<div class="astro:block astro:min-h-36">
-			<MusicCurrentlyPlayingPane client:load/>
+			<MusicCurrentlyPlayingPane client:load />
 		</div>
 	</Container>
 </RootLayout>

@@ -25,6 +25,7 @@ genres:
 type: TRACK
 date: '2018-07-01T00:00:00.000Z'
 ---
+
 I have been a fan of Anon's music ever since :album[7N2iWgJi8f2lFPgmGWxmkN][Vice City] and
 he has been killing it since then. What it seems like grinding constantly when I see him on
 Instagram stories he recently released this. From the first bar:
@@ -36,4 +37,3 @@ bars. I love how he has carved himself out a distinct style with his music, the 
 that it holds and I am a very big fan of it. This song brings this point home and is no
 exception. Let me summarise this song by sending shots and some of the most disappointing
 shit of the year. Fuck A$AP Forever, I'm Rxdical Forever. Amazing tune.
-

@@ -46,6 +46,7 @@ tracks:
     favourite: true
 date: '2018-03-31T00:00:00.000Z'
 ---
+
 Wale's last project Shine was a miss to me, but this four song EP is far from it. . His
 lyricism is as poetic as before and the production of the project are a great match. The
 theme of the songs are also very refreshing as it strays from the usual rap stuff with bitches

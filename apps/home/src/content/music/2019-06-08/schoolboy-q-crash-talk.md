@@ -87,6 +87,7 @@ tracks:
     favourite: false
 date: '2019-06-08T00:00:00.000Z'
 ---
+
 I just realised how consistent how Q has been. All the albums up to this one have been great,
 with personally the peak being his previous Blank Face LP. Has this consistency continued
 with CrasH Talk? I think it has for very different reasons than the others that I have
@@ -100,9 +101,9 @@ of music. I may have not liked the album initially, but it has grown on me and f
 just skip that step, because there is a lot to like. Just know what you are in for.
 
 :lyrics[
-  I been counting dead men, puttin' bodies in the safe (Safe)
-  52 hundred, one swipe, throw it away ('Way)
-  Ayy, whip, whip, whip, 'til it stain on ya (Stain on ya)
+I been counting dead men, puttin' bodies in the safe (Safe)
+52 hundred, one swipe, throw it away ('Way)
+Ayy, whip, whip, whip, 'til it stain on ya (Stain on ya)
 ][
-  5200:1e3GEwsaXtBNtPfooQimDn
+5200:1e3GEwsaXtBNtPfooQimDn
 ]

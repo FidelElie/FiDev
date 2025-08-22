@@ -32,6 +32,7 @@ genres:
 type: TRACK
 date: '2019-03-31T00:00:00.000Z'
 ---
+
 I do like some afrobeats, admittedly it is easy for a lot of it to sound the same. But from
 what I have heard from Wizkid he is doing some good. The production does make you want to
 skank out to it. I love the how half of the song is in English and the rest in Oruba. The

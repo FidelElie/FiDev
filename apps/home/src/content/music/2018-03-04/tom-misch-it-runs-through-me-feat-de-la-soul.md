@@ -29,13 +29,14 @@ genres:
 type: TRACK
 date: '2018-03-04T00:00:00.000Z'
 ---
+
 Tom, Tom, Tom... Tom. Can you just release the album already? This song bangs. The riff is
 just too infectious, makes me have to move something. Just a great feel good sound.
 
 :lyrics[
-  And where I’ll go
-  Can’t explain I’ll never know
-  But it’s beautiful
+And where I’ll go
+Can’t explain I’ll never know
+But it’s beautiful
 ][It Runs Through Me]
 
 Him talking about the sound he makes just sounds awesome. And with each element popping in
@@ -43,8 +44,8 @@ as he sings about it, is just a great touch. De la Soul’s feature bumps too th
 the song super well, really smooth and the bars follow the same formula:
 
 :lyrics[
-  That bounce to my bones, that jazz in my spine
-  The hop is my home, rap is my grind
+That bounce to my bones, that jazz in my spine
+The hop is my home, rap is my grind
 ][It Runs Through Me]
 
 I’m just wondering what Misch is waiting for just release the album already.

@@ -87,6 +87,7 @@ tracks:
     favourite: true
 date: '2018-09-05T00:00:00.000Z'
 ---
+
 After talking about the group’s latest release previously with :track[4J3eFXXi2nQqF6MWLprnbR][Before You Get A Girlfriend]. And bigging up there previous album in the process. I thought I would go back and listen to this banger of an album once again. And my opinion hasn’t changed years later.
 
 The instrumentation incorporates aspects from many genres, leading to the groups funky style.

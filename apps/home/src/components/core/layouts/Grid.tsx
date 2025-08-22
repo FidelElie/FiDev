@@ -1,6 +1,6 @@
-import { Dynamic } from "solid-js/web";
 import type { ValidComponent } from "solid-js";
 import type { JSX } from "solid-js/jsx-runtime";
+import { Dynamic } from "solid-js/web";
 
 import { twMerge } from "tailwind-merge";
 

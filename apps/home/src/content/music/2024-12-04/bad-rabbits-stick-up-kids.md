@@ -54,12 +54,13 @@ tracks:
     name: Can't Back Down
     favourite: true
 ---
+
 This is definitely a throwback to my sixth form days (16 to 18) years old - about a decade ago
 (God I'm old). I never knew what genres to categorise Bad Rabbits as, according to their
 Spotify bio:
 
 :lyrics[
-  "The hardest R&B act on the planet" Salim. Dua. Sheel. Est 2007 in Boston MA
+"The hardest R&B act on the planet" Salim. Dua. Sheel. Est 2007 in Boston MA
 ][Bad Rabbits Spotify Biography]
 
 Maybe this R&B is what their new music is firmly grounded in but this wasn't the case for
@@ -76,4 +77,3 @@ grown much since then - but I think this has always a winner and there is only o
 guys to find out - isn't there.
 
 :youtube[oi9-ENggyKQ][A blast from the past for me - thank you AudioTree for uploading the entire set]
-

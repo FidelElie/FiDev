@@ -1,25 +1,16 @@
-import {
-	createEffect,
-	createSignal,
-	For,
-	Match,
-	onCleanup,
-	onMount,
-	Show,
-	Switch,
-} from "solid-js";
 import { createQuery, useQueryClient } from "@tanstack/solid-query";
 import { Image } from "@unpic/solid";
+import { createEffect, createSignal, For, Match, onCleanup, onMount, Show, Switch } from "solid-js";
 import { twJoin } from "tailwind-merge";
 
 import { AppManifest } from "@/configs";
 
+import { GetCurrentlyPlayingTrackRoute } from "@/libraries/api/music.api";
 import { request } from "@/libraries/clients";
 import { MusicPostMetadata } from "@/libraries/constants";
 import type { SpotifyTrackObject } from "@/libraries/types";
-import { GetCurrentlyPlayingTrackRoute } from "@/libraries/api/music.api";
 
-import { Link, Passthrough, Icon, Tooltip, Popover } from "@/components/core";
+import { Icon, Link, Passthrough, Popover, Tooltip } from "@/components/core";
 import { withQueryProvider } from "@/components/providers/withQueryProvider";
 
 type TrackState = {
@@ -87,13 +78,17 @@ export const MusicCurrentlyPlayingPane = withQueryProvider(() => {
 					remaining: !data.remaining ? data.remaining : data.remaining + 1000,
 				}));
 			}, 1000);
-			const songEndTimeout = setTimeout(() => {
-				queryClient.invalidateQueries({ queryKey: currentPlayingQueryKey });
-			}, currentPlayingQuery.data?.duration -
-				currentPlayingQuery.data.remaining);
+			const songEndTimeout = setTimeout(
+				() => {
+					queryClient.invalidateQueries({ queryKey: currentPlayingQueryKey });
+				},
+				currentPlayingQuery.data?.duration -
+					currentPlayingQuery.data.remaining,
+			);
 
 			onCleanup(() => {
-				clearInterval(songProgressInterval);
+				// FIXME for some reason this is needed here
+				clearInterval(songProgressInterval as NodeJS.Timeout);
 				clearTimeout(songEndTimeout);
 			});
 		}
@@ -135,11 +130,9 @@ export const MusicCurrentlyPlayingPane = withQueryProvider(() => {
 								<Tooltip
 									trigger={
 										<Icon
-											name={
-												context().repeating === "track"
-													? "repeat-once"
-													: "repeat"
-											}
+											name={context().repeating === "track" ?
+												"repeat-once" :
+												"repeat"}
 											class={twJoin(
 												"text-xl transition",
 												context().repeating !== "off" && "text-blue-500",
@@ -161,7 +154,9 @@ export const MusicCurrentlyPlayingPane = withQueryProvider(() => {
 									<Link
 										href={AppManifest.links.pages["/music/:slug"](post.slug)}
 										class="text-sm border border-slate-200 rounded-lg p-0.5"
-										aria-label={`Go to ${post.type === MusicPostMetadata.types.ALBUM ? "album" : "track"}`}
+										aria-label={`Go to ${
+											post.type === MusicPostMetadata.types.ALBUM ? "album" : "track"
+										}`}
 									>
 										<Icon name="note" class="text-xl text-slate-600" />
 									</Link>
@@ -205,9 +200,7 @@ export const MusicCurrentlyPlayingPane = withQueryProvider(() => {
 						<Match when={currentPlayingQuery.isSuccess}>
 							<Show
 								when={currentPlayingQuery.data?.covers[0].url}
-								fallback={
-									<Icon name="cassette-tape" class="text-3xl text-blue-500" />
-								}
+								fallback={<Icon name="cassette-tape" class="text-3xl text-blue-500" />}
 							>
 								{(url) => (
 									<Image
@@ -242,9 +235,7 @@ export const MusicCurrentlyPlayingPane = withQueryProvider(() => {
 							<div class="mb-1.5">
 								<Show
 									when={!!currentPlayingQuery.data}
-									fallback={
-										<p class="text-sm text-blue-500">Check back later</p>
-									}
+									fallback={<p class="text-sm text-blue-500">Check back later</p>}
 								>
 									<Passthrough
 										layout={(children) => (

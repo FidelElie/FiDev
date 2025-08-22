@@ -88,6 +88,7 @@ tracks:
     favourite: false
 date: '2018-06-03T00:00:00.000Z'
 ---
+
 Out of the most of the A$AP Mob, Rocky is the one that I expect to come with the heat when
 he brings out project. LONG LIVE and AT LONG LAST A$AP were great albums and had some great
 songs on it from start to finish. Unfortunately I cannot say the same about this one. A lot
@@ -101,23 +102,23 @@ Also the biggest problem with the project is that it lacks the quotables that ma
 a serious rapper. When you have bars like:
 
 :lyrics[
-  This year, I turned into a racist,
-  All i want to see is green faces,
-  All I want to count is green numbers,
-  That shit is weird looking like the matrix,
+This year, I turned into a racist,
+All i want to see is green faces,
+All I want to count is green numbers,
+That shit is weird looking like the matrix,
 ][
-  Electric Body (feat. Schoolboy Q):6br4Pc0BzU6dTD5fEmks2i
+Electric Body (feat. Schoolboy Q):6br4Pc0BzU6dTD5fEmks2i
 ]
 
 When compared to some of what I heard on this album some of it wasn't even comprehensible
 or don't even make sense:
 
 :lyrics[
-  Homeboy you ain't know (ends where they buck shot)
-  Had a bitch suckin' on a lollipop at the bus stop
-  Green Glock, Red Glock (buck shot) ??????????
+Homeboy you ain't know (ends where they buck shot)
+Had a bitch suckin' on a lollipop at the bus stop
+Green Glock, Red Glock (buck shot) ??????????
 ][
-  Buck Shots:6ImrWnhjEOw5re3cGLMIHJ
+Buck Shots:6ImrWnhjEOw5re3cGLMIHJ
 ]
 
 Glocks do not shoot buck shots!!!! Like what is this bar talking about? This is part of the
@@ -125,4 +126,3 @@ problem with this album. I have no problem with swag rapping, which I usually ho
 Mob in high regard for. But if your just saying things for the sake of it, it ends up degrading
 the whole experience. And after the first few songs this is most of TESTING for me. So for now
 it pains me to say it but A$AP Twelvvy is the only one in the Mob who hasn't taken L's lately.
-

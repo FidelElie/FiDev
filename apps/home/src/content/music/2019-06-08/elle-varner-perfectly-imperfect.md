@@ -73,6 +73,7 @@ tracks:
     favourite: true
 date: '2019-06-08T00:00:00.000Z'
 ---
+
 I do hate it when it seems an artist you was rooting for just disappears of the face of the
 planet for a while. No word of even an EP or accidentally stumbling across one of their projects
 on Hot New Hip Hop amongst all the other trash. Nothing but a couple of singles that you new nothing about.
@@ -85,4 +86,3 @@ is almost carried by it. This is not to say that the instrumentation is lacking,
 it becomes that much more memorable with her singing over it. The typical R&B themes are
 here but here voice brings it home, from front to back. Now i just hope that greatness
 truly awaits for her next one. Until then give this oldie but goodie a listen.
-

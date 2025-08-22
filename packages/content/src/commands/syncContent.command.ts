@@ -18,7 +18,9 @@ export const syncContentCommand = (context: {
 		return null;
 	})();
 
-	const ids = chosenPostFilter
-		? [chosenPostFilter]
-		: config.entries.map((entryPath) => entryPath.id);
+	const ids = chosenPostFilter ?
+		[chosenPostFilter] :
+		config.entries.map((entryPath) => entryPath.id);
+
+	console.log(ids);
 };

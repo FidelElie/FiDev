@@ -1,8 +1,5 @@
-import { Show, type JSX } from "solid-js";
-import {
-	Popover as KobaltePopover,
-	type PopoverRootProps,
-} from "@kobalte/core/popover";
+import { Popover as KobaltePopover, type PopoverRootProps } from "@kobalte/core/popover";
+import { type JSX, Show } from "solid-js";
 import { twMerge } from "tailwind-merge";
 
 export const Popover = (props: PopoverProps) => {

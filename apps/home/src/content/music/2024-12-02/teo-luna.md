@@ -74,6 +74,7 @@ tracks:
     favourite: true
 date: '2024-12-02T00:00:00.000Z'
 ---
+
 Let me set the scene for you, I was kicking it with my friend Dre and as I usually do when
 I haven't seen him in a while I ask: "Dawg you been listening to anything cool?". At this
 point he may as well have shushed me right there and then and said say no more because he
@@ -102,7 +103,7 @@ I thought it was so good that I had to go and listen to his previous album
 graced your ears.
 
 :future-comment[
-  As a surprise to not me, ¿Téo? was my most listened artist and Don't stare too long was
-  my most listened song in this years Spotify wrapped. Just couldn't stop listening to it
-  since the first time around.
+As a surprise to not me, ¿Téo? was my most listened artist and Don't stare too long was
+my most listened song in this years Spotify wrapped. Just couldn't stop listening to it
+since the first time around.
 ][2024-12-05]

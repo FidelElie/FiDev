@@ -2,15 +2,13 @@ import { exec } from "node:child_process";
 
 import "dotenv/config";
 
-import { defineContentConfig } from "@fi.dev/content";
+import { defineContentConfig } from "@fi/content";
 
 import { musicPost } from "@/libraries/posts/music";
-import { onPublishPosts } from "@/libraries/posts/onPublish";
 
 export default defineContentConfig({
 	dir: "./src/content",
 	entries: [musicPost],
-	onPublish: onPublishPosts,
 	hooks: [
 		{
 			events: ["create"],

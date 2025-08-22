@@ -93,6 +93,7 @@ tracks:
     favourite: false
 date: '2018-03-25T00:00:00.000Z'
 ---
+
 I decided on one of my most stressful days this week to make this the soundtrack to my run.
 And I forgot how much I loved this album and I think it doesn't get the shine it deserves.
 Before the pure consciousness of the later projects, j did both. Flexed a bit on some songs
@@ -103,20 +104,20 @@ Born sinner was the beginning either, this was. This is definitely one of the gr
 will have a lot more to say about this later.
 
 :lyrics[
-  Up in first class, laugh even though it's not funny
-  See a white man wonder how the fuck I got money
-  While he sit at coach, hate to see me walk past
-  Young black pants sag, headphones blastin'
-  Know what he askin', "How did he manage?"
-  "With all the cards against him, he used them to his advantage!"
+Up in first class, laugh even though it's not funny
+See a white man wonder how the fuck I got money
+While he sit at coach, hate to see me walk past
+Young black pants sag, headphones blastin'
+Know what he askin', "How did he manage?"
+"With all the cards against him, he used them to his advantage!"
 ][
-  Sideline Story:5pIn0ZiclQOMzoFUlgDY0f
+Sideline Story:5pIn0ZiclQOMzoFUlgDY0f
 ]
 
 :future-comment[
-  Turns out I don't have much more to say about this, I love this album it's not his best
-  but one of my favourites - leave it alone Dre. I still go back and watch the extended
-  video of sideline story on Youtube (put it below for your enjoyment)
+Turns out I don't have much more to say about this, I love this album it's not his best
+but one of my favourites - leave it alone Dre. I still go back and watch the extended
+video of sideline story on Youtube (put it below for your enjoyment)
 ][2024-11-26]
 
 :youtube[_h82Y-9GMJ8]

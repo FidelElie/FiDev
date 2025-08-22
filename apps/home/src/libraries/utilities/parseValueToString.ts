@@ -1,5 +1,4 @@
 /**
- *
  * @param value
  * @returns
  */

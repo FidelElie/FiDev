@@ -85,6 +85,7 @@ tracks:
     favourite: false
 date: '2018-02-08T00:00:00.000Z'
 ---
+
 A friend told me to give this guy a listen and I'm not going to lie, I was skeptical at first
 but he was pretty cool. His trap style is complimented by the fact that he is not a mumble
 rapper. It's definitely not lyrical, but a lot of the album follows the journey from gangster

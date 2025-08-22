@@ -2,8 +2,8 @@ import "dotenv/config";
 
 import open from "open";
 
-import { getSpotifyEnv } from "@/libraries/schemas";
 import { createSpotifyClient } from "@/libraries/clients";
+import { getSpotifyEnv } from "@/libraries/schemas";
 
 const startSpotifyAuthFlow = async () => {
 	console.log("Starting Spotify authorisation code flow");

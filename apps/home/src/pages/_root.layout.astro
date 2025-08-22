@@ -41,16 +41,16 @@ const metaDescription = description || AppManifest.application.description;
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title} | {AppManifest.application.name}</title>
-		{ metaDescription && <meta name="description" content={metaDescription}/> }
-		<ClientRouter/>
-		<slot name="head"/>
+		{metaDescription && <meta name="description" content={metaDescription} />}
+		<ClientRouter />
+		<slot name="head" />
 	</head>
 	<body class={bodyClass}>
-		<InlineSprites transition:persist/>
-		<Navbar class={navbarClass} fixed={fixed} transition:persist/>
+		<InlineSprites transition:persist />
+		<Navbar class={navbarClass} fixed={fixed} transition:persist />
 		<main class={twMerge(padded !== false && "pt-12 pb-32", _class)}>
-			<slot>
+			<slot />
 		</main>
-		<Footer transition:persist/>
+		<Footer transition:persist />
 	</body>
 </html>

@@ -26,6 +26,7 @@ genres:
 type: TRACK
 date: '2018-04-07T00:00:00.000Z'
 ---
+
 The latest discovery from [Colours Show](https://www.youtube.com/@COLORSxSTUDIOS) I love the
 old school vibes to this song, the instrumental is cold, and her vocals are something to
 experience. Even when she raps half way through the song, I've got to say she's probably

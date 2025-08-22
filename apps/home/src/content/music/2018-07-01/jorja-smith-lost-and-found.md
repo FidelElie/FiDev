@@ -90,4 +90,3 @@ lot to love about this album like Carlos said to me when I asked him what I thou
 But I would say that to me the album does lose some of its magic towards the end.
 So overall it is a good album, some of the songs being the best of what R'n'B has to offer
 this year, I am just wondering how long I will be listening to it for.
-

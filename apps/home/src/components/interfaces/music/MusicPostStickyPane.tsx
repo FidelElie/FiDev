@@ -1,13 +1,13 @@
-import { Show, For, batch, type JSX } from "solid-js";
+import { batch, For, type JSX, Show } from "solid-js";
 import { createStore } from "solid-js/store";
 import { twJoin, twMerge } from "tailwind-merge";
 
-import { useQueryParams } from "@/libraries/hooks";
-import { MusicPostRatingMap } from "@/libraries/constants";
 import { FetchMusicPostsRoute } from "@/libraries/api";
+import { MusicPostRatingMap } from "@/libraries/constants";
+import { useQueryParams } from "@/libraries/hooks";
 import type { InferDTOS } from "@/libraries/types";
 
-import { Popover, Select, Button, Icon } from "@/components/core";
+import { Button, Icon, Popover, Select } from "@/components/core";
 
 export const MusicPostStickyPane = (props: MusicPostStickyPaneProps) => {
 	const [query, setQuery] = useQueryParams(FetchMusicPostsRoute.dtos.query);
@@ -150,11 +150,9 @@ export const MusicPostStickyPane = (props: MusicPostStickyPaneProps) => {
 									<For each={ratings}>
 										{(level) => (
 											<span class="border border-slate-200 rounded-lg px-2 py-1 flex items-center gap-1 w-min whitespace-nowrap">
-												{
-													MusicPostRatingMap[
-														level as keyof typeof MusicPostRatingMap
-													]
-												}
+												{MusicPostRatingMap[
+													level as keyof typeof MusicPostRatingMap
+												]}
 											</span>
 										)}
 									</For>
@@ -182,9 +180,9 @@ export const MusicPostStickyPane = (props: MusicPostStickyPaneProps) => {
 				onSubmit={handleSearchSubmission}
 				class={twJoin(
 					"flex items-center gap-1 pl-2 flex-grow",
-					!configIsDirty() && !configIsClearable()
-						? "rounded-r-lg border-r-0"
-						: "border-b md:border-r md:border-b-0 border-slate-200",
+					!configIsDirty() && !configIsClearable() ?
+						"rounded-r-lg border-r-0" :
+						"border-b md:border-r md:border-b-0 border-slate-200",
 				)}
 			>
 				<label for="search" class="sr-only">
@@ -213,9 +211,9 @@ export const MusicPostStickyPane = (props: MusicPostStickyPaneProps) => {
 						onClick={updateConfig}
 						class={twJoin(
 							"flex items-center flex-grow justify-center border-slate-200",
-							configIsClearable()
-								? "border-y-0 border-l-0 border-r"
-								: "border-none",
+							configIsClearable() ?
+								"border-y-0 border-l-0 border-r" :
+								"border-none",
 						)}
 					>
 						<Icon name="floppy-disk" class="text-blue-500 text-xl mr-1" />

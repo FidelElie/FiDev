@@ -81,16 +81,17 @@ tracks:
     favourite: false
 date: '2018-03-11T00:00:00.000Z'
 ---
+
 Here lies Bobby Tarantino 2 after the prediction I made with :track[4EAV2cKiqKP5UPZmY6dejk][Everyday].
 And after a couple listens so far it is pretty good. You can tell Logic is ridiculously gassed
 in this project. But can I blame him he's been winning - maybe not as much to me but numbers don't lie.
 
 :lyrics[
-  And I hereby ratify and confirm that Logic is mother-fucking paid
+And I hereby ratify and confirm that Logic is mother-fucking paid
 ][
-  Yuck:0D5CXSUx8GOCHSY8KWgi9h
+Yuck:0D5CXSUx8GOCHSY8KWgi9h
 ][
-  The winning is even said in the song
+The winning is even said in the song
 ]
 
 Pretty much all of the project is just a big  bragging fest and there is nothing wrong with

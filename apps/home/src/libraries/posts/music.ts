@@ -1,8 +1,8 @@
-import { definePostEntry, datePrompt, confirm } from "@fi.dev/content";
+import { confirm, datePrompt, definePostEntry } from "@fi/content";
 
 // import { client } from "@/libraries/database";
-import { MusicPostSchema } from "@/libraries/schemas";
 import { onCreateMusicPost } from "@/libraries/posts/music.create";
+import { MusicPostSchema } from "@/libraries/schemas";
 
 export const musicPost = definePostEntry({
 	id: "music",

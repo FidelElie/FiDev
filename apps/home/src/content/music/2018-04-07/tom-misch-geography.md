@@ -79,6 +79,7 @@ tracks:
     favourite: false
 date: '2018-04-07T00:00:00.000Z'
 ---
+
 I was about to flame Tom after my friend Manny told me he released another standalone single
 this week. But another friend - shout outs to Syed - who lives almost a day ahead told me the
 "prophecy" that the album I have been waiting for since last year October is finally hear.

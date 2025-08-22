@@ -2,21 +2,21 @@ import type { RehypePlugins } from "astro";
 
 import { unified } from "unified";
 
-import { default as remarkParse } from "remark-parse";
 import { default as rehypeStringify } from "rehype-stringify";
+import { default as remarkParse } from "remark-parse";
 import { default as remarkRehype } from "remark-rehype";
 
 import {
-	YoutubeEmbedDirective,
-	MusicDirective,
 	AlbumDirective,
-	TrackDirective,
-	LyricsDirective,
-	VideoDirective,
+	FutureCommentDirective,
 	ImageDirective,
 	LinkDirective,
-	FutureCommentDirective,
+	LyricsDirective,
+	MusicDirective,
 	QuoteDirective,
+	TrackDirective,
+	VideoDirective,
+	YoutubeEmbedDirective,
 } from "./directives";
 import { remarkRegExpDirective } from "./remarkRegExpDirective";
 

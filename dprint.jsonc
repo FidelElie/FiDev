@@ -1,0 +1,64 @@
+{
+	/**
+  * Global Configurations
+  */
+	// Format only changed files to improve performance
+	"useTabs": true,
+
+	/**
+  * Language Specific Configurations
+  */
+	// TS/JS https://dprint.dev/plugins/typescript/
+	"typescript": {
+		"indentWidth": 2,
+		"lineWidth": 100,
+		"useBraces": "maintain",
+		"operatorPosition": "sameLine"
+	},
+	// JSON https://dprint.dev/plugins/json/config
+	"json": {
+		"indentWidth": 2,
+		"trailingCommas": "never"
+	},
+	// MD https://dprint.dev/plugins/markdown/config
+	"markdown": {
+		"lineWidth": 90
+	},
+	// CSS https://dprint.dev/plugins/malva/config
+	"malva": {
+		"printWidth": 120
+	},
+	// HTML/Funky HTML https://dprint.dev/plugins/markup_fmt/config
+	"markup": {
+		"printWidth": 100,
+		"formatComments": true
+	},
+	// YAML https://dprint.dev/plugins/pretty_yaml/config
+	"yaml": {
+		"printWidth": 100
+	},
+
+	/**
+  * Filtering
+  */
+	"excludes": [
+		"**/.turbo",
+		"**/.wrangler",
+		"**/.expo",
+		"**/node_modules",
+		"**/*-lock.yaml",
+		"**/*-lock.json"
+	],
+
+	/**
+  * Extensions
+  */
+	"plugins": [
+		"https://plugins.dprint.dev/typescript-0.94.0.wasm",
+		"https://plugins.dprint.dev/json-0.20.0.wasm",
+		"https://plugins.dprint.dev/markdown-0.18.0.wasm",
+		"https://plugins.dprint.dev/g-plane/malva-v0.11.2.wasm",
+		"https://plugins.dprint.dev/g-plane/markup_fmt-v0.19.0.wasm",
+		"https://plugins.dprint.dev/g-plane/pretty_yaml-v0.5.0.wasm"
+	]
+}

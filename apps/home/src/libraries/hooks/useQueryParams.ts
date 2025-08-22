@@ -10,9 +10,9 @@ export const useQueryParams = <T extends ZodSchema>(validator?: T) => {
 	const updateQueryParams = () => {
 		const windowParams = queryParams.getWindowQuery<T>();
 
-		const validatedParams = validator
-			? validator.parse(windowParams)
-			: windowParams;
+		const validatedParams = validator ?
+			validator.parse(windowParams) :
+			windowParams;
 
 		setQuery((params) => ({ ...params, ...validatedParams }));
 		setInitialised(true);
@@ -21,9 +21,9 @@ export const useQueryParams = <T extends ZodSchema>(validator?: T) => {
 	const updateQuery = (newQuery: z.infer<T>) => {
 		const updateParams = { ...query(), ...newQuery };
 
-		const validatedParams = validator
-			? validator.parse(updateParams)
-			: updateParams;
+		const validatedParams = validator ?
+			validator.parse(updateParams) :
+			updateParams;
 
 		const encodedParams = queryParams.encodeToUrl(validatedParams);
 

@@ -1,29 +1,27 @@
-import { type PromiseOrNot, mergeObjects } from "@fi.dev/typescript";
+import { mergeObjects, type PromiseOrNot } from "@fi/typescript";
 /**
- *
  * @param context
  * @returns
  */
 export const request = async <T>(context: RequestContext<T>) => {
 	const { interceptors } = context;
 
-	const { url, ...fetchConfig } =
-		(await interceptors?.onRequest(context)) || context;
+	const { url, ...fetchConfig } = (await interceptors?.onRequest(context)) || context;
 
 	const request = await fetch(url, fetchConfig);
 
 	if (!request.ok) {
 		const value = request.body ? await request.json() : null;
 		const message = `Request failed with status ${request.status}`;
-		throw !value
-			? new Error(message)
-			: new Error(
-					JSON.stringify(
-						{ ...value, status: request.status, message },
-						null,
-						2,
-					),
-				);
+		throw !value ?
+			new Error(message) :
+			new Error(
+				JSON.stringify(
+					{ ...value, status: request.status, message },
+					null,
+					2,
+				),
+			);
 	}
 
 	const response = request.status !== 204 ? await request.json() : null;
@@ -34,7 +32,6 @@ export const request = async <T>(context: RequestContext<T>) => {
 };
 
 /**
- *
  * @param config
  * @returns
  */
@@ -44,8 +41,7 @@ export const createRequestClient = (config: RequestClient) => {
 	const handler = async <T>(context: RequestContext<T>) => {
 		const mergedContext = mergeObjects(context, baseFetchConfig);
 
-		const { url, ...fetchConfig } =
-			(await interceptors?.onRequest(mergedContext)) || mergedContext;
+		const { url, ...fetchConfig } = (await interceptors?.onRequest(mergedContext)) || mergedContext;
 
 		const joinedURL = new URL(context.url, baseUrl || "");
 

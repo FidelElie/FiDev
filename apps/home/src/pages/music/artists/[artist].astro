@@ -54,7 +54,7 @@ const musicPosts = await getCollection("music", (entry) => {
 							target="_blank"
 						>
 							<div class="flex items-center gap-1 text-sm">
-								<Icon name="spotify" class="text-xl text-blue-500"/>
+								<Icon name="spotify" class="text-xl text-blue-500" />
 								Spotify
 							</div>
 						</a>
@@ -64,7 +64,7 @@ const musicPosts = await getCollection("music", (entry) => {
 							target="_blank"
 						>
 							<div class="flex items-center gap-1 text-sm">
-								<Icon name="soundcloud" class="text-xl text-blue-500"/>
+								<Icon name="soundcloud" class="text-xl text-blue-500" />
 								SoundCloud
 							</div>
 						</a>
@@ -74,7 +74,7 @@ const musicPosts = await getCollection("music", (entry) => {
 							target="_blank"
 						>
 							<div class="flex items-center gap-1 text-sm">
-								<Icon name="apple-logo" class="text-xl text-blue-500"/>
+								<Icon name="apple-logo" class="text-xl text-blue-500" />
 								Apple Music
 							</div>
 						</a>
@@ -84,7 +84,7 @@ const musicPosts = await getCollection("music", (entry) => {
 			<Link href="/music/artists">
 				To artists
 			</Link>
-			<hr class="border-t border-slate-200 my-4"/>
+			<hr class="border-t border-slate-200 my-4" />
 			<div class="space-y-5">
 				{
 					musicPosts.map(post => (
@@ -106,7 +106,7 @@ const musicPosts = await getCollection("music", (entry) => {
 								}
 							</div>
 							<div class="font-light">
-								<MusicPostRatingTag class="mb-1" rating={post.data.rating}/>
+								<MusicPostRatingTag class="mb-1" rating={post.data.rating} />
 								<h2 class="text-3xl mb-2 font-normal whitespace-normal">{post.data.name}</h2>
 								<p>{post.data.type === "TRACK" ? "Single" : "LP"}</p>
 							</div>

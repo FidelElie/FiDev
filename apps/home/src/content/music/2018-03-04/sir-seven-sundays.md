@@ -83,15 +83,16 @@ tracks:
     favourite: false
 date: '2018-03-04T00:00:00.000Z'
 ---
+
 My girlfriend asked me if I had heard the SiR song Jay Z and this is the conversation that followed:
 
 :lyrics[
-  Me: “It doesn’t ring any bells” 
-  Young Spinach: “I thought you said you listened to this guy? I listened to him because of you!” 
-  Me: “Word I’ll give this album a listen soon” 
+Me: “It doesn’t ring any bells” 
+Young Spinach: “I thought you said you listened to this guy? I listened to him because of you!” 
+Me: “Word I’ll give this album a listen soon” 
 ][
-  My Life
-] 
+My Life
+]
 
 I’m paraphrasing of course but I thought I would write some bars. I remember I hadn’t really
 sat down and listened to his past project Seven Sundays so I decided to go back and do just that.

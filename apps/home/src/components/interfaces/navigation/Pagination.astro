@@ -5,45 +5,49 @@ import { PageIndicator } from "./_Pagination/PageIndicator";
 export interface Props extends PageIndicatorProps {}
 ---
 <div class="flex items-center gap-6" id="pagination">
-	<!-- {
-		(pagination.first || pagination.previous) && (
-			<div class="flex items-center gap-4">
-				{
-					pagination.first && (
-						<a href={pagination.first} class="underline decoration-blue-500">
-							first
-						</a>
-					)
-				}
-				{
-					pagination.previous && (
-						<a href={pagination.previous} class="underline decoration-blue-500">
-							prev
-						</a>
-					)
-				}
-			</div>
-		)
-	} -->
-	<PageIndicator {...Astro.props} client:visible/>
-	<!-- {
-		(pagination.next || pagination.last) && (
-			<div class="flex items-center gap-4">
-				{
-					pagination.next && (
-						<a href={pagination.next} class="underline decoration-blue-500">
-							next
-						</a>
-					)
-				}
-				{
-					pagination.last && (
-						<a href={pagination.last} class="underline decoration-blue-500">
-							last
-						</a>
-					)
-				}
-			</div>
-		)
-	} -->
+	<!--
+		{
+			(pagination.first || pagination.previous) && (
+				<div class="flex items-center gap-4">
+					{
+						pagination.first && (
+							<a href={pagination.first} class="underline decoration-blue-500">
+								first
+							</a>
+						)
+					}
+					{
+						pagination.previous && (
+							<a href={pagination.previous} class="underline decoration-blue-500">
+								prev
+							</a>
+						)
+					}
+				</div>
+			)
+		}
+	-->
+	<PageIndicator {...Astro.props} client:visible />
+	<!--
+		{
+			(pagination.next || pagination.last) && (
+				<div class="flex items-center gap-4">
+					{
+						pagination.next && (
+							<a href={pagination.next} class="underline decoration-blue-500">
+								next
+							</a>
+						)
+					}
+					{
+						pagination.last && (
+							<a href={pagination.last} class="underline decoration-blue-500">
+								last
+							</a>
+						)
+					}
+				</div>
+			)
+		}
+	-->
 </div>

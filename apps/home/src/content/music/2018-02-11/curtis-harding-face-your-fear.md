@@ -71,6 +71,7 @@ tracks:
     favourite: false
 date: '2018-02-11T00:00:00.000Z'
 ---
+
 I learnt of Curtis from his Colors Show performance and loved him. I went and listened to
 his earliest album :album[7BlqkOOBcVqUwLEhC0Rxq6][Soul Power] and I was like yeaaaah.
 Great sound but then my girlfriend (shoutouts to Young Spinach) said he released an album

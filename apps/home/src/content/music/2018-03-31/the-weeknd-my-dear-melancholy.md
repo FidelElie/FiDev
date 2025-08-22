@@ -56,6 +56,7 @@ tracks:
     favourite: false
 date: '2018-03-31T00:00:00.000Z'
 ---
+
 I just want to start this off by saying for the people who know me, they know me and Abel
 are not really on the same page. I'm not the biggest fan of his music and I'm not going to
 go as far as to say he is over rated - he is definitely talented. But I've never got into

@@ -76,6 +76,7 @@ tracks:
     favourite: false
 date: '2018-03-04T00:00:00.000Z'
 ---
+
 Black Milk’s Sunday’s Best and Monday Worst are two amazing tracks that continue from each
 other (shoutouts to Cheese for putting me onto it) and that is what led my discovery of
 this serious rapper. So when I saw his latest album Fever I thought I would give it a
@@ -84,21 +85,21 @@ a lot of influences from funk, with punchy baselines and riffs and Milk shows wh
 is mean with his raps:
 
 :lyrics[
-  4 in the AM
-  Trying to paint a profound picture
-  Holding the brush, won’t put it down
-  Till I put the right colors inside your sound system
+4 in the AM
+Trying to paint a profound picture
+Holding the brush, won’t put it down
+Till I put the right colors inside your sound system
 ][But Can It Be#4KdT67SkWs1sWUHDyAUsra]
 
 The flow he brings to these bars alone is mad. The project is a great listen and I am
 solidified as a Black Milk fan, give his newest project a listen.
 
 :lyrics[
-  Its like officer, officer
-  What have you done
-  How many apples can spoil a bunch
-  You just need one
-  So if you can't stand up
-  When fellow officers shoot a kid with they hands up
-  I don't know who we can trust
+Its like officer, officer
+What have you done
+How many apples can spoil a bunch
+You just need one
+So if you can't stand up
+When fellow officers shoot a kid with they hands up
+I don't know who we can trust
 ][Drown#6H7wzIGOjI8pAkUMVCEEKf]

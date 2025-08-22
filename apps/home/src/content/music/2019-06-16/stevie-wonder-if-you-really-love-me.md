@@ -26,6 +26,7 @@ genres:
 type: TRACK
 date: '2019-06-16T00:00:00.000Z'
 ---
+
 An oldie but a goodie I thought I would talk about one of my favorite Stevie Wonder songs.
 I found myself going through my old playlist. This was the old starred playlist that Spotify
 changed ages ago and it definitely has some old gems on it (Check it out
@@ -36,10 +37,10 @@ amazingly well put together songs. But when does Stevie do anything different? O
 absolute favorites and it might be yours too, give this song a listen.
 
 :lyrics[
-  And if you really need me
-  Won't you tell me, yeah?
-  Then I won't have to be
-  Playing around
+And if you really need me
+Won't you tell me, yeah?
+Then I won't have to be
+Playing around
 ][
-  If You Really Love Me
+If You Really Love Me
 ]

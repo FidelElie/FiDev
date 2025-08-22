@@ -47,6 +47,7 @@ tracks:
     favourite: true
 date: '2018-07-22T00:00:00.000Z'
 ---
+
 This is a very different sound from the previous project :album[7sVyk1fdhhiBcguh15NN3N][Aviary: Act 1]
 but this is definitely not an issue. She went with one of the greatest influences ever
 created, the Motown sound. Like a new age Gladys, a Diana Ross in 2018. With each song
@@ -55,4 +56,3 @@ very surprised to hear this change, I would have never expected it from what I h
 Which might sound a bit dumb, as this might have been a no-brainer to some. But all this being
 said I am happy where it went, this is a great project and has solidified me as a fan of hers.
 Can't wait to see what Eryn releases next.
-

@@ -1,18 +1,15 @@
-import { z } from "zod";
-import path from "path";
 import { glob } from "astro/loaders";
 import { defineCollection } from "astro:content";
+import path from "path";
+import { z } from "zod";
 
-import { sanitiseToURLSlug } from "@fi.dev/typescript";
+import { sanitiseToURLSlug } from "@fi/typescript";
 
 import { MusicArtistSchema, MusicPostSchema } from "@/libraries/schemas";
 
-import { getSpotifyEnv } from "@/libraries/utilities";
 import { createSpotifyClient } from "@/libraries/clients";
-import {
-	getEntriesFromFilePaths,
-	getPostsPathsFromRootDir,
-} from "@fi.dev/content";
+import { getSpotifyEnv } from "@/libraries/utilities";
+import { getEntriesFromFilePaths, getPostsPathsFromRootDir } from "@fi/content";
 
 const music = defineCollection({
 	loader: glob({

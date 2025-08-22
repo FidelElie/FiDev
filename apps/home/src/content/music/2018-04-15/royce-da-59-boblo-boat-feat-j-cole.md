@@ -31,6 +31,7 @@ genres:
 type: TRACK
 date: '2018-04-15T00:00:00.000Z'
 ---
+
 When I saw that the Black Hokage was listening to this song (Check out his channel
 [here](https://www.youtube.com/@theblackhokage), love his stuff) with Royce and J, I had
 to listen to it. I love these smooth beats with vocals that are not at the forefront of the
@@ -43,17 +44,17 @@ does this for ages now and I want to give him the credit he deserves for it The 
 also top notch in this:
 
 :lyrics[
-  This was my main concern back when concerns were lesser
-  Nowadays, I often yearn to press the
-  Backspace button or hit return but life is not no word processor
+This was my main concern back when concerns were lesser
+Nowadays, I often yearn to press the
+Backspace button or hit return but life is not no word processor
 ][Boblo Boat][said by J. Cole]
 
 And Royce talking about his family:
 
 :lyrics[
-  Nothing compared to our family trips
-  My uncle shook hands with a manly grip
-  All this hand-me-down-shit, I had had an uncanny fit
+Nothing compared to our family trips
+My uncle shook hands with a manly grip
+All this hand-me-down-shit, I had had an uncanny fit
 ][Boblo Boat]
 
 The bars about a boat ride are great in this song and with Royce's album coming soon, this

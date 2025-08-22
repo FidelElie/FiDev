@@ -30,14 +30,15 @@ genres:
 type: TRACK
 date: '2018-08-18T00:00:00.000Z'
 ---
+
 I think of this song as a bit of a teaser for his newest album. Mick decided to release this,
 to tell us how he feels and what he is going to bring. And with bars like:
 
 :lyrics[
-  Honestly can't nobody come for 'cept Kendrick
-  And I hope you offended, like it's untrue
-  Don't make me debunk your kung-fu
-  Fuck up the whole Feng shui when we come through
+Honestly can't nobody come for 'cept Kendrick
+And I hope you offended, like it's untrue
+Don't make me debunk your kung-fu
+Fuck up the whole Feng shui when we come through
 ][Bruce Banner]
 
 He has a lot to say and this album is going to be a lot to take in. This song is one big

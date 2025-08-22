@@ -1,7 +1,8 @@
 import { z } from "zod";
 
-import { getConstKeys } from "@fi.dev/typescript";
+import { getConstKeys } from "@fi/typescript";
 
+import { MusicPostRatingMap } from "@/libraries/constants";
 import {
 	arrayQueryParam,
 	dateTransferSchema,
@@ -10,11 +11,8 @@ import {
 	MusicPostSchema,
 	paginateSchema,
 } from "@/libraries/schemas";
-import { MusicPostRatingMap } from "@/libraries/constants";
 
-/**
- *
- */
+/** */
 export const MusicImFeelingLuckyRoute = {
 	url: "/api/music/lucky",
 	method: "GET",
@@ -25,9 +23,7 @@ export const MusicImFeelingLuckyRoute = {
 	},
 };
 
-/**
- *
- */
+/** */
 export const FetchMusicPostsRoute = {
 	url: "/api/music",
 	method: "GET",
@@ -45,9 +41,7 @@ export const FetchMusicPostsRoute = {
 	},
 };
 
-/**
- *
- */
+/** */
 export const FetchMusicArtistsRoute = {
 	url: "/api/music/artists",
 	method: "GET",
@@ -63,9 +57,7 @@ export const FetchMusicArtistsRoute = {
 	},
 };
 
-/**
- *
- */
+/** */
 export const FetchMusicGenresRoute = {
 	url: "/api/music/genres",
 	method: "GET",
@@ -81,9 +73,7 @@ export const FetchMusicGenresRoute = {
 	},
 };
 
-/**
- *
- */
+/** */
 export const FetchMusicProjectStatsRoute = {
 	url: "/api/music/:postSlug/stats",
 	method: "GET",
@@ -103,9 +93,7 @@ export const FetchMusicProjectStatsRoute = {
 	},
 };
 
-/**
- *
- */
+/** */
 export const UpdateMusicProjectRoute = {
 	url: "/api/music/:postSlug",
 	method: "PATCH",

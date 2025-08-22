@@ -31,20 +31,20 @@ export const YoutubeEmbedDirective = createRegExpDirective({
 						>
 						</iframe>
 						${
-							!!caption ?
-								`
+				!!caption ?
+					`
 									<hr class="border-slate-200 w-full border-t mt-5 mb-2"/>
 									<figcaption class="font-heading">- ${caption}</figcaption>
-								`
-							 : ""
-						}
+								` :
+					""
+			}
 					</figure>
 				`;
 		} catch (error) {
 			console.error(error);
-			return process.env.NODE === "development"
-				? "[Error Loading Youtube Embed]"
-				: "";
+			return process.env.NODE === "development" ?
+				"[Error Loading Youtube Embed]" :
+				"";
 		}
 	},
 });

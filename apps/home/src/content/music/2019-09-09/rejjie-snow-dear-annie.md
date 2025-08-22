@@ -107,6 +107,7 @@ tracks:
     favourite: false
 date: '2019-09-09T00:00:00.000Z'
 ---
+
 ## A little bit of redemption for Rejjie Snow… Just a little maybe…
 
 I just want to start off by saying thank you Rejjie. You managed to make something that was
@@ -114,6 +115,7 @@ definitely an improvement over your last project. Not that that was to be hard t
 But you did and I  enjoyed this 20 song album... Well mostly but we'll get into that. 
 
 ## The first song
+
 This had been featured on songs of note for week (find the week and link it) and after listening
 to it even more it deserves its own sub heading. It is just amazing and really starts off the
 whole project perfectly the empowerment in the lyrics. 
@@ -123,6 +125,7 @@ song on this album and Rejjie doesn't even have his voice on this. This plays in
 I will talk about later though so let me talk about something else for now.
 
 ## The Production
+
 The sound of the entire project does vary quite a lot over the its entire 20 songs from the
 more slow paced chill songs like :track[50G5XqzI3GANsxXAgd2Gnx][Désolé] and :track[6Qf31WK53n3on7q3pOXq7f][23]
 to the more upbeat :track[2u5U5ORKWFgqO7RUsc7yvy][Annie], the production and
@@ -133,6 +136,7 @@ This project has the variation and progression to kept me interested while liste
 to follow along with the story Rejjie is trying to tell. Does he tell it well however?
 
 ## The Story and Concept
+
 I'm a firm believer that love as a concept can never be played out. As a result, you would think
 I would have appreciated all the love aspects in these songs. And this case the storytelling gets
 worse as the album progresses. The story follows his interactions with a girl called Annie
@@ -156,6 +160,7 @@ appeal of some of the songs is the features. I think Ebenezer kills his feature 
 Spaceships and as mentioned before there is Jesse vocals makes the song Annie for me. 
 
 ## The Artist(s)
+
 With this I realized that the songs I liked the most in this album was the ones with features
 on them. Annie, :track[1NFcrfT8SXr18SthZ4R3Rb][Spaceships], :track[6aNFCB9fp5xUIQVi74nTNO][Room 27]
 and many more all contain features and they are in my humble opinion the best songs on the album.
@@ -171,6 +176,7 @@ made some great songs with this. Me and Dre were talking about this before when 
 listening to this album.
 
 ## The Misses
+
 I think this rears its head as a problem in terms of this project just because of it being
 such a conceptual body of music. It is hard to convey the story he is trying to tell if there
 is so many tangent in a pursuit just to make thing half rhyme. It makes the outlandish bars
@@ -179,6 +185,7 @@ style then substance overall because of Rejjie's lack of bars. But I guess at le
 the style does sound good.
 
 ## The Verdict
+
 After all this I do actually like this album, its problems don't take away from the good
 songs on the album itself. But I am rating the album so after much thought in writing this
 review and listening to the project for a while I give it the rating of.....

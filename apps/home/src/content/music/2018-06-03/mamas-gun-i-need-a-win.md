@@ -25,6 +25,7 @@ genres:
 type: TRACK
 date: '2018-06-03T00:00:00.000Z'
 ---
+
 Since I've been visiting home I have found myself getting reacquainted with the wonderful
 platform of the radio. And yes I do hate the radio, it is usually full of blown out pop
 songs and crap that I don't want my ears to experience. But if you are on the right frequency
@@ -36,10 +37,10 @@ the song, it reminds me of some old bands like the Isley Brothers or the Commodo
 vocals are great and contribute to an overall solid song.
 
 :lyrics[
-  I need an angel on my shoulder
-  Somebody watch over
-  Give me an angel on my shoulder
-  'Cause I need a win
+I need an angel on my shoulder
+Somebody watch over
+Give me an angel on my shoulder
+'Cause I need a win
 ][
-  I Need A Win
+I Need A Win
 ]

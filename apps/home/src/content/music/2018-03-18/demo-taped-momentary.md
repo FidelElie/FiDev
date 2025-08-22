@@ -46,6 +46,7 @@ tracks:
     favourite: false
 date: '2018-03-18T00:00:00.000Z'
 ---
+
 This project was a bit of a unintentional listen, but a welcome one this week. I got round to
 listening to this relatively new release and was left feeling a bit torn. I like the synths
 but I didn't really get that much from any of the songs other than :track[16Hc163Y0iTlNuh7hqEwRU][Insecure].

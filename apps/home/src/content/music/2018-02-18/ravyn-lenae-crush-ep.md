@@ -47,6 +47,7 @@ tracks:
     favourite: true
 date: '2018-02-18T00:00:00.000Z'
 ---
+
 I was dancing all the way through this one, it was recommended by a friend and it definitely
 went under the radar for me before this. I'm glad though, what she brings to the new R&B
 era is welcome and unique. I don't think she shows anything ground breaking in her voice

@@ -72,6 +72,7 @@ tracks:
     favourite: true
 date: '2018-03-31T00:00:00.000Z'
 ---
+
 This is one from the archives, but when I decided to give it a listen towards it had to
 have a place on the is week's roundup. It is a great R&B album with its very good production
 from one half of the duo and it is a very different direction from the foreign exchange put

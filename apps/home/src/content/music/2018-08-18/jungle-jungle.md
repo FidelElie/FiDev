@@ -75,6 +75,7 @@ tracks:
     favourite: false
 date: '2018-08-18T00:00:00.000Z'
 ---
+
 I've heard of jungle in passing and I decided in a late night bout of curiosity to go and
 listen to their album. From what I'd heard of them thus far, they were very upbeat so
 this would fuel the writing of my coding projects I've been doing lately.

@@ -1,22 +1,17 @@
 import { getCollection } from "astro:content";
 
 import {
-	queryParams,
-	paginateEntries,
-	getSpotifyEnv,
-} from "@/libraries/utilities";
-import { createSpotifyClient } from "@/libraries/clients";
-import type { MusicPostSchema } from "@/libraries/schemas";
-import {
 	FetchMusicArtistsRoute,
 	FetchMusicGenresRoute,
 	FetchMusicPostsRoute,
 	GetCurrentlyPlayingTrackRoute,
 } from "@/libraries/api/music.api";
+import { createSpotifyClient } from "@/libraries/clients";
 import { MusicPostMetadata } from "@/libraries/constants";
+import type { MusicPostSchema } from "@/libraries/schemas";
+import { getSpotifyEnv, paginateEntries, queryParams } from "@/libraries/utilities";
 
 /**
- *
  * @param request
  * @returns
  */
@@ -28,12 +23,10 @@ export const fetchMusicProjects = async (request: Request) => {
 	);
 
 	const musicPosts = await getCollection("music", (post) => {
-		const includedByGenre =
-			!genres?.length ||
+		const includedByGenre = !genres?.length ||
 			genres.some((genre) => post.data.genres.includes(genre));
 
-		const includedByRating =
-			!levels?.length || levels.includes(post.data.rating);
+		const includedByRating = !levels?.length || levels.includes(post.data.rating);
 
 		const includedBySearch = (() => {
 			if (!search) {
@@ -44,16 +37,10 @@ export const fetchMusicProjects = async (request: Request) => {
 
 			return (
 				post.data.name.toLowerCase().includes(lowerSearch) ||
-				post.data.artists.some((artist) =>
-					artist.name.toLowerCase().includes(lowerSearch),
-				) ||
-				post.data.genres.some((genre) =>
-					genre.toLowerCase().includes(lowerSearch),
-				) ||
+				post.data.artists.some((artist) => artist.name.toLowerCase().includes(lowerSearch)) ||
+				post.data.genres.some((genre) => genre.toLowerCase().includes(lowerSearch)) ||
 				(post.data.type === MusicPostMetadata.types.ALBUM &&
-					post.data.tracks.some((track) =>
-						track.name.toLowerCase().includes(lowerSearch),
-					))
+					post.data.tracks.some((track) => track.name.toLowerCase().includes(lowerSearch)))
 			);
 		})();
 
@@ -78,7 +65,6 @@ export const fetchMusicProjects = async (request: Request) => {
 };
 
 /**
- *
  * @returns
  */
 export const fetchMusicPostsTotal = async () => {
@@ -88,7 +74,6 @@ export const fetchMusicPostsTotal = async () => {
 };
 
 /**
- *
  * @param request
  * @returns
  */
@@ -103,9 +88,7 @@ export const fetchMusicArtists = async (request: Request) => {
 		await getCollection("artists", (artist) => {
 			return !!artist.data.genres.length;
 		})
-	).toSorted((artistA, artistB) =>
-		artistA.data.name.localeCompare(artistB.data.name),
-	);
+	).toSorted((artistA, artistB) => artistA.data.name.localeCompare(artistB.data.name));
 
 	const result = paginateEntries(artistEntries, {
 		page,
@@ -122,7 +105,6 @@ export const fetchMusicArtists = async (request: Request) => {
 };
 
 /**
- *
  * @param request
  * @returns
  */

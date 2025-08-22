@@ -31,6 +31,7 @@ genres:
 type: TRACK
 date: '2019-06-08T00:00:00.000Z'
 ---
+
 I didn't even know these two did a collaboration, but I'm feeling it, they fit really well
 together. The piano at the forefront of the beat, the vocals provided by Uncle Sego for the
 hook. The rapping and singing contributed by Boogie leads to a very chill track. This is all
@@ -39,7 +40,7 @@ I have been listening to on repeat for a good few weeks now. I would love to see
 again, I would think that fire would ensue once more.
 
 :lyrics[
-  Ain't no full moon You was doing all that "woofing" shit like too soon
+Ain't no full moon You was doing all that "woofing" shit like too soon
 ][
-  Violence
+Violence
 ]

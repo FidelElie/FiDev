@@ -67,6 +67,7 @@ tracks:
     favourite: false
 date: '2018-04-15T00:00:00.000Z'
 ---
+
 I didn't know that Saba was releasing something new until a few friends told me over
 the week that is was a must listen, I've got to say this album is easily on par with
 :album[7wsj4nv8jBENZT3IfcfnWA][Bucket List Project]. It is a very somber album with its
@@ -79,12 +80,11 @@ is shown from Bucket List Project that is greatly appreciated. So far one this i
 this year's best, Saba killed it.
 
 :future-comment[
-  This is still a great album with a lot to love on it, I am surprised I didn't even mention
-  songs like CALLIGRAPHY or GREY previously - but those are still my favourites. It also
-  goes without saying that BUSY/SIRENS is a masterpiece - perfectly put together. Recently
-  I even went back watched the music video for SIRENS and that is an experience it itself.
-  I linked it below for you viewing pleasure, I
+This is still a great album with a lot to love on it, I am surprised I didn't even mention
+songs like CALLIGRAPHY or GREY previously - but those are still my favourites. It also
+goes without saying that BUSY/SIRENS is a masterpiece - perfectly put together. Recently
+I even went back watched the music video for SIRENS and that is an experience it itself.
+I linked it below for you viewing pleasure, I
 ][2024-11-28]
 
 :youtube[h-pc8KTIV7g]
-

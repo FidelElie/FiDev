@@ -82,15 +82,16 @@ tracks:
     favourite: false
 date: '2018-02-11T00:00:00.000Z'
 ---
+
 I completely missed this album when it released because I forgot that Rich Chigga changed
 his name. It wasn't until my flatmate put me onto Rich Brian's new project that I a gave
 it a listen. And it isn't bad just nothing to write home about. I do like some of his bars
 though like:
 
 :lyrics[
-  On your pill, every day I just be sippin' Chamomile
+On your pill, every day I just be sippin' Chamomile
 ][
-  Attention (feat. Offset):4gAakyurZ4cbgnPyTuswp7
+Attention (feat. Offset):4gAakyurZ4cbgnPyTuswp7
 ][
-  Because who doesn't love sipping on some tea?
+Because who doesn't love sipping on some tea?
 ]

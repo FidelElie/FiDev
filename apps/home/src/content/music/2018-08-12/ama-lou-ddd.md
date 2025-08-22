@@ -40,6 +40,7 @@ tracks:
     favourite: true
 date: '2018-08-12T00:00:00.000Z'
 ---
+
 This has been a great year for R'n'B and all its subsidiaries. And after Carlos has been
 pestering me to listen to this project. With it being some of the best things hes listened
 to in a while. And after listening to it he was right, this three song EP is up there with

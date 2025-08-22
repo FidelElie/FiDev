@@ -72,6 +72,7 @@ tracks:
     favourite: false
 date: '2018-02-11T00:00:00.000Z'
 ---
+
 Firstly, I really like Rae Morris' voice ever since I heard her feature on
 :track[2Po4jzwwT1Kaz0xp7Ejojf][Rejjie Snow's Blackst Skn] - which I absolutely love by the
 way. So I decided to give her album a listen and although my love for her vocals still remains,

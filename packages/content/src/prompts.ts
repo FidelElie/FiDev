@@ -1,11 +1,11 @@
 import { input } from "@inquirer/prompts";
 
-import { sanitiseToURLSlug } from "@fi.dev/typescript";
+import { sanitiseToURLSlug } from "@fi/typescript";
 
 export const onCreatePromptWithFallback = async (name: string) => {
 	const sanitizedUrl = sanitiseToURLSlug(name);
 
-	if (!!sanitizedUrl) {
+	if (sanitizedUrl) {
 		return sanitizedUrl;
 	}
 
@@ -49,7 +49,7 @@ export const datePrompt = async () => {
 				customDate.setFullYear(parsedYear, parsedMonth - 1, parsedDay);
 
 				return customDate;
-			} catch (error) {
+			} catch {
 				console.log("Sorry the date entered was invalid");
 			}
 		}

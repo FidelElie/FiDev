@@ -90,6 +90,7 @@ tracks:
     favourite: true
 date: '2018-07-29T00:00:00.000Z'
 ---
+
 I finally managed to listen to Nines' newest project and from first impressions: overall,
 I like a lot of his bars but I think that it is not my cup of tea. I think
 it was because overall what hes saying is a lot of the same, but the best thing about the

@@ -61,6 +61,7 @@ tracks:
     favourite: false
 date: '2018-07-15T00:00:00.000Z'
 ---
+
 The first thing that came to mind when I started writing this entry was unfinished. And
 according to the news that is absolutely warranted. Kanye being Kanye decided to release
 this project before it was finished to keep in line with his one project a week vision for

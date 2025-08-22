@@ -9,12 +9,12 @@ export const paginateEntries = <T>(
 ) => {
 	const { page, size, defaultSize } = context;
 
-	const parsedPage = page
-		? parseInt(String(page), 10)
-		: DEFAULT_PAGINATION_CONTEXT.page;
-	const parsedSize = size
-		? parseInt(String(size), 10)
-		: defaultSize || DEFAULT_PAGINATION_CONTEXT.size;
+	const parsedPage = page ?
+		parseInt(String(page), 10) :
+		DEFAULT_PAGINATION_CONTEXT.page;
+	const parsedSize = size ?
+		parseInt(String(size), 10) :
+		defaultSize || DEFAULT_PAGINATION_CONTEXT.size;
 
 	const pages = Math.ceil(entries.length / parsedSize);
 
