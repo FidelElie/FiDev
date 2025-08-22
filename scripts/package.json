@@ -4,7 +4,8 @@
 	"scripts": {
 		"clean": "tsx ./clean.script.ts",
 		"environment": "tsx ./environment.script.ts",
-		"check": "oxlint"
+		"lint": "oxlint",
+		"check": "tsc --noEmit"
 	},
 	"dependencies": {
 		"chalk": "^5.4.1",

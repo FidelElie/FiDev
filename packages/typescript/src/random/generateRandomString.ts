@@ -28,7 +28,7 @@ export const generateRandomString = (number = 6, config?: Config) => {
 		.join("")
 		.split("");
 
-	const generatedString = new Array(number).fill(null).map(() => {
+	const generatedString = Array.from({ length: number }).fill(null).map(() => {
 		return inclusions[Math.ceil(Math.random() * (inclusions.length - 1))];
 	});
 

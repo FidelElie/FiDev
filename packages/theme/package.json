@@ -3,7 +3,6 @@
 	"version": "1.0.0",
 	"private": true,
 	"main": "./tailwindcss.config.js",
-	"types": "./tailwindcss.config.js",
 	"exports": {
 		".": "./tailwind.config.js"
 	},

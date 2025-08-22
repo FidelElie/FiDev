@@ -87,7 +87,8 @@ export const MusicCurrentlyPlayingPane = withQueryProvider(() => {
 			);
 
 			onCleanup(() => {
-				clearInterval(songProgressInterval);
+				// FIXME for some reason this is needed here
+				clearInterval(songProgressInterval as NodeJS.Timeout);
 				clearTimeout(songEndTimeout);
 			});
 		}

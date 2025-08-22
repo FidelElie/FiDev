@@ -1,4 +1,4 @@
-const INVALID_CHARS_EXCLUSION_REGEXP = /[^A-Za-z0-9\-]+/gi;
+const INVALID_CHARS_EXCLUSION_REGEXP = /[^A-Za-z0-9-]+/gi;
 
 const CHAR_TO_TEXT_MAP = {
 	$: "s",

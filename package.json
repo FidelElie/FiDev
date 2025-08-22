@@ -12,6 +12,7 @@
 	"scripts": {
 		"dev": "turbo run dev",
 		"check": "turbo run check",
+		"lint": "turbo run lint",
 		"format": "dprint fmt",
 		"format:check": "dprint check",
 		"@home": "pnpm --filter @fi/home",

@@ -21,4 +21,6 @@ export const syncContentCommand = (context: {
 	const ids = chosenPostFilter ?
 		[chosenPostFilter] :
 		config.entries.map((entryPath) => entryPath.id);
+
+	console.log(ids);
 };

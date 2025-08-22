@@ -1,9 +1,6 @@
 import { getCollection } from "astro:content";
 
-import { getEnvironmentVariable } from "@fi/typescript";
-
-import { SearchWebsiteRoute, SubscribeToWebsiteRoute } from "@/libraries/api";
-import { createKitClient } from "@/libraries/clients";
+import { SearchWebsiteRoute } from "@/libraries/api";
 import { MusicPostMetadata } from "@/libraries/constants";
 import { queryParams } from "@/libraries/utilities";
 
@@ -52,20 +49,4 @@ export const searchWebsiteAction = async (request: Request) => {
 	};
 
 	return responses[200].parse(searchResults);
-};
-
-export const subscribeToWebsite = async (request: Request) => {
-	const { dtos, responses } = SubscribeToWebsiteRoute;
-
-	const body = await request.json();
-
-	const validatedBody = dtos.body.parse(body);
-
-	const kitClient = createKitClient({
-		apiKey: getEnvironmentVariable("KIT_API_KEY"),
-	});
-
-	await kitClient.createSubscriber(validatedBody);
-
-	return responses[202].parse(null);
 };
