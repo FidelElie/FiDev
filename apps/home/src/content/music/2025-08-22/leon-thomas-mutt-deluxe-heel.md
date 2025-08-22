@@ -103,6 +103,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/0UxEuVmh7x9pEu9YRCqxBP'
     name: RATHER BE ALONE (feat. Halle)
     favourite: false
+date: '2025-08-22T00:00:00.000Z'
 ---
 
 Sometimes I am very much late to the party with things. I will recommend something to

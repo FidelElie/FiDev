@@ -79,6 +79,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/0pvZCv4JOS5WBu7JITYef6'
     name: I Hope You Find Your Way Home
     favourite: true
+date: '2025-08-22T00:00:00.000Z'
 ---
 
 Tyler you have done it again. He has managed to release and album that has infected my

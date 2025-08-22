@@ -67,6 +67,7 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/4mgGcZWCzElc1zZp7v5Mg0'
     name: The Fifth
     favourite: true
+date: '2025-04-07T00:00:00.000Z'
 ---
 
 I haven't listened to much music these past couple of weeks, from the travelling over the
