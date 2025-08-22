@@ -9,7 +9,7 @@ concurrency:
 
 jobs:
   check:
-    name: Run check jobs
+    name: Check Types
     runs-on: ubuntu-latest
 
     steps:
@@ -39,7 +39,7 @@ jobs:
       - name: Run checks for repo
         run: pnpm check
   lint:
-    name: Lint
+    name: Lint Code
     runs-on: ubuntu-latest
 
     steps:
@@ -61,7 +61,7 @@ jobs:
       - name: Run linting for repo
         run: pnpm lint
   format:
-    name: Formatting Integrity
+    name: Check Formatting
     runs-on: ubuntu-latest
 
     steps:
