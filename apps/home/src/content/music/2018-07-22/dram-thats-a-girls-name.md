@@ -42,11 +42,11 @@ tracks:
 date: '2018-07-22T00:00:00.000Z'
 ---
 
-It seems like summertime just brings out the funk in everyone. Well at least it has in DRAM
-and I am liking what I hear. I think his style is great for music like this, from the flow
-to the voice when singing and rapping. It was a perfect fit on Calvin Harris'
+It seems like summertime just brings out the funk in everyone. Well at least it has in
+DRAM and I am liking what I hear. I think his style is great for music like this, from the
+flow to the voice when singing and rapping. It was a perfect fit on Calvin Harris'
 :album[2HaqChIDc5go3qxVunBDK0][Funk Wav Bounces Vol.1] and it fits perfectly hear as well.
-It even has an old school feel in places with some of the samples that were used in the project
-which I always appreciate. But DRAM brings it all together with these songs, he is a very
-talented individual and it resulted in this, some great summer songs. He definitely Does.
-Real. Ass. Music (needed to slot that in here somehow).
+It even has an old school feel in places with some of the samples that were used in the
+project which I always appreciate. But DRAM brings it all together with these songs, he is
+a very talented individual and it resulted in this, some great summer songs. He definitely
+Does. Real. Ass. Music (needed to slot that in here somehow).

@@ -27,10 +27,11 @@ type: TRACK
 date: '2018-08-18T00:00:00.000Z'
 ---
 
-This song spurred me to go back and listen Jungle's self titled album :album[2B1PHvqJTX9ELdUlENOJeQ][Jungle].
-And this song follows the same blueprint as their others song. With the same electronic aspects
-and the chill vocals. Which come to think of it, I find a bit weird, I don't think it is the
-tonality of it, the delivery or the post-production. But it sounds very different to what I
-am accustomed to. It is a pretty simple song that I liked the sound of, not much else to say
-really. If you've liked Jungle before you'll probably like this one, and if you haven't
-who knows give it a shot anyway, I did.
+This song spurred me to go back and listen Jungle's self titled album
+:album[2B1PHvqJTX9ELdUlENOJeQ][Jungle]. And this song follows the same blueprint as their
+others song. With the same electronic aspects and the chill vocals. Which come to think of
+it, I find a bit weird, I don't think it is the tonality of it, the delivery or the
+post-production. But it sounds very different to what I am accustomed to. It is a pretty
+simple song that I liked the sound of, not much else to say really. If you've liked Jungle
+before you'll probably like this one, and if you haven't who knows give it a shot anyway,
+I did.

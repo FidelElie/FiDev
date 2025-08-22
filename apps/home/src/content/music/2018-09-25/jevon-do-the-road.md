@@ -28,32 +28,26 @@ type: TRACK
 date: '2018-09-25T00:00:00.000Z'
 ---
 
-This song has stolen the show for me for what seems like an age now. To summarize it I will
-have to say: the beat, the bars, the visuals and the road. Now for the longer answer, the
-beat is so good that me trying to explain it wouldn't do it justice. There is something about
-the synths in the background that get me gassed every single time I listen to it. The bars
-are expertly crafted and delivered in the song, making you actually feel for what he is saying
-that his life entailed.
+This song has stolen the show for me for what seems like an age now. To summarize it I
+will have to say: the beat, the bars, the visuals and the road. Now for the longer answer,
+the beat is so good that me trying to explain it wouldn't do it justice. There is
+something about the synths in the background that get me gassed every single time I listen
+to it. The bars are expertly crafted and delivered in the song, making you actually feel
+for what he is saying that his life entailed.
 
 The visuals for this song, I think have set a standard for what hood videos should be like
 these days. More about the artistry then someone just rapping with all the gang standing
-behind them throwing up hands. I find myself going out of my way to go to YouTube at
-times to listen to the song there. And finally the it all culminates in making me feel like
-I want to do the road.
+behind them throwing up hands. I find myself going out of my way to go to YouTube at times
+to listen to the song there. And finally the it all culminates in making me feel like I
+want to do the road.
 
-:lyrics[
-They don't wanna aim for my head
-Don't let me take your respect
-I'll take your crown with your head still attached
-Then wear it as a chain on my neck
-][
-Do The Road
-][
-How do you not get gassed to something like this?
-]
+:lyrics[ They don't wanna aim for my head Don't let me take your respect I'll take your
+crown with your head still attached Then wear it as a chain on my neck ][ Do The Road ][
+How do you not get gassed to something like this? ]
 
-So listen to this tune, on your favourite streaming service or YouTube. The YouTube version
-is extended - and worth a separate listen entirely. Jevon is doing it for Londoners everywhere.
+So listen to this tune, on your favourite streaming service or YouTube. The YouTube
+version is extended - and worth a separate listen entirely. Jevon is doing it for
+Londoners everywhere.
 
 :youtube[fGuihyA8X34]
 

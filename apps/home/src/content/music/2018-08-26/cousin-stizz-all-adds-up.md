@@ -40,15 +40,16 @@ tracks:
 date: '2018-08-26T00:00:00.000Z'
 ---
 
-In what was another surprise for me, Cousin Stizz decided to release a three song project and....
-It is not really my cup of tea. This is not to say that it is inherently bad, I just think
-that it sounds like an expansion pack to his last album :album[6GdJPhGu12KSZ7KdgBfye1][One Night Only].
-As a result, I found myself being a bit bored after a couple of listens. What is more, is
-that the songs (especially :track[5hM2hG4lTZQMlqIWG2usz3][Did It]) incorporated some of the
-more bizarre elements of the beats on the album. Which I wasn't the biggest fan of.
+In what was another surprise for me, Cousin Stizz decided to release a three song project
+and.... It is not really my cup of tea. This is not to say that it is inherently bad, I
+just think that it sounds like an expansion pack to his last album
+:album[6GdJPhGu12KSZ7KdgBfye1][One Night Only]. As a result, I found myself being a bit
+bored after a couple of listens. What is more, is that the songs (especially
+:track[5hM2hG4lTZQMlqIWG2usz3][Did It]) incorporated some of the more bizarre elements of
+the beats on the album. Which I wasn't the biggest fan of.
 
-It wasn't a bad project and if I hadn't heard his last album maybe I would have liked it more,
-but that is just not the case. I would say if you want to get into Stizz listen to some of his previous
-stuff, there is a lot more to love there, than here. If you have heard him before don't let
-my opinion stop you from at least giving it a listen to see what you think. I'm not a gate-keeper,
-just a music listener.
+It wasn't a bad project and if I hadn't heard his last album maybe I would have liked it
+more, but that is just not the case. I would say if you want to get into Stizz listen to
+some of his previous stuff, there is a lot more to love there, than here. If you have
+heard him before don't let my opinion stop you from at least giving it a listen to see
+what you think. I'm not a gate-keeper, just a music listener.

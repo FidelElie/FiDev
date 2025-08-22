@@ -45,11 +45,11 @@ date: '2019-03-17T00:00:00.000Z'
 
 This EP may have been released in this year, but i sounds like something straight from 60
 years ago. He has a style that reminds me of Leon Bridges' first album
-:album[21KIagsx1ZvYcv0sVkEAWv][Coming Home]. However, this is not to take away from Jalen's
-talents, the man can sing and it does lead to this 4 song EP being a trip down memory lane
-for the old music I have listened to over year.
+:album[21KIagsx1ZvYcv0sVkEAWv][Coming Home]. However, this is not to take away from
+Jalen's talents, the man can sing and it does lead to this 4 song EP being a trip down
+memory lane for the old music I have listened to over year.
 
-I really do enjoy seeing modern artists, adopting a sound of old, it just shows how timeless
-these sounds are. I only found his music recently and I am very intrigued to see what he does
-next. Singles is not going to be enough, the proving ground will be a bigger project for me.
-I will be listening to this project though.
+I really do enjoy seeing modern artists, adopting a sound of old, it just shows how
+timeless these sounds are. I only found his music recently and I am very intrigued to see
+what he does next. Singles is not going to be enough, the proving ground will be a bigger
+project for me. I will be listening to this project though.

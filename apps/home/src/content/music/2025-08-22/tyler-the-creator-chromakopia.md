@@ -81,34 +81,42 @@ tracks:
     favourite: true
 ---
 
-Tyler you have done it again. He has managed to release and album that has infected my rotations and my mind for what is probably years to come. I generally trolled myself waiting so long to listen to Igor which many would consider to be his magnum opus - rightfully so in fact.
+Tyler you have done it again. He has managed to release and album that has infected my
+rotations and my mind for what is probably years to come. I generally trolled myself
+waiting so long to listen to Igor which many would consider to be his magnum opus -
+rightfully so in fact.
 
-With Chromokopia I think we get a great middle ground with the singing and R'n'b focussed Igor and the traditionally rapity rap shit that we get from Tyler with :track[45ba6QAtNrdv6Ke4MFOKk9][CALL ME IF YOU GET LOST: The Estate Sale] something more in the vein of what is probably my now third favourite album of his :album[2nkto6YNI4rUYTLqEwWJ3o][Flower Boy].
+With Chromokopia I think we get a great middle ground with the singing and R'n'b focussed
+Igor and the traditionally rapity rap shit that we get from Tyler with
+:track[45ba6QAtNrdv6Ke4MFOKk9][CALL ME IF YOU GET LOST: The Estate Sale] something more in
+the vein of what is probably my now third favourite album of his
+:album[2nkto6YNI4rUYTLqEwWJ3o][Flower Boy].
 
-I think what sets this album apart from the others is how real it comes across with its subject matter. The track :track[4BSR9I4ExlCJdXJo2GpBD5][Take your mask off] is a perfect example of this:
+I think what sets this album apart from the others is how real it comes across with its
+subject matter. The track :track[4BSR9I4ExlCJdXJo2GpBD5][Take your mask off] is a perfect
+example of this:
 
-:lyrics[
-And none them face tats gon' hide the fact that you sad, bruh
-You ain't a thug, you was in drama club, you's a actor
-But now cuz gettin' validation from the dumb and confused (Ayy, blood)
-Now you facin' five to ten 'cause you had somethin' to prove, let's talk about it
-][
-Take your mask off:4BSR9I4ExlCJdXJo2GpBD5
-]
+:lyrics[ And none them face tats gon' hide the fact that you sad, bruh You ain't a thug,
+you was in drama club, you's a actor But now cuz gettin' validation from the dumb and
+confused (Ayy, blood) Now you facin' five to ten 'cause you had somethin' to prove, let's
+talk about it ][ Take your mask off:4BSR9I4ExlCJdXJo2GpBD5 ]
 
-Or even seeing a very introspective Tyler on :track[3yw3m8wgRB4ptDyAvtdhq5][Tomorrow] where he talks about getting older and the different lives he lives hen compared to his friends:
+Or even seeing a very introspective Tyler on :track[3yw3m8wgRB4ptDyAvtdhq5][Tomorrow]
+where he talks about getting older and the different lives he lives hen compared to his
+friends:
 
-:lyrics[
-My brodie had another baby, that's like number two (Number two)
-My homegirl a knot-tier, she like thirty-two (Thirty-two)
-They sharin' pictures of these moments, shit is really cute
-And all I got is photos of my 'Rari and some silly suits (Man)
-][
-Tomorrow:3yw3m8wgRB4ptDyAvtdhq5
-][
-And he still manages to flex with the 'Rari, in this too.
-]
+:lyrics[ My brodie had another baby, that's like number two (Number two) My homegirl a
+knot-tier, she like thirty-two (Thirty-two) They sharin' pictures of these moments, shit
+is really cute And all I got is photos of my 'Rari and some silly suits (Man) ][
+Tomorrow:3yw3m8wgRB4ptDyAvtdhq5 ][ And he still manages to flex with the 'Rari, in this
+too. ]
 
-He just doesn't miss! While righting this I am finding it so hard to put into words how well put together the album is. The production is as good as ever - we all know Tyler is a brilliant mind in the studio. The features are immaculate - just hear the magic that Teezo Touchdown and himself manage to put out on :track[0VaeksJaXy5R1nvcTMh3Xk][Darling, I]. Or that Sexy Reddd sounds pretty good on :track[3tFed7YsjGnIfxeLEQwx3R][Sticky] - like it is insanity!!!
+He just doesn't miss! While righting this I am finding it so hard to put into words how
+well put together the album is. The production is as good as ever - we all know Tyler is a
+brilliant mind in the studio. The features are immaculate - just hear the magic that Teezo
+Touchdown and himself manage to put out on :track[0VaeksJaXy5R1nvcTMh3Xk][Darling, I]. Or
+that Sexy Reddd sounds pretty good on :track[3tFed7YsjGnIfxeLEQwx3R][Sticky] - like it is
+insanity!!!
 
-I am done Geeking out listen to this and his entire discography... Twice. He is one of the greatest of our generation.
+I am done Geeking out listen to this and his entire discography... Twice. He is one of the
+greatest of our generation.

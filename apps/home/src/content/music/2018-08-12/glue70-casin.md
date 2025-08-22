@@ -26,19 +26,20 @@ type: TRACK
 date: '2018-08-12T00:00:00.000Z'
 ---
 
-Story time incoming, so I was watching a YouTube video on the game Rainbow Six Siege.
-I say watching it, I had it in the background while I was doing other things. And for those
-who have never watched a video related to this game. If you are not watching the professionals
-compete on the official [YouTube channel](https://www.youtube.com/channel/UCWKHac5bjhsUtSnMDFCT-7A).
-The other content creators are consumed by memes. Which I do find quite entertaining at times,
-but I've got to say the music they use in a lot of their videos. And this is not centered around
-one specific creator a lot of them do this. Sucks as they use super loud dub step tracks,
-so as a result I usually can't get into that aspect of the video.
+Story time incoming, so I was watching a YouTube video on the game Rainbow Six Siege. I
+say watching it, I had it in the background while I was doing other things. And for those
+who have never watched a video related to this game. If you are not watching the
+professionals compete on the official
+[YouTube channel](https://www.youtube.com/channel/UCWKHac5bjhsUtSnMDFCT-7A). The other
+content creators are consumed by memes. Which I do find quite entertaining at times, but
+I've got to say the music they use in a lot of their videos. And this is not centered
+around one specific creator a lot of them do this. Sucks as they use super loud dub step
+tracks, so as a result I usually can't get into that aspect of the video.
 
 But at ending of one of the videos, I heard a remix of this song and for some reason I was
 really drawn to it. I have tried to pinpoint why, and the best I can come up with was the
 sample used. It is a song that I really like but have forgotten the name to; and I think
 how the artist used it doesn't take away from this centerpiece. It is electronic yes, but
-I have no problem with that as long as it brings more to the table than, over produced synths
-and crazy amounts of sub bass. So what else can I say? I like the song, if someone can let me
-know where the sample comes from it would be much appreciated.
+I have no problem with that as long as it brings more to the table than, over produced
+synths and crazy amounts of sub bass. So what else can I say? I like the song, if someone
+can let me know where the sample comes from it would be much appreciated.

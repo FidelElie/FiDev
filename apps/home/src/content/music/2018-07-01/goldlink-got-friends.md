@@ -32,9 +32,7 @@ date: '2018-07-01T00:00:00.000Z'
 As love or hate as his last album could of been for some, I have got to admit that he can
 make some great tunes. This song is definitely one of them, the hook performed by Miguel:
 
-:lyrics[
-All of my bitches got friends
-][Got Friends]
+:lyrics[ All of my bitches got friends ][Got Friends]
 
 And GoldLink's forever groovy flow leads to a great song and I'm hoping that it will lead
 to a great project down the road.

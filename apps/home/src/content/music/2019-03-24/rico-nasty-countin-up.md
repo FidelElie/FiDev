@@ -33,8 +33,8 @@ past the crazy make up, this girl knows how to spit. I have to agree with Carlos
 she may not be everyone's cup of tea, but damn this song's beat, her delivery and the bars
 to an extent really make the song for me. The song is one huge pop off by her, telling
 everyone why she is the shit and no one can compare. And this may not be true in the grand
-scheme of things, but she sure does believe it. I guess that is what I like about the
-song sometimes you just need to pop off and make sure people know you're the shit. Rico
-does that pretty well.
+scheme of things, but she sure does believe it. I guess that is what I like about the song
+sometimes you just need to pop off and make sure people know you're the shit. Rico does
+that pretty well.
 
 :youtube[RCX5UOodZtw]

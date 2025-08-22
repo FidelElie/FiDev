@@ -99,25 +99,17 @@ date: '2018-06-03T00:00:00.000Z'
 
 It took me a while to get round to Hussle's newest project but finally it turns out that
 everyone who lost their mind over it was at least somewhat warranted. I like a good few of
-the songs on the album with the other not being bad but didn't do much for me. But the songs
-I did love easily get me gassed:
+the songs on the album with the other not being bad but didn't do much for me. But the
+songs I did love easily get me gassed:
 
-:lyrics[
-Any prob I'ma reappear, with a squad you already fear,
-All this time I've been playin' fair, seven digits every single year,
-Niggas died, niggas disappear, alibis, I was really there
-][
-Keyz 2 The City 2:1IA0DHaEGwuK5xhvnontdP
-]
+:lyrics[ Any prob I'ma reappear, with a squad you already fear, All this time I've been
+playin' fair, seven digits every single year, Niggas died, niggas disappear, alibis, I was
+really there ][ Keyz 2 The City 2:1IA0DHaEGwuK5xhvnontdP ]
 
 Nipsey comes with a flow throughout the project that makes it great. With the amazing
 production an although there is a very high proportion of songs containing features on the
 album. These add to the songs by providing good vocals or more bars. Overall it is a solid
 album from the Crenshaw Cuzin and I am happy to have had it in my rotation.
 
-:future-comment[
-I just have to say RIP Nipsey, every time I listen to these songs. I'm reminded of the music
-we missed out on.
-][
-2024-11-26
-]
+:future-comment[ I just have to say RIP Nipsey, every time I listen to these songs. I'm
+reminded of the music we missed out on. ][ 2024-11-26 ]

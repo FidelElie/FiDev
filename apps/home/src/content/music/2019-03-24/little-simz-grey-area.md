@@ -69,24 +69,22 @@ tracks:
 date: '2019-03-24T00:00:00.000Z'
 ---
 
-It is one of this year's contenders for the album of the year, Simz brings the fire as always -
-that hasn't changed - but the album is great and I cannot get enough of the tunes. Simz has
-bars for days:
+It is one of this year's contenders for the album of the year, Simz brings the fire as
+always - that hasn't changed - but the album is great and I cannot get enough of the
+tunes. Simz has bars for days:
 
-:lyrics[
-How they let me sing to the masses?
-Lost what I had starin' in the face of tragic
-Like I didn't just Back to Black it
-Love was my losin' game, let's just call a spade a spade
-][Flowers:5PrVJBp2pyJxKDKXVKDiGq]
+:lyrics[ How they let me sing to the masses? Lost what I had starin' in the face of tragic
+Like I didn't just Back to Black it Love was my losin' game, let's just call a spade a
+spade ][Flowers:5PrVJBp2pyJxKDKXVKDiGq]
 
-There are so many standout songs on this album, that I could almost put the entire album in the favourite
-songs section. The **fucking** features (excuse my french but it is needed for emphasis here)
-are used so well. Chronixx on :track[4lrGIVT5CvwirFcBlb5lor][Wounds], Michael Kiwanuka on
-:track[5PrVJBp2pyJxKDKXVKDiGq][Flowers], Cleo and Little Dragon on :track[1b6fmULpHj08RMmHfARJ4e][Selfish]
-and :track[6d0cIiukgZJ8fZBJFqDMBT][Pressure] respectively; do great justice on their tracks
-and just round out this purely glorious album. To make it an early contender for me this
-year.
+There are so many standout songs on this album, that I could almost put the entire album
+in the favourite songs section. The **fucking** features (excuse my french but it is
+needed for emphasis here) are used so well. Chronixx on
+:track[4lrGIVT5CvwirFcBlb5lor][Wounds], Michael Kiwanuka on
+:track[5PrVJBp2pyJxKDKXVKDiGq][Flowers], Cleo and Little Dragon on
+:track[1b6fmULpHj08RMmHfARJ4e][Selfish] and :track[6d0cIiukgZJ8fZBJFqDMBT][Pressure]
+respectively; do great justice on their tracks and just round out this purely glorious
+album. To make it an early contender for me this year.
 
 I heard a lot of the singles before this but it didn't prepare me for the vibe, so I will
 try and prepare you with this entry. Listen to it and get ready, you're in for a treat.

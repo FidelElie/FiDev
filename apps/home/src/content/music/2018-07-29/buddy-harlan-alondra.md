@@ -77,12 +77,12 @@ date: '2018-07-29T00:00:00.000Z'
 ---
 
 Last Friday came along and I was doing my ritual of looking at the new releases and I
-stumbled across this album. I didn't know who Buddy was until then but I decided to give the
-project a listen and it bangs. Catchy hooks, seriously smooth flows and vocals and some great
-production with all the funk describes the album for me. Buddy brings two sides to his music,
-a very chill and laid back vibe as well as a more turn up flavor in some songs. This has had
-me listening to it while I'm chilling at home or going hard in the gym. Which I can't say
-for many artists these days, who cant find the balance they are looking for. The only thing
-I didn't really like was the Ty feature, just because on the song I think his presence was
-squandered. But other than this I am really feeling Buddy's debut, give it a listen and
-see what you think.
+stumbled across this album. I didn't know who Buddy was until then but I decided to give
+the project a listen and it bangs. Catchy hooks, seriously smooth flows and vocals and
+some great production with all the funk describes the album for me. Buddy brings two sides
+to his music, a very chill and laid back vibe as well as a more turn up flavor in some
+songs. This has had me listening to it while I'm chilling at home or going hard in the
+gym. Which I can't say for many artists these days, who cant find the balance they are
+looking for. The only thing I didn't really like was the Ty feature, just because on the
+song I think his presence was squandered. But other than this I am really feeling Buddy's
+debut, give it a listen and see what you think.

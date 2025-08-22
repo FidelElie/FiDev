@@ -75,8 +75,8 @@ tracks:
 date: '2018-09-05T00:00:00.000Z'
 ---
 
-I’ve had my ears on Honne’s music ever since Yung Cangz put me onto them with the song they
-did with Tom Misch :track[1ITJTMrS4cx8zdlI7DdSoo][Me & You ◑]. I love that songggg.
+I’ve had my ears on Honne’s music ever since Yung Cangz put me onto them with the song
+they did with Tom Misch :track[1ITJTMrS4cx8zdlI7DdSoo][Me & You ◑]. I love that songggg.
 And it is on this album but what I like does not stop there with his latest project. As
 you can probably tell from the title of the album the theme is pretty obvious.
 
@@ -85,5 +85,5 @@ music is when compared to what I usually listen to. From his voice to the preval
 electric samples in the production. He makes it work for me.
 
 And maybe some of the messages that the songs provide could make a corn tortilla, but love
-can be corny so it shall be allowed. And he doesn’t talk about it all the time at that.
-A solid album and I will be listening to it or while.
+can be corny so it shall be allowed. And he doesn’t talk about it all the time at that. A
+solid album and I will be listening to it or while.

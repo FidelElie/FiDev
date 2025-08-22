@@ -80,14 +80,15 @@ tracks:
 date: '2018-04-07T00:00:00.000Z'
 ---
 
-I was about to flame Tom after my friend Manny told me he released another standalone single
-this week. But another friend - shout outs to Syed - who lives almost a day ahead told me the
-"prophecy" that the album I have been waiting for since last year October is finally hear.
-I was looking forward to seeing if the wait was worth it. And boy was it. The biggest part
-of this groove is the strings. The baselines, the violins and the signature guitar and Misch's
-smooth vocals make one of the best vibes I have heard so far this year. It makes you want to
-dance listening to the all the riffs and how they mesh so perfectly together. It is a great
-album and I am a firm believer that you can wait for greatness, the violins in
-:track[1ZwejHvd2KmKCWHn9HpAEw][South of the River], A nice take on disco with Disco Yes,
-his great rendition of Stevie Wonder's :track[7zcRBXvRkTRlQYLDNu1JEN][Isn't She Lovely].
-There is so much to love about this album, give it a listen it is definitely worth it.
+I was about to flame Tom after my friend Manny told me he released another standalone
+single this week. But another friend - shout outs to Syed - who lives almost a day ahead
+told me the "prophecy" that the album I have been waiting for since last year October is
+finally hear. I was looking forward to seeing if the wait was worth it. And boy was it.
+The biggest part of this groove is the strings. The baselines, the violins and the
+signature guitar and Misch's smooth vocals make one of the best vibes I have heard so far
+this year. It makes you want to dance listening to the all the riffs and how they mesh so
+perfectly together. It is a great album and I am a firm believer that you can wait for
+greatness, the violins in :track[1ZwejHvd2KmKCWHn9HpAEw][South of the River], A nice take
+on disco with Disco Yes, his great rendition of Stevie Wonder's
+:track[7zcRBXvRkTRlQYLDNu1JEN][Isn't She Lovely]. There is so much to love about this
+album, give it a listen it is definitely worth it.

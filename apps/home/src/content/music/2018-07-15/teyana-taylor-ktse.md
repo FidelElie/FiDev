@@ -65,10 +65,11 @@ date: '2018-07-15T00:00:00.000Z'
 The first thing that came to mind when I started writing this entry was unfinished. And
 according to the news that is absolutely warranted. Kanye being Kanye decided to release
 this project before it was finished to keep in line with his one project a week vision for
-June. What this resulted in was a missing song and missing parts to others and to me it shows.
-Especially after Carlos told me about it. Many of the songs to me felt like they were missing
-something, her voice is amazing and the production of what I have heard of both is pretty
-good. But nothing really stood out to me other than :track[0bxmVPKnEopTyuMMkaTvUb][Issues / Hold On]
-which had a great sample on the production. I wish I could hear the finished version of it
-but apparently that's not going to be the case. So were here at this point and I have to say
-I'm a bit disappointed. Kanye and his ego has ruined something that could have been great.
+June. What this resulted in was a missing song and missing parts to others and to me it
+shows. Especially after Carlos told me about it. Many of the songs to me felt like they
+were missing something, her voice is amazing and the production of what I have heard of
+both is pretty good. But nothing really stood out to me other than
+:track[0bxmVPKnEopTyuMMkaTvUb][Issues / Hold On] which had a great sample on the
+production. I wish I could hear the finished version of it but apparently that's not going
+to be the case. So were here at this point and I have to say I'm a bit disappointed. Kanye
+and his ego has ruined something that could have been great.

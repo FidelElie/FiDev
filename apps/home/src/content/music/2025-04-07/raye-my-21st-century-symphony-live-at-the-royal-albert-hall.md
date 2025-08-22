@@ -104,43 +104,43 @@ date: '2025-04-07T00:00:00.000Z'
 ---
 
 This is the first project on here to be deemed worthy of the top rating, Instant Classic
-and it is for good reason. There was not much consideration, no second guessing the decision.
-There was one place it belonged.
+and it is for good reason. There was not much consideration, no second guessing the
+decision. There was one place it belonged.
 
 The release of her album in Feb of 2023 was a milestone for her and a treat for the rest
-of us. Being free of her label and being able to release the body of the work that she always
-wanted to shows through the project and it's been on rotation ever since. I was a fan of
-Raye's music before with :album[6VpSHPH5y0YyCajycHp6PL][The Side Tape] and various singles like :track[5CO4uJ11ZVKhsO2Lu9NUSk][Natalie Don't]
-but this album did all it needed to and more for anyone's anticipation.
+of us. Being free of her label and being able to release the body of the work that she
+always wanted to shows through the project and it's been on rotation ever since. I was a
+fan of Raye's music before with :album[6VpSHPH5y0YyCajycHp6PL][The Side Tape] and various
+singles like :track[5CO4uJ11ZVKhsO2Lu9NUSk][Natalie Don't] but this album did all it
+needed to and more for anyone's anticipation.
 
-With that year being blessed by Raye's music and her numerous wins throughout I didn't expect
-it to get better in December when I was told that she had released a live version, and in
-the royal Albert hall no less.... Did I think she could top what she had already done? Well
-she did, like holy shit she made a masterpiece.
+With that year being blessed by Raye's music and her numerous wins throughout I didn't
+expect it to get better in December when I was told that she had released a live version,
+and in the royal Albert hall no less.... Did I think she could top what she had already
+done? Well she did, like holy shit she made a masterpiece.
 
-Every song enhanced with the perfect blend of studio and the orchestra she brought with her.
-Her showing everyone why her voice is one of the best in the industry. The compositions for the tracks
-make amazing songs even better - the drop in :track[6kTeWLVQAa3iSU7BOtIcPd][Black Mascara] just has
-such a different feel when it is done with the live instruments. It would still be a club
-banger if played for sure, but it also manages to be right at home in the Royal Albert hall.
-Or some of the interludes which still to this day give me goosebumps -
-:track[6e1u6VSqa1f4zITKX4aTmt][Requiem] especially will transport you a different place
-with the right headphones on.
+Every song enhanced with the perfect blend of studio and the orchestra she brought with
+her. Her showing everyone why her voice is one of the best in the industry. The
+compositions for the tracks make amazing songs even better - the drop in
+:track[6kTeWLVQAa3iSU7BOtIcPd][Black Mascara] just has such a different feel when it is
+done with the live instruments. It would still be a club banger if played for sure, but it
+also manages to be right at home in the Royal Albert hall. Or some of the interludes which
+still to this day give me goosebumps - :track[6e1u6VSqa1f4zITKX4aTmt][Requiem] especially
+will transport you a different place with the right headphones on.
 
-This all culminates in the best rendition of her most popular song - :track[3nb5nlbw4uM5posrOgKm6j][Escapism]
-where the harmony of the two styles comes to its epic conclusion.
+This all culminates in the best rendition of her most popular song -
+:track[3nb5nlbw4uM5posrOgKm6j][Escapism] where the harmony of the two styles comes to its
+epic conclusion.
 
-:lyrics[
-Just a heart broke bitch, high heels, six inch
-In the back of the nightclub, sippin' champagne
-I don't trust any of these bitches I'm with
-In the back of the taxi, sniffin' cocaine
-][
-Escapism:3nb5nlbw4uM5posrOgKm6j
-][You need to sing with all you've got - its too good]
+:lyrics[ Just a heart broke bitch, high heels, six inch In the back of the nightclub,
+sippin' champagne I don't trust any of these bitches I'm with In the back of the taxi,
+sniffin' cocaine ][ Escapism:3nb5nlbw4uM5posrOgKm6j ][You need to sing with all you've
+got - its too good]
 
 It is the perfect end and makes it seem a little ironic that she ends it all with thanking
 everyone, because we should be thanking her. I have sat with this album up to writing this
-post and it gets better everytime I decide to go back, making the hard times better and the good times that much more enjoyable. I can spend infinitely more time gushing over
-this album - it wouldn't be hard. All the recognition she is getting is well deserved and this album
-gets to take its rightful place on this website at the top of pile - truly exceptional.
+post and it gets better everytime I decide to go back, making the hard times better and
+the good times that much more enjoyable. I can spend infinitely more time gushing over
+this album - it wouldn't be hard. All the recognition she is getting is well deserved and
+this album gets to take its rightful place on this website at the top of pile - truly
+exceptional.

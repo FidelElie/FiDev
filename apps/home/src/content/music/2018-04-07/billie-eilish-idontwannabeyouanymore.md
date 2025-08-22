@@ -29,8 +29,9 @@ date: '2018-04-07T00:00:00.000Z'
 
 Another Colors show discovery, I was hesitant to click the link when I saw the thumbnail
 but I'm glad I did. This is some pop that I can get into, her voice is really good and the
-harmonies in the chorus really make the song for me. I don't have that much to say about it
-other then don't judge a book by its cover. Always keep an open mind, I try to as much as
-I can and it payed off this time. Good song and good performance, listen, watch and enjoy.
+harmonies in the chorus really make the song for me. I don't have that much to say about
+it other then don't judge a book by its cover. Always keep an open mind, I try to as much
+as I can and it payed off this time. Good song and good performance, listen, watch and
+enjoy.
 
 :youtube[DSbqyWXVDYg]

@@ -74,10 +74,11 @@ date: '2018-03-31T00:00:00.000Z'
 ---
 
 This is one from the archives, but when I decided to give it a listen towards it had to
-have a place on the is week's roundup. It is a great R&B album with its very good production
-from one half of the duo and it is a very different direction from the foreign exchange put
-out before and after it. It is still my favorite of their projects because I think it hits
-the right balance with the vocals and subject matter. As the beats are not the most conventional
-when it comes to listening to R&B especially in the modern day or even back in 2008 when
-this was released. It is a great experience and I urge you to go back and listen to this
-chill masterpiece for yourself so you can see what I am talking about first hand.
+have a place on the is week's roundup. It is a great R&B album with its very good
+production from one half of the duo and it is a very different direction from the foreign
+exchange put out before and after it. It is still my favorite of their projects because I
+think it hits the right balance with the vocals and subject matter. As the beats are not
+the most conventional when it comes to listening to R&B especially in the modern day or
+even back in 2008 when this was released. It is a great experience and I urge you to go
+back and listen to this chill masterpiece for yourself so you can see what I am talking
+about first hand.

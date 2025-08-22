@@ -35,17 +35,17 @@ type: TRACK
 date: '2019-06-08T00:00:00.000Z'
 ---
 
-I have a little bit of a stigma when it comes to remixes. Some are just rip offs of the the
-original song. Removing the original essence of the song, so what is the point of listening
-to it. Some are take most of what the song does great and puts it to a random beat. Some have
-artist who have no business being on the original song hopping on and giving it a shot. And
-some are actually pretty good. Unfortunately for the remix of Refill(Which is one of my
-favourites off of :album[68LPoE2EfeEnWZGMAOB3Cu][Perfectly Imperfect]) this falls into the
-third category.
+I have a little bit of a stigma when it comes to remixes. Some are just rip offs of the
+the original song. Removing the original essence of the song, so what is the point of
+listening to it. Some are take most of what the song does great and puts it to a random
+beat. Some have artist who have no business being on the original song hopping on and
+giving it a shot. And some are actually pretty good. Unfortunately for the remix of
+Refill(Which is one of my favourites off of :album[68LPoE2EfeEnWZGMAOB3Cu][Perfectly
+Imperfect]) this falls into the third category.
 
-Firstly, I love T Pain, and he is not the offending artist in this case as his contribution
-I think doesn't take away from the song at all or as much as Kirko Bangz. He just doesn't
-fit the song to me, he just sounds trash on it thats all. Elle's bit is great as usual,
-but if I wanted to listen to that, I would just listen to the original. Better yet that
-is what I am going to continue doing, too much bad auto tune on this one not even Mr Pain
-can save it.
+Firstly, I love T Pain, and he is not the offending artist in this case as his
+contribution I think doesn't take away from the song at all or as much as Kirko Bangz. He
+just doesn't fit the song to me, he just sounds trash on it thats all. Elle's bit is great
+as usual, but if I wanted to listen to that, I would just listen to the original. Better
+yet that is what I am going to continue doing, too much bad auto tune on this one not even
+Mr Pain can save it.

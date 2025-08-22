@@ -77,12 +77,12 @@ date: '2018-08-18T00:00:00.000Z'
 ---
 
 I've heard of jungle in passing and I decided in a late night bout of curiosity to go and
-listen to their album. From what I'd heard of them thus far, they were very upbeat so
-this would fuel the writing of my coding projects I've been doing lately.
-And after listening through, the style that is used by Jungle is solid. So solid in fact
-that it doesn't deviate from the heavy electronic interest and accompanying vocals throughout
-the project. Making some of the songs feel more like throwaways then anything. The songs
-I really liked :track[3naM0aExICteWgsNwcPBHh][Julia] and :track[7f7CxGj0kzfwT1SjciL3ft][Busy Earnin'],
+listen to their album. From what I'd heard of them thus far, they were very upbeat so this
+would fuel the writing of my coding projects I've been doing lately. And after listening
+through, the style that is used by Jungle is solid. So solid in fact that it doesn't
+deviate from the heavy electronic interest and accompanying vocals throughout the project.
+Making some of the songs feel more like throwaways then anything. The songs I really liked
+:track[3naM0aExICteWgsNwcPBHh][Julia] and :track[7f7CxGj0kzfwT1SjciL3ft][Busy Earnin'],
 the latter of which I have heard before. I think deviate from this fact the most, leading
-to them being stand out of course. It is not a bad album by any means, I just expected a bit
-more from this then was provided.
+to them being stand out of course. It is not a bad album by any means, I just expected a
+bit more from this then was provided.

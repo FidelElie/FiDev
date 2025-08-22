@@ -31,8 +31,8 @@ date: '2018-03-31T00:00:00.000Z'
 
 I was thinking to myself this week that I haven't listened to myself in a longtime, so I
 decided to go back to my older playlist and give one of my favorite songs a listen. Taking
-me back to a time where I wasn't actually born this song has a great old school vibe to the
-instrumental that I love a lot. I think my vocals on this song were also great, more of the
-usual a couple high notes but the flow of the song is nice and I do like the subject matter
-(I did write it after all). And these days above all it does seem like this song is very
-fitting, so I gave myself a pat on the back for this one.
+me back to a time where I wasn't actually born this song has a great old school vibe to
+the instrumental that I love a lot. I think my vocals on this song were also great, more
+of the usual a couple high notes but the flow of the song is nice and I do like the
+subject matter (I did write it after all). And these days above all it does seem like this
+song is very fitting, so I gave myself a pat on the back for this one.

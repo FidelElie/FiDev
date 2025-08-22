@@ -55,7 +55,7 @@ tracks:
 date: '2018-02-11T00:00:00.000Z'
 ---
 
-Tom Misch's sister brings the heat with this EP, where her very unique vocal
-style was appreciated in this jazzy setting. This is definitely the project to listen to if
-your sitting back relaxing, reading a book or writing articles. Have a chill night in and
-give Playground a listen.
+Tom Misch's sister brings the heat with this EP, where her very unique vocal style was
+appreciated in this jazzy setting. This is definitely the project to listen to if your
+sitting back relaxing, reading a book or writing articles. Have a chill night in and give
+Playground a listen.

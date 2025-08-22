@@ -35,11 +35,11 @@ type: TRACK
 date: '2018-07-15T00:00:00.000Z'
 ---
 
-When listening to Eryn Allen Kane's :album[7sVyk1fdhhiBcguh15NN3N][Aviary: Act 1] I realised
-she was the artist that was featured on my favorite Towkio song and after giving it a listen
-again I thought I would feature it. Incorporating what is also my favorite John Legend song
-:track[5FwI5cOOdRaeEXANAv4dPJ][Heaven] into the lyrics and again the delivery of it is what
-sells it to me. Its almost like a new-age choir bolstered by Eryn's vocals. And Chance is
-just Chance the rapper there isn't much else to say. I love this song and I'm happy that I
-realized a bit more about it. A solid song and I am happy that I had the chance to learn t
-hat there was an artist I never noticed on it.
+When listening to Eryn Allen Kane's :album[7sVyk1fdhhiBcguh15NN3N][Aviary: Act 1] I
+realised she was the artist that was featured on my favorite Towkio song and after giving
+it a listen again I thought I would feature it. Incorporating what is also my favorite
+John Legend song :track[5FwI5cOOdRaeEXANAv4dPJ][Heaven] into the lyrics and again the
+delivery of it is what sells it to me. Its almost like a new-age choir bolstered by Eryn's
+vocals. And Chance is just Chance the rapper there isn't much else to say. I love this
+song and I'm happy that I realized a bit more about it. A solid song and I am happy that I
+had the chance to learn t hat there was an artist I never noticed on it.

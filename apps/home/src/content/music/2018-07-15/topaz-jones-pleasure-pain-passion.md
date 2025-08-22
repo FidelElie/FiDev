@@ -31,21 +31,16 @@ type: TRACK
 date: '2018-07-15T00:00:00.000Z'
 ---
 
-Since Yung Cangz (shout outs to her) showed me this song earlier this week I have had it on repeat.
-I have never been a big fan of Topaz Jones, his songs :track[55IuU6L7o7kOGcvH5eP43u][Tropicana]
-was OK and his last project :album[7kfejHBETR7u8V9s2EPN5x][Arcade] was very mediocre. But
-this song is something else. Super funky, I think what I love most about the song, other than
-the instrumental is the delivery of the vocals from Jones. As well as the bars from KAMAU,
-the hook is definitely my favorite bit of the song but he contributes a lot with his bars.
-There not even anything amazing but it fits the song perfectly. and I do love a couple of
-the lines. The song makes me want to sing along, it makes me want to dance. Great song
-hopefully his eventual project will follow suit.
+Since Yung Cangz (shout outs to her) showed me this song earlier this week I have had it
+on repeat. I have never been a big fan of Topaz Jones, his songs
+:track[55IuU6L7o7kOGcvH5eP43u][Tropicana] was OK and his last project
+:album[7kfejHBETR7u8V9s2EPN5x][Arcade] was very mediocre. But this song is something else.
+Super funky, I think what I love most about the song, other than the instrumental is the
+delivery of the vocals from Jones. As well as the bars from KAMAU, the hook is definitely
+my favorite bit of the song but he contributes a lot with his bars. There not even
+anything amazing but it fits the song perfectly. and I do love a couple of the lines. The
+song makes me want to sing along, it makes me want to dance. Great song hopefully his
+eventual project will follow suit.
 
-:lyrics[
-You two are actually a good match
-If your were chips you would stack like Pringles
-][
-Pleasure Pain Passion
-][
-Said by KAMAU - not sure why I like this so much
-]
+:lyrics[ You two are actually a good match If your were chips you would stack like
+Pringles ][ Pleasure Pain Passion ][ Said by KAMAU - not sure why I like this so much ]

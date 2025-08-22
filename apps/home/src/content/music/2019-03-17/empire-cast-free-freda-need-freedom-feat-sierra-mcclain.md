@@ -30,16 +30,17 @@ date: '2019-03-17T00:00:00.000Z'
 ---
 
 A lot of you - if you have actually seen the show - might be like how is this on here. But
-right now I find myself addicted to watching it, and listening to some of the songs from the
-soundtrack. Don't get me wrong there is a lot of songs that suck, a lot actually. This trend
-does not account for all of them, and Free Freda is one of them.
+right now I find myself addicted to watching it, and listening to some of the songs from
+the soundtrack. Don't get me wrong there is a lot of songs that suck, a lot actually. This
+trend does not account for all of them, and Free Freda is one of them.
 
-Free Freda is standout not only because of the vocals but it one of those songs that doesn't
-have some weird shit going on with its production. To be honest that would be underselling it,
-I love the instrumentation of this song, it has horns (so that helps) the production is
-simplistic but leaves me not wanting more. The lyrics are related to the show but it is still
-easy to follow.
+Free Freda is standout not only because of the vocals but it one of those songs that
+doesn't have some weird shit going on with its production. To be honest that would be
+underselling it, I love the instrumentation of this song, it has horns (so that helps) the
+production is simplistic but leaves me not wanting more. The lyrics are related to the
+show but it is still easy to follow.
 
 So to concludes this might cause some weird looks and confusion. If you're going to listen
 to any songs from this show. You cannot go wrong with Free Freda or
-:track[3hDNEzuPtur45yFj1lYcse][What The DJ Spins]. Songs that deserve to be in your rotation.
+:track[3hDNEzuPtur45yFj1lYcse][What The DJ Spins]. Songs that deserve to be in your
+rotation.

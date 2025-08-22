@@ -104,14 +104,14 @@ tracks:
 date: '2018-04-15T00:00:00.000Z'
 ---
 
-It was only a matter of time before the Zombies released something new with the singles they
-have been putting out. And from the outset I liked this much more than their previous outing
-:album[4Qohh8LwXoV7ucmjCU4MYL][3001: A Laced Odyssey]. The soundtrack to my gym sessions
-this week, this is super hyped and easily got me gassed enough to get a good pump. The only
-gripe I had with it, is that it is so long..... Like nineteen songs long. And this would
-have been ok if the songs had more variation to them
+It was only a matter of time before the Zombies released something new with the singles
+they have been putting out. And from the outset I liked this much more than their previous
+outing :album[4Qohh8LwXoV7ucmjCU4MYL][3001: A Laced Odyssey]. The soundtrack to my gym
+sessions this week, this is super hyped and easily got me gassed enough to get a good
+pump. The only gripe I had with it, is that it is so long..... Like nineteen songs long.
+And this would have been ok if the songs had more variation to them
 (:album[4vPCCjXRWZsZaJXgwLoMBC][4 Eva Is A Mighty Long Time] comes to mind as an exception
-to this length) but there is only so much hype shit I can take. The hype shit is great though
-I just need to be in the right place and time to listen to it. I can't be at the gym for that
-long so it will take a couple sessions: gym and late-night revision wise. This deserves a
-lot more listens from me and your attention, give the Zombies a listen.
+to this length) but there is only so much hype shit I can take. The hype shit is great
+though I just need to be in the right place and time to listen to it. I can't be at the
+gym for that long so it will take a couple sessions: gym and late-night revision wise.
+This deserves a lot more listens from me and your attention, give the Zombies a listen.

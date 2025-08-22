@@ -80,13 +80,14 @@ tracks:
 date: '2018-04-07T00:00:00.000Z'
 ---
 
-I'm going to start this off by saying that Oddisee has been one my favorite rappers for years
-now. His lyrics are amazing and I like how his beats are simple but still do so much for the
-song. Which is a far cry from all the super layered stuff that you hear today, that sometimes
-seems like a waste of time. These beats also allow his music to translate very well to live
-performances with real instruments and not just playing it off a laptop at the gig. And with his band
-he proves this every time he goes on tour and this album is something great. It reaffirmed
-some old loves like :track[4vrT1syG3K1XNBiDJaxEUN][You Know Who You Are] and made me realise there
-was songs I forgot about from his newest album like :track[61si8kfjCZJR8oaBWSq73W][Built By Pictures].
-This is an amazing live performance from an amazing artist and band. If you haven't heard
-of him before, you have now so give him a listen, I love him and I hope you will too.
+I'm going to start this off by saying that Oddisee has been one my favorite rappers for
+years now. His lyrics are amazing and I like how his beats are simple but still do so much
+for the song. Which is a far cry from all the super layered stuff that you hear today,
+that sometimes seems like a waste of time. These beats also allow his music to translate
+very well to live performances with real instruments and not just playing it off a laptop
+at the gig. And with his band he proves this every time he goes on tour and this album is
+something great. It reaffirmed some old loves like :track[4vrT1syG3K1XNBiDJaxEUN][You Know
+Who You Are] and made me realise there was songs I forgot about from his newest album like
+:track[61si8kfjCZJR8oaBWSq73W][Built By Pictures]. This is an amazing live performance
+from an amazing artist and band. If you haven't heard of him before, you have now so give
+him a listen, I love him and I hope you will too.

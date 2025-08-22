@@ -81,10 +81,10 @@ date: '2018-03-11T00:00:00.000Z'
 
 This was a big surprise as I didn't think Mr Suleiman was releasing anything anytime soon.
 I was just very contempt with all the singles he has released before this, but I have got
-to say I am very happy that he did. It is an amazing project that inherits much of the style
-and the subject matter that was used in Ady's previous work, with some of the songs I've
-heard before being on the album. But there is a lot of songs to like on it. I do think some o
-f the songs do start off a bit slow but when they start, I find myself always swaying to
-the amazing vocals and great vocals. After a few rotations of listens I can say with some
-confidence thats it is up there with what I've heard this year. So thank you Ady you
-made the week that much better. 
+to say I am very happy that he did. It is an amazing project that inherits much of the
+style and the subject matter that was used in Ady's previous work, with some of the songs
+I've heard before being on the album. But there is a lot of songs to like on it. I do
+think some o f the songs do start off a bit slow but when they start, I find myself always
+swaying to the amazing vocals and great vocals. After a few rotations of listens I can say
+with some confidence thats it is up there with what I've heard this year. So thank you Ady
+you made the week that much better. 

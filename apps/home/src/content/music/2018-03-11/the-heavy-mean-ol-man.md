@@ -28,16 +28,12 @@ date: '2018-03-11T00:00:00.000Z'
 ---
 
 From their newest album, :album[6PlWoMmg7iwVAgUwh5UCgL][Hurt & The Merciless] is a great
-song that also shows how well this bands' sound meshes together so well to make great songs.
-Taking the part of the hook for example:
+song that also shows how well this bands' sound meshes together so well to make great
+songs. Taking the part of the hook for example:
 
-:lyrics[
-And I don't mean to be cruel, I didn't mean to hurt you
-][
-Mean Ol' Man
-]
+:lyrics[ And I don't mean to be cruel, I didn't mean to hurt you ][ Mean Ol' Man ]
 
-Sang with the backing singers sounds amazing. This song is about the full package:
-the vocals, the guitar, they all mesh together to give some of the same feelings that I
-get when I listen to what makes a good man? A song that I always have to move to it is a
-great listen.
+Sang with the backing singers sounds amazing. This song is about the full package: the
+vocals, the guitar, they all mesh together to give some of the same feelings that I get
+when I listen to what makes a good man? A song that I always have to move to it is a great
+listen.

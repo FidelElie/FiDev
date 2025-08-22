@@ -57,14 +57,15 @@ tracks:
 date: '2018-07-15T00:00:00.000Z'
 ---
 
-With all that's is going on with Kanye at this time. All the attention seeking as promo for
-his weekly album release we got ye, his lone 7 song project that is mean't to be a masterpiece.
-And it is... Okay, nothing to really write home about as a whole body of work. The first
-song is one I like as it, but I'm not a big fan of the switch up in it. His whole spiel about
-loving himself was amusing and made me grow to like it overall but then the rest of the album
-was forgettable to me except for the last song. Which single-handedly, brings the project up
-a few notches for me. It is one of my favorite songs of the year so far, almost a masterpiece
-in my eyes. If you listen to any of this project listen to that song. It almost brings me
-back to a time of my favorite Kanye song (:track[2PFNTHR4sA8m9rPPtYXhl7][Heard Em Say] for
-anyone asking) and that is a feat in itself. So to summarize this song is the best I have heard
-from Kanye in a while, I wish his publicity stunts were for a better album though.
+With all that's is going on with Kanye at this time. All the attention seeking as promo
+for his weekly album release we got ye, his lone 7 song project that is mean't to be a
+masterpiece. And it is... Okay, nothing to really write home about as a whole body of
+work. The first song is one I like as it, but I'm not a big fan of the switch up in it.
+His whole spiel about loving himself was amusing and made me grow to like it overall but
+then the rest of the album was forgettable to me except for the last song. Which
+single-handedly, brings the project up a few notches for me. It is one of my favorite
+songs of the year so far, almost a masterpiece in my eyes. If you listen to any of this
+project listen to that song. It almost brings me back to a time of my favorite Kanye song
+(:track[2PFNTHR4sA8m9rPPtYXhl7][Heard Em Say] for anyone asking) and that is a feat in
+itself. So to summarize this song is the best I have heard from Kanye in a while, I wish
+his publicity stunts were for a better album though.

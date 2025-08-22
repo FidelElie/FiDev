@@ -92,20 +92,20 @@ date: '2018-06-03T00:00:00.000Z'
 ---
 
 Okay so when the feel good king - as he shall now be named - releases a new project I am
-excited. In my opinion, KYLE brings a lot to the rap scene with his can do attitude, noteworthy
-flow and occasional vocals leading to a style which he can call his own. With this fact, I definitely expected
-a lot more from this album than what was provided in this teenage drama of project. Don't get
-me wrong, the subject matter is cool as is something that many a man has experienced in his
-lifetime. But whether it was the skits being provided by the resident plague on the rap game
-Lil Yachty or that the songs wer'nt really that good. I think the theme was a miss and led
-to a lackluster experience. Which is really disappointing. Maybe I'm being unfair with
-comparing this to his previous project :album[7ramtTKrOVLzbPjzGbSJgr][Smyle] - which I thought
-was amazing by the way - I think there is a big difference between making comparisons
-based off of them being different because of their quality when compared to the artist
-trying something new. I'm not upset with KYLE doing something different, I'm upset that
-it just feels like a miss to me and that is a shame.
+excited. In my opinion, KYLE brings a lot to the rap scene with his can do attitude,
+noteworthy flow and occasional vocals leading to a style which he can call his own. With
+this fact, I definitely expected a lot more from this album than what was provided in this
+teenage drama of project. Don't get me wrong, the subject matter is cool as is something
+that many a man has experienced in his lifetime. But whether it was the skits being
+provided by the resident plague on the rap game Lil Yachty or that the songs wer'nt really
+that good. I think the theme was a miss and led to a lackluster experience. Which is
+really disappointing. Maybe I'm being unfair with comparing this to his previous project
+:album[7ramtTKrOVLzbPjzGbSJgr][Smyle] - which I thought was amazing by the way - I think
+there is a big difference between making comparisons based off of them being different
+because of their quality when compared to the artist trying something new. I'm not upset
+with KYLE doing something different, I'm upset that it just feels like a miss to me and
+that is a shame.
 
-:future-comment[
-I actually like Yachty now so that comment does seem a bit harsh to me nowadays - REACH THE SUNSHINE
-is all that was needed for redemption. It isn't rap but it sure is good.
-][2024-12-02]
+:future-comment[ I actually like Yachty now so that comment does seem a bit harsh to me
+nowadays - REACH THE SUNSHINE is all that was needed for redemption. It isn't rap but it
+sure is good. ][2024-12-02]

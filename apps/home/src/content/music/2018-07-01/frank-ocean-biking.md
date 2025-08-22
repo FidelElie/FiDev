@@ -34,11 +34,12 @@ date: '2018-07-01T00:00:00.000Z'
 ---
 
 This is one of my girlfriends favorite Frank Ocean songs. And the multiple times she has
-showed me it, I can see why. The piano throughout song, Jay's contribution to it and of course
-Frank leads to a well put together song.
+showed me it, I can see why. The piano throughout song, Jay's contribution to it and of
+course Frank leads to a well put together song.
 
-It has quickly become one of my favorite Frank songs as well, the instrumentation is expertly
-put together and with Frank's voice through the verses to the finale.... The finale
-(You'll know what I'm talking about when you hear it) is ridiculous. Tyler's contribution is
-smooth and even though nothing really stood out in what he was saying in the song, it doesn't
-take away from the experience at all. Great song, shout outs to Olivia, wins in more ways than one.
+It has quickly become one of my favorite Frank songs as well, the instrumentation is
+expertly put together and with Frank's voice through the verses to the finale.... The
+finale (You'll know what I'm talking about when you hear it) is ridiculous. Tyler's
+contribution is smooth and even though nothing really stood out in what he was saying in
+the song, it doesn't take away from the experience at all. Great song, shout outs to
+Olivia, wins in more ways than one.

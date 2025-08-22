@@ -29,14 +29,14 @@ date: '2019-03-17T00:00:00.000Z'
 
 I recently had a massive [Colors Show](https://www.youtube.com/@COLORSxSTUDIOS) binge in
 one of my procrastination sessions recently. I find myself really giving a lot more people
-a chance. Whether they were people I dismissed because of how they looked, or the descriptions
-of their sound I got on Instagram, or if I just missed their performances altogether. The
-last point describes this performance for me.
+a chance. Whether they were people I dismissed because of how they looked, or the
+descriptions of their sound I got on Instagram, or if I just missed their performances
+altogether. The last point describes this performance for me.
 
 I was taken aback by his powerful voice, and smooth as hell R'n'B, the song lyrics were
-also cool. It was anything very profound or fake-deep or even overly romantic. It was
-just realistic which I respect, you can tell the song was written straight from experience
-and I cant be mad at that. I will be seeing what else he has put out, hopefully it is as
-good as this one.
+also cool. It was anything very profound or fake-deep or even overly romantic. It was just
+realistic which I respect, you can tell the song was written straight from experience and
+I cant be mad at that. I will be seeing what else he has put out, hopefully it is as good
+as this one.
 
 :youtube[iDYp3hTDDlg]

@@ -85,11 +85,11 @@ date: '2019-02-27T00:00:00.000Z'
 ---
 
 This came out earlier in 2018 and when my friend Carlos told me that this was amazing I
-have to admit I was skeptical at first. I had listened to the odd JMSN song beforehand, but
-was never drawn in by them. This all changed with this project, boy was he right about it
-being one of the best R&B albums of the year. This man can sing and initially you would think
-I would just be talking about his vocal range, but no it is much more. The delivery he brings
-to every song, to add such a funky flavour and then switch it up at a moments notice. Makes the
-album very interesting and enjoyable to listen to and a favorite of mine for a large portion of
-last year. If you've been looking for some R&B to listen to this could be what you're looking
-for.
+have to admit I was skeptical at first. I had listened to the odd JMSN song beforehand,
+but was never drawn in by them. This all changed with this project, boy was he right about
+it being one of the best R&B albums of the year. This man can sing and initially you would
+think I would just be talking about his vocal range, but no it is much more. The delivery
+he brings to every song, to add such a funky flavour and then switch it up at a moments
+notice. Makes the album very interesting and enjoyable to listen to and a favorite of mine
+for a large portion of last year. If you've been looking for some R&B to listen to this
+could be what you're looking for.

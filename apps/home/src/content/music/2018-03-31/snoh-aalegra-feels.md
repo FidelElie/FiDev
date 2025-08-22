@@ -81,12 +81,13 @@ tracks:
 date: '2018-03-31T00:00:00.000Z'
 ---
 
-I Stumbled across this artist and her album when I glanced the related artists for Arin Ray
-and I am so glad I clicked on her profile. She loves the rain apparently (at least that
-is what it says in her bio) and I do think this comes across in her music. The rain is not
-a particularly sad thing by nature, depending true where you are it can be god send - Cali
-always being a drought comes to mind. This fact is personified in her music where I think
-she finds a balance between the somber and more energetic sounds to make something unique
-and refreshing. This point is bought home by the feature where rappers like Vic, Vince and
-Logic slow it down and just ride with what this girl is bringing. At least nice things come
-out of going to the library, other than getting work done of course.
+I Stumbled across this artist and her album when I glanced the related artists for Arin
+Ray and I am so glad I clicked on her profile. She loves the rain apparently (at least
+that is what it says in her bio) and I do think this comes across in her music. The rain
+is not a particularly sad thing by nature, depending true where you are it can be god
+send - Cali always being a drought comes to mind. This fact is personified in her music
+where I think she finds a balance between the somber and more energetic sounds to make
+something unique and refreshing. This point is bought home by the feature where rappers
+like Vic, Vince and Logic slow it down and just ride with what this girl is bringing. At
+least nice things come out of going to the library, other than getting work done of
+course.

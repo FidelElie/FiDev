@@ -64,30 +64,27 @@ tracks:
 date: '2019-03-17T00:00:00.000Z'
 ---
 
-Admittedly, I slept on this album quite a bit when it initially when it came out. I was very
-hype for it, PJ Morton's last album :album[1CkM9RhnkW6Ds3wDTheOdo][New Orleans] was amazing
-to me, like ridiculously good, the subject matter, the lot of it. However, when I listened
-to Gumbo; I wasn't really drawn to it initially. I'm not sure why either, it just didn't
-have the same pull that the first one had. So I saved a couple of songs and never went back
-to it.
+Admittedly, I slept on this album quite a bit when it initially when it came out. I was
+very hype for it, PJ Morton's last album :album[1CkM9RhnkW6Ds3wDTheOdo][New Orleans] was
+amazing to me, like ridiculously good, the subject matter, the lot of it. However, when I
+listened to Gumbo; I wasn't really drawn to it initially. I'm not sure why either, it just
+didn't have the same pull that the first one had. So I saved a couple of songs and never
+went back to it.
 
 This all changed when I found myself listening deep into my main playlist and stumbled
 across the song :track[1nR45hPphraeLSO5utjH7T][Claustrophobic] again. The horns, his talk
 about labels trying to fit you into a box, made for a great song:
 
-:lyrics[
-But I must admit, I'm claustrophobic
-I have a hard time trying to fit into your small mind
-And I have a habit of dreaming bigger than anything
-I can see right in front of me
-][Claustrophobic:1nR45hPphraeLSO5utjH7T]
+:lyrics[ But I must admit, I'm claustrophobic I have a hard time trying to fit into your
+small mind And I have a habit of dreaming bigger than anything I can see right in front of
+me ][Claustrophobic:1nR45hPphraeLSO5utjH7T]
 
 So I went back to listen to the album. Story time aside, I do not know what I was thinking
 back then. This album is awesome. It has the right amount of features on it, it is not too
 long, the songs flow perfectly and they sound great too.
 
 Admittedly, my change of heart can also be credited to listening to the live rendition of
-the album: :album[6au0qzMOjqEgc79ntU2bf6][Gumbo Unplugged] (video is linked below). But, the
-studio version definitely holds its own and I am happy that I gave it a chance again.
+the album: :album[6au0qzMOjqEgc79ntU2bf6][Gumbo Unplugged] (video is linked below). But,
+the studio version definitely holds its own and I am happy that I gave it a chance again.
 
 :youtube[RGfHMcWdK7Y]

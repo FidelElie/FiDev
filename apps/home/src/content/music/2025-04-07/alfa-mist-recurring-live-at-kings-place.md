@@ -70,32 +70,30 @@ tracks:
 ---
 
 I haven't listened to much music these past couple of weeks, from the travelling over the
-Japan and the concept of time becoming a memory because of it. It feels like I hadn't got the chance to put in my headphones
-for a minute or two - probably too much food to eat and snack to try. This album was a chance
-listen on the morning before travelling back to Tokyo from Osaka. I heard it early morning
-(my sleeping pattern is still shot) and then as the bullet train took off I settled down to
-a near 3 hour journey. So I finally put my earphones in, closed my eyes and went on a
-journey - in many senses of the word.
+Japan and the concept of time becoming a memory because of it. It feels like I hadn't got
+the chance to put in my headphones for a minute or two - probably too much food to eat and
+snack to try. This album was a chance listen on the morning before travelling back to
+Tokyo from Osaka. I heard it early morning (my sleeping pattern is still shot) and then as
+the bullet train took off I settled down to a near 3 hour journey. So I finally put my
+earphones in, closed my eyes and went on a journey - in many senses of the word.
 
 :track[6ChruZ6HyhprP9uuEQCEMK][Deus ex] is a masterpiece, the violins, Alpha mist's piano
-coming together in the first half, slowly building for the rest of quarter to join in is just
-one of those moments to close your eyes and experience. They all play perfectly together,
-so much so that it will make your question that this is a live recording. It was the perfect
-accompaniment to the ebbs and flows of the bullet train I am on while writing this - the super
-express stops a lot more than I thought it would but let me know not veer of track (wink wink).
+coming together in the first half, slowly building for the rest of quarter to join in is
+just one of those moments to close your eyes and experience. They all play perfectly
+together, so much so that it will make your question that this is a live recording. It was
+the perfect accompaniment to the ebbs and flows of the bullet train I am on while writing
+this - the super express stops a lot more than I thought it would but let me know not veer
+of track (wink wink).
 
-The entire album is bliss for anyone who can appreciate instruments - in the jazz space or otherwise.
-The composition of each piece can whisk you off anywhere you would like to be. There is also a very small
-sprinkling of vocals in :track[6Nw1fZltD9VzYikE2UHjjR][With The Rain]
-and :track[6IU0yYl7JTYjMrBDQUsbi2][Checkpoint (Violence)] being placed in natural intermission
-points for the album to keep it fresh. The vocals are used well I would say, the rap truly
-shone for me when I could just sit back and listen to it.
+The entire album is bliss for anyone who can appreciate instruments - in the jazz space or
+otherwise. The composition of each piece can whisk you off anywhere you would like to be.
+There is also a very small sprinkling of vocals in :track[6Nw1fZltD9VzYikE2UHjjR][With The
+Rain] and :track[6IU0yYl7JTYjMrBDQUsbi2][Checkpoint (Violence)] being placed in natural
+intermission points for the album to keep it fresh. The vocals are used well I would say,
+the rap truly shone for me when I could just sit back and listen to it.
 
-:lyrics[
-I say we need violence
-So don’t ask for my star sign
-I can’t lie it’s a dark time
-Ours die cos there aren’t lines
-][Checkpoint (Violence):6IU0yYl7JTYjMrBDQUsbi2]
+:lyrics[ I say we need violence So don’t ask for my star sign I can’t lie it’s a dark time
+Ours die cos there aren’t lines ][Checkpoint (Violence):6IU0yYl7JTYjMrBDQUsbi2]
 
-It is a great album from Alfa Mist and I know there will be many more to come - he is a true talent.
+It is a great album from Alfa Mist and I know there will be many more to come - he is a
+true talent.

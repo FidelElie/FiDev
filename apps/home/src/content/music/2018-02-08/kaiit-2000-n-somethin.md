@@ -28,7 +28,7 @@ type: TRACK
 date: '2018-02-08T00:00:00.000Z'
 ---
 
-Not much to say about this one, a friend recommended it, I gave it a listen and she is just
-awesome. The great voice leads to an amazingly put together song, I just wish there was more
-of her on spotify to listen to. But, I'll probably take a trip to SoundCloud to check there
-soon enough.
+Not much to say about this one, a friend recommended it, I gave it a listen and she is
+just awesome. The great voice leads to an amazingly put together song, I just wish there
+was more of her on spotify to listen to. But, I'll probably take a trip to SoundCloud to
+check there soon enough.

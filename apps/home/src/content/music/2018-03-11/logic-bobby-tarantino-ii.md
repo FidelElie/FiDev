@@ -82,22 +82,18 @@ tracks:
 date: '2018-03-11T00:00:00.000Z'
 ---
 
-Here lies Bobby Tarantino 2 after the prediction I made with :track[4EAV2cKiqKP5UPZmY6dejk][Everyday].
-And after a couple listens so far it is pretty good. You can tell Logic is ridiculously gassed
-in this project. But can I blame him he's been winning - maybe not as much to me but numbers don't lie.
+Here lies Bobby Tarantino 2 after the prediction I made with
+:track[4EAV2cKiqKP5UPZmY6dejk][Everyday]. And after a couple listens so far it is pretty
+good. You can tell Logic is ridiculously gassed in this project. But can I blame him he's
+been winning - maybe not as much to me but numbers don't lie.
 
-:lyrics[
-And I hereby ratify and confirm that Logic is mother-fucking paid
-][
-Yuck:0D5CXSUx8GOCHSY8KWgi9h
-][
-The winning is even said in the song
-]
+:lyrics[ And I hereby ratify and confirm that Logic is mother-fucking paid ][
+Yuck:0D5CXSUx8GOCHSY8KWgi9h ][ The winning is even said in the song ]
 
-Pretty much all of the project is just a big  bragging fest and there is nothing wrong with
-it. Not all songs hit for me but the ones that did really did.
-:track[0jqBo5RYn008f4ZY8kPewW][Indica Badu]... The song is fucking amazing and just reminds
-me of the older Logic that I grew to love. Super smooth and Wiz goes in so if anything listen
-to that. Overall though, I do like this project it is not my favorite from him by any means
-but it is something that I can see myself bumping for a bit. So now I'm just hoping that
-the album is good.
+Pretty much all of the project is just a big  bragging fest and there is nothing wrong
+with it. Not all songs hit for me but the ones that did really did.
+:track[0jqBo5RYn008f4ZY8kPewW][Indica Badu]... The song is fucking amazing and just
+reminds me of the older Logic that I grew to love. Super smooth and Wiz goes in so if
+anything listen to that. Overall though, I do like this project it is not my favorite from
+him by any means but it is something that I can see myself bumping for a bit. So now I'm
+just hoping that the album is good.

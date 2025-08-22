@@ -28,19 +28,13 @@ date: '2018-06-03T00:00:00.000Z'
 
 Since I've been visiting home I have found myself getting reacquainted with the wonderful
 platform of the radio. And yes I do hate the radio, it is usually full of blown out pop
-songs and crap that I don't want my ears to experience. But if you are on the right frequency
-you can find some gems and that is something I am use to when listening to radio London at
-the right time of day because of my dad and his fixation with the station. I overheard this
-song on this station (and I have discovered so much music on this in the past) and this song
-sounds great. I love the instrumentation, the punchy baseline is definitely a standout of
-the song, it reminds me of some old bands like the Isley Brothers or the Commodores. And the
-vocals are great and contribute to an overall solid song.
+songs and crap that I don't want my ears to experience. But if you are on the right
+frequency you can find some gems and that is something I am use to when listening to radio
+London at the right time of day because of my dad and his fixation with the station. I
+overheard this song on this station (and I have discovered so much music on this in the
+past) and this song sounds great. I love the instrumentation, the punchy baseline is
+definitely a standout of the song, it reminds me of some old bands like the Isley Brothers
+or the Commodores. And the vocals are great and contribute to an overall solid song.
 
-:lyrics[
-I need an angel on my shoulder
-Somebody watch over
-Give me an angel on my shoulder
-'Cause I need a win
-][
-I Need A Win
-]
+:lyrics[ I need an angel on my shoulder Somebody watch over Give me an angel on my
+shoulder 'Cause I need a win ][ I Need A Win ]

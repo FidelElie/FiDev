@@ -29,12 +29,13 @@ type: TRACK
 date: '2018-06-03T00:00:00.000Z'
 ---
 
-After listening to JAYZ's :album[7GoZNNb7Yl74fpk8Z6I2cv][4:44] I had to find
-out where the sample came for song of the same name. And the whole song is amazing too,
-NO I.D definitely picked a winner to use for the album.
+After listening to JAYZ's :album[7GoZNNb7Yl74fpk8Z6I2cv][4:44] I had to find out where the
+sample came for song of the same name. And the whole song is amazing too, NO I.D
+definitely picked a winner to use for the album.
 
 I really like the progression of this song the transitions for each instrument is so clean
 and with Hannah's vocals it culminates in the finale of the song and where the main sample
 comes from. It is a well put together song and I would recommend giving it a listen. Just
 be sure to listen to the lyrics of the song before you tell your girlfriend this reminds
-you of her. Clarify that it is because the song is good not the lyrics, you'll thank me later.
+you of her. Clarify that it is because the song is good not the lyrics, you'll thank me
+later.

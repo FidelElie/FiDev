@@ -54,11 +54,11 @@ tracks:
 date: '2019-06-16T00:00:00.000Z'
 ---
 
-British Trap... Admittedly, I haven't listened to that much of it. But after listening to k2
-I think that will have to change. From hearing the producers tag line Killer Krash with the
-gas throughout the songs, you know what you are in for with the entire EP. Kasien brings
-some serious energy to the raps, his flow is on point the production is ridiculous in this
-project. Kelvin Krash knows how to make some serious trap beats. There is nothing really
-bad to say about it, go into expecting to get gassed you won't be disappointed. While
-writing this entry, listening to the project, it is hard not to like. I am even finding
-more to love about each song, lets see what he does next.
+British Trap... Admittedly, I haven't listened to that much of it. But after listening to
+k2 I think that will have to change. From hearing the producers tag line Killer Krash with
+the gas throughout the songs, you know what you are in for with the entire EP. Kasien
+brings some serious energy to the raps, his flow is on point the production is ridiculous
+in this project. Kelvin Krash knows how to make some serious trap beats. There is nothing
+really bad to say about it, go into expecting to get gassed you won't be disappointed.
+While writing this entry, listening to the project, it is hard not to like. I am even
+finding more to love about each song, lets see what he does next.

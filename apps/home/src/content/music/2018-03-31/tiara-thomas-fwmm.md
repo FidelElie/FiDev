@@ -57,9 +57,10 @@ date: '2018-03-31T00:00:00.000Z'
 
 I don't really like comparing artist to each other but to me Tiara.... Sounds a bit like a
 bootleg H.E.R. The biggest problem with this is not that the vocals sound like her but her
-sound is just H.E.R. And it doesn't bring anything different to the table, leading to a very
-boring listen overall. There wasn't really a song that stood out to me over the listen. But
-I guess the whole experience was not insulting to me, so that is something. I wouldn't give
-this a sweeping recommendation by any means, but I know that everyone is different so you might
-take more from H.E.R than I did. I will give her earlier EP a listen however, because I do
-like her vocals and her sound, I'm just hoping that it is a bit more unique.
+sound is just H.E.R. And it doesn't bring anything different to the table, leading to a
+very boring listen overall. There wasn't really a song that stood out to me over the
+listen. But I guess the whole experience was not insulting to me, so that is something. I
+wouldn't give this a sweeping recommendation by any means, but I know that everyone is
+different so you might take more from H.E.R than I did. I will give her earlier EP a
+listen however, because I do like her vocals and her sound, I'm just hoping that it is a
+bit more unique.

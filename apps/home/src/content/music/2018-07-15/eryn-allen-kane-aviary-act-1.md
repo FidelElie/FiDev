@@ -44,12 +44,13 @@ tracks:
 date: '2018-07-15T00:00:00.000Z'
 ---
 
-This is the first artist that I discovered from Instagram, I have been following this account
-called @4thshorehiphop and they do different features of artists, with a large amount being from
-Chicago. I decided to take a look at her stuff and when they described
-her as a vocalist I didn't expect this kind of music. It is R'n'B with more of a jazz flavor
-which I always appreciate. With the double bass in :track[75iIalBlg6g7krYDWAfFUT][Bass Song],
-the horns I thought she might be just another forgettable R'n'B artist but I was thankfully
-proven wrong. I think that Piano and Bass Song are songs that both encompass this point fully.
-And the instrumentation with her voice is a really good combo now I just need to find the time
-to listen to :album[5SuwWlGLxGExAXMq4yamrP][Aviary: Act 2].
+This is the first artist that I discovered from Instagram, I have been following this
+account called @4thshorehiphop and they do different features of artists, with a large
+amount being from Chicago. I decided to take a look at her stuff and when they described
+her as a vocalist I didn't expect this kind of music. It is R'n'B with more of a jazz
+flavor which I always appreciate. With the double bass in
+:track[75iIalBlg6g7krYDWAfFUT][Bass Song], the horns I thought she might be just another
+forgettable R'n'B artist but I was thankfully proven wrong. I think that Piano and Bass
+Song are songs that both encompass this point fully. And the instrumentation with her
+voice is a really good combo now I just need to find the time to listen to
+:album[5SuwWlGLxGExAXMq4yamrP][Aviary: Act 2].

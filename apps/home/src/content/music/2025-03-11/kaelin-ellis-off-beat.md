@@ -81,16 +81,16 @@ date: '2025-03-11T00:00:00.000Z'
 Kaelin is a producer, from his last album to this one he has shown this in spades - with
 instrumentals that I find myself bumping long after its first listen. His first album
 :album[4ZEbJk4ytV7Y9BAJm7pqqd][THE FUNK WILL PREVAIL] and especially the song
-:track[620u9433tHSuWjIrPtGQpK][TRIPPIN] lived rent free in my head for almost a year once I
-heard it and found itself to the top of my Spotify Wrapped at the same time. But how does
-this album stack up to it? From what I've said already it would be big shoes to fill and I
-think that it handles it well - it has been happy listening throughout.
+:track[620u9433tHSuWjIrPtGQpK][TRIPPIN] lived rent free in my head for almost a year once
+I heard it and found itself to the top of my Spotify Wrapped at the same time. But how
+does this album stack up to it? From what I've said already it would be big shoes to fill
+and I think that it handles it well - it has been happy listening throughout.
 
-The differences in the two albums becomes quickly apparent after the first listen. Where the
-previous stood out because of the immaculate use of vocal samples in its production (sorry if
-thats not the right classification, but there is a good bit of singing on this one). The
-latest offering of OFF BEAT is almost pure instrumentation other than the intro starting
-with what seems to be a catchphrase.
+The differences in the two albums becomes quickly apparent after the first listen. Where
+the previous stood out because of the immaculate use of vocal samples in its production
+(sorry if thats not the right classification, but there is a good bit of singing on this
+one). The latest offering of OFF BEAT is almost pure instrumentation other than the intro
+starting with what seems to be a catchphrase.
 
 :lyrics[Don't force the funk][intro:1pLwXUhy02gbpi0w79OpG8][I felt that].
 
@@ -98,24 +98,21 @@ Following this, we are treated to instruments galore with a lot of the drum trac
 standout for me.
 
 If I was going to state a negative; I would say that the tracks could be longer. With
-tracks like :track[3LBwsj5wkZ99aIbdOAkgEX][resolution] by the time it drops and your truly vibing... It has finished and
-you're onto the next track. It's less of a feeling of being left wanting more and feeling
-like you were short changed a little bit.
+tracks like :track[3LBwsj5wkZ99aIbdOAkgEX][resolution] by the time it drops and your truly
+vibing... It has finished and you're onto the next track. It's less of a feeling of being
+left wanting more and feeling like you were short changed a little bit.
 
-:lyrics[
-Damn why couldn't this just be for another minute or so?
-][Myself][
-I was definitely found myself saying this on listen through or repeats of songs
-]
+:lyrics[ Damn why couldn't this just be for another minute or so? ][Myself][ I was
+definitely found myself saying this on listen through or repeats of songs ]
 
 I don't pretend to know what it takes to put together a cohesive project myself. But I do
 think the solution would have been for some of these songs to get a few more loops in. I
 just wanted to hear more, before going back to the beginning.
 
-Overall, love Kaelin's latest offering and I can't wait to see what his next project has in store.
-Hopefully, it will be a mixture of this one and his last and maybe even have some other
-artists in the features column? I really want to hear people on his production. but
-presently I may not have to look too far for this. His collab album with the wonderful
+Overall, love Kaelin's latest offering and I can't wait to see what his next project has
+in store. Hopefully, it will be a mixture of this one and his last and maybe even have
+some other artists in the features column? I really want to hear people on his production.
+but presently I may not have to look too far for this. His collab album with the wonderful
 Iman Europe :album[4qwUtuUcZvg9XQWLFzEHQv][Moneymorphosis] might just keep me going. The
 homework for you guys is to listen to these grooves, it shouldn't be skipped and while
 your at it, check out the funky visuals from his Youtube channel below.

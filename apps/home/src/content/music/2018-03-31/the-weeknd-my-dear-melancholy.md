@@ -63,5 +63,5 @@ go as far as to say he is over rated - he is definitely talented. But I've never
 him like some of the people who I know. This being said I came into this project with an
 open mind and I've got to say I'm on the fence. It is OK, he is just upset crying about
 Selena, Bella or both who knows. I have heard a lot better on Beauty Behind The Madness at
-least. But I should give this a few more listen before I make my full judgement, maybe Abel
-will grow on me in this situation.
+least. But I should give this a few more listen before I make my full judgement, maybe
+Abel will grow on me in this situation.

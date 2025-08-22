@@ -105,28 +105,54 @@ tracks:
     favourite: false
 ---
 
-Sometimes I am very much late to the party with things. I will recommend something to someone and they will be like:
+Sometimes I am very much late to the party with things. I will recommend something to
+someone and they will be like:
 
-:lyrics[Dude, do you live under a rock? - This has been all over social media.][A good few people it feels like]
+:lyrics[Dude, do you live under a rock? - This has been all over social media.][A good few
+people it feels like]
 
-And to be fair with the title song MUTT this did happen a lot as it turns out its pretty popular on some parts of TikTok. Parts that I have never seen as I am not on it but I will still behind the curve with missing out on the single for so long So I wasn't the pioneer of this tune but what TikTok and the shorts movement at large truly misses out on with their mission to cultivate non-existant attention spans, is the greatness that a well put together album can bring. The highs and lows, the flows when you have more than one song to take into account. And with this album and the Self titled song this is just the tip of the iceberg.
+And to be fair with the title song MUTT this did happen a lot as it turns out its pretty
+popular on some parts of TikTok. Parts that I have never seen as I am not on it but I will
+still behind the curve with missing out on the single for so long So I wasn't the pioneer
+of this tune but what TikTok and the shorts movement at large truly misses out on with
+their mission to cultivate non-existant attention spans, is the greatness that a well put
+together album can bring. The highs and lows, the flows when you have more than one song
+to take into account. And with this album and the Self titled song this is just the tip of
+the iceberg.
 
-I have kept up with all of Leon Thomas' project releases since I found out he was a musician when watching [Insecure](https://en.wikipedia.org/wiki/Insecure_(TV_series)) (Him wearing wife treaters in that show maybe should have gave it away). Subsequently, following him from :album[6RXMHSqYlYAEpDsNYYBj6B][Genesis] to :album[5u7OrPu6BbadcZNWuH10VT][Electic Dusk] has been solid, R'n'B that I find myself returning to in the 4 years between each album. Leon solidified himself with these previous two outings as someone to watch out for and boy is third time the charm here.
+I have kept up with all of Leon Thomas' project releases since I found out he was a
+musician when watching [Insecure](https://en.wikipedia.org/wiki/Insecure_(TV_series)) (Him
+wearing wife treaters in that show maybe should have gave it away). Subsequently,
+following him from :album[6RXMHSqYlYAEpDsNYYBj6B][Genesis] to
+:album[5u7OrPu6BbadcZNWuH10VT][Electic Dusk] has been solid, R'n'B that I find myself
+returning to in the 4 years between each album. Leon solidified himself with these
+previous two outings as someone to watch out for and boy is third time the charm here.
 
-An immensely strong start with :track[6khpV30zSm2QawBG6Ij3Mf][HOW FAST] and :track[16qU5BrBpao0rUPAnfxQzq][SAFE PLACE] was what I needed after the introduction to the title song of the album that everyone is raving about because - as these two songs are crazy good. This trend continues through the rest of the record with no song being a skip from one side to another. With hits like :track[2JGzgavAN2NblF8nQRmcHT][YES IT IS] and ending with _the best remix of MUTT_ with my man Freddie Gibbs giving us some of the wisest words ever:
+An immensely strong start with :track[6khpV30zSm2QawBG6Ij3Mf][HOW FAST] and
+:track[16qU5BrBpao0rUPAnfxQzq][SAFE PLACE] was what I needed after the introduction to the
+title song of the album that everyone is raving about because - as these two songs are
+crazy good. This trend continues through the rest of the record with no song being a skip
+from one side to another. With hits like :track[2JGzgavAN2NblF8nQRmcHT][YES IT IS] and
+ending with _the best remix of MUTT_ with my man Freddie Gibbs giving us some of the
+wisest words ever:
 
-:lyrics[
-Why must I be like that every time I see the cat?
-][
-MUTT (feat. Freddie Gibbs Remix):55F9dik04ovaRCf4Eo1IQD
-][forreal Freddie, forreal]
+:lyrics[ Why must I be like that every time I see the cat? ][ MUTT (feat. Freddie Gibbs
+Remix):55F9dik04ovaRCf4Eo1IQD ][forreal Freddie, forreal]
 
-In the time of me enjoying this album, we got the release of the Deluxe edition which admittedly is not decider for the
-overall rating I have placed on the project. I have listened to it recently and I appreciate it for what it is a very solid B side
-that doesn't take away from what he achieved with the initial run. It has some very good songs on it with the intro
-:track[3OFhp1NroSIRhReQDHEG9z][HEEL] being something I thoroughly enjoy. I do not like the extra remix of MUTT on this as I don't think it adds anything to the song and hampers it to an extent especially since it has a feature that shouldn't exist
-on it but I digress. For a deluxe isn't half bad but he struck gold with the original no need for to tack some silver on.
+In the time of me enjoying this album, we got the release of the Deluxe edition which
+admittedly is not decider for the overall rating I have placed on the project. I have
+listened to it recently and I appreciate it for what it is a very solid B side that
+doesn't take away from what he achieved with the initial run. It has some very good songs
+on it with the intro :track[3OFhp1NroSIRhReQDHEG9z][HEEL] being something I thoroughly
+enjoy. I do not like the extra remix of MUTT on this as I don't think it adds anything to
+the song and hampers it to an extent especially since it has a feature that shouldn't
+exist on it but I digress. For a deluxe isn't half bad but he struck gold with the
+original no need for to tack some silver on.
 
-Overall, MUTT as a body of work is one of my favourite R'n'B albums of the last half decade, he knocked it out the park with this one and if you have been blessed with the well deserved hit that is :track[6nXx5TePCtYfRn6HjihyOC][MUTT] then you still owe it to yourself to give the entire thing a listen and I thought I would throw in a great performance of it below. Don't miss out give it a listen today.
+Overall, MUTT as a body of work is one of my favourite R'n'B albums of the last half
+decade, he knocked it out the park with this one and if you have been blessed with the
+well deserved hit that is :track[6nXx5TePCtYfRn6HjihyOC][MUTT] then you still owe it to
+yourself to give the entire thing a listen and I thought I would throw in a great
+performance of it below. Don't miss out give it a listen today.
 
 :youtube[zvNcNP1Ac7o]
