@@ -28,16 +28,11 @@ date: '2018-07-29T00:00:00.000Z'
 
 I first heard Ebenezer back on Rejjie Snow's last album and I liked the vocals he brought
 to the song. The odd song later and his newest release though not amazing, is still a very
-catchy tune. The hook is the most memorable part of the song, like while writing this I was
-trying to recall what he does in the verses. Does he sing, does he rap? And to be honest I
-am at a loss but I definitely can remember the hook:
+catchy tune. The hook is the most memorable part of the song, like while writing this I
+was trying to recall what he does in the verses. Does he sing, does he rap? And to be
+honest I am at a loss but I definitely can remember the hook:
 
-:lyrics[
-I ain't been to church in like 53 Sundays Ni**a
-I'm doing road.
-][
-53 Sundays
-]
+:lyrics[ I ain't been to church in like 53 Sundays Ni**a I'm doing road. ][ 53 Sundays ]
 
 Maybe its the delivery of it or that the beat is cool, but I'm really digging the hook so
 this song has remained in my listening rotation for the past few weeks. And it shows no

@@ -88,22 +88,19 @@ tracks:
 date: '2019-06-08T00:00:00.000Z'
 ---
 
-I just realised how consistent how Q has been. All the albums up to this one have been great,
-with personally the peak being his previous Blank Face LP. Has this consistency continued
-with CrasH Talk? I think it has for very different reasons than the others that I have
-listened to. Where Oxymoron and Blank Face had the tendency to make me think a bit more
-about what is being said. CrasH Talk just gets me gassed. Simple as that.
+I just realised how consistent how Q has been. All the albums up to this one have been
+great, with personally the peak being his previous Blank Face LP. Has this consistency
+continued with CrasH Talk? I think it has for very different reasons than the others that
+I have listened to. Where Oxymoron and Blank Face had the tendency to make me think a bit
+more about what is being said. CrasH Talk just gets me gassed. Simple as that.
 
 The songs on this are at their most fire when they make me want to go to the gym and lift
-the heaviest weight I can. The good think for the album is that a lot of the songs are like
-this. And for some of my favourites, I think it some of the best of this year for this type
-of music. I may have not liked the album initially, but it has grown on me and for you might
-just skip that step, because there is a lot to like. Just know what you are in for.
+the heaviest weight I can. The good think for the album is that a lot of the songs are
+like this. And for some of my favourites, I think it some of the best of this year for
+this type of music. I may have not liked the album initially, but it has grown on me and
+for you might just skip that step, because there is a lot to like. Just know what you are
+in for.
 
-:lyrics[
-I been counting dead men, puttin' bodies in the safe (Safe)
-52 hundred, one swipe, throw it away ('Way)
-Ayy, whip, whip, whip, 'til it stain on ya (Stain on ya)
-][
-5200:1e3GEwsaXtBNtPfooQimDn
-]
+:lyrics[ I been counting dead men, puttin' bodies in the safe (Safe) 52 hundred, one
+swipe, throw it away ('Way) Ayy, whip, whip, whip, 'til it stain on ya (Stain on ya) ][
+5200:1e3GEwsaXtBNtPfooQimDn ]

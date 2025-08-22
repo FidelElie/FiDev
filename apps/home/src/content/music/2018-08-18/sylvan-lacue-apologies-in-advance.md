@@ -112,15 +112,15 @@ date: '2018-08-18T00:00:00.000Z'
 This is another recommendation from my podcast co-host Jesse and it is a conceptual album
 to contend with. The album is all about self-reflection and human nature, it is uplifting
 in some places and down-right thought provoking in others. And this would be before you
-even hear the music. Because the thing is, this album is so conceptual that what seems like
-most of it is the skit that accompanies it. There is a lot of story to tell with this album
-so I would implore you to listen to it as a full body of work if you want to get
-the full experience. In places its like your listening to a podcast with music breaks. But
-at least those breaks are pretty good. 
+even hear the music. Because the thing is, this album is so conceptual that what seems
+like most of it is the skit that accompanies it. There is a lot of story to tell with this
+album so I would implore you to listen to it as a full body of work if you want to get the
+full experience. In places its like your listening to a podcast with music breaks. But at
+least those breaks are pretty good. 
 
-The hip hop on offer here does have its own merits. And I do feel like in places comparisons
-could be made to Kendrick but Sylvan does enough in his performance to stand out. Overall
-I think what draws me to the music the most is the production. Just listen to the trap beat
-with a classical sample on :track[0BvwSWaY6z31vyXOCh2zIb][Selfish] you will see what I am
-saying. The album screams creativity to me, and that is what I like about it the most.
-This is some great work.
+The hip hop on offer here does have its own merits. And I do feel like in places
+comparisons could be made to Kendrick but Sylvan does enough in his performance to stand
+out. Overall I think what draws me to the music the most is the production. Just listen to
+the trap beat with a classical sample on :track[0BvwSWaY6z31vyXOCh2zIb][Selfish] you will
+see what I am saying. The album screams creativity to me, and that is what I like about it
+the most. This is some great work.

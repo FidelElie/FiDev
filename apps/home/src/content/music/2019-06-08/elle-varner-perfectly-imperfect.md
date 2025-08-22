@@ -74,12 +74,13 @@ tracks:
 date: '2019-06-08T00:00:00.000Z'
 ---
 
-I do hate it when it seems an artist you was rooting for just disappears of the face of the
-planet for a while. No word of even an EP or accidentally stumbling across one of their projects
-on Hot New Hip Hop amongst all the other trash. Nothing but a couple of singles that you new nothing about.
-Well I wasn't having it, I would not let the drought win and so for Elle I went back and listened
-to her last album. Perfectly Imperfect is an awesome album and makes me quite annoyed that I
-have been waiting 7 years for something to attempt to top it.
+I do hate it when it seems an artist you was rooting for just disappears of the face of
+the planet for a while. No word of even an EP or accidentally stumbling across one of
+their projects on Hot New Hip Hop amongst all the other trash. Nothing but a couple of
+singles that you new nothing about. Well I wasn't having it, I would not let the drought
+win and so for Elle I went back and listened to her last album. Perfectly Imperfect is an
+awesome album and makes me quite annoyed that I have been waiting 7 years for something to
+attempt to top it.
 
 Firstly, Elle has a stellar voice, like really good. You could almost say that her music
 is almost carried by it. This is not to say that the instrumentation is lacking, but that

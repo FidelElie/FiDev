@@ -55,23 +55,21 @@ date: '2019-03-24T00:00:00.000Z'
 ---
 
 I first heard Michael Kiwanuka's songs on the radio and subsequently gave his album
-:album[0qxsfpy2VU0i4eDR9RTaAU][Love & Hate] a listen. It was almost a life changing experience
-to hear this man's style in his songs. The album tells a story that I just love to hear again
-and again. So, when I heard him on Little Simz's album :album[3Z8Df4ghTJ7afEWkurB2I1][Grey Area]
-and found myself on his Spotify page with something 'new' to listen to, I was excited to say
-the least. I say 'new' because this album is a live performance of songs I had heard before
-in Love and Hate. In addition, to the performance unlike PJ Morton's live rendition of
-:album[7wAWsia8smE3scMtlO0nOx][Gumbo] which
-deviates quite a lot from the Studio offering, this is a very similar experience, just a live
-enhancement.
+:album[0qxsfpy2VU0i4eDR9RTaAU][Love & Hate] a listen. It was almost a life changing
+experience to hear this man's style in his songs. The album tells a story that I just love
+to hear again and again. So, when I heard him on Little Simz's album
+:album[3Z8Df4ghTJ7afEWkurB2I1][Grey Area] and found myself on his Spotify page with
+something 'new' to listen to, I was excited to say the least. I say 'new' because this
+album is a live performance of songs I had heard before in Love and Hate. In addition, to
+the performance unlike PJ Morton's live rendition of :album[7wAWsia8smE3scMtlO0nOx][Gumbo]
+which deviates quite a lot from the Studio offering, this is a very similar experience,
+just a live enhancement.
 
-This just reminds me of what I love about the guy, it sounds very similar to the album - his
-vocals are great I must say. With some of the flavour and atmosphere that comes with a live
-performance. What is there not to like about it. It was just a reminder of the album that
-gave me a lot of happiness and this is your opportunity to listen to it to, whether it live
-or otherwise go and listen to Michael Kiwanuka.
+This just reminds me of what I love about the guy, it sounds very similar to the album -
+his vocals are great I must say. With some of the flavour and atmosphere that comes with a
+live performance. What is there not to like about it. It was just a reminder of the album
+that gave me a lot of happiness and this is your opportunity to listen to it to, whether
+it live or otherwise go and listen to Michael Kiwanuka.
 
-:future-comment[
-If you're going to listen to any songs on this, listen to Father's Child. It is definitely
-my favourite on both versions of the album.
-][2024-12-01]
+:future-comment[ If you're going to listen to any songs on this, listen to Father's Child.
+It is definitely my favourite on both versions of the album. ][2024-12-01]

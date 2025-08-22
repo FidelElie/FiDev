@@ -56,16 +56,17 @@ tracks:
 date: '2019-06-16T00:00:00.000Z'
 ---
 
-I was hopeful when Carlos said to me the Col3trane's newest EP was fire. My liking his music
-had stopped since hearing the song :track[75w3hkYlT7dH1IWXMqBdq9][Penelope] on colours.
-Unfortunately, this hasn't really changed for me after listening to this. I honestly find it
-jarring to listen to, the entire project reminds me of the switch up towards the end of Penelope
-that I personally think took away from the song. I don't like him, singing over this type of
-beat and from what I've heard the newest one follows this as well, with more occurrences.
+I was hopeful when Carlos said to me the Col3trane's newest EP was fire. My liking his
+music had stopped since hearing the song :track[75w3hkYlT7dH1IWXMqBdq9][Penelope] on
+colours. Unfortunately, this hasn't really changed for me after listening to this. I
+honestly find it jarring to listen to, the entire project reminds me of the switch up
+towards the end of Penelope that I personally think took away from the song. I don't like
+him, singing over this type of beat and from what I've heard the newest one follows this
+as well, with more occurrences.
 
-Credit where credit is due the EP overall does sound a lot more varied than his last album.
-The features are pretty strong on this project too. But this doesn't take away from the
-overlying sound that I think has plagued him since my first listening. If I was trying
+Credit where credit is due the EP overall does sound a lot more varied than his last
+album. The features are pretty strong on this project too. But this doesn't take away from
+the overlying sound that I think has plagued him since my first listening. If I was trying
 to be fair, I would say that maybe I have just been spoilt lately. I have listened to a
 lot of great R&B these past couple weeks, with jazz influences, old and new alike. And I
 could say I was just looking for something different because of this when listening to

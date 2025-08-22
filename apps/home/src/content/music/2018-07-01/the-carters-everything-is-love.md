@@ -62,22 +62,24 @@ tracks:
 date: '2018-07-01T00:00:00.000Z'
 ---
 
-In a surprise to many, Yonce and her so called camel pet decided to release a joint album to
-follow their On The Run 2 Tour. And it is not what I expected, If you haven't heard the album
-in its entirety, you might have at least seen the Apeshit video. And I think that the flexing
-shown and the lyrics perfectly summarize the first three quarters of the album. It is a lot of
-hype shit with some seriously great trap beats; both in production and how they get the job done.
-The last quarter of the album is more towards just the hip-hop side of things, which I did
-enjoy as I think the last two songs on the album were some of my favorites. All this being
-said this album however surprising it was, did have some misses. For example, the delivery
-of the hook in :track[3a5xe1vquNB7CaxSyTTRpL][HEARD ABOUT US]:
+In a surprise to many, Yonce and her so called camel pet decided to release a joint album
+to follow their On The Run 2 Tour. And it is not what I expected, If you haven't heard the
+album in its entirety, you might have at least seen the Apeshit video. And I think that
+the flexing shown and the lyrics perfectly summarize the first three quarters of the
+album. It is a lot of hype shit with some seriously great trap beats; both in production
+and how they get the job done. The last quarter of the album is more towards just the
+hip-hop side of things, which I did enjoy as I think the last two songs on the album were
+some of my favorites. All this being said this album however surprising it was, did have
+some misses. For example, the delivery of the hook in :track[3a5xe1vquNB7CaxSyTTRpL][HEARD
+ABOUT US]:
 
-:lyrics[If you don't know, now you know ni**aaaaaaaaa][HEARD ABOUT US:3a5xe1vquNB7CaxSyTTRpL]
+:lyrics[If you don't know, now you know ni**aaaaaaaaa][HEARD ABOUT
+US:3a5xe1vquNB7CaxSyTTRpL]
 
 Resulted in more a laughing fit rather than serious acknowledgement. This is offset by
-some great lines though so it is more of a slight misstep rather than falling of a cliff. Overall
-I did like the album it was a change for both of them and they proved that they work so well
-together that it doesn't really matter what kind of music they do. They can do it. EVERYTHING
-IS LOVE with this one... Well, at least the majority.
+some great lines though so it is more of a slight misstep rather than falling of a cliff.
+Overall I did like the album it was a change for both of them and they proved that they
+work so well together that it doesn't really matter what kind of music they do. They can
+do it. EVERYTHING IS LOVE with this one... Well, at least the majority.
 
 :youtube[kbMqWXnpXcA]

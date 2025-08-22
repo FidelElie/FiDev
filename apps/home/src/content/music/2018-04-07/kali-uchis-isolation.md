@@ -90,6 +90,7 @@ date: '2018-04-07T00:00:00.000Z'
 This was another surprise, I had no idea Kali was releasing anything this week, but I am
 not complaining. There is a lot of differences in this one from jazz to a little bit of
 blues - two genres which I absolutely love. And the Hispanic aspects, where she speaks and
-sings in Spanish is a nice touch which I don't hear that everyday. I didn't like every song
-on it; but a good few have found a permanent place on my playlist and I am sure that more will
-grow on me with further listens. Another easy recommendation, press play as soon as.
+sings in Spanish is a nice touch which I don't hear that everyday. I didn't like every
+song on it; but a good few have found a permanent place on my playlist and I am sure that
+more will grow on me with further listens. Another easy recommendation, press play as soon
+as.

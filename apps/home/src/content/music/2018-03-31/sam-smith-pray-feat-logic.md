@@ -30,10 +30,11 @@ type: TRACK
 date: '2018-03-31T00:00:00.000Z'
 ---
 
-This is song that definitely gets better with time. And I don't mean over listen but as the
-song progresses it turns into a song that is pretty mediocre to one that I really liked.
-This comes from the fact that all the instruments only make their presence known later on in the song.
-The strings make the song for me and only come in when Logic starts to wrap for the second time.
-And by the end of the song the composition sounds like an orchestral piece with Sam flexing
-his vocal prowess at this point too. The song is pretty good overall and if you can get past
-the first bit of it, there is definitely a lot to like.
+This is song that definitely gets better with time. And I don't mean over listen but as
+the song progresses it turns into a song that is pretty mediocre to one that I really
+liked. This comes from the fact that all the instruments only make their presence known
+later on in the song. The strings make the song for me and only come in when Logic starts
+to wrap for the second time. And by the end of the song the composition sounds like an
+orchestral piece with Sam flexing his vocal prowess at this point too. The song is pretty
+good overall and if you can get past the first bit of it, there is definitely a lot to
+like.

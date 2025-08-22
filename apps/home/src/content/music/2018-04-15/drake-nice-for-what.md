@@ -34,9 +34,9 @@ This song has been making waves lately with everyone I have seen on social media
 to in person. And I can see why, it is probably the best Drake song I have heard in a long
 time. The beat is out of his world with the Lauryn Hill sample and a sound that reminds me
 of the days of songs like :track[3QLjDkgLh9AOEHlhQtDuhs][Best I Ever Had] and even
-:track[238Sekyg7DyN2XDm0z4oWY][Fancy]. The hard as nails kick, the quick snares is just the
-vibe that I have been looking for from Drake for a while now. The lyrics even have a positivity
-that I heard all those years ago in Drake previous songs. And the video for it brings this
-home even more, great vocals, amazing video, this song was for the culture.
+:track[238Sekyg7DyN2XDm0z4oWY][Fancy]. The hard as nails kick, the quick snares is just
+the vibe that I have been looking for from Drake for a while now. The lyrics even have a
+positivity that I heard all those years ago in Drake previous songs. And the video for it
+brings this home even more, great vocals, amazing video, this song was for the culture.
 
 Well done Drake keep it up.

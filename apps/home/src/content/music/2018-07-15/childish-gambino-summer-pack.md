@@ -37,14 +37,14 @@ tracks:
 date: '2018-07-15T00:00:00.000Z'
 ---
 
-I didn't even know Gambino was releasing anything, so thank you to Olivia for putting me on
-to it. This two song project summed up is a miss then a hit for me. I am surprised he didn't
-release a project called Kauai Part 2 when I first listened to
+I didn't even know Gambino was releasing anything, so thank you to Olivia for putting me
+on to it. This two song project summed up is a miss then a hit for me. I am surprised he
+didn't release a project called Kauai Part 2 when I first listened to
 :track[4j3GWI86JvSaF0BLdmgcfF][Summertime Magic]. The beat fell in line with that style
 that Gambino showed when and I can't say I liked it that much. The beat had what sounded
-like a heavily produced fart in it and his vocals didn't do much for me in this song. However,
-:track[7p4vHnYXkxlzvfePJVpcTr][Feels Like Summer] is a different story. The beat is great,
-I think the vocals are much better for this song, fits it a lot more does not sound tact on.
-When he hits the high note, ooooo it's pretty lit and I will probably find this song in my
-rotation for the summer. Super chill tunes and the best one on the pack. Great song, I wonder
-if he is going to release Kauai Part 2 at some point.
+like a heavily produced fart in it and his vocals didn't do much for me in this song.
+However, :track[7p4vHnYXkxlzvfePJVpcTr][Feels Like Summer] is a different story. The beat
+is great, I think the vocals are much better for this song, fits it a lot more does not
+sound tact on. When he hits the high note, ooooo it's pretty lit and I will probably find
+this song in my rotation for the summer. Super chill tunes and the best one on the pack.
+Great song, I wonder if he is going to release Kauai Part 2 at some point.

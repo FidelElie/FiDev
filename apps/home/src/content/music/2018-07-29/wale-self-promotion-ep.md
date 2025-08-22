@@ -47,21 +47,18 @@ tracks:
 date: '2018-07-29T00:00:00.000Z'
 ---
 
-With a departure which was the more R'n'B centric project that is It's Complicated,
-Wale come on his rappity rap shit with Self Promotion and it is another W for him. I think
-that the reason why like his bars in the project - other than the afro-centric lyrics.
-Is that he rides the beat in these songs so well, Wale's flow is too clean on these tracks.
-And it also helps that he has some serious bars to get off his chest (or pad):
+With a departure which was the more R'n'B centric project that is It's Complicated, Wale
+come on his rappity rap shit with Self Promotion and it is another W for him. I think that
+the reason why like his bars in the project - other than the afro-centric lyrics. Is that
+he rides the beat in these songs so well, Wale's flow is too clean on these tracks. And it
+also helps that he has some serious bars to get off his chest (or pad):
 
-:lyrics[
-I feel like Ali, but feel like I be with all the cash is
-][Cassius (Excellency) (feat. DJ Money):2jdWwK988PmmkBDA76PhmO]
+:lyrics[ I feel like Ali, but feel like I be with all the cash is ][Cassius (Excellency)
+(feat. DJ Money):2jdWwK988PmmkBDA76PhmO]
 
-And they keep coming in this EP, the only blemish is that I didn't like the third song very much.
-I found the hook very laughable but this doesn't take away from how the great the others are and
-how good the project is on the whole. Keep them coming Wale.
+And they keep coming in this EP, the only blemish is that I didn't like the third song
+very much. I found the hook very laughable but this doesn't take away from how the great
+the others are and how good the project is on the whole. Keep them coming Wale.
 
-:lyrics[
-Uh, yo, my opposition ain't no competition
-What you call a booth I call a kitchen, I'm fryin' different
-][Negotiations:3imCCj4sEaPOlg6OGoQwnh]
+:lyrics[ Uh, yo, my opposition ain't no competition What you call a booth I call a
+kitchen, I'm fryin' different ][Negotiations:3imCCj4sEaPOlg6OGoQwnh]

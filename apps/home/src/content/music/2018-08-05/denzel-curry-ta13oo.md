@@ -89,14 +89,15 @@ tracks:
 date: '2018-08-05T00:00:00.000Z'
 ---
 
-On and off I have been playing the game DOOM. Not usually a game I would play because of the
-setting, but I saw that people have loved and I got for six quid and I can't complain. The game
-is really good, the only problem I have with it is the soundtrack. Yes the soundtrack is fitting,
-a lot of heavy and death metal tracks as the action increases. But I'm just not a fan. So I
-decided to turn the music off in the settings and played TA1300 instead. 
+On and off I have been playing the game DOOM. Not usually a game I would play because of
+the setting, but I saw that people have loved and I got for six quid and I can't complain.
+The game is really good, the only problem I have with it is the soundtrack. Yes the
+soundtrack is fitting, a lot of heavy and death metal tracks as the action increases. But
+I'm just not a fan. So I decided to turn the music off in the settings and played TA1300
+instead. 
 
 From all the tunes I've heard from Curry I was like this would fit the game perfectly and
-get me gassed to kill some demons. And overall it surprisingly it was on and off. The project
-has some serious turn up  songs on it but it also possesses some really nice slower songs.
-It is a really nice change of pace for the album, not perfect as a DOOM soundtrack, but
-a great album nonetheless. Curry gets the W with TA13OO.
+get me gassed to kill some demons. And overall it surprisingly it was on and off. The
+project has some serious turn up  songs on it but it also possesses some really nice
+slower songs. It is a really nice change of pace for the album, not perfect as a DOOM
+soundtrack, but a great album nonetheless. Curry gets the W with TA13OO.

@@ -61,8 +61,9 @@ throughout the early morning. If you liked bulletproof you'll probably like this
 more of the same. More Dolph. That is if you turn off your brain off for abit as there are
 some suspect bars in this, that when I let the infectious beats pass I was like what???
 
-:lyrics[Drop a pill in her drink like Bill (whoa)][Slave Owner#53fwrKE7aKurHfiGhjUgXh][like huh?????]
+:lyrics[Drop a pill in her drink like Bill (whoa)][Slave
+Owner#53fwrKE7aKurHfiGhjUgXh][like huh?????]
 
-I do not cosign these bars, how it was allowed to leave the studio is beyond me. So on whole
-I'm like eww but excluding this song, its just the same Dolph, nothing more nothing less.
-Probably wont be talking about it at the end of the year but its ok for now.
+I do not cosign these bars, how it was allowed to leave the studio is beyond me. So on
+whole I'm like eww but excluding this song, its just the same Dolph, nothing more nothing
+less. Probably wont be talking about it at the end of the year but its ok for now.

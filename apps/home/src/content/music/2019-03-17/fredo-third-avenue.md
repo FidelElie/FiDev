@@ -79,22 +79,18 @@ tracks:
 date: '2019-03-17T00:00:00.000Z'
 ---
 
-The man is from down the road from me in London, so I guess I had to like this album through
-fear of getting shanked. All jokes aside this album left me with mixed feelings. On the one
-hand, I like Fredo rapping, a good amount of the bars are not about killing people either.
-But some of the others left me feeling kind of dirty. For example:
+The man is from down the road from me in London, so I guess I had to like this album
+through fear of getting shanked. All jokes aside this album left me with mixed feelings.
+On the one hand, I like Fredo rapping, a good amount of the bars are not about killing
+people either. But some of the others left me feeling kind of dirty. For example:
 
-:lyrics[
-The first time I poked someone up,
-I can't lie he was a neeky yute
-But he was so I felt like I just needed to
-][
-Third Avenue:2hij6lekO6SLK1vYvfYBBq
-]
+:lyrics[ The first time I poked someone up, I can't lie he was a neeky yute But he was so
+I felt like I just needed to ][ Third Avenue:2hij6lekO6SLK1vYvfYBBq ]
 
-It's lyrics like this just have me thinking "Damn this guy sounds a bit like a Chicago drill
-rapper, all death and little no substance" (Except like Herbo or Bibby). But he does show some
-flair in places in the album. Talking about how school wasn't for him, apologising to his mum.
-It is an album of twists and turns for me, rapper like this always leave me with mixed emotions,
-if the songs sound good. Maybe it was the production all along I am not sure, I just don't want
-to get poked. Good stuff Fred, lets see what else you do.
+It's lyrics like this just have me thinking "Damn this guy sounds a bit like a Chicago
+drill rapper, all death and little no substance" (Except like Herbo or Bibby). But he does
+show some flair in places in the album. Talking about how school wasn't for him,
+apologising to his mum. It is an album of twists and turns for me, rapper like this always
+leave me with mixed emotions, if the songs sound good. Maybe it was the production all
+along I am not sure, I just don't want to get poked. Good stuff Fred, lets see what else
+you do.

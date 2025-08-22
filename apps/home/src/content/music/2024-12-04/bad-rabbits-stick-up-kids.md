@@ -53,27 +53,29 @@ tracks:
     spotifyUrl: 'https://open.spotify.com/track/6cPVUUpe5GoBapjNuuBcr8'
     name: Can't Back Down
     favourite: true
+date: '2024-12-04T00:00:00.000Z'
 ---
 
-This is definitely a throwback to my sixth form days (16 to 18) years old - about a decade ago
-(God I'm old). I never knew what genres to categorise Bad Rabbits as, according to their
-Spotify bio:
+This is definitely a throwback to my sixth form days (16 to 18) years old - about a decade
+ago (God I'm old). I never knew what genres to categorise Bad Rabbits as, according to
+their Spotify bio:
 
-:lyrics[
-"The hardest R&B act on the planet" Salim. Dua. Sheel. Est 2007 in Boston MA
+:lyrics[ "The hardest R&B act on the planet" Salim. Dua. Sheel. Est 2007 in Boston MA
 ][Bad Rabbits Spotify Biography]
 
 Maybe this R&B is what their new music is firmly grounded in but this wasn't the case for
-their older stuff. They were a truly genre bending band and that is probably why I love them
-so much. I could talk about a lot of their albums - especially :album[3daJ4FTEqKuweMmNMztey8][American Love]
-(I probably will at some point). But I found myself drawn back to Stick Up Kids recently,
-mostly due to their Audiotree live set. A perfect illustration of how good this band is, from
-the vocals to the instrumentation (linked below). But it is the funky beats, with a great
-band that keeps me coming back, to this project.
+their older stuff. They were a truly genre bending band and that is probably why I love
+them so much. I could talk about a lot of their albums - especially
+:album[3daJ4FTEqKuweMmNMztey8][American Love] (I probably will at some point). But I found
+myself drawn back to Stick Up Kids recently, mostly due to their Audiotree live set. A
+perfect illustration of how good this band is, from the vocals to the instrumentation
+(linked below). But it is the funky beats, with a great band that keeps me coming back, to
+this project.
 
-Case in point: the last bit of the title song :track[5E49goNw1yOQeYvbKiV8Qg][Stick Up Kids]
-always gives me chills. I think its just that good. Maybe its nostalgia, maybe my ears haven't
-grown much since then - but I think this has always a winner and there is only one way for you
-guys to find out - isn't there.
+Case in point: the last bit of the title song :track[5E49goNw1yOQeYvbKiV8Qg][Stick Up
+Kids] always gives me chills. I think its just that good. Maybe its nostalgia, maybe my
+ears haven't grown much since then - but I think this has always a winner and there is
+only one way for you guys to find out - isn't there.
 
-:youtube[oi9-ENggyKQ][A blast from the past for me - thank you AudioTree for uploading the entire set]
+:youtube[oi9-ENggyKQ][A blast from the past for me - thank you AudioTree for uploading the
+entire set]

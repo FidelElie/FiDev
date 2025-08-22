@@ -49,9 +49,9 @@ tracks:
 date: '2018-02-24T00:00:00.000Z'
 ---
 
-A vunique voice and sound is what Poppy brings to the table. I have been
-following her since I stumbled across some of her earlier singles and I am super
-happy with this project. It has a very whimsical sound that whisks you off to another world
-as the EP progresses, and this is brought home by the vocals she provides. It is a great
-project I just want to see something bigger from her now, an album maybe? I'll be keeping
-an eye out.
+A vunique voice and sound is what Poppy brings to the table. I have been following her
+since I stumbled across some of her earlier singles and I am super happy with this
+project. It has a very whimsical sound that whisks you off to another world as the EP
+progresses, and this is brought home by the vocals she provides. It is a great project I
+just want to see something bigger from her now, an album maybe? I'll be keeping an eye
+out.

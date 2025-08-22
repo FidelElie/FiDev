@@ -84,19 +84,16 @@ tracks:
 date: '2018-03-04T00:00:00.000Z'
 ---
 
-My girlfriend asked me if I had heard the SiR song Jay Z and this is the conversation that followed:
+My girlfriend asked me if I had heard the SiR song Jay Z and this is the conversation that
+followed:
 
-:lyrics[
-Me: “It doesn’t ring any bells” 
-Young Spinach: “I thought you said you listened to this guy? I listened to him because of you!” 
-Me: “Word I’ll give this album a listen soon” 
-][
-My Life
-]
+:lyrics[ Me: “It doesn’t ring any bells”  Young Spinach: “I thought you said you listened
+to this guy? I listened to him because of you!”  Me: “Word I’ll give this album a listen
+soon”  ][ My Life ]
 
-I’m paraphrasing of course but I thought I would write some bars. I remember I hadn’t really
-sat down and listened to his past project Seven Sundays so I decided to go back and do just that.
-And it is good, there are some songs that I really like on it and some songs that I find a
-bit more forgettable. I still prefer :album[5zdFKRmlSDwAMZ5NFVGbx9][Summer in November]
-but this project has songs that deserve a place on my playlist just listen to Jay Z and
-you’ll see why. SiR thank you for giving me my R&B fix. 
+I’m paraphrasing of course but I thought I would write some bars. I remember I hadn’t
+really sat down and listened to his past project Seven Sundays so I decided to go back and
+do just that. And it is good, there are some songs that I really like on it and some songs
+that I find a bit more forgettable. I still prefer :album[5zdFKRmlSDwAMZ5NFVGbx9][Summer
+in November] but this project has songs that deserve a place on my playlist just listen to
+Jay Z and you’ll see why. SiR thank you for giving me my R&B fix. 

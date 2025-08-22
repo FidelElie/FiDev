@@ -52,15 +52,15 @@ tracks:
 date: '2018-08-18T00:00:00.000Z'
 ---
 
-I didn't think I was going to like this tape. From what I've heard of RAYE before I was really
-a fan of her music, but I've got to say.. I am generally surprised how much I like some of
-the songs on this project. I have them on repeat for the for a while now. The songs I like
-the most on this album, are very upbeat, high-tempo songs with some having afrobeat
-influences (:track[31MUzJRDoberNLCXSISodO][Crew]), and just straight up RnB with little bit
-of electronic thrown in, in places.
+I didn't think I was going to like this tape. From what I've heard of RAYE before I was
+really a fan of her music, but I've got to say.. I am generally surprised how much I like
+some of the songs on this project. I have them on repeat for the for a while now. The
+songs I like the most on this album, are very upbeat, high-tempo songs with some having
+afrobeat influences (:track[31MUzJRDoberNLCXSISodO][Crew]), and just straight up RnB with
+little bit of electronic thrown in, in places.
 
-The production on the project is so good that I, find myself doing the typical scrunch face,
-that is evidence of a hard beat a lot while listening to this. The other songs on the EP are
-not the greatest but they are definitely tolerable. She doesn't say anything truly profound
-but who cares this stuff gets me gassed. It is pretty solid, so I'll definitely look out for
-what she does next.
+The production on the project is so good that I, find myself doing the typical scrunch
+face, that is evidence of a hard beat a lot while listening to this. The other songs on
+the EP are not the greatest but they are definitely tolerable. She doesn't say anything
+truly profound but who cares this stuff gets me gassed. It is pretty solid, so I'll
+definitely look out for what she does next.

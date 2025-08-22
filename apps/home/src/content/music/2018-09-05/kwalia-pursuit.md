@@ -45,6 +45,6 @@ I have heard this week for being unique and more meaningful than a lot of the mu
 heard as of late.
 
 Jordan contributes minimal amounts of vocals to the songs. However, this is one of those
-instances where less is more. His voice fits these songs perfectly and rounds
-out this great duos' first outing. Give it a listen, I hope they release more together under
-the Kwalia banner.
+instances where less is more. His voice fits these songs perfectly and rounds out this
+great duos' first outing. Give it a listen, I hope they release more together under the
+Kwalia banner.

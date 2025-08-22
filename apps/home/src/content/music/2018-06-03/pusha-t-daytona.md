@@ -63,17 +63,17 @@ date: '2018-06-03T00:00:00.000Z'
 
 With all that is going on with Kanye in his personal life, he still knows how to give some
 serious production. And at least for now for the music, I can put that some of the stupid
-crap a side, ignore the insensitive album cover and listen to what Pusha T has to say. Even
-if all this stuff is a publicity stunt I was going to listen to it anyway so for lack of a
-better phrase I am not going to buy into the bullshit. I just want to listen to some good
-music and Daytona is not half bad. I have never been a fan of Pusha but his flow in unison
-with the Kanye's production on this leads to a hard seven tracks. For me it wasn't anything
-ground breaking though as it seems social media has been shouting for the past few weeks.
-I've probably been a bit sidetracked with everything to really scrutinize the greatness of it,
-but it will be in the rotation as it is a pretty good body of work and I will hopefully find
-the time to listen to some of his older stuff.
+crap a side, ignore the insensitive album cover and listen to what Pusha T has to say.
+Even if all this stuff is a publicity stunt I was going to listen to it anyway so for lack
+of a better phrase I am not going to buy into the bullshit. I just want to listen to some
+good music and Daytona is not half bad. I have never been a fan of Pusha but his flow in
+unison with the Kanye's production on this leads to a hard seven tracks. For me it wasn't
+anything ground breaking though as it seems social media has been shouting for the past
+few weeks. I've probably been a bit sidetracked with everything to really scrutinize the
+greatness of it, but it will be in the rotation as it is a pretty good body of work and I
+will hopefully find the time to listen to some of his older stuff.
 
-On a side note is this an EP or an album? I keep hearing this is an album tried to scroll to
-see the other songs on it and there was 7 of them. So what is it. Is it a playlist like
+On a side note is this an EP or an album? I keep hearing this is an album tried to scroll
+to see the other songs on it and there was 7 of them. So what is it. Is it a playlist like
 Pusha's now arch enemy drake would say? I have no idea but back to the music overall, g
 ive it a listen there is something to like from his latest outing.

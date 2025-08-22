@@ -31,20 +31,16 @@ date: '2018-04-21T00:00:00.000Z'
 ---
 
 I really like the folk that Jordan brings to the table. He has a very good discography so
-far with his :album[0bXMgEiBAo5mWBHfPYFisL][Physics EP] and Tales From The Broken. So usually
-when I see he has released a new single I usually save as I there is a high chance, that I will
-like it so I might as well put it in its home new beforehand. With his latest outing however,
-I'm not sure if it will remain. It is not a bad track by any means, it just didn't give me
-the same feelings that some of his other tracks have in the past. For example, his song
-:track[3QxbFta0WRzKJ7aUVUh9Iz][Battlecry] is what I would say is a masterpiece of composition.
-The lyrics being a chant:
+far with his :album[0bXMgEiBAo5mWBHfPYFisL][Physics EP] and Tales From The Broken. So
+usually when I see he has released a new single I usually save as I there is a high
+chance, that I will like it so I might as well put it in its home new beforehand. With his
+latest outing however, I'm not sure if it will remain. It is not a bad track by any means,
+it just didn't give me the same feelings that some of his other tracks have in the past.
+For example, his song :track[3QxbFta0WRzKJ7aUVUh9Iz][Battlecry] is what I would say is a
+masterpiece of composition. The lyrics being a chant:
 
-:lyrics[
-I won't stay silent
-Even without air in my lungs
-][
-Battlecry - Tales from the Broken:2bSpTqSadpN6L96ASiURUb
-]
+:lyrics[ I won't stay silent Even without air in my lungs ][ Battlecry - Tales from the
+Broken:2bSpTqSadpN6L96ASiURUb ]
 
 Said by only him initially but as the crowd starts to form and move to their destination,
 the tempo of the song increases, the volume follows suit and the people join in, to the
@@ -54,9 +50,6 @@ is of note. It is a cover as I first suspected but doesn't bring anything that s
 to me. I'm going to stick with the rest of his amazing library and I'm waiting to see an
 album from him.
 
-:lyrics[
-Can you hear the people marching louder than the drums?
-Can you hear the people coming louder than the drums?
-][
-Battlecry - Tales From The Broken:2bSpTqSadpN6L96ASiURUb
+:lyrics[ Can you hear the people marching louder than the drums? Can you hear the people
+coming louder than the drums? ][ Battlecry - Tales From The Broken:2bSpTqSadpN6L96ASiURUb
 ]

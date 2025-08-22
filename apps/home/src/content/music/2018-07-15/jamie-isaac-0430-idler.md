@@ -71,11 +71,12 @@ tracks:
 date: '2018-07-15T00:00:00.000Z'
 ---
 
-I'm stuck right here again (Find Your Words) listening to Jamie Isaac's album and thinking,
-this guy has some talent. I loved how he uses the piano throughout his music. In the last
-project he used it to convey a much more somber tone and in this one it is still somber,
-but more upbeat and positive at the same time. This is shown by the piano not being in the
-forefront as much. Whereas in the last album I think that was what made it for me. There is
-the drums on Maybe and the synths in many of the songs are a great touch with Jamie's voice
-bringing it all home. The reverb is a lot more wet in these songs which I thought could
-detract from the songs in places but all in all I am very happy with what I have heard.
+I'm stuck right here again (Find Your Words) listening to Jamie Isaac's album and
+thinking, this guy has some talent. I loved how he uses the piano throughout his music. In
+the last project he used it to convey a much more somber tone and in this one it is still
+somber, but more upbeat and positive at the same time. This is shown by the piano not
+being in the forefront as much. Whereas in the last album I think that was what made it
+for me. There is the drums on Maybe and the synths in many of the songs are a great touch
+with Jamie's voice bringing it all home. The reverb is a lot more wet in these songs which
+I thought could detract from the songs in places but all in all I am very happy with what
+I have heard.

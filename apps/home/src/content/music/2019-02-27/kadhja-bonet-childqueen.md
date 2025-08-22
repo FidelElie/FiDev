@@ -77,19 +77,17 @@ many to make a sound that is both unique and welcome. Her singing style also con
 to this fact, it is very smooth and fits the style of her music perfectly.
 
 This album brings these points across quite well (Her previous project
-:album[4V9BgSnwEMP5yRnZE5flSP][The Visitor] does so too), with a good array of songs ranging
-from slower more thoughtful songs like the previously mentioned Delphine to the more upbeat
-:track[02JjaSuokjv0LRHjSvsdls][Mother Maybe] it is a varied and great listen. It did take
-some time to grow on me, and for me to realise the draw. I still don't know what I
-think about some of the instrumentation choices towards the end of
+:album[4V9BgSnwEMP5yRnZE5flSP][The Visitor] does so too), with a good array of songs
+ranging from slower more thoughtful songs like the previously mentioned Delphine to the
+more upbeat :track[02JjaSuokjv0LRHjSvsdls][Mother Maybe] it is a varied and great listen.
+It did take some time to grow on me, and for me to realise the draw. I still don't know
+what I think about some of the instrumentation choices towards the end of
 :track[4nKdilQJL8BcWZXGJZzm7G][Another Time Lover] but overall I really like what she is
 doing. I looking forward to what she does next.
 
 :youtube[uM5zJ9cyrL8]
 
-:future-comment[
-I was very reserved about this album the first time around, but now I absolutely love it
-and I am a big fan of her work. It is a slow burn and took time to grow but boy did it.
-I would now say it is a must listen if you are looking for something unique to fill
-your ears and playlist with.
-][2024-12-01]
+:future-comment[ I was very reserved about this album the first time around, but now I
+absolutely love it and I am a big fan of her work. It is a slow burn and took time to grow
+but boy did it. I would now say it is a must listen if you are looking for something
+unique to fill your ears and playlist with. ][2024-12-01]

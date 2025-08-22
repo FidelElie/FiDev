@@ -74,8 +74,9 @@ date: '2018-03-11T00:00:00.000Z'
 ---
 
 I saw these guys tiny desk performance (linked below) and I was like yo I should go back
-and listen to this again. And I forgot how much of a great project this duo put out last year.
-It is just funky af and I loved every minute of it.  If you just want body roll a bit in
-your seat or on the move then this will do it for you. Give it a listen you won't be disappointed.
+and listen to this again. And I forgot how much of a great project this duo put out last
+year. It is just funky af and I loved every minute of it.  If you just want body roll a
+bit in your seat or on the move then this will do it for you. Give it a listen you won't
+be disappointed.
 
 :youtube[0WyqHfJOj-I]

@@ -26,19 +26,20 @@ type: TRACK
 date: '2024-12-03T00:00:00.000Z'
 ---
 
-It seems like Its inevitable that I am reminded how much I love espionage on TV and in cinema.
-James Bond, Jason Bourne, Jack Ryan (didn't realise how much of them started with J). Ethan Hunt
-from Mission Impossible for some variation in first letter names. However, all of them have to make way
-for the day of the Jackal. It has it all: the twists and turns, stylised shots, crazy gadgets
-and with all this it still manages to remain grounded in its scope. This isn't actually a review
-of the series but what also what makes it standout is it's killer soundtrack that starts no
-further than it's theme song.
+It seems like Its inevitable that I am reminded how much I love espionage on TV and in
+cinema. James Bond, Jason Bourne, Jack Ryan (didn't realise how much of them started with
+J). Ethan Hunt from Mission Impossible for some variation in first letter names. However,
+all of them have to make way for the day of the Jackal. It has it all: the twists and
+turns, stylised shots, crazy gadgets and with all this it still manages to remain grounded
+in its scope. This isn't actually a review of the series but what also what makes it
+standout is it's killer soundtrack that starts no further than it's theme song.
 
-Celeste fits the vibe perfectly - the raspiness in her voice makes for the mysterious almost
-regal aspect that can be found in any of the James bond themes (at least the good ones - I'm
-looking at you :track[3ODl8J0TZAykdMCtCIO28n][Another Way to Die]). It screams spy shit and I
-dig it, I don't know what else to say - it is epic how well this was put together and for a
-TV show - a great one at that. I'm not on the payroll but binge watch the show and if you're
-not interested in spies and assassins, still listen to this you'll probably like it anyway.
+Celeste fits the vibe perfectly - the raspiness in her voice makes for the mysterious
+almost regal aspect that can be found in any of the James bond themes (at least the good
+ones - I'm looking at you :track[3ODl8J0TZAykdMCtCIO28n][Another Way to Die]). It screams
+spy shit and I dig it, I don't know what else to say - it is epic how well this was put
+together and for a TV show - a great one at that. I'm not on the payroll but binge watch
+the show and if you're not interested in spies and assassins, still listen to this you'll
+probably like it anyway.
 
 :youtube[tcozoppO074]

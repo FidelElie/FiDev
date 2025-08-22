@@ -80,8 +80,8 @@ first half of the album that much better. The second half did not speak to me as
 the first, but that might change after a few more listens. And overall I still think it is
 the solid album that you should give listen to if your in the mood for some new R&B.
 
-In the case of the last song - :track[1USFYZrDt86UdqZxuXYHUG][Summer in November] - some forces
-just cannot be explained but after listening to this song it is just a masterpiece to me.
-The vocals, the instrumental, it is the perfect length where I want to listen to it again
-but I don't feel cheated with it being short.... I am going to stop, just listen to it yourself
-see what you think.
+In the case of the last song - :track[1USFYZrDt86UdqZxuXYHUG][Summer in November] - some
+forces just cannot be explained but after listening to this song it is just a masterpiece
+to me. The vocals, the instrumental, it is the perfect length where I want to listen to it
+again but I don't feel cheated with it being short.... I am going to stop, just listen to
+it yourself see what you think.

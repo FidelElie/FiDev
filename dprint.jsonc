@@ -22,7 +22,8 @@
 	},
 	// MD https://dprint.dev/plugins/markdown/config
 	"markdown": {
-		"lineWidth": 90
+		"lineWidth": 90,
+		"textWrap": "always"
 	},
 	// CSS https://dprint.dev/plugins/malva/config
 	"malva": {

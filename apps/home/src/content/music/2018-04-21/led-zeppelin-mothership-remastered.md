@@ -110,30 +110,30 @@ tracks:
 date: '2018-04-21T00:00:00.000Z'
 ---
 
-I am a big fan of older rock bands like Queen, Rainbow and as you can see from this project
-Led Zeppelin. This is the album I always use to listen to when I was younger and admittedly
-never use to get to the second part. I don't blame my younger self though this side of the
-record is amazing. Amazing Vocals from Robert Plant and one of the best guitarists of all time
-with Jimmy Page, John Paul Jones on bass and keys and John Bonham on drums they were a force
-to reckoned with. And when I went back to listen to this side I remembered why.
+I am a big fan of older rock bands like Queen, Rainbow and as you can see from this
+project Led Zeppelin. This is the album I always use to listen to when I was younger and
+admittedly never use to get to the second part. I don't blame my younger self though this
+side of the record is amazing. Amazing Vocals from Robert Plant and one of the best
+guitarists of all time with Jimmy Page, John Paul Jones on bass and keys and John Bonham
+on drums they were a force to reckoned with. And when I went back to listen to this side I
+remembered why.
 
 There is so many amazing journeys on it all culminating in the masterfully crafted
-:track[12wlYeErSUNGg1B5d64077][Stairway To Heaven], which is easily one of the greatest rock
-songs ever made because of its gentle progression. :track[3Wunwn44wcWRNB4zb03AvA][Since I've been loving you]
-is one of the finest blues songs I have ever heard, with the wailing guitar at its forefront.
-And only recently, I realized Babe I'm going To Leave You is an experience worth its weight in gold.
-I've loved this band since I was a child and if you haven't any of their music I think this
-is a great start. So I have to say thank you to my Dad for giving me the opportunity to
+:track[12wlYeErSUNGg1B5d64077][Stairway To Heaven], which is easily one of the greatest
+rock songs ever made because of its gentle progression.
+:track[3Wunwn44wcWRNB4zb03AvA][Since I've been loving you] is one of the finest blues
+songs I have ever heard, with the wailing guitar at its forefront. And only recently, I
+realized Babe I'm going To Leave You is an experience worth its weight in gold. I've loved
+this band since I was a child and if you haven't any of their music I think this is a
+great start. So I have to say thank you to my Dad for giving me the opportunity to
 experience it.
 
-:future-comment[
-This album still holds up as one of my favourite rock albums ever and it will always
-have a special place in my heart. Additionally, what also makes this so good is that I
-know there is a better version of at least one songs on here that they did live. Since
-I've been loving you at Glastonbury 95 (I wasn't there - was on the way) takes the
+:future-comment[ This album still holds up as one of my favourite rock albums ever and it
+will always have a special place in my heart. Additionally, what also makes this so good
+is that I know there is a better version of at least one songs on here that they did live.
+Since I've been loving you at Glastonbury 95 (I wasn't there - was on the way) takes the
 song to a whole new level. I love this version so much that I have tried (allegedly) to
 download it from Youtube so I always have it. They wouldn't let me though so hopefully,
-thus version will stay up forever, it hasn't failed me so far.
-][2024-28-21]
+thus version will stay up forever, it hasn't failed me so far. ][2024-28-21]
 
 :youtube[PGnZm8Qvndg]

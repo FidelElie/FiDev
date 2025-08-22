@@ -63,10 +63,11 @@ tracks:
 date: '2018-04-21T00:00:00.000Z'
 ---
 
-I really liked Alina Baraz's collaboration with Galamatias on :track[17YuXw2ScwLLL1sUrRKhoW][Fantasy],
-the vocals she puts down are really good on that song, super smooth. These vocals carry on
-to her solo project, with beats that follow on from this. I do really like her sound with
-its mellow aspects and this is greatly reinforced by the great production on each song. I
-may not like every song on the album but they're are some stand outs on this one. Its a
-really nice listen and I would recommend it to anyone who wants to chill out and relax,
-or focus on revision for impending exams like I have.
+I really liked Alina Baraz's collaboration with Galamatias on
+:track[17YuXw2ScwLLL1sUrRKhoW][Fantasy], the vocals she puts down are really good on that
+song, super smooth. These vocals carry on to her solo project, with beats that follow on
+from this. I do really like her sound with its mellow aspects and this is greatly
+reinforced by the great production on each song. I may not like every song on the album
+but they're are some stand outs on this one. Its a really nice listen and I would
+recommend it to anyone who wants to chill out and relax, or focus on revision for
+impending exams like I have.

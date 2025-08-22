@@ -49,8 +49,8 @@ I listened to this EP years ago, much closer to its release in 2014 and admitted
 been sleeping on it ever since. Firstly I love Tillman's voice, he is able to hold some
 very high notes and the best thing about this is, it is not just because he can. It helps
 take the songs from just a medley of great instrumentation to something that is much more
-than the sum of its parts. An experience that I did not really appreciate as much back then,
-dismissing at being more boring, rather than looking into its intricacies. The project is
-calming, something you can close your eyes and listen to, not really for turning up to. And
-that doesn't mean it is boring, just for a different time and a different place. That time
-and place is now and here for me.
+than the sum of its parts. An experience that I did not really appreciate as much back
+then, dismissing at being more boring, rather than looking into its intricacies. The
+project is calming, something you can close your eyes and listen to, not really for
+turning up to. And that doesn't mean it is boring, just for a different time and a
+different place. That time and place is now and here for me.

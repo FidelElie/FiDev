@@ -30,9 +30,9 @@ date: '2019-03-17T00:00:00.000Z'
 ---
 
 Carlos showed me this artist during gaming session a while back and after looking back
-through my playlist. I just had to give her a shout out. Where should I start with this song?
-Is it the old school but rocking groove? Is the artist vocals and flow? Or is it the upbeat
-and positively flexing lyrics? I think it is a combination of all three and I find myself
-hooked. She is really cool and although Carlos said he wasn't really feeling her previous
-project, I see myself giving it a chance eventually, almost solely based on this song, yes
-it is that fire.
+through my playlist. I just had to give her a shout out. Where should I start with this
+song? Is it the old school but rocking groove? Is the artist vocals and flow? Or is it the
+upbeat and positively flexing lyrics? I think it is a combination of all three and I find
+myself hooked. She is really cool and although Carlos said he wasn't really feeling her
+previous project, I see myself giving it a chance eventually, almost solely based on this
+song, yes it is that fire.

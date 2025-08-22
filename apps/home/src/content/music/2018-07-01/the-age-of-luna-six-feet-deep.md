@@ -25,9 +25,10 @@ type: TRACK
 date: '2018-07-01T00:00:00.000Z'
 ---
 
-Hooks that are simple and to the point can make or break how good a song can be. And I think
-that this song is the perfect example of this, the smooth delivery from the group in an
-almost call and response chorus is just too clean. The reason why I emphasize this as the
-raps aren't the most standout especially from the album, but I think the bridge to the
-chorus really make this song. And let me not forget the jazzy horns throughout the song are
-a great touch and elevate this song even more. Give it a listen, one of my favorites from them.
+Hooks that are simple and to the point can make or break how good a song can be. And I
+think that this song is the perfect example of this, the smooth delivery from the group in
+an almost call and response chorus is just too clean. The reason why I emphasize this as
+the raps aren't the most standout especially from the album, but I think the bridge to the
+chorus really make this song. And let me not forget the jazzy horns throughout the song
+are a great touch and elevate this song even more. Give it a listen, one of my favorites
+from them.

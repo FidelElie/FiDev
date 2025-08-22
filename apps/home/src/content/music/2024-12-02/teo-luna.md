@@ -86,24 +86,22 @@ liked but this has made me such a fan. I think with album listening especially i
 age, album starts are so important for building the excitement for a continuous listen and
 this album has got it. Not only is the first song a great instrumental but what follows is
 an awesome mixture of RnB and trap that in my opinion reaches it's peak with
-:track[1LRC7qLxnxvVXjUuna4vHE][Don't Stare Too Long]. The song that follows I also like
-a lot with :track[60BliEJiGfhHe0BpcuUVat][Chances], but it is very hard to top the previous
+:track[1LRC7qLxnxvVXjUuna4vHE][Don't Stare Too Long]. The song that follows I also like a
+lot with :track[60BliEJiGfhHe0BpcuUVat][Chances], but it is very hard to top the previous
 song for me - it is that good.
 
 The album also ends spectacularly as well, I only realised how much I like the 2nd to last
-song when returning to the album for this post but it perfectly transitions into a standout
-of :track[3OngkUaB9I2J4rGnwrSb6o][Bésame] - which embarrassingly thought was an original
-song (thank you to Del for the correction) - but his version is amazing and the perfect end
-to twilight the album.
+song when returning to the album for this post but it perfectly transitions into a
+standout of :track[3OngkUaB9I2J4rGnwrSb6o][Bésame] - which embarrassingly thought was an
+original song (thank you to Del for the correction) - but his version is amazing and the
+perfect end to twilight the album.
 
 I haven't mentioned the middle as much as personally, I think it is not standout, but just
-a solid listen. This shouldn't take away from how much I think you should pick this up.
-I thought it was so good that I had to go and listen to his previous album
+a solid listen. This shouldn't take away from how much I think you should pick this up. I
+thought it was so good that I had to go and listen to his previous album
 :album[2cizw1XcPbsvih0hfJ8ydi][Sol] and hopefully you will want to as well once this has
 graced your ears.
 
-:future-comment[
-As a surprise to not me, ¿Téo? was my most listened artist and Don't stare too long was
-my most listened song in this years Spotify wrapped. Just couldn't stop listening to it
-since the first time around.
-][2024-12-05]
+:future-comment[ As a surprise to not me, ¿Téo? was my most listened artist and Don't
+stare too long was my most listened song in this years Spotify wrapped. Just couldn't stop
+listening to it since the first time around. ][2024-12-05]

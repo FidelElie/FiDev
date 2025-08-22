@@ -75,13 +75,13 @@ const FallbackLink = (props: { href: string; text: string }) => {
 	return `
 			<a
 				href="${props.href}"
-				class="inline-flex items-center flex-wrap px-0.5 h-1 not-prose underline-offset-2"
+				class="inline-flex justify-start not-prose underline-offset-2"
 			>
-				<svg width="1em" height="1em" class="text-blue-500 text-xl relative mr-1 top-1.5" mr-2 fill="currentColor">
+				<svg width="1em" height="1em" class="text-blue-500 text-xl relative mr-1 top-1.5 inline" fill="currentColor">
 					<use href="#icon-sprite-spotify">
 				</svg>
 				<span
-					class="relative top-1 underline decoration-blue-500 underline-offset-2 font-heading font-normal"
+					class="underline decoration-blue-500 underline-offset-2 font-heading font-normal"
 				>
 					${props.text}
 				</span>
@@ -236,9 +236,9 @@ const LyricQuote = (props: {
 	}
 					</blockquote>
 					<div class="flex flex-col">
-						<hr class="border-t border-slate-200 mt-2 mb-1.5"/>
+						<hr class="border-t border-slate-200 mt-2 mb-2"/>
 						<span>
-							From ${id ? TrackDirective.getHTML({ id, text, modifiers: "album" }) : text}${
+							 ${id ? TrackDirective.getHTML({ id, text, modifiers: "album" }) : text}${
 		artist ? ` by ${artist}` : ""
 	}
 						</span>

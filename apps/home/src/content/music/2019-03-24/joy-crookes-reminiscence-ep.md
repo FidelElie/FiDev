@@ -49,14 +49,14 @@ date: '2019-03-24T00:00:00.000Z'
 ---
 
 This is not Joy's first time on the website, and to start off it is not her best either.
-But, I was too quick to judge this project on first listen, because when I finally got round
-to the second... There is so much to like about the songs on offer. It's not about her coming
-into her own or anything, I just needed to sit down and actually listen to them. The first
-too songs are so flames, I can't even really do them justice, I like everything about them.
-And the others though they didn't have me like "Yo" are good as well. Maybe I'm just
-annoyed wondering where the album is at.
+But, I was too quick to judge this project on first listen, because when I finally got
+round to the second... There is so much to like about the songs on offer. It's not about
+her coming into her own or anything, I just needed to sit down and actually listen to
+them. The first too songs are so flames, I can't even really do them justice, I like
+everything about them. And the others though they didn't have me like "Yo" are good as
+well. Maybe I'm just annoyed wondering where the album is at.
 
 I think I have a bit of EP fatigue, of which I will mostly blame Kanye for his 7 track
 bonanza not too long ago. But I shouldn't let this feeling take away from this project
-being a great listen overall. To summarise, not as good as her last, but no slouch
-either, just release something bigger.
+being a great listen overall. To summarise, not as good as her last, but no slouch either,
+just release something bigger.
