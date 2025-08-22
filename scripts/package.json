@@ -1,12 +1,19 @@
 {
-	"name": "@fi.dev/scripts",
+	"name": "@fi/scripts",
 	"version": "1.0.0",
 	"scripts": {
-		"clean": "pnpm node ./library/clean.ts",
-		"node": "tsx"
+		"clean": "tsx ./clean.script.ts",
+		"environment": "tsx ./environment.script.ts",
+		"lint": "oxlint",
+		"check": "tsc --noEmit"
+	},
+	"dependencies": {
+		"chalk": "^5.4.1",
+		"commander": "^13.1.0",
+		"fast-glob": "^3.3.3",
+		"rimraf": "^6.0.1"
 	},
 	"devDependencies": {
-		"commander": "^12.1.0",
-		"rimraf": "^6.0.1"
+		"@types/node": "^22.13.13"
 	}
 }

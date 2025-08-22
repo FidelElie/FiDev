@@ -2,14 +2,11 @@ import path from "path";
 
 import { z } from "zod";
 
-import {
-	getEntriesFromFilePaths,
-	getPostsPathsFromRootDir,
-} from "@fi.dev/content";
+import { getEntriesFromFilePaths, getPostsPathsFromRootDir } from "@fi/content";
 
-import { createRegExpDirective } from "../remarkRegExpDirective";
-import { MusicPostSchema } from "../../schemas";
 import { MusicPostMetadata } from "../../constants";
+import { MusicPostSchema } from "../../schemas";
+import { createRegExpDirective } from "../remarkRegExpDirective";
 
 const metadata: { entries: MusicPostSchema[] | null } = { entries: null };
 
@@ -232,12 +229,18 @@ const LyricQuote = (props: {
 			<div class="not-prose">
 				<div class="lyrics">
 					<blockquote>
-						${quote.map((line, lineIndex, lines) => `${line[0].toUpperCase() + line.slice(1)}${lineIndex !== lines.length - 1 ? "<br/>" : ""}`).join("")}
+						${
+		quote.map((line, lineIndex, lines) =>
+			`${line[0].toUpperCase() + line.slice(1)}${lineIndex !== lines.length - 1 ? "<br/>" : ""}`
+		).join("")
+	}
 					</blockquote>
 					<div class="flex flex-col">
 						<hr class="border-t border-slate-200 mt-2 mb-1.5"/>
 						<span>
-							From ${id ? TrackDirective.getHTML({ id, text, modifiers: "album" }) : text}${artist ? ` by ${artist}` : ""}
+							From ${id ? TrackDirective.getHTML({ id, text, modifiers: "album" }) : text}${
+		artist ? ` by ${artist}` : ""
+	}
 						</span>
 						${remark ? `<span class="text-sm font-light mt-2 ml-2">${remark}</span>` : ""}
 					</div>

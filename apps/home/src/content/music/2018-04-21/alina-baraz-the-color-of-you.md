@@ -70,4 +70,3 @@ its mellow aspects and this is greatly reinforced by the great production on eac
 may not like every song on the album but they're are some stand outs on this one. Its a
 really nice listen and I would recommend it to anyone who wants to chill out and relax,
 or focus on revision for impending exams like I have.
-

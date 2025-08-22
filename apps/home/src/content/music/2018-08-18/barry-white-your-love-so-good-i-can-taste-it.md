@@ -27,6 +27,7 @@ genres:
 type: TRACK
 date: '2018-08-18T00:00:00.000Z'
 ---
+
 It is about time that I get one of my favorite artists of all time on here. I love me some
 Barry White, and in my travels lately I have found myself on the London underground trying
 to past the time from place to place. This is 12 minutes of Barry at his best (And I think
@@ -41,4 +42,3 @@ comes in. The instrumentation picks up and barry, tells whatever woman he wrote 
 how he feels. It is pretty much two songs in one, and it is a masterpiece in my mind. And
 I only discovered this song a year ago. It has quickly became one my favorites. Love this
 song, give it a listen.
-

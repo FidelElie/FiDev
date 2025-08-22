@@ -87,6 +87,7 @@ tracks:
     favourite: false
 date: '2019-06-08T00:00:00.000Z'
 ---
+
 I wanted to like this album, funnily enough initially I didn't even like the previous album
 :album[6wjryxtrKxzTZID9kyZUV5][Yesterday's Gone] but I grew to absolutely love it. With me
 approaching multiple listens of this album however I have got say, I am disappointed. Not

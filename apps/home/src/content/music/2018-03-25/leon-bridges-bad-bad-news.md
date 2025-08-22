@@ -29,6 +29,7 @@ genres:
 type: TRACK
 date: '2018-03-25T00:00:00.000Z'
 ---
+
 Bad Bad News is the song that I've been bumping the most, out of the two and it is for the
 good reason. The vocals do take up the centerpiece in this track but what the horns bring
 to the overall instrumentation is something special. The solo that leads to the finish,
@@ -36,6 +37,6 @@ the chorus just lead to a more up tempo song that I really like to listen to. I 
 really like the feel good subject matter:
 
 :lyrics[
-  I don’t worry, don’t worry, don’t worry about people in my face
-  I hit ‘em with the style and grace, and watch their ankles break
+I don’t worry, don’t worry, don’t worry about people in my face
+I hit ‘em with the style and grace, and watch their ankles break
 ][Bad Bad News]

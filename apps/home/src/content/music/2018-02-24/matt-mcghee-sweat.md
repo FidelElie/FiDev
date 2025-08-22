@@ -28,6 +28,7 @@ genres:
 type: TRACK
 date: '2018-02-24T00:00:00.000Z'
 ---
+
 Mentioned in an earlier week, I've been listening to more of Matt and thought I would give this
 song a mention. It is party-esque with its up beat tempo and funky feel has some serious
 GoldLink vibes to it. He rides the beat as well as GoldLink does in this song as well.

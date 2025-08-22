@@ -29,6 +29,7 @@ genres:
 type: TRACK
 date: '2018-04-15T00:00:00.000Z'
 ---
+
 This song has been making waves lately with everyone I have seen on social media or spoken
 to in person. And I can see why, it is probably the best Drake song I have heard in a long
 time. The beat is out of his world with the Lauryn Hill sample and a sound that reminds me

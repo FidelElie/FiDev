@@ -3,11 +3,10 @@ export const distributeInRandomOrder = <T>(array: T[], number?: number) => {
 
 	const copiedSnapshot = Array.from(array);
 
-	const distributedArray = new Array(distributionLength)
+	const distributedArray = Array.from({ length: distributionLength })
 		.fill(null)
 		.map(() => {
-			const normalisedSeed =
-				Math.ceil(Math.random() * copiedSnapshot.length) - 1;
+			const normalisedSeed = Math.ceil(Math.random() * copiedSnapshot.length) - 1;
 
 			const chosenEntry = copiedSnapshot.at(normalisedSeed);
 

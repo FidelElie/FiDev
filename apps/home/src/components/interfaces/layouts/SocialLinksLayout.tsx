@@ -2,7 +2,7 @@ import { twMerge } from "tailwind-merge";
 
 import { AppManifest } from "@/configs";
 
-import { Link, Icon } from "@/components/core";
+import { Icon, Link } from "@/components/core";
 
 export const SocialLinksLayout = (props: SocialLinksLayoutProps) => {
 	return (

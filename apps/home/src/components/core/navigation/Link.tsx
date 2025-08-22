@@ -1,6 +1,6 @@
+import type { VariantProps } from "class-variance-authority";
 import type { JSX } from "solid-js";
 import { twMerge } from "tailwind-merge";
-import type { VariantProps } from "class-variance-authority";
 
 import { ButtonConfig } from "@/components/core/inputs/Button.config";
 import { LinkConfig } from "@/components/core/navigation/Link.config";
@@ -27,13 +27,12 @@ const BaseLink = (props: LinkProps) => {
 };
 
 export const Link = Object.assign(BaseLink, {
-	Button: (props: Omit<LinkProps, "nature">) => (
-		<BaseLink {...props} nature="button" />
-	),
+	Button: (props: Omit<LinkProps, "nature">) => <BaseLink {...props} nature="button" />,
 });
 
-export type LinkProps = JSX.AnchorHTMLAttributes<HTMLAnchorElement> &
-	(
+export type LinkProps =
+	& JSX.AnchorHTMLAttributes<HTMLAnchorElement>
+	& (
 		| ({ nature?: "button" } & VariantProps<typeof ButtonConfig>)
 		| ({ nature?: "link" } & VariantProps<typeof LinkConfig>)
 	);

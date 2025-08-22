@@ -1,10 +1,10 @@
 import path from "node:path";
 
-import trash from "trash";
 import { confirm, select } from "@inquirer/prompts";
+import trash from "trash";
 
 import { ContentConfig } from "../types";
-import { getPostsPathsFromRootDir, ensureDirExists } from "../utilities";
+import { ensureDirExists, getPostsPathsFromRootDir } from "../utilities";
 
 export const deleteContentCommand = async (context: {
 	config: ContentConfig;

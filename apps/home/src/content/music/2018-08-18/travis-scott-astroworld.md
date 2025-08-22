@@ -95,6 +95,7 @@ tracks:
     favourite: false
 date: '2018-08-18T00:00:00.000Z'
 ---
+
 After postponing the writing of this entry for a week to try and get a better feel for this
 album. It seems like nothing has really changed with it. I still have no idea what I truly
 like or dislike about Travis' newest. Like a lot of the songs I hear in passing aren't good
@@ -110,7 +111,7 @@ I am determined to actually solidify my opinion on it, even if it takes the rest
 to do it. So for now give it a listen and make your own mind up.
 
 :future-comment[
-  I finally managed to solidify my opinion after years of listening to the albums' songs
-  and yes this hit much harder than I gave it credit for back then. No wonder people
-  would look at me weird at socials when I would mention I thought it was mediocre.
+I finally managed to solidify my opinion after years of listening to the albums' songs
+and yes this hit much harder than I gave it credit for back then. No wonder people
+would look at me weird at socials when I would mention I thought it was mediocre.
 ][2024-12-01]

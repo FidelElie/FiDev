@@ -25,17 +25,18 @@ genres:
 type: TRACK
 date: '2018-02-24T00:00:00.000Z'
 ---
+
 Dre put me on to this and it has been on straight repeat for me. Where do I start with this
 well the first part has an amazing beat, sampled from a song that is familiar but I can't
 put my finger on, so if you recognize it let me know. This is the first song I've heard
 Kojey Radical's bars and I've got to say he goes in:
 
 :lyrics[
-  Can I speak to god, will god ever speak back?
-  She might be busy, me too
-  I'll just have to face the facts
-  If the crown fits wear it
-  When they're ready they'll take it back
+Can I speak to god, will god ever speak back?
+She might be busy, me too
+I'll just have to face the facts
+If the crown fits wear it
+When they're ready they'll take it back
 ][Mad About Bars with Kojey Radical]
 
 This is the first 20 seconds of the song and the flow switch in the middle of the first part
@@ -48,8 +49,8 @@ would mention that as well. As a result I dropped the YouTube video for this one
 too, so swipe to listen, I love it and I hope you do too.
 
 :lyrics[
-  Silly me, thinking I can change the world in a heartbeat
-  poem after poem, hoping they would let my art speak
+Silly me, thinking I can change the world in a heartbeat
+poem after poem, hoping they would let my art speak
 ][Mad About Bars With Kojey Radical]
 
 :youtube[m1Gg-EKa9wU]

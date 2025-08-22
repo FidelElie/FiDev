@@ -1,8 +1,8 @@
-import path from "node:path";
 import fs from "node:fs/promises";
+import path from "node:path";
 
-import matter from "gray-matter";
 import { select } from "@inquirer/prompts";
+import matter from "gray-matter";
 
 import { onCreatePrompt } from "../prompts";
 import type { ContentConfig } from "../types";
@@ -71,9 +71,9 @@ export const createContentCommand = async (context: {
 
 			await ensureDirExists(path.dirname(writePath));
 
-			const validatedMetadata = entry.validator
-				? await entry.validator(metadata)
-				: metadata;
+			const validatedMetadata = entry.validator ?
+				await entry.validator(metadata) :
+				metadata;
 
 			const frontmatter = matter.stringify("", validatedMetadata);
 
@@ -87,15 +87,11 @@ export const createContentCommand = async (context: {
 	);
 
 	const entryCreationHooks = (entry.hooks || [])
-		.map((hook) =>
-			hook.events.includes("create") ? hook.onEvent(entriesWithPaths) : [],
-		)
+		.map((hook) => hook.events.includes("create") ? hook.onEvent(entriesWithPaths) : [])
 		.flat();
 
 	const globalCreationHooks = (hooks || [])
-		.map((hook) =>
-			hook.events.includes("create") ? hook.onEvent(entriesWithPaths) : [],
-		)
+		.map((hook) => hook.events.includes("create") ? hook.onEvent(entriesWithPaths) : [])
 		.flat();
 
 	if (entryCreationHooks.length) {

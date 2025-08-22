@@ -1,4 +1,4 @@
-import type { ArrayOrNot, PromiseOrNot } from "@fi.dev/typescript";
+import type { ArrayOrNot, PromiseOrNot } from "@fi/typescript";
 
 export type ContentConfig = {
 	/**
@@ -13,9 +13,7 @@ export type ContentConfig = {
 	 * Register post entry flows
 	 */
 	entries: ContentPostEntry<any>[];
-	/**
-	 *
-	 */
+	/** */
 	hooks?: ContentHook[];
 	/**
 	 * Define which markdown type you want to output to
@@ -40,9 +38,7 @@ export type ContentPostEntry<T> = {
 	 * Define extra path segments when creating new posts
 	 */
 	path?: string | (() => PromiseOrNot<string>);
-	/**
-	 *
-	 */
+	/** */
 	hooks?: ContentHook[];
 	/**
 	 * Optional validator for post information

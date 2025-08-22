@@ -26,6 +26,7 @@ genres:
 type: TRACK
 date: '2018-02-08T00:00:00.000Z'
 ---
+
 Was making cheesecake (so a normal Monday night) at a friend's house and he put this on.
 I was like "What is this fire?", he told me and then I asked him to message me with the name
 so I don't forget. "He was like yeah yeah cool will do", then subsequently didn't (shoutouts
@@ -34,14 +35,14 @@ just to get a bit gassed on Nasty C's flow switch up and the beat hits too hard.
 earned it's place on the gassed playlist.
 
 :lyrics[
-  I was buzzing, I was starving
-  Rap was calling, I responded
-  I was certain, I had purpose
-  I was nervous
-  I was scared, but the city that I left
-  Said I had to represent
+I was buzzing, I was starving
+Rap was calling, I responded
+I was certain, I had purpose
+I was nervous
+I was scared, but the city that I left
+Said I had to represent
 ][
-  031:32csxswCFXU9QQ4kUtBO43
+031:32csxswCFXU9QQ4kUtBO43
 ][
-  The beat switch with this on th tale end of the 2nd verse is Chef's Kiss
+The beat switch with this on th tale end of the 2nd verse is Chef's Kiss
 ]

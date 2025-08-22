@@ -108,6 +108,7 @@ tracks:
     favourite: false
 date: '2018-08-18T00:00:00.000Z'
 ---
+
 This is another recommendation from my podcast co-host Jesse and it is a conceptual album
 to contend with. The album is all about self-reflection and human nature, it is uplifting
 in some places and down-right thought provoking in others. And this would be before you
@@ -123,4 +124,3 @@ I think what draws me to the music the most is the production. Just listen to th
 with a classical sample on :track[0BvwSWaY6z31vyXOCh2zIb][Selfish] you will see what I am
 saying. The album screams creativity to me, and that is what I like about it the most.
 This is some great work.
-

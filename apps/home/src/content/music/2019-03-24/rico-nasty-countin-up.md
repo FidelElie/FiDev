@@ -26,6 +26,7 @@ genres:
 type: TRACK
 date: '2019-03-24T00:00:00.000Z'
 ---
+
 This was another artist that I found myself listening to from the
 [Color's Show YouTube Channel](https://www.youtube.com/@COLORSxSTUDIOS) and after getting
 past the crazy make up, this girl knows how to spit. I have to agree with Carlos and say

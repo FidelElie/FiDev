@@ -1,8 +1,8 @@
 ---
-import { render, type CollectionEntry } from "astro:content";
+import { type CollectionEntry, render } from "astro:content";
 import { twMerge } from "tailwind-merge";
 
-import { getEnvironmentVariable } from "@fi.dev/typescript";
+import { getEnvironmentVariable } from "@fi/typescript";
 
 import { compileOutputWithPlugins } from "@/libraries/plugins";
 import type { CollectionKey } from "astro:content";
@@ -31,40 +31,30 @@ const output = await (async () => {
 })();
 ---
 <article
-	class={
-		twMerge(
-			"prose max-w-full",
-			"prose-headings:font-heading",
-			"prose-h2:text-2xl md:prose-h2:text-3xl prose-h2:font-normal",
-			"prose-h3:font-light prose-h3:text-blue-500",
-			"prose-a:decoration-blue-500 prose-a:underline-offset-2",
-			_class
-		)
-	}
+	class={twMerge(
+		"prose max-w-full",
+		"prose-headings:font-heading",
+		"prose-h2:text-2xl md:prose-h2:text-3xl prose-h2:font-normal",
+		"prose-h3:font-light prose-h3:text-blue-500",
+		"prose-a:decoration-blue-500 prose-a:underline-offset-2",
+		_class,
+	)}
 >
-	{
-		typeof output === "string" ? (
-			<Fragment set:html={output}/>
-		) : (
-			<output.Content/>
-		)
-	}
+	{typeof output === "string" ? <Fragment set:html={output} /> : <output.Content />}
 </article>
 
 <script>
-	document.addEventListener("astro:page-load", () => {
-		const articleLinks = document.querySelectorAll("article a");
+document.addEventListener("astro:page-load", () => {
+	const articleLinks = document.querySelectorAll("article a");
 
-		for (const link of articleLinks) {
-			const linkHref = link.getAttribute("href") || "";
-			// Skip any directive based links
-			if (!linkHref.includes("https://") && !linkHref.includes("http://")) {
-				continue;
-			}
-
-			link.setAttribute("target", "_blank");
+	for (const link of articleLinks) {
+		const linkHref = link.getAttribute("href") || "";
+		// Skip any directive based links
+		if (!linkHref.includes("https://") && !linkHref.includes("http://")) {
+			continue;
 		}
-	});
+
+		link.setAttribute("target", "_blank");
+	}
+});
 </script>
-
-

@@ -25,6 +25,7 @@ genres:
 type: TRACK
 date: '2018-08-12T00:00:00.000Z'
 ---
+
 Story time incoming, so I was watching a YouTube video on the game Rainbow Six Siege.
 I say watching it, I had it in the background while I was doing other things. And for those
 who have never watched a video related to this game. If you are not watching the professionals
@@ -41,4 +42,3 @@ how the artist used it doesn't take away from this centerpiece. It is electronic
 I have no problem with that as long as it brings more to the table than, over produced synths
 and crazy amounts of sub bass. So what else can I say? I like the song, if someone can let me
 know where the sample comes from it would be much appreciated.
-

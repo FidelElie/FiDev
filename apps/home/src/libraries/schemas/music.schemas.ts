@@ -1,8 +1,7 @@
 import { z } from "zod";
 
-import { getConstKeys } from "@fi.dev/typescript";
+import { getConstKeys } from "@fi/typescript";
 
-import { InsertPostSchema } from "./database.schemas";
 import { MusicPostMetadata } from "../constants";
 
 const MusicAlbumTrackSchema = z.object({
@@ -53,14 +52,6 @@ export const BaseMusicPostSchema = z.object({
 	genres: z.array(z.string()),
 });
 
-const BaseDatabaseMusicPostSchema = InsertPostSchema.pick({
-	publishedAt: true,
-	updatedAt: true,
-	liked: true,
-	ratings: true,
-	views: true,
-});
-
 export const MusicPostSchema = z.union([
 	BaseMusicPostSchema.merge(
 		z.object({
@@ -74,17 +65,3 @@ export const MusicPostSchema = z.union([
 ]);
 
 export type MusicPostSchema = z.infer<typeof MusicPostSchema>;
-
-export const DatabaseMusicPostSchema = z.union([
-	BaseMusicPostSchema.merge(
-		z.object({
-			type: z.literal(MusicPostMetadata.types.ALBUM),
-			tracks: z.array(MusicAlbumTrackSchema),
-		}),
-	).merge(BaseDatabaseMusicPostSchema),
-	BaseMusicPostSchema.merge(
-		z.object({ type: z.literal(MusicPostMetadata.types.TRACK) }),
-	).merge(BaseDatabaseMusicPostSchema),
-]);
-
-export type DatabaseMusicPostSchema = z.infer<typeof DatabaseMusicPostSchema>;

@@ -31,6 +31,7 @@ genres:
 type: TRACK
 date: '2018-03-04T00:00:00.000Z'
 ---
+
 I don’t see what it is with me when it comes to Logic these days. But it just seems like
 I am in another world compared to his fans, which I considered myself to be a part of until
 :album[1HiN2YXZcc3EjmVZ4WjfBk][Everybody] released last year. Now it seems everything that

@@ -60,16 +60,17 @@ tracks:
     favourite: false
 date: '2018-07-01T00:00:00.000Z'
 ---
+
 Kanye and his attention seeking makes a lot more sense to me now with all the work he has been
 putting in. Production on Pusha T's album :album[07bIdDDe3I3hhWpxU6tuBp][Daytona],
 Teyana Taylor's :album[0mwf6u9KVhZDCNVyIi6JuU][K.T.S.E] and working on his own he has been
 putting out a lot of stuff over the past month and a bit. And now he releases Kids See Ghosts
 teaming up with Kid Cudi, who I am happy to see return. And although I couldn't even sit down
 and listen to his last album :album[5bCk3kWAy2JbbTfHqzZCII][Passion, Pain and demon slaying]
-I am happy with what I have heard  on this album. His flows and talk are more reminiscent of the
-legendary :album[08eM9GRdr5BCCHNqS3Wwud][Man on The Moon II],  but that is definitely not a
-bad thing. All of the songs on this 7 song EP (it should be an EP,  it is just below 25 minutes,
-oh I love how vague Kanye makes things), sound pretty good.  No terrible sins were made,
+I am happy with what I have heard on this album. His flows and talk are more reminiscent of the
+legendary :album[08eM9GRdr5BCCHNqS3Wwud][Man on The Moon II], but that is definitely not a
+bad thing. All of the songs on this 7 song EP (it should be an EP, it is just below 25 minutes,
+oh I love how vague Kanye makes things), sound pretty good. No terrible sins were made,
 there wasn't anything that made me think "What the hell am I listening to?".
 
 But this doesn't mean this is the second coming either, the songs are good but I didn't think

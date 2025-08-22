@@ -90,6 +90,7 @@ tracks:
     favourite: false
 date: '2018-06-03T00:00:00.000Z'
 ---
+
 Okay so when the feel good king - as he shall now be named - releases a new project I am
 excited. In my opinion, KYLE brings a lot to the rap scene with his can do attitude, noteworthy
 flow and occasional vocals leading to a style which he can call his own. With this fact, I definitely expected
@@ -105,7 +106,6 @@ trying something new. I'm not upset with KYLE doing something different, I'm ups
 it just feels like a miss to me and that is a shame.
 
 :future-comment[
-  I actually like Yachty now so that comment does seem a bit harsh to me nowadays - REACH THE SUNSHINE
-  is all that was needed for redemption. It isn't rap but it sure is good.
+I actually like Yachty now so that comment does seem a bit harsh to me nowadays - REACH THE SUNSHINE
+is all that was needed for redemption. It isn't rap but it sure is good.
 ][2024-12-02]
-

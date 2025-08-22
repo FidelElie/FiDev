@@ -26,6 +26,7 @@ genres:
 type: TRACK
 date: '2018-08-18T00:00:00.000Z'
 ---
+
 This song spurred me to go back and listen Jungle's self titled album :album[2B1PHvqJTX9ELdUlENOJeQ][Jungle].
 And this song follows the same blueprint as their others song. With the same electronic aspects
 and the chill vocals. Which come to think of it, I find a bit weird, I don't think it is the

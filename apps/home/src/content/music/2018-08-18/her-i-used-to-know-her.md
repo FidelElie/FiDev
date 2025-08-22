@@ -103,6 +103,7 @@ tracks:
     favourite: false
 date: '2018-08-18T00:00:00.000Z'
 ---
+
 I didn't even know H.E.R was releasing anything in the past couple weeks. And I didn't think
 she was releasing anything like the first song on the project Lauryn Hill much? She broke
 it down and I was like "Holy shit this is so good", this shit is going to be
@@ -115,8 +116,6 @@ She has been doing bits for a while now and this project is no exception.
 I just want to see where can go with the flavor of the first song. That shit is too good. 
 
 :lyrics[
-  Confusing the celebrity with your integrity
-  You drinkin' Hennessy for your therapy - this is one for many
+Confusing the celebrity with your integrity
+You drinkin' Hennessy for your therapy - this is one for many
 ][Lost Souls feat D.J Scratch:1eoK3PDzSmdvj55FUhptJk]
-
-

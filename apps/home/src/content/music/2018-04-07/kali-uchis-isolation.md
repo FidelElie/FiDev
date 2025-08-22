@@ -86,6 +86,7 @@ tracks:
     favourite: false
 date: '2018-04-07T00:00:00.000Z'
 ---
+
 This was another surprise, I had no idea Kali was releasing anything this week, but I am
 not complaining. There is a lot of differences in this one from jazz to a little bit of
 blues - two genres which I absolutely love. And the Hispanic aspects, where she speaks and

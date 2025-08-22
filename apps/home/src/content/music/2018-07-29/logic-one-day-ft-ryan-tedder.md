@@ -31,6 +31,7 @@ genres:
 type: TRACK
 date: '2018-07-29T00:00:00.000Z'
 ---
+
 This song is a good positive song which reminds me of the older song As I Am which I do like.
 But this song ultimately falls from grace because nowadays I get triggered every time this
 guy mentions anything to do with race. Like I'm all for tackling issues, but now it

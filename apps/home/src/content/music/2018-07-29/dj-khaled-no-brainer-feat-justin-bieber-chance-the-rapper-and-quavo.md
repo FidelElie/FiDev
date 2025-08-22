@@ -37,6 +37,7 @@ genres:
 type: TRACK
 date: '2018-07-29T00:00:00.000Z'
 ---
+
 I didn't even know this was going to be released and honestly I did not care. The last song
 that this group put out was some generic summer trash, with a box standard beat, hook
 and raps. Which definitely hurts me to say it because I love Chance and Quavo. Unfortunately,
@@ -50,9 +51,9 @@ his best. Its being removed from my playlist, what a bummer, one of the most dis
 songs of the year.
 
 :video[
-  /videos/song-spotify-deletion.mp4
+/videos/song-spotify-deletion.mp4
 ][
-  loop,autoplay,lazy,full
+loop,autoplay,lazy,full
 ][
-  No way this was staying on my playlist
+No way this was staying on my playlist
 ]

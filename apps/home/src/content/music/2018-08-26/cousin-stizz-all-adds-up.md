@@ -39,6 +39,7 @@ tracks:
     favourite: true
 date: '2018-08-26T00:00:00.000Z'
 ---
+
 In what was another surprise for me, Cousin Stizz decided to release a three song project and....
 It is not really my cup of tea. This is not to say that it is inherently bad, I just think
 that it sounds like an expansion pack to his last album :album[6GdJPhGu12KSZ7KdgBfye1][One Night Only].

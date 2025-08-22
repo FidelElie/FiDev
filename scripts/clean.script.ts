@@ -1,8 +1,8 @@
 import fs from "fs";
 import path from "path";
 
-import { rimraf } from "rimraf";
 import { Command } from "commander";
+import { rimraf } from "rimraf";
 
 const DEFAULT_INCLUDES = {
 	node: ["node_modules"],
@@ -46,16 +46,16 @@ const determineFolderPaths = (
 	}
 
 	return [
-		all || build
-			? maps.build
-					?.map((reference) => findFolders(rootDir, reference))
-					.flat() || []
-			: [],
-		all || cache
-			? maps.caches
-					?.map((reference) => findFolders(rootDir, reference))
-					.flat() || []
-			: [],
+		all || build ?
+			maps.build
+				?.map((reference) => findFolders(rootDir, reference))
+				.flat() || [] :
+			[],
+		all || cache ?
+			maps.caches
+				?.map((reference) => findFolders(rootDir, reference))
+				.flat() || [] :
+			[],
 		all || node ? findFolders(rootDir, "node_modules") : [],
 	].flat();
 };
@@ -73,12 +73,12 @@ const findFolders = (dirPath: string, identifier: string): string[] => {
 			content !== "node_modules",
 	);
 
-	const modulesPath = contents.includes(identifier)
-		? [path.join(dirPath, identifier)]
-		: [];
+	const modulesPath = contents.includes(identifier) ?
+		[path.join(dirPath, identifier)] :
+		[];
 
 	const nodeModulesInSubDirectories = directories.map((dirName) =>
-		findFolders(path.join(dirPath, dirName), identifier),
+		findFolders(path.join(dirPath, dirName), identifier)
 	);
 
 	return [modulesPath, ...nodeModulesInSubDirectories].flat();
@@ -100,7 +100,7 @@ program
 program.parse();
 
 const options = program.opts() satisfies ProgramConfig;
-const rootDir = path.resolve(path.resolve(__dirname, "../.."));
+const rootDir = path.resolve(__dirname, "../");
 
 parseProgram(options, rootDir);
 

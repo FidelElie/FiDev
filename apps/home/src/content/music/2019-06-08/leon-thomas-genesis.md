@@ -54,6 +54,7 @@ tracks:
     favourite: false
 date: '2019-06-08T00:00:00.000Z'
 ---
+
 Over the years of using Spotify, I have found that a very efficient way to find someone you
 like is to go a artist you currently like and have a look at the related artists. You usually
 find yourself looking at the artists and thinking what music do they make. But in the case of

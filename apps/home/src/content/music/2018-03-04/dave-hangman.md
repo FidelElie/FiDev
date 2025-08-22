@@ -25,14 +25,15 @@ genres:
 type: TRACK
 date: '2018-03-04T00:00:00.000Z'
 ---
+
 <q>It’s Santan<q>. It definitely is. I really like Dave’s vibes in his raps, the piano that is
 the centre piece to this song’s beat just fits so well with his bars.
 
 :lyrics[
-  When we were young, we had dreams of being bosses
-  Ballers, doctors, lawyers in an office
-  So how did that turn into dropping out of college
-  Snaps in a prison cell, bodies in a coffin
+When we were young, we had dreams of being bosses
+Ballers, doctors, lawyers in an office
+So how did that turn into dropping out of college
+Snaps in a prison cell, bodies in a coffin
 ][Hangman]
 
 The song is a biography of his experiences and the lessons he has learned. These are themes

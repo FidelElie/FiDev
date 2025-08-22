@@ -78,17 +78,18 @@ tracks:
     favourite: true
 date: '2019-03-17T00:00:00.000Z'
 ---
+
 The man is from down the road from me in London, so I guess I had to like this album through
 fear of getting shanked. All jokes aside this album left me with mixed feelings. On the one
 hand, I like Fredo rapping, a good amount of the bars are not about killing people either.
 But some of the others left me feeling kind of dirty. For example:
 
 :lyrics[
-  The first time I poked someone up,
-  I can't lie he was a neeky yute
-  But he was so I felt like I just needed to
+The first time I poked someone up,
+I can't lie he was a neeky yute
+But he was so I felt like I just needed to
 ][
-  Third Avenue:2hij6lekO6SLK1vYvfYBBq
+Third Avenue:2hij6lekO6SLK1vYvfYBBq
 ]
 
 It's lyrics like this just have me thinking "Damn this guy sounds a bit like a Chicago drill

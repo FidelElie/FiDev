@@ -2,7 +2,7 @@ import { Show } from "solid-js";
 
 import type { MusicPostSchema } from "@/libraries/schemas";
 
-import { Icon, Link, Popover, type IconProps } from "@/components/core";
+import { Icon, type IconProps, Link, Popover } from "@/components/core";
 import { AppManifest } from "@/configs";
 
 export const MusicLinksPane = (props: MusicLinksPaneProps) => {
@@ -10,14 +10,14 @@ export const MusicLinksPane = (props: MusicLinksPaneProps) => {
 
 	const generateSpotifyLinks = () => {
 		return {
-			...(firstArtist
-				? {
-						artistLink: AppManifest.links.external["spotify:directive"](
-							"artist",
-							firstArtist.spotifyId,
-						),
-					}
-				: {}),
+			...(firstArtist ?
+				{
+					artistLink: AppManifest.links.external["spotify:directive"](
+						"artist",
+						firstArtist.spotifyId,
+					),
+				} :
+				{}),
 			musicLink: AppManifest.links.external["spotify:directive"](
 				props.post.type === "ALBUM" ? "album" : "track",
 				props.post.spotifyId,
@@ -27,13 +27,13 @@ export const MusicLinksPane = (props: MusicLinksPaneProps) => {
 
 	const generateAppleLinks = () => {
 		return {
-			...(firstArtist
-				? {
-						artistLink: AppManifest.links.external["apple-music:search"](
-							firstArtist.name,
-						),
-					}
-				: {}),
+			...(firstArtist ?
+				{
+					artistLink: AppManifest.links.external["apple-music:search"](
+						firstArtist.name,
+					),
+				} :
+				{}),
 			musicLink: AppManifest.links.external["apple-music:search"](
 				`${firstArtist.name || ""} - ${props.post.name}`.trim(),
 			),
@@ -42,13 +42,13 @@ export const MusicLinksPane = (props: MusicLinksPaneProps) => {
 
 	const generateSoundCloudLinks = () => {
 		return {
-			...(firstArtist
-				? {
-						artistLink: AppManifest.links.external["soundcloud:search"](
-							firstArtist.name,
-						),
-					}
-				: {}),
+			...(firstArtist ?
+				{
+					artistLink: AppManifest.links.external["soundcloud:search"](
+						firstArtist.name,
+					),
+				} :
+				{}),
 			musicLink: AppManifest.links.external["soundcloud:search"](
 				`${firstArtist.name || ""} - ${props.post.name}`.trim(),
 			),

@@ -32,6 +32,7 @@ genres:
 type: TRACK
 date: '2018-07-01T00:00:00.000Z'
 ---
+
 This is one of my girlfriends favorite Frank Ocean songs. And the multiple times she has
 showed me it, I can see why. The piano throughout song, Jay's contribution to it and of course
 Frank leads to a well put together song.

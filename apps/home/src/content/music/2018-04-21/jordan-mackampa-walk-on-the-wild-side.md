@@ -29,6 +29,7 @@ genres:
 type: TRACK
 date: '2018-04-21T00:00:00.000Z'
 ---
+
 I really like the folk that Jordan brings to the table. He has a very good discography so
 far with his :album[0bXMgEiBAo5mWBHfPYFisL][Physics EP] and Tales From The Broken. So usually
 when I see he has released a new single I usually save as I there is a high chance, that I will
@@ -39,10 +40,10 @@ the same feelings that some of his other tracks have in the past. For example, h
 The lyrics being a chant:
 
 :lyrics[
-  I won't stay silent
-  Even without air in my lungs
+I won't stay silent
+Even without air in my lungs
 ][
-  Battlecry - Tales from the Broken:2bSpTqSadpN6L96ASiURUb
+Battlecry - Tales from the Broken:2bSpTqSadpN6L96ASiURUb
 ]
 
 Said by only him initially but as the crowd starts to form and move to their destination,
@@ -54,8 +55,8 @@ to me. I'm going to stick with the rest of his amazing library and I'm waiting t
 album from him.
 
 :lyrics[
-  Can you hear the people marching louder than the drums?
-  Can you hear the people coming louder than the drums?
+Can you hear the people marching louder than the drums?
+Can you hear the people coming louder than the drums?
 ][
-  Battlecry - Tales From The Broken:2bSpTqSadpN6L96ASiURUb
+Battlecry - Tales From The Broken:2bSpTqSadpN6L96ASiURUb
 ]

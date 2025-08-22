@@ -1,6 +1,6 @@
+import type { VariantProps } from "class-variance-authority";
 import type { JSX } from "solid-js";
 import { twMerge } from "tailwind-merge";
-import type { VariantProps } from "class-variance-authority";
 
 import { ButtonConfig } from "@/components/core/inputs/Button.config";
 import { LinkConfig } from "@/components/core/navigation/Link.config";
@@ -27,13 +27,12 @@ const BaseButton = (props: ButtonProps) => {
 };
 
 export const Button = Object.assign(BaseButton, {
-	Link: (props: Omit<ButtonProps, "nature">) => (
-		<BaseButton {...props} nature="link" />
-	),
+	Link: (props: Omit<ButtonProps, "nature">) => <BaseButton {...props} nature="link" />,
 });
 
-export type ButtonProps = JSX.ButtonHTMLAttributes<HTMLButtonElement> &
-	(
+export type ButtonProps =
+	& JSX.ButtonHTMLAttributes<HTMLButtonElement>
+	& (
 		| ({ nature?: "button" } & VariantProps<typeof ButtonConfig>)
 		| ({ nature?: "link" } & VariantProps<typeof LinkConfig>)
 	);

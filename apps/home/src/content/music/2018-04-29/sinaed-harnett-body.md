@@ -27,6 +27,7 @@ genres:
 type: TRACK
 date: '2018-04-29T00:00:00.000Z'
 ---
+
 I have really liked Miss Harnett's sound since I heard her EP :album[4TcirnRZOY0oooMo7NSN9I][N.O.W]
 in 2014 and this has continued with her self titled :album[1Y3RckqVHCHZRQEF2J5S3f][EP] in 2016.
 Regrettably I have to admit I haven't fully got around to listening to her latest Project Chapter

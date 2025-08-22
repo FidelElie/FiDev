@@ -18,7 +18,7 @@ const [initialArtists, genres] = await Promise.all([
 			title="Artists"
 			subtitle="Search for music through the people behind the projects"
 		/>
-		<MusicSearchOptions options={["posts", "genres"]}/>
+		<MusicSearchOptions options={["posts", "genres"]} />
 		<div class="flex flex-grow astro:flex-grow astro:block">
 			<MusicArtistsView
 				initial={[initialArtists]}

@@ -55,6 +55,7 @@ tracks:
     favourite: false
 date: '2019-06-16T00:00:00.000Z'
 ---
+
 I was hopeful when Carlos said to me the Col3trane's newest EP was fire. My liking his music
 had stopped since hearing the song :track[75w3hkYlT7dH1IWXMqBdq9][Penelope] on colours.
 Unfortunately, this hasn't really changed for me after listening to this. I honestly find it
@@ -70,4 +71,3 @@ lot of great R&B these past couple weeks, with jazz influences, old and new alik
 could say I was just looking for something different because of this when listening to
 Col3trane. The only problem is after listening to this, I'm not sure if I would ever be
 looking for this... Pretty disappointing if you ask me.
-

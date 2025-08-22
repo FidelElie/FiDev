@@ -1,8 +1,8 @@
-import { visit } from "unist-util-visit";
+import type { Element, Root } from "hast";
 import { fromHtml } from "hast-util-from-html";
-import type { Root, Element } from "hast";
+import { visit } from "unist-util-visit";
 
-import { toRegexCompliantString, type PromiseOrNot } from "@fi.dev/typescript";
+import { type PromiseOrNot, toRegexCompliantString } from "@fi/typescript";
 
 type RegExpDirective<T> = {
 	identifier: RegExp | string;
@@ -11,7 +11,6 @@ type RegExpDirective<T> = {
 };
 
 /**
- *
  * @param htmlString
  * @returns
  */
@@ -35,7 +34,6 @@ export const createRegExpDirective = <T,>(directive: RegExpDirective<T>) => {
 };
 
 /**
- *
  * @param directives
  * @returns
  */
@@ -47,8 +45,7 @@ export const remarkRegExpDirective = (
 
 		return {
 			...directive,
-			identifier:
-				typeof identifier === "string" ? new RegExp(identifier) : identifier,
+			identifier: typeof identifier === "string" ? new RegExp(identifier) : identifier,
 		};
 	});
 
@@ -57,7 +54,7 @@ export const remarkRegExpDirective = (
 
 		const textNodes: Element[] = [];
 
-		visit(tree, "element", function (node) {
+		visit(tree, "element", function(node) {
 			if (node.tagName === "p") {
 				textNodes.push(node);
 			}
@@ -116,9 +113,7 @@ export const remarkRegExpDirective = (
 
 						const uniqueIdentifiers = Array.from(
 							new Set(
-								flattenedMatches.map((match) =>
-									toRegexCompliantString(match.directive),
-								),
+								flattenedMatches.map((match) => toRegexCompliantString(match.directive)),
 							),
 						);
 

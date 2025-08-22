@@ -31,6 +31,7 @@ genres:
 type: TRACK
 date: '2018-03-04T00:00:00.000Z'
 ---
+
 Okay let me start this off by saying that I generally dislike spoken word to music. So, when
 I hear a guy called George the poet on Spotify - I am reluctant to say the least - but I gave
 this song a listen because of my man Maverick and Jorja and I was happy with it. It doesn’t

@@ -28,6 +28,7 @@ genres:
 type: TRACK
 date: '2018-02-24T00:00:00.000Z'
 ---
+
 I am all for giving artists a second chance when they fuck up, and especially for Logic an
 artist I hold dear I might be even more lenient. So when I saw the biracial boy (sorry
 can't help it sometimes) released a new song. I was urged myself to give it a listen. It

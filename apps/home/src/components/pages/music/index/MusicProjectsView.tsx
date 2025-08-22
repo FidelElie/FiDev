@@ -1,18 +1,15 @@
-import { createSignal, For, Match, Show, Switch } from "solid-js";
-import { createInfiniteQuery } from "@tanstack/solid-query";
 import { createIntersectionObserver } from "@solid-primitives/intersection-observer";
+import { createInfiniteQuery } from "@tanstack/solid-query";
+import { createSignal, For, Match, Show, Switch } from "solid-js";
 
+import { FetchMusicPostsRoute } from "@/libraries/api";
 import { request } from "@/libraries/clients";
 import { useQueryParams } from "@/libraries/hooks";
-import { queryParams } from "@/libraries/utilities";
-import { FetchMusicPostsRoute } from "@/libraries/api";
 import type { InferDTOS } from "@/libraries/types";
+import { queryParams } from "@/libraries/utilities";
 
 import { Button, Grid, Icon } from "@/components/core";
-import {
-	MusicPostStickyPane,
-	MusicProjectEntry,
-} from "@/components/interfaces";
+import { MusicPostStickyPane, MusicProjectEntry } from "@/components/interfaces";
 import { withQueryProvider } from "@/components/providers";
 
 type MusicPostsResponse = InferDTOS<typeof FetchMusicPostsRoute.responses>[200];
@@ -37,20 +34,20 @@ export const MusicProjectsView = withQueryProvider(
 			},
 			initialPageParam: query()?.page || 1,
 			getPreviousPageParam: (firstPage) => {
-				return firstPage.pagination.previous
-					? firstPage.pagination.page - 1
-					: undefined;
+				return firstPage.pagination.previous ?
+					firstPage.pagination.page - 1 :
+					undefined;
 			},
 			getNextPageParam: (lastPage) => {
-				return lastPage.pagination.next
-					? lastPage.pagination.page + 1
-					: undefined;
+				return lastPage.pagination.next ?
+					lastPage.pagination.page + 1 :
+					undefined;
 			},
 			initialData: {
 				pages: props.initial || [],
-				pageParams: query().page
-					? [query().page]
-					: props.initial?.map((page) => page.pagination.page) || [],
+				pageParams: query().page ?
+					[query().page] :
+					props.initial?.map((page) => page.pagination.page) || [],
 			},
 			stateTime: 1000,
 			enabled: queryInitialised(),
@@ -84,9 +81,7 @@ export const MusicProjectsView = withQueryProvider(
 			<div class="flex flex-col gap-2.5 flex-grow min-h-full">
 				<Show
 					when={!isLoading()}
-					fallback={
-						<div class="flex-shrink-0 h-11 bg-slate-200 rounded-lg animate-pulse" />
-					}
+					fallback={<div class="flex-shrink-0 h-11 bg-slate-200 rounded-lg animate-pulse" />}
 				>
 					<MusicPostStickyPane
 						genres={props.genres}
@@ -125,9 +120,7 @@ export const MusicProjectsView = withQueryProvider(
 											.map((page) => page.items)
 											.flat()}
 									>
-										{(post) => (
-											<MusicProjectEntry post={post} defer={isLoading()} />
-										)}
+										{(post) => <MusicProjectEntry post={post} defer={isLoading()} />}
 									</For>
 								</Grid>
 								<Show when={postsQuery.hasNextPage || !noPosts()}>
@@ -137,8 +130,7 @@ export const MusicProjectsView = withQueryProvider(
 											setTargets((currentTargets) => [
 												...currentTargets,
 												element,
-											])
-										}
+											])}
 									/>
 								</Show>
 								<Show when={postsQuery.isFetchingNextPage}>
@@ -152,9 +144,9 @@ export const MusicProjectsView = withQueryProvider(
 								</Show>
 								<Show when={!postsQuery.hasNextPage}>
 									<p class="font-heading text-2xl font-light mt-3">
-										{noPosts()
-											? "No posts found with your criteria"
-											: "You've reached the end - more to come soon"}
+										{noPosts() ?
+											"No posts found with your criteria" :
+											"You've reached the end - more to come soon"}
 									</p>
 								</Show>
 							</Match>

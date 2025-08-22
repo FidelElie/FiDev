@@ -1,4 +1,4 @@
-import { getEnvironmentVariable } from "@fi.dev/typescript";
+import { getEnvironmentVariable } from "@fi/typescript";
 import { z } from "zod";
 
 export const SpotifyEnvSchema = z.object({
