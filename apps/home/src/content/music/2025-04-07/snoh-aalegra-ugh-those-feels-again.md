@@ -83,32 +83,33 @@ tracks:
     favourite: true
 date: '2025-04-07T00:00:00.000Z'
 ---
+
 This album can be considered special for a few reasons. When I was resurrecting all the posts
-that were on the old website (learn more here). I found an empty note with this song posted
+that were on the old website (learn more [here](/about)). I found an empty note with this song posted
 and I knew for justice's sake I had to write about it. Justice? You ask... Well I have to
-because I think it would be a disservice not to - I think that this one of the best rnb albums
+because I think it would be a disservice not to - I think that this one of the best R'n'B albums
 out there.
 
-Firstly, the intro leading into I want you around is poetry, the message is beautiful and
+Firstly, the intro leading into :track[2gjidmxtA1pyj2HYrdOTG1][I want you around] is poetry, the message is beautiful and
 Snoh is just so good with these kind of songs that she makes it special and gives it the
-staying power.  This is also helped by backing singers doing more to selling it but not
+staying power. This is also helped by backing singers doing more to sell they mythos but not
 taking anything away from Snoh herself.
 
 :lyrics[
-  Lyrics for i want you around
-  I don't want to kiss you,
-  I just want to feel you, feel you
-  I want you around(around) x2
+I don't want to kiss you,
+I just want to feel you, feel you
+I want you around(around) x2
 ][
-  I Want You Around:2gjidmxtA1pyj2HYrdOTG1
+I Want You Around:2gjidmxtA1pyj2HYrdOTG1
 ]
 
 I can't stress how much I love this sequence and it does push this album up in my books.
 the rest of the album does follow with the theme, the progression of falling in love to our
 and then finding :track[6gX7Fko9QkLlzSAQT3PnDn][Peace] is so well done. The ending is great
-marrying samples from her older album aptly titled FEELS into the new.
+marrying samples from her older album aptly titled album :album[6ptDNtROqkFn0kNvtMIIHz][FEELS] into the new.
 
 The album just flows in theme, songs and message and that is why I hold it so dear. My
-favourite album from the songstress herself, if you want to or are currently in your feels
-this is a great album to listen to and if you just want to listen to some top tier RnB then
-you are in for a treat. Add this to your collection.
+favourite album from the songstress herself, if you want to or are currently in your feels. Maybe
+your in a :track[3cn94Lk8pmA6CN8K25dIdM][Situationship]? Lord knows they're more common now than ever.
+Or if you just want to listen to some top tier R'n'B? This has got you covered you are in for a
+treat.

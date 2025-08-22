@@ -75,6 +75,7 @@ tracks:
     favourite: false
 date: '2025-03-11T00:00:00.000Z'
 ---
+
 What can I say about this album? Was it among the best of what I heard last year? Yes, easily. Is
 it one of my favourite Kung Fu Kenny projects? Yes most definitely. Do I think that
 :track[0RgjEkSbeuStKfT2Pa4Zai][riencarnated] is one of the best tracks that I have ever heard
@@ -86,16 +87,16 @@ This album seemed to divide many, some didn't like it for various reasons not li
 with SZA on them (haters honestly SMH) or more justifiably realising that they don't like the West Coast sound. This was
 never a problem with me and even with time some of the songs that I thought were weaker on the
 album have grown to be some of my favourites. Listening to it now, I cannot believe that I wasn't
-really feeling :track[3aZptNYC6Z1YoumeqZcDcQ][gnx] on the first few listens. I cannot get
+really feeling :track[3aZptNYC6Z1YoumeqZcDcQ][gnx] on the initial sessions. I cannot get
 enough of it now, it is a standout of repping where your from and the community that Kendrick has
 been able to bring together - a massive achievement.
 
 :lyrics[
-  I was thirteen up at Avalon, poppin' chains
-  Fourteen, ridin' minibikes with some dead friends
-  Twenty-one, flag on my head like a Taliban
-  Twenty-five, feelin' like the box, it was full of sand
-  At the cemetery, fuck that, that's where I could've been
+I was thirteen up at Avalon, poppin' chains
+Fourteen, ridin' minibikes with some dead friends
+Twenty-one, flag on my head like a Taliban
+Twenty-five, feelin' like the box, it was full of sand
+At the cemetery, fuck that, that's where I could've been
 ][gnx:3aZptNYC6Z1YoumeqZcDcQ]
 
 This whole album is an ode to the West Coast; with the features from many local artists
@@ -104,14 +105,28 @@ Everything they say is grimey and it fits with the theme of the album with the l
 the dangers through gang life and otherwise:
 
 :lyrics[
-  Okay, this shit like forty, that's a dub, okay, let's add it up
-  Baby ass fat, can you do it? Can you back it up?
-  Kickflip a nigga, I got Tech Decks
-  And it ain't shit for me to call and get your chin checked
-  Tell 'em, "Dody did that"
-][hey now:5S8VwnB4sLi6W0lYTWYylu]
+Okay, this shit like forty, that's a dub, okay, let's add it up
+Baby ass fat, can you do it? Can you back it up?
+Kickflip a nigga, I got Tech Decks
+And it ain't shit for me to call and get your chin checked
+Tell 'em, "Dody did that"
+][
+hey now:5S8VwnB4sLi6W0lYTWYylu
+][
+I loved this whole verse from Dody 6 - especially after the beat switch
+]
 
 I wouldn't say it necessarily champions the darker sides of the life but it with how good
 everyone delivers with the vocals, bars and beats. You may find yourself looking to Crip walk
 and buy some blue.
 
+:lyrics[
+My present life is Kendrick Lamar
+A rapper looking at the lyrics to keep you in awe
+The only factor I respected was raisin' the bar
+My instincts sent material straight to the charts, huh
+][
+reincarnated:3aZptNYC6Z1YoumeqZcDcQ
+][
+The start of the third verse always manages to give me goosebumps what a theme!
+]
