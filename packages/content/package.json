@@ -10,7 +10,7 @@
 		"types": "tsc --noEmit"
 	},
 	"dependencies": {
-		"@fi/typescript": "workspace:*",
+		"@fi/common": "workspace:^",
 		"@inquirer/prompts": "^7.0.0",
 		"commander": "^12.1.0",
 		"gray-matter": "^4.0.3",

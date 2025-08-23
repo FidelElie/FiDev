@@ -1,11 +1,9 @@
 ---
 import { type CollectionEntry, render } from "astro:content";
+import type { CollectionKey } from "astro:content";
 import { twMerge } from "tailwind-merge";
 
-import { getEnvironmentVariable } from "@fi/typescript";
-
 import { compileOutputWithPlugins } from "@/libraries/plugins";
-import type { CollectionKey } from "astro:content";
 
 export interface Props {
 	entry: CollectionEntry<CollectionKey>;
@@ -14,7 +12,7 @@ export interface Props {
 
 const { class: _class, entry } = Astro.props;
 
-const isDevelopment = getEnvironmentVariable("NODE_ENV") === "development";
+const isDevelopment = import.meta.env.NODE_ENV === "development";
 
 const output = await (async () => {
 	if (isDevelopment) {

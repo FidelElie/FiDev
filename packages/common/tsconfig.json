@@ -2,8 +2,7 @@
 	"extends": "../../tsconfig.json",
 	"compilerOptions": {
 		"module": "esnext",
-		"target": "esnext",
-		"types": ["vite/client"]
+		"target": "esnext"
 	},
-	"include": ["src"]
+	"include": ["**/*.ts"]
 }

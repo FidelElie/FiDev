@@ -2,7 +2,7 @@ import type { Element, Root } from "hast";
 import { fromHtml } from "hast-util-from-html";
 import { visit } from "unist-util-visit";
 
-import { type PromiseOrNot, toRegexCompliantString } from "@fi/typescript";
+import { type PromiseOrNot, toRegexCompliantString } from "@fi/common";
 
 type RegExpDirective<T> = {
 	identifier: RegExp | string;

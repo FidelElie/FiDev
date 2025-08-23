@@ -1,3 +1,4 @@
+import { sanitiseToURLSlug } from "@fi/common";
 import {
 	checkbox,
 	confirm,
@@ -8,7 +9,6 @@ import {
 	select,
 	Separator,
 } from "@fi/content";
-import { sanitiseToURLSlug } from "@fi/typescript";
 
 import { createSpotifyClient } from "@/libraries/clients";
 import { MusicPostMetadata, MusicPostRatingMap } from "@/libraries/constants";

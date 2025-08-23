@@ -1,4 +1,3 @@
-import { getEnvironmentVariable } from "@fi/typescript";
 import { z } from "zod";
 
 export const SpotifyEnvSchema = z.object({
@@ -10,10 +9,10 @@ export const SpotifyEnvSchema = z.object({
 
 export const getSpotifyEnv = () => {
 	const validatedEnvironment = SpotifyEnvSchema.parse({
-		SPOTIFY_CLIENT_ID: getEnvironmentVariable("SPOTIFY_CLIENT_ID"),
-		SPOTIFY_CLIENT_SECRET: getEnvironmentVariable("SPOTIFY_CLIENT_SECRET"),
-		SPOTIFY_REDIRECT_URI: getEnvironmentVariable("SPOTIFY_REDIRECT_URI"),
-		SPOTIFY_REFRESH_TOKEN: getEnvironmentVariable("SPOTIFY_REFRESH_TOKEN"),
+		SPOTIFY_CLIENT_ID: process.env.SPOTIFY_CLIENT_ID,
+		SPOTIFY_CLIENT_SECRET: process.env.SPOTIFY_CLIENT_SECRET,
+		SPOTIFY_REDIRECT_URI: process.env.SPOTIFY_REDIRECT_URI,
+		SPOTIFY_REFRESH_TOKEN: process.env.SPOTIFY_REFRESH_TOKEN,
 	});
 
 	return {

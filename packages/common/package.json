@@ -1,16 +1,12 @@
 {
-	"name": "@fi/typescript",
+	"name": "@fi/common",
 	"version": "1.0.0",
-	"main": "src/index.ts",
-	"types": "src/index.ts",
-	"type": "module",
+	"main": "index.ts",
+	"types": "index.ts",
 	"description": "Utilities for the monorepo",
 	"private": true,
 	"scripts": {
 		"check": "oxlint",
 		"types": "tsc --noEmit"
-	},
-	"devDependencies": {
-		"vite": "^5.4.10"
 	}
 }
