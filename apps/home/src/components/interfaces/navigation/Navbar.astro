@@ -22,9 +22,9 @@ const { fixed, class: _class } = Astro.props;
 	<Container as="nav" class="flex items-center justify-between">
 		<Link
 			href={AppManifest.links.pages["/home"]}
-			class="p-0.5 px-2 border rounded-lg font-heading border-slate-200 transition-colors duration-700 hover:border-blue-500"
+			class="rounded-full overflow-hidden h-7 w-7"
 		>
-			FiPE
+			<img src="/favicons/favicon-32x32.png" class="w-full h-full object-cover" />
 		</Link>
 		<ul class="flex items-center gap-2.5">
 			<li>
