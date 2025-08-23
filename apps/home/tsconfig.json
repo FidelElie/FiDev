@@ -8,6 +8,6 @@
 		"jsx": "preserve",
 		"jsxImportSource": "solid-js"
 	},
-	"include": [".astro/types.d.ts", "src"],
+	"include": [".astro/types.d.ts", "**/*.ts", "**/*.tsx", "**/*.astro"],
 	"exclude": ["dist", ".vercel"]
 }
