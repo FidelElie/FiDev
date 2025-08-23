@@ -60,14 +60,14 @@ importers:
         specifier: ^5.2.8
         version: 5.2.8
       '@kobalte/core':
-        specifier: ^0.13.7
-        version: 0.13.7(solid-js@1.9.9)
+        specifier: ^0.13.11
+        version: 0.13.11(solid-js@1.9.9)
       '@kobalte/tailwindcss':
         specifier: ^0.9.0
         version: 0.9.0(tailwindcss@3.4.17)
       '@solid-primitives/intersection-observer':
-        specifier: ^2.1.6
-        version: 2.1.6(solid-js@1.9.9)
+        specifier: ^2.2.2
+        version: 2.2.2(solid-js@1.9.9)
       '@tanstack/solid-query':
         specifier: ^5.56.2
         version: 5.62.2(solid-js@1.9.9)
@@ -108,8 +108,8 @@ importers:
         specifier: ^5.0.0
         version: 5.0.0
       zod:
-        specifier: ^3.23.8
-        version: 3.23.8
+        specifier: ^3.25.76
+        version: 3.25.76
     devDependencies:
       '@astrojs/check':
         specifier: ^0.9.4
@@ -1115,8 +1115,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@kobalte/core@0.13.7':
-    resolution: {integrity: sha512-COhjWk1KnCkl3qMJDvdrOsvpTlJ9gMLdemkAn5SWfbPn/lxJYabejnNOk+b/ILGg7apzQycgbuo48qb8ppqsAg==}
+  '@kobalte/core@0.13.11':
+    resolution: {integrity: sha512-hK7TYpdib/XDb/r/4XDBFaO9O+3ZHz4ZWryV4/3BfES+tSQVgg2IJupDnztKXB0BqbSRy/aWlHKw1SPtNPYCFQ==}
     peerDependencies:
       solid-js: ^1.8.15
 
@@ -1471,8 +1471,8 @@ packages:
     peerDependencies:
       solid-js: ^1.6.12
 
-  '@solid-primitives/intersection-observer@2.1.6':
-    resolution: {integrity: sha512-SeiCmN/R46Z+o9+5HhIQzSor0DqVPyo4ROLQMvCI8AsGZl/5nHlWzHTTbWPeukVUXTgb04wfC3DUo9IzF/XloA==}
+  '@solid-primitives/intersection-observer@2.2.2':
+    resolution: {integrity: sha512-5Vak/eRuCKAQis+YaPsP4KysPc+sQGL2ew8kvTOMxKVOTJcICkxznRrlFEBbBk0UsiUQlm9CcVQtJwocKWNXcw==}
     peerDependencies:
       solid-js: ^1.6.12
 
@@ -1548,6 +1548,11 @@ packages:
 
   '@solid-primitives/utils@6.2.3':
     resolution: {integrity: sha512-CqAwKb2T5Vi72+rhebSsqNZ9o67buYRdEJrIFzRXz3U59QqezuuxPsyzTSVCacwS5Pf109VRsgCJQoxKRoECZQ==}
+    peerDependencies:
+      solid-js: ^1.6.12
+
+  '@solid-primitives/utils@6.3.2':
+    resolution: {integrity: sha512-hZ/M/qr25QOCcwDPOHtGjxTD8w2mNyVAYvcfgwzBHq2RwNqHNdDNsMZYap20+ruRwW4A3Cdkczyoz0TSxLCAPQ==}
     peerDependencies:
       solid-js: ^1.6.12
 
@@ -4331,9 +4336,6 @@ packages:
       typescript: ^4.9.4 || ^5.0.2
       zod: ^3
 
-  zod@3.23.8:
-    resolution: {integrity: sha512-XBx9AXhXktjUqnepgTiE5flcKIYWi/rme0Eaj+5Y0lftuGBq+jyRu/md4WnuxqgP1ubdpNCsYEYPxrzVHD8d6g==}
-
   zod@3.25.76:
     resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
 
@@ -5131,7 +5133,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@kobalte/core@0.13.7(solid-js@1.9.9)':
+  '@kobalte/core@0.13.11(solid-js@1.9.9)':
     dependencies:
       '@floating-ui/dom': 1.6.12
       '@internationalized/date': 3.6.0
@@ -5442,9 +5444,9 @@ snapshots:
       '@solid-primitives/utils': 6.2.3(solid-js@1.9.9)
       solid-js: 1.9.9
 
-  '@solid-primitives/intersection-observer@2.1.6(solid-js@1.9.9)':
+  '@solid-primitives/intersection-observer@2.2.2(solid-js@1.9.9)':
     dependencies:
-      '@solid-primitives/utils': 6.2.3(solid-js@1.9.9)
+      '@solid-primitives/utils': 6.3.2(solid-js@1.9.9)
       solid-js: 1.9.9
 
   '@solid-primitives/keyboard@1.2.8(solid-js@1.9.9)':
@@ -5524,6 +5526,10 @@ snapshots:
       solid-js: 1.9.9
 
   '@solid-primitives/utils@6.2.3(solid-js@1.9.9)':
+    dependencies:
+      solid-js: 1.9.9
+
+  '@solid-primitives/utils@6.3.2(solid-js@1.9.9)':
     dependencies:
       solid-js: 1.9.9
 
@@ -8659,8 +8665,6 @@ snapshots:
     dependencies:
       typescript: 5.7.2
       zod: 3.25.76
-
-  zod@3.23.8: {}
 
   zod@3.25.76: {}
 
