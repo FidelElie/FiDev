@@ -16,6 +16,7 @@
 		"format": "dprint fmt",
 		"format:check": "dprint check",
 		"@home": "pnpm --filter @fi/home",
+		"@server": "pnpm --filter @fi/server",
 		"@content": "pnpm --filter @fi/content",
 		"@scripts": "pnpm --filter @fi/scripts",
 		"node": "tsx",
