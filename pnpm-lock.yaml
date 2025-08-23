@@ -50,9 +50,6 @@ importers:
       '@fi/content':
         specifier: workspace:*
         version: link:../../packages/content
-      '@fi/theme':
-        specifier: workspace:*
-        version: link:../../packages/theme
       '@fi/typescript':
         specifier: workspace:*
         version: link:../../packages/typescript
@@ -117,6 +114,12 @@ importers:
       '@astrojs/check':
         specifier: ^0.9.4
         version: 0.9.4(typescript@5.7.2)
+      '@tailwindcss/forms':
+        specifier: ^0.5.9
+        version: 0.5.9(tailwindcss@3.4.16)
+      '@tailwindcss/typography':
+        specifier: ^0.5.15
+        version: 0.5.15(tailwindcss@3.4.16)
       '@types/hast':
         specifier: ^3.0.4
         version: 3.0.4
@@ -181,18 +184,6 @@ importers:
       '@types/node':
         specifier: ^22.13.13
         version: 22.13.14
-
-  packages/theme:
-    devDependencies:
-      '@tailwindcss/forms':
-        specifier: ^0.5.9
-        version: 0.5.9(tailwindcss@3.4.16)
-      '@tailwindcss/typography':
-        specifier: ^0.5.15
-        version: 0.5.15(tailwindcss@3.4.16)
-      tailwindcss:
-        specifier: ^3.4.14
-        version: 3.4.16
 
   packages/typescript:
     devDependencies:
