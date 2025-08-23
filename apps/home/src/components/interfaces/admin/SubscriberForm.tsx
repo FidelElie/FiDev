@@ -1,6 +1,7 @@
-import { createMutation } from "@tanstack/solid-query";
+import { useMutation } from "@tanstack/solid-query";
 import { Image } from "@unpic/solid";
 import { createSignal, type JSX, onCleanup, Show } from "solid-js";
+import { twMerge } from "tailwind-merge";
 
 import { TheHavanaStreetsJPG } from "@/assets";
 
@@ -10,7 +11,6 @@ import type { InferDTOS } from "@/libraries/types";
 
 import { Button, Icon } from "@/components/core";
 import { withQueryProvider } from "@/components/providers";
-import { twMerge } from "tailwind-merge";
 
 const INITIAL_FIELDS = { forename: "", email: "" };
 
@@ -26,7 +26,7 @@ export const SubscriberForm = withQueryProvider(
 			setFields((currentFields) => ({ ...currentFields, ...data }));
 		};
 
-		const createSubscriberMutation = createMutation(() => ({
+		const createSubscriberMutation = useMutation(() => ({
 			mutationFn: async (
 				context: InferDTOS<typeof SubscribeToWebsiteRoute.dtos>,
 			) => {

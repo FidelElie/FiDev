@@ -1,4 +1,4 @@
-import { createQuery, useQueryClient } from "@tanstack/solid-query";
+import { useQuery, useQueryClient } from "@tanstack/solid-query";
 import { Image } from "@unpic/solid";
 import { createEffect, createSignal, For, Match, onCleanup, onMount, Show, Switch } from "solid-js";
 import { twJoin } from "tailwind-merge";
@@ -36,7 +36,7 @@ export const MusicCurrentlyPlayingPane = withQueryProvider(() => {
 	const [trackState, setTrackState] = createSignal(TRACK_STATES);
 
 	const queryClient = useQueryClient();
-	const currentPlayingQuery = createQuery(() => ({
+	const currentPlayingQuery = useQuery(() => ({
 		queryKey: currentPlayingQueryKey,
 		queryFn: async () => {
 			const response = await request<{ item: SpotifyTrackObject | null }>({

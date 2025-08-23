@@ -1,4 +1,4 @@
-import { mergeObjects, type PromiseOrNot } from "@fi/typescript";
+import { mergeObjects, type PromiseOrNot } from "@fi/common";
 /**
  * @param context
  * @returns

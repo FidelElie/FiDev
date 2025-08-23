@@ -7,7 +7,7 @@
 	"license": "MIT",
 	"packageManager": "pnpm@9.11.0",
 	"engines": {
-		"node": ">=18"
+		"node": ">=20"
 	},
 	"scripts": {
 		"dev": "turbo run dev",
@@ -16,8 +16,6 @@
 		"format": "dprint fmt",
 		"format:check": "dprint check",
 		"@home": "pnpm --filter @fi/home",
-		"@database": "pnpm --filter @fi/database",
-		"@theme": "pnpm --filter @fi/theme",
 		"@content": "pnpm --filter @fi/content",
 		"@scripts": "pnpm --filter @fi/scripts",
 		"node": "tsx",

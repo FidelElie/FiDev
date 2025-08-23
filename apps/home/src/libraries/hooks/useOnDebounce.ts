@@ -1,6 +1,6 @@
 import { type Accessor, createEffect, createSignal, on, onCleanup } from "solid-js";
 
-import type { PromiseOrNot } from "@fi/typescript";
+import type { PromiseOrNot } from "@fi/common";
 
 const DEFAULT_DEBOUNCE_OPTIONS = {
 	delay: 1000,

@@ -3,7 +3,7 @@ import { defineCollection } from "astro:content";
 import path from "path";
 import { z } from "zod";
 
-import { sanitiseToURLSlug } from "@fi/typescript";
+import { sanitiseToURLSlug } from "@fi/common";
 
 import { MusicArtistSchema, MusicPostSchema } from "@/libraries/schemas";
 

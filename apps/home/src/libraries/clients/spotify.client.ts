@@ -1,4 +1,4 @@
-import { distributeToBuckets, generateRandomString } from "@fi/typescript";
+import { distributeToBuckets, generateRandomString } from "@fi/common";
 
 import type {
 	SpotifyClientConfig,

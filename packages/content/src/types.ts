@@ -1,4 +1,4 @@
-import type { ArrayOrNot, PromiseOrNot } from "@fi/typescript";
+import type { ArrayOrNot, PromiseOrNot } from "@fi/common";
 
 export type ContentConfig = {
 	/**
