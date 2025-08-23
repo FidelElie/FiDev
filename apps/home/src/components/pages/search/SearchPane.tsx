@@ -1,4 +1,4 @@
-import { createQuery } from "@tanstack/solid-query";
+import { useQuery } from "@tanstack/solid-query";
 import { createSignal, For, Match, onMount, Show, Switch } from "solid-js";
 import { twJoin } from "tailwind-merge";
 
@@ -26,7 +26,7 @@ export const SearchPane = withQueryProvider(
 
 		const query = () => ({ term: debouncedSearch() });
 
-		const searchQuery = createQuery(() => ({
+		const searchQuery = useQuery(() => ({
 			queryKey: [url, query()],
 			queryFn: async () => {
 				const validatedQuery = dtos.query.parse(query());

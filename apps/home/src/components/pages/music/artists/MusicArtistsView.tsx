@@ -1,5 +1,5 @@
 import { createIntersectionObserver } from "@solid-primitives/intersection-observer";
-import { createInfiniteQuery } from "@tanstack/solid-query";
+import { useInfiniteQuery } from "@tanstack/solid-query";
 import { createSignal, For, Match, Show, Switch } from "solid-js";
 import { twJoin } from "tailwind-merge";
 
@@ -24,7 +24,7 @@ export const MusicArtistsView = withQueryProvider(
 		const [targets, setTargets] = createSignal<Element[]>([]);
 		const [query, _, queryInitialised] = useQueryParams(dtos.query);
 
-		const artistsQuery = createInfiniteQuery(() => ({
+		const artistsQuery = useInfiniteQuery(() => ({
 			queryKey: [url, query()],
 			queryFn: async ({ pageParam }) => {
 				const updatedQuery = dtos.query.parse({ ...query(), page: pageParam });
