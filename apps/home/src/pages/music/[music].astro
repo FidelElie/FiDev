@@ -125,13 +125,14 @@ const truncatedContent = convert(
 					aria-label={`${firstArtist?.data.name} Artist Page`}
 					class="text-xl w-min flex items-center gap-1 group"
 				>
-					<div class="h-12 w-12 rounded-full border border-slate-200 relative">
+					<div class="h-12 w-12 rounded-full border border-slate-200 relative mr-1">
 						{
 							firstArtist?.data.covers.length && (
 								<Image
 									src={firstArtist.data.covers[0].url}
 									alt={`${firstArtist.data.name} avatar`}
-									class="rounded-full w-full h-full object-cover"
+									class="rounded-lg w-full h-full object-cover"
+									transition:name={firstArtist.data.slug}
 									inferSize
 								/>
 							)
