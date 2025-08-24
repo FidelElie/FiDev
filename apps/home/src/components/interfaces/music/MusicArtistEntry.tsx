@@ -29,7 +29,7 @@ export const MusicArtistEntry = (props: MusicArtistEntryProps) => {
 							ProjectPlaceholderPNG.src :
 							props.artist?.covers[0].url}
 						alt={`${props.artist?.name} cover`}
-						class="rounded-full aspect-square border border-slate-200"
+						class="rounded-lg aspect-square border border-slate-200"
 						layout="fullWidth"
 						loading="lazy"
 						{...{ style: { "view-transition-name": props.artist?.slug } }}

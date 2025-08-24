@@ -29,13 +29,13 @@ const musicPosts = await getCollection("music", (entry) => {
 	<Container class="flex flex-col md:flex-row gap-5 min-h-screen">
 		<div class="w-full">
 			<div class="flex flex-col gap-10 items-center md:flex-row">
-				<div class="relative border rounded-full overflow-hidden border-slate-200 mb-3 w-full sm:w-64 sm:h-64">
+				<div class="relative border rounded-lg overflow-hidden border-slate-200 mb-3 w-full sm:w-64 sm:h-64">
 					{
 						covers.length && (
 							<Image
 								src={covers[0].url}
 								alt={name}
-								class="object-cover rounded-full h-full w-full"
+								class="object-cover h-full w-full"
 								transition:name={slug}
 								inferSize
 							/>
