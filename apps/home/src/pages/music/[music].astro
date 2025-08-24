@@ -17,7 +17,7 @@ import { RootLayout } from "@/pages/_root.layout";
 
 import { ContentDisplay } from "@/components/astro";
 import { Container, Icon, Link } from "@/components/core";
-import { MusicPostRatingTag } from "@/components/interfaces";
+import { MusicCurrentlyPlayingPane, MusicPostRatingTag } from "@/components/interfaces";
 import { MusicLinksPane } from "@/components/pages/music/[music]/MusicLinksPane";
 
 const totalMusicPosts = await fetchMusicPostsTotal();
@@ -183,6 +183,12 @@ const truncatedContent = convert(
 			</section>
 			<hr class="border-slate-200 mt-2.5 mb-5" />
 			<ContentDisplay entry={entry} />
+
 		</article>
+	</Container>
+	<Container class="flex flex-col gap-5 md:gap-10 md:flex-row">
+		<div class="astro:block astro:min-h-36 mt-16 w-full">
+			<MusicCurrentlyPlayingPane client:visible />
+		</div>
 	</Container>
 </RootLayout>
